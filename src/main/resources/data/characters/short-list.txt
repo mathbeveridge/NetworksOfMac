@@ -1,0 +1,211 @@
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%House Stark
+%%%%%%%%%%%%%%%%%%%%%%
+Eddard Stark, Eddard, Ned
+Catelyn Tully, Catelyn
+Robb Stark, Robb
+Sansa Stark, Sansa
+Arya Stark, Arya
+Bran Stark, Bran
+Rickon Stark, Rickon
+Jon Snow, Jon
+Benjen Stark, Benjen
+Lyanna Stark, Lyanna
+Theon Greyjoy, Theon, Reek
+Roose Bolton, Roose, Leech Lord
+Ramsay Bolton, Ramsay, Bastard of Bolton, Bastard of the Dreadfort
+Hodor, Hodor
+Osha, Osha
+Luwin, Luwin
+Rodrik Cassel, Rodrik
+Mordane, Mordane
+Nan, Nan, Old Nan
+Walton, Walton
+%%%%%%%%%%%%% Jeyne Poole, Jeyne 
+Jojen Reed, Jojen
+Meera Reed, Meera
+Jeyne Westerling, Jeyne
+Rickard Karstark, Rickard
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%House Targaryen
+%%%%%%%%%%%%%%%%%%%%%%
+Daenerys Targaryen, Daenerys, Dany, Mother of Dragons, Khaleesi
+Viserys Targaryen, Viserys
+Rhaegar Targaryen, Rhaegar
+Aegon V Targaryen, Aegon, Egg, Aegon the Unlikely
+Aerys II Targaryen, Aerys, The Mad King
+%Aegon VI Targaryen, 
+Jon Connington, Connington
+Jorah Mormont, Jorah
+Brynden Rivers, Brynden, Bloodraven
+Missandei, Missandei 
+Daario Naharis, Daario
+Grey Worm, Worm, Grey Worm
+Rakharo, Rakharo
+Doreah, Doreah
+Irri, Irri
+Mirri Maz Duur, Mirri
+Qotho, Qotho
+Kraznys mo Nakloz, Kraznys
+Xaro Xhoan Daxos, Xaro
+Pyat Pree, Pyat
+Quaithe, Quaithe
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%House Arryn
+%%%%%%%%%%%%%%%%%%%%%%
+
+Jon Arryn, Jon Arryn, Lord of the Eyrie, Defender of the Vale, Warden of the East
+Lysa Arryn, Lysa
+Robert Arryn, Robert Arryn, Sweetrobin
+Yohn Royce, Yohn, Bronze Yohn, Lord of Runestone
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%House Lannister
+%%%%%%%%%%%%%%%%%%%%%%
+
+Tywin Lannister, Tywin, Lord of Casterly Rock, Shield of Lannisport, Warden of the West. 
+Cersei Lannister, Cersei
+Jaime Lannister, Jaime, Kingslayer
+Joffrey Baratheon, Joffrey
+Myrcella Baratheon, Myrcella
+Tommen Baratheon, Tommen
+Tyrion Lannister, Tyrion, Imp, Halfman
+Kevan Lannister, Kevan
+Lancel Lannister, Lancel
+Bronn, Bronn
+Gregor Clegane, Gregor, Mountain
+Sandor Clegane, Sandor, Hound, Dog
+Podrick Payne, Podrick, Pod,
+Shae, Shae
+Amory Lorch, Amory
+Hallyne, Hallyne
+
+%%%%%%%%%%%%%%%%%%%%
+%%% House Baratheon
+%%%%%%%%%%%%%%%%%%%
+
+Robert Baratheon, Robert,
+Stannis Baratheon, Stannis
+Selyse Baratheon, Selyse
+Shireen Baratheon, Shireen
+Melisandre of Asshai, Melisandre
+Davos Seaworth, Davos, Onion Knight
+Renly Baratheon, Renly,
+Brienne of Tarth, Brienne
+Beric Dondarrion, Beric
+Gendry, Gendry
+Anguy, Anguy
+Meryn Trant, Meryn
+Salladhor Saan, Salladhor
+Matthos Seaworth, Matthos
+Cressen, Cressen
+
+%%%%%%%%%%%%%%%%%%%%
+%%% House Greyjoy
+%%%%%%%%%%%%%%%%%%%
+
+Balon Greyjoy, Balon, Lord of the Iron Islands, King of Salt and Rock, Son of the Sea Wind, Lord Reaper of Pyke
+Asha Greyjoy, Asha
+Euron Greyjoy, Euron
+Victarion Greyjoy, Victarion
+Aeron Greyjoy, Aeron, Damphair
+Dagmer, Dagmer
+
+%%%%%%%%%%%%%%%%%%%%
+%%% House Martell
+%%%%%%%%%%%%%%%%%%%
+Doran Martell, Doran, Prince of Dorne, Lord of Sunspear. 
+Arianne Martell, Arianne,
+Quentyn Martell, Quentyn
+Trystane Martell, Trystane
+Elia Martell, Elia
+Oberyn Martell, Oberyn
+Ellaria Sand, Ellaria
+Obara, Obara
+Nymeria, Nymeria
+Tyene, Tyene
+Sarella, Sarella
+Elia, Elia
+Obella, Obella
+Dorea, Dorea
+Loreza, Loreza
+Areo Hotah, Areo
+
+
+%%%%%%%%%%%%%%%%%%%%
+%%% House Tully
+%%%%%%%%%%%%%%%%%%%
+
+Hoster Tully, Hoster, Lord of Riverrun, Lord Paramount of the Trident.
+Edmure Tully, Edmure
+Brynden Tully, Brynden, Blackfish
+Walder Frey, Walder, Lord of the Twins
+Lothar Frey, Lothar, Lame Lothar
+Marillion, Marillion
+Roslin Frey, Roslin
+
+%%%%%%%%%%%%%%%%%%%%
+%%% House Tyrell
+%%%%%%%%%%%%%%%%%%%
+Mace Tyrell, Mace, Lord of Highgarden, Defender of the Marches, High Marshal of the Reach, Warden of the South
+Loras Tyrell, Loras, Knight of Flowers
+Margaery Tyrell, Margaery
+Olenna Tyrell, Olenna, Queen of Thorns
+ 
+
+%%%%%%%%%%%%%%%%%%%%
+%%% Night's Watch and wildlings
+%%%%%%%%%%%%%%%%%%%
+Jeor Mormont, Jeor, Old Bear, Lord Commander of the Night's Watch
+Maester Aemon, Aemon, Aemon Targaryen
+Yoren, Yoren
+Samwell Tarly, Samwell, Sam
+Janos Slynt, Janos
+Alliser Thorne, Alliser
+Mance Rayder, Mance, King-Beyond-the-Wall
+Ygritte, Ygritte
+Gilly, Gilly
+Craster, Craster
+Val, Val
+Dalla, Dalla
+Lord of Bones, Lord of Bones, Rattleshirt
+Bowen Marsh, Bowen
+Eddison Tollett, Eddison, Dolorous Edd, Edd
+Grenn, Grenn
+Rast, Rast
+Pypar, Pypar
+Clubfoot Karl, Karl
+Qhorin Halfhand, Qhorin, Halfhand
+Lommy Greenhands, Lommy
+Orell, Orell
+Styr, Styr, Magnar of Thenn
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Royal court and officials, 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Petyr Baelish, Petyr, Littlefinger, Master of Coin, Treasurer of the Seven Kingdoms
+Varys, Varys, Spider, Master of Whisperers
+Pycelle, Pycelle, Grand Maester
+Barristan Selmy, Barristan, Barristan the Bold
+Arys Oakheart, Arys
+Ilyn Payne, Ilyn, King's Justice
+Qyburn, Qyburn
+High Sparrow, Sparrow, High Sparrow
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Other characters, 
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+Khal Drogo, Drogo
+Syrio Forel, Syrio
+Jaqen H'ghar, Jaqen
+Illyrio Mopatis, Illyrio
+Thoros of Myr, Thoros
+Ser Duncan the Tall, Duncan, Dunk
+Hizdahr zo Loraq, Hizdahr
+Yezzan zo Qaggaz, Yezzan
+Tycho Nestoris, Tycho
+Waif, Waif
+Unella, Unella

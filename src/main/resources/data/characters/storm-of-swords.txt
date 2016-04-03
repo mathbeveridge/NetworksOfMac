@@ -1,0 +1,846 @@
+%%%%% Problematic Names:
+%%%%% Walder
+%%%%% Petyr
+%%%%% Aegon
+%%%%% Walda
+%%%%% Alesander
+%%%%% Wendel
+%%%%% Robert
+%%%%% Willem
+%%%%% Martyn
+%%%%% Damon
+%%%%% Tytos
+%%%%% Gawen
+%%%%% Sandor
+%%%%% Rhaenys
+%%%%% Elia
+%%%%% Mors
+%%%%% Hoster
+%%%%% Lymond
+%%%%% Patrek
+%%%%% Robin
+%%%%% Elwood
+%%%%% Garth
+%%%%% Raymund
+%%%%% Arwyn
+%%%%% Ronnel
+%%%%% Kyle
+%%%%% Alyce
+%%%%%The Kings and Their Courts
+%%%%%THE KING ON THE IRON THRONE
+Joffrey Baratheon, Joffrey
+Cersei Lannister, Cersei
+%%%%%%Cersei's sworn swords:
+Osfryd Kettleblack, Osfryd
+Osney Kettleblack, Osney
+Myrcella Baratheon, Myrcella
+Tommen Baratheon, Tommen
+Tywin Lannister, Tywin
+%%%%%%his uncles and cousins; paternal;
+Stannis Baratheon, Stannis
+Shireen Barathen, Shireen
+Renly Baratheon, Renly
+Eldon Estermont, Eldon
+Aemon Estermont, Aemon Estermont
+Alyn Estermont, Alyn
+%%%%%%his uncles and cousins; maternal;
+Jaime Lannister, Jaime, Kingslayer
+Tyrion Lannister, Tyrion, Imp, Halfman
+Podrick Payne, Podrick, Pod
+Bronn, Bronn
+Shae, Shae
+Kevan Lannister, Kevan
+Lancel Lannister, Lancel
+Tygett Lannister, Tygett
+Tyrek Lannister, Tyrek
+Ermesande Hayford, Ermesande
+%%%%%%his baseborn siblings; King Robert's bastards:
+Gendry, Gendry
+Edric Storm, Edric Storm
+%%%%%%his Kingsguard:
+Meryn Trant, Meryn
+Balon Swann, Balon Swann
+Osmund Kettleblack, Osmund
+Arys Oakheart, Arys
+%%%%%%his small council:
+Petyr Baelish, Petyr, Littlefinger
+Varys, Varys, Spider, master of whispers
+Pycelle, Pycelle, Grand Maester
+%%%%%%his court and retainers
+Ilyn Payne, Ilyn
+Hallyne, Hallyne
+Moon Boy, Moon Boy
+Ormond, Ormond
+Dontos Hollard, Dontos
+Jalabhar Xho, Jalabhar
+Tanda Stokeworth, Tanda
+Falyse Stokeworth, Falyse
+Balman Byrch, Balman
+Lollys Stokeworth, Lollys
+Frenken, Frenken
+Gyles Rosby, Gyles
+Tallad, Tallad
+Morros Slynt, Morros
+Jothos Slynt, Jothos
+Danos Slyntl Danos
+Boros Blount, Boros
+Josmyn Peckledon, Josmyn
+Philip Foote, Philip
+Lothor Brune, Lothor, Apple-Eater
+%%%%%%other lords and knights at King's Landing:
+Mathis Rowan, Mathis
+Paxter Redwyne, Paxter
+Horas Redwyne, Horas, Horror
+Hobber Redsyne, Hobber, Slobber
+Ballabar, Ballabar
+Ardrian Celtigar, Ardrian
+Alesander Staedmon, Alesander Staedmon, Pennylover
+Bonifer Hasty, Bonifer
+Donnel Swann, Donnel Swann
+Ronnet Connington, Ronnet
+Aurane Waters, Aurane
+Dermot of the Rainwood, Dermot
+Timon Scrapesword, Timon
+%%%%%%the people of King's Landing
+%%%%%%the City Watch (the "gold cloaks");
+Jacelyn Bywater, Jacelyn, Ironhand
+Chataya, Chataya
+Alayaya, Alayaya
+Dancy, Dancy
+Marei, Marei
+Jayde, Jayde
+Tobho Mott, Tobho
+Ironbelly, Ironbelly
+Hamish the Harper, Hamish
+Collio Quaynis, Collio, Quaynis
+Bethany Fair-Fingers, Bethany
+Alaric of Eysen, Alaric
+Galyeon of Cuy, Galyeon
+Symon Silver Tongue, Symon
+%%%%%%THE KING IN THE NORTH 
+%%%%%%THE KING OF THE TRIDENT
+Robb Stark, Robb
+Catelyn Stark, Catelyn
+Eddard Stark, Eddard, Ned
+Sansa Stark, Sansa
+Jeyne Poole, Jeyne Poole
+Arya Stark, Arya
+Brandon Stark, Bran
+Meera Reed, Meera
+Jojen Reed, Jojen
+Hodor, Hodor
+Nan, Nan
+Luwin, Luwin
+Septa Mordane, Mordane
+Rickon Stark, Rickon
+Osha, Osha
+Jon Snow, Jon
+%%%%%%his uncles and aunts; paternal
+Brandon Stark, Brandon
+Lyanna Stark, Lyanna
+Benjen Stark, Benjen
+%%%%%%his uncles; aunts; and cousins; maternal
+Lysa Arryn, Lysa Arryn
+Edmure Tully, Edmure
+Brynden Tully, Brynden, Blackfish
+%%%%%%his sworn swords and companions
+Olyvar Frey, Olyvar
+Wendel Manderly, Wendel Manderly
+Patrek Mallister, Patrek
+Dacey Mormont, Dacey
+Jon Umber, Smalljon
+Donnel Locke, Donnel Locke
+Owen Norrey, Owen
+Robin Flint, Robin Flint
+%%%%%%his lords bannermen; captains and commanders
+%%%%%%(with Robb's army in the Westerlands)
+Jon Umber, Greatjon
+Rickard Karstark, Rickard
+Galbart Glover, Galbart
+Maege Mormont, Maege
+Stevron Frey, Stevron
+Ryman Frey, Ryman
+Black Walder Frey, Black Walder
+Martyn Rivers, Martyn Rivers
+%%%%%%(with Roose Bolton's host at Harrenhal);
+Roose Bolton, Roose
+Ramsay Bolton, Ramsay, Bastard of Bolton, Bastard of the Dreadfort
+Aenys Frey, Aenys
+Jared Frey, Jared
+Hosteen Frey, Hosteen
+Steelshanks, Steelshanks
+Ronel Rivers, Ronel
+Wylis Manderly, Wylis
+Kyle Condon, Kyle Condon
+Ronnel Stout, Ronnel Stout
+Vargo Hoat, Vargo
+Urswyck, Urswyck
+Septon Utt, Septon Utt
+Timeon of Dorne, Timeon
+Rorge, Rorge
+Fat Zollo, Zollo
+Biter, Biter
+Togg Joth, Togg
+Pyg, Pyg
+Three Toes, Three Toes
+Qyburn, Qyburn
+%%%%%%(with the northern army attacking Duskendale)
+Robett Glover, Robett
+Helman Tallhart, Helman
+Harrion Karstark, Harrion
+%%%%%%(traveling north with Lord Eddard's bones)
+Hallis Mollen, Hallis
+Jacks, Jacks
+Quent, Quent
+Shadd, Shadd
+%%%%%%his lord bannermen and castellans; in the north:
+Wyman Manderly, Wyman
+Howland Reed, Howland
+Mors Umber, Mors Umber, Crowfood
+Hother Umber, Hother, Whoresbane
+%%%%%%joint castellans at the Last Hearth;
+Lyessa Flint, Lyessa
+Ondrew Locke, Ondrew
+Cley Cerwin, Cley
+Jonelle Cerwyn, Jonelle
+Leobald Tallhart, Leobald
+Berena Tallhart, Berena
+Brandon Tallhard, Brandon Tallhard
+Beren Tallhard, Beren Tallhard
+Benfred Tallhart, Benfred
+Eddara Tallhart, Eddara
+Sybelle Glover, Sybelle
+Gawen Glover, Gawen Glover
+Erena Glover, Erena
+Larence Snow, Larence
+%%%%%%THE KING IN THE NARROW SEA
+Selyse Baratheon, Selyse
+Patchface, Patchface
+Devan Seaworth, Devan
+Bryen Farring, Bryen
+%%%%%%his court and retainers:
+Alester Florent, Alester
+Axell Florent, Axell
+Melisandre, Melisandre, red woman
+Pylos, Pylos
+Davos Seaworth, Davos, Onion Knight, Shorthand
+Marya Seaworth, Marya
+%%%%%%their seven sons
+Dale Seaworth, Dale
+Allard Seaworth, Allard
+Matthos Seaworth, Matthos
+Maric Seaworth, Maric
+Stannis Seaworth, Stannis Seaworth
+Steffon Seaworth, Steffon
+Salladhor Saan, Salladhor
+Meizo Mahr, Meizo
+Khorane Sathmantes, Khorane
+Porridge, Porridge
+Lamprey, Lamprey
+%%%%%%his lords bannermen;
+Monterys Velaryon, Monterys
+Duram Bar Emmon, Duram
+Gilbert Farring, Gilbert
+Elwood Meadows, Elwood Meadows
+Jurne, Jurne
+Lucos Chyttering, Lucos
+Lester Morrigen, Lester
+%%%%%%his knights and sworn swords;
+Lomas Estermont, Lomas
+Andrew Estermont, Andrew
+Rolland Storm, Rolland, Bastard of Nightsong
+Parmen Crane, Parmen
+Erren Florent, Erren
+Gerald Gower, Gerald
+Triston of Tally Hill, Triston
+Lewys, Lewys, Fishwife
+Omer Blackberry, Omer
+%%%%%%THE QUEEN ACROSS THE WATER
+Daenerys Targaryen, Daenerys, Dany, Khaleesi, Unburnt, Mother of Dragons
+Aerys II Targaryen, Aerys, The Mad King
+%%%%%%her Queensguard:
+Jorah Mormont, Jorah
+Jhogo, Jhogo
+Aggo, Aggo
+Rakharo, Rakharo
+Strong Belwas, Belwas
+Arstan, Arstan, Whitebeard
+%%%%%%her handmaids:
+Irri, Irri
+Jhiqui, Jiqui
+Groleo, Groleo
+Rhaegar Targaryen, Rhaegar
+Rhaenys Targaryen, Rhaenys Targaryen
+Aegon Targaryen, Aegon
+Viserys Targaryen, Viserys, Beggar King
+Khal Drogo, Drogo
+Rhaego, Rhaego
+%%%%%%her known enemies:
+Khal Pono, Pono
+Khal Jhaqo, Jhaqo
+Maggo, Maggo
+Pyat Pree, Pyat
+%%%%%%her uncertain allies; past and present:
+Xaro Xhoan Daxos, Xaro
+Quaithe, Quaithe
+Illyrio Mopatis, Illyrio
+%%%%%%in Astapor:
+Kraznys Mo Nakloz, Kraznys
+Missandei, Missandei
+Grazdan Mo Ullhor, Grazdan Mo Ullhor
+Cleon, Cleon
+Grey Worm, Grey Worm
+%%%%%%in Yunkai:
+Grazdan Mo Eraz, Grazdan Mo Eraz
+Mero of Braavos, Mero, Titan's Bastard
+Brown Ben Plumm, Ben Plumm
+Prendahl Na Ghezn, Prendahl
+Sallor the Bald, Sallor
+Daario Naharis, Daario
+%%%%%%in Meereen:
+Oznak Zo Pahl, Oznak
+%%%%%%KING OF THE ISLES AND THE NORTH
+Balon Greyjoy, Balon
+Alannys Greyjoy, Alannys
+%%%%%%their children:
+Rodrik Greyjoy, Rodrik
+Maron Greyjoy, Maron Greyjoy
+Asha Greyjoy, Asha
+Theon Greyjoy, Theon, Reek
+Wex Pyke, Wex
+%%%%%%Theon's crew; the men of the Sea Bitch:
+Urzen, Urzen
+Maron Botley, Maron Botley, Fishwhiskers
+Stygg, Stygg
+Gevin Harlaw, Gevin
+Cadwyle, Cadwyle
+%%%%%%his brothers:
+Euron, Euron, Crow's Eye
+Victarion, Victarion
+Aeron, Aeron, Damphair
+%%%%%%his household on Pyke:
+Wendamyr, Wendamyr
+Helya, Helya
+%%%%%%his warriors and sworn swords:
+Dagmer, Dagmer, Cleftjaw
+Bluetooth, Bluetooth
+Uller, Uller
+Skyte, Skyte
+Andrik, Andrik
+Qarl, Qarl
+%%%%%%people of Lordsport:
+Otter Gimpknee, Otter
+Sigrin, Sigrin
+%%%%%%his lords bannermen:
+Sawane Botley, Sawane
+Wynch, Wynch
+Stonehouse, Stonehouse
+Drumm, Drumm
+Goodbrother, Goodbrother
+Lord Goodbrother, Lord Goodbrother
+Sparr, Sparr
+Merlyn, Merlyn
+Farwynd, Farwynd
+Lord Harlaw, Lord Harlaw
+Volmark, Volmark
+Myre, Myre
+Stonetree, Stonetree
+Kenning, Kenning
+Orkwood, Orkwood
+Tawney, Tawney
+Lord Blacktyde, Lord Blacktyde
+Lord Saltcliffe, Lord Saltcliffe
+Lord Sunderly, Lord Sunderly
+%%%%%%OTHER HOUSES GREAT AND SMALL
+%%%%%%HOUSE ARRYN
+Robert Arryn, Robert
+Lysa Arryn, Lysa
+Jon Arryn, Jon Arryn
+%%%%%%their household:
+Marillion, Marillion
+Colemon, Colemon
+Marwyn Belmore, Marwyn
+Mord, Mord
+%%%%%%his lords bannermen; knights; and retainers:
+Nestor Royce, Nestor
+Albar Royce, Albar
+Myranda Royce, Myranda
+Mya Stone, Mya
+Yohn Royce, Yohn
+Andar Royce, Andar
+Robar Royce, Robar
+Waymar Royce, Waymar
+Lyn Corbray, Lyn
+Mychel Redfort, Mychel
+Anya Waynwood, Anya
+Morton Waynwood, Morton
+Donnel Waynwood, Donnel Waynwood
+Eon Hunter, Eon
+Horton Redfort, Horton
+%%%%%%HOUSE FLORENT
+Melara Florent, Melara
+%%%%%%their children:
+Alekyne Florent, Alekyne
+Melessa, Melessa
+Rhea, Rhea
+%%%%%%his siblings:
+Ryam Florent, Ryam
+Imry Florent, Imry
+Colin Florent, Colin
+Delena, Delena
+Maester Omer, Maester Omer
+Merrell, Merrell, Ser Colin's son
+Rylene, Rylene
+%%%%%%HOUSE FREY
+Walder Frey, Walder
+Perra Frey, Perra
+Corenna Swann, Corenna
+Edwyn Frey, Edwyn
+Walda Frey, Walda
+Petyr Walder, Petyr Pimple
+Mylenda Caron, Mylenda
+Aegon Frey, Aegon Frey, Jinglebell
+Maegelle Frey, Maegelle
+Marianne Vance, Marianne
+Walder Vance, Walder Vance
+Patrek Vance, Patrek Vance
+Walton Frey, Walton
+Steffon Frey, Steffon Frey
+Walda Frey, Fair Walda
+Bryan Frey, Bryan
+Emmon Frey, Emmon
+Cleos Frey, Cleos
+Tywin Frey, Tywin Frey
+Willem Frey, Willem Frey
+Lyonel Frey, Lyonel
+Tion Frey, Tion
+Red Walder, Red Walder
+Aegon Bloodborn, Aegon Bloodborn
+Rhaegar Frey, Rhaegar Frey
+Perriane Frey, Perriane
+Harys Haigh, Harys Haigh
+Donnel Haigh, Donnel Haigh
+Alyn Haigh, Alyn Haigh
+Tytos Frey, Tytos Frey
+Zia Frey, Zia
+Zachery Frey, Zachery
+Kyra Goodbrook, Kyra
+Walder Goodbrook, Walder Goodbrook
+Jeyne Goodbrook, Jeyne Goodbrook
+Septon Luceon, Septon Luceon
+Arwood Frey, Arwood
+Lythene Vypren, Lythene
+Elyana Wylde, Elyana
+Damon Vypren, Damon Vypren
+Symond Frey, Symond
+Alesander Frey, Alesander Frey
+Alyx, Alyx
+Bradamar, Bradamar
+Danwell Frey, Danwell
+Merrett Frey, Merrett
+Amerei Frey, Amerei, Ami
+Fat Walda, Fat Walda
+Marissa Frey, Marissa
+Little Walder, Little Walder
+Geremy Frey, Geremy
+Sandor Frey, Sandor Frey
+Cynthea Frey, Cynthea
+Raymund Frey, Raymund Frey
+Robert Frey, Robert Frey
+Malwyn Frey, Malwyn
+Serra Frey, Serra
+Sarra Frey, Sarra
+Cersei Frey, Cersei Frey, Little Bee
+Lothar Frey, Lothar
+Jammos Frey, Jammos
+Whalen Frey, Whalen
+Hoster Frey, Hoster Frey
+Morya Brax, Morya
+Tyta Frey, Tyta
+Perwyn Frey, Perwyn
+Benfrey Frey, Benfrey
+Maester Willamen, Maester Willamen
+Roslin Frey, Roslin
+Arwyn Frey, Arwyn Frey
+Wendel Frey, Wendel Frey
+Colmar Frey, Colmar
+Walder Rivers, Walder Rivers, Bastard Walder
+Aemon Rivers, Aemon Rivers
+Walda Rivers, Walda Rivers
+Maester Melwis, Melwys
+%%%%%%HOUSE LANNISTER
+Dorna Lannister, Dorna
+Willem Lannister, Willem Lannister
+Martyn Lannister, Martyn Lannister
+Genna Frey, Genna
+Darlessa Lannister, Darlessa
+Gerion Lannister, Gerion
+Stafford Lannister, Stafford
+Cerenna Lannister, Cerenna
+Myrielle Lannister, Myrielle
+Daven Lannister, Daven
+%%%%%%his cousins:
+Damion Lannister, Damion Lannister
+Margot Peake, Margot
+%%%%%%his household:
+Maester Creylen, Creylen
+Vylarr, Vylarr
+Lum, Lum
+Red Lester, Red Lester
+Whitesmile Wat, Whitesmile Wat
+Benedict Broom, Benedict
+%%%%%%his lords bannermen:
+Damon Marbrand, Damon Marabrand
+Addam Marbrand, Addam
+Roland Crakehall, Roland
+Burton Crakehall, Burton
+Tybolt Crakehall, Tybold
+Lyle Crakehall, Lyle, Strongboar
+Merlon Crakehall, Merlon
+Andros Brax, Andros
+Rupert Brax, Rupert
+Tytos Brax, Tytos Brax
+Robert Brax, Robert Brax
+Flement Brax, Flement
+Leo Lefford, Leo Lefford
+Regenard Estren, Regenard
+Gawen Westerling, Gawen Westerling
+Sybell Westerling, Subell
+Rolph Spicer, Rolph Spicer
+Samwell Spicer, Samwell Spicer
+Raynald Weserling, Raynald Westerling
+Lewys Lydden, Lewis
+Antario Jast, Antario
+Philip Plumm, Phillip Plumm
+Quenten Banefort, Quenten
+%%%%%%his knights and captains:
+Harys Swyft, Harys Swift
+Steffon Swyft
+Joanna Swyft, Joanna Swyft
+Shierle Sarsfield, Shierle
+Forley Prester, Forley
+Garth Greenfield, Garth Greenfield
+Lymond Vikary, Lymond Vikary
+Selmond Stackspear, Selmond
+Steffon Stackspear, Steffon Stackspear
+Alyn Stackspear, Alyn Stackspear
+Terrence Kenning, Terrence Kenning
+Kennos, Kennos
+Gregor Clegane, Gregor, Mountain
+Sandor Clegane, Sandor, Hound, Dog
+Polliver, Polliver
+Chiswyck, Chiswyck
+Raff, Raff, Sweetling
+Dunsen, Dunsen
+Tickler, Tickler
+Amory Lorch, Amory
+%%%%%%HOUSE MARTELL
+Doran Nymeros Martell, Doran
+Mellario Martell, Mellario
+Arianne Martell, Arianne
+Quentyn Martell, Quentyn
+Trystane Martell, Trystane
+Elia Targaryen, Elia Targaryen
+Rhaenys Martell, Rhaenys Martell
+Oberyn Martell, Oberyn, Red Viper
+Ellaria Sand, Ellaria
+Obara, Obara
+Nymeria, Nymeria
+Tyene, Tyene
+Sarella, Sarella
+Elia, Elia
+Obella, Obella
+Dorea, Dorea
+Loreza, Loreza
+%%%%%%Prince Oberyn's companions:
+Harmen Uller, Harmen
+Ulwyck Uller, Ulwyck
+Ryon Allyrion, Ryon
+Daemon Sand, Daemon, Bastard of Godsgrace
+Dagos Manwoody, Dagos
+Mors Manwoody, Mors Manwoody
+Dickon Manwoody, Dickon
+Myles Manwoody, Myles
+Arron Qorgyle, Qorgyle
+Deziel Dalt, Deziel
+Myria Jordaynel Myria
+Larra Blackmont, Larra
+Jynessa Blackmont, Jynessa
+Perros Blackmont, Perros
+%%%%%%his household:
+Areo Hotah, Areo
+Maester Caleotte, Caleotte
+%%%%%%his lords bannermen:
+Edric Dayne, Edric Dayne
+Delonne Allyrion, Delonne
+Tremond Gargalen, Tremond
+Anders Yronwood, Anders
+Nymella Toland, Nymella
+%%%%%%HOUSE TULLY
+Hoster Tully, Hoster
+Minisa Tully, Minisa
+Marq Piper, Marq
+Lymond Goodbrook, Lymond Goodbrook
+Ronald Vance, Ronald
+Hugo Vance, Hugo
+Ellery Vance, Ellery
+Kirth Vance, Kirth
+Patrek Mallister, Patrek Mallister
+Lucas Blackwood, Lucas
+Tristan Ryger, Tristan
+Robert Paege, Paege
+Maester Vyman, Vyman
+Desmond Grell, Desmond
+Robin Ryger, Robin Ryger
+Long Lew, Long Lew
+Elwood, Elwood
+Delp, Delp
+Utherydes Wayn, Utherydes
+Rymund the Rhymer, Rymund
+%%%%%%his lords bannermen:
+Jonos Bracken, Jonos
+Jason Mallister, Jason
+Walder Frey, Walder Frey
+Clement Piper, Clement
+Karyl Vance, Karyl
+Norbert Vance, Norbert
+Theomar Smallwood, Theomar
+Ravella Smallwood, Ravella
+Carellen Smallwood, Carellen
+William Mooton, Mooton
+Shella Whent, Shella
+Halmon Paege, Halmon
+Tytos Blackwood, Tytos Blackwood
+%%%%%%HOUSE TYRELL
+Mace Tyrell, Mace
+Alerie Tyrell, Alerie
+Willas Tyrell, Willas
+Garlan Tyrell, Garlan
+Leonette Tyrell, Leonette
+Loras Tyrell, Loras, Knight of Flowers
+Margaery Tyrell, Margaery
+Megga Tyrell, Megga
+Alla Tyrell, Alla
+Elinor Tyrell, Elinor
+Alyn Ambrose, Alyn Ambrose
+Meredyth Crane, Meredyth, Merry
+Taena, Taena
+Alyce Graceford, Alyce Graceford
+Septa Nysterica, Nysterica
+Olenna, Olenna
+Arryk, Arryk
+Erryk, Erryk
+Mina Redwyne, Mina
+Desmera Redwyne, Desmera
+Janna Fossoway, Janna
+%%%%%%his uncles and cousins:
+Garth Tyrell, Garth Tyrell, Garth the Gross
+Garse Flowers, Garse
+Garrett Flowers, Garrett
+Moryn Tyrell, Moryn
+Luthor Tyrell, Luthor
+Theodore Tyrell, Theodore
+Maester Medwick, Medwick
+Olene Blackbar, Olene
+Leo Tyrell, Leo
+Maester Gormon, Gormon
+Quentin Tyrell, Quentin
+Olymer Tyrell, Olymer
+Raymund Tyrell, Raymund Tyrell
+Rickard Tyrell, Rickard Tyrell
+Maester Normund, Normund
+Victor Tyrell, Victor
+Victaria Bulwer, Victaria
+Maester Lomys, Lomys
+Igon Vyrwel, Igon
+Vortimer Crane, Vortimer
+Butterbumps, Butterbumps
+Randyll Tarly, Randyll
+Arwyn Oakheart, Arwyn
+Leyton Hightower, Leyton
+Orton Merryweather, Orton
+Arthur Ambrose, Arthur
+Mark Mullendore, Mullendore
+Jon Fossoway, Fossoway
+Tanton Fossoway, Tanton
+%%%%%%REBELS; ROGUES; AND SWORN BROTHERS
+%%%%%%THE SWORN BROTHERS OF THE NIGHT'S WATCH
+Jeor Mormont, Jeor
+Eddison Tollett, Edd, Eddison
+Thoren Smallwood, Thoren
+Dywen, Dywen
+Dirk, Dirk
+Softfoot, Softwoot
+Grenn, Grenn
+Bedwyck, Bedwyck
+Ollo Lophand, Ollo
+Grubbs, Grubbs
+Brown Bernarr, Brown Bernarr
+Bloack Bernarr
+Tim Stone, Tim Stone
+Ulmer, Ulmer
+Greyfeather, Greyfeather
+Garth of Greenaway, Garth of Greenaway
+Garth of Oldtown, Garth of Oldtown
+Alan of Rosby, Alan of Rosby
+Ronnel Harclay, Ronnel Harclay
+Aethan, Aethan
+Ryles, Ryles
+Mawney, Mawney
+Jarmen Buckwell, Jarmen
+Bannen, Bannen
+Kedge Whiteye, Kedge
+Tumberjon, Tumberjon
+Fornio, Fornio
+Goady, Goady
+Ottyn Wythers, Ottyn
+Malador Locke, Malador
+Donnel Hill, Donnel Hill, Sweet Donnel
+Hake, Hake
+Chett, Chett
+Samwell Tarly, Samwell, Sam, Ser Piggy
+Lark, Lark, The Sisterman
+Rolley, Rolley
+Clubfoot Karl, Clubfoot Karl, Karl
+Qhorin Halfand, Qhorin
+Squire Dalbridge, Dalbridge
+Eggen, Eggen
+Stonesnake, Stonesnake
+Blane, Blane
+Byam Flint, Byam
+%%%%%%(at Castle Black)
+Bowen Marsh, Bowen
+Maester Aemon, Master Aemon
+Clydas, Clydas
+Wynton Stout, Wynton
+Aladale Wynch, Aladale
+Pypar, Pypar
+Deaf Dick Follard, Deaf Dick
+Hairy Hal, Hairy Hal
+Black Jack Bulwer, Black Jack
+Elron, Elron
+Matthar, Matthar
+Othell Yarwyck, Othell
+Spare Boot, Spare Boot
+Young Henly, Young Henly
+Halder, Hadler
+Albett, Albett
+Kegs, Kegs
+Spotted Pate, Spotted Pate
+Donal Noye, Donal
+Hobb, Hobb
+Tim Tangletounge, Tangletounge
+Mully, Mully
+Old Henly, Old Henly
+Cugen, Cugen
+Red Alyn, Red Alyn
+Septon Cellador, Septon Cellador
+Endrew Tarth, Endrew
+Rast, Rast
+Arron, Arron
+Emrick, Emrick
+Satin, Satin
+Hop-Robin, Hop-Robin
+Conwy, Conwy
+Gueren, Gueren
+%%%%%%(at Eastwatch-by-the-Sea)
+Cotter Pyke, Cotter
+Maester Harmune, Harmune
+Alliser Thorne, Alliser
+Janos Slynt, Janos
+Glnedon Hewett, Glendon
+Dareon, Dareon
+Iron Emmett, Iron Emmett
+%%%%%%(at Shadow Tower)
+Denys Mallister, Denys
+Wallace Massey, Wallace
+Maester Mullin, Mullin
+%%%%%%THE BROTHERHOOD WITHOUT BANNERS; AN OUTLAW FELLOWSHIP
+Beric Dondarrion, Beric, Lightning Lord
+Thoros, Thoros
+Lem, Lem
+Harwin, Harwin
+Greenbeard, Greenbeard
+Tom of Sevenstreams, Tom of Sevenstreams, Tom Sevenstrings, Tom O' Sevens
+Anguy, Anguy
+Jack-Be-Lucky, Jack-Be-Lucky
+Mad Huntsman, Mad Huntsman
+Kyle, Kyle
+Notch, Notch
+Dennett, Dennett
+Merrit O'Moontown, Merrit
+Watty, Watty
+Likely Luke, Likely Luke
+Mudge, Mudge
+Beardless Dick, Beardless Dick
+%%%%%%at the Inn of the Kneeling Man:
+Sharna, Sharna
+Tansy, Tansy
+Alyce, Alyce
+Cass, Cass
+Lanna, Lanna
+Jyzene, Jyzene
+Helly, Helly
+Bella, Bella
+%%%%%%at Acorn Hall; the seat of House Smallwood:
+Lymond Lychester, Lymond Lychester
+Maester Roone, Roone
+%%%%%%the WILDLINGS; or the FREE FOLK
+Mance Rayder, Mance
+Dalla, Dalla
+Val, Val
+%%%%%%his chiefs and captains:
+Harma, Harma, Dogshead
+Lord of Bones, Lord of Bones, Rattleshirt
+Ygritte, Ygritte
+Ryk, Ryk, Longspear
+Ragwyle, Ragwyle
+Lenyl, Lenyl
+Styr, Styr
+Jarl, Jarl
+Grigg, Grigg
+Errok, Errok
+Bodger, Bodger
+Del, Del
+Big Boil, Big Boil
+Hempen Dan, Hempen Dan
+Henk, Henk
+Lenn, Lenn
+Toefinger, Toefinger
+Stone Thumbs, Stone Thumbs
+Tormund, Tormund, Giantsbane, Tall-Talker, Horn-Blower, Breaker of Ice, Thunderfist, Husband to Bears, Speaker to Gods, Father of Hosts
+Toregg, Toregg
+Torwyrd, Torwyrd
+Dormund, Dormund
+Dryn, Dryn
+Munda, Munda
+Orell, Orell
+Mag Mar Tun Doh Wed, Mag
+Varmyr, Marmyr, Sixskins
+The Weeper, The Weeper
+Alfyn Crowkiller, Algyn
+Craster, Craster
+Gilly, Gilly
+Dyah, Dyah
+Ferny, Ferny
+Nella, Nella
+%%%%%%% added by Jie and Andrew
+Jeyne Westerling, Jeyne
+Doreah, Doreah
+Mirri Maz Duur, Mirri
+Qotho, Qotho
+Brienne of Tarth, Brienne
+Cressen, Cressen
+Maester Aemon, Aemon, Aemon Targaryen
+Yoren, Yoren
+Lommy Greenhands, Lommy
+Barristan Selmy, Barristan, Barristan the Bold
+High Sparrow, High Sparrow
+Syrio Forel, Syrio
+Jaqen H'ghar, Jaqen
+Ser Duncan the Tall, Duncan, Dunk
+Hizdahr zo Loraq, Hizdahr
+Yezzan zo Qaggaz, Yezzan
+Tycho Nestoris, Tycho
+Waif, Waif
+Unella, Unella

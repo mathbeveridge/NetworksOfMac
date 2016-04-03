@@ -1,0 +1,127 @@
+
+
+Problems:
+
+- Robert (FYI I still kept Sweetrobin in the input file)
+- Jon (mostly should be Snow, but might also contain Jon Arryn)
+- Jeyne Poole (not included in input since you commented this name out)
+- Aegon (might contain both V and VI)
+- Edd (nickname of Eddison Tollet, but also substring of Eddard)
+- Arys (nickname of Arys Oakheart, substring of Varys)
+- Irri (substring of Mirri)
+
+The following were deleted by Jie's program:
+
+- Arys (nickname of Arys Oakheart, substring of Varys)
+- Irri (substring of Mirri)
+
+
+Still to do:
+
+- Jon (mostly should be Snow, but might also contain Jon Arryn)
+- Jeyne Poole (not included in input since you commented this name out)
+- Edd (nickname of Eddison Tollet, but also substring of Eddard)
+
+===== Edd ====
+
+Beric -1
+-- Brann -4
+Cersei -1
+Gregor -1
+Hoster -1
+-- Jaime -2
+Joffrey -1
+- Jon -1
+Loras -1
+Petyr -1
+Rickard -1
+Rickon -2
+Robert -1
+-- Robb -2
+Sansa -2
+Theon -1
+Tyrion -1
+Tywin -1
+
+==== Jon =====
+
+Catelyn -2
+Cersei -2
+Eddard -1
+Edmure -1
+Doran -1
+Hoster -2
+Jaime -1
++ Lysa -5
+Petyr -1
++ Robert -6
+Sansa -1
+Stannis -2
+Tywin -1
+
+Jon Arryn to Robert Arryn 3
+
+bad: Barristan -1
+	
+
+==== Aegon =====
+
+Only connects to Danerys. We can live with this agglomoration of them all!
+- Aegon (might contain both V and VI)
+
+==== Val ====
+
+Remove
+
+Jaqen 1
+Ilyn 1
+- Petyr 6
+Varys 1
+Catelyn 1
+- Lysa 6
+Bran 1
+Rickon 1
+Salladhor 2
+- Robert 3
+Gregor 1
+Tywin 6
+Robb 2
+Blackfish 1
+Jorah 2
+Kraznys 2
+- Dany 6
+Aegon 2
+Missandei 3
+- Arya 3
+Tommen 1
+Kevan 1
++ Jon 3
+Meryn 1
+Cersei 1
+Roslin 1
+Davos 1
+Balone 1
+Joffrey 1
+Sansa 2
+Stanos 1
+Aerys 1
+
+
+====== Robert ======
+
+Change from Robert to Robert Arryn
+
+Catelyn 1
+- Cersei 1
+-- Joffrey 2
+- Jon 1
+- Lysa 9
+- Marillion 4
+-- Petyr 3
+- Sansa 6
+- Tyrion 2
+
+
+
+
+
