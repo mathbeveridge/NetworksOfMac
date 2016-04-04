@@ -31,7 +31,8 @@ public class CharacterFinder {
             "High", "Great", "Grand", "First", // superlatives
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
             "Black", "Red", "Green", "Blue", // colors
-            "Land", "Lands", "Sea", "Seas", "City", "Cities" // geographics
+            "Land", "Lands", "Sea", "Seas", "City", "Cities", // geographics
+            "Alley", "Gate", "Keep", "Market", "Tower" // landmarks
     ));
 
     private static void addToCounter(Map<String, Integer> counter, String string) {
@@ -79,35 +80,6 @@ public class CharacterFinder {
 
     private static boolean isCapitalized(String word) {
         return word.matches("[A-Z][a-z]*");
-    }
-
-    private static AliasGroups getAliases(Map<String, Integer> counter, Set<String> nondescriptors) {
-        AliasGroups aliasGroups = new AliasGroups();
-        for (String alias : counter.keySet()) {
-            if (!alias.contains(" ") && !nondescriptors.contains(alias)) {
-                aliasGroups.addAlias(alias);
-            }
-        }
-        for (String alias : counter.keySet()) {
-            String[] split = alias.split(" ");
-            if (split.length > 1) {
-                String group = null;
-                for (String s : split) {
-                    if (aliasGroups.isAlias(s)) {
-                        if (group == null) {
-                            group = aliasGroups.getPrimaryAlias(s);
-                            aliasGroups.addAliasToGroup(group, alias);
-                        } else {
-                            aliasGroups.combineGroups(group, s);
-                        }
-                    }
-                }
-                if (group == null) {
-                    aliasGroups.addAlias(alias);
-                }
-            }
-        }
-        return aliasGroups;
     }
 
     public static void main(String[] args) {
@@ -171,7 +143,7 @@ public class CharacterFinder {
         for (String cap : counter.keySet()) {
             String[] split = cap.split(" ");
             for (String s : split) {
-                if (counter.containsKey(s) && counter.containsKey(s + "s")) {
+                if (!GENERAL_WORDS.contains(s) && counter.containsKey(s) && counter.containsKey(s + "s")) {
                     surnames.add(s);
                 }
             }
@@ -196,7 +168,11 @@ public class CharacterFinder {
                 bad.add(split[0]);
             }
         }
-        surnames.removeAll(bad);
+        for (String cap : counter.keySet()) {
+            if (bad.contains(cap.split(" ")[0])) {
+                names.remove(cap);
+            }
+        }
         firstNames.removeAll(bad);
 
         Map<String, Integer> temp = new HashMap<>(counter);
@@ -212,7 +188,7 @@ public class CharacterFinder {
         Set<String> once = new HashSet<>();
         for (String cap : counter.keySet()) {
             String[] split = cap.split(" ");
-            if (split.length == 2 && !GENERAL_WORDS.contains(split[0])) {
+            if (split.length == 2 && !GENERAL_WORDS.contains(split[0]) && !GENERAL_WORDS.contains(split[1])) {
                 if (once.contains(split[1])) {
                     surnames2.add(split[1]);
                 } else {
@@ -220,6 +196,9 @@ public class CharacterFinder {
                 }
             }
         }
+        // intersection of surnames and surnames2
+        Set<String> surnames3 = new HashSet<>(surnames2);
+        surnames3.retainAll(surnames);
 
         // Pairs whose second word is from the surnames2 group
         Set<String> names2 = new HashSet<>();
@@ -231,6 +210,29 @@ public class CharacterFinder {
                 firstNames2.add(split[0]);
             }
         }
+
+        // words that appear in front of different "names" *** Mya ***
+        Set<String> bad2 = new HashSet<>();
+        for (String cap : counter.keySet()) {
+            String[] split = cap.split(" ");
+            if (split.length > 1 && !GENERAL_WORDS.contains(split[0]) && firstNames2.contains(split[1])) {
+                bad2.add(split[0]);
+            }
+        }
+        for (String cap : counter.keySet()) {
+            if (bad2.contains(cap.split(" ")[0])) {
+                names2.remove(cap);
+            }
+        }
+        firstNames2.removeAll(bad2);
+
+        temp = new HashMap<>(counter);
+        for (String cap : counter.keySet()) {
+            if (bad2.contains(cap.split(" ")[0])) {
+                temp.remove(cap);
+            }
+        }
+        counter = temp;
 
         // Phrases following 'of' or 'of the'
         Set<String> places = new HashSet<>();
@@ -256,15 +258,14 @@ public class CharacterFinder {
         }
 
 //        System.out.println(bad);
+//        System.out.println(bad2);
 //        System.out.println(names);
         System.out.println(names2);
 //        System.out.println(firstNames);
-        System.out.println(firstNames2);
+//        System.out.println(firstNames2);
 //        System.out.println(surnames);
-        System.out.println(surnames2);
-        Set<String> surnames3 = new HashSet<>(surnames2);
-        surnames3.retainAll(surnames);
-        System.out.println(surnames3);
+//        System.out.println(surnames2);
+//        System.out.println(surnames3);
 //        System.out.println(places);
 //        System.out.println(lonely);
         System.out.println();
@@ -274,7 +275,6 @@ public class CharacterFinder {
             if (lonely.contains(cap) && counter.get(cap) < 10) { // arbitrary cutoff
                 reducedCounter.remove(cap);
             }
-
         }
 
         List<Map.Entry<String, Integer>> caps = new ArrayList<>(reducedCounter.entrySet());
@@ -284,29 +284,38 @@ public class CharacterFinder {
                 return o2.getValue() - o1.getValue();
             }
         });
-        for (Map.Entry<String, Integer> cap : caps) {
-            System.out.println(cap.getKey() + "\t" + cap.getValue());
-        }
-        System.out.println();
-        System.out.println(reducedCounter.size());
-        System.out.println();
-        System.out.println("==============================");
-        System.out.println();
+//        for (Map.Entry<String, Integer> cap : caps) {
+//            System.out.println(cap.getKey() + "\t" + cap.getValue());
+//        }
+//        System.out.println();
+//        System.out.println(reducedCounter.size());
+//        System.out.println();
+//        System.out.println("==============================");
+//        System.out.println();
 
         Set<String> nondescriptors = new HashSet<>();
         nondescriptors.addAll(surnames);
         nondescriptors.addAll(surnames2);
         nondescriptors.addAll(places);
-        AliasGroups aliasGroups = getAliases(reducedCounter, nondescriptors);
-        List<Set<String>> groups = new ArrayList<>(aliasGroups.getGroups());
-        groups.sort(new Comparator<Set<String>>() {
+        CharacterGroups characterGroups = new CharacterGroups(reducedCounter, nondescriptors);
+
+        Map<List<String>, Integer> groupMap = new HashMap<>();
+        for (String s : names2) {
+            List<String> list = new ArrayList<>();
+            list.add(s);
+            list.addAll(characterGroups.getGroup(s));
+            groupMap.put(list, characterGroups.getAliasCount(s));
+        }
+
+        List<Map.Entry<List<String>, Integer>> groups = new ArrayList<>(groupMap.entrySet());
+        groups.sort(new Comparator<Map.Entry<List<String>, Integer>>() {
             @Override
-            public int compare(Set<String> o1, Set<String> o2) {
-                return o2.size() - o1.size();
+            public int compare(Map.Entry<List<String>, Integer> o1, Map.Entry<List<String>, Integer> o2) {
+                return o2.getValue() - o1.getValue();
             }
         });
-        for (Set<String> group : groups) {
-            System.out.println(group);
+        for (Map.Entry<List<String>, Integer> group : groups) {
+            System.out.println(group.getValue() + "\t" + group.getKey());
         }
         System.out.println();
         System.out.println(groups.size());
