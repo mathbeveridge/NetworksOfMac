@@ -23,7 +23,6 @@ public class CharacterGroups {
 
     public CharacterGroups(Map<String, Integer> counter, Set<String> nondescriptors) {
         this();
-//        this.counter.putAll(counter);
         for (String alias : counter.keySet()) {
             if (!alias.contains(" ") && !nondescriptors.contains(alias)) {
                 addAlias(alias, counter.get(alias));
