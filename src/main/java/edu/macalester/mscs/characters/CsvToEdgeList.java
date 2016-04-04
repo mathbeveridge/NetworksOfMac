@@ -10,42 +10,26 @@ import java.util.ArrayList;
  * import into Gephi (CSV, 4 columns).
  */
 public class CsvToEdgeList {
-
-	
-	
 	
 	public static void main(String[] args) {
+		CSVReader csvReader = null;
+		BufferedWriter edgeWriter = null;
 		try {
-			Reader fileReader = new BufferedReader(new FileReader("/mac/research/gameofthrones/finaldata/GoT3-15-4-matrix.csv"));
+			csvReader = new CSVReader(new BufferedReader(new FileReader("src/main/resources/data/logs/GoT3-15-4-matrix.csv")), ',');
+			edgeWriter = new BufferedWriter(new FileWriter("src/main/resources/data/logs/GoT3-15-4-edges2.csv"));
 
-			CSVReader csvReader = new CSVReader(fileReader, ',');
-
-
-			
-			BufferedWriter edgeWriter = new BufferedWriter(new FileWriter("/mac/research/gameofthrones/finaldata/GoT3-15-4-edges.csv"));			
-			
-			
 			String[] headers = csvReader.readNext();
-			String[] temp;
-			int i;
-			String id;
 
-			
 			edgeWriter.write("Source,Target,Weight,Type\n");
-			
 
-			
-			ArrayList<String> processedList = new ArrayList<String>();
-			
+			ArrayList<String> processedList = new ArrayList<>();
+			String[] temp;
 			while ((temp = csvReader.readNext()) != null) {
-
-				
-				for(i=1; i < temp.length; i++) {
+				for (int i=1; i < temp.length; i++) {
 					if (!temp[i].equals("0")) {
 						
 						//don't double count for undirected
-						if (! processedList.contains(headers[i] + '+' + temp[0] ))
-						{
+						if (!processedList.contains(headers[i] + '+' + temp[0])) {
 							edgeWriter.write('\"');
 							edgeWriter.write(temp[0]);
 							edgeWriter.write('\"');
@@ -66,18 +50,18 @@ public class CsvToEdgeList {
 					}
 				}
 			}
-				
-				
-		
-
-			edgeWriter.close();
-			csvReader.close();
-		
-			
-		} catch (Exception e) {
-			e.printStackTrace();
+		} catch (Exception ignored) {
+		} finally {
+			if (csvReader != null) {
+				try {
+					csvReader.close();
+				} catch (IOException ignored) {}
+			}
+			if (edgeWriter != null) {
+				try {
+					edgeWriter.close();
+				} catch (IOException ignored) {}
+			}
 		}
-		
 	}
-	
 }
