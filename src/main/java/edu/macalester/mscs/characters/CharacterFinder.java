@@ -10,18 +10,28 @@ import java.util.*;
  */
 public class CharacterFinder {
 
+    // Words that should be completely ignored
     public static final Set<String> IGNORE_WORDS = new HashSet<>(Arrays.asList(
-            "My", "You", "He", "His", "She", "It", "We", "They", "Their", // pronouns  (It???)
+            "My", "You", "He", "His", "She", "It", "We", "They", "Their", "Our", // pronouns  (It???)
             "This", "That", "These", "Those", "There", // indirect pronouns
             "Who", "Where", "Why", "How", // questions
-            "An", "Nor", "Do", "No", "Yes", "Afterward", "Ask", "While", "Old", "Men", "Above", "Done",
-            "Does", "Certainly", "First", "To", "Without", "Unless", "Some", "Sometimes", "On", "Both", // miscellaneous
-            "Ser", "House", "Houses", "Lords", "Ladies", "Kings" // GoT specific words
+            "An", "Nor", "Do", "No", "Yes", "Afterward", "Ask", "While", "Men", "Above", "Done", "Does",
+            "Certainly", "To", "Without", "Unless", "Some", "Sometimes", "On", "Both", "In", "From",
+            "Never", // miscellaneous
+            "Ser", "House", "Houses", "Lords", "Ladies", "Kings", // GoT specific
+            "Father", "Mother", "Uncle", "Aunt" // familial references
     ));
 
-    public static final Set<String> TITLES = new HashSet<>(Arrays.asList(
-            "Lord", "Lady", "Maester", "Maestor", "King", "Queen", "Prince", "Princess", "Regent",
-            "Khal", "Ko", "Uncle", "Aunt", "Captain" // these should never stand alone
+    // Words that are not unique, but may still be descriptive, expecially in combination
+    public static final Set<String> GENERAL_WORDS = new HashSet<>(Arrays.asList(
+            "Lord", "Lady", "King", "Queen", "Regent", "Steward", "Prince", "Princess", // royal titles
+            "Maester", "Captain", "Commander", // professional titles
+            "Young", "Old", // casual titles
+            "Khal", "Ko", // dothraki titles
+            "High", "Great", "Grand", "First", // superlatives
+            "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
+            "Black", "Red", "Green", "Blue", // colors
+            "Land", "Lands", "Sea", "Seas", "City", "Cities" // geographics
     ));
 
     private static void addToCounter(Map<String, Integer> counter, String string) {
@@ -92,6 +102,9 @@ public class CharacterFinder {
                         }
                     }
                 }
+                if (group == null) {
+                    aliasGroups.addAlias(alias);
+                }
             }
         }
         return aliasGroups;
@@ -113,7 +126,7 @@ public class CharacterFinder {
                 String toAdd = null;
                 for (String part : parts) {
                     if (part.length() > 1 && isCapitalized(part) && !IGNORE_WORDS.contains(part)) {
-                        if (!TITLES.contains(part)) {
+                        if (!GENERAL_WORDS.contains(part)) {
                             addToCounter(counter, part);
                         }
                         if (phrase == null) {
@@ -163,33 +176,28 @@ public class CharacterFinder {
                 }
             }
         }
-//        System.out.println(surnames);
-//        System.out.println();
 
         // Pairs whose second word is from the surnames group
         Set<String> names = new HashSet<>();
         Set<String> firstNames = new HashSet<>();
         for (String cap : counter.keySet()) {
             String[] split = cap.split(" ");
-            if (split.length == 2 && !TITLES.contains(split[0]) && surnames.contains(split[1])) {
+            if (split.length == 2 && !GENERAL_WORDS.contains(split[0]) && surnames.contains(split[1])) {
                 names.add(cap);
                 firstNames.add(split[0]);
             }
         }
-        System.out.println(names);
-//        System.out.println(firstNames);
-        System.out.println();
 
         // words that appear in front of different "names" *** Mya ***
         Set<String> bad = new HashSet<>();
         for (String cap : counter.keySet()) {
             String[] split = cap.split(" ");
-            if (split.length > 1 && firstNames.contains(split[1]) && !TITLES.contains(split[0])) {
+            if (split.length > 1 && !GENERAL_WORDS.contains(split[0]) && firstNames.contains(split[1])) {
                 bad.add(split[0]);
             }
         }
-//        System.out.println(bad);
-//        System.out.println();
+        surnames.removeAll(bad);
+        firstNames.removeAll(bad);
 
         Map<String, Integer> temp = new HashMap<>(counter);
         for (String cap : counter.keySet()) {
@@ -198,6 +206,31 @@ public class CharacterFinder {
             }
         }
         counter = temp;
+
+        // words that appear as second words in multiple pairs
+        Set<String> surnames2 = new HashSet<>();
+        Set<String> once = new HashSet<>();
+        for (String cap : counter.keySet()) {
+            String[] split = cap.split(" ");
+            if (split.length == 2 && !GENERAL_WORDS.contains(split[0])) {
+                if (once.contains(split[1])) {
+                    surnames2.add(split[1]);
+                } else {
+                    once.add(split[1]);
+                }
+            }
+        }
+
+        // Pairs whose second word is from the surnames2 group
+        Set<String> names2 = new HashSet<>();
+        Set<String> firstNames2 = new HashSet<>();
+        for (String cap : counter.keySet()) {
+            String[] split = cap.split(" ");
+            if (split.length == 2 && !GENERAL_WORDS.contains(split[0]) && surnames2.contains(split[1])) {
+                names2.add(cap);
+                firstNames2.add(split[0]);
+            }
+        }
 
         // Phrases following 'of' or 'of the'
         Set<String> places = new HashSet<>();
@@ -210,8 +243,6 @@ public class CharacterFinder {
                 places.add(place);
             }
         }
-//        System.out.println(places);
-//        System.out.println();
 
         // Words that are never parts of phrases
         Set<String> lonely = new HashSet<>(counter.keySet());
@@ -223,8 +254,20 @@ public class CharacterFinder {
                 }
             }
         }
+
+//        System.out.println(bad);
+//        System.out.println(names);
+        System.out.println(names2);
+//        System.out.println(firstNames);
+        System.out.println(firstNames2);
+//        System.out.println(surnames);
+        System.out.println(surnames2);
+        Set<String> surnames3 = new HashSet<>(surnames2);
+        surnames3.retainAll(surnames);
+        System.out.println(surnames3);
+//        System.out.println(places);
 //        System.out.println(lonely);
-//        System.out.println();
+        System.out.println();
 
         Map<String, Integer> reducedCounter = new HashMap<>(counter);
         for (String cap : counter.keySet()) {
@@ -251,8 +294,9 @@ public class CharacterFinder {
         System.out.println();
 
         Set<String> nondescriptors = new HashSet<>();
-        nondescriptors.addAll(places);
         nondescriptors.addAll(surnames);
+        nondescriptors.addAll(surnames2);
+        nondescriptors.addAll(places);
         AliasGroups aliasGroups = getAliases(reducedCounter, nondescriptors);
         List<Set<String>> groups = new ArrayList<>(aliasGroups.getGroups());
         groups.sort(new Comparator<Set<String>>() {
