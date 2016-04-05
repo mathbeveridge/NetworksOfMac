@@ -614,8 +614,9 @@ private void setUpView(final MatrixAndNames man) throws IOException {
 				m++;
 			}
 		}
-		data.setMatrix(purgedMatrix);
-		data.setNames(purgedNames);
+		// TODO
+//		data.setMatrix(purgedMatrix);
+//		data.setNames(purgedNames);
 		return data;
 	}
 

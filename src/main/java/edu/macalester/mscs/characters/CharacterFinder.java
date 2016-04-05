@@ -1,6 +1,7 @@
 package edu.macalester.mscs.characters;
 
-import java.io.*;
+import edu.macalester.mscs.utils.FileUtils;
+
 import java.util.*;
 
 /**
@@ -70,30 +71,6 @@ public class CharacterFinder {
         return pieces;
     }
 
-    private static List<List<String>> readFile(String file) {
-        List<List<String>> brokenLines = new ArrayList<>();
-        String line = null;
-        BufferedReader fileReader = null;
-        try {
-            fileReader = new BufferedReader(new FileReader(file));
-            while ((line = fileReader.readLine()) != null) {
-                line = line.trim();
-                List<String> parts = breakLine(line);
-                brokenLines.add(parts);
-            }
-        } catch (Exception e) {
-            throw new RuntimeException("Error at \'" + line + "\'", e);
-        } finally {
-            if (fileReader != null) {
-                try {
-                    fileReader.close();
-                } catch (IOException ignored) {
-                }
-            }
-        }
-        return brokenLines;
-    }
-
     private static void addToCounter(Map<String, Integer> counter, String string) {
         if (counter.containsKey(string)) {
             counter.put(string, counter.get(string) + 1);
@@ -110,9 +87,10 @@ public class CharacterFinder {
         return part.contains(".") || part.contains("?") || part.contains("!") || part.contains(QUOTE);
     }
 
-    private static Map<String, Integer> countCapitalized(List<List<String>> brokenLines) {
+    private static Map<String, Integer> countCapitalized(List<String> lines) {
         Map<String, Integer> counter = new HashMap<>();
-        for (List<String> parts : brokenLines) {
+        for (String line : lines) {
+            List<String> parts = breakLine(line);
             StringBuilder phrase = null;
             String toAdd = null;
             // find capitals that don't start sentences
@@ -388,49 +366,33 @@ public class CharacterFinder {
         return intersection;
     }
 
-    private static void writeAllNames(CharacterGroups characterGroups, String file) {
+    private static List<String> getFullNameList(CharacterGroups characterGroups) {
         Map<Set<String>, Integer> groupMap = characterGroups.getGroups();
         List<Map.Entry<Set<String>, Integer>> groups = new ArrayList<>(groupMap.entrySet());
-        groups.sort(new Comparator<Map.Entry<Set<String>, Integer>>() {
-            @Override
-            public int compare(Map.Entry<Set<String>, Integer> o1, Map.Entry<Set<String>, Integer> o2) {
-                return o2.getValue() - o1.getValue();
-            }
-        });
+        groups.sort(ENTRY_COMPARATOR);
+        List<String> lines = new ArrayList<>();
         for (Map.Entry<Set<String>, Integer> group : groups) {
             System.out.println(group.getValue() + "\t" + group.getKey());
+            StringBuilder line = new StringBuilder();
+            boolean first = true;
+            for (String name : group.getKey()) {
+                if (first) {
+                    first = false;
+                } else {
+                    line.append(", ");
+                }
+                line.append(name);
+            }
+            line.append('\n');
+            lines.add(line.toString());
         }
         System.out.println();
         System.out.println(groups.size());
         System.out.println();
-
-        BufferedWriter writer = null;
-        try {
-            writer = new BufferedWriter(new FileWriter(file));
-            for (Map.Entry<Set<String>, Integer> group : groups) {
-                boolean first = true;
-                for (String name : group.getKey()) {
-                    if (first) {
-                        first = false;
-                    } else {
-                        writer.write(", ");
-                    }
-                    writer.write(name);
-                }
-                writer.write('\n');
-            }
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        } finally {
-            if (writer != null) {
-                try {
-                    writer.close();
-                } catch (IOException ignored) {}
-            }
-        }
+        return lines;
     }
 
-    private static void writeFullNames(CharacterGroups characterGroups, Collection<String> names, String file) {
+    private static List<String> getCleanNameList(CharacterGroups characterGroups, Collection<String> names) {
         Map<List<String>, Integer> groupMap = new HashMap<>();
         for (String s : names) {
             if (characterGroups.isAlias(s)) {
@@ -444,57 +406,40 @@ public class CharacterFinder {
         }
 
         List<Map.Entry<List<String>, Integer>> groups = new ArrayList<>(groupMap.entrySet());
-        groups.sort(new Comparator<Map.Entry<List<String>, Integer>>() {
-            @Override
-            public int compare(Map.Entry<List<String>, Integer> o1, Map.Entry<List<String>, Integer> o2) {
-                return o2.getValue() - o1.getValue();
-            }
-        });
-        for (int i = 0; i < 100; i++) {
-            Map.Entry<List<String>, Integer> group = groups.get(i);
+        groups.sort(ENTRY_COMPARATOR);
+        List<String> lines = new ArrayList<>();
+        for (Map.Entry<List<String>, Integer> group : groups) {
             System.out.println(group.getValue() + "\t" + group.getKey());
+            StringBuilder line = new StringBuilder();
+            boolean first = true;
+            for (String name : group.getKey()) {
+                if (first) {
+                    first = false;
+                } else {
+                    line.append(", ");
+                }
+                line.append(name);
+            }
+            line.append('\n');
+            lines.add(line.toString());
         }
         System.out.println();
         System.out.println(groups.size());
         System.out.println();
-
-        BufferedWriter writer = null;
-        try {
-            writer = new BufferedWriter(new FileWriter(file));
-            for (Map.Entry<List<String>, Integer> group : groups) {
-                boolean first = true;
-                for (String name : group.getKey()) {
-                    if (first) {
-                        first = false;
-                    } else {
-                        writer.write(", ");
-                    }
-                    writer.write(name);
-                }
-                writer.write('\n');
-            }
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        } finally {
-            if (writer != null) {
-                try {
-                    writer.close();
-                } catch (IOException ignored) {}
-            }
-        }
+        return lines;
     }
 
-    private static void writeFirstNames(CharacterGroups characterGroups, Collection<String> names, String file, Collection<String> ignore) {
+    private static List<String> getFirstNameList(CharacterGroups characterGroups, Collection<String> names, Collection<String> ignored) {
         Map<List<String>, Integer> groupMap = new HashMap<>();
         for (String name : names) {
             if (characterGroups.isAlias(name)) {
                 List<String> list = new ArrayList<>();
-                String[] split = stripTitle(name, ignore).split(" ");
+                String[] split = stripTitle(name, ignored).split(" ");
                 list.add(split[0]);
                 Set<String> set = new HashSet<>();
                 for (String s : characterGroups.getGroup(name)) {
-                    split = stripTitle(s, ignore).split(" ");
-                    if (!ignore.contains(split[0])) {
+                    split = stripTitle(s, ignored).split(" ");
+                    if (!ignored.contains(split[0])) {
                         set.add(split[0]);
                     }
                 }
@@ -506,48 +451,31 @@ public class CharacterFinder {
         }
 
         List<Map.Entry<List<String>, Integer>> groups = new ArrayList<>(groupMap.entrySet());
-        groups.sort(new Comparator<Map.Entry<List<String>, Integer>>() {
-            @Override
-            public int compare(Map.Entry<List<String>, Integer> o1, Map.Entry<List<String>, Integer> o2) {
-                return o2.getValue() - o1.getValue();
-            }
-        });
-        for (int i = 0; i < 100; i++) {
-            Map.Entry<List<String>, Integer> group = groups.get(i);
+        groups.sort(ENTRY_COMPARATOR);
+        List<String> lines = new ArrayList<>();
+        for (Map.Entry<List<String>, Integer> group : groups) {
             System.out.println(group.getValue() + "\t" + group.getKey());
+            StringBuilder line = new StringBuilder();
+            boolean first = true;
+            for (String name : group.getKey()) {
+                if (first) {
+                    first = false;
+                } else {
+                    line.append(", ");
+                }
+                line.append(name);
+            }
+            line.append('\n');
+            lines.add(line.toString());
         }
         System.out.println();
         System.out.println(groups.size());
         System.out.println();
-
-        BufferedWriter writer = null;
-        try {
-            writer = new BufferedWriter(new FileWriter(file));
-            for (Map.Entry<List<String>, Integer> group : groups) {
-                boolean first = true;
-                for (String name : group.getKey()) {
-                    if (first) {
-                        first = false;
-                    } else {
-                        writer.write(", ");
-                    }
-                    writer.write(name);
-                }
-                writer.write('\n');
-            }
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        } finally {
-            if (writer != null) {
-                try {
-                    writer.close();
-                } catch (IOException ignored) {}
-            }
-        }
+        return lines;
     }
 
     public static void main(String[] args) {
-        Map<String, Integer> counter = countCapitalized(readFile("src/main/resources/text/got.txt"));
+        Map<String, Integer> counter = countCapitalized(FileUtils.readFile("src/main/resources/text/got.txt"));
         counter.put("Jeor Mormont", 1); // gets wrecked
         counter.put("Jeor", 1);
         counter.remove("Tully Stark"); // gets awkwardly generated as the only double-surname
@@ -575,13 +503,8 @@ public class CharacterFinder {
 
         }
 
-//        List<Map.Entry<String, Integer>> caps = new ArrayList<>(reducedCounter.entrySet());
-//        Collections.sort(caps, new Comparator<Map.Entry<String, Integer>>() {
-//            @Override
-//            public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
-//                return o2.getValue() - o1.getValue();
-//            }
-//        });
+        List<Map.Entry<String, Integer>> caps = new ArrayList<>(reducedCounter.entrySet());
+        caps.sort(ENTRY_COMPARATOR);
 //        for (Map.Entry<String, Integer> cap : caps) {
 //            System.out.println(cap.getKey() + "\t" + cap.getValue());
 //        }
@@ -674,10 +597,17 @@ public class CharacterFinder {
         names.remove("Ben Stark");     // as Benjen Stark
         names.remove("Theon Stark");   // as Theon Greyjoy
 
-        writeAllNames(characterGroups, "src/main/resources/data/characters/ari-list-full.txt");
-        writeFullNames(characterGroups, names, "src/main/resources/data/characters/ari-list-clean.txt");
-        writeFirstNames(characterGroups, names, "src/main/resources/data/characters/ari-list-first.txt", GENERAL_WORDS);
+        FileUtils.writeFile(getFullNameList(characterGroups), "src/main/resources/data/characters/ari-list-full.txt");
+        FileUtils.writeFile(getCleanNameList(characterGroups, names), "src/main/resources/data/characters/ari-list-clean.txt");
+        FileUtils.writeFile(getFirstNameList(characterGroups, names, GENERAL_WORDS), "src/main/resources/data/characters/ari-list-first.txt");
 
     }
+
+    private static final Comparator<Map.Entry<?, Integer>> ENTRY_COMPARATOR = new Comparator<Map.Entry<?, Integer>>() {
+        @Override
+        public int compare(Map.Entry<?, Integer> o1, Map.Entry<?, Integer> o2) {
+            return o2.getValue() - o1.getValue();
+        }
+    };
 
 }
