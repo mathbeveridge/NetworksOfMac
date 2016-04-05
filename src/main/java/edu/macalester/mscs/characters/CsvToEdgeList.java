@@ -15,8 +15,8 @@ public class CsvToEdgeList {
 		CSVReader csvReader = null;
 		BufferedWriter edgeWriter = null;
 		try {
-			csvReader = new CSVReader(new BufferedReader(new FileReader("src/main/resources/data/logs/GoT3-15-4-matrix.csv")), ',');
-			edgeWriter = new BufferedWriter(new FileWriter("src/main/resources/data/logs/GoT3-15-4-edges2.csv"));
+			csvReader = new CSVReader(new BufferedReader(new FileReader("src/main/resources/data/logs/GoT1-16-4.csv")), ',');
+			edgeWriter = new BufferedWriter(new FileWriter("src/main/resources/data/logs/GoT1-16-4-edges.csv"));
 
 			String[] headers = csvReader.readNext();
 
@@ -24,14 +24,15 @@ public class CsvToEdgeList {
 
 			ArrayList<String> processedList = new ArrayList<>();
 			String[] temp;
+			int row = 0;
 			while ((temp = csvReader.readNext()) != null) {
-				for (int i=1; i < temp.length; i++) {
+				for (int i=0; i < temp.length; i++) {
 					if (!temp[i].equals("0")) {
 						
 						//don't double count for undirected
-						if (!processedList.contains(headers[i] + '+' + temp[0])) {
+						if (!processedList.contains(headers[i] + '+' + headers[row])) {
 							edgeWriter.write('\"');
-							edgeWriter.write(temp[0]);
+							edgeWriter.write(headers[row]);
 							edgeWriter.write('\"');
 							edgeWriter.write(',');
 							edgeWriter.write('\"');
@@ -44,11 +45,12 @@ public class CsvToEdgeList {
 							edgeWriter.write('\n');
 							
 						
-							processedList.add(temp[0] + '+' + headers[i]);
+							processedList.add(headers[row] + '+' + headers[i]);
 						
 						}
 					}
 				}
+				row++;
 			}
 		} catch (Exception ignored) {
 		} finally {

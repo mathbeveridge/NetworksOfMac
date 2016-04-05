@@ -26,7 +26,7 @@ public class Test {
     		
     		String book = "A Storm of Swords";
     		//File file = new File("D:\\MAC\\2011Spring\\%COMP 124 Object Oriented Programming\\workspace\\graphNetworkAppletGOT3\\bin\\got3test.txt");
-			File file = new File("D:\\MAC\\2011Spring\\%COMP 124 Object Oriented Programming\\workspace\\graphNetworkAppletGOT3\\bin\\got3.txt");
+			File file = new File("src/main/resources/text/got.txt");
     		
 			String text = "";
 			Scanner scanner = new Scanner(file);
