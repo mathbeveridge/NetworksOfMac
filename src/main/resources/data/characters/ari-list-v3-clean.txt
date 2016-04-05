@@ -3,6 +3,7 @@ Eddard Karstark, Eddard, Lord Eddard Stark, Ned Stark, Lord Eddard, Eddard Stark
 Jon Stark, Jon Snow, Jon Arryn, Snow, Lord Snow, Lord Jon Arryn, Jon, Jon Stark, Lord Jon, Jon of Lady Stark
 Jon Arryn, Jon Snow, Jon Arryn, Snow, Lord Snow, Lord Jon Arryn, Jon, Jon Stark, Lord Jon, Jon of Lady Stark
 Tyrion Lannister, Half, Tyrion the Imp, Tyrion Half, Tyrion Lannister, Imp, Release, Release the Imp, Tyrion, Lord Tyrion
+Brandon Stark, Baby Bran, Bran, Bran the Broken, Broken Arm of Dorne, Brandon Stark, Baby, Bran the Builder, Arm, Broken
 Catelyn Stark, Lady Catelyn, Lady Catelyn Stark, Catelyn Tully of Riverrun, Catelyn Stark, Catelyn, Catelyn Tully Stark, Catelyn Tully
 Daenerys Targaryen, Daenerys Stormborn, Stormborn, Daenerys Targaryen, Princess Daenerys, Dany, Khaleesi, Daenerys
 Robert Baratheon, Robert Baratheon, Robert Arryn, King Robert, Robert, Young Robert, Lord Robert, Usurper
@@ -27,8 +28,8 @@ Barristan Selmy, Barristan the Old, Ser Barristan, Ser Barristan the Bold, Barri
 Cersei Lannister, Queen Regent Cersei Lannister, Queen Cersei, Cersei Lannister, Cersei
 Pycelle, Pycelle, Old Grand Maester Pycelle, Hurriedly, Hurriedly Grand Maester Pycelle, Grand Maester Pycelle, Maester Pycelle, Old Pycelle
 Gregor Clegane, Ser Gregor the Mountain, Ser Gregor Clegane, Mountain, Gregor Clegane, Ser Gregor, Gregor
+Sandor Clegane, Sandor Clegane, Sandor, Dog, Ser Sandor, Hound
 Stannis Baratheon, Lord Stannis, Lord Stannis Baratheon, Stannis Baratheon, Stannis
-Sandor Clegane, Sandor Clegane, Sandor, Ser Sandor, Hound
 Alliser Thorne, Alliser Thorne, Ser Alliser, Alliser, Ser Alliser Thorne
 Benjen Stark, Jen, Benjen Stark, Benjen, Ben, Ben Jen, Benjen Stark of the Night, Ben Stark
 Bronn, Bronn
@@ -130,7 +131,6 @@ Ser Robar Royce, Robar, Ser Robar, Ser Robar Royce
 Chella, Chella
 Maege Mormont, Lady Maege, Maege, Maege Mormont
 Helman Tallhart, Ser Helman Tallhart, Helman, Helman Tallhart
-Tobho Mott, Tobho Mott, Tobho
 Morrec, Morrec
 Stiv, Stiv
 Yohn Royce, Lord Yohn Royce, Yohn Royce, Yohn
@@ -144,7 +144,6 @@ Torrhen Stark, Torrhen Karstark, Torrhen, Torrhen Stark
 Torrhen Karstark, Torrhen Karstark, Torrhen, Torrhen Stark
 Alyssa Arryn, Alyssa, Alyssa Arryn
 Robett Glover, Robett, Robett Glover
-Brandon Stark, Brandon Stark
 Elia Martell, Princess Elia, Princess Elia of Dorne, Elia Martell, Elia
 Ser Oswell Whent, Ser Oswell, Oswell, Ser Oswell Whent
 Bryce Caron, Bryce Caron, Bryce, Lord Bryce Caron of the Marches, Lord Bryce Caron
@@ -160,7 +159,6 @@ Horas Redwyne, Horas Redwyne, Horas, Ser Horas
 Martyn Rivers, Martyn Cassel, Martyn Rivers, Martyn
 Ser Hosteen Frey, Ser Hosteen, Hosteen, Ser Hosteen Frey
 Rhaggat, Rhaggat, Khal Rhaggat
-Master Mott, Master, Master Mott
 Harrion Karstark, Harrion, Harrion Karstark
 Beth Cassel, Beth, Beth Cassel
 Patrek Mallister, Patrek, Patrek Mallister

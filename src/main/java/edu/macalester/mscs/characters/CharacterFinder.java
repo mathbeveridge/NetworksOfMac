@@ -23,7 +23,7 @@ public class CharacterFinder {
     // Words that are not unique, but may still be descriptive, expecially in combination
     public static final Set<String> GENERAL_WORDS = new HashSet<>(Arrays.asList(
             "Lord", "Lady", "King", "Queen", "Regent", "Steward", "Prince", "Princess", // royal titles
-            "Ser", "Maester", "Captain", "Commander", "Magister", // professional titles
+            "Ser", "Maester", "Captain", "Commander", "Magister", "Master", // professional titles
             "Young", "Old", // endearing titles
             "Khal", "Ko", // dothraki titles
             "High", "Great", "Grand", "First", "Second", // superlatives
@@ -366,7 +366,8 @@ public class CharacterFinder {
                 return o2.getValue() - o1.getValue();
             }
         });
-        for (Map.Entry<List<String>, Integer> group : groups) {
+        for (int i = 0; i < 100; i++) {
+            Map.Entry<List<String>, Integer> group = groups.get(i);
             System.out.println(group.getValue() + "\t" + group.getKey());
         }
         System.out.println();
@@ -515,6 +516,7 @@ public class CharacterFinder {
         names3.add("Haggo");
 
         characterGroups.combineGroups("Eddard", "Ned");
+        characterGroups.combineGroups("Bran", "Brandon Stark");
         characterGroups.combineGroups("Robert", "Usurper");
         characterGroups.combineGroups("Petyr", "Littlefinger");
         characterGroups.combineGroups("Daenerys", "Dany");
@@ -523,6 +525,7 @@ public class CharacterFinder {
         characterGroups.combineGroups("Samwell", "Sam");
         characterGroups.combineGroups("Samwell", "Piggy");
         characterGroups.combineGroups("Sandor", "Hound");
+        characterGroups.combineGroups("Sandor", "Dog");
         characterGroups.combineGroups("Benjen", "Ben");
         characterGroups.combineGroups("Jeor", "Old Bear");
         characterGroups.combineGroups("Jeor", "Lord Commander Mormont");
