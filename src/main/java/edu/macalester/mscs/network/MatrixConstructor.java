@@ -5,37 +5,31 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.util.*;
 
-public class Test {
-
-	public static final String APOSTROPHE = "�";
+public class MatrixConstructor {
 
 	public static void main(String[] args){
-		//System.out.println("===== Start");
-		getData();
-		//System.out.println("===== End");
+		printResultCSV(getData(CharacterLists.NEW_SHORT_LIST, getText("src/main/resources/text/got.txt")),
+				"src/main/resources/data/logs/GoT1-16-4-matrix2.csv");
 	}
 
 	public static final int NOISE = 4;
 	// threshold: 3=13
 	public static final int REACH = 20;
 
-	public static MatrixAndNames getData() {
-		String book = "A Game of Thrones";
-		List<String> lines = FileUtils.readFile("src/main/resources/text/got.txt");
-
-		// Read the file into a MASSIVE single line string
+	public static String getText(String file) {
+		List<String> lines = FileUtils.readFile(file);
 		StringBuilder sb = new StringBuilder();
 		for (String line : lines) {
-            sb.append(line).append(" ");
-        }
-		String text = sb.toString();
+			sb.append(line).append(" ");
+		}
+		return sb.toString();
+	}
 
-		String nameInput = CharacterLists.NEW_SHORT_LIST;
+	public static MatrixAndNames getData(String characters, String text) {
 
-//					+"Qhorin Kraznys Qyburn Craster Gilly Styr";
 		Map<String, List<String>> nicknameMap = new HashMap<>();
 		Map<String, String> nicknameRedirects = new HashMap<>();
-		String[] nicknames = nameInput.split(" ");
+		String[] nicknames = characters.split(" ");
 		for (String nickname : nicknames) {
 			String[] split = nickname.split("=");
 			for (int j = 0; j < split.length; j++) {
@@ -48,7 +42,7 @@ public class Test {
 			}
         }
 		// split into every distinct name, independent of people
-		String[] names = nameInput.split("[ =]");
+		String[] names = characters.split("[ =]");
 		int nameCount = names.length;
 		int[][] matrix = new int[nameCount][nameCount];
 		int uniqueNameCount = nameCount - nicknameRedirects.size();
@@ -59,12 +53,10 @@ public class Test {
 		System.out.println("=============================================================");
 		System.out.println("=================== PART 1: General Info ====================");
 		System.out.println("=============================================================");
-		System.out.println("Book: " + book);
-		System.out.println("Character names input: ");
-		System.out.println(nameInput);
+		System.out.println("Book: A Game of Thrones");
+		System.out.println("Character names input: " + characters);
 		System.out.println("Proximity check range: " + REACH);
 		System.out.println("Noise threshold level: " + NOISE);
-		System.out.println();
 		System.out.println();
 
 		List<Encounter> edgeWeights = new ArrayList<>();
