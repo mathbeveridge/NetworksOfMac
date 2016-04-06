@@ -27,26 +27,41 @@ public class MatrixConstructor {
 
 	public static MatrixAndNames getData(String characters, String text) {
 
-		Map<String, List<String>> nicknameMap = new HashMap<>();
-		Map<String, String> nicknameRedirects = new HashMap<>();
-		String[] nicknames = characters.split(" ");
-		for (String nickname : nicknames) {
-			String[] split = nickname.split("=");
-			for (int j = 0; j < split.length; j++) {
-				nicknameRedirects.put(split[j], split[0]);
-				if (j == 0) {
-					nicknameMap.put(split[0], new ArrayList<String>());
-				} else {
-					nicknameMap.get(split[0]).add(split[j]);
-				}
+		List<String> nameList = new ArrayList<>();
+		Map<String, Integer> nameIndices = new HashMap<>();
+		Map<String, Integer> nicknameRedirects = new HashMap<>();
+
+		characters = characters.trim();
+		StringBuilder sb = new StringBuilder();
+		String last = null;
+		for (int i=0; i<=characters.length(); i++) {
+			char c = 0;
+			if (i < characters.length()) { // handle the last person
+				c = characters.charAt(i);
 			}
-        }
+			if (Character.isAlphabetic(c)) {
+				sb.append(c);
+			} else {
+				int index = nameIndices.size();
+				if (last == null) {
+					last = sb.toString();
+					nameList.add(last);
+					nameIndices.put(last, index);
+					nicknameRedirects.put(last, index);
+				} else {
+					nicknameRedirects.put(sb.toString(), index - 1);
+				}
+				sb = new StringBuilder();
+			}
+			if (c == ' ') {
+				last = null;
+			}
+		}
+
 		// split into every distinct name, independent of people
-		String[] names = characters.split("[ =]");
-		int nameCount = names.length;
+		int nameCount = nameIndices.size();
+		String[] names = nameList.toArray(new String[nameCount]);
 		int[][] matrix = new int[nameCount][nameCount];
-		int uniqueNameCount = nameCount - nicknameRedirects.size();
-		int[][] matrix2 = new int[uniqueNameCount][uniqueNameCount];
 
 		String[] input = text.split(" ");
 
@@ -61,32 +76,38 @@ public class MatrixConstructor {
 
 		List<Encounter> edgeWeights = new ArrayList<>();
 		for (int i=0; i < input.length; i++) { // iterate through text
-			for (int n1=0; n1 < nameCount; n1++) { // iterate through names
-				String primary = names[n1];
+			for (String primary : nicknameRedirects.keySet()) { // iterate through names
 				if (isName(input[i], primary)) {
-					Set<Integer> neighbors = new HashSet<>();
+					int m1 = nicknameRedirects.get(primary);
+//					Set<Integer> neighbors = new HashSet<>();
 					// search adjacent words in either direction
-                    for (int j = Math.max(0, i-REACH); j<=Math.min(input.length-1, i+REACH); j++) {
-                        for (int n2=0; n2 < nameCount; n2++){
-							String secondary = names[n2];
-							if (n1 < n2 && isName(input[j], secondary)) {
-//								neighbors.add(n2);
-								if (!nicknameRedirects.get(primary).equals(nicknameRedirects.get(secondary))) {
-                                    matrix[n1][n2]++;
-                                    matrix[n2][n1]++;
-                                    String context = "";
-                                    for (int contextInd = Math.min(i, j) - 5; contextInd <  Math.max(i, j) + 5; contextInd++) {
-                                        try{
-                                            context += input[contextInd] + " ";
-                                        } catch(Exception ignored) {}
-                                    }
-                                    edgeWeights.add(new Encounter(primary, secondary, i, j, context));
-                                }
+					for (int j = i - 1; j >= Math.max(0, i - REACH); j--) {
+						for (String secondary : nicknameRedirects.keySet()) {
+							if (isName(input[j], secondary)) {
+								int m2 = nicknameRedirects.get(secondary);
+								if (m1 != m2) {
+									matrix[m1][m2]++;
+									matrix[m2][m1]++;
+//									neighbors.add(m2);
+
+									String context = "";
+									for (int contextInd = Math.min(i, j) - 5; contextInd < Math.max(i, j) + 5; contextInd++) {
+										try {
+											context += input[contextInd] + " ";
+										} catch (Exception ignored) {
+										}
+									}
+									edgeWeights.add(new Encounter(primary, secondary, i, j, context));
+								}
 							}
-                        }
-                    }
-                }
-            }
+						}
+					}
+//					for (int m2 : neighbors) {
+//						matrix[m1][m2]++;
+//						matrix[m2][m1]++;
+//					}
+				}
+			}
         }
 
 		System.out.println();
@@ -98,7 +119,7 @@ public class MatrixConstructor {
 		System.out.println();
 		System.out.println("============ By Character (including alt. names): ===========");
 
-		for (String name : names) {
+		for (String name : nicknameRedirects.keySet()) {
             System.out.println();
             System.out.println(name + ":");
             for (Encounter edgeWeight : edgeWeights) {
@@ -134,7 +155,7 @@ public class MatrixConstructor {
 		System.out.println();
 
 		MatrixAndNames data = new MatrixAndNames(matrix, names);
-		data.clean(nicknameMap, NOISE);
+		data.cleanNoise(NOISE);
 
 		System.out.println();
 		System.out.println();
@@ -143,7 +164,7 @@ public class MatrixConstructor {
 		System.out.println("=============================================================");
 		System.out.println();
 
-		printResultCSV(data, "src/main/resources/data/logs/GoT1-16-4-matrix2.csv");
+		printResultCSV(data, "src/main/resources/data/logs/GoT1-16-4-matrix.csv");
 
 		System.out.println();
 		System.out.println();
