@@ -4,7 +4,7 @@ public class CharacterLists {
 	
 	public static final String NEW_SHORT_LIST = "Eddard=Ned Catelyn Robb Sansa Arya Bran Rickon Jon Benjen Lyanna Theon=Reek Roose Ramsay Hodor Osha Luwin " +
 			"Rodrik Mordane Nan Walton Jojen Meera Jeyne Rickard Daenerys=Dany=Khaleesi Viserys Rhaegar Aegon=Egg Aerys Connington Jorah " +
-			"Brynden=Bloodraven Missandei Daario Worm Rakharo Doreah Irri Mirri Qotho Kraznys Xaro Pyat Quaithe Belwas Lysa Sweetrobin Yohn Tywin " +
+			"Missandei Daario Worm Rakharo Doreah Irri Mirri Qotho Kraznys Xaro Pyat Quaithe Belwas Lysa Sweetrobin Yohn Tywin " +
 			"Cersei Jaime=Kingslayer Joffrey Myrcella Tommen Tyrion=Imp=Halfman Kevan Lancel Bronn Gregor=Mountain Sandor=Hound Podrick=Pod Shae " +
 			"Chataya Amory Hallyne Robert Stannis Selyse Shireen Melisandre Davos Renly Brienne Beric Gendry Anguy Meryn Salladhor Matthos Cressen " +
 			"Balon Asha Euron Victarion Aeron=Damphair Dagmer Doran Arianne Quentyn Trystane Elia Oberyn Ellaria Obara Nymeria Tyene Sarella Obella " +
