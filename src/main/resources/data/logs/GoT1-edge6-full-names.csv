@@ -41,10 +41,13 @@ Source,Target,Weight,Type
 "Eddard","Boros",6.0,undirected
 "Eddard","Lyanna",33.0,undirected
 "Eddard","Vayon",24.0,undirected
+"Eddard","Raymun",5.0,undirected
 "Eddard","Balon",13.0,undirected
 "Eddard","Galbart",6.0,undirected
+"Eddard","Desmond",5.0,undirected
 "Eddard","Harwin",4.0,undirected
 "Eddard","Gerold",4.0,undirected
+"Eddard","Cayn",8.0,undirected
 "Eddard","Torrhen",9.0,undirected
 "Eddard","Robar",4.0,undirected
 "Jon","Tyrion",89.0,undirected
@@ -86,6 +89,7 @@ Source,Target,Weight,Type
 "Jon","Chett",7.0,undirected
 "Jon","Dareon",9.0,undirected
 "Jon","Rast",11.0,undirected
+"Jon","Othor",6.0,undirected
 "Tyrion","Brandon",35.0,undirected
 "Tyrion","Catelyn",71.0,undirected
 "Tyrion","Robert",19.0,undirected
@@ -118,10 +122,14 @@ Source,Target,Weight,Type
 "Tyrion","Tommen",6.0,undirected
 "Tyrion","Willis",9.0,undirected
 "Tyrion","Marillion",11.0,undirected
+"Tyrion","Timett",6.0,undirected
 "Tyrion","Lyn",4.0,undirected
+"Tyrion","Shae",16.0,undirected
 "Tyrion","Chiggen",5.0,undirected
 "Tyrion","Jyck",10.0,undirected
 "Tyrion","Morrec",9.0,undirected
+"Tyrion","Chella",5.0,undirected
+"Tyrion","Flement",6.0,undirected
 "Brandon","Catelyn",39.0,undirected
 "Brandon","Robert",14.0,undirected
 "Brandon","Arya",30.0,undirected
@@ -139,6 +147,7 @@ Source,Target,Weight,Type
 "Brandon","Hodor",55.0,undirected
 "Brandon","Rickon",46.0,undirected
 "Brandon","Aerys",23.0,undirected
+"Brandon","Osha",23.0,undirected
 "Brandon","Rickard",9.0,undirected
 "Brandon","Lyanna",8.0,undirected
 "Brandon","Tommen",6.0,undirected
@@ -174,7 +183,9 @@ Source,Target,Weight,Type
 "Catelyn","Marillion",8.0,undirected
 "Catelyn","Hallis",6.0,undirected
 "Catelyn","Stevron",8.0,undirected
+"Catelyn","Moreo",4.0,undirected
 "Catelyn","Hal",7.0,undirected
+"Catelyn","Donnel",9.0,undirected
 "Catelyn","Wylis",4.0,undirected
 "Catelyn","Robett",5.0,undirected
 "Catelyn","Jared",5.0,undirected
@@ -199,6 +210,8 @@ Source,Target,Weight,Type
 "Daenerys","Ogo",5.0,undirected
 "Daenerys","Rakharo",6.0,undirected
 "Daenerys","Quaro",6.0,undirected
+"Daenerys","Jhaqo",4.0,undirected
+"Daenerys","Rhaggat",5.0,undirected
 "Robert","Sansa",10.0,undirected
 "Robert","Joffrey",19.0,undirected
 "Robert","Tywin",9.0,undirected
@@ -330,6 +343,8 @@ Source,Target,Weight,Type
 "Drogo","Cohollo",12.0,undirected
 "Drogo","Ogo",13.0,undirected
 "Drogo","Rakharo",4.0,undirected
+"Drogo","Rhaego",9.0,undirected
+"Drogo","Jommo",5.0,undirected
 "Tywin","Jaime",21.0,undirected
 "Tywin","Varys",4.0,undirected
 "Tywin","Cersei",7.0,undirected
@@ -423,6 +438,7 @@ Source,Target,Weight,Type
 "Renly","Janos",4.0,undirected
 "Renly","Balon",8.0,undirected
 "Renly","Mace",4.0,undirected
+"Renly","Margaery",4.0,undirected
 "Lysa","Stannis",8.0,undirected
 "Lysa","Brynden",12.0,undirected
 "Lysa","Loras",4.0,undirected
@@ -458,6 +474,7 @@ Source,Target,Weight,Type
 "Barristan","Arthur",4.0,undirected
 "Barristan","Gerold",4.0,undirected
 "Barristan","Arys",4.0,undirected
+"Barristan","Preston",4.0,undirected
 "Sandor","Gregor",17.0,undirected
 "Sandor","Loras",7.0,undirected
 "Sandor","Janos",4.0,undirected
@@ -521,6 +538,7 @@ Source,Target,Weight,Type
 "Aemon","Aegon",6.0,undirected
 "Aemon","Bowen",6.0,undirected
 "Aemon","Chett",8.0,undirected
+"Aemon","Ryam",8.0,undirected
 "Aemon","Cregan",4.0,undirected
 "Brynden","Walder",4.0,undirected
 "Brynden","Edmure",5.0,undirected
@@ -564,6 +582,7 @@ Source,Target,Weight,Type
 "Meryn","Balon",4.0,undirected
 "Meryn","Harwin",4.0,undirected
 "Grenn","Halder",9.0,undirected
+"Ilyn","Podrick",4.0,undirected
 "Irri","Doreah",15.0,undirected
 "Irri","Jhogo",7.0,undirected
 "Beric","Hoster",4.0,undirected
@@ -615,6 +634,7 @@ Source,Target,Weight,Type
 "Yohn","Robar",4.0,undirected
 "Yohn","Andar",4.0,undirected
 "Arthur","Gerold",6.0,undirected
+"Arthur","Willem",4.0,undirected
 "Wendel","Dacey",4.0,undirected
 "Rakharo","Quaro",8.0,undirected
 "Karyl","Tytos",4.0,undirected
@@ -624,7 +644,9 @@ Source,Target,Weight,Type
 "Tytos","Maege",4.0,undirected
 "Tytos","Jonos",8.0,undirected
 "Tytos","Shella",4.0,undirected
+"Tytos","Garth",4.0,undirected
 "Harwin","Hullen",4.0,undirected
+"Gerold","Oswell",6.0,undirected
 "Randyll","Mace",4.0,undirected
 "Wylis","Harrion",4.0,undirected
 "Torrhen","Patrek",4.0,undirected
@@ -640,3 +662,4 @@ Source,Target,Weight,Type
 "Hosteen","Ronel",4.0,undirected
 "Patrek","Smalljon",4.0,undirected
 "Mark","Ethan",4.0,undirected
+"Gowen","Tya",4.0,undirected

@@ -514,11 +514,6 @@ public class CharacterFinder {
         nondescriptors.addAll(getPlurals(pluralizedNames));
         nondescriptors.addAll(surnames);
         nondescriptors.addAll(getPlurals(surnames));
-        for (String s : surnames) {
-            if (!s.endsWith("s")) {
-                nondescriptors.add(s + "s");
-            }
-        }
         nondescriptors.addAll(places);
         CharacterGroups characterGroups = new CharacterGroups(reducedCounter, nondescriptors);
 

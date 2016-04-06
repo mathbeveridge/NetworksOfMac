@@ -16,7 +16,7 @@ public class MatrixConstructor {
 		String characters = getCharacters("src/main/resources/data/characters/ari-list-no-dup.txt");
 		String text = getText("src/main/resources/text/got.txt");
 		printResultCSV(getData(characters, text, REACH, NOISE, "src/main/resources/data/logs/log.txt"),
-				"src/main/resources/data/logs/GoT1-16-4-matrix5.csv");
+				"src/main/resources/data/logs/GoT1-mat6-full-names.csv");
 	}
 
 	private static String getCharacters(String file) {
@@ -148,7 +148,7 @@ public class MatrixConstructor {
 
 		MatrixAndNames data = new MatrixAndNames(matrix, names);
 		logger.log(data.cleanNoise(noise));
-		logger.log(data.cleanSingletons());
+//		logger.log(data.cleanSingletons());
 
 		logger.log();
 		logger.log("=============================================================");
@@ -188,7 +188,7 @@ public class MatrixConstructor {
 									context.append(input[j]).append(" ");
 								} catch (Exception ignored) {}
 							}
-							edgeWeights.add(new Encounter(primary, secondary, index1, index2, context.toString()));
+							edgeWeights.add(new Encounter(primary, secondary, context.toString()));
 						}
 					}
 				}
@@ -226,7 +226,7 @@ public class MatrixConstructor {
 						if (index1 != index2) {
 							matrix[index1][index2]++;
 							matrix[index2][index1]++;
-							edgeWeights.add(new Encounter(primary, secondary, index1, index2, search.toString()));
+							edgeWeights.add(new Encounter(primary, secondary, search.toString()));
 						}
 					}
 				}
