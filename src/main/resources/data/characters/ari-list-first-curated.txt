@@ -1,0 +1,168 @@
+Eddard, Eddard, Ned
+Jon, Snow, Jon
+Tyrion, Imp, Tyrion
+Brandon, Bran, Brandon
+Catelyn, Catelyn
+Daenerys, Stormborn, Dany, Khaleesi, Daenerys
+Robert, Robert, Usurper
+Arya, Arya
+Robb, Robb
+Sansa, Sansa
+Mirri, Mirri, Maz, Duur
+Joffrey, Joffrey, Joff
+Drogo, Drogo
+Tywin, Tywin
+Jorah, Jorah, Andal
+Jaime, Kingslayer, Jaime
+Petyr, Littlefinger, Petyr
+Rodrik, Rodrik
+Samwell, Piggy, Sam, Samwell
+Renly, Renly
+Lysa, Lysa
+Varys, Varys, Spider
+Cersei, Cersei
+Pycelle, Pycelle
+Barristan, Bold, Barristan
+Sandor, Sandor, Hound
+Gregor, Mountain, Gregor
+Benjen, Jen, Benjen, Ben
+Stannis, Stannis
+Bronn, Bronn
+Theon, Theon
+Viserys, Viserys
+Alliser, Alliser
+Jory, Jory
+Syrio, Syrio, Forel
+Aemon, Dragonknight, Aemon
+Illyrio, Illyrio, Mopatis
+Brynden, Blackfish, Brynden
+Nan, Nan
+Hodor, Hodor
+Walder, Walder
+Loras, Loras
+Vardis, Vardis
+Rickon, Rickon
+Janos, Slynt, Janos
+Pyp, Pyp
+Rhaegar, Rhaegar
+Jeyne, Jeyne
+Jeor, Mormont, Jeor
+Aerys, Mad, Aerys
+Aegon, Aegon, Conqueror, Fortunate
+Meryn, Meryn
+Edmure, Edmure
+Grenn, Grenn
+Ilyn, Ilyn
+Irri, Irri
+Hoster, Hoster
+Beric, Beric
+Kevan, Kevan
+Qotho, Qotho
+Jaremy, Jaremy
+Osha, Osha
+Doreah, Doreah
+Waymar, Waymar
+Yoren, Yoren
+Halder, Halder
+Greatjon, Greatjon
+Roose, Roose
+Rickard, Rickard
+Bowen, Bowen
+Myrcella, Myrcella
+Boros, Boros
+Lyanna, Lyanna
+Jhogo, Jhogo
+Tommen, Tommen
+Vayon, Vayon
+Balon, Balon
+Raymun, Raymun
+Willis, Willis
+Aggo, Aggo
+Marillion, Marillion
+Hallis, Hallis
+Addam, Addam
+Haggo, Haggo
+Aron, Aron
+Galbart, Galbart
+Jason, Jason
+Stevron, Stevron
+Cohollo, Cohollo
+Ogo, Ogo
+Chett, Chett
+Timett, Timett
+Mycah, Mycah
+Lyn, Lyn
+Yohn, Bronze, Yohn
+Arthur, Arthur
+Wendel, Wendel
+Nestor, Nestor
+Shae, Shae
+Moreo, Tumitis, Moreo
+Rakharo, Rakharo
+Chiggen, Chiggen
+Desmond, Desmond
+Tytos, Tytos
+Karyl, Karyl
+Jyck, Jyck
+Harwin, Harwin
+Quaro, Quaro
+Hullen, Hullen
+Hal, Hal
+Randyll, Randyll
+Dareon, Dareon
+Donnel, Donnel
+Rhaego, Rhaego
+Gerold, Gerold
+Morrec, Morrec
+Cayn, Cayn
+Maege, Maege
+Wylis, Wylis
+Rast, Rast
+Chella, Chella
+Flement, Flement
+Stiv, Stiv
+Othor, Othor
+Jhaqo, Jhaqo
+Alyssa, Alyssa
+Torrhen, Torrhen
+Jonos, Jonos
+Arys, Arys
+Robett, Robett
+Robar, Robar
+Willem, Willem
+Mace, Mace
+Jared, Jared
+Oswell, Oswell
+Danwell, Danwell
+Ashara, Ashara
+Mandon, Mandon
+Martyn, Martyn
+Hosteen, Hosteen
+Horas, Horas
+Rhaggat, Rhaggat
+Jommo, Jommo
+Patrek, Patrek
+Harrion, Harrion
+Pono, Pono
+Albar, Albar
+Preston, Preston
+Andar, Andar
+Shella, Shella
+Ryam, Ryam
+Morton, Morton
+Olyvar, Olyvar
+Podrick, Podrick
+Margaery, Margaery
+Rhae, Mhar, Rhae
+Amory, Lorch, Amory
+Mark, Mark, Ryswell
+Moro, Moro
+Ronel, Ronel
+Forley, Forley
+Gowen, Gowen
+Tya, Tya
+Smalljon, Smalljon
+Dacey, Dacey
+Garth, Garth
+Ethan, Ethan
+Cregan, Cregan

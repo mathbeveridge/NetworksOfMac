@@ -15,8 +15,8 @@ public class CsvToEdgeList {
 		CSVReader csvReader = null;
 		BufferedWriter edgeWriter = null;
 		try {
-			csvReader = new CSVReader(new BufferedReader(new FileReader("src/main/resources/data/logs/GoT1-16-4.csv")), ',');
-			edgeWriter = new BufferedWriter(new FileWriter("src/main/resources/data/logs/GoT1-16-4-edges.csv"));
+			csvReader = new CSVReader(new BufferedReader(new FileReader("src/main/resources/data/logs/GoT1-16-4-matrix3.csv")), ',');
+			edgeWriter = new BufferedWriter(new FileWriter("src/main/resources/data/logs/GoT1-16-4-edges3.csv"));
 
 			String[] headers = csvReader.readNext();
 
