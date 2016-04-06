@@ -1,7 +1,7 @@
 Eddard, Eddard, Ned
 Jon, Snow, Jon
 Tyrion, Imp, Tyrion
-Brandon, Bran, Brandon, Burner, Shipwright
+Brandon, Bran, Brandon, Burner, Shipwright, Broken
 Catelyn, Catelyn
 Daenerys, Stormborn, Dany, Khaleesi, Daenerys
 Robert, Robert, Usurper
@@ -29,6 +29,7 @@ Benjen, Jen, Benjen, Ben
 Stannis, Stannis
 Bronn, Bronn
 Theon, Theon
+Jeor, Mormont, Bear, Jeor
 Viserys, Viserys
 Alliser, Alliser
 Jory, Jory
@@ -46,7 +47,6 @@ Janos, Slynt, Janos
 Pyp, Pyp
 Rhaegar, Rhaegar
 Jeyne, Jeyne
-Jeor, Mormont, Jeor
 Aerys, Mad, Aerys
 Aegon, Aegon, Conqueror, Fortunate
 Meryn, Meryn

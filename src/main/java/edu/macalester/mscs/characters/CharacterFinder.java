@@ -29,7 +29,6 @@ public class CharacterFinder {
             "High", "Great", "Grand", "First", "Second", // superlatives
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
             "Black", "Red", "Green", "Blue", // colors
-            "Bear", "Broken", // miscellaneous
             "Land", "Lands", "Sea", "Seas", "Island", "City", "Cities", // geographics
             "Alley", "Gate", "Keep", "Market", "Tower" // landmarks
     ));
@@ -383,7 +382,6 @@ public class CharacterFinder {
                 }
                 line.append(name);
             }
-            line.append('\n');
             lines.add(line.toString());
         }
         System.out.println();
@@ -420,7 +418,6 @@ public class CharacterFinder {
                 }
                 line.append(name);
             }
-            line.append('\n');
             lines.add(line.toString());
         }
         System.out.println();
@@ -465,7 +462,6 @@ public class CharacterFinder {
                 }
                 line.append(name);
             }
-            line.append('\n');
             lines.add(line.toString());
         }
         System.out.println();
