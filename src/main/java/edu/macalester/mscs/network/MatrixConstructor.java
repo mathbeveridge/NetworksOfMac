@@ -13,7 +13,7 @@ public class MatrixConstructor {
 	public static final int REACH = 20;
 
 	public static void main(String[] args){
-		String characters = getCharacters("src/main/resources/data/characters/ari-list-first.txt");
+		String characters = getCharacters("src/main/resources/data/characters/ari-list-no-dup.txt");
 		String text = getText("src/main/resources/text/got.txt");
 		printResultCSV(getData(characters, text, REACH, NOISE, "src/main/resources/data/logs/log.txt"),
 				"src/main/resources/data/logs/GoT1-16-4-matrix5.csv");
@@ -67,7 +67,7 @@ public class MatrixConstructor {
 			if (i < characters.length()) { // handle the last person
 				c = characters.charAt(i);
 			}
-			if (Character.isAlphabetic(c)) {
+			if (c == ' ' || Character.isAlphabetic(c)) {
 				sb.append(c);
 			} else {
 				int index = nameList.size();
@@ -204,8 +204,7 @@ public class MatrixConstructor {
 
 	private static List<Encounter> buildMatrix2(int[][] matrix, Map<String, Integer> nameIndices, String text, int reach) {
 		List<Encounter> edgeWeights = new ArrayList<>();
-		String search = "";
-
+		StringBuilder search = new StringBuilder();
 		Queue<String> nameQueue = new ArrayDeque<>(reach + 1);
 		for (int i = 0; i < text.length() - 1; i++) {
 			char c = text.charAt(i);
@@ -213,7 +212,7 @@ public class MatrixConstructor {
 			boolean notLetter = !Character.isAlphabetic(c);
 			if (notLetter) {
 				for (String name : nameIndices.keySet()) {
-					if (endsWithName(search, name)) {
+					if (endsWithName(search.toString(), name)) {
 						primary = name;
 					}
 				}
@@ -227,16 +226,16 @@ public class MatrixConstructor {
 						if (index1 != index2) {
 							matrix[index1][index2]++;
 							matrix[index2][index1]++;
-							edgeWeights.add(new Encounter(primary, secondary, index1, index2, search));
+							edgeWeights.add(new Encounter(primary, secondary, index1, index2, search.toString()));
 						}
 					}
 				}
 			}
 			// update the search string
-			search += c;
+			search.append(c);
 			// cut the string to size
 			if (StringUtils.countMatches(search, ' ') > reach) {
-				search = search.substring(search.indexOf(' ') + 1);
+				search = new StringBuilder(search.substring(search.indexOf(" ") + 1));
 			}
 			// update the queue if a word just finished
 			if (i > 0 && notLetter && Character.isAlphabetic(text.charAt(i - 1))) {
