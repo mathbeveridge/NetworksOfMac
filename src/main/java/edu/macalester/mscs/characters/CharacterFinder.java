@@ -378,7 +378,7 @@ public class CharacterFinder {
                 if (first) {
                     first = false;
                 } else {
-                    line.append(", ");
+                    line.append(",");
                 }
                 line.append(name);
             }
@@ -414,7 +414,7 @@ public class CharacterFinder {
                 if (first) {
                     first = false;
                 } else {
-                    line.append(", ");
+                    line.append(",");
                 }
                 line.append(name);
             }
@@ -458,7 +458,7 @@ public class CharacterFinder {
                 if (first) {
                     first = false;
                 } else {
-                    line.append(", ");
+                    line.append(",");
                 }
                 line.append(name);
             }

@@ -54,8 +54,8 @@ public class MatrixConstructor {
 		Logger logger = new Logger();
 
 		List<String> nameList = new ArrayList<>();
+		// nicknames direct to the primary name
 		Map<String, Integer> nameIndices = new HashMap<>();
-		Map<String, Integer> nicknameRedirects = new HashMap<>();
 
 		characters = characters.trim();
 		StringBuilder sb = new StringBuilder();
@@ -68,14 +68,13 @@ public class MatrixConstructor {
 			if (Character.isAlphabetic(c)) {
 				sb.append(c);
 			} else {
-				int index = nameIndices.size();
+				int index = nameList.size();
 				if (last == null) {
 					last = sb.toString();
 					nameList.add(last);
 					nameIndices.put(last, index);
-					nicknameRedirects.put(last, index);
 				} else {
-					nicknameRedirects.put(sb.toString(), index - 1);
+					nameIndices.put(sb.toString(), index - 1);
 				}
 				sb = new StringBuilder();
 			}
@@ -85,7 +84,7 @@ public class MatrixConstructor {
 		}
 
 		// split into every distinct name, independent of people
-		int nameCount = nameIndices.size();
+		int nameCount = nameList.size();
 		String[] names = nameList.toArray(new String[nameCount]);
 		int[][] matrix = new int[nameCount][nameCount];
 
@@ -112,17 +111,17 @@ public class MatrixConstructor {
 			String chunk = input[i]; // iterate through text
 			// get the current name
 			String primary = "";
-			for (String name : nicknameRedirects.keySet()) {
+			for (String name : nameIndices.keySet()) {
 				if (isName(chunk, name)) {
 					primary = name;
 				}
 			}
 			// tally neighbors
 			if (!primary.isEmpty()) {
-				int index1 = nicknameRedirects.get(primary);
+				int index1 = nameIndices.get(primary);
 				for (String secondary : nameQueue) {
 					if (!secondary.isEmpty()) {
-						int index2 = nicknameRedirects.get(secondary);
+						int index2 = nameIndices.get(secondary);
 						if (index1 != index2) {
 							matrix[index1][index2]++;
 							matrix[index2][index1]++;
@@ -149,7 +148,7 @@ public class MatrixConstructor {
 		logger.log();
 		logger.log("============ By Character (including alt. names): ===========");
 
-		for (String name : nicknameRedirects.keySet()) {
+		for (String name : nameIndices.keySet()) {
 			logger.log();
             logger.log(name + ":");
             for (Encounter edgeWeight : edgeWeights) {
