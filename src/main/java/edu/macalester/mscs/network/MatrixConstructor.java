@@ -16,7 +16,7 @@ public class MatrixConstructor {
 		String characters = getCharacters("src/main/resources/data/characters/ari-list-first.txt");
 		String text = getText("src/main/resources/text/got.txt");
 		printResultCSV(getData(characters, text, REACH, NOISE, "src/main/resources/data/logs/log.txt"),
-				"src/main/resources/data/logs/GoT1-16-4-matrix3.csv");
+				"src/main/resources/data/logs/GoT1-16-4-matrix4.csv");
 	}
 
 	private static String getCharacters(String file) {
@@ -184,9 +184,9 @@ public class MatrixConstructor {
 		logger.log();
 
 		MatrixAndNames data = new MatrixAndNames(matrix, names);
-		data.cleanNoise(noise);
+		logger.log(data.cleanNoise(noise));
+		logger.log(data.cleanSingletons());
 
-		logger.log();
 		logger.log();
 		logger.log("=============================================================");
 		logger.log("========================= End of log ========================");

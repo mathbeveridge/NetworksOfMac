@@ -19,7 +19,13 @@ public class Logger {
     }
 
     public void log() {
-        log(null);
+        log((Object) null);
+    }
+
+    public void log(List<?> list) {
+        for (Object o : list) {
+            log(o);
+        }
     }
 
     public void log(Object o) {

@@ -1,8 +1,8 @@
 package edu.macalester.mscs.network;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 
 public class MatrixAndNames {
@@ -30,29 +30,7 @@ public class MatrixAndNames {
 		return names.length;
 	}
 
-	public void cleanNicknames(Map<String, List<String>> nicknameMap) {
-		// total nickname data and get nicknames to be removed
-		Set<Integer> removed = new HashSet<>();
-		for (int i=0; i<length(); i++) {
-			if (nicknameMap.containsKey(names[i])) {
-				int j = i + 1;
-				while (j < length() && nicknameMap.get(names[i]).contains(names[j])) {
-					for (int k=0; k<length(); k++){
-						if (k != i) {
-							matrix[k][i] += matrix[k][j];
-							matrix[i][k] = matrix[k][i];
-						}
-					}
-					removed.add(j);
-					j++;
-				}
-			}
-		}
-		// actually remove the data
-		removeRows(removed);
-	}
-
-	public void cleanNoise(int noise) {
+	public String cleanNoise(int noise) {
 		// clean noise
 		for (int i=0; i<length(); i++) {
 			for (int j=0; j<length(); j++) {
@@ -78,32 +56,80 @@ public class MatrixAndNames {
 				removed.add(i);
 			}
 		}
-		removeRows(removed);
+		return removeRows(removed);
 	}
 
-	private void removeRows(Set<Integer> removed) {
-		int newLength = length() - removed.size();
-		String[] cleanNames = new String[newLength];
-		int[][] cleanMatrix = new int[newLength][newLength];
-		System.out.println();
-		System.out.print("Names removed(s): ");
-		int row=0;
-		for(int i=0; i < length(); i++){
-			if (!removed.contains(i)) {
-				cleanNames[row] = names[i]; // clean names
-				int col = 0;
-				for (int j=0; j<length(); j++) { // clean matrix
-					if (!removed.contains(j)) {
-						cleanMatrix[row][col] = matrix[i][j];
-						col++;
+	public List<String> cleanSingletons() {
+		List<String> lines = new ArrayList<>();
+		// get people with only one connection
+		Set<Integer> removed = new HashSet<>();
+		int interations = 0;
+		do {
+			removed.clear();
+			for (int i = 0; i < length(); i++) {
+				int neighbors = 0;
+				for (int j = 0; j < length(); j++) {
+					if (matrix[i][j] > 0) {
+						neighbors++;
 					}
 				}
-				row++;
-			} else {
-				System.out.print(names[i]+" ");
+				if (neighbors < 2) {
+					removed.add(i);
+				}
 			}
+			lines.add(removeRows(removed));
+			interations++;
+		} while (!removed.isEmpty());
+		return lines;
+	}
+
+	public List<String> cleanSingletons(int iterations) {
+		List<String> lines = new ArrayList<>();
+		// get people with only one connection
+		for (int n=0; n<iterations; n++) {
+			Set<Integer> removed = new HashSet<>();
+			for (int i=0; i<length(); i++) {
+                int neighbors = 0;
+                for (int j=0; j<length(); j++) {
+                    if (matrix[i][j] > 0) {
+                        neighbors++;
+                    }
+                }
+                if (neighbors < 2) {
+                    removed.add(i);
+                }
+            }
+			lines.add(removeRows(removed));
 		}
-		names = cleanNames;
-		matrix = cleanMatrix;
+		return lines;
+	}
+
+	private String removeRows(Set<Integer> removed) {
+		StringBuilder sb = new StringBuilder();
+		if (!removed.isEmpty()) {
+			int newLength = length() - removed.size();
+			String[] cleanNames = new String[newLength];
+			int[][] cleanMatrix = new int[newLength][newLength];
+			sb.append("Names removed(s): ");
+			int row=0;
+			for(int i=0; i < length(); i++){
+                if (!removed.contains(i)) {
+                    cleanNames[row] = names[i]; // clean names
+                    int col = 0;
+                    for (int j=0; j<length(); j++) { // clean matrix
+                        if (!removed.contains(j)) {
+                            cleanMatrix[row][col] = matrix[i][j];
+                            col++;
+                        }
+                    }
+                    row++;
+                } else {
+                    sb.append(names[i]).append(" ");
+                }
+            }
+			names = cleanNames;
+			matrix = cleanMatrix;
+		}
+		return sb.toString();
 	}
 }
