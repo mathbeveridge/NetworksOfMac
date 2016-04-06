@@ -481,7 +481,6 @@ public class CharacterFinder {
         Set<String> surnames = getSurnames(counter.keySet(), GENERAL_WORDS);
         Set<String> names = getNames(counter.keySet(), surnames, GENERAL_WORDS);
         names.addAll(titledNames);
-        Set<String> firstNames = getFirstNames(names, GENERAL_WORDS);
         Set<String> places = getPlaces(counter.keySet());
         Set<String> lonely = getLonelyWords(counter.keySet());
 
@@ -593,8 +592,11 @@ public class CharacterFinder {
         names.remove("Ben Stark");     // as Benjen Stark
         names.remove("Theon Stark");   // as Theon Greyjoy
 
+        Set<String> firstNames = getFirstNames(names, GENERAL_WORDS);
+
         FileUtils.writeFile(getFullNameList(characterGroups), "src/main/resources/data/characters/ari-list-full.txt");
         FileUtils.writeFile(getCleanNameList(characterGroups, names), "src/main/resources/data/characters/ari-list-clean.txt");
+        FileUtils.writeFile(getCleanNameList(characterGroups, firstNames), "src/main/resources/data/characters/ari-list-no-dup.txt");
         FileUtils.writeFile(getFirstNameList(characterGroups, names, GENERAL_WORDS), "src/main/resources/data/characters/ari-list-first.txt");
 
     }
