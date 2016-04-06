@@ -104,8 +104,8 @@ public class MatrixConstructor {
 		logger.log("================== PART 2: Edge Collection ==================");
 		logger.log("=============================================================");
 
-		// TODO: avoid multiple hits per encounter
 		// TODO: allow for multi-word names
+		// TODO: avoid multiple hits per encounter (maybe who not actually)
 		List<Encounter> edgeWeights = new ArrayList<>();
 		Queue<String> nameQueue = new ArrayDeque<>(reach + 1);
 		for (String chunk : input) { // iterate through text
