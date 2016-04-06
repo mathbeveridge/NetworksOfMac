@@ -105,7 +105,7 @@ public class MatrixConstructor {
 		logger.log("=============================================================");
 
 		// TODO: allow for multi-word names
-		// TODO: avoid multiple hits per encounter (maybe who not actually)
+		// TODO: avoid multiple hits per encounter (maybe not actually)
 		List<Encounter> edgeWeights = new ArrayList<>();
 		Queue<String> nameQueue = new ArrayDeque<>(reach + 1);
 		for (int i = 0; i < input.length; i++) {
