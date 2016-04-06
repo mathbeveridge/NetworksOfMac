@@ -13,9 +13,31 @@ public class MatrixConstructor {
 	public static final int REACH = 20;
 
 	public static void main(String[] args){
-		printResultCSV(getData(CharacterLists.NEW_SHORT_LIST, getText("src/main/resources/text/got.txt"), REACH, NOISE,
-						"src/main/resources/data/logs/log.txt"),
-				"src/main/resources/data/logs/GoT1-16-4-matrix2.csv");
+		String characters = getCharacters("src/main/resources/data/characters/ari-list-first.txt");
+		String text = getText("src/main/resources/text/got.txt");
+		printResultCSV(getData(characters, text, REACH, NOISE, "src/main/resources/data/logs/log.txt"),
+				"src/main/resources/data/logs/GoT1-16-4-matrix3.csv");
+	}
+
+	private static String getCharacters(String file) {
+		List<String> lines = FileUtils.readFile(file);
+		StringBuilder sb = new StringBuilder();
+		boolean first = true;
+		for (String line : lines) {
+			if (first) {
+				first = false;
+			} else {
+				sb.append(" ");
+			}
+			String[] split = StringUtils.split(line, " ,");
+			sb.append(split[0]);
+			for (int i=1; i<split.length; i++) {
+				if (!split[0].equals(split[i])) {
+					sb.append("=").append(split[i]);
+				}
+			}
+		}
+		return sb.toString();
 	}
 
 	public static String getText(String file) {
