@@ -108,7 +108,8 @@ public class MatrixConstructor {
 		// TODO: avoid multiple hits per encounter (maybe who not actually)
 		List<Encounter> edgeWeights = new ArrayList<>();
 		Queue<String> nameQueue = new ArrayDeque<>(reach + 1);
-		for (String chunk : input) { // iterate through text
+		for (int i = 0; i < input.length; i++) {
+			String chunk = input[i]; // iterate through text
 			// get the current name
 			String primary = "";
 			for (String name : nicknameRedirects.keySet()) {
@@ -123,17 +124,17 @@ public class MatrixConstructor {
 					if (!secondary.isEmpty()) {
 						int index2 = nicknameRedirects.get(secondary);
 						if (index1 != index2) {
-                            matrix[index1][index2]++;
-                            matrix[index2][index1]++;
-                            String context = "";
-                            for (int contextInd = Math.min(index1, index2) - 5; contextInd < Math.max(index1, index2) + 5; contextInd++) {
-                                try {
-                                    context += input[contextInd] + " ";
-                                } catch (Exception ignored) {
-                                }
-                            }
-                            edgeWeights.add(new Encounter(primary, secondary, index1, index2, context));
-                        }
+							matrix[index1][index2]++;
+							matrix[index2][index1]++;
+							String context = "";
+							for (int j = i - 25; j < i + 5; j++) {
+								try {
+									context += input[j] + " ";
+								} catch (Exception ignored) {
+								}
+							}
+							edgeWeights.add(new Encounter(primary, secondary, index1, index2, context));
+						}
 					}
 				}
 			}

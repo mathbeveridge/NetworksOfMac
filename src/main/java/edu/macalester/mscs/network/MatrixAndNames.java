@@ -30,13 +30,15 @@ public class MatrixAndNames {
 		return names.length;
 	}
 
-	public String cleanNoise(int noise) {
+	public List<String> cleanNoise(int noise) {
+		List<String> lines = new ArrayList<>();
+		lines.add("Removing noisy connections:");
 		// clean noise
 		for (int i=0; i<length(); i++) {
 			for (int j=0; j<length(); j++) {
 				if (matrix[i][j] < noise && matrix[i][j] > 0) {
 					// remove really weak connections
-					System.out.println(names[i] +  ", " + names[j] + ", " + matrix[i][j]);
+					lines.add(names[i] +  ", " + names[j] + ", " + matrix[i][j]);
 					matrix[i][j] = 0;
 				}
 			}
@@ -56,7 +58,8 @@ public class MatrixAndNames {
 				removed.add(i);
 			}
 		}
-		return removeRows(removed);
+		lines.add(removeRows(removed));
+		return lines;
 	}
 
 	public List<String> cleanSingletons() {
