@@ -498,10 +498,13 @@ public class CharacterFinder {
             if (!noTitle.contains(" ") || !counter.containsKey(noTitle)) {
                 noTitle = cap;
             }
+//            if (!noTitle.contains(" ")) {
+//                noTitle = cap;
+//            }
             if (!reducedCounter.containsKey(noTitle)) {
                 reducedCounter.put(noTitle, 0);
             }
-            reducedCounter.put(noTitle, reducedCounter.get(noTitle) + counter.get(noTitle));
+            reducedCounter.put(noTitle, reducedCounter.get(noTitle) + counter.get(cap));
         }
 
 //        List<Map.Entry<String, Integer>> caps = new ArrayList<>(reducedCounter.entrySet());
