@@ -13,10 +13,10 @@ public class MatrixConstructor {
 	public static final int REACH = 20;
 
 	public static void main(String[] args){
-		String characters = getCharacters("src/main/resources/data/characters/ari-list-no-dup.txt");
+		String characters = getCharacters("src/main/resources/data/characters/ari-list-curated.txt");
 		String text = getText("src/main/resources/text/got.txt");
 		printResultCSV(getData(characters, text, REACH, NOISE, "src/main/resources/data/logs/log.txt"),
-				"src/main/resources/data/logs/GoT1-mat6-full-names.csv");
+				"src/main/resources/data/logs/GoT1-mat7-dup-names.csv");
 	}
 
 	private static String getCharacters(String file) {
@@ -103,8 +103,6 @@ public class MatrixConstructor {
 		logger.log("================== PART 2: Edge Collection ==================");
 		logger.log("=============================================================");
 
-		// TODO: allow for multi-word names
-		// TODO: avoid multiple hits per encounter (maybe not actually)
 		List<Encounter> edgeWeights = buildMatrix2(matrix, nameIndices, text, reach);
 
 		// This section is exclusively printing out stuff, has no actual code purpose
