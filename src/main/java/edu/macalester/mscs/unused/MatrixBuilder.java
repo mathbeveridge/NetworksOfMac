@@ -1,5 +1,6 @@
-package edu.macalester.mscs.network;
+package edu.macalester.mscs.unused;
 
+import edu.macalester.mscs.network.MatrixAndNames;
 import edu.uci.ics.jung.algorithms.layout.AggregateLayout;
 import edu.uci.ics.jung.algorithms.layout.CircleLayout;
 import edu.uci.ics.jung.algorithms.layout.FRLayout;
