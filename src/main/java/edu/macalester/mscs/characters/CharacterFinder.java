@@ -16,8 +16,9 @@ public class CharacterFinder {
             "My", "He", "His", "We", "Their", "Your", // pronouns  (It???)
             "This", "That", "There", // indirect pronouns
             "Who", "Why", // questions
-            "Man", "Men", "With", "If", "And", "Will", "Half", // miscellaneous
-            "House", "Houses", "Clan", "Lords", "Ladies", "Kings", // GoT specific
+            "Man", "Men", "With", "If", "And", "Will", "Half", "Free", "Watch",
+            "Wolf", "Hall", "Kingdoms", "Watchmen", "Shepherd", // miscellaneous
+            "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", // GoT specific
             "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons" // familial references
     ));
 
@@ -25,13 +26,14 @@ public class CharacterFinder {
     public static final Set<String> GENERAL_WORDS = new HashSet<>(Arrays.asList(
             "The", // titular articles
             "Lord", "Lady", "King", "Queen", "Regent", "Steward", "Prince", "Princess", // royal titles
-            "Ser", "Maester", "Captain", "Commander", "Magister", "Master", "Builder", // professional titles
-            "Young", "Old", // endearing titles
+            "Ser", "Maester", "Captain", "Commander", "Magister", "Master", "Builder",
+            "Septon", // professional titles
+            "Young", "Old", "Fat", // endearing titles
             "Khal", "Ko", // dothraki titles
             "High", "Great", "Grand", "First", "Second", // superlatives
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
             "Black", "Red", "Green", "Blue", // colors
-            "Land", "Lands", "Sea", "Seas", "Island", "City", "Cities", // geographics
+            "Land", "Lands", "Sea", "Seas", "Island", "Isles", "City", "Cities", // geographics
             "Alley", "Gate", "Keep", "Market", "Tower" // landmarks
     ));
 
@@ -72,16 +74,16 @@ public class CharacterFinder {
         return pieces;
     }
 
-    private static void addToCounter(Map<String, Integer> counter, String string) {
+    private static void addToCounter(Map<String, Integer> counter, String string, int increment) {
         if (counter.containsKey(string)) {
-            counter.put(string, counter.get(string) + 1);
+            counter.put(string, counter.get(string) + increment);
         } else {
-            counter.put(string, 1);
+            counter.put(string, increment);
         }
     }
 
     private static boolean isCapitalized(String word) {
-        return word.matches("[A-Z][a-z]*");
+        return word.matches("[A-Z][a-z]+");
     }
 
     private static boolean precedesSentenceStart(String part) {
@@ -98,25 +100,24 @@ public class CharacterFinder {
             for (int i = 0; i < parts.size(); i++) {
                 String part = parts.get(i);
                 if (i > 0 && !precedesSentenceStart(parts.get(i - 1))) {
-                    if (part.length() > 1 && isCapitalized(part) && !IGNORE_WORDS.contains(part)) {
+                    if (isCapitalized(part) && !IGNORE_WORDS.contains(part)) {
                         if (!GENERAL_WORDS.contains(part)) {
-                            addToCounter(counter, part);
+                            addToCounter(counter, part, 0);
                         }
                         if (phrase == null) {
                             phrase = new StringBuilder(part);
                         } else {
                             phrase.append(part);
-                            toAdd = phrase.toString();
                         }
+                        toAdd = phrase.toString();
                     } else {
                         if (phrase != null) {
                             if (part.equals(" ") || part.equals("of") || part.equals("the")) {
                                 phrase.append(part);
                             } else {
-                                if (toAdd != null) {
-                                    addToCounter(counter, toAdd);
+                                if (!GENERAL_WORDS.contains(toAdd)) {
+                                    addToCounter(counter, toAdd, 1);
                                 }
-                                toAdd = null;
                                 phrase = null;
                             }
                         }
@@ -125,29 +126,27 @@ public class CharacterFinder {
             }
             // go back and get sentence starters that we've already seen
             phrase = null;
-            toAdd = null;
             for (int i = 0; i < parts.size(); i++) {
                 String part = parts.get(i);
                 if (phrase != null || counter.containsKey(part) && (i == 0 || precedesSentenceStart(parts.get(i - 1)))) {
                     if (part.length() > 1 && isCapitalized(part) && !IGNORE_WORDS.contains(part)) {
                         if (!GENERAL_WORDS.contains(part)) {
-                            addToCounter(counter, part);
+                            addToCounter(counter, part, 0);
                         }
                         if (phrase == null) {
                             phrase = new StringBuilder(part);
                         } else {
                             phrase.append(part);
-                            toAdd = phrase.toString();
                         }
+                        toAdd = phrase.toString();
                     } else {
                         if (phrase != null) {
                             if (part.equals(" ") || part.equals("of") || part.equals("the")) {
                                 phrase.append(part);
                             } else {
-                                if (toAdd != null) {
-                                    addToCounter(counter, toAdd);
+                                if (!GENERAL_WORDS.contains(toAdd)) {
+                                    addToCounter(counter, toAdd, 1);
                                 }
-                                toAdd = null;
                                 phrase = null;
                             }
                         }
@@ -165,6 +164,50 @@ public class CharacterFinder {
         } else {
             return cap;
         }
+    }
+
+    /**
+     * Returns a set of names that occur in a word triplet preceded by an ignored word
+     * @param words
+     * @param ignored
+     * @return
+     */
+    private static Set<String> getTitledNames(Collection<String> words, Collection<String> ignored) {
+        Set<String> names = new HashSet<>();
+        Set<String> partNames = new HashSet<>();
+        for (String cap : words) {
+            String[] split = cap.split(" ");
+            String name = cap.substring(cap.indexOf(" ") + 1);
+            if (split.length > 1 && ignored.contains(split[0]) && isCapitalized(split[1]) && !ignored.contains(split[1])) {
+                if (split.length == 2 && (split[0].equals("Ko") || split[0].equals("Khal")) || split.length == 3) {
+                    names.add(name);
+                } else {
+                    partNames.add(split[1]);
+                }
+            }
+        }
+        for (String name : partNames) {
+            boolean isUnique = true;
+            for (String cap : words) {
+                String[] split = cap.split(" ");
+                if (split.length == 2) {
+                    // it's still unique if this is Title + Name
+                    isUnique = isUnique && !name.equals(split[0]) && (ignored.contains(split[0]) || !name.equals(split[1]));
+                    if (!ignored.contains(split[0]) && !ignored.contains(split[1])
+                            && (name.equals(split[0]) || name.equals(split[1]))) {
+                        names.add(cap);
+                    }
+                } else if (split.length > 2) {
+                    for (String s : split) {
+                        isUnique = isUnique && !name.equals(s) && !name.equals(s + "s");
+                    }
+                }
+            }
+            if (isUnique) {
+                names.add(name);
+            }
+        }
+        return names;
     }
 
     /**
@@ -246,26 +289,6 @@ public class CharacterFinder {
     }
 
     /**
-     * Returns a set of names that occur in a word triplet preceded by an ignored word
-     * @param words
-     * @param ignored
-     * @return
-     */
-    private static Set<String> getTitledNames(Collection<String> words, Collection<String> ignored) {
-        Set<String> names = new HashSet<>();
-        for (String cap : words) {
-            String[] split = cap.split(" ");
-            String name = cap.substring(cap.indexOf(" ") + 1);
-            if (split.length == 3 && isCapitalized(split[1]) && !ignored.contains(split[1])
-                    && ignored.contains(split[0])
-                    || split.length == 2 && (split[0].equals("Ko") || split[0].equals("Khal"))) {
-                names.add(name);
-            }
-        }
-        return names;
-    }
-
-    /**
      * Returns a set of the first words in names, a collection of word pairings
      * @param names
      * @return
@@ -317,39 +340,6 @@ public class CharacterFinder {
     }
 
     /**
-     * Removes bad words from the beginnings of any phrases in the counter and returns the leftovers
-     * If the resulting phrase is preceded by any combination of "of" and "the", it strips those off
-     * If the end result is an ignored word, it is not returned to the counter
-     * @param counter
-     * @param badWords
-     */
-    private static void cleanCounter(Map<String, Integer> counter, Set<String> badWords, Collection<String> ignored) {
-        Map<String, Integer> temp = new HashMap<>(counter);
-        for (String cap : temp.keySet()) {
-            String[] split = cap.split(" ");
-            if (badWords.contains(split[0])) {
-                int amount = counter.remove(cap);
-                if (split.length > 2) {
-                    cap = cap.substring(split[0].length() + 1);
-                    if (cap.startsWith("of the")) {
-                        cap = cap.substring(6);
-                    } else if (cap.startsWith("the")) {
-                        cap = cap.substring(4);
-                    } else if (cap.startsWith("of")) {
-                        cap = cap.substring(3);
-                    }
-                    if (!ignored.contains(cap)) {
-                        if (!counter.containsKey(cap)) {
-                            counter.put(cap, 0);
-                        }
-                        counter.put(cap, counter.get(cap) + amount);
-                    }
-                }
-            }
-        }
-    }
-
-    /**
      * Returns a new set that is the intersection of two sets, via the retainAll method
      * @param set1
      * @param set2
@@ -360,6 +350,50 @@ public class CharacterFinder {
         Set<T> intersection = new HashSet<>(set2);
         intersection.retainAll(set1);
         return intersection;
+    }
+
+    private static Map<String, Integer> removePlaces(Map<String, Integer> counter) {
+        Map<String, Integer> reducedCounter = new HashMap<>();
+        for (String cap : counter.keySet()) {
+            String noPlace = cap;
+            // strip "of..." bits
+            if (noPlace.contains(" of ")) {
+                String temp = noPlace.substring(0, noPlace.indexOf(" of "));
+                if (!GENERAL_WORDS.contains(temp)) {
+                    noPlace = temp;
+                }
+            }
+            if (!reducedCounter.containsKey(noPlace)) {
+                reducedCounter.put(noPlace, 0);
+            }
+            reducedCounter.put(noPlace, reducedCounter.get(noPlace) + counter.get(cap));
+        }
+        return reducedCounter;
+    }
+
+    private static Map<String, Integer> removeTitles(Map<String, Integer> counter) {
+        Map<String, Integer> reducedCounter = new HashMap<>();
+        for (String cap : counter.keySet()) {
+            String noTitle = cap;
+            for (int i = StringUtils.countMatches(noTitle, ' '); i > 1; i--) {
+                noTitle = stripTitle(noTitle, GENERAL_WORDS);
+            }
+            if (!reducedCounter.containsKey(noTitle)) {
+                reducedCounter.put(noTitle, 0);
+            }
+            reducedCounter.put(noTitle, reducedCounter.get(noTitle) + counter.get(cap));
+        }
+        return reducedCounter;
+    }
+
+    private static Map<String, Integer> removeLonely(Map<String, Integer> counter, Collection<String> lonely, int threshold) {
+        Map<String, Integer> reducedCounter = new HashMap<>();
+        for (String cap : counter.keySet()) {
+            if (!lonely.contains(cap) || counter.get(cap) > threshold) {
+                reducedCounter.put(cap, counter.get(cap));
+            }
+        }
+        return reducedCounter;
     }
 
     private static List<String> getFullNameList(CharacterGroups characterGroups) {
@@ -490,33 +524,17 @@ public class CharacterFinder {
 //        System.out.println(lonely);
 //        System.out.println();
 
-        Map<String, Integer> reducedCounter = new HashMap<>();
-        for (String cap : counter.keySet()) {
-            String noTitle = cap;
-            // strip "of..." bits
-            if (noTitle.contains(" of ")) {
-                String temp = noTitle.substring(0, noTitle.indexOf(" of "));
-                if (!GENERAL_WORDS.contains(temp)) {
-                    noTitle = temp;
-                }
-            }
-            // strip leading title
-            for (int i = StringUtils.countMatches(noTitle, ' '); i > 1; i--) {
-                noTitle = stripTitle(noTitle, GENERAL_WORDS);
-            }
-            if (!reducedCounter.containsKey(noTitle)) {
-                reducedCounter.put(noTitle, 0);
-            }
-            reducedCounter.put(noTitle, reducedCounter.get(noTitle) + counter.get(cap));
-        }
+        counter = removePlaces(counter);
+        counter = removeTitles(counter);
+        counter = removeLonely(counter, lonely, 10);
 
-//        List<Map.Entry<String, Integer>> caps = new ArrayList<>(reducedCounter.entrySet());
+//        List<Map.Entry<String, Integer>> caps = new ArrayList<>(counter.entrySet());
 //        caps.sort(ENTRY_COMPARATOR);
 //        for (Map.Entry<String, Integer> cap : caps) {
 //            System.out.println(cap.getKey() + "\t" + cap.getValue());
 //        }
 //        System.out.println();
-//        System.out.println(reducedCounter.size());
+//        System.out.println(counter.size());
 //        System.out.println();
 //        System.out.println("==============================");
 //        System.out.println();
@@ -527,77 +545,132 @@ public class CharacterFinder {
         nondescriptors.addAll(surnames);
         nondescriptors.addAll(getPlurals(surnames));
         nondescriptors.addAll(places);
-        CharacterGroups characterGroups = new CharacterGroups(reducedCounter, nondescriptors);
+        CharacterGroups characterGroups = new CharacterGroups(counter, nondescriptors);
 
-        names.add("Mirri Maz Duur");
         names.add("Varys");
-        names.add("Pycelle");
-        names.add("Bowen Marsh");
-        names.add("Illyrio Mopatis");
-        names.add("Syrio Forel");
-        names.add("Doreah");
-        names.add("Nan");
-        names.add("Hodor");
-        names.add("Janos Slynt");
-        names.add("Myrcella");
-        names.add("Roose Bolton");
-        names.add("Tommen");
-        names.add("Moreo");
-        names.add("Othor");
-        names.add("Osha");
-        names.add("Shae");
         names.add("Bronn");
-        names.add("Cayn");
+        names.add("Septa Mordane");
+        names.add("Pycelle");
+        names.add("Mirri Maz Duur");
+        names.add("Hodor");
+        names.add("Pyp");
+        names.add("Syrio Forel");
+        names.add("Grenn");
+        names.add("Irri");
+        names.add("Jhiqui");
+        names.add("Qotho");
+        names.add("Osha");
+        names.add("Shagga");
+        names.add("Doreah");
         names.add("Yoren");
-        names.add("Rast");
         names.add("Halder");
+        names.add("Lyanna");
+        names.add("Jhogo");
+        names.add("Mord");
+        names.add("Gared");
+        names.add("Marillion");
+        names.add("Aggo");
+        names.add("Alyn");
+        names.add("Haggo");
         names.add("Chett");
         names.add("Cohollo");
-        names.add("Dareon");
-        names.add("Quaro");
-        names.add("Lyanna");
-        names.add("Hullen");
-        names.add("Irri");
-        names.add("Desmond");
-        names.add("Qotho");
-        names.add("Mycah");
-        names.add("Morrec");
-        names.add("Jyck");
-        names.add("Chella");
-        names.add("Harwin");
-        names.add("Rhaego");
-        names.add("Marillion");
-        names.add("Jhogo");
-        names.add("Stiv");
-        names.add("Pyp");
         names.add("Timett");
+        names.add("Mycah");
+        names.add("Conn");
+        names.add("Shae");
         names.add("Rakharo");
-        names.add("Aggo");
         names.add("Chiggen");
-        names.add("Grenn");
-        names.add("Haggo");
+        names.add("Desmond");
+        names.add("Jyck");
+        names.add("Donal Noye");
+        names.add("Masha Heddle");
+        names.add("Quaro");
+        names.add("Hullen");
+        names.add("Harwin");
+        names.add("Moreo Tumitis");
+        names.add("Dareon");
+        names.add("Rhaego");
+        names.add("Cayn");
+        names.add("High Septon");
+        names.add("Morrec");
+        names.add("Maegor");
+        names.add("Mance Rayder");
+        names.add("Hobb");
+        names.add("Malleon");
+        names.add("Helman Tallhart");
+        names.add("Jafer Flowers");
+        names.add("Cotter Pyke");
+        names.add("Hugh");
+        names.add("Lothor Brune");
+        names.add("Howland Reed");
+        names.add("Bryce Caron");
+        names.add("Mychel Redfort");
+        names.add("Florian");
+        names.add("Quorin Halfhand");
+        names.add("Endrew Tarth");
+        names.add("Jaehaerys");
+        names.add("Jalabhar Xho");
+        names.add("Podrick Payne");
 
         characterGroups.combineGroups("Eddard", "Ned");
         characterGroups.combineGroups("Bran", "Brandon Stark");
         characterGroups.combineGroups("Robert", "Usurper");
         characterGroups.combineGroups("Petyr", "Littlefinger");
+        characterGroups.combineGroups("Petyr", "Lord Baelish");
         characterGroups.combineGroups("Daenerys", "Dany");
         characterGroups.combineGroups("Daenerys", "Khaleesi");
+        characterGroups.combineGroups("Daenerys", "Princess of Dragonstone");
         characterGroups.combineGroups("Joffrey", "Joff");
         characterGroups.combineGroups("Samwell", "Sam");
         characterGroups.combineGroups("Samwell", "Piggy");
+        characterGroups.combineGroups("Samwell", "Lord of Ham");
         characterGroups.combineGroups("Sandor", "Hound");
         characterGroups.combineGroups("Benjen", "Ben");
         characterGroups.combineGroups("Jeor", "Old Bear");
         characterGroups.combineGroups("Jeor", "Commander Mormont");
         characterGroups.combineGroups("Jeor", "Lord Mormont");
+        characterGroups.combineGroups("Tomard", "Tom");
+        characterGroups.combineGroups("Jon Arryn", "Lord Arryn");
+        characterGroups.combineGroups("Catelyn", "Lady Stark");
+        characterGroups.combineGroups("Pycelle", "Grand Maester");
+        characterGroups.combineGroups("Walder", "Lord Frey");
+        characterGroups.combineGroups("Walder", "Lord of the Crossing");
+        characterGroups.combineGroups("Robert Arryn", "Lord of the Eyrie");
+        characterGroups.combineGroups("Lysa", "Lady Arryn");
+        characterGroups.combineGroups("Maege", "Lady Mormont");
+        characterGroups.combineGroups("Greatjon", "Lord Umber");
+        characterGroups.combineGroups("Shella", "Lady Whent");
+        characterGroups.combineGroups("Drogo", "Great Rider");
+        characterGroups.combineGroups("Renly", "Lord of Storm");
+        characterGroups.combineGroups("Benjen", "First Ranger");
+        characterGroups.combineGroups("Marq", "Lord Piper");
+        characterGroups.combineGroups("Tywin", "Lord of Casterly Rock");
+        characterGroups.combineGroups("Horas", "Horror");
+        characterGroups.combineGroups("Jonos", "Lord Bracken");
+        characterGroups.combineGroups("Tytos Blackwood", "Lord Blackwood");
+        characterGroups.combineGroups("Hobber", "Slobber");
+        characterGroups.combineGroups("Karyl", "Lord Vance");
+        characterGroups.combineGroups("Roose", "Lord of the Dreadfort");
+        characterGroups.combineGroups("Roose", "Lord Bolton");
+        characterGroups.combineGroups("Hoster", "Lord of Riverrun");
+        characterGroups.combineGroups("Loras", "Daisy");
 
-        names.remove("Free Cities");   // accidentally picked up
-        names.remove("Ned Stark");     // as Eddard Stark
-        names.remove("Catelyn Tully"); // as Catelyn Stark
-        names.remove("Sam Tarly");     // as Samwell Tarly
-        names.remove("Ben Stark");     // as Benjen Stark
-        names.remove("Theon Stark");   // as Theon Greyjoy
+        names.remove("Yard");           // mistake
+        names.remove("Ned Stark");      // as Eddard Stark
+        names.remove("Jon Stark");      // as Jon Snow
+        names.remove("Daenerys Stormborn"); // as Daenerys Targaryen
+        names.remove("Catelyn Tully");  // as Catelyn Stark
+        names.remove("Joff");           // as Joffrey Baratheon
+        names.remove("Rider");          // as Drogo
+        names.remove("Sam Tarly");      // as Samwell Tarly
+        names.remove("Piggy");          // as Samwell Tarly
+        names.remove("Ben Stark");      // as Benjen Stark
+        names.remove("Ranger");         // as Benjen Stark
+        names.remove("Theon Stark");    // as Theon Greyjoy
+        names.remove("Brynden Blackfish");  // as Brynden Tully
+        names.remove("Daisy");          // as Loras Tyrell
+        names.remove("Horror");         // as Horas
+        names.remove("Slobber");        // as Hobber
 
         Set<String> firstNames = getFirstNames(names, GENERAL_WORDS);
 

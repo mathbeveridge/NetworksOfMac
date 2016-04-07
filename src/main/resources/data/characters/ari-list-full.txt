@@ -1,583 +1,388 @@
 Eddard,Ned Stark,Lord Eddard,Eddard Stark,Ned,Eddard Karstark
-Jon Snow,Jon Arryn,Snow,Lord Snow,Jon,Jon Stark,Lord Jon
+Jon Snow,Jon Arryn,Snow,Lord Snow,Jon,Jon Stark,Lord Jon,Lord Arryn
 Tyrion the Imp,Tyrion Lannister,Imp,Tyrion,Lord Tyrion
 Brandon the Burner,Bran,Brandon Starks,Brandon,Broken Arm,Broken,Bran the Broken,Brandon the Shipwright,Brandon Stark,Brandon the Builder,Burner,Shipwright,Arm,Bran the Builder
-Lady Catelyn,Catelyn Stark,Catelyn,Catelyn Tully Stark,Catelyn Tully
-Daenerys Stormborn,Stormborn,Daenerys Targaryen,Princess Daenerys,Dany,Khaleesi,Daenerys
-Robert Baratheon,Robert Arryn,King Robert,Robert,Lord Robert,Usurper
+Daenerys Stormborn,Stormborn,Daenerys Targaryen,Princess Daenerys,Dany,Khaleesi,Princess of Dragonstone,Daenerys
+Lady Catelyn,Lady Stark,Catelyn Stark,Catelyn,Catelyn Tully Stark,Catelyn Tully
 Arya Underfoot,Arya,Arya Horseface,Arya Stark,Horseface,Underfoot
-Robb the Lord,Lord Robb,Robb,Robb Stark
+Lord of the Eyrie,Robert Baratheon,Robert Arryn,King Robert,Robert,Lord Robert,Usurper
 Sansa,Lady Sansa,Sansa Stark
-Maz Duur,Mirri,Mirri Maz Duur,Maz,Duur
+Robb the Lord,Lord Robb,Robb,Robb Stark
 Prince Joffrey,King Joffrey,Joffrey Baratheon,Joffrey,Joff,Prince Joff
-Khal Drogo,Drogo
-Septa Mordane,Septa,Mordane
-Tywin Lannister,Lord Tywin,Tywin
-Jorah,Jorah Mormont,Andal,Ser Jorah,Jorah the Andal
+Great Rider,Khal Drogo,Drogo,Rider
+Petyr Baelish,Lord Baelish,Lord Petyr,Littlefinger,Petyr
 Kingslayer,Ser Jaime,Jaime Lannister the Kingslayer,Jaime,Jaime Lannister
-Petyr Baelish,Lord Petyr,Littlefinger,Petyr
+Jorah,Jorah Mormont,Andal,Ser Jorah,Jorah the Andal
+Lord of Casterly Rock,Tywin Lannister,Lord Tywin,Tywin
 Maester Luwin,Luwin
-Dothraki Kingsguard,Jhiqui the Dothraki,Dothraki,Jhiqui
-Rodrik,Rodrik Stark,Ser Rodrik,Rodrik Cassel
-Sam Tarly,Ser Piggy,Piggy,Samwell Tarly,Lady Piggy,Sam,Samwell
-Lord Renly,King Renly,Renly,Renly Baratheon
-Lady Lysa,Lysa,Lysa Arryn
+Lady Lysa,Lady Arryn,Lysa,Lysa Arryn
+Sam Tarly,Ser Piggy,Piggy,Samwell Tarly,Lady Piggy,Lord of Ham,Sam,Samwell
 Lord Varys,Varys,Spider,Varys the Spider
-Cersei Lannister,Queen Cersei,Cersei
-Pycelle,Maester Pycelle
-Wind,Wind Witch,Grey Wind,Witch,Grey
-Sunset,Lord of the Seven Kingdoms,Sunset Lands,Sunset Kingdoms,Seven Kingdoms,Sunset Sea,Kingdoms
-Greywater,Commander of the City Watch of King,Watch,Greywater Watch,City Watch,Commander of the City Watch
-Barristan the Old,Ser Barristan,Barristan Selmy,Barristan the Bold,Bold,Barristan
-Sandor Clegane,Sandor,Ser Sandor,Hound
-Gregor the Mountain,Mountain,Gregor Clegane,Ser Gregor,Gregor
-Jen,Benjen Stark,Benjen,Ben,Ben Jen,Ben Stark
+Rodrik,Rodrik Stark,Ser Rodrik,Rodrik Cassel
 Bronn
-Lord Stannis,Stannis Baratheon,Stannis
-Theon,Theon Greyjoy,Theon Stark
-Lord Mormont,Bear Island,Jeor Mormont,Old Bear,Bear,Commander Mormont,Jeor
+Cersei Lannister,Queen Cersei,Cersei
+Lord Renly,Lord of Storm,King Renly,Renly,Renly Baratheon
+Septa Mordane,Septa,Mordane
 Viserys Targaryen,Prince Viserys,Viserys
-Alliser Thorne,Ser Alliser,Alliser
-Jory Cassel,Jory
-Stone Crows,Head,Hedge,Mya,Other Stone Crows,Mya Stone,Stone Head,Stone Hedge,Stone Crow,Stone,Other
-Syrio,Syrio Forel,Forel
+Pycelle,Maester Pycelle,Grand Maester
 Grace,Grace the King
-Aemon the Dragonknight,Aemon Targaryen,Dragonknight,Maester Aemon,Aemon,Prince Aemon
-Iron Bank,Bank,Iron Lord,Iron Gate,Iron Throne,Iron,Islands,Throne,King of the Iron Islands
-Vaes,Vaes Dothrak,Dothrak
-Long Night,Summer Sea,Summer Isles,Long,Great Summer,Lands of the Long Summer,Summer,Isles
+Sandor Clegane,Sandor,Ser Sandor,Hound
+Jory Cassel,Jory
 Ghost
-Illyrio,Illyrio Mopatis,Mopatis,Magister Illyrio
-Brynden Blackfish,Blackfish,Ser Brynden,Brynden the Blackfish,Brynden,Brynden Tully
 Landing
-Free Cities,Free Folk,Pentos,Folk,Magister of the Free City of Pentos,Free
-Small,Small Hall,Hall,High Hall,Great Hall
-Nan,Old Nan
+Gregor the Mountain,Mountain,Gregor Clegane,Ser Gregor,Gregor
+Maz Duur,Mirri,Mirri Maz Duur,Maz,Duur
+Jen,Ranger,Benjen Stark,Benjen,Ben,Ben Jen,Ben Stark,First Ranger
+Lord Stannis,Stannis Baratheon,Stannis
+Illyrio,Illyrio Mopatis,Mopatis,Magister Illyrio
 Hodor
-Loras,Ser Loras,Loras Tyrell
-Walder,Walder Frey,Lord Walder
-Vardis Egen,Vardis,Ser Vardis
-Knife,White,White Harbor,White Knife,Harbor,Swords,White Bull,White Swords,Bull
-Tom,Fat Tom,Fat
+Theon,Theon Greyjoy,Theon Stark
+Barristan the Old,Ser Barristan,Barristan Selmy,Barristan the Bold,Bold,Barristan
+Stone Crows,Head,Hedge,Mya,Other Stone Crows,Mya Stone,Stone Head,Stone Hedge,Stone Crow,Stone,Other
+Long Night,Summer Sea,Summer Isles,Long,Great Summer,Lands of the Long Summer,Summer
+Lord Mormont,Bear Island,Jeor Mormont,Old Bear,Bear,Commander Mormont,Jeor
+Brynden Blackfish,Blackfish,Ser Brynden,Brynden the Blackfish,Brynden,Brynden Tully
 Rickon,Rickon Stark
-Slynt,Janos Slynt,Lord Slynt,Janos
+Alliser Thorne,Ser Alliser,Alliser
 Pyp
-Rhaegar,Prince Rhaegar,Rhaegar Targaryen
-Jeyne Poole,Jeyne
-Aegon the Conqueror,Aegon the Fortunate,Aegon,Aegon the Dragonlord,Aegon the Dragon,Aegon Targaryen,Conqueror,Fortunate,Aegon Dragonlord
-Mad,Mad King Aerys,Mad King,Mad King Aerys Targaryen,King Aerys,Aerys Targaryen,Aerys
+Syrio,Syrio Forel,Forel
+Aemon the Dragonknight,Aemon Targaryen,Dragonknight,Maester Aemon,Aemon,Prince Aemon
+Wind,Wind Witch,Grey Wind,Witch,Grey
+Walder,Walder Frey,Lord Walder,Lord Frey,Lord of the Crossing
 Lord Commander
-Meryn Trant,Meryn,Ser Meryn
-Edmure Tully,Ser Edmure,Edmure
 Grenn
-Ilyn,Ilyn Payne,Ser Ilyn
-Tongue,Common Tongue,Common
-Rainbow,Knight,Rainbow Knight
+Nan,Old Nan
+Rhaegar,Prince Rhaegar,Rhaegar Targaryen
+Vardis Egen,Vardis,Ser Vardis
+Jeyne Poole,Jeyne
 Irri
-Lord Hoster,Hoster Tully,Hoster
-Ser Kevan,Kevan Lannister,Kevan
-Lord Beric,Beric,Beric Dondarrion
-Castle,Castle Black
+Edmure Tully,Ser Edmure,Edmure
+Jhiqui
 Casterly Rock
 Qotho
-Jaremy,Ser Jaremy,Jaremy Rykker
-Blue Fork,Green Fork,Fork,Red Fork
+Loras,Ser Daisy,Daisy,Ser Loras,Loras Tyrell
+Tom,Tomard,Fat Tom
 Osha
 Shagga
 Doreah
-Shadow Lands,Shadow,Shadow Tower
-Waymar Royce,Waymar,Ser Waymar
+Greatjon Umber,Lord Umber,Greatjon
 Yoren
 Halder
-Greatjon Umber,Greatjon
-Roose,Roose Bolton
 Red Keep
-Bowen Marsh,Bowen Marsh the Lord Steward,Bowen
-High Septon,Septon,Septon Chayle,Celladar,Chayle,Septon Celladar
-Rickard Stark,Rickard Karstark,Rickard,Lord Rickard
-Lord Protector,Protector
-Boros Blount,Ser Boros,Boros
-Princess Myrcella,Myrcella
+Iron Bank,Bank,Iron Lord,Iron Gate,Iron Throne,Iron,Islands,Throne,King of the Iron Islands
+Ser Kevan,Kevan Lannister,Kevan
+Vaes,Vaes Dothrak,Dothrak
 Nymeria
 Lyanna
+Mad,Mad King Aerys,Mad King,Mad King Aerys Targaryen,King Aerys,Aerys Targaryen,Aerys
 Others
 Jhogo
-Tommen,Prince Tommen
 Well
-Ser Marq,Marq,Marq Piper
-Vayon Poole,Vayon
 Mord
 Gared
+Meryn Trant,Meryn,Ser Meryn
 Needle
-Donal Noye,Noye,Donal
-Raymun,Ser Raymun,Raymun Darry
-Masha,Masha Heddle,Heddle
-Moat,Cailin,Moat Cailin
-Balon,Balon Greyjoy,Balon Swann,Ser Balon
-Willis Wode,Ser Willis,Willis
-Golden Tooth,Tooth,Golden
-High Valyrian,Valyrian
+Slynt,Janos Slynt,Lord Slynt,Janos
+Aegon the Conqueror,Aegon the Fortunate,Aegon,Aegon the Dragonlord,Aegon the Dragon,Aegon Targaryen,Conqueror,Fortunate,Aegon Dragonlord
+Ilyn,Ilyn Payne,Ser Ilyn
 Toad
-Hallis,Hallis Mollen
+Small
 Marillion
+Lord Hoster,Hoster Tully,Hoster,Lord of Riverrun
+Jaremy,Ser Jaremy,Jaremy Rykker
+Princess Myrcella,Myrcella
 Aggo
-Mance,Rayder,Mance Rayder
-Lord Arryn
-Tobho Mott,Mott,Master Mott,Tobho
+Waymar Royce,Waymar,Ser Waymar
 Lord Stark
-Dawn,Dawn Age,Age
-Ser Addam,Addam Marbrand,Addam
-Mountains
+Tommen,Prince Tommen
+Knife,White,White Harbor,White Knife,Harbor,Swords,White Bull,White Swords,Bull
+High Valyrian,Valyrian
+Lord Beric,Beric,Beric Dondarrion
 Every
+Rainbow,Knight,Rainbow Knight
 Alyn
-Colemon,Maester Colemon
-Lady Stark
+Boros Blount,Ser Boros,Boros
+Ser Marq,Marq,Marq Piper,Lord Piper
+Castle,Castle Black
+Shadow Lands,Shadow,Shadow Tower
 Haggo
-Street
+Blue Fork,Green Fork,Fork,Red Fork
 Chett
 Cohollo
-Ogo,Khal Ogo
-Ser Aron,Aron Santagar,Aron
-Galbart,Galbart Glover
-Jason Mallister,Lord Jason,Jason
-Stevron Frey,Stevron,Ser Stevron
 Cat
+Roose,Roose Bolton,Lord of the Dreadfort,Lord Bolton
 Neck
-Horn,Hill,Horn Hill
 Ice
 Tower of the Hand
 Timett
 End
-Town,Wendish Town,Wendish
+Lord Protector,Protector
+Mountains
 Asshai
 Mycah
-Arthur,Ser Arthur,Arthur Dayne
+Rickard Stark,Rickard Karstark,Rickard,Lord Rickard
 Twins
-Lord of the Eyrie
-Lyn,Lyn Corbray
-Bronze,Bronze Yohn,Yohn Royce,Yohn,Bronze Yohn Royce
-Conn
-Sept,Great Sept
-Maegor,Cruel,Maegor the Cruel
 Harrenhal
-Flea,Flea Bottom,Bottom
-Nestor,Lord Nestor,Nestor Royce
-Wendel,Wendel Manderly,Ser Wendel
-Storm Dancer,Dancer
-Harys,Harys Swyft,Swyft,Ser Harys
+Bowen Marsh,Bowen Marsh the Lord Steward,Bowen
+Conn
+Tongue,Common Tongue,Common
 Shae
-Moon Boy,Boy King,Boy
-Yi,Yi Ti,Ti
-Thoros
-Hunter,Lord Hunter
-Tumitis,Moreo,Moreo Tumitis
 Rakharo
 Chiggen
-Lamb Woman,Woman,Lamb God,Lamb
+Raymun,Ser Raymun,Raymun Darry
+Willis Wode,Ser Willis,Willis
+Ogo,Khal Ogo
+Golden Tooth,Tooth,Golden
+Ser Addam,Addam Marbrand,Addam
 Desmond
-Blackwater,Blackwater Rush,Rush
+Vayon Poole,Vayon
 Jyck
-Tomard
-Tytos Blackwood,Tytos Brax,Lord Tytos,Tytos
-Bloody Gate,Bloody
-Lion Gate,Lion
-Karyl,Karyl Vance,Ser Karyl
+Donal Noye,Noye,Donal
 Shaggydog
+Masha,Masha Heddle,Heddle
 Quaro
 Hullen
 Harwin
-Marcher,Bryce Caron,Bryce,Marcher Lord Bryce Caron,Caron
+Storm Dancer,Dancer
+Tumitis,Moreo,Moreo Tumitis
+Balon,Balon Greyjoy,Balon Swann,Ser Balon
 Dareon
 Tyroshi
-Balerion,Black Dread,Balerion the Black Dread,Dread
 Burned
-Donnel Waynwood,Ser Donnel,Donnel
-Lord Lefford,Lefford
+Hallis,Hallis Mollen
 Rhaego
-Gerold Hightower,Ser Gerold,Gerold
-Randyll,Lord Randyll,Randyll Tarly
-Hal,Hal Mollen
+Tobho Mott,Mott,Master Mott,Tobho
 Cayn
-Howland,Reed,Howland Reed
+Dawn,Dawn Age,Age
 Lys
+Town,Wendish Town,Wendish
+Lamb Woman,Woman,Lamb God,Lamb
+Colemon,Maester Colemon
+High Septon
+Moon Boy,Boy King,Boy
+Morrec
+Nestor,Lord Nestor,Nestor Royce
+Stevron Frey,Stevron,Ser Stevron
+Lion Gate,Lion
+Maegor,Cruel,Maegor the Cruel
+Karyl,Karyl Vance,Ser Karyl,Lord Vance
+Mance,Rayder,Mance Rayder
+Galbart,Galbart Glover
+Hunter,Lord Hunter
+Lady Maege,Lady Mormont,Maege,Maege Mormont
+Street
+Moat,Cailin,Moat Cailin
+Ser Aron,Aron Santagar,Aron
+Lord Lefford,Lefford
+Tytos Blackwood,Lord Blackwood,Tytos Brax,Lord Tytos,Tytos
+Many
+Wendel,Wendel Manderly,Ser Wendel
+Lyn,Lyn Corbray
+Jason Mallister,Lord Jason,Jason
+Lord Karstark
+Sept,Great Sept
+Horn,Hill,Horn Hill
+Balerion,Black Dread,Balerion the Black Dread,Dread
+Donnel Waynwood,Ser Donnel,Donnel
+Lord of the Seven
+Arthur,Ser Arthur,Arthur Dayne
+Thoros
+Lord of Winterfell
+Hal,Hal Mollen
+Torrhen Karstark,Torrhen,Torrhen Stark
+Harys,Harys Swyft,Swyft,Ser Harys
+Alyssa,Alyssa Arryn
+Gerold Hightower,Ser Gerold,Gerold
+Bronze,Bronze Yohn,Yohn Royce,Yohn,Bronze Yohn Royce
+Randyll,Lord Randyll,Randyll Tarly
+Bloody Gate,Bloody
+Finger Hobb,Hobb,Finger
+Jhaqo,Khal Jhaqo,Ko Jhaqo
+Lord Jonos,Lord Bracken,Jonos,Jonos Bracken
+Flea,Flea Bottom,Bottom
+Blackwater,Blackwater Rush,Rush
+Wylis Manderly,Wylis,Ser Wylis
+Robar,Robar Royce,Ser Robar
+Sealord
+Maester Malleon,Malleon
+Dornish Marches,Dornish
+Sunset,Sunset Lands,Sunset Sea
 Helman,Helman Tallhart
+Shella Whent,Lady Shella,Shella,Lady Whent
 Whispering Wood,Whispering Woods,Whispering
 Sword
-Lord Baelish
+Ser Horror,Horror,Horas Redwyne,Horas,Ser Horas
+Lord Steward
 Western,Western Market
-Morrec
-Many
+Jafer,Jafer Flowers
+Yi,Yi Ti,Ti
 Jade Sea,Jade
 Pyke,Cotter,Cotter Pyke
-Lady Maege,Maege,Maege Mormont
-Finger Hobb,Hobb,Finger
-Grand Maester
-Maester Malleon,Malleon
-Eastwatch
-Torrhen Karstark,Torrhen,Torrhen Stark
-Jhaqo,Khal Jhaqo,Ko Jhaqo
-Othor
-Rast
-Alyssa,Alyssa Arryn
-Jafer,Jafer Flowers
-Wylis Manderly,Wylis,Ser Wylis
-Chella
-Ears,Black Ears
 Flement,Ser Flement,Flement Brax
-Lord Frey
-Arys,Ser Arys,Arys Oakheart
-Stiv
-Lord Jonos,Jonos,Jonos Bracken
-Lord Karstark
-Hali
-Mikken
+Ser Hugh,Hugh
+Citadel
 Robett,Robett Glover
-Dywen
-Gunthor
-Fingers
-Water,Water Gate,Water Tower
-Robar,Robar Royce,Ser Robar
-Name
-Willem,Ser Willem,Willem Darry
-Sealord
-Lord of Winterfell
-Jalabhar,Jalabhar Xho,Xho
-Ser Florian,Fool,Florian,Florian the Fool
-Blessed,Baelor the Blessed,Blessed Baelor
-Dornish Marches,Dornish
-Lothor Brune,Lothor,Brune
-Honor
-Mace,Mace Tyrell
-Port
-Lady Arryn
-Ulf
-Holdfast
-Myrish
 Late,Late Lord Frey
 Perwyn,Ser Perwyn
-Wyl
+Lord Crakehall,Crakehall
+Danwell,Danwell Frey,Ser Danwell
+Water,Water Gate,Water Tower
+First Keep
+Ser Jared,Jared,Jared Frey
+Willem,Ser Willem,Willem Darry
+Arys,Ser Arys,Arys Oakheart
+King of the Andals
+Princess Elia,Elia Martell,Elia
+Blessed,Baelor the Blessed,Blessed Baelor
+Lothor Brune,Lothor,Brune
+Howland,Reed,Howland Reed
+Cheyk
+Mace,Mace Tyrell
+Marcher,Bryce Caron,Bryce,Marcher Lord Bryce Caron,Caron
+Tanda,Lady Tanda
+Port
+Mychel Redfort,Mychel
 Daryn Hornwood,Daryn
 Moon Door,Door
-Votyris,Merchant,Merchant Captain Byan Votyris,Byan
-Ser Jared,Jared,Jared Frey
-Mole
+Ears,Black Ears
 Womb
 Ser Oswell,Oswell,Oswell Whent
 Mud Gate,Mud
-Shepherd,Great Shepherd
-Princess Elia,Elia Martell,Elia
-Kurleket
-Ser Hugh,Hugh
-Bastard
-Quorin,Halfhand,Quorin Halfhand
-Gates
-Sky
-Heward
-Danwell,Danwell Frey,Ser Danwell
-Great Rider,Rider
-Gendry
-Sherrer
-Tears
-Mirror Shield,Shield,Mirror
-Tumblestone
-Citadel
-Isle
-Cheyk
-Defender
-Tanda,Lady Tanda
-Ranger,First Ranger
-Clydas
-Silver,Silver Lady
-Porther
-Ashara Dayne,Ashara,Lady Ashara
-Eastern Market,Eastern
-Othell,Othell Yarwyck,Yarwyck
-Horas Redwyne,Horas,Ser Horas
-Vargo,Hoat,Vargo Hoat
-Mandon Moore,Ser Mandon,Mandon
-Mychel Redfort,Mychel
-Lord Steward
-Albett
-Smoking Log,Log,Smoking
-Lord Crakehall,Crakehall
-Jogos,Jogos Nhai,Nhai
-Lysene
-Gatehouse Tower,Gatehouse
-Wheel,Wheel Tower
 Ser Hosteen,Hosteen,Hosteen Frey
 Khal Jommo,Jommo
-Dolf
-Rhaggat,Khal Rhaggat
-Martyn Cassel,Martyn Rivers,Martyn
-Shaggy
-Arbor
-Children
-Jeren
-Lharys
-Justice
+Ser Hobber,Hobber,Slobber,Ser Slobber
+Ser Florian,Fool,Florian,Florian the Fool
+Gurn
+Lord Cerwyn
+Isle
+Defender
+Great Keep
+Umar
+Quorin,Halfhand,Quorin Halfhand
+Silver,Silver Lady
+Gates
+Ashara Dayne,Ashara,Lady Ashara
+Eastern Market,Eastern
+Horse,Horse Gate
 True Warden,True
-Mago
+Mandon Moore,Ser Mandon,Mandon
 Patrek,Patrek Mallister
 Endrew,Tarth,Endrew Tarth
-Mummer
 Harrion,Harrion Karstark
-First Keep
-Barra
-King of the Andals
-Ser Theo,Wull,Theo,Theo Wull
-Joseth
-Rhoynar
-Gurn
-Ser Dontos,Dontos
-Jacks
-Faceless
-Dance
-Lhazareen
-Quent
-Umar
-Field
-Sorefoot,Sorefoot King
-Ser Albar,Albar Royce,Albar
-Ford
-Lady Mormont
-Wildlings
-Ser Hobber,Hobber
-Lord Umber
-Horse,Horse Gate
-Eroeh
-Ser Morton,Morton Waynwood,Morton
-Preston,Ser Preston,Preston Greenfield
-Rowan,Lord Rowan
-Giant
-Lady Whent
-Seagard
-Aurochs
-Lann,Clever,Lann the Clever
-Me Roar,Me,Roar
-Pod
-Histories
-Pact
-Visenya
-Ryam Redwyne,Ryam
-Shella Whent,Lady Shella,Shella
-Mern,King Mern
-Longclaw
-Braavosi
+Gatehouse Tower,Gatehouse
 Derik,Lord Derik
-Andar Royce,Andar
-Flint,Robin,Robin Flint
-Maester Aethelmure,Aethelmure
-Wildling
-Mohor
-City Watchmen,Watchmen
-Ser Horror,Horror
+Wheel,Wheel Tower
+Rhaggat,Khal Rhaggat
 Jaehaerys,Jaehaerys the Second
-Descriptions
-Cart King,Cart
-Gage
-Dickon
-Matthar
-Lance
-Coratt
+Jalabhar,Jalabhar Xho,Xho
+Martyn Cassel,Martyn Rivers,Martyn
 Pono,Khal Pono
 Doom
-Naerys,Queen Naerys
-Lord Cerwyn
-Hake
-Dornishman,Mallor,Mallor the Dornishman
-Lord of Storm
+Ser Dontos,Dontos
 Serrett,Lord Serrett
-Rhaenys
-Pentoshi
-Great Keep
-Dan,Ares,Dan Ares
-Bite
+Dance
+Lord Hornwood
+Gate of the Gods
+Lord Hand
+Field
+Lord Brax
+Sorefoot,Sorefoot King
+Ser Albar,Albar Royce,Albar
 Lord Wyman,Wyman
 Black Harren,Harren
-Vhaghar
-Lord Piper
+Othell,Othell Yarwyck,Yarwyck
+Vargo,Hoat,Vargo Hoat
+Ser Morton,Morton Waynwood,Morton
+Preston,Ser Preston,Preston Greenfield
 Podrick Payne,Podrick
-Rhae Mhar,Mhar,Rhae
-Faith
+High Steward
+Commander of the City
+Celladar,Septon Celladar
+Rowan,Lord Rowan
+Smoking Log,Log,Smoking
 Olyvar,Olyvar Frey
-Slobber,Ser Slobber
-Mark Ryswell,Mark,Ryswell
+Lann,Clever,Lann the Clever
+Jogos,Jogos Nhai,Nhai
+Me Roar,Me,Roar
 Maekar,King Maekar
-Heartsbane
-Tregar
-Westeros
-Qarth
-Duty
+Lord of Highgarden
+Gods Eye
+Lord Manderly
+Histories
+Ryam Redwyne,Ryam
+Votyris,Merchant,Merchant Captain Byan Votyris,Byan
+Mern,King Mern
 King Loren,Loren
-Rides
-Lord of Casterly Rock
+Lady Frey
 Battle
+Andar Royce,Andar
 Margaery Tyrell,Margaery
-Lancel
-Hardin
-Amory Lorch,Lorch,Amory
-Crown
-Noble
-Fogo
-Meraxes
-Norvos
-Todder
-Young Wolf,Wolf
-Rhaesh Andahli,Andahli,Rhaesh
+Flint,Robin,Robin Flint
+Maester Aethelmure,Aethelmure
+Lord of Light
+Ser Theo,Wull,Theo,Theo Wull
+Descriptions
+Mirror Shield,Shield,Mirror
+Cart King,Cart
+Lord Tyrell
+Naerys,Queen Naerys
 Sworn Brotherhood,Brotherhood
+Dornishman,Mallor,Mallor the Dornishman
+Prince of Dorne
 Lord Gyles,Gyles
 Tya Lannister,Tya
-Lord Hornwood
-Lord Bracken
-Gate of the Gods
+Young Dragon
 Khal Moro,Moro
 Ser Denys,Denys
-Lord Hand
-Lord Brax
+City of Pentos
 Forley,Forley Prester
-Lydden
 Ser Morgil,Morgil
 Qos,Captain Qos
-Lord Blackwood
 Dacey,Dacey Mormont
 Ser Arryk,Arryk
+Dan,Ares,Dan Ares
+Septon Chayle,Chayle
 Cregan,Cregan Stark
+Queen Regent
 Willum,Ser Willum
 Erryk,Ser Erryk
 Yard,Great Yard
-Pypar
-High Steward
-Pimple
 Ser Emmon,Emmon
 Lord Banefort,Banefort
+Rhae Mhar,Mhar,Rhae
 Beloved,Baelor the Beloved
 Ethan,Ethan Glover
-Wylla
-Guest
 Lord Erik,Erik
-Rhoyne
+Seven Lands
 Archon
-Walk
+Lord Royces
 Engines
 River,River Gate
 Estren,Lord Estren
 Eel Alley,Eel
 Pig Alley,Pig
 Forest
-Beth
 Lord Dustin,Dustin
-Lord of Ham
-Lord of Highgarden
+Mark Ryswell,Mark,Ryswell
 Ronel Rivers,Ronel
-Varly
-Gods Eye
-Lord Manderly
-Princess of Dragonstone
-Drunkard
+Lady Waynwood
 Prince Lewyn,Lewyn
 Keeper
 Daeryssa,Princess Daeryssa
-Ser Daisy,Daisy
-Lady Frey
-Lord Vance
+Marsh King
+Dragon Gate
 Serwyn
-Karhold
+Lady Tarly
 Garth Greenfield,Garth
-Volantis
-Farlen
-Lord of Light
-Dragonpit
-Jonquil
-Jaggot
+Amory Lorch,Lorch,Amory
+Old Gate
+Isles of Faces
 Selyse,Lady Selyse
-Dornishmen
-Lord of the Crossing
-Lord Tyrell
+Three Sisters
 Smalljon,Smalljon Umber
 Gowen,Gowen Baratheon
-Traitor
-Black Goat,Goat
-Lineages
-Lions
-Knelt
-Kyra
-Prince of Dorne
-Rygers
-Donnis
-Queensguard
-Lord of the Dreadfort
-Pate
-Raventree
-Dragonbane
-Godwyn
-Snakes
-Young Dragon
-Dacks
-Merrett
-Elmar
-Norvoshi
-Lord of Riverrun
-Rhogoro
-Lorath
-Mootons
-Queen Regent
-Seasons
-Bessa
-Freehold
-Gulltown
-Third
-Fifth
-Torrek
-Seven Lands
-Lord Royces
-Lothar
-Wallen
-Dragonkings
-Westerling
-Unsullied
-Meereen
-Anguy
-Merryl
-Monkey
-Walda
-Andalish
-Star
-Slaver
-Kayakayanaya
-Lordling
-Buu
-Cuger
-Ketter
-Lady Waynwood
-Gladden
-Florent
-Joss
-Marsh King
-Starfall
-Dragon Gate
-Gorge
-Whalen
-Bass
-Borcas
-Loon
-Shamyriana
-Lady Tarly
-Grandfather
-Bharbo
-Ryger
-Marwyn
-Old Gate
-Qartheen
-Lord Bolton
-Godswife
-Vyman
-Braavosian
-Three Sisters
-Love
 Lord Regent
-Bayasabhad
-Gueren
-Whitey
-Brandons
-Bay
+Black Goat,Goat
+Lions
+Rhaesh Andahli,Andahli,Rhaesh
 King of Winter
