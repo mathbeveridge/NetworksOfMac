@@ -43,6 +43,7 @@ Alliser,Alliser
 Syrio,Syrio,Forel
 Aemon,Dragonknight,Aemon
 Walder,Walder,Frey
+Loras,Loras,Daisy
 Grenn,Grenn
 Nan,Nan
 Rhaegar,Rhaegar
@@ -52,7 +53,6 @@ Edmure,Edmure
 Irri,Irri
 Jhiqui,Jhiqui
 Qotho,Qotho
-Loras,Loras,Daisy
 Tom,Tom,Tomard
 Osha,Osha
 Doreah,Doreah

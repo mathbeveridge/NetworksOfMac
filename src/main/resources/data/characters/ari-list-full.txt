@@ -49,6 +49,7 @@ Syrio,Syrio Forel,Forel
 Aemon the Dragonknight,Aemon Targaryen,Dragonknight,Maester Aemon,Aemon,Prince Aemon
 Wind,Wind Witch,Grey Wind,Witch,Grey
 Walder,Walder Frey,Lord Walder,Lord Frey,Lord of the Crossing
+Loras,Knight of Flowers,Ser Daisy,Daisy,Ser Loras,Loras Tyrell
 Lord Commander
 Grenn
 Nan,Old Nan
@@ -60,7 +61,6 @@ Edmure Tully,Ser Edmure,Edmure
 Jhiqui
 Casterly Rock
 Qotho
-Loras,Ser Daisy,Daisy,Ser Loras,Loras Tyrell
 Tom,Tomard,Fat Tom
 Osha
 Shagga
@@ -99,7 +99,6 @@ Knife,White,White Harbor,White Knife,Harbor,Swords,White Bull,White Swords,Bull
 High Valyrian,Valyrian
 Lord Beric,Beric,Beric Dondarrion
 Every
-Rainbow,Knight,Rainbow Knight
 Alyn
 Boros Blount,Ser Boros,Boros
 Ser Marq,Marq,Marq Piper,Lord Piper
@@ -220,6 +219,7 @@ Jade Sea,Jade
 Pyke,Cotter,Cotter Pyke
 Flement,Ser Flement,Flement Brax
 Ser Hugh,Hugh
+Knight of the Gate
 Citadel
 Robett,Robett Glover
 Late,Late Lord Frey
@@ -331,6 +331,7 @@ Dornishman,Mallor,Mallor the Dornishman
 Prince of Dorne
 Lord Gyles,Gyles
 Tya Lannister,Tya
+Rainbow,Rainbow Knight
 Young Dragon
 Khal Moro,Moro
 Ser Denys,Denys

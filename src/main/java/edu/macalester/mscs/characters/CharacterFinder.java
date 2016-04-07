@@ -27,14 +27,15 @@ public class CharacterFinder {
             "The", // titular articles
             "Lord", "Lady", "King", "Queen", "Regent", "Steward", "Prince", "Princess", // royal titles
             "Ser", "Maester", "Captain", "Commander", "Magister", "Master", "Builder",
-            "Septon", // professional titles
+            "Septon", "Knight", // professional titles
             "Young", "Old", "Fat", // endearing titles
             "Khal", "Ko", // dothraki titles
             "High", "Great", "Grand", "First", "Second", // superlatives
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
             "Black", "Red", "Green", "Blue", // colors
             "Land", "Lands", "Sea", "Seas", "Island", "Isles", "City", "Cities", // geographics
-            "Alley", "Gate", "Keep", "Market", "Tower" // landmarks
+            "Alley", "Gate", "Keep", "Market", "Tower", // landmarks
+            "Flowers" // needed to distinguish Knight of Flowers and Jafer Flowers
     ));
 
     public static final String QUOTE = "�";
@@ -506,6 +507,7 @@ public class CharacterFinder {
         counter.put("Jeor Mormont", 1); // gets wrecked
         counter.put("Jeor", 1);
         counter.remove("Tully Stark"); // gets awkwardly generated as the only double-surname
+//        counter.remove("Flowers"); // to distinguish from Knight of Flowers
 
         Set<String> titledNames = getTitledNames(counter.keySet(), GENERAL_WORDS);
         Set<String> pluralizedNames = getPluralizedNames(counter.keySet(), GENERAL_WORDS);
@@ -653,6 +655,7 @@ public class CharacterFinder {
         characterGroups.combineGroups("Roose", "Lord of the Dreadfort");
         characterGroups.combineGroups("Roose", "Lord Bolton");
         characterGroups.combineGroups("Hoster", "Lord of Riverrun");
+        characterGroups.combineGroups("Loras", "Knight of Flowers");
         characterGroups.combineGroups("Loras", "Daisy");
 
         names.remove("Yard");           // mistake
