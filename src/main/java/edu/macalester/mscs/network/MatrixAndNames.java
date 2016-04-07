@@ -76,7 +76,7 @@ public class MatrixAndNames {
 		removed.remove(entryPoint);
 		while (!bfs.isEmpty()) {
 			int index = bfs.poll();
-			for (int i : matrix[index]) {
+			for (int i=0; i<length(); i++) {
 				if (matrix[index][i] > 0 && removed.contains(i)) {
 					bfs.add(i);
 					removed.remove(i);
