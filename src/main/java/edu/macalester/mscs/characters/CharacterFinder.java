@@ -257,9 +257,6 @@ public class CharacterFinder {
             if (split.length == 3 && isCapitalized(split[1]) && !ignored.contains(split[1])
                     && ignored.contains(split[0])
                     || split.length == 2 && (split[0].equals("Ko") || split[0].equals("Khal"))) {
-                if (!words.contains(name)) {
-                    names.add(cap);
-                }
                 names.add(name);
             }
         }
