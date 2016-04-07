@@ -31,9 +31,9 @@ Source,Target,Weight,Type
 "EddardS","BarristanS",33.0,undirected
 "EddardS","RickonS",6.0,undirected
 "EddardS","SyrioF",8.0,undirected
+"EddardS","LorasT",17.0,undirected
 "EddardS","RhaegarT",16.0,undirected
 "EddardS","EdmureT",4.0,undirected
-"EddardS","LorasT",13.0,undirected
 "EddardS","Tom",19.0,undirected
 "EddardS","AerysT",16.0,undirected
 "EddardS","Lyanna",29.0,undirected
@@ -278,8 +278,8 @@ Source,Target,Weight,Type
 "SansaS","StannisB",4.0,undirected
 "SansaS","BarristanS",5.0,undirected
 "SansaS","RickonS",11.0,undirected
+"SansaS","LorasT",17.0,undirected
 "SansaS","JeyneP",35.0,undirected
-"SansaS","LorasT",12.0,undirected
 "SansaS","Lyanna",4.0,undirected
 "SansaS","MerynT",7.0,undirected
 "SansaS","JanosS",4.0,undirected
@@ -328,6 +328,7 @@ Source,Target,Weight,Type
 "JoffreyB","StannisB",6.0,undirected
 "JoffreyB","TheonG",4.0,undirected
 "JoffreyB","BarristanS",10.0,undirected
+"JoffreyB","LorasT",4.0,undirected
 "JoffreyB","MerynT",4.0,undirected
 "JoffreyB","JanosS",9.0,undirected
 "JoffreyB","IlynP",5.0,undirected
@@ -361,8 +362,8 @@ Source,Target,Weight,Type
 "PetyrB","SandorC",6.0,undirected
 "PetyrB","JoryC",9.0,undirected
 "PetyrB","BarristanS",6.0,undirected
-"PetyrB","EdmureT",6.0,undirected
 "PetyrB","LorasT",5.0,undirected
+"PetyrB","EdmureT",6.0,undirected
 "PetyrB","Tom",4.0,undirected
 "PetyrB","JanosS",5.0,undirected
 "PetyrB","HosterT",4.0,undirected
@@ -377,8 +378,8 @@ Source,Target,Weight,Type
 "JaimeL","TheonG",4.0,undirected
 "JaimeL","BarristanS",7.0,undirected
 "JaimeL","BryndenT",8.0,undirected
+"JaimeL","LorasT",6.0,undirected
 "JaimeL","EdmureT",4.0,undirected
-"JaimeL","LorasT",4.0,undirected
 "JaimeL","KevanL",4.0,undirected
 "JaimeL","AerysT",6.0,undirected
 "JaimeL","Tommen",6.0,undirected
@@ -459,7 +460,7 @@ Source,Target,Weight,Type
 "RenlyB","SandorC",8.0,undirected
 "RenlyB","StannisB",24.0,undirected
 "RenlyB","BarristanS",15.0,undirected
-"RenlyB","LorasT",7.0,undirected
+"RenlyB","LorasT",8.0,undirected
 "RenlyB","BalonS",5.0,undirected
 "SeptaM","JoryC",4.0,undirected
 "SeptaM","GregorC",4.0,undirected
@@ -478,7 +479,7 @@ Source,Target,Weight,Type
 "Pycelle","Malleon",5.0,undirected
 "SandorC","GregorC",13.0,undirected
 "SandorC","BarristanS",7.0,undirected
-"SandorC","LorasT",5.0,undirected
+"SandorC","LorasT",7.0,undirected
 "SandorC","MerynT",6.0,undirected
 "JoryC","TheonG",6.0,undirected
 "JoryC","Tom",6.0,undirected
@@ -486,7 +487,7 @@ Source,Target,Weight,Type
 "JoryC","VayonP",6.0,undirected
 "JoryC","Hullen",5.0,undirected
 "JoryC","Harwin",5.0,undirected
-"GregorC","LorasT",13.0,undirected
+"GregorC","LorasT",17.0,undirected
 "GregorC","BericD",7.0,undirected
 "GregorC","MarqP",9.0,undirected
 "MirriM","Irri",4.0,undirected
@@ -528,13 +529,16 @@ Source,Target,Weight,Type
 "WalderF","StevronF",5.0,undirected
 "WalderF","JonosB",4.0,undirected
 "WalderF","DanwellF",4.0,undirected
+"LorasT","JeyneP",5.0,undirected
+"LorasT","IlynP",4.0,undirected
+"LorasT","BericD",8.0,undirected
+"LorasT","MaceT",5.0,undirected
 "Grenn","Halder",7.0,undirected
 "VardisE","Colemon",4.0,undirected
 "EdmureT","HosterT",10.0,undirected
 "EdmureT","MarqP",6.0,undirected
 "EdmureT","KarylV",4.0,undirected
 "EdmureT","TytosB",6.0,undirected
-"JeyneP","LorasT",4.0,undirected
 "JeyneP","IlynP",4.0,undirected
 "JeyneP","BericD",6.0,undirected
 "Irri","Jhiqui",17.0,undirected
@@ -544,9 +548,6 @@ Source,Target,Weight,Type
 "Qotho","Haggo",12.0,undirected
 "Qotho","Cohollo",6.0,undirected
 "Qotho","Quaro",4.0,undirected
-"LorasT","IlynP",4.0,undirected
-"LorasT","BericD",6.0,undirected
-"LorasT","MaceT",4.0,undirected
 "Tom","Alyn",4.0,undirected
 "Tom","Cayn",6.0,undirected
 "Shagga","Timett",6.0,undirected

@@ -31,9 +31,9 @@ Source,Target,Weight,Type
 "Eddard","Jeor",5.0,undirected
 "Eddard","Rickon",6.0,undirected
 "Eddard","Syrio",8.0,undirected
+"Eddard","Loras",17.0,undirected
 "Eddard","Rhaegar",16.0,undirected
 "Eddard","Edmure",4.0,undirected
-"Eddard","Loras",13.0,undirected
 "Eddard","Tom",19.0,undirected
 "Eddard","Aerys",16.0,undirected
 "Eddard","Lyanna",29.0,undirected
@@ -270,8 +270,8 @@ Source,Target,Weight,Type
 "Sansa","Stannis",4.0,undirected
 "Sansa","Barristan",5.0,undirected
 "Sansa","Rickon",11.0,undirected
+"Sansa","Loras",17.0,undirected
 "Sansa","Jeyne",35.0,undirected
-"Sansa","Loras",12.0,undirected
 "Sansa","Lyanna",4.0,undirected
 "Sansa","Meryn",7.0,undirected
 "Sansa","Janos",4.0,undirected
@@ -320,6 +320,7 @@ Source,Target,Weight,Type
 "Joffrey","Stannis",6.0,undirected
 "Joffrey","Theon",4.0,undirected
 "Joffrey","Barristan",10.0,undirected
+"Joffrey","Loras",4.0,undirected
 "Joffrey","Meryn",4.0,undirected
 "Joffrey","Janos",9.0,undirected
 "Joffrey","Ilyn",5.0,undirected
@@ -353,8 +354,8 @@ Source,Target,Weight,Type
 "Petyr","Sandor",6.0,undirected
 "Petyr","Jory",9.0,undirected
 "Petyr","Barristan",6.0,undirected
-"Petyr","Edmure",6.0,undirected
 "Petyr","Loras",5.0,undirected
+"Petyr","Edmure",6.0,undirected
 "Petyr","Tom",4.0,undirected
 "Petyr","Janos",5.0,undirected
 "Petyr","Hoster",4.0,undirected
@@ -369,8 +370,8 @@ Source,Target,Weight,Type
 "Jaime","Theon",4.0,undirected
 "Jaime","Barristan",7.0,undirected
 "Jaime","Brynden",8.0,undirected
+"Jaime","Loras",6.0,undirected
 "Jaime","Edmure",4.0,undirected
-"Jaime","Loras",4.0,undirected
 "Jaime","Kevan",4.0,undirected
 "Jaime","Aerys",6.0,undirected
 "Jaime","Tommen",6.0,undirected
@@ -453,7 +454,7 @@ Source,Target,Weight,Type
 "Renly","Sandor",8.0,undirected
 "Renly","Stannis",24.0,undirected
 "Renly","Barristan",15.0,undirected
-"Renly","Loras",7.0,undirected
+"Renly","Loras",8.0,undirected
 "Renly","Balon",6.0,undirected
 "Septa","Jory",4.0,undirected
 "Septa","Gregor",4.0,undirected
@@ -472,7 +473,7 @@ Source,Target,Weight,Type
 "Pycelle","Malleon",5.0,undirected
 "Sandor","Gregor",13.0,undirected
 "Sandor","Barristan",7.0,undirected
-"Sandor","Loras",5.0,undirected
+"Sandor","Loras",7.0,undirected
 "Sandor","Meryn",6.0,undirected
 "Sandor","Balon",4.0,undirected
 "Jory","Theon",6.0,undirected
@@ -481,7 +482,7 @@ Source,Target,Weight,Type
 "Jory","Vayon",6.0,undirected
 "Jory","Hullen",5.0,undirected
 "Jory","Harwin",5.0,undirected
-"Gregor","Loras",13.0,undirected
+"Gregor","Loras",17.0,undirected
 "Gregor","Beric",7.0,undirected
 "Gregor","Marq",9.0,undirected
 "Mirri","Irri",4.0,undirected
@@ -527,13 +528,16 @@ Source,Target,Weight,Type
 "Walder","Stevron",5.0,undirected
 "Walder","Jonos",4.0,undirected
 "Walder","Danwell",4.0,undirected
+"Loras","Jeyne",5.0,undirected
+"Loras","Ilyn",4.0,undirected
+"Loras","Beric",8.0,undirected
+"Loras","Mace",5.0,undirected
 "Grenn","Halder",7.0,undirected
 "Vardis","Colemon",4.0,undirected
 "Edmure","Hoster",10.0,undirected
 "Edmure","Marq",6.0,undirected
 "Edmure","Karyl",4.0,undirected
 "Edmure","Tytos",6.0,undirected
-"Jeyne","Loras",4.0,undirected
 "Jeyne","Ilyn",4.0,undirected
 "Jeyne","Beric",6.0,undirected
 "Irri","Jhiqui",17.0,undirected
@@ -543,9 +547,6 @@ Source,Target,Weight,Type
 "Qotho","Haggo",12.0,undirected
 "Qotho","Cohollo",6.0,undirected
 "Qotho","Quaro",4.0,undirected
-"Loras","Ilyn",4.0,undirected
-"Loras","Beric",6.0,undirected
-"Loras","Mace",4.0,undirected
 "Tom","Alyn",4.0,undirected
 "Tom","Cayn",6.0,undirected
 "Shagga","Timett",6.0,undirected
