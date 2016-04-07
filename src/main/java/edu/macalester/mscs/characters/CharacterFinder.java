@@ -6,6 +6,7 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.*;
 
 /**
+ * TODO: make more modular
  * @author Ari Weiland
  */
 public class CharacterFinder {
