@@ -142,6 +142,7 @@ public class MatrixConstructor {
 
 		MatrixAndNames data = new MatrixAndNames(matrix, names);
 		logger.log(data.cleanNoise(noise));
+		logger.log(data.cleanFloaters());
 //		logger.log(data.cleanSingletons());
 
 		logger.log();

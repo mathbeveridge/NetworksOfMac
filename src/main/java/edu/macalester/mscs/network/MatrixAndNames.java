@@ -1,9 +1,6 @@
 package edu.macalester.mscs.network;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class MatrixAndNames {
 	
@@ -58,6 +55,35 @@ public class MatrixAndNames {
 				removed.add(i);
 			}
 		}
+		lines.add(removeRows(removed));
+		return lines;
+	}
+
+
+	public List<String> cleanFloaters() {
+		return cleanFloaters(0);
+	}
+
+	public List<String> cleanFloaters(int entryPoint) {
+		List<String> lines = new ArrayList<>();
+		// get people without connections
+		Set<Integer> removed = new HashSet<>();
+		for (int i=0; i<names.length; i++) {
+			removed.add(i);
+		}
+		Queue<Integer> bfs = new ArrayDeque<>();
+		bfs.add(entryPoint);
+		removed.remove(entryPoint);
+		while (!bfs.isEmpty()) {
+			int index = bfs.poll();
+			for (int i : matrix[index]) {
+				if (matrix[index][i] > 0 && removed.contains(i)) {
+					bfs.add(i);
+					removed.remove(i);
+				}
+			}
+		}
+		lines.add("Removing floating characters:");
 		lines.add(removeRows(removed));
 		return lines;
 	}
