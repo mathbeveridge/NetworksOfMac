@@ -557,7 +557,6 @@ Source,Target,Weight,Type
 "Greatjon","Tytos",5.0,undirected
 "Aerys","Jaehaerys",4.0,undirected
 "Jhogo","Aggo",4.0,undirected
-"Gared","Waymar",14.0,undirected
 "Meryn","Boros",5.0,undirected
 "Aggo","Rakharo",7.0,undirected
 "Aggo","Quaro",4.0,undirected
@@ -581,14 +580,10 @@ Source,Target,Weight,Type
 "Balon","Yohn",4.0,undirected
 "Hullen","Harwin",4.0,undirected
 "Galbart","Helman",4.0,undirected
-"Aron","Lothor",4.0,undirected
 "Tytos","Jonos",4.0,undirected
 "Arthur","Gerold",4.0,undirected
 "Torrhen","Daryn",6.0,undirected
 "Gerold","Oswell",4.0,undirected
-"Horas","Hobber",5.0,undirected
 "Jared","Danwell",4.0,undirected
 "Jared","Hosteen",4.0,undirected
 "Danwell","Hosteen",4.0,undirected
-"Bryce","Andar",5.0,undirected
-"Martyn","Theo",4.0,undirected
