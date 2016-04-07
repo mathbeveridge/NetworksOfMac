@@ -500,8 +500,7 @@ public class CharacterFinder {
                 }
             }
             // strip leading title
-            // TODO: strip multiple leading titles
-            if (GENERAL_WORDS.contains(noTitle.split(" ")[0]) && StringUtils.countMatches(noTitle, ' ') > 1) {
+            for (int i = StringUtils.countMatches(noTitle, ' '); i > 1; i--) {
                 noTitle = stripTitle(noTitle, GENERAL_WORDS);
             }
             if (!reducedCounter.containsKey(noTitle)) {

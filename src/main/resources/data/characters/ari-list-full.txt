@@ -23,7 +23,7 @@ Sam Tarly,Ser Piggy,Piggy,Samwell Tarly,Lady Piggy,Sam,Samwell
 Lord Renly,King Renly,Renly,Renly Baratheon
 Lady Lysa,Lysa,Lysa Arryn
 Lord Varys,Varys,Spider,Varys the Spider
-Regent Cersei Lannister,Cersei Lannister,Queen Cersei,Cersei
+Cersei Lannister,Queen Cersei,Cersei
 Pycelle,Maester Pycelle
 Wind,Wind Witch,Grey Wind,Witch,Grey
 Sunset,Lord of the Seven Kingdoms,Sunset Lands,Sunset Kingdoms,Seven Kingdoms,Sunset Sea,Kingdoms
@@ -193,8 +193,8 @@ Balerion,Black Dread,Balerion the Black Dread,Dread
 Burned
 Donnel Waynwood,Ser Donnel,Donnel
 Lord Lefford,Lefford
-Gerold Hightower,Ser Gerold,Commander Ser Gerold Hightower,Gerold
 Rhaego
+Gerold Hightower,Ser Gerold,Gerold
 Randyll,Lord Randyll,Randyll Tarly
 Hal,Hal Mollen
 Cayn
@@ -291,6 +291,7 @@ Silver,Silver Lady
 Porther
 Ashara Dayne,Ashara,Lady Ashara
 Eastern Market,Eastern
+Othell,Othell Yarwyck,Yarwyck
 Horas Redwyne,Horas,Ser Horas
 Vargo,Hoat,Vargo Hoat
 Mandon Moore,Ser Mandon,Mandon
@@ -307,7 +308,6 @@ Ser Hosteen,Hosteen,Hosteen Frey
 Khal Jommo,Jommo
 Dolf
 Rhaggat,Khal Rhaggat
-Othell,Othell Yarwyck,Builder Othell Yarwyck,Yarwyck
 Martyn Cassel,Martyn Rivers,Martyn
 Shaggy
 Arbor

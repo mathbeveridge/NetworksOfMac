@@ -20,7 +20,7 @@ Samwell,Sam Tarly,Ser Piggy,Piggy,Samwell Tarly,Lady Piggy,Sam,Samwell
 Renly,Lord Renly,King Renly,Renly,Renly Baratheon
 Lysa,Lady Lysa,Lysa,Lysa Arryn
 Varys,Lord Varys,Varys,Spider,Varys the Spider
-Cersei,Regent Cersei Lannister,Cersei Lannister,Queen Cersei,Cersei
+Cersei,Cersei Lannister,Queen Cersei,Cersei
 Pycelle,Pycelle,Maester Pycelle
 Barristan,Barristan the Old,Ser Barristan,Barristan Selmy,Barristan the Bold,Bold,Barristan
 Sandor,Sandor Clegane,Sandor,Ser Sandor,Hound
@@ -110,9 +110,9 @@ Hullen,Hullen
 Dareon,Dareon
 Hal,Hal,Hal Mollen
 Rhaego,Rhaego
-Gerold,Gerold Hightower,Ser Gerold,Commander Ser Gerold Hightower,Gerold
 Randyll,Randyll,Lord Randyll,Randyll Tarly
 Donnel,Donnel Waynwood,Ser Donnel,Donnel
+Gerold,Gerold Hightower,Ser Gerold,Gerold
 Morrec,Morrec
 Maege,Lady Maege,Maege,Maege Mormont
 Cayn,Cayn
