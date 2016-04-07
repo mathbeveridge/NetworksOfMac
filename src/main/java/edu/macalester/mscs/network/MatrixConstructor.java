@@ -6,6 +6,7 @@ import org.apache.commons.lang3.StringUtils;
 
 import java.util.*;
 
+// TODO: make more modular
 public class MatrixConstructor {
 
 	public static final int NOISE = 4;
