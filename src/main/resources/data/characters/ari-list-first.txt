@@ -152,8 +152,8 @@ Ryam,Ryam
 Morton,Morton
 Olyvar,Olyvar
 Podrick,Podrick
-Margaery,Margaery
 Rhae,Mhar,Rhae
+Margaery,Margaery
 Amory,Lorch,Amory
 Mark,Mark,Ryswell
 Moro,Moro
