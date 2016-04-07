@@ -73,7 +73,12 @@ public class MatrixConstructor {
 				int index = nameList.size();
 				if (last == null) {
 					last = sb.toString();
-					nameList.add(last);
+					String[] split = last.split(" ");
+					String name = split[0];
+					if (split.length > 1) {
+						name += " " + split[1].charAt(0);
+					}
+					nameList.add(name);
 					nameIndices.put(last, index);
 				} else {
 					nameIndices.put(sb.toString(), index - 1);
