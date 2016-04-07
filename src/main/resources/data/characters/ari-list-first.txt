@@ -68,7 +68,6 @@ Mord,Mord
 Meryn,Meryn
 Gared,Gared
 Janos,Slynt,Janos
-Aegon,Aegon,Conqueror,Fortunate
 Ilyn,Ilyn
 Myrcella,Myrcella
 Aggo,Aggo
@@ -76,7 +75,6 @@ Marillion,Marillion
 Jaremy,Jaremy
 Waymar,Waymar
 Hoster,Hoster
-Valyrian,Valyrian
 Tommen,Tommen
 Beric,Beric
 Boros,Boros

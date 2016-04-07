@@ -21,7 +21,6 @@ Luwin,Maester Luwin,Luwin
 Lysa Arryn,Lady Lysa,Lady Arryn,Lysa,Lysa Arryn
 Samwell Tarly,Sam Tarly,Ser Piggy,Piggy,Samwell Tarly,Lady Piggy,Lord of Ham,Sam,Samwell
 Varys,Lord Varys,Varys,Spider,Varys the Spider
-Rodrik Stark,Rodrik,Rodrik Stark,Ser Rodrik,Rodrik Cassel
 Rodrik Cassel,Rodrik,Rodrik Stark,Ser Rodrik,Rodrik Cassel
 Bronn,Bronn
 Cersei Lannister,Cersei Lannister,Queen Cersei,Cersei
@@ -72,7 +71,6 @@ Mord,Mord
 Gared,Gared
 Meryn Trant,Meryn Trant,Meryn,Ser Meryn
 Janos Slynt,Slynt,Janos Slynt,Lord Slynt,Janos
-Aegon Targaryen,Aegon the Conqueror,Aegon the Fortunate,Aegon,Aegon the Dragonlord,Aegon the Dragon,Aegon Targaryen,Conqueror,Fortunate,Aegon Dragonlord
 Ilyn Payne,Ilyn,Ilyn Payne,Ser Ilyn
 Aggo,Aggo
 Waymar Royce,Waymar Royce,Waymar,Ser Waymar
@@ -82,7 +80,6 @@ Hoster Tully,Lord Hoster,Hoster Tully,Hoster,Lord of Riverrun
 Myrcella,Princess Myrcella,Myrcella
 Beric Dondarrion,Lord Beric,Beric,Beric Dondarrion
 Tommen,Tommen,Prince Tommen
-Valyrian,High Valyrian,Valyrian
 Boros Blount,Boros Blount,Ser Boros,Boros
 Alyn,Alyn
 Haggo,Haggo
@@ -143,7 +140,6 @@ Hal Mollen,Hal,Hal Mollen
 Harys Swyft,Harys,Harys Swyft,Swyft,Ser Harys
 Gerold Hightower,Gerold Hightower,Ser Gerold,Gerold
 Randyll Tarly,Randyll,Lord Randyll,Randyll Tarly
-Torrhen Stark,Torrhen Karstark,Torrhen,Torrhen Stark
 Hobb,Finger Hobb,Hobb,Finger
 Yohn Royce,Bronze,Bronze Yohn,Yohn Royce,Yohn,Bronze Yohn Royce
 Torrhen Karstark,Torrhen Karstark,Torrhen,Torrhen Stark

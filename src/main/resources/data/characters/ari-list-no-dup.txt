@@ -69,7 +69,6 @@ Gared,Gared
 Meryn,Meryn Trant,Meryn,Ser Meryn
 Janos,Slynt,Janos Slynt,Lord Slynt,Janos
 Ilyn,Ilyn,Ilyn Payne,Ser Ilyn
-Aegon,Aegon the Conqueror,Aegon the Fortunate,Aegon,Aegon the Dragonlord,Aegon the Dragon,Aegon Targaryen,Conqueror,Fortunate,Aegon Dragonlord
 Waymar,Waymar Royce,Waymar,Ser Waymar
 Hoster,Lord Hoster,Hoster Tully,Hoster,Lord of Riverrun
 Aggo,Aggo
@@ -78,7 +77,6 @@ Jaremy,Jaremy,Ser Jaremy,Jaremy Rykker
 Myrcella,Princess Myrcella,Myrcella
 Beric,Lord Beric,Beric,Beric Dondarrion
 Tommen,Tommen,Prince Tommen
-Valyrian,High Valyrian,Valyrian
 Alyn,Alyn
 Boros,Boros Blount,Ser Boros,Boros
 Haggo,Haggo

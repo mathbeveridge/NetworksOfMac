@@ -656,6 +656,7 @@ public class CharacterFinder {
         characterGroups.combineGroups("Loras", "Daisy");
 
         names.remove("Yard");           // mistake
+        names.remove("Valyrian");       // mistake
         names.remove("Ned Stark");      // as Eddard Stark
         names.remove("Jon Stark");      // as Jon Snow
         names.remove("Daenerys Stormborn"); // as Daenerys Targaryen
@@ -664,11 +665,14 @@ public class CharacterFinder {
         names.remove("Rider");          // as Drogo
         names.remove("Sam Tarly");      // as Samwell Tarly
         names.remove("Piggy");          // as Samwell Tarly
+        names.remove("Rodrik Stark");   // unused
         names.remove("Ben Stark");      // as Benjen Stark
         names.remove("Ranger");         // as Benjen Stark
         names.remove("Theon Stark");    // as Theon Greyjoy
         names.remove("Brynden Blackfish");  // as Brynden Tully
         names.remove("Daisy");          // as Loras Tyrell
+        names.remove("Aegon Targaryen");// unused, too problematic
+        names.remove("Torrhen Stark");  // unused
         names.remove("Horror");         // as Horas
         names.remove("Slobber");        // as Hobber
 
