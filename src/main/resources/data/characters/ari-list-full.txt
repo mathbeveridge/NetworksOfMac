@@ -1,11 +1,11 @@
 Eddard,Ned Stark,Lord Eddard,Eddard Stark,Ned,Eddard Karstark
-Jon Snow,Jon Arryn,Snow,Lord Snow,Jon,Jon Stark,Lord Jon,Jon of Lady Stark
+Jon Snow,Jon Arryn,Snow,Lord Snow,Jon,Jon Stark,Lord Jon
 Tyrion the Imp,Tyrion Lannister,Imp,Tyrion,Lord Tyrion
-Brandon the Burner,Bran,Brandon Starks,Brandon,Brandon Stark of Winterfell,Broken,Bran the Broken,Brandon the Shipwright,Broken Arm of Dorne,Brandon Stark,Brandon the Builder,Burner,Shipwright,Arm,Bran the Builder
-Lady Catelyn,Catelyn Tully of Riverrun,Catelyn Stark,Catelyn,Catelyn Tully Stark,Catelyn Tully
+Brandon the Burner,Bran,Brandon Starks,Brandon,Broken Arm,Broken,Bran the Broken,Brandon the Shipwright,Brandon Stark,Brandon the Builder,Burner,Shipwright,Arm,Bran the Builder
+Lady Catelyn,Catelyn Stark,Catelyn,Catelyn Tully Stark,Catelyn Tully
 Daenerys Stormborn,Stormborn,Daenerys Targaryen,Princess Daenerys,Dany,Khaleesi,Daenerys
 Robert Baratheon,Robert Arryn,King Robert,Robert,Lord Robert,Usurper
-Arya Underfoot,Arya,Arya Horseface,Arya Stark of Winterfell,Arya Stark,Horseface,Underfoot
+Arya Underfoot,Arya,Arya Horseface,Arya Stark,Horseface,Underfoot
 Robb the Lord,Lord Robb,Robb,Robb Stark
 Sansa,Lady Sansa,Sansa Stark
 Maz Duur,Mirri,Mirri Maz Duur,Maz,Duur
@@ -18,40 +18,40 @@ Kingslayer,Ser Jaime,Jaime Lannister the Kingslayer,Jaime,Jaime Lannister
 Petyr Baelish,Lord Petyr,Littlefinger,Petyr
 Maester Luwin,Luwin
 Dothraki Kingsguard,Jhiqui the Dothraki,Dothraki,Jhiqui
-Sunset,Lord of the Seven Kingdoms,Tongue,Sunset Lands,Sunset Kingdoms,Seven Kingdoms,Common Tongue of the Seven Kingdoms,Sunset Sea,Common Tongue,Maester of the Seven Kingdoms,Kingdoms,Common
 Rodrik,Rodrik Stark,Ser Rodrik,Rodrik Cassel
 Sam Tarly,Ser Piggy,Piggy,Samwell Tarly,Lady Piggy,Sam,Samwell
-Lord Renly,King Renly,Renly of Storm,Renly,Renly Baratheon
-Lysa Arryn of the Eyrie,Lady Lysa,Lysa,Lysa Arryn
+Lord Renly,King Renly,Renly,Renly Baratheon
+Lady Lysa,Lysa,Lysa Arryn
 Lord Varys,Varys,Spider,Varys the Spider
 Regent Cersei Lannister,Cersei Lannister,Queen Cersei,Cersei
 Pycelle,Maester Pycelle
 Wind,Wind Witch,Grey Wind,Witch,Grey
+Sunset,Lord of the Seven Kingdoms,Sunset Lands,Sunset Kingdoms,Seven Kingdoms,Sunset Sea,Kingdoms
 Greywater,Commander of the City Watch of King,Watch,Greywater Watch,City Watch,Commander of the City Watch
 Barristan the Old,Ser Barristan,Barristan Selmy,Barristan the Bold,Bold,Barristan
 Sandor Clegane,Sandor,Ser Sandor,Hound
-Head,Hedge,Gurn of the Stone Crows,Gurn,Conn,Stone Crow,Stone,Stone Crows,Conn of the Stone Crows,Mya,Other Stone Crows,Mya Stone,Stone Head,Stone Hedge,Other
 Gregor the Mountain,Mountain,Gregor Clegane,Ser Gregor,Gregor
-Jen,Benjen Stark,Benjen,Ben,Ben Jen,Benjen Stark of the Night,Ben Stark
+Jen,Benjen Stark,Benjen,Ben,Ben Jen,Ben Stark
 Bronn
 Lord Stannis,Stannis Baratheon,Stannis
 Theon,Theon Greyjoy,Theon Stark
-Lord Mormont,Bear Island,Jeor Mormont,Old Bear,Bear,Commander Mormont,Jeor,Mormonts of Bear Island
+Lord Mormont,Bear Island,Jeor Mormont,Old Bear,Bear,Commander Mormont,Jeor
 Viserys Targaryen,Prince Viserys,Viserys
-Free Cities,High Valyrian,Free Folk,Valyrian,Valyrian of the Free Cities,Pentos,Folk,Magister of the Free City of Pentos,Free
 Alliser Thorne,Ser Alliser,Alliser
 Jory Cassel,Jory
+Stone Crows,Head,Hedge,Mya,Other Stone Crows,Mya Stone,Stone Head,Stone Hedge,Stone Crow,Stone,Other
 Syrio,Syrio Forel,Forel
-Vaes,Vaes Dothrak,Horse,Dothrak,Horse Gate of Vaes Dothrak
 Grace,Grace the King
 Aemon the Dragonknight,Aemon Targaryen,Dragonknight,Maester Aemon,Aemon,Prince Aemon
-Bank,Iron Lord,Iron Gate,Iron Bank of Braavos,Iron Throne,Iron,Islands,Throne,King of the Iron Islands
-Long Night,Summer Sea,Summer Isles,Long,Great Summer,Lands of the Long Summer,Summer,Isles,Isles of Faces
+Iron Bank,Bank,Iron Lord,Iron Gate,Iron Throne,Iron,Islands,Throne,King of the Iron Islands
+Vaes,Vaes Dothrak,Dothrak
+Long Night,Summer Sea,Summer Isles,Long,Great Summer,Lands of the Long Summer,Summer,Isles
 Ghost
 Illyrio,Illyrio Mopatis,Mopatis,Magister Illyrio
 Brynden Blackfish,Blackfish,Ser Brynden,Brynden the Blackfish,Brynden,Brynden Tully
 Landing
-Hall of the Arryns,Small,Small Hall,Hall of Winterfell,Hall,Hall of the Eyrie,High Hall,Great Hall
+Free Cities,Free Folk,Pentos,Folk,Magister of the Free City of Pentos,Free
+Small,Small Hall,Hall,High Hall,Great Hall
 Nan,Old Nan
 Hodor
 Loras,Ser Loras,Loras Tyrell
@@ -66,22 +66,23 @@ Rhaegar,Prince Rhaegar,Rhaegar Targaryen
 Jeyne Poole,Jeyne
 Aegon the Conqueror,Aegon the Fortunate,Aegon,Aegon the Dragonlord,Aegon the Dragon,Aegon Targaryen,Conqueror,Fortunate,Aegon Dragonlord
 Mad,Mad King Aerys,Mad King,Mad King Aerys Targaryen,King Aerys,Aerys Targaryen,Aerys
+Lord Commander
+Meryn Trant,Meryn,Ser Meryn
 Edmure Tully,Ser Edmure,Edmure
-Meryn Trant,Meryn,Ser Meryn,Meryn of the Kingsguard
 Grenn
 Ilyn,Ilyn Payne,Ser Ilyn
-Knight of Flowers,Rainbow,Knight,Knight of the Gate,Rainbow Knight
+Tongue,Common Tongue,Common
+Rainbow,Knight,Rainbow Knight
 Irri
+Lord Hoster,Hoster Tully,Hoster
 Ser Kevan,Kevan Lannister,Kevan
-Lord Hoster,Hoster Tully,Hoster,Hoster Tully of Riverrun
 Lord Beric,Beric,Beric Dondarrion
 Castle,Castle Black
 Casterly Rock
 Qotho
 Jaremy,Ser Jaremy,Jaremy Rykker
-Blue Fork,Green Fork,Fork,Fork of the Trident,Red Fork
+Blue Fork,Green Fork,Fork,Red Fork
 Osha
-Lord Commander
 Shagga
 Doreah
 Shadow Lands,Shadow,Shadow Tower
@@ -89,13 +90,13 @@ Waymar Royce,Waymar,Ser Waymar
 Yoren
 Halder
 Greatjon Umber,Greatjon
-Roose,Roose Bolton,Roose Bolton of the Dreadfort
+Roose,Roose Bolton
 Red Keep
 Bowen Marsh,Bowen Marsh the Lord Steward,Bowen
 High Septon,Septon,Septon Chayle,Celladar,Chayle,Septon Celladar
 Rickard Stark,Rickard Karstark,Rickard,Lord Rickard
-Boros Blount,Ser Boros,Boros,Boros Blount of the Kingsguard
-Lord Protector,Protector,Protector of the Realm
+Lord Protector,Protector
+Boros Blount,Ser Boros,Boros
 Princess Myrcella,Myrcella
 Nymeria
 Lyanna
@@ -108,7 +109,6 @@ Vayon Poole,Vayon
 Mord
 Gared
 Needle
-Hand of the King
 Donal Noye,Noye,Donal
 Raymun,Ser Raymun,Raymun Darry
 Masha,Masha Heddle,Heddle
@@ -116,6 +116,7 @@ Moat,Cailin,Moat Cailin
 Balon,Balon Greyjoy,Balon Swann,Ser Balon
 Willis Wode,Ser Willis,Willis
 Golden Tooth,Tooth,Golden
+High Valyrian,Valyrian
 Toad
 Hallis,Hallis Mollen
 Marillion
@@ -124,15 +125,15 @@ Mance,Rayder,Mance Rayder
 Lord Arryn
 Tobho Mott,Mott,Master Mott,Tobho
 Lord Stark
-Age of Heroes,Dawn,Dawn Age,Age
+Dawn,Dawn Age,Age
 Ser Addam,Addam Marbrand,Addam
+Mountains
 Every
-Mountains,Mountains of the Moon
 Alyn
 Colemon,Maester Colemon
 Lady Stark
 Haggo
-Street of the Sisters,Street,Street of Steel,Street of Flour
+Street
 Chett
 Cohollo
 Ogo,Khal Ogo
@@ -155,44 +156,43 @@ Twins
 Lord of the Eyrie
 Lyn,Lyn Corbray
 Bronze,Bronze Yohn,Yohn Royce,Yohn,Bronze Yohn Royce
+Conn
+Sept,Great Sept
 Maegor,Cruel,Maegor the Cruel
 Harrenhal
 Flea,Flea Bottom,Bottom
 Nestor,Lord Nestor,Nestor Royce
 Wendel,Wendel Manderly,Ser Wendel
 Storm Dancer,Dancer
-Sept,Sept of Baelor,Great Sept
 Harys,Harys Swyft,Swyft,Ser Harys
-Descriptions,Descriptions of Many High,Many
 Shae
 Moon Boy,Boy King,Boy
-Thoros of Myr,Thoros
 Yi,Yi Ti,Ti
-Cheyk,Cheyk of the Black Ears,Ears,Black Ears
+Thoros
 Hunter,Lord Hunter
 Tumitis,Moreo,Moreo Tumitis
 Rakharo
 Chiggen
 Lamb Woman,Woman,Lamb God,Lamb
-Lion of Lannister,Lion Gate,Lion
 Desmond
 Blackwater,Blackwater Rush,Rush
 Jyck
 Tomard
 Tytos Blackwood,Tytos Brax,Lord Tytos,Tytos
 Bloody Gate,Bloody
+Lion Gate,Lion
 Karyl,Karyl Vance,Ser Karyl
 Shaggydog
 Quaro
 Hullen
 Harwin
+Marcher,Bryce Caron,Bryce,Marcher Lord Bryce Caron,Caron
 Dareon
 Tyroshi
 Balerion,Black Dread,Balerion the Black Dread,Dread
 Burned
 Donnel Waynwood,Ser Donnel,Donnel
 Lord Lefford,Lefford
-Bryce Caron of the Marches,Marcher,Bryce Caron,Bryce,Marcher Lord Bryce Caron,Caron
 Gerold Hightower,Ser Gerold,Commander Ser Gerold Hightower,Gerold
 Rhaego
 Randyll,Lord Randyll,Randyll Tarly
@@ -202,14 +202,16 @@ Howland,Reed,Howland Reed
 Lys
 Helman,Helman Tallhart
 Whispering Wood,Whispering Woods,Whispering
+Sword
 Lord Baelish
 Western,Western Market
 Morrec
+Many
 Jade Sea,Jade
 Pyke,Cotter,Cotter Pyke
 Lady Maege,Maege,Maege Mormont
 Finger Hobb,Hobb,Finger
-Sword of the Morning,Sword
+Grand Maester
 Maester Malleon,Malleon
 Eastwatch
 Torrhen Karstark,Torrhen,Torrhen Stark
@@ -217,10 +219,10 @@ Jhaqo,Khal Jhaqo,Ko Jhaqo
 Othor
 Rast
 Alyssa,Alyssa Arryn
-Grand Maester
 Jafer,Jafer Flowers
 Wylis Manderly,Wylis,Ser Wylis
 Chella
+Ears,Black Ears
 Flement,Ser Flement,Flement Brax
 Lord Frey
 Arys,Ser Arys,Arys Oakheart
@@ -230,59 +232,59 @@ Lord Karstark
 Hali
 Mikken
 Robett,Robett Glover
-Commander of the Kingsguard
 Dywen
-Vale of Arryn
 Gunthor
 Fingers
 Water,Water Gate,Water Tower
 Robar,Robar Royce,Ser Robar
-Keeper,Keeper of the Gates of the Moon,Gates of the Moon,Gates
-Mirror Shield,Shield of Lannisport,Shield,Serwyn of the Mirror Shield,Serwyn,Mirror
 Name
 Willem,Ser Willem,Willem Darry
+Sealord
 Lord of Winterfell
-Sealord of Braavos,Sealord
 Jalabhar,Jalabhar Xho,Xho
 Ser Florian,Fool,Florian,Florian the Fool
 Blessed,Baelor the Blessed,Blessed Baelor
 Dornish Marches,Dornish
-Womb of the World,Womb
 Lothor Brune,Lothor,Brune
-Princess Elia,Elia of Dorne,Elia Martell,Elia
 Honor
 Mace,Mace Tyrell
+Port
 Lady Arryn
 Ulf
 Holdfast
 Myrish
 Late,Late Lord Frey
 Perwyn,Ser Perwyn
-Port,Port of Ibben
 Wyl
 Daryn Hornwood,Daryn
 Moon Door,Door
 Votyris,Merchant,Merchant Captain Byan Votyris,Byan
 Ser Jared,Jared,Jared Frey
 Mole
+Womb
 Ser Oswell,Oswell,Oswell Whent
 Mud Gate,Mud
 Shepherd,Great Shepherd
+Princess Elia,Elia Martell,Elia
 Kurleket
+Ser Hugh,Hugh
 Bastard
 Quorin,Halfhand,Quorin Halfhand
+Gates
 Sky
-Hugh of the Vale,Ser Hugh,Hugh
 Heward
 Danwell,Danwell Frey,Ser Danwell
 Great Rider,Rider
 Gendry
 Sherrer
 Tears
-Stark of Winterfell
+Mirror Shield,Shield,Mirror
 Tumblestone
+Citadel
+Isle
+Cheyk
+Defender
 Tanda,Lady Tanda
-Citadel,Citadel of Oldtown
 Ranger,First Ranger
 Clydas
 Silver,Silver Lady
@@ -299,9 +301,7 @@ Smoking Log,Log,Smoking
 Lord Crakehall,Crakehall
 Jogos,Jogos Nhai,Nhai
 Lysene
-Defender,Defender of the Vale
 Gatehouse Tower,Gatehouse
-Isle,Isle of Faces
 Wheel,Wheel Tower
 Ser Hosteen,Hosteen,Hosteen Frey
 Khal Jommo,Jommo
@@ -311,11 +311,11 @@ Othell,Othell Yarwyck,Builder Othell Yarwyck,Yarwyck
 Martyn Cassel,Martyn Rivers,Martyn
 Shaggy
 Arbor
-Warden of the West
 Children
 Jeren
 Lharys
 Justice
+True Warden,True
 Mago
 Patrek,Patrek Mallister
 Endrew,Tarth,Endrew Tarth
@@ -323,31 +323,31 @@ Mummer
 Harrion,Harrion Karstark
 First Keep
 Barra
-True,True Warden of the East
 King of the Andals
 Ser Theo,Wull,Theo,Theo Wull
 Joseth
 Rhoynar
+Gurn
 Ser Dontos,Dontos
 Jacks
 Faceless
-Doom of Valyria,Doom
-Mern,Mern of the Reach
+Dance
 Lhazareen
 Quent
-Dance,Dance of the Dragons
+Umar
+Field
 Sorefoot,Sorefoot King
 Ser Albar,Albar Royce,Albar
 Ford
-Field,Field of Fire
 Lady Mormont
 Wildlings
 Ser Hobber,Hobber
 Lord Umber
+Horse,Horse Gate
 Eroeh
 Ser Morton,Morton Waynwood,Morton
 Preston,Ser Preston,Preston Greenfield
-Umar,Umar of the Moon
+Rowan,Lord Rowan
 Giant
 Lady Whent
 Seagard
@@ -355,13 +355,13 @@ Aurochs
 Lann,Clever,Lann the Clever
 Me Roar,Me,Roar
 Pod
-Histories,Histories of the Great
+Histories
 Pact
 Visenya
 Ryam Redwyne,Ryam
 Shella Whent,Lady Shella,Shella
+Mern,King Mern
 Longclaw
-Rowan,Rowan of Goldengrove,Lord Rowan
 Braavosi
 Derik,Lord Derik
 Andar Royce,Andar
@@ -372,6 +372,7 @@ Mohor
 City Watchmen,Watchmen
 Ser Horror,Horror
 Jaehaerys,Jaehaerys the Second
+Descriptions
 Cart King,Cart
 Gage
 Dickon
@@ -379,8 +380,8 @@ Matthar
 Lance
 Coratt
 Pono,Khal Pono
+Doom
 Naerys,Queen Naerys
-Commander of the Night
 Lord Cerwyn
 Hake
 Dornishman,Mallor,Mallor the Dornishman
@@ -388,8 +389,6 @@ Lord of Storm
 Serrett,Lord Serrett
 Rhaenys
 Pentoshi
-Loren of the Rock,Loren
-Battle,Battle of the Trident
 Great Keep
 Dan,Ares,Dan Ares
 Bite
@@ -399,7 +398,6 @@ Vhaghar
 Lord Piper
 Podrick Payne,Podrick
 Rhae Mhar,Mhar,Rhae
-Lannisters of Casterly Rock
 Faith
 Olyvar,Olyvar Frey
 Slobber,Ser Slobber
@@ -407,17 +405,17 @@ Mark Ryswell,Mark,Ryswell
 Maekar,King Maekar
 Heartsbane
 Tregar
-Lannister of Casterly Rock
 Westeros
 Qarth
 Duty
+King Loren,Loren
 Rides
 Lord of Casterly Rock
+Battle
 Margaery Tyrell,Margaery
 Lancel
 Hardin
 Amory Lorch,Lorch,Amory
-Warden of the East
 Crown
 Noble
 Fogo
@@ -429,7 +427,6 @@ Rhaesh Andahli,Andahli,Rhaesh
 Sworn Brotherhood,Brotherhood
 Lord Gyles,Gyles
 Tya Lannister,Tya
-Engines of War,Engines
 Lord Hornwood
 Lord Bracken
 Gate of the Gods
@@ -445,47 +442,47 @@ Lord Blackwood
 Dacey,Dacey Mormont
 Ser Arryk,Arryk
 Cregan,Cregan Stark
-Steward of the Vale
 Willum,Ser Willum
 Erryk,Ser Erryk
 Yard,Great Yard
 Pypar
+High Steward
 Pimple
 Ser Emmon,Emmon
 Lord Banefort,Banefort
 Beloved,Baelor the Beloved
 Ethan,Ethan Glover
 Wylla
-Warden of the North
 Guest
 Lord Erik,Erik
 Rhoyne
+Archon
 Walk
+Engines
 River,River Gate
 Estren,Lord Estren
-Archon,Archon of Tyrosh
 Eel Alley,Eel
 Pig Alley,Pig
+Forest
 Beth
 Lord Dustin,Dustin
-Forest,Forest of Qohor
 Lord of Ham
 Lord of Highgarden
 Ronel Rivers,Ronel
-Lions of the Rock,Lions
 Varly
 Gods Eye
 Lord Manderly
 Princess of Dragonstone
 Drunkard
+Prince Lewyn,Lewyn
+Keeper
 Daeryssa,Princess Daeryssa
 Ser Daisy,Daisy
-Goat of Qohor,Goat
 Lady Frey
 Lord Vance
+Serwyn
 Karhold
 Garth Greenfield,Garth
-Warden of the South
 Volantis
 Farlen
 Lord of Light
@@ -494,18 +491,17 @@ Jonquil
 Jaggot
 Selyse,Lady Selyse
 Dornishmen
-Starks of Winterfell
-Lewyn,Lewyn of Dorne
 Lord of the Crossing
 Lord Tyrell
 Smalljon,Smalljon Umber
 Gowen,Gowen Baratheon
 Traitor
+Black Goat,Goat
 Lineages
+Lions
 Knelt
 Kyra
 Prince of Dorne
-Freys of the Crossing
 Rygers
 Donnis
 Queensguard
@@ -513,7 +509,6 @@ Lord of the Dreadfort
 Pate
 Raventree
 Dragonbane
-Wardens of the West
 Godwyn
 Snakes
 Young Dragon
@@ -525,9 +520,7 @@ Lord of Riverrun
 Rhogoro
 Lorath
 Mootons
-Light of the West
 Queen Regent
-Commander of Sworn
 Seasons
 Bessa
 Freehold
@@ -537,11 +530,7 @@ Fifth
 Torrek
 Seven Lands
 Lord Royces
-Tully of Riverrun
-Wardens of East
-Wardens of the East
 Lothar
-North of the Wall
 Wallen
 Dragonkings
 Westerling
@@ -551,7 +540,6 @@ Anguy
 Merryl
 Monkey
 Walda
-Tullys of Riverrun
 Andalish
 Star
 Slaver
@@ -585,7 +573,6 @@ Godswife
 Vyman
 Braavosian
 Three Sisters
-Tyrells of Highgarden
 Love
 Lord Regent
 Bayasabhad

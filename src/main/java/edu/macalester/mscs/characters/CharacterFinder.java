@@ -1,6 +1,7 @@
 package edu.macalester.mscs.characters;
 
 import edu.macalester.mscs.utils.FileUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.*;
 
@@ -490,12 +491,18 @@ public class CharacterFinder {
 
         Map<String, Integer> reducedCounter = new HashMap<>();
         for (String cap : counter.keySet()) {
-            String noTitle = stripTitle(cap, GENERAL_WORDS);
-//            if (!noTitle.contains(" ") || !counter.containsKey(noTitle)) {
-//                noTitle = cap;
-//            }
-            if (!noTitle.contains(" ")) {
-                noTitle = cap;
+            String noTitle = cap;
+            // strip "of..." bits
+            if (noTitle.contains(" of ")) {
+                String temp = noTitle.substring(0, noTitle.indexOf(" of "));
+                if (!GENERAL_WORDS.contains(temp)) {
+                    noTitle = temp;
+                }
+            }
+            // strip leading title
+            // TODO: strip multiple leading titles
+            if (GENERAL_WORDS.contains(noTitle.split(" ")[0]) && StringUtils.countMatches(noTitle, ' ') > 1) {
+                noTitle = stripTitle(noTitle, GENERAL_WORDS);
             }
             if (!reducedCounter.containsKey(noTitle)) {
                 reducedCounter.put(noTitle, 0);
