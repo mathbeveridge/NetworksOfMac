@@ -169,15 +169,20 @@ Mance,Rayder,Mance Rayder
 Galbart,Galbart Glover
 Hunter,Lord Hunter
 Lady Maege,Lady Mormont,Maege,Maege Mormont
+Eastwatch
 Street
+Othor
+Rast
 Moat,Cailin,Moat Cailin
 Ser Aron,Aron Santagar,Aron
 Lord Lefford,Lefford
 Tytos Blackwood,Lord Blackwood,Tytos Brax,Lord Tytos,Tytos
 Many
+Chella
 Wendel,Wendel Manderly,Ser Wendel
 Lyn,Lyn Corbray
 Jason Mallister,Lord Jason,Jason
+Stiv
 Lord Karstark
 Sept,Great Sept
 Horn,Hill,Horn Hill
