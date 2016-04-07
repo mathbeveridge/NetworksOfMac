@@ -127,19 +127,6 @@ public class MatrixConstructor {
 		}
 
 		logger.log();
-		logger.log("============ By Proximity (including alt. names): ===========");
-
-		edgeWeights.sort(new Comparator<Encounter>() {
-			@Override
-			public int compare(Encounter o1, Encounter o2) {
-				return o2.proximity - o1.proximity;
-			}
-		});
-		for (Encounter edgeWeight : edgeWeights) {
-			logger.log(edgeWeight);
-		}
-
-		logger.log();
 		logger.log();
 		logger.log("=============================================================");
 		logger.log("=================== PART 3: Refining Data ===================");
@@ -188,7 +175,7 @@ public class MatrixConstructor {
 									context.append(input[j]).append(" ");
 								} catch (Exception ignored) {}
 							}
-							edgeWeights.add(new Encounter(primary, secondary, context.toString()));
+							edgeWeights.add(new Encounter(primary, secondary, i, context.toString()));
 						}
 					}
 				}
@@ -220,15 +207,19 @@ public class MatrixConstructor {
 			// tally neighbors
 			if (!primary.isEmpty()) {
 				int index1 = nameIndices.get(primary);
+				Set<Integer> neighbors = new HashSet<>();
 				for (String secondary : nameQueue) {
 					if (!secondary.isEmpty()) {
 						int index2 = nameIndices.get(secondary);
 						if (index1 != index2) {
-							matrix[index1][index2]++;
-							matrix[index2][index1]++;
-							edgeWeights.add(new Encounter(primary, secondary, search.toString()));
+							neighbors.add(index2);
+							edgeWeights.add(new Encounter(primary, secondary, i, search.toString()));
 						}
 					}
+				}
+				for (int n : neighbors) {
+					matrix[index1][n]++;
+					matrix[n][index1]++;
 				}
 			}
 			// update the search string
