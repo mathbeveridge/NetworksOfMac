@@ -13,7 +13,7 @@ public class MatrixConstructor {
 	// threshold: 3=13
 	public static final int REACH = 20;
 
-	public static void main(String[] args){
+	public static void main(String[] args) {
 //		String characters = getCharacters("src/main/resources/data/characters/ari-list-no-dup.txt");
 		String characters = getCharacters("src/main/resources/data/characters/ari-list-curated.txt");
 		String text = getText("src/main/resources/text/got.txt");
@@ -55,7 +55,7 @@ public class MatrixConstructor {
 		return sb.toString();
 	}
 
-	public static MatrixAndNames getData(String characters, String text, int reach, int noise, String logFile) {
+	public static Matrix getData(String characters, String text, int reach, int noise, String logFile) {
 
 		Logger logger = new Logger();
 
@@ -93,11 +93,7 @@ public class MatrixConstructor {
 				last = null;
 			}
 		}
-
-		// split into every distinct name, independent of people
-		int nameCount = nameList.size();
-		String[] names = nameList.toArray(new String[nameCount]);
-		int[][] matrix = new int[nameCount][nameCount];
+		String[] names = nameList.toArray(new String[nameList.size()]);
 
 		logger.log("=============================================================");
 		logger.log("=================== PART 1: General Info ====================");
@@ -112,25 +108,11 @@ public class MatrixConstructor {
 		logger.log("================== PART 2: Edge Collection ==================");
 		logger.log("=============================================================");
 
-		List<Encounter> edgeWeights = buildMatrix2(matrix, nameIndices, text, reach);
+		Matrix matrix = new Matrix(names, nameIndices, text, reach);
 
-		// This section is exclusively printing out stuff, has no actual code purpose
-		logger.log();
-		logger.log("============ By Character (including alt. names): ===========");
-
-		for (String name : nameIndices.keySet()) {
-			logger.log();
-            logger.log(name + ":");
-            for (Encounter edgeWeight : edgeWeights) {
-                if (edgeWeight.character1.equals(name)) {
-					logger.log(edgeWeight);
-                }
-            }
-            for (Encounter edgeWeight : edgeWeights) {
-                if (edgeWeight.character2.equals(name)) {
-					logger.log(edgeWeight);
-				}
-			}
+		List<Encounter> edgeWeights = matrix.getEncounterList();
+		for (Encounter encounter : edgeWeights) {
+			logger.log(encounter);
 		}
 
 		logger.log();
@@ -140,10 +122,8 @@ public class MatrixConstructor {
 		logger.log("=============================================================");
 		logger.log();
 
-		MatrixAndNames data = new MatrixAndNames(matrix, names);
-		logger.log(data.cleanNoise(noise));
-		logger.log(data.cleanFloaters());
-//		logger.log(data.cleanSingletons());
+		logger.log(matrix.cleanNoise(noise));
+		logger.log(matrix.cleanFloaters());
 
 		logger.log();
 		logger.log("=============================================================");
@@ -152,125 +132,13 @@ public class MatrixConstructor {
 		logger.log();
 		logger.writeLog(logFile);
 
-		return data;
+		return matrix;
     }
 
-	private static List<Encounter> buildMatrix(int[][] matrix, Map<String, Integer> nameIndices, String text, int reach) {
-		String[] input = text.split(" ");
-		List<Encounter> edgeWeights = new ArrayList<>();
-		Queue<String> nameQueue = new ArrayDeque<>(reach + 1);
-		for (int i = 0; i < input.length; i++) {
-			String chunk = input[i]; // iterate through text
-			// get the current name
-			String primary = "";
-			for (String name : nameIndices.keySet()) {
-				if (containsName(chunk, name)) {
-					primary = name;
-				}
-			}
-			// tally neighbors
-			if (!primary.isEmpty()) {
-				int index1 = nameIndices.get(primary);
-				for (String secondary : nameQueue) {
-					if (!secondary.isEmpty()) {
-						int index2 = nameIndices.get(secondary);
-						if (index1 != index2) {
-							matrix[index1][index2]++;
-							matrix[index2][index1]++;
-							StringBuilder context = new StringBuilder();
-							for (int j = i - 25; j < i + 5; j++) {
-								try {
-									context.append(input[j]).append(" ");
-								} catch (Exception ignored) {}
-							}
-							edgeWeights.add(new Encounter(primary, secondary, i, context.toString()));
-						}
-					}
-				}
-			}
-			// update the queue
-			nameQueue.add(primary);
-			if (nameQueue.size() > reach) { // limit its size
-				nameQueue.poll();
-			}
-		}
-		return edgeWeights;
-	}
-
-	private static List<Encounter> buildMatrix2(int[][] matrix, Map<String, Integer> nameIndices, String text, int reach) {
-		List<Encounter> edgeWeights = new ArrayList<>();
-		StringBuilder search = new StringBuilder();
-		Queue<String> nameQueue = new ArrayDeque<>(reach + 1);
-		for (int i = 0; i < text.length() - 1; i++) {
-			char c = text.charAt(i);
-			String primary = "";
-			boolean notLetter = !Character.isAlphabetic(c);
-			if (notLetter) {
-				for (String name : nameIndices.keySet()) {
-					if (endsWithName(search.toString(), name)) {
-						primary = name;
-					}
-				}
-			}
-			// tally neighbors
-			if (!primary.isEmpty()) {
-				int index1 = nameIndices.get(primary);
-				Set<Integer> neighbors = new HashSet<>();
-				for (String secondary : nameQueue) {
-					if (!secondary.isEmpty()) {
-						int index2 = nameIndices.get(secondary);
-						if (index1 != index2) {
-							neighbors.add(index2);
-							edgeWeights.add(new Encounter(primary, secondary, i, search.toString()));
-						}
-					}
-				}
-				for (int n : neighbors) {
-					matrix[index1][n]++;
-					matrix[n][index1]++;
-				}
-			}
-			// update the search string
-			search.append(c);
-			// cut the string to size
-			if (StringUtils.countMatches(search, ' ') > reach) {
-				search = new StringBuilder(search.substring(search.indexOf(" ") + 1));
-			}
-			// update the queue if a word just finished
-			if (i > 0 && notLetter && Character.isAlphabetic(text.charAt(i - 1))) {
-				nameQueue.add(primary);
-				if (nameQueue.size() > reach) { // limit its size
-                    nameQueue.poll();
-                }
-			}
-		}
-		return edgeWeights;
-	}
-
-	private static boolean containsName(String input, String name) {
-		return input.matches("(.*\\W)?" + name + "(\\W.*)?");
-	}
-
-	/**
-	 * Returns true if a string ends with a name
-	 * @param input
-	 * @param name
-	 * @return
-	 */
-	private static boolean endsWithName(String input, String name) {
-		return input.matches("(.*\\W)?" + name);
-	}
-
-	private static void printResultCSV(MatrixAndNames data, String file) {
+	private static void printResultCSV(Matrix matrix, String file) {
 		Logger logger = new Logger();
-		logger.log(cleanArrayString(Arrays.toString(data.getNames())));
-		for (int[] row : data.getMatrix()) {
-			logger.log(cleanArrayString(Arrays.toString(row)));
-		}
+		logger.log(matrix.toLines());
 		logger.writeLog(file);
 	}
 
-	private static String cleanArrayString(String arrayString) {
-		return StringUtils.strip(arrayString, "[]").replaceAll(" ", "");
-	}
 }
