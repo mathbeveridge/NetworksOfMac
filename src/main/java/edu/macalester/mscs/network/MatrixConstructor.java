@@ -14,8 +14,11 @@ public class MatrixConstructor {
 	public static final int REACH = 20;
 
 	public static void main(String[] args){
+//		String characters = getCharacters("src/main/resources/data/characters/ari-list-no-dup.txt");
 		String characters = getCharacters("src/main/resources/data/characters/ari-list-curated.txt");
 		String text = getText("src/main/resources/text/got.txt");
+//		printResultCSV(getData(characters, text, REACH, NOISE, "src/main/resources/data/logs/log.txt"),
+//				"src/main/resources/data/logs/GoT1-mat6-full-names.csv");
 		printResultCSV(getData(characters, text, REACH, NOISE, "src/main/resources/data/logs/log.txt"),
 				"src/main/resources/data/logs/GoT1-mat7-dup-names.csv");
 	}
