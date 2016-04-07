@@ -158,7 +158,6 @@ public class CharacterFinder {
 
     private static String stripTitle(String cap, Collection<String> titles) {
         String[] split = cap.split(" ");
-//        if (split.length == 3 && titles.contains(split[0]) && isCapitalized(split[1])) {
         if (titles.contains(split[0]) && isCapitalized(split[1])) {
             return cap.substring(cap.indexOf(" ") + 1);
         } else {
@@ -493,13 +492,20 @@ public class CharacterFinder {
 //        System.out.println(lonely);
 //        System.out.println();
 
-        Map<String, Integer> reducedCounter = new HashMap<>(counter);
+        Map<String, Integer> reducedCounter = new HashMap<>();
         for (String cap : counter.keySet()) {
-
+            String noTitle = stripTitle(cap, GENERAL_WORDS);
+            if (!noTitle.contains(" ") || !counter.containsKey(noTitle)) {
+                noTitle = cap;
+            }
+            if (!reducedCounter.containsKey(noTitle)) {
+                reducedCounter.put(noTitle, 0);
+            }
+            reducedCounter.put(noTitle, reducedCounter.get(noTitle) + counter.get(noTitle));
         }
 
-        List<Map.Entry<String, Integer>> caps = new ArrayList<>(reducedCounter.entrySet());
-        caps.sort(ENTRY_COMPARATOR);
+//        List<Map.Entry<String, Integer>> caps = new ArrayList<>(reducedCounter.entrySet());
+//        caps.sort(ENTRY_COMPARATOR);
 //        for (Map.Entry<String, Integer> cap : caps) {
 //            System.out.println(cap.getKey() + "\t" + cap.getValue());
 //        }
@@ -577,7 +583,7 @@ public class CharacterFinder {
         characterGroups.combineGroups("Sandor", "Hound");
         characterGroups.combineGroups("Benjen", "Ben");
         characterGroups.combineGroups("Jeor", "Old Bear");
-        characterGroups.combineGroups("Jeor", "Lord Commander Mormont");
+        characterGroups.combineGroups("Jeor", "Commander Mormont");
         characterGroups.combineGroups("Jeor", "Lord Mormont");
 
         names.remove("Free Cities");   // accidentally picked up
