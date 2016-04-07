@@ -558,7 +558,6 @@ Source,Target,Weight,Type
 "GreatjonU","TytosB",4.0,undirected
 "Jhogo","Aggo",4.0,undirected
 "AerysT","Jaehaerys",4.0,undirected
-"Gared","WaymarR",14.0,undirected
 "MerynT","BorosB",5.0,undirected
 "Aggo","Rakharo",7.0,undirected
 "Aggo","Quaro",4.0,undirected
@@ -582,12 +581,9 @@ Source,Target,Weight,Type
 "Hullen","Harwin",4.0,undirected
 "BalonS","YohnR",4.0,undirected
 "GalbartG","HelmanT",4.0,undirected
-"AronS","LothorB",4.0,undirected
 "ArthurD","GeroldH",4.0,undirected
 "GeroldH","OswellW",4.0,undirected
 "TorrhenK","DarynH",6.0,undirected
-"HorasR","Hobber",5.0,undirected
 "DanwellF","JaredF",4.0,undirected
 "DanwellF","HosteenF",4.0,undirected
 "JaredF","HosteenF",4.0,undirected
-"BryceC","AndarR",5.0,undirected
