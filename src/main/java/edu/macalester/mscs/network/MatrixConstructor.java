@@ -19,8 +19,10 @@ public class MatrixConstructor {
 		String text = getText("src/main/resources/text/got.txt");
 //		printResultCSV(getData(characters, text, REACH, NOISE, "src/main/resources/data/logs/log.txt"),
 //				"src/main/resources/data/logs/GoT1-mat6-full-names.csv");
+//		printResultCSV(getData(characters, text, REACH, NOISE, "src/main/resources/data/logs/log.txt"),
+//				"src/main/resources/data/logs/GoT1-mat7-dup-names.csv");
 		printResultCSV(getData(characters, text, REACH, NOISE, "src/main/resources/data/logs/log.txt"),
-				"src/main/resources/data/logs/GoT1-mat7-dup-names.csv");
+				"src/main/resources/data/logs", 1, 7, "dup-names");
 	}
 
 	private static String getCharacters(String file) {
@@ -109,11 +111,7 @@ public class MatrixConstructor {
 		logger.log("=============================================================");
 
 		Matrix matrix = new Matrix(names, nameIndices, text, reach);
-
-		List<Encounter> edgeWeights = matrix.getEncounterList();
-		for (Encounter encounter : edgeWeights) {
-			logger.log(encounter);
-		}
+		logger.log(matrix.getEncounterList());
 
 		logger.log();
 		logger.log();
@@ -137,8 +135,23 @@ public class MatrixConstructor {
 
 	private static void printResultCSV(Matrix matrix, String file) {
 		Logger logger = new Logger();
-		logger.log(matrix.toLines());
+		logger.log(matrix.toMatrixCsvLines());
 		logger.writeLog(file);
+	}
+
+	private static void printResultCSV(Matrix matrix, String parentFolder, int bookNumber, int fileNumber, String descriptor) {
+		String matrixFile = parentFolder + "/GoT" + bookNumber + "-mat" + fileNumber + "-" + descriptor + ".csv";
+		Logger logger1 = new Logger();
+		logger1.log(matrix.toMatrixCsvLines());
+		logger1.writeLog(matrixFile);
+		String edgeFile = parentFolder + "/GoT" + bookNumber + "-edge" + fileNumber + "-" + descriptor + ".csv";
+		Logger logger2 = new Logger();
+		logger2.log(matrix.toEdgeListCsvLines());
+		logger2.writeLog(edgeFile);
+		String edgeFileTest = parentFolder + "/GoT" + bookNumber + "-edge" + fileNumber + "-" + descriptor + "-test.csv";
+		Logger logger3 = new Logger();
+		logger3.log(matrix.toEdgeListCsvLines("Source,Target,Weight,Type", "#C1,#C2,#W,undirected"));
+		logger3.writeLog(edgeFileTest);
 	}
 
 }

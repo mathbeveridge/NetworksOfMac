@@ -28,6 +28,27 @@ public class Encounter implements Comparable<Encounter> {
 	}
 
 	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+
+		Encounter encounter = (Encounter) o;
+
+		return position == encounter.position
+				&& character1.equals(encounter.character1)
+				&& character2.equals(encounter.character2);
+
+	}
+
+	@Override
+	public int hashCode() {
+		int result = character1.hashCode();
+		result = 31 * result + character2.hashCode();
+		result = 31 * result + position;
+		return result;
+	}
+
+	@Override
 	public String toString() {
 		return this.character1 + ", " + this.character2 + ", " + this.position + ", \"" + this.context + "\"";
 	}

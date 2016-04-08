@@ -75,12 +75,32 @@ public class Matrix {
         return matrix;
     }
 
+    /**
+     * Returns a sorted list of every encounter included in this Matrix
+     * @return
+     */
     public List<Encounter> getEncounterList() {
         List<Encounter> encounterList = new ArrayList<>();
         for (Map<Integer, Encounter> map : encounters.values()) {
             encounterList.addAll(map.values());
         }
         Collections.sort(encounterList);
+        return encounterList;
+    }
+
+    /**
+     * Returns a sorted list of every encounter included in this Matrix
+     * involving the specified character
+     * @param name
+     * @return
+     */
+    public List<Encounter> getEncounterList(String name) {
+        List<Encounter> encounterList = new ArrayList<>();
+        for (Encounter encounter : getEncounterList()) {
+            if (name.equals(encounter.character1) || name.equals(encounter.character2)) {
+                encounterList.add(encounter);
+            }
+        }
         return encounterList;
     }
 
@@ -109,6 +129,12 @@ public class Matrix {
         }
     }
 
+    /**
+     * Removes any connections whose strength is below the specified noise threshold
+     * Also removes any characters who have no connections
+     * @param noise
+     * @return
+     */
     public List<String> cleanNoise(int noise) {
         List<String> lines = new ArrayList<>();
         lines.add("Removing noisy connections:");
@@ -141,11 +167,21 @@ public class Matrix {
         return lines;
     }
 
-
+    /**
+     * Removes any characters not connected to the network containing
+     * the character whose index is 0
+     * @return
+     */
     public List<String> cleanFloaters() {
         return cleanFloaters(0);
     }
 
+    /**
+     * Removes any characters not connected to the network containing
+     * the character whose index is entryPoint
+     * @param entryPoint
+     * @return
+     */
     public List<String> cleanFloaters(int entryPoint) {
         // get people without connections
         Set<Integer> floaters = new HashSet<>();
@@ -169,6 +205,10 @@ public class Matrix {
         return lines;
     }
 
+    /**
+     * Iteratively removes characters with only one connection until the map stabilizes.
+     * @return
+     */
     public List<String> cleanSingletons() {
         List<String> lines = new ArrayList<>();
         // get people with only one connection
@@ -191,6 +231,10 @@ public class Matrix {
         return lines;
     }
 
+    /**
+     * Iteratively removes characters with only one connection for a fixed number of iterations.
+     * @return
+     */
     public List<String> cleanSingletons(int iterations) {
         List<String> lines = new ArrayList<>();
         // get people with only one connection
@@ -212,11 +256,63 @@ public class Matrix {
         return lines;
     }
 
-    public List<String> toLines() {
+    /**
+     * Converts the Matrix to CSV lines of a matrix.
+     * The first line is the name headers.
+     * @return
+     */
+    public List<String> toMatrixCsvLines() {
         List<String> lines = new ArrayList<>();
         lines.add(cleanArrayString(Arrays.toString(names)));
         for (int[] row : matrix) {
             lines.add(cleanArrayString(Arrays.toString(row)));
+        }
+        return lines;
+    }
+
+    /**
+     * Converts the matrix to CSV lines of a list of edges, for import into Gephi.
+     * The first row is "Source,Target,Weight,Type", where the type is always undirected
+     * @return
+     */
+    public List<String> toEdgeListCsvLines() {
+        List<String> lines = new ArrayList<>();
+        lines.add("Source,Target,Weight,Type");
+        for (int i=0; i<size(); i++) {
+            for (int j=i+1; j<size(); j++) {
+                if (matrix[i][j] > 0) {
+                    lines.add("\"" + names[i] + "\",\"" + names[j] + "\"," + matrix[i][j] + ".0,undirected");
+                }
+            }
+        }
+        return lines;
+    }
+
+    /**
+     * Converts the matrix to CSV lines of a list of edges, with customizable parameters.
+     * The defaultValues parameter can contain default string values, or data references.
+     * Use '#C1' to reference the first character in an edge.
+     * Use '#C2' to reference the second character in an edge.
+     * Use '#W' to reference the weight of an edge.
+     * Make sure to include quotes as necessary, though they must not be included around
+     * the three special references.
+     * @param header
+     * @param defaultValue
+     * @return
+     */
+    public List<String> toEdgeListCsvLines(String header, String defaultValue) {
+        List<String> lines = new ArrayList<>();
+        lines.add(header);
+        for (int i=0; i<size(); i++) {
+            for (int j=i+1; j<size(); j++) {
+                if (matrix[i][j] > 0) {
+                    String line = defaultValue
+                            .replace("#C1", "\"" + names[i] + "\"")
+                            .replace("#C2", "\"" + names[j] + "\"")
+                            .replace("#W", Double.toString(matrix[i][j]));
+                    lines.add(line);
+                }
+            }
         }
         return lines;
     }
