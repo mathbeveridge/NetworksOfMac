@@ -272,20 +272,13 @@ public class Matrix {
 
     /**
      * Converts the matrix to CSV lines of a list of edges, for import into Gephi.
-     * The first row is "Source,Target,Weight,Type", where the type is always undirected
+     * The header is "Source,Target,Weight,Type", where the type is always undirected.
+     * This is equivalent to calling
+     * toEdgeListCsvLines("Source,Target,Weight,Type", "#C1,#C2,#W,undirected")
      * @return
      */
     public List<String> toEdgeListCsvLines() {
-        List<String> lines = new ArrayList<>();
-        lines.add("Source,Target,Weight,Type");
-        for (int i=0; i<size(); i++) {
-            for (int j=i+1; j<size(); j++) {
-                if (matrix[i][j] > 0) {
-                    lines.add("\"" + names[i] + "\",\"" + names[j] + "\"," + matrix[i][j] + ".0,undirected");
-                }
-            }
-        }
-        return lines;
+        return toEdgeListCsvLines("Source,Target,Weight,Type", "#C1,#C2,#W,undirected");
     }
 
     /**

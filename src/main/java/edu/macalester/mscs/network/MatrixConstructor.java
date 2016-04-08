@@ -18,9 +18,7 @@ public class MatrixConstructor {
 		String characters = getCharacters("src/main/resources/data/characters/ari-list-curated.txt");
 		String text = getText("src/main/resources/text/got.txt");
 //		printResultCSV(getData(characters, text, REACH, NOISE, "src/main/resources/data/logs/log.txt"),
-//				"src/main/resources/data/logs/GoT1-mat6-full-names.csv");
-//		printResultCSV(getData(characters, text, REACH, NOISE, "src/main/resources/data/logs/log.txt"),
-//				"src/main/resources/data/logs/GoT1-mat7-dup-names.csv");
+//				"src/main/resources/data/logs", 1, 6, "full-names");
 		printResultCSV(getData(characters, text, REACH, NOISE, "src/main/resources/data/logs/log.txt"),
 				"src/main/resources/data/logs", 1, 7, "dup-names");
 	}
@@ -133,12 +131,6 @@ public class MatrixConstructor {
 		return matrix;
     }
 
-	private static void printResultCSV(Matrix matrix, String file) {
-		Logger logger = new Logger();
-		logger.log(matrix.toMatrixCsvLines());
-		logger.writeLog(file);
-	}
-
 	private static void printResultCSV(Matrix matrix, String parentFolder, int bookNumber, int fileNumber, String descriptor) {
 		String matrixFile = parentFolder + "/GoT" + bookNumber + "-mat" + fileNumber + "-" + descriptor + ".csv";
 		Logger logger1 = new Logger();
@@ -148,10 +140,6 @@ public class MatrixConstructor {
 		Logger logger2 = new Logger();
 		logger2.log(matrix.toEdgeListCsvLines());
 		logger2.writeLog(edgeFile);
-		String edgeFileTest = parentFolder + "/GoT" + bookNumber + "-edge" + fileNumber + "-" + descriptor + "-test.csv";
-		Logger logger3 = new Logger();
-		logger3.log(matrix.toEdgeListCsvLines("Source,Target,Weight,Type", "#C1,#C2,#W,undirected"));
-		logger3.writeLog(edgeFileTest);
 	}
 
 }
