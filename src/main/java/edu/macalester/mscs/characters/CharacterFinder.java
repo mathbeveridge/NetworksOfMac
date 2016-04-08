@@ -57,7 +57,7 @@ import java.util.*;
 public class CharacterFinder {
 
     // Words that should be completely ignored
-    public static final Set<String> IGNORED_WORDS = new HashSet<>(Arrays.asList(
+    public static final Set<String> GoT_IGNORED_WORDS = new HashSet<>(Arrays.asList(
             "My", "He", "His", "We", "Their", "Your", // pronouns  (It???)
             "This", "That", "There", // indirect pronouns
             "Who", "Why", // questions
@@ -68,7 +68,7 @@ public class CharacterFinder {
     ));
 
     // Words that are not unique, but may still be descriptive, expecially in combination
-    public static final Set<String> GENERAL_WORDS = new HashSet<>(Arrays.asList(
+    public static final Set<String> GoT_GENERAL_WORDS = new HashSet<>(Arrays.asList(
             "The", // titular articles
             "Lord", "Lady", "King", "Queen", "Regent", "Steward", "Prince", "Princess", // royal titles
             "Ser", "Maester", "Captain", "Commander", "Magister", "Master", "Builder",
@@ -108,11 +108,22 @@ public class CharacterFinder {
         return punctuation;
     }
 
+    public Map<String, Integer> getCounter() {
+        return counter;
+    }
+
+    /**
+     * Clears the counter and sets the characterGroups to null
+     */
     public void clear() {
         counter.clear();
         characterGroups = null;
     }
 
+    /**
+     * Builds up the counter from lines of a text
+     * @param lines
+     */
     public void countCapitalized(List<String> lines) {
         for (String line : lines) {
             List<String> parts = breakLine(line);
@@ -166,7 +177,7 @@ public class CharacterFinder {
                             if (part.equals(" ") || part.equals("of") || part.equals("the")) {
                                 phrase.append(part);
                             } else {
-                                if (!GENERAL_WORDS.contains(toAdd)) {
+                                if (!GoT_GENERAL_WORDS.contains(toAdd)) {
                                     incrementName(toAdd, 1);
                                 }
                                 phrase = null;
@@ -178,20 +189,32 @@ public class CharacterFinder {
         }
     }
 
-    public void incrementName(String string, int increment) {
-        if (counter.containsKey(string)) {
-            counter.put(string, counter.get(string) + increment);
+    /**
+     * Manually increment a name some amount
+     * If the name is not in the counter, it gets added
+     * @param name
+     * @param increment
+     */
+    public void incrementName(String name, int increment) {
+        if (counter.containsKey(name)) {
+            counter.put(name, counter.get(name) + increment);
         } else {
-            counter.put(string, increment);
+            counter.put(name, increment);
         }
     }
 
-    public String stripTitle(String cap) {
-        String[] split = cap.split(" ");
+    /**
+     * If the first word of name is a title (in generalWords), it gets removed.
+     * Otherwise returns name.
+     * @param name
+     * @return
+     */
+    public String stripTitle(String name) {
+        String[] split = name.split(" ");
         if (generalWords.contains(split[0]) && WordUtils.isCapitalized(split[1])) {
-            return cap.substring(cap.indexOf(" ") + 1);
+            return name.substring(name.indexOf(" ") + 1);
         } else {
-            return cap;
+            return name;
         }
     }
 
@@ -239,8 +262,8 @@ public class CharacterFinder {
     }
 
     /**
-     * Returns words that are exist in words as both "xxxx" and "xxxxs" and at least once do not follow "the"
-     * Ignores words found in ignored
+     * Returns words that exist in words and phrases as both "xxxx" and "xxxxs" and at least once do not follow "the"
+     * Ignores words found in generalWords
      * @return
      */
     public Set<String> getPluralizedNames() {
@@ -260,6 +283,7 @@ public class CharacterFinder {
 
     /**
      * Returns words that come second in multiple word pairs
+     * Ignores words found in generalWords
      * @return
      */
     public Set<String> getSurnames() {
@@ -281,7 +305,7 @@ public class CharacterFinder {
     }
 
     /**
-     * Returns a set of phrases that follow "of" or "of the"
+     * Returns phrases that follow "of" or "of the" in the capitalized phrases
      * @return
      */
     public Set<String> getPlaces() {
@@ -300,7 +324,7 @@ public class CharacterFinder {
     }
 
     /**
-     * Returns a set of all words that are not compound or part of compound phrases
+     * Returns all words that are not compound or part of compound phrases
      * @return
      */
     public Set<String> getLonelyWords() {
@@ -318,7 +342,7 @@ public class CharacterFinder {
     }
 
     /**
-     * Returns word pairs from words whose second word is in surnames
+     * Returns all word pairs whose second word is in surnames
      * Ignores pairs with the first word in generalWords
      * @param surnames
      * @return
@@ -341,7 +365,7 @@ public class CharacterFinder {
     }
 
     /**
-     * Returns a set of the first words in names, a collection of word pairings
+     * Returns a set of the first words in each of names
      * @param names
      * @return
      */
@@ -355,7 +379,7 @@ public class CharacterFinder {
     }
 
     /**
-     * Returns a new set that is the intersection of two sets, via the retainAll method
+     * Returns a new set that is the intersection of two sets, via the Set.retainAll method
      * @param set1
      * @param set2
      * @param <T>
@@ -367,6 +391,10 @@ public class CharacterFinder {
         return intersection;
     }
 
+    /**
+     * Removes phrases ending in places that are redundant, meaning the primary name
+     * (string preceding "of") is not unique
+     */
     public void removePlaces() {
         Map<String, Integer> reducedCounter = new HashMap<>();
         for (String cap : counter.keySet()) {
@@ -374,7 +402,7 @@ public class CharacterFinder {
             // strip "of..." bits
             if (noPlace.contains(" of ")) {
                 String temp = noPlace.substring(0, noPlace.indexOf(" of "));
-                if (!GENERAL_WORDS.contains(temp)) {
+                if (!GoT_GENERAL_WORDS.contains(temp)) {
                     noPlace = temp;
                 }
             }
@@ -386,6 +414,11 @@ public class CharacterFinder {
         counter = reducedCounter;
     }
 
+    /**
+     * Removes phrases starting with titles (elements of generalWords) that are not unique,
+     * meaning the primary name following any set of initial titles. The primary name must
+     * be compound (contain a space)
+     */
     public void removeTitles() {
         Map<String, Integer> reducedCounter = new HashMap<>();
         for (String cap : counter.keySet()) {
@@ -401,14 +434,27 @@ public class CharacterFinder {
         counter = reducedCounter;
     }
 
+    /**
+     * Removes certain words from the counter
+     * @param words
+     */
     public void removeWords(String... words) {
         removeWordsBelowThreshold(Arrays.asList(words), Integer.MAX_VALUE);
     }
 
+    /**
+     * Removes certain words from the counter
+     * @param words
+     */
     public void removeWords(Collection<String> words) {
         removeWordsBelowThreshold(words, Integer.MAX_VALUE);
     }
 
+    /**
+     * Removes certain words from the counter only if their occurrence is less than threshold
+     * @param words
+     * @param threshold
+     */
     public void removeWordsBelowThreshold(Collection<String> words, int threshold) {
         Map<String, Integer> reducedCounter = new HashMap<>();
         for (String cap : counter.keySet()) {
@@ -419,48 +465,48 @@ public class CharacterFinder {
         counter = reducedCounter;
     }
 
+    /**
+     * Builds the internal CharacterGroups data structure
+     * @param nondescriptors
+     */
     public void buildCharacterGroups(Set<String> nondescriptors) {
         characterGroups = new CharacterGroups(counter, nondescriptors);
     }
 
-    public void combineGroups(String... groups) {
-        combineGroups(Arrays.asList(groups));
+    /**
+     * Manually combine the groups containing each of the specified names
+     * @param names
+     */
+    public void combineGroups(String... names) {
+        combineGroups(Arrays.asList(names));
     }
 
-    public void combineGroups(Collection<String> groups) {
-        String first = groups.iterator().next();
-        for (String s : groups) {
+    /**
+     * Manually combine the groups containing each of the specified names
+     * @param names
+     */
+    public void combineGroups(Collection<String> names) {
+        String first = names.iterator().next();
+        for (String s : names) {
             characterGroups.combineGroups(first, s);
         }
     }
 
+    /**
+     * Returns a list of strings, each of which corresponds to one of the CharacterGroups
+     * Each line contains all the aliases in that group, and each line is one group
+     * @return
+     */
     public List<String> getNameList() {
-//        Map<Set<String>, Integer> groupMap = characterGroups.getGroups();
-//        List<Map.Entry<Set<String>, Integer>> groups = new ArrayList<>(groupMap.entrySet());
-//        groups.sort(ENTRY_COMPARATOR);
-//        List<String> lines = new ArrayList<>();
-//        for (Map.Entry<Set<String>, Integer> group : groups) {
-//            System.out.println(group.getValue() + "\t" + group.getKey());
-//            StringBuilder line = new StringBuilder();
-//            boolean first = true;
-//            for (String name : group.getKey()) {
-//                if (first) {
-//                    first = false;
-//                } else {
-//                    line.append(",");
-//                }
-//                line.append(name);
-//            }
-//            lines.add(line.toString());
-//        }
-//        System.out.println();
-//        System.out.println(groups.size());
-//        System.out.println();
-//        return lines;
-
         return getNameList(characterGroups.getPrimaryAliases());
     }
 
+    /**
+     * Returns a list of strings, each of which corresponds to one of the CharacterGroups
+     * Each line contains all the aliases in that group, and each line is one group
+     * Each line corresponds (in iteration order) to the group associated with the name in names
+     * @return
+     */
     public List<String> getNameList(Collection<String> names) {
         Map<List<String>, Integer> groupMap = new HashMap<>();
         for (String s : names) {
@@ -497,6 +543,12 @@ public class CharacterFinder {
         return lines;
     }
 
+    /**
+     * Returns a list of strings, each of which corresponds to one of the CharacterGroups
+     * Each line contains all single-word aliases in that group, and each line is one group
+     * Each line corresponds (in iteration order) to the group associated with the name in names
+     * @return
+     */
     public List<String> getFirstNameList(Collection<String> names) {
         Map<List<String>, Integer> groupMap = new HashMap<>();
         for (String name : names) {
@@ -541,6 +593,9 @@ public class CharacterFinder {
         return lines;
     }
 
+    /**
+     * Prints out the counter in a nice format to the console
+     */
     public void printCounter() {
         List<Map.Entry<String, Integer>> caps = new ArrayList<>(counter.entrySet());
         caps.sort(ENTRY_COMPARATOR);
@@ -552,7 +607,7 @@ public class CharacterFinder {
     }
 
     public static void main(String[] args) {
-        CharacterFinder finder = new CharacterFinder(IGNORED_WORDS, GENERAL_WORDS, ".?!�");
+        CharacterFinder finder = new CharacterFinder(GoT_IGNORED_WORDS, GoT_GENERAL_WORDS, ".?!�");
         finder.countCapitalized(FileUtils.readFile("src/main/resources/text/got.txt"));
         finder.incrementName("Jeor Mormont", 1); // gets wrecked
         finder.incrementName("Jeor", 0);
@@ -578,7 +633,7 @@ public class CharacterFinder {
         finder.removeTitles();
         finder.removeWordsBelowThreshold(lonely, 10);
 
-        finder.printCounter();
+//        finder.printCounter();
 
         Set<String> nondescriptors = new HashSet<>();
         nondescriptors.addAll(pluralizedNames);
@@ -717,6 +772,15 @@ public class CharacterFinder {
 
     }
 
+    /**
+     * Breaks a line of text into chunks
+     * Each chunk is either a contiguous sequence of alphabetic characters, or
+     * a filler sequence of non-alphabetic characters
+     * Every character in the line occurs in the output (as distinct from
+     * String.split, which removes instances of the splitting character)
+     * @param line
+     * @return
+     */
     private static List<String> breakLine(String line) {
         List<String> pieces = new ArrayList<>();
         StringBuilder sb = null;
