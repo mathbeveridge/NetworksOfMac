@@ -137,7 +137,7 @@ public class Matrix {
                 loners.add(i);
             }
         }
-        lines.add("Removing loners:" + removeRows(loners));
+        lines.add("Removing loners: " + removeRows(loners));
         return lines;
     }
 
@@ -165,7 +165,7 @@ public class Matrix {
             }
         }
         List<String> lines = new ArrayList<>();
-        lines.add("Removing floating characters:" + removeRows(floaters));
+        lines.add("Removing floating characters: " + removeRows(floaters));
         return lines;
     }
 
@@ -186,7 +186,7 @@ public class Matrix {
                     singletons.add(i);
                 }
             }
-            lines.add("Removing singletons:" + removeRows(singletons));
+            lines.add("Removing singletons: " + removeRows(singletons));
         } while (!singletons.isEmpty());
         return lines;
     }
@@ -207,7 +207,7 @@ public class Matrix {
                     singletons.add(i);
                 }
             }
-            lines.add("Removing singletons:" + removeRows(singletons));
+            lines.add("Removing singletons: " + removeRows(singletons));
         }
         return lines;
     }
