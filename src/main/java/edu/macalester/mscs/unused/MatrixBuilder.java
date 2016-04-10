@@ -1,4 +1,4 @@
-package edu.macalester.mscs.network;
+package edu.macalester.mscs.unused;
 
 import edu.uci.ics.jung.algorithms.layout.AggregateLayout;
 import edu.uci.ics.jung.algorithms.layout.CircleLayout;
@@ -614,7 +614,6 @@ private void setUpView(final MatrixAndNames man) throws IOException {
 				m++;
 			}
 		}
-		// TODO
 //		data.setMatrix(purgedMatrix);
 //		data.setNames(purgedNames);
 		return data;

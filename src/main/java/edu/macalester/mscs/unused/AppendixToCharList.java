@@ -1,4 +1,4 @@
-package edu.macalester.mscs.characters;
+package edu.macalester.mscs.unused;
 
 import java.io.*;
 import java.util.ArrayList;

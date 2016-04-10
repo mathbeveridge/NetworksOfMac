@@ -1,4 +1,4 @@
-package edu.macalester.mscs.network;
+package edu.macalester.mscs.unused;
 
 import edu.uci.ics.jung.algorithms.cluster.WeakComponentClusterer;
 import edu.uci.ics.jung.algorithms.scoring.BetweennessCentrality;

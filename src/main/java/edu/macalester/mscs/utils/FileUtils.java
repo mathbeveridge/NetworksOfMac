@@ -18,7 +18,7 @@ public class FileUtils {
             while ((line = fileReader.readLine()) != null) {
                 lines.add(line.trim());
             }
-        } catch (Exception e) {
+        } catch (IOException e) {
             throw new RuntimeException("Error at \'" + line + "\'", e);
         } finally {
             if (fileReader != null) {
@@ -39,7 +39,7 @@ public class FileUtils {
                 writer.write(line);
                 writer.write('\n');
             }
-        } catch (Exception e) {
+        } catch (IOException e) {
             throw new RuntimeException(e);
         } finally {
             if (writer != null) {
