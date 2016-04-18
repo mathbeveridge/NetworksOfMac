@@ -496,7 +496,7 @@ private void setUpView(final MatrixAndNames man) throws IOException {
 			}
 			data = new MatrixAndNames(matrix, nameInputArr);
 			data = removeNickname(data, nickname);
-			//printMatrix(data.getMatrix(), data.getNames());
+			//printMatrix(data.getMatrix(), data.getCharacters());
 			matrix = data.getMatrix();
 			nameInputArr = data.getNames();
 			//printMatrix(matrix, nameInputArr);
@@ -643,9 +643,9 @@ private void setUpView(final MatrixAndNames man) throws IOException {
 		for(int i=0; i<man.getNames().length; i++){
 			if(nickname.containsKey(man.getNames()[i])){
 				int j = i+1;
-				//System.out.println(man.getNames().length+" man.getNames().length");
-				//System.out.println(man.getNames()[j]+" man.getNames()[j]");
-				//System.out.println(nickname.containsValue(man.getNames()[j])+" nickname.containsValue(man.getNames()[j])");
+				//System.out.println(man.getCharacters().length+" man.getCharacters().length");
+				//System.out.println(man.getCharacters()[j]+" man.getCharacters()[j]");
+				//System.out.println(nickname.containsValue(man.getCharacters()[j])+" nickname.containsValue(man.getCharacters()[j])");
 				while(j<man.getNames().length && nickname.get(man.getNames()[i]).contains(man.getNames()[j])){
 					for(int m=0; m<man.getMatrix().length; m++){
 						if(m != j){

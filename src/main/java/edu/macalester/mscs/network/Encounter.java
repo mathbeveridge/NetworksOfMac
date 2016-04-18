@@ -1,15 +1,19 @@
 package edu.macalester.mscs.network;
 
 public class Encounter implements Comparable<Encounter> {
-	
+
 	public final String character1;
+	public final String name1;
 	public final String character2;
+	public final String name2;
 	public final int position;
 	public final String context;
 
-	public Encounter(String character1, String character2, int position, String context) {
+	public Encounter(String character1, String name1, String character2, String name2, int position, String context) {
 		this.character1 = character1;
+		this.name1 = name1;
 		this.character2 = character2;
+		this.name2 = name2;
 		this.position = position;
 		this.context = context;
 	}
@@ -50,6 +54,6 @@ public class Encounter implements Comparable<Encounter> {
 
 	@Override
 	public String toString() {
-		return this.character1 + ", " + this.character2 + ", " + this.position + ", \"" + this.context + "\"";
+		return this.character1 + " (" + name1 + "), " + this.character2 + " (" + name2 + "), " + this.position + ", \"" + this.context + "\"";
 	}
 }

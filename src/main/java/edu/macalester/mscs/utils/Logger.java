@@ -41,4 +41,8 @@ public class Logger {
     public void writeLog(String file) {
         FileUtils.writeFile(log, file);
     }
+
+    public void clear() {
+        log.clear();
+    }
 }

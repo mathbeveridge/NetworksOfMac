@@ -10,22 +10,31 @@ import java.util.*;
  */
 public class Matrix {
 
-    private String[] names;
+    private String[] characters;
     private final Map<String, Integer> nameIndices;
     private int[][] matrix;
     private final Map<Integer, Map<Integer, Encounter>> encounters;
 
     private boolean isModifiable = true;
 
-    public Matrix(String[] names, Map<String, Integer> nameIndices) {
-        this.names = names;
+    public Matrix(String[] characters, Map<String, Integer> nameIndices) {
+        this.characters = characters;
         this.nameIndices = nameIndices;
         this.matrix = new int[size()][size()];
         this.encounters = new HashMap<>();
     }
 
-    public Matrix(String[] names, Map<String, Integer> nameIndices, String text, int reach) {
-        this(names, nameIndices);
+    public Matrix(List<String> characters, Map<String, Integer> nameIndices) {
+        this(characters.toArray(new String[characters.size()]), nameIndices);
+    }
+
+    public Matrix(String[] characters, Map<String, Integer> nameIndices, String text, int reach) {
+        this(characters, nameIndices);
+        build(text, reach);
+    }
+
+    public Matrix(List<String> characters, Map<String, Integer> nameIndices, String text, int reach) {
+        this(characters, nameIndices);
         build(text, reach);
     }
 
@@ -45,6 +54,7 @@ public class Matrix {
             }
             // tally neighbors
             if (!primary.isEmpty()) {
+                // TODO: this is still not great. needs to ignore anything before a duplicate of primary
                 for (String secondary : nameQueue) {
                     if (!secondary.isEmpty()) {
                         addEncounter(primary, secondary, i, search.toString());
@@ -67,8 +77,8 @@ public class Matrix {
         }
     }
 
-    public String[] getNames() {
-        return names;
+    public String[] getCharacters() {
+        return characters;
     }
 
     public int[][] getMatrix() {
@@ -97,7 +107,8 @@ public class Matrix {
     public List<Encounter> getEncounterList(String name) {
         List<Encounter> encounterList = new ArrayList<>();
         for (Encounter encounter : getEncounterList()) {
-            if (name.equals(encounter.character1) || name.equals(encounter.character2)) {
+            if (name.equals(encounter.character1) || name.equals(encounter.character2)
+                    || name.equals(encounter.name1) || name.equals(encounter.name2)) {
                 encounterList.add(encounter);
             }
         }
@@ -105,7 +116,7 @@ public class Matrix {
     }
 
     public int size() {
-        return names.length;
+        return characters.length;
     }
 
     public void addEncounter(String name1, String name2, int position) {
@@ -125,7 +136,7 @@ public class Matrix {
         if (index1 != index2 && !encounters.get(position).containsKey(index2)) {
             matrix[index1][index2]++;
             matrix[index2][index1]++;
-            encounters.get(position).put(index2, new Encounter(name1, name2, position, context));
+            encounters.get(position).put(index2, new Encounter(characters[index1], name1, characters[index2], name2, position, context));
         }
     }
 
@@ -143,7 +154,7 @@ public class Matrix {
             for (int j=0; j<size(); j++) {
                 if (matrix[i][j] < noise && matrix[i][j] > 0) {
                     // remove really weak connections
-                    lines.add(names[i] +  ", " + names[j] + ", " + matrix[i][j]);
+                    lines.add(characters[i] +  ", " + characters[j] + ", " + matrix[i][j]);
                     matrix[i][j] = 0;
                 }
             }
@@ -185,7 +196,7 @@ public class Matrix {
     public List<String> cleanFloaters(int entryPoint) {
         // get people without connections
         Set<Integer> floaters = new HashSet<>();
-        for (int i=0; i<names.length; i++) {
+        for (int i = 0; i < size(); i++) {
             floaters.add(i);
         }
         Queue<Integer> bfs = new ArrayDeque<>();
@@ -263,7 +274,7 @@ public class Matrix {
      */
     public List<String> toMatrixCsvLines() {
         List<String> lines = new ArrayList<>();
-        lines.add(cleanArrayString(Arrays.toString(names)));
+        lines.add(cleanArrayString(Arrays.toString(characters)));
         for (int[] row : matrix) {
             lines.add(cleanArrayString(Arrays.toString(row)));
         }
@@ -300,8 +311,8 @@ public class Matrix {
             for (int j=i+1; j<size(); j++) {
                 if (matrix[i][j] > 0) {
                     String line = defaultValue
-                            .replace("#C1", "\"" + names[i] + "\"")
-                            .replace("#C2", "\"" + names[j] + "\"")
+                            .replace("#C1", "\"" + characters[i] + "\"")
+                            .replace("#C2", "\"" + characters[j] + "\"")
                             .replace("#W", Double.toString(matrix[i][j]));
                     lines.add(line);
                 }
@@ -319,12 +330,12 @@ public class Matrix {
         StringBuilder sb = new StringBuilder();
         if (!removed.isEmpty()) {
             int newLength = size() - removed.size();
-            String[] cleanNames = new String[newLength];
+            String[] cleanCharacters = new String[newLength];
             int[][] cleanMatrix = new int[newLength][newLength];
             int row=0;
             for(int i=0; i < size(); i++){
                 if (!removed.contains(i)) {
-                    cleanNames[row] = names[i]; // clean names
+                    cleanCharacters[row] = characters[i]; // clean characters
                     int col = 0;
                     for (int j=0; j<size(); j++) { // clean matrix
                         if (!removed.contains(j)) {
@@ -334,16 +345,12 @@ public class Matrix {
                     }
                     row++;
                 } else {
-                    sb.append(names[i]).append(" ");
+                    sb.append(characters[i]).append(" ");
                 }
             }
-            names = cleanNames;
+            characters = cleanCharacters;
             matrix = cleanMatrix;
         }
         return sb.toString();
-    }
-
-    private static boolean endsWithName(String input, String name) {
-        return input.matches("(.*\\W)?" + name);
     }
 }
