@@ -1,6 +1,7 @@
 package edu.macalester.mscs.characters;
 
 import edu.macalester.mscs.utils.FileUtils;
+import edu.macalester.mscs.utils.Logger;
 import edu.macalester.mscs.utils.WordUtils;
 import org.apache.commons.lang3.StringUtils;
 
@@ -594,25 +595,32 @@ public class CharacterFinder {
     }
 
     /**
-     * Prints out the counter in a nice format to the console
+     * Prints out the counter in a nice format to the console,
+     * and returns the strings as a Logger
      */
-    public void printCounter() {
+    public Logger printCounter() {
+        Logger logger = new Logger();
         List<Map.Entry<String, Integer>> caps = new ArrayList<>(counter.entrySet());
         caps.sort(ENTRY_COMPARATOR);
         for (Map.Entry<String, Integer> cap : caps) {
-            System.out.println(cap.getKey() + "\t" + cap.getValue());
+            logger.log(cap.getKey() + "\t" + cap.getValue());
         }
-        System.out.println();
-        System.out.println(counter.size());
+        logger.log();
+        logger.log(counter.size());
+        return logger;
     }
 
     public static void main(String[] args) {
+        // initialize the finder
         CharacterFinder finder = new CharacterFinder(GoT_IGNORED_WORDS, GoT_GENERAL_WORDS, ".?!�");
+        // read in the text
         finder.countCapitalized(FileUtils.readFile("src/main/resources/text/got.txt"));
+        // fix a few mistakes
         finder.incrementName("Jeor Mormont", 1); // gets wrecked
         finder.incrementName("Jeor", 0);
         finder.removeWords("Tully Stark"); // gets picked up accidentally
 
+        // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();
         Set<String> pluralizedNames = finder.getPluralizedNames();
         Set<String> surnames = finder.getSurnames();
@@ -635,14 +643,18 @@ public class CharacterFinder {
 
 //        finder.printCounter();
 
+        // gather phrases that are not inherently descriptive
         Set<String> nondescriptors = new HashSet<>();
         nondescriptors.addAll(pluralizedNames);
         nondescriptors.addAll(WordUtils.getPlurals(pluralizedNames));
         nondescriptors.addAll(surnames);
         nondescriptors.addAll(WordUtils.getPlurals(surnames));
         nondescriptors.addAll(places);
+
+        // build character groups
         finder.buildCharacterGroups(nondescriptors);
 
+        // manually combine more character groups
         finder.combineGroups("Eddard", "Ned");
         finder.combineGroups("Bran", "Brandon Stark");
         finder.combineGroups("Robert", "Usurper");
@@ -677,6 +689,7 @@ public class CharacterFinder {
         finder.combineGroups("Hoster", "Lord of Riverrun");
         finder.combineGroups("Loras", "Knight of Flowers", "Daisy");
 
+        // manually add important names that get missed
         names.add("Varys");
         names.add("Bronn");
         names.add("Septa Mordane");
@@ -742,6 +755,7 @@ public class CharacterFinder {
         names.add("Jalabhar Xho");
         names.add("Podrick Payne");
 
+        // manually remove a few names that are either mistakes, duplicates, or unused
         names.remove("Yard");           // mistake
         names.remove("Valyrian");       // mistake
         names.remove("Ned Stark");      // as Eddard Stark

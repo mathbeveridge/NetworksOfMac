@@ -138,22 +138,21 @@ public class MatrixConstructor {
 
 	private static void writeFiles(Matrix matrix, String parentFolder, int bookNumber, int fileNumber, String descriptor) {
 		// write matrix file
-		Logger logger = new Logger();
-		logger.log(matrix.toMatrixCsvLines());
-		logger.writeLog(getFileName(parentFolder, bookNumber, "mat", fileNumber, descriptor, "csv"));
-
+		matrix.toMatrixCsvLog().writeLog(getFileName(parentFolder, bookNumber, "mat", fileNumber, descriptor, "csv"));
 		// write edge file
-		logger.clear();
-		logger.log(matrix.toEdgeListCsvLines());
-		logger.writeLog(getFileName(parentFolder, bookNumber, "edge", fileNumber, descriptor, "csv"));
-
-		// write encounters by character
+		matrix.toEdgeListCsvLog().writeLog(getFileName(parentFolder, bookNumber, "edge", fileNumber, descriptor, "csv"));
+		// write encounters file
+		String encountersFolder = getFileName(parentFolder, bookNumber, "encounters", fileNumber, descriptor);
+		Logger logger = new Logger();
+		logger.log("All Encounters:");
+		logger.log(matrix.getEncounterList());
+		logger.writeLog(encountersFolder + "/_All.csv");
+		// write encounters files for each character
 		for (String name : matrix.getCharacters()) {
 			logger.clear();
 			logger.log(name + " Encounters:");
 			logger.log(matrix.getEncounterList(name));
-			logger.writeLog(getFileName(parentFolder, bookNumber, "encounters", fileNumber, descriptor)
-					+ '/' + name.replace(' ', '_') + ".csv");
+			logger.writeLog(encountersFolder + '/' + name.replace(' ', '_') + ".csv");
 		}
 	}
 

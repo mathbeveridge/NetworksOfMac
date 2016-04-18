@@ -1,5 +1,6 @@
 package edu.macalester.mscs.network;
 
+import edu.macalester.mscs.utils.Logger;
 import edu.macalester.mscs.utils.WordUtils;
 import org.apache.commons.lang3.StringUtils;
 
@@ -152,15 +153,15 @@ public class Matrix {
      * @param noise
      * @return
      */
-    public List<String> cleanNoise(int noise) {
-        List<String> lines = new ArrayList<>();
-        lines.add("Removing noisy connections:");
+    public Logger cleanNoise(int noise) {
+        Logger logger = new Logger();
+        logger.log("Removing noisy connections:");
         // clean noise
         for (int i=0; i<size(); i++) {
             for (int j=0; j<size(); j++) {
                 if (matrix[i][j] < noise && matrix[i][j] > 0) {
                     // remove really weak connections
-                    lines.add(characters[i] +  ", " + characters[j] + ", " + matrix[i][j]);
+                    logger.log(characters[i] + ", " + characters[j] + ", " + matrix[i][j]);
                     matrix[i][j] = 0;
                 }
             }
@@ -180,8 +181,8 @@ public class Matrix {
                 loners.add(i);
             }
         }
-        lines.add("Removing loners: " + removeRows(loners));
-        return lines;
+        logger.log("Removing loners: " + removeRows(loners));
+        return logger;
     }
 
     /**
@@ -189,7 +190,7 @@ public class Matrix {
      * the character whose index is 0
      * @return
      */
-    public List<String> cleanFloaters() {
+    public Logger cleanFloaters() {
         return cleanFloaters(0);
     }
 
@@ -199,7 +200,7 @@ public class Matrix {
      * @param entryPoint
      * @return
      */
-    public List<String> cleanFloaters(int entryPoint) {
+    public Logger cleanFloaters(int entryPoint) {
         // get people without connections
         Set<Integer> floaters = new HashSet<>();
         for (int i = 0; i < size(); i++) {
@@ -217,17 +218,17 @@ public class Matrix {
                 }
             }
         }
-        List<String> lines = new ArrayList<>();
-        lines.add("Removing floating characters: " + removeRows(floaters));
-        return lines;
+        Logger logger = new Logger();
+        logger.log("Removing floating characters: " + removeRows(floaters));
+        return logger;
     }
 
     /**
      * Iteratively removes characters with only one connection until the map stabilizes.
      * @return
      */
-    public List<String> cleanSingletons() {
-        List<String> lines = new ArrayList<>();
+    public Logger cleanSingletons() {
+        Logger logger = new Logger();
         // get people with only one connection
         Set<Integer> singletons = new HashSet<>();
         do {
@@ -243,17 +244,17 @@ public class Matrix {
                     singletons.add(i);
                 }
             }
-            lines.add("Removing singletons: " + removeRows(singletons));
+            logger.log("Removing singletons: " + removeRows(singletons));
         } while (!singletons.isEmpty());
-        return lines;
+        return logger;
     }
 
     /**
      * Iteratively removes characters with only one connection for a fixed number of iterations.
      * @return
      */
-    public List<String> cleanSingletons(int iterations) {
-        List<String> lines = new ArrayList<>();
+    public Logger cleanSingletons(int iterations) {
+        Logger logger = new Logger();
         // get people with only one connection
         for (int n=0; n<iterations; n++) {
             Set<Integer> singletons = new HashSet<>();
@@ -268,9 +269,9 @@ public class Matrix {
                     singletons.add(i);
                 }
             }
-            lines.add("Removing singletons: " + removeRows(singletons));
+            logger.log("Removing singletons: " + removeRows(singletons));
         }
-        return lines;
+        return logger;
     }
 
     /**
@@ -278,24 +279,24 @@ public class Matrix {
      * The first line is the name headers.
      * @return
      */
-    public List<String> toMatrixCsvLines() {
-        List<String> lines = new ArrayList<>();
-        lines.add(cleanArrayString(Arrays.toString(characters)));
+    public Logger toMatrixCsvLog() {
+        Logger logger = new Logger();
+        logger.log(cleanArrayString(Arrays.toString(characters)));
         for (int[] row : matrix) {
-            lines.add(cleanArrayString(Arrays.toString(row)));
+            logger.log(cleanArrayString(Arrays.toString(row)));
         }
-        return lines;
+        return logger;
     }
 
     /**
      * Converts the matrix to CSV lines of a list of edges, for import into Gephi.
      * The header is "Source,Target,Weight,Type", where the type is always undirected.
      * This is equivalent to calling
-     * toEdgeListCsvLines("Source,Target,Weight,Type", "#C1,#C2,#W,undirected")
+     * toEdgeListCsvLog("Source,Target,Weight,Type", "#C1,#C2,#W,undirected")
      * @return
      */
-    public List<String> toEdgeListCsvLines() {
-        return toEdgeListCsvLines("Source,Target,Weight,Type", "#C1,#C2,#W,undirected");
+    public Logger toEdgeListCsvLog() {
+        return toEdgeListCsvLog("Source,Target,Weight,Type", "#C1,#C2,#W,undirected");
     }
 
     /**
@@ -310,9 +311,9 @@ public class Matrix {
      * @param defaultValue
      * @return
      */
-    public List<String> toEdgeListCsvLines(String header, String defaultValue) {
-        List<String> lines = new ArrayList<>();
-        lines.add(header);
+    public Logger toEdgeListCsvLog(String header, String defaultValue) {
+        Logger logger = new Logger();
+        logger.log(header);
         for (int i=0; i<size(); i++) {
             for (int j=i+1; j<size(); j++) {
                 if (matrix[i][j] > 0) {
@@ -320,11 +321,11 @@ public class Matrix {
                             .replace("#C1", "\"" + characters[i] + "\"")
                             .replace("#C2", "\"" + characters[j] + "\"")
                             .replace("#W", Double.toString(matrix[i][j]));
-                    lines.add(line);
+                    logger.log(line);
                 }
             }
         }
-        return lines;
+        return logger;
     }
 
     private static String cleanArrayString(String arrayString) {
