@@ -14,7 +14,6 @@ import java.util.Map;
 public class MatrixConstructor {
 
 	public static final int NOISE = 4;
-	// threshold: 3=13
 	public static final int REACH = 20;
 
 	public static void main(String[] args) {
@@ -25,6 +24,7 @@ public class MatrixConstructor {
 //		writeFiles(getData(characters, text, REACH, NOISE, folder + "/log.txt"), folder, 1, 6, "full-names");
 		String characters = getCharacters("src/main/resources/data/characters/ari-list-curated.txt");
 		writeFiles(getData(characters, text, REACH, NOISE, folder + "/log.txt"), folder, 1, 7, "dup-names");
+//		writeFiles(getData(characters, text, 15, NOISE, folder + "/log.txt"), folder, 1, 8, "less-reach");
 	}
 
 	public static String getCharacters(String file) {
