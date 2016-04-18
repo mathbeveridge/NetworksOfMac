@@ -27,7 +27,7 @@ public class MatrixConstructor {
 		writeFiles(getData(characters, text, REACH, NOISE, folder + "/log.txt"), folder, 1, 7, "dup-names");
 	}
 
-	private static String getCharacters(String file) {
+	public static String getCharacters(String file) {
 		List<String> lines = FileUtils.readFile(file);
 		StringBuilder sb = new StringBuilder();
 		boolean first = true;

@@ -13,7 +13,7 @@ public class Matrix {
     private String[] characters;
     private final Map<String, Integer> nameIndices;
     private int[][] matrix;
-    private final Map<Integer, Map<Integer, Encounter>> encounters;
+    private final List<Encounter> encounters;
 
     private boolean isModifiable = true;
 
@@ -21,7 +21,7 @@ public class Matrix {
         this.characters = characters;
         this.nameIndices = nameIndices;
         this.matrix = new int[size()][size()];
-        this.encounters = new HashMap<>();
+        this.encounters = new ArrayList<>();
     }
 
     public Matrix(List<String> characters, Map<String, Integer> nameIndices) {
@@ -54,11 +54,24 @@ public class Matrix {
             }
             // tally neighbors
             if (!primary.isEmpty()) {
-                // TODO: this is still not great. needs to ignore anything before a duplicate of primary
+                int index1 = nameIndices.get(primary);
+                Map<Integer, String> secondaries = new HashMap<>();
+                // use a map to avoid duplicate names on the left
+                // ie. "...Mirri Maz Duur said, pointing to the altar, a massive blue-veined stone carved with images of shepherds and their flocks. Khal Drogo..."
                 for (String secondary : nameQueue) {
                     if (!secondary.isEmpty()) {
-                        addEncounter(primary, secondary, i, search.toString());
+                        int index2 = nameIndices.get(secondary);
+                        if (index1 == index2) {
+                            secondaries.clear();
+                            // clear so we don't pick things up multiple times for duplicate names on the right
+                            // ie. "...Dany asked her. 'I am named Mirri Maz Duur'..."
+                        } else {
+                            secondaries.put(index2, secondary);
+                        }
                     }
+                }
+                for (String secondary : secondaries.values()) {
+                    addEncounter(primary, secondary, i, search.toString());
                 }
             }
             // update the search string
@@ -90,12 +103,8 @@ public class Matrix {
      * @return
      */
     public List<Encounter> getEncounterList() {
-        List<Encounter> encounterList = new ArrayList<>();
-        for (Map<Integer, Encounter> map : encounters.values()) {
-            encounterList.addAll(map.values());
-        }
-        Collections.sort(encounterList);
-        return encounterList;
+        Collections.sort(encounters);
+        return encounters;
     }
 
     /**
@@ -106,12 +115,13 @@ public class Matrix {
      */
     public List<Encounter> getEncounterList(String name) {
         List<Encounter> encounterList = new ArrayList<>();
-        for (Encounter encounter : getEncounterList()) {
+        for (Encounter encounter : encounters) {
             if (name.equals(encounter.character1) || name.equals(encounter.character2)
                     || name.equals(encounter.name1) || name.equals(encounter.name2)) {
                 encounterList.add(encounter);
             }
         }
+        Collections.sort(encounterList);
         return encounterList;
     }
 
@@ -129,14 +139,10 @@ public class Matrix {
         }
         int index1 = nameIndices.get(name1);
         int index2 = nameIndices.get(name2);
-        if (!encounters.containsKey(position)) {
-            encounters.put(position, new HashMap<Integer, Encounter>());
-        }
-        // avoid duplicate encounters at the same position
-        if (index1 != index2 && !encounters.get(position).containsKey(index2)) {
+        if (index1 != index2) {
             matrix[index1][index2]++;
             matrix[index2][index1]++;
-            encounters.get(position).put(index2, new Encounter(characters[index1], name1, characters[index2], name2, position, context));
+            encounters.add(new Encounter(characters[index1], name1, characters[index2], name2, position, context));
         }
     }
 
