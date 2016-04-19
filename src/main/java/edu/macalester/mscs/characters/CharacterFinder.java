@@ -1,5 +1,6 @@
 package edu.macalester.mscs.characters;
 
+import edu.macalester.mscs.utils.EntryComparator;
 import edu.macalester.mscs.utils.FileUtils;
 import edu.macalester.mscs.utils.Logger;
 import edu.macalester.mscs.utils.WordUtils;
@@ -522,7 +523,7 @@ public class CharacterFinder {
         }
 
         List<Map.Entry<List<String>, Integer>> groups = new ArrayList<>(groupMap.entrySet());
-        groups.sort(ENTRY_COMPARATOR);
+        groups.sort(EntryComparator.DESCENDING);
         List<String> lines = new ArrayList<>();
         for (Map.Entry<List<String>, Integer> group : groups) {
             System.out.println(group.getValue() + "\t" + group.getKey());
@@ -572,7 +573,7 @@ public class CharacterFinder {
         }
 
         List<Map.Entry<List<String>, Integer>> groups = new ArrayList<>(groupMap.entrySet());
-        groups.sort(ENTRY_COMPARATOR);
+        groups.sort(EntryComparator.DESCENDING);
         List<String> lines = new ArrayList<>();
         for (Map.Entry<List<String>, Integer> group : groups) {
             System.out.println(group.getValue() + "\t" + group.getKey());
@@ -601,7 +602,7 @@ public class CharacterFinder {
     public Logger printCounter() {
         Logger logger = new Logger();
         List<Map.Entry<String, Integer>> caps = new ArrayList<>(counter.entrySet());
-        caps.sort(ENTRY_COMPARATOR);
+        caps.sort(EntryComparator.DESCENDING);
         for (Map.Entry<String, Integer> cap : caps) {
             logger.log(cap.getKey() + "\t" + cap.getValue());
         }
@@ -829,12 +830,5 @@ public class CharacterFinder {
         }
         return pieces;
     }
-
-    private static final Comparator<Map.Entry<?, Integer>> ENTRY_COMPARATOR = new Comparator<Map.Entry<?, Integer>>() {
-        @Override
-        public int compare(Map.Entry<?, Integer> o1, Map.Entry<?, Integer> o2) {
-            return o2.getValue() - o1.getValue();
-        }
-    };
 
 }

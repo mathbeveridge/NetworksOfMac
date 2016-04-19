@@ -1,16 +1,13 @@
 package edu.macalester.mscs.network;
 
+import edu.macalester.mscs.utils.EntryComparator;
 import edu.macalester.mscs.utils.FileUtils;
 import edu.macalester.mscs.utils.Logger;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
-// TODO: make more modular
 public class MatrixConstructor {
 
 	public static final int NOISE = 4;
@@ -21,10 +18,10 @@ public class MatrixConstructor {
 		String text = getText("src/main/resources/text/got.txt");
 
 //		String characters = getCharacters("src/main/resources/data/characters/ari-list-no-dup.txt");
-//		writeFiles(getData(characters, text, REACH, NOISE, folder + "/log.txt"), folder, 1, 6, "full-names");
+//		writeFiles(constructMatrix(characters, text, REACH, NOISE, folder + "/log.txt"), folder, 1, 6, "full-names");
 		String characters = getCharacters("src/main/resources/data/characters/ari-list-curated.txt");
-		writeFiles(getData(characters, text, REACH, NOISE, folder + "/log.txt"), folder, 1, 7, "dup-names");
-//		writeFiles(getData(characters, text, 15, NOISE, folder + "/log.txt"), folder, 1, 8, "less-reach");
+		writeFiles(constructMatrix(characters, text, REACH, NOISE, folder + "/log.txt"), folder, 1, 7, "dup-names");
+//		writeFiles(constructMatrix(characters, text, 15, NOISE, folder + "/log.txt"), folder, 1, 8, "less-reach");
 	}
 
 	public static String getCharacters(String file) {
@@ -47,7 +44,7 @@ public class MatrixConstructor {
 				}
 			}
 		}
-		return sb.toString();
+		return sb.toString().trim();
 	}
 
 	public static String getText(String file) {
@@ -59,76 +56,49 @@ public class MatrixConstructor {
 		return sb.toString();
 	}
 
-	public static Matrix getData(String characters, String text, int reach, int noise, String logFile) {
+	public static Matrix constructMatrix(String characterString, String text, int reach, int noise, String logFile) {
 
 		Logger logger = new Logger();
-
-		List<String> characterList = new ArrayList<>();
-		// nicknames direct to the primary name
-		Map<String, Integer> nameIndices = new HashMap<>();
-
-		characters = characters.trim();
-		StringBuilder sb = new StringBuilder();
-		String last = null;
-		for (int i = 0; i <= characters.length(); i++) {
-			char c = 0;
-			if (i < characters.length()) { // handle the last person
-				c = characters.charAt(i);
-			}
-			if (c == ' ' || Character.isAlphabetic(c)) {
-				sb.append(c);
-			} else {
-				int index = characterList.size();
-				if (last == null) {
-					last = sb.toString();
-					String[] split = last.split(" ");
-					String name = split[0];
-					if (split.length > 1) {
-						name += " " + split[1].charAt(0);
-					}
-					characterList.add(name);
-					nameIndices.put(last, index);
-				} else {
-					nameIndices.put(sb.toString(), index - 1);
-				}
-				sb = new StringBuilder();
-			}
-			if (c == ',') {
-				last = null;
-			}
-		}
-
 		logger.log("=============================================================");
 		logger.log("=================== PART 1: General Info ====================");
 		logger.log("=============================================================");
 		logger.log();
-		logger.log("Character names input: " + characters);
+		logger.log("Character names input: " + characterString);
 		logger.log("Proximity check range: " + reach);
 		logger.log("Noise threshold level: " + noise);
+		logger.log();
+		logger.log("Character list:");
+		List<String> characterList = getCharacterList(characterString);
+		logger.log(characterList);
+		logger.log();
+		logger.log("Name Indices:");
+		Map<String, Integer> nameIndices = getNameIndices(characterString);
+		List<Map.Entry<String, Integer>> entries = new ArrayList(nameIndices.entrySet());
+		entries.sort(EntryComparator.ASCENDING);
+		logger.log(entries);
 		logger.log();
 		logger.log();
 		logger.log("=============================================================");
 		logger.log("================== PART 2: Edge Collection ==================");
 		logger.log("=============================================================");
-
+		logger.log();
 		Matrix matrix = new Matrix(characterList, nameIndices, text, reach);
 		logger.log(matrix.getEncounterList());
-
 		logger.log();
 		logger.log();
 		logger.log("=============================================================");
 		logger.log("=================== PART 3: Refining Data ===================");
 		logger.log("=============================================================");
 		logger.log();
-
-		logger.log(matrix.cleanNoise(noise));
-		logger.log(matrix.cleanFloaters());
-
+		logger.append(matrix.cleanNoise(noise));
+		logger.append(matrix.cleanFloaters());
+		logger.log();
 		logger.log();
 		logger.log("=============================================================");
 		logger.log("========================= End of log ========================");
 		logger.log("=============================================================");
 		logger.log();
+
 		if (logFile != null) {
 			logger.writeLog(logFile);
 		}
@@ -136,7 +106,34 @@ public class MatrixConstructor {
 		return matrix;
 	}
 
-	private static void writeFiles(Matrix matrix, String parentFolder, int bookNumber, int fileNumber, String descriptor) {
+	private static List<String> getCharacterList(String characterString) {
+		List<String> characterList = new ArrayList<>();
+		String[] characters = characterString.split(",");
+		for (String c : characters) {
+			c = StringUtils.substringBefore(c, "=");
+			if (c.contains(" ")) {
+				c = c.substring(0, c.indexOf(' ') + 2);
+			}
+			characterList.add(c);
+		}
+		return characterList;
+	}
+
+	private static Map<String, Integer> getNameIndices(String characterString) {
+		Map<String, Integer> nameIndices = new HashMap<>();
+		int index = 0;
+		String[] characters = characterString.split(",");
+		for (String c : characters) {
+			String[] split = c.split("=");
+			for (String name : split) {
+				nameIndices.put(name, index);
+			}
+			index++;
+		}
+		return nameIndices;
+	}
+
+	public static void writeFiles(Matrix matrix, String parentFolder, int bookNumber, int fileNumber, String descriptor) {
 		// write matrix file
 		matrix.toMatrixCsvLog().writeLog(getFileName(parentFolder, bookNumber, "mat", fileNumber, descriptor, "csv"));
 		// write edge file
@@ -171,7 +168,7 @@ public class MatrixConstructor {
 	 * @param descriptor
 	 * @return
 	 */
-	private static String getFileName(String parentFolder, int bookNumber, String type,
+	public static String getFileName(String parentFolder, int bookNumber, String type,
 									  int fileNumber, String descriptor) {
 		String fileName = getFileName(parentFolder, bookNumber, type, fileNumber, descriptor, null);
 		new File(fileName).mkdirs();
@@ -195,22 +192,22 @@ public class MatrixConstructor {
 	 * @param type
 	 * @param fileNumber
 	 * @param descriptor
-	 * @param extention
+	 * @param extension
 	 * @return
 	 */
-	private static String getFileName(String parentFolder, int bookNumber, String type,
-									  int fileNumber, String descriptor, String extention) {
+	public static String getFileName(String parentFolder, int bookNumber, String type,
+									  int fileNumber, String descriptor, String extension) {
 		if (descriptor == null) {
 			descriptor = "";
 		} else if (!descriptor.isEmpty()) {
 			descriptor = '-' + descriptor;
 		}
-		if (extention == null) {
-			extention = "";
-		} else if (!extention.isEmpty() && !extention.startsWith(".")) {
-			extention = '.' + extention;
+		if (extension == null) {
+			extension = "";
+		} else if (!extension.isEmpty() && !extension.startsWith(".")) {
+			extension = '.' + extension;
 		}
-		return parentFolder + "/GoT" + bookNumber + "-" + type + fileNumber + descriptor + extention;
+		return parentFolder + "/GoT" + bookNumber + "-" + type + fileNumber + descriptor + extension;
 	}
 
 }
