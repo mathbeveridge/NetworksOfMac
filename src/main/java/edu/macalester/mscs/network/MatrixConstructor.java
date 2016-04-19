@@ -174,10 +174,6 @@ public class MatrixConstructor {
 	 * @param descriptor
 	 */
 	public static void writeFiles(Matrix matrix, String parentFolder, int bookNumber, int fileNumber, String descriptor) {
-		// write matrix file
-		matrix.toMatrixCsvLog().writeLog(getFileName(parentFolder, bookNumber, "mat", fileNumber, descriptor, "csv"));
-		// write edge file
-		matrix.toEdgeListCsvLog().writeLog(getFileName(parentFolder, bookNumber, "edge", fileNumber, descriptor, "csv"));
 		// write encounters file
 		String encountersFolder = getFileName(parentFolder, bookNumber, "encounters", fileNumber, descriptor);
 		Logger logger = new Logger();
@@ -191,6 +187,10 @@ public class MatrixConstructor {
 			logger.log(matrix.getEncounterList(name));
 			logger.writeLog(encountersFolder + '/' + name.replace(' ', '_') + ".csv");
 		}
+		// write matrix file
+		matrix.toMatrixCsvLog().writeLog(getFileName(parentFolder, bookNumber, "mat", fileNumber, descriptor, "csv"));
+		// write edge file
+		matrix.toEdgeListCsvLog().writeLog(getFileName(parentFolder, bookNumber, "edge", fileNumber, descriptor, "csv"));
 	}
 
 	/**
