@@ -18,6 +18,11 @@ public class Matrix {
 
     private boolean isModifiable = true;
 
+    /**
+     * Initializes an empty matrix
+     * @param characters
+     * @param nameIndices
+     */
     public Matrix(String[] characters, Map<String, Integer> nameIndices) {
         this.characters = characters;
         this.nameIndices = nameIndices;
@@ -25,23 +30,47 @@ public class Matrix {
         this.encounters = new ArrayList<>();
     }
 
+    /**
+     * Initializes an empty matrix
+     * @param characters
+     * @param nameIndices
+     */
     public Matrix(List<String> characters, Map<String, Integer> nameIndices) {
         this(characters.toArray(new String[characters.size()]), nameIndices);
     }
 
-    public Matrix(String[] characters, Map<String, Integer> nameIndices, String text, int reach) {
+    /**
+     * Initializes a matrix and calls build(text, radius)
+     * @param characters
+     * @param nameIndices
+     * @param text
+     * @param radius
+     */
+    public Matrix(String[] characters, Map<String, Integer> nameIndices, String text, int radius) {
         this(characters, nameIndices);
-        build(text, reach);
+        build(text, radius);
     }
 
-    public Matrix(List<String> characters, Map<String, Integer> nameIndices, String text, int reach) {
+    /**
+     * Initializes a matrix and calls build(text, radius)
+     * @param characters
+     * @param nameIndices
+     * @param text
+     * @param radius
+     */
+    public Matrix(List<String> characters, Map<String, Integer> nameIndices, String text, int radius) {
         this(characters, nameIndices);
-        build(text, reach);
+        build(text, radius);
     }
 
-    public void build(String text, int reach) {
+    /**
+     * Builds the matrix from the text, given a maximum word radius for adjacency
+     * @param text
+     * @param radius
+     */
+    public void build(String text, int radius) {
         StringBuilder search = new StringBuilder();
-        Queue<String> nameQueue = new ArrayDeque<>(reach + 1);
+        Queue<String> nameQueue = new ArrayDeque<>(radius + 1);
         for (int i = 0; i < text.length() - 1; i++) {
             char c = text.charAt(i);
             String primary = "";
@@ -78,13 +107,13 @@ public class Matrix {
             // update the search string
             search.append(c);
             // cut the string to size
-            if (StringUtils.countMatches(search, ' ') > reach) {
+            if (StringUtils.countMatches(search, ' ') > radius) {
                 search = new StringBuilder(search.substring(search.indexOf(" ") + 1));
             }
             // update the queue if a word just finished
             if (i > 0 && notLetter && Character.isAlphabetic(text.charAt(i - 1))) {
                 nameQueue.add(primary);
-                if (nameQueue.size() > reach) { // limit its size
+                if (nameQueue.size() > radius) { // limit its size
                     nameQueue.poll();
                 }
             }
@@ -109,8 +138,7 @@ public class Matrix {
     }
 
     /**
-     * Returns a sorted list of every encounter included in this Matrix
-     * involving the specified character
+     * Returns a sorted list of every encounter included in this Matrix involving the specified character
      * @param name
      * @return
      */
@@ -126,14 +154,33 @@ public class Matrix {
         return encounterList;
     }
 
+    /**
+     * Returns the size of the matrix. This corresponds to the number of characters,
+     * which is also the height and width of the matrix.
+     * @return
+     */
     public int size() {
         return characters.length;
     }
 
+    /**
+     * Adds an encounter to the matrix and encounter list, unless the two names correspond to the same person.
+     * Does no other checks, such as to avoid duplicate encounters at the same position.
+     * @param name1
+     * @param name2
+     * @param position
+     */
     public void addEncounter(String name1, String name2, int position) {
         addEncounter(name1, name2, position, "");
     }
 
+    /**
+     * Adds an encounter to the matrix and encounter list, unless the two names correspond to the same person.
+     * Does no other checks, such as to avoid duplicate encounters at the same position.
+     * @param name1
+     * @param name2
+     * @param position
+     */
     public void addEncounter(String name1, String name2, int position, String context) {
         if (!isModifiable) {
             throw new IllegalStateException("This matrix has been cleaned and can no longer be modified.");

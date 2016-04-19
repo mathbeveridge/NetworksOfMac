@@ -643,9 +643,9 @@ private void setUpView(final MatrixAndNames man) throws IOException {
 		for(int i=0; i<man.getNames().length; i++){
 			if(nickname.containsKey(man.getNames()[i])){
 				int j = i+1;
-				//System.out.println(man.getCharacters().length+" man.getCharacters().length");
-				//System.out.println(man.getCharacters()[j]+" man.getCharacters()[j]");
-				//System.out.println(nickname.containsValue(man.getCharacters()[j])+" nickname.containsValue(man.getCharacters()[j])");
+				//System.out.println(man.getCharacterString().length+" man.getCharacterString().length");
+				//System.out.println(man.getCharacterString()[j]+" man.getCharacterString()[j]");
+				//System.out.println(nickname.containsValue(man.getCharacterString()[j])+" nickname.containsValue(man.getCharacterString()[j])");
 				while(j<man.getNames().length && nickname.get(man.getNames()[i]).contains(man.getNames()[j])){
 					for(int m=0; m<man.getMatrix().length; m++){
 						if(m != j){

@@ -11,52 +11,62 @@ import java.util.*;
 public class MatrixConstructor {
 
 	public static final int NOISE = 4;
-	public static final int REACH = 20;
+	public static final int RADIUS = 20;
 
 	public static void main(String[] args) {
 		String folder = "src/main/resources/data/logs";
 		String text = getText("src/main/resources/text/got.txt");
 
-//		String characters = getCharacters("src/main/resources/data/characters/ari-list-no-dup.txt");
-//		writeFiles(constructMatrix(characters, text, REACH, NOISE, folder + "/log.txt"), folder, 1, 6, "full-names");
-		String characters = getCharacters("src/main/resources/data/characters/ari-list-curated.txt");
-		writeFiles(constructMatrix(characters, text, REACH, NOISE, folder + "/log.txt"), folder, 1, 7, "dup-names");
-//		writeFiles(constructMatrix(characters, text, 15, NOISE, folder + "/log.txt"), folder, 1, 8, "less-reach");
+//		String characterString = getCharacterString("src/main/resources/data/characters/ari-list-no-dup.txt");
+//		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 1, 6, "full-names");
+		String characterString = getCharacterString("src/main/resources/data/characters/ari-list-curated.txt");
+//		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 1, 7, "dup-names");
+		writeFiles(constructMatrix(characterString, text, 15, NOISE, folder + "/log.txt"), folder, 1, 8, "smaller-radius");
 	}
 
-	public static String getCharacters(String file) {
+	/**
+	 * Reads in a character file where each unique character has a comma-separated line of names,
+	 * and converts it to a single string where a character's primary name is followed by their
+	 * other aliases separated by '=', and each character is separated from the next by a comma.
+	 * This is the proper input string for the getCharacters() and getNameIndices() methods.
+	 * @param file
+	 * @return
+	 */
+	public static String getCharacterString(String file) {
 		List<String> lines = FileUtils.readFile(file);
 		StringBuilder sb = new StringBuilder();
-		boolean first = true;
 		for (String line : lines) {
-			if (first) {
-				first = false;
-			} else {
-				sb.append(",");
-			}
-			String[] split = StringUtils.split(line, ",");
-			String name = split[0].trim();
-			sb.append(name);
-			for (int i = 1; i < split.length; i++) {
-				String nickname = split[i].trim();
-				if (!name.equals(nickname)) {
-					sb.append("=").append(nickname);
-				}
-			}
+			sb.append(line).append('\n');
 		}
-		return sb.toString().trim();
+		return sb.toString().trim().replace(',', '=').replace('\n', ',');
 	}
 
+	/**
+	 * This method reads in a massive text file and combines it into a single string,
+	 * with line breaks replaced by spaces.
+	 * @param file
+	 * @return
+	 */
 	public static String getText(String file) {
 		List<String> lines = FileUtils.readFile(file);
 		StringBuilder sb = new StringBuilder();
 		for (String line : lines) {
 			sb.append(line).append(" ");
 		}
-		return sb.toString();
+		return sb.toString().trim();
 	}
 
-	public static Matrix constructMatrix(String characterString, String text, int reach, int noise, String logFile) {
+	/**
+	 * This primary workhorse method builds a matrix from a characterString, text, and other parameters.
+	 * The log data is written to the console and printed to logFile if specified, or ignored if null.
+	 * @param characterString
+	 * @param text
+	 * @param radius
+	 * @param noise
+	 * @param logFile
+	 * @return
+	 */
+	public static Matrix constructMatrix(String characterString, String text, int radius, int noise, String logFile) {
 
 		Logger logger = new Logger();
 		logger.log("=============================================================");
@@ -64,12 +74,12 @@ public class MatrixConstructor {
 		logger.log("=============================================================");
 		logger.log();
 		logger.log("Character names input: " + characterString);
-		logger.log("Proximity check range: " + reach);
+		logger.log("Proximity check range: " + radius);
 		logger.log("Noise threshold level: " + noise);
 		logger.log();
 		logger.log("Character list:");
-		List<String> characterList = getCharacterList(characterString);
-		logger.log(characterList);
+		List<String> characters = getCharacters(characterString);
+		logger.log(characters);
 		logger.log();
 		logger.log("Name Indices:");
 		Map<String, Integer> nameIndices = getNameIndices(characterString);
@@ -82,7 +92,7 @@ public class MatrixConstructor {
 		logger.log("================== PART 2: Edge Collection ==================");
 		logger.log("=============================================================");
 		logger.log();
-		Matrix matrix = new Matrix(characterList, nameIndices, text, reach);
+		Matrix matrix = new Matrix(characters, nameIndices, text, radius);
 		logger.log(matrix.getEncounterList());
 		logger.log();
 		logger.log();
@@ -106,7 +116,15 @@ public class MatrixConstructor {
 		return matrix;
 	}
 
-	private static List<String> getCharacterList(String characterString) {
+	/**
+	 * Converts a characterString to a list of character's primary names, where a primary name
+	 * is either their first name and last initial, or their single name. The input string must
+	 * have each character separated by a comma, and each alias separated by an '=', where the
+	 * primary name is the first alias given.
+	 * @param characterString
+	 * @return
+	 */
+	private static List<String> getCharacters(String characterString) {
 		List<String> characterList = new ArrayList<>();
 		String[] characters = characterString.split(",");
 		for (String c : characters) {
@@ -119,6 +137,14 @@ public class MatrixConstructor {
 		return characterList;
 	}
 
+	/**
+	 * Converts a characterString to a map of aliases to primary name indices, where the index is
+	 * the position of the primary name in the output of getCharacters(). The input string must
+	 * have each character separated by a comma, and each alias separated by an '=', where the
+	 * primary name is the first alias given.
+	 * @param characterString
+	 * @return
+	 */
 	private static Map<String, Integer> getNameIndices(String characterString) {
 		Map<String, Integer> nameIndices = new HashMap<>();
 		int index = 0;
@@ -133,6 +159,20 @@ public class MatrixConstructor {
 		return nameIndices;
 	}
 
+	/**
+	 * Writes the data in matrix to a set of files. These files are:
+	 *  - matrix file
+	 *  - edge file
+	 *  - total encounter list
+	 *  - encounter lists by character
+	 * The files will be descriptively named and placed within parentFolder,
+	 * with the encounter files placed in their own subdirectory.
+	 * @param matrix
+	 * @param parentFolder
+	 * @param bookNumber
+	 * @param fileNumber
+	 * @param descriptor
+	 */
 	public static void writeFiles(Matrix matrix, String parentFolder, int bookNumber, int fileNumber, String descriptor) {
 		// write matrix file
 		matrix.toMatrixCsvLog().writeLog(getFileName(parentFolder, bookNumber, "mat", fileNumber, descriptor, "csv"));
