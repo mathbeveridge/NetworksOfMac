@@ -57,33 +57,6 @@ import java.util.*;
  */
 public class CharacterFinder {
 
-    // Words that should be completely ignored
-    public static final Set<String> GoT_IGNORED_WORDS = new HashSet<>(Arrays.asList(
-            "My", "He", "His", "We", "Their", "Your", // pronouns  (It???)
-            "This", "That", "There", // indirect pronouns
-            "Who", "Why", // questions
-            "Man", "Men", "With", "If", "And", "Will", "Half", "Free", "Watch",
-            "Wolf", "Hall", "Kingdoms", "Watchmen", "Shepherd", // miscellaneous
-            "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", // GoT specific
-            "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons" // familial references
-    ));
-
-    // Words that are not unique, but may still be descriptive, expecially in combination
-    public static final Set<String> GoT_GENERAL_WORDS = new HashSet<>(Arrays.asList(
-            "The", // titular articles
-            "Lord", "Lady", "King", "Queen", "Regent", "Steward", "Prince", "Princess", // royal titles
-            "Ser", "Maester", "Captain", "Commander", "Magister", "Master", "Builder",
-            "Septon", "Knight", // professional titles
-            "Young", "Old", "Fat", // endearing titles
-            "Khal", "Ko", // dothraki titles
-            "High", "Great", "Grand", "First", "Second", // superlatives
-            "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
-            "Black", "Red", "Green", "Blue", // colors
-            "Land", "Lands", "Sea", "Seas", "Island", "Isles", "City", "Cities", // geographics
-            "Alley", "Gate", "Keep", "Market", "Tower", // landmarks
-            "Flowers" // needed to distinguish Knight of Flowers and Jafer Flowers
-    ));
-
     private final Set<String> ignoredWords;
     private final Set<String> generalWords;
     private final String punctuation;
@@ -178,7 +151,7 @@ public class CharacterFinder {
                             if (part.equals(" ") || part.equals("of") || part.equals("the")) {
                                 phrase.append(part);
                             } else {
-                                if (!GoT_GENERAL_WORDS.contains(toAdd)) {
+                                if (!generalWords.contains(toAdd)) {
                                     incrementName(toAdd, 1);
                                 }
                                 phrase = null;
@@ -229,7 +202,7 @@ public class CharacterFinder {
         Set<String> partNames = new HashSet<>();
         for (String cap : words) {
             String[] split = cap.split(" ");
-            String name = cap.substring(cap.indexOf(" ") + 1);
+            String name = StringUtils.substringAfter(cap, " ");//cap.substring(cap.indexOf(" ") + 1);
             if (split.length > 1 && generalWords.contains(split[0]) && WordUtils.isCapitalized(split[1]) && !generalWords.contains(split[1])) {
                 if (split.length == 2 && (split[0].equals("Ko") || split[0].equals("Khal")) || split.length == 3) {
                     names.add(name);
@@ -403,7 +376,7 @@ public class CharacterFinder {
             // strip "of..." bits
             if (noPlace.contains(" of ")) {
                 String temp = noPlace.substring(0, noPlace.indexOf(" of "));
-                if (!GoT_GENERAL_WORDS.contains(temp)) {
+                if (!generalWords.contains(temp)) {
                     noPlace = temp;
                 }
             }

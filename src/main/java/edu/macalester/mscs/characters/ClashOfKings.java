@@ -10,12 +10,12 @@ import java.util.Set;
 /**
  * @author Ari Weiland
  */
-public class GameOfThrones {
+public class ClashOfKings {
 
     public static final Set<String> GoT_IGNORED_WORDS = new HashSet<>(Arrays.asList(
-            "My", "He", "His", "We", "Their", "Your", // pronouns  (It???)
+            "My", "He", "His", "Her", "We", "Their", "You", "Your", "It", // pronouns
             "This", "That", "There", // indirect pronouns
-            "Who", "Why", // questions
+            "Who", "Why", "What", // questions
             "Man", "Men", "With", "If", "And", "Will", "Half", "Free", "Watch",
             "Wolf", "Hall", "Kingdoms", "Watchmen", "Shepherd", // miscellaneous
             "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", // GoT specific
@@ -28,13 +28,13 @@ public class GameOfThrones {
             "Lord", "Lady", "King", "Queen", "Regent", "Steward", "Prince", "Princess", // royal titles
             "Ser", "Maester", "Captain", "Commander", "Magister", "Master", "Builder",
             "Septon", "Knight", // professional titles
-            "Young", "Old", "Fat", // endearing titles
+            "Young", "Old", "Fat", "Big", // endearing titles
             "Khal", "Ko", // dothraki titles
             "High", "Great", "Grand", "First", "Second", // superlatives
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
             "Black", "Red", "Green", "Blue", // colors
             "Land", "Lands", "Sea", "Seas", "Island", "Isles", "City", "Cities", // geographics
-            "Alley", "Gate", "Keep", "Market", "Tower", // landmarks
+            "Alley", "Gate", "Keep", "Market", "Tower", "Hall", // landmarks
             "Flowers" // needed to distinguish Knight of Flowers and Jafer Flowers
     ));
 
@@ -42,11 +42,16 @@ public class GameOfThrones {
         // initialize the finder
         CharacterFinder finder = new CharacterFinder(GoT_IGNORED_WORDS, GoT_GENERAL_WORDS, ".?!�");
         // read in the text
-        finder.countCapitalized(FileUtils.readFile("src/main/resources/text/got.txt"));
+        finder.countCapitalized(FileUtils.readFile("src/main/resources/text/clashofkings.txt"));
         // fix a few mistakes
-        finder.incrementName("Jeor Mormont", 1); // gets wrecked
-        finder.incrementName("Jeor", 0);
-        finder.removeWords("Tully Stark"); // gets picked up accidentally
+//        finder.incrementName("Jeor Mormont", 1); // gets wrecked
+//        finder.incrementName("Jeor", 0);
+//        finder.removeWords("Tully Stark"); // gets picked up accidentally
+
+        Set<String> lonely = finder.getLonelyWords();
+        finder.removePlaces();
+        finder.removeTitles();
+        finder.removeWordsBelowThreshold(lonely, 10);
 
         // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();
@@ -55,21 +60,19 @@ public class GameOfThrones {
         Set<String> names = finder.getNamesBySurname(surnames);
         names.addAll(titledNames);
         Set<String> places = finder.getPlaces();
-        Set<String> lonely = finder.getLonelyWords();
 
-//        System.out.println(titledNames);
-//        System.out.println(pluralizedNames);
-//        System.out.println(surnames);
-//        System.out.println(names);
-//        System.out.println(places);
-//        System.out.println(lonely);
-//        System.out.println();
+        System.out.println(titledNames);
+        System.out.println(pluralizedNames);
+        System.out.println(surnames);
+        System.out.println(names);
+        System.out.println(places);
+        System.out.println(lonely);
+        System.out.println();
 
-        finder.removePlaces();
-        finder.removeTitles();
-        finder.removeWordsBelowThreshold(lonely, 10);
 
-//        finder.printCounter().writeLog("src/main/resources/data/characters/got-counter.csv");
+        finder.printCounter().writeLog("src/main/resources/data/characters/cok-counter.csv");
+
+
 
         // gather phrases that are not inherently descriptive
         Set<String> nondescriptors = new HashSet<>();
@@ -87,13 +90,12 @@ public class GameOfThrones {
         finder.combineGroups("Bran", "Brandon Stark");
         finder.combineGroups("Robert", "Usurper");
         finder.combineGroups("Petyr", "Littlefinger", "Lord Baelish");
-        finder.combineGroups("Daenerys", "Dany", "Khaleesi", "Princess of Dragonstone");
+        finder.combineGroups("Daenerys", "Dany", "Khaleesi");
         finder.combineGroups("Joffrey", "Joff");
-        finder.combineGroups("Samwell", "Sam", "Piggy", "Lord of Ham");
+        finder.combineGroups("Samwell", "Sam");
         finder.combineGroups("Sandor", "Hound");
         finder.combineGroups("Benjen", "Ben");
         finder.combineGroups("Jeor", "Old Bear", "Commander Mormont", "Lord Mormont");
-        finder.combineGroups("Tomard", "Tom");
         finder.combineGroups("Jon Arryn", "Lord Arryn");
         finder.combineGroups("Catelyn", "Lady Stark");
         finder.combineGroups("Pycelle", "Grand Maester");
@@ -207,10 +209,10 @@ public class GameOfThrones {
 
         Set<String> firstNames = finder.getFirstNames(names);
 
-        FileUtils.writeFile(finder.getNameList(), "src/main/resources/data/characters/got-list-full.txt");
-        FileUtils.writeFile(finder.getNameList(names), "src/main/resources/data/characters/got-list-clean.txt");
-        FileUtils.writeFile(finder.getNameList(firstNames), "src/main/resources/data/characters/got-list-no-dup.txt");
-        FileUtils.writeFile(finder.getFirstNameList(names), "src/main/resources/data/characters/got-list-first.txt");
+        FileUtils.writeFile(finder.getNameList(), "src/main/resources/data/characters/cok-list-full.txt");
+        FileUtils.writeFile(finder.getNameList(names), "src/main/resources/data/characters/cok-list-clean.txt");
+        FileUtils.writeFile(finder.getNameList(firstNames), "src/main/resources/data/characters/cok-list-no-dup.txt");
+        FileUtils.writeFile(finder.getFirstNameList(names), "src/main/resources/data/characters/cok-list-first.txt");
 
     }
 }
