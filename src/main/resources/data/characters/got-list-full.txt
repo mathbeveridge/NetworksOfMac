@@ -59,7 +59,6 @@ Edmure,Edmure Tully,Ser Edmure,Edmure
 Jeyne,Jeyne Poole,Jeyne
 Irri,Irri
 Jhiqui,Jhiqui
-Casterly Rock,Casterly Rock
 Qotho,Qotho
 Tomard,Tom,Tomard,Fat Tom
 Osha,Osha

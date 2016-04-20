@@ -47,6 +47,7 @@ public class GameOfThrones {
         finder.incrementName("Jeor Mormont", 1); // gets wrecked
         finder.incrementName("Jeor", 0);
         finder.removeWords("Tully Stark"); // gets picked up accidentally
+        finder.removeWords("Jon of Lady Stark"); // breaks the Lady Stark alias
 
         // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();

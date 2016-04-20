@@ -42,7 +42,7 @@ public class CharacterGroups {
                         }
                     }
                 }
-                if (group == null) {
+                if (group == null && !nondescriptors.contains(alias)) {
                     addAlias(alias, counter.get(alias));
                 }
             }

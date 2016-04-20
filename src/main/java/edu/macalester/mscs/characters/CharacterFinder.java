@@ -375,7 +375,7 @@ public class CharacterFinder {
             String noPlace = cap;
             // strip "of..." bits
             if (noPlace.contains(" of ")) {
-                String temp = noPlace.substring(0, noPlace.indexOf(" of "));
+                String temp = StringUtils.substringBefore(noPlace, " of ");
                 if (!generalWords.contains(temp)) {
                     noPlace = temp;
                 }
