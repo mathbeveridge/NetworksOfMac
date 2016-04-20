@@ -38,13 +38,13 @@ Illyrio Mopatis,Illyrio,Illyrio Mopatis,Mopatis,Magister Illyrio
 Hodor,Hodor
 Theon Greyjoy,Theon,Theon Greyjoy,Theon Stark
 Barristan Selmy,Barristan the Old,Ser Barristan,Barristan Selmy,Barristan the Bold,Bold,Barristan
-Jeor Mormont,Lord Mormont,Bear Island,Jeor Mormont,Old Bear,Bear,Commander Mormont,Jeor
 Rickon Stark,Rickon,Rickon Stark
 Brynden Tully,Brynden Blackfish,Blackfish,Ser Brynden,Brynden the Blackfish,Brynden,Brynden Tully
 Pyp,Pyp
 Alliser Thorne,Alliser Thorne,Ser Alliser,Alliser
 Aemon Targaryen,Aemon the Dragonknight,Aemon Targaryen,Dragonknight,Maester Aemon,Aemon,Prince Aemon
 Syrio Forel,Syrio,Syrio Forel,Forel
+Jeor Mormont,Lord Mormont,Jeor Mormont,Old Bear,Bear,Commander Mormont,Jeor
 Walder Frey,Walder,Walder Frey,Lord Walder,Lord Frey,Lord of the Crossing
 Loras Tyrell,Loras,Knight of Flowers,Ser Daisy,Daisy,Ser Loras,Loras Tyrell
 Grenn,Grenn

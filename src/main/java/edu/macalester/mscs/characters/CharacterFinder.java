@@ -185,8 +185,8 @@ public class CharacterFinder {
      */
     public String stripTitle(String name) {
         String[] split = name.split(" ");
-        if (generalWords.contains(split[0]) && WordUtils.isCapitalized(split[1])) {
-            return name.substring(name.indexOf(" ") + 1);
+        if (split.length > 1 && generalWords.contains(split[0]) && WordUtils.isCapitalized(split[1])) {
+            return StringUtils.substringAfter(name, " ");
         } else {
             return name;
         }
@@ -281,17 +281,21 @@ public class CharacterFinder {
     /**
      * Returns phrases that follow "of" or "of the" in the capitalized phrases
      * @return
+     * @param notPlaces
      */
-    public Set<String> getPlaces() {
+    public Set<String> getPlaces(Collection<String> notPlaces) {
         Set<String> words = counter.keySet();
         Set<String> places = new HashSet<>();
+        String notPlacesString = notPlaces.toString();
         for (String cap : words) {
             if (cap.contains(" of ")) {
                 String place = cap.substring(cap.indexOf(" of") + 4);
                 if (place.startsWith("the")) {
                     place = place.substring(4);
                 }
-                places.add(place);
+                if (!notPlacesString.contains(stripTitle(place))) {
+                    places.add(place);
+                }
             }
         }
         return places;
@@ -346,8 +350,7 @@ public class CharacterFinder {
     public Set<String> getFirstNames(Collection<String> names) {
         Set<String> firstNames = new HashSet<>();
         for (String cap : names) {
-            String[] split = stripTitle(cap).split(" ");
-            firstNames.add(split[0]);
+            firstNames.add(StringUtils.substringBefore(stripTitle(cap), " "));
         }
         return firstNames;
     }
@@ -528,13 +531,12 @@ public class CharacterFinder {
         for (String name : names) {
             if (characterGroups.isAlias(name)) {
                 List<String> list = new ArrayList<>();
-                String[] split = stripTitle(name).split(" ");
-                list.add(split[0]);
+                list.add(StringUtils.substringBefore(stripTitle(name), " "));
                 Set<String> set = new HashSet<>();
                 for (String s : characterGroups.getGroup(name)) {
-                    split = stripTitle(s).split(" ");
-                    if (!generalWords.contains(split[0])) {
-                        set.add(split[0]);
+                    String firstName = StringUtils.substringBefore(stripTitle(s), " ");
+                    if (!generalWords.contains(firstName)) {
+                        set.add(firstName);
                     }
                 }
                 list.addAll(set);

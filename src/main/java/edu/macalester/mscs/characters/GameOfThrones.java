@@ -35,7 +35,7 @@ public class GameOfThrones {
             "Black", "Red", "Green", "Blue", // colors
             "Land", "Lands", "Sea", "Seas", "Island", "Isles", "City", "Cities", // geographics
             "Alley", "Gate", "Keep", "Market", "Tower", // landmarks
-            "Flowers" // needed to distinguish Knight of Flowers and Jafer Flowers
+            "Flowers", "Storm" // miscellaneous
     ));
 
     public static void main(String[] args) {
@@ -47,7 +47,7 @@ public class GameOfThrones {
         finder.incrementName("Jeor Mormont", 1); // gets wrecked
         finder.incrementName("Jeor", 0);
         finder.removeWords("Tully Stark"); // gets picked up accidentally
-        finder.removeWords("Jon of Lady Stark"); // breaks the Lady Stark alias
+        finder.removeWords("Storm Dancer"); // is a boat, not a name
 
         // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();
@@ -55,7 +55,7 @@ public class GameOfThrones {
         Set<String> surnames = finder.getSurnames();
         Set<String> names = finder.getNamesBySurname(surnames);
         names.addAll(titledNames);
-        Set<String> places = finder.getPlaces();
+        Set<String> places = finder.getPlaces(names);
         Set<String> lonely = finder.getLonelyWords();
 
 //        System.out.println(titledNames);

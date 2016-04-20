@@ -35,13 +35,13 @@ Illyrio,Illyrio,Mopatis
 Hodor,Hodor
 Theon,Theon
 Barristan,Bold,Barristan
-Jeor,Mormont,Bear,Jeor
 Brynden,Blackfish,Brynden
 Rickon,Rickon
 Pyp,Pyp
 Alliser,Alliser
 Syrio,Syrio,Forel
 Aemon,Dragonknight,Aemon
+Jeor,Mormont,Bear,Jeor
 Walder,Walder,Frey
 Loras,Loras,Daisy
 Grenn,Grenn

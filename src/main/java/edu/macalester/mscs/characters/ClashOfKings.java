@@ -17,8 +17,8 @@ public class ClashOfKings {
             "This", "That", "There", // indirect pronouns
             "Who", "Why", "What", // questions
             "Man", "Men", "With", "If", "And", "Will", "Half", "Free", "Watch",
-            "Wolf", "Hall", "Kingdoms", "Watchmen", "Shepherd", // miscellaneous
-            "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", // GoT specific
+            "Wolf", "Hall", "Kingdoms", "Watchmen", "Shepherd", "Not", "Do", // miscellaneous
+            "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", "Grace", // GoT specific
             "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons" // familial references
     ));
 
@@ -27,15 +27,15 @@ public class ClashOfKings {
             "The", // titular articles
             "Lord", "Lady", "King", "Queen", "Regent", "Steward", "Prince", "Princess", // royal titles
             "Ser", "Maester", "Captain", "Commander", "Magister", "Master", "Builder",
-            "Septon", "Knight", // professional titles
-            "Young", "Old", "Fat", "Big", // endearing titles
+            "Septon", "Knight", "Shipwright", // professional titles
+            "Young", "Old", "Fat", "Big", "Little", "Bastard", "Boy", // endearing titles
             "Khal", "Ko", // dothraki titles
             "High", "Great", "Grand", "First", "Second", // superlatives
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
             "Black", "Red", "Green", "Blue", // colors
             "Land", "Lands", "Sea", "Seas", "Island", "Isles", "City", "Cities", // geographics
-            "Alley", "Gate", "Keep", "Market", "Tower", "Hall", // landmarks
-            "Flowers" // needed to distinguish Knight of Flowers and Jafer Flowers
+            "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", // landmarks
+            "Flowers", "Storm" // miscellaneous
     ));
 
     public static void main(String[] args) {
@@ -44,14 +44,8 @@ public class ClashOfKings {
         // read in the text
         finder.countCapitalized(FileUtils.readFile("src/main/resources/text/clashofkings.txt"));
         // fix a few mistakes
-//        finder.incrementName("Jeor Mormont", 1); // gets wrecked
-//        finder.incrementName("Jeor", 0);
-//        finder.removeWords("Tully Stark"); // gets picked up accidentally
-
-        Set<String> lonely = finder.getLonelyWords();
-        finder.removePlaces();
-        finder.removeTitles();
-        finder.removeWordsBelowThreshold(lonely, 10);
+        finder.incrementName("Tytos Blackwood", 2);
+        finder.removeWords("Walders"); // wtf is this???
 
         // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();
@@ -59,7 +53,8 @@ public class ClashOfKings {
         Set<String> surnames = finder.getSurnames();
         Set<String> names = finder.getNamesBySurname(surnames);
         names.addAll(titledNames);
-        Set<String> places = finder.getPlaces();
+        Set<String> places = finder.getPlaces(names);
+        Set<String> lonely = finder.getLonelyWords();
 
         System.out.println(titledNames);
         System.out.println(pluralizedNames);
@@ -69,10 +64,10 @@ public class ClashOfKings {
         System.out.println(lonely);
         System.out.println();
 
+        finder.removePlaces();
+        finder.removeTitles();
 
         finder.printCounter().writeLog("src/main/resources/data/characters/cok-counter.csv");
-
-
 
         // gather phrases that are not inherently descriptive
         Set<String> nondescriptors = new HashSet<>();
@@ -100,24 +95,16 @@ public class ClashOfKings {
         finder.combineGroups("Catelyn", "Lady Stark");
         finder.combineGroups("Pycelle", "Grand Maester");
         finder.combineGroups("Walder", "Lord Frey", "Lord of the Crossing");
-        finder.combineGroups("Robert Arryn", "Lord of the Eyrie");
         finder.combineGroups("Lysa", "Lady Arryn");
-        finder.combineGroups("Maege", "Lady Mormont");
         finder.combineGroups("Greatjon", "Lord Umber");
-        finder.combineGroups("Shella", "Lady Whent");
-        finder.combineGroups("Drogo", "Great Rider");
         finder.combineGroups("Renly", "Lord of Storm");
         finder.combineGroups("Benjen", "First Ranger");
-        finder.combineGroups("Marq", "Lord Piper");
         finder.combineGroups("Tywin", "Lord of Casterly Rock");
-        finder.combineGroups("Horas", "Horror");
-        finder.combineGroups("Jonos", "Lord Bracken");
-        finder.combineGroups("Tytos Blackwood", "Lord Blackwood");
-        finder.combineGroups("Hobber", "Slobber");
-        finder.combineGroups("Karyl", "Lord Vance");
         finder.combineGroups("Roose", "Lord of the Dreadfort", "Lord Bolton");
         finder.combineGroups("Hoster", "Lord of Riverrun");
-        finder.combineGroups("Loras", "Knight of Flowers", "Daisy");
+        finder.combineGroups("Loras", "Knight of Flowers");
+        finder.combineGroups("Davos", "Onion Knight");
+        finder.combineGroups("Varys", "Spider");
 
         // manually add important names that get missed
         names.add("Varys");
@@ -184,28 +171,20 @@ public class ClashOfKings {
         names.add("Jaehaerys");
         names.add("Jalabhar Xho");
         names.add("Podrick Payne");
+        names.add("Lady Whent");
 
         // manually remove a few names that are either mistakes, duplicates, or unused
-        names.remove("Yard");           // mistake
-        names.remove("Valyrian");       // mistake
         names.remove("Ned Stark");      // as Eddard Stark
-        names.remove("Jon Stark");      // as Jon Snow
-        names.remove("Daenerys Stormborn"); // as Daenerys Targaryen
-        names.remove("Catelyn Tully");  // as Catelyn Stark
         names.remove("Joff");           // as Joffrey Baratheon
-        names.remove("Rider");          // as Drogo
         names.remove("Sam Tarly");      // as Samwell Tarly
-        names.remove("Piggy");          // as Samwell Tarly
-        names.remove("Rodrik Stark");   // unused
         names.remove("Ben Stark");      // as Benjen Stark
         names.remove("Ranger");         // as Benjen Stark
         names.remove("Theon Stark");    // as Theon Greyjoy
+        names.remove("Theon Turncloak");    // as Theon Greyjoy
         names.remove("Brynden Blackfish");  // as Brynden Tully
-        names.remove("Daisy");          // as Loras Tyrell
+        names.remove("Davos Shorthand");// as Davos Seaworth
         names.remove("Aegon Targaryen");// unused, too problematic
         names.remove("Torrhen Stark");  // unused
-        names.remove("Horror");         // as Horas
-        names.remove("Slobber");        // as Hobber
 
         Set<String> firstNames = finder.getFirstNames(names);
 

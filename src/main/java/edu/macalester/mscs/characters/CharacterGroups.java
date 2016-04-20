@@ -29,21 +29,23 @@ public class CharacterGroups {
             }
         }
         for (String alias : counter.keySet()) {
-            String[] split = alias.split(" ");
-            if (split.length > 1) {
-                String group = null;
-                for (String s : split) {
-                    if (isAlias(s)) {
-                        if (group == null) {
-                            group = getPrimaryAlias(s);
-                            addAliasToGroup(group, alias, counter.get(alias));
-                        } else {
-                            combineGroups(group, s);
+            if (!nondescriptors.contains(alias)) {
+                String[] split = alias.split(" ");
+                if (split.length > 1) {
+                    String group = null;
+                    for (String s : split) {
+                        if (isAlias(s)) {
+                            if (group == null) {
+                                group = getPrimaryAlias(s);
+                                addAliasToGroup(group, alias, counter.get(alias));
+                            } else {
+                                combineGroups(group, s);
+                            }
                         }
                     }
-                }
-                if (group == null && !nondescriptors.contains(alias)) {
-                    addAlias(alias, counter.get(alias));
+                    if (group == null) {
+                        addAlias(alias, counter.get(alias));
+                    }
                 }
             }
         }
@@ -65,6 +67,12 @@ public class CharacterGroups {
     }
 
     public void combineGroups(String group1, String group2) {
+        if (!isAlias(group1)) {
+            throw new IllegalArgumentException(group1 + " is not an alias in these groups.");
+        }
+        if (!isAlias(group2)) {
+            throw new IllegalArgumentException(group2 + " is not an alias in these groups.");
+        }
         group1 = getPrimaryAlias(group1);
         group2 = getPrimaryAlias(group2);
         if (!group1.equals(group2)) {
