@@ -12,40 +12,44 @@ import java.util.Set;
  */
 public class ClashOfKings {
 
-    public static final Set<String> GoT_IGNORED_WORDS = new HashSet<>(Arrays.asList(
+    public static final Set<String> IGNORED_WORDS = new HashSet<>(Arrays.asList(
             "My", "He", "His", "Her", "We", "Their", "You", "Your", "It", // pronouns
             "This", "That", "There", // indirect pronouns
             "Who", "Why", "What", // questions
-            "Man", "Men", "With", "If", "And", "Will", "Half", "Free", "Watch",
-            "Wolf", "Hall", "Kingdoms", "Watchmen", "Shepherd", "Not", "Do", // miscellaneous
+            "Man", "Men", "With", "If", "And", "Will", "Half", "Free", "Watch", "God",
+            "Wolf", "Hall", "Kingdoms", "Watchmen", "Shepherd", "Not", "Do", "Hot",
+            "Tongue", "Guard", "Whores", "Stone", "Red", // miscellaneous
             "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", "Grace", // GoT specific
             "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons" // familial references
     ));
 
     // Words that are not unique, but may still be descriptive, expecially in combination
-    public static final Set<String> GoT_GENERAL_WORDS = new HashSet<>(Arrays.asList(
+    public static final Set<String> GENERAL_WORDS = new HashSet<>(Arrays.asList(
             "The", // titular articles
             "Lord", "Lady", "King", "Queen", "Regent", "Steward", "Prince", "Princess", // royal titles
             "Ser", "Maester", "Captain", "Commander", "Magister", "Master", "Builder",
-            "Septon", "Knight", "Shipwright", // professional titles
+            "Septon", "Knight", "Shipwright", "Goodwife", "Ranger", // professional titles
             "Young", "Old", "Fat", "Big", "Little", "Bastard", "Boy", // endearing titles
             "Khal", "Ko", // dothraki titles
             "High", "Great", "Grand", "First", "Second", // superlatives
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
-            "Black", "Red", "Green", "Blue", // colors
-            "Land", "Lands", "Sea", "Seas", "Island", "Isles", "City", "Cities", // geographics
-            "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", // landmarks
-            "Flowers", "Storm" // miscellaneous
+            "Black", "Red", "Green", "Blue", "White", // colors
+            "Land", "Lands", "Sea", "Seas", "Island", "Islands", "Isles", "Bay", "River", "Shore", // geographics
+            "City", "Cities", "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", "Castle", // landmarks
+            "Cruel", "Bold", "Brave", // adjective titles
+            "Flowers", "Storm", "Iron", "Bull", "Long", "Spring" // miscellaneous
     ));
 
     public static void main(String[] args) {
         // initialize the finder
-        CharacterFinder finder = new CharacterFinder(GoT_IGNORED_WORDS, GoT_GENERAL_WORDS, ".?!�");
+        CharacterFinder finder = new CharacterFinder(IGNORED_WORDS, GENERAL_WORDS, ".?!�");
         // read in the text
         finder.countCapitalized(FileUtils.readFile("src/main/resources/text/clashofkings.txt"));
         // fix a few mistakes
         finder.incrementName("Tytos Blackwood", 2);
         finder.removeWords("Walders"); // wtf is this???
+        finder.removeWords("Petyr Pimple"); // wtf is this???
+        finder.removeWords("Pimple");
 
         // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();
@@ -54,6 +58,7 @@ public class ClashOfKings {
         Set<String> names = finder.getNamesBySurname(surnames);
         names.addAll(titledNames);
         Set<String> places = finder.getPlaces(names);
+        places.add("Casterly");
         Set<String> lonely = finder.getLonelyWords();
 
         System.out.println(titledNames);
@@ -98,13 +103,14 @@ public class ClashOfKings {
         finder.combineGroups("Lysa", "Lady Arryn");
         finder.combineGroups("Greatjon", "Lord Umber");
         finder.combineGroups("Renly", "Lord of Storm");
-        finder.combineGroups("Benjen", "First Ranger");
         finder.combineGroups("Tywin", "Lord of Casterly Rock");
         finder.combineGroups("Roose", "Lord of the Dreadfort", "Lord Bolton");
         finder.combineGroups("Hoster", "Lord of Riverrun");
         finder.combineGroups("Loras", "Knight of Flowers");
         finder.combineGroups("Davos", "Onion Knight");
         finder.combineGroups("Varys", "Spider");
+        finder.combineGroups("Gregor", "Mountain");
+        finder.combineGroups("Podrick", "Pod");
 
         // manually add important names that get missed
         names.add("Varys");
@@ -180,11 +186,18 @@ public class ClashOfKings {
         names.remove("Ben Stark");      // as Benjen Stark
         names.remove("Ranger");         // as Benjen Stark
         names.remove("Theon Stark");    // as Theon Greyjoy
-        names.remove("Theon Turncloak");    // as Theon Greyjoy
+        names.remove("Theon Turncloak");// as Theon Greyjoy
         names.remove("Brynden Blackfish");  // as Brynden Tully
         names.remove("Davos Shorthand");// as Davos Seaworth
+        names.remove("Littlefinger");   // as Petyr Baelish
+        names.remove("Grey Wind");      // dire wolf
+        names.remove("Bitch");          // boat
+        names.remove("Laughter");       // boat
+        names.remove("Walder Freys");   // mistake
+        names.remove("Dragon Tower");   // mistake
         names.remove("Aegon Targaryen");// unused, too problematic
         names.remove("Torrhen Stark");  // unused
+        names.remove("Aerys Oakheart"); // unused
 
         Set<String> firstNames = finder.getFirstNames(names);
 
