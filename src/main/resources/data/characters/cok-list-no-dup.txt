@@ -305,8 +305,6 @@ Rodwell,Rodwell,Lord Rodwell
 Staedmon,Lord Staedmon,Staedmon
 Beron,Lord Beron,Beron
 Leech,Lord Leech,Leech
-Crackclaw,Crackclaw,Crackclaw Point
 Jeffory,Jeffory Mallister,Jeffory
-Lorn,Lorn,Lorn Point
 Malcolm,Ser Malcolm,Malcolm
 Lothston,Lord Lothston,Lothston

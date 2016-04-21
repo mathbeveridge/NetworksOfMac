@@ -292,14 +292,12 @@ Arryk,Arryk
 Denys,Denys
 Eunuch,Eunuch
 Genna,Genna
-Lorn,Lorn
 Dorren,Dorren
 Donnel,Donnel
 Manolo,Manolo
 Rubert,Rubert
 Deremond,Deremond
 Edwyd,Edwyd
-Crackclaw,Crackclaw
 Flement,Flement
 Arneld,Arneld
 Lothston,Lothston
