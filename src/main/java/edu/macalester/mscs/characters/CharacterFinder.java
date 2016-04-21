@@ -236,7 +236,8 @@ public class CharacterFinder {
         for (String name : partNames) {
             boolean isUnique = true;
             for (String cap : words) {
-                // cut off after "the" because anything preceding is either still unique, or inherently not unique
+                // cut off after "of" and "the" because anything preceding is either still unique, or inherently not unique
+                cap = StringUtils.substringBefore(cap, " of ");
                 cap = StringUtils.substringBefore(cap, " the ");
                 String[] split = cap.split(" ");
                 if (split.length == 2) {

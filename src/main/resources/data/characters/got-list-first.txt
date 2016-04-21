@@ -188,6 +188,7 @@ Podrick,Podrick
 Preston,Preston
 Andar,Andar
 Maekar,Maekar
+Rowan,Rowan
 Theo,Wull,Theo
 Wyman,Wyman
 Ryam,Ryam
@@ -225,3 +226,4 @@ Erik,Erik
 Garth,Garth
 Emmon,Emmon
 Morgil,Morgil
+Lewyn,Lewyn

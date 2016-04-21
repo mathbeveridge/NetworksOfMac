@@ -187,6 +187,7 @@ Naerys,Naerys,Queen Naerys
 Podrick,Podrick Payne,Podrick
 Morton,Ser Morton,Morton Waynwood,Morton
 Preston,Preston,Ser Preston,Preston Greenfield
+Rowan,Rowan,Lord Rowan
 Olyvar,Olyvar,Olyvar Frey
 Serrett,Serrett,Lord Serrett
 Theo,Ser Theo,Wull,Theo,Theo Wull
@@ -221,6 +222,7 @@ Dustin,Lord Dustin,Dustin
 Morgil,Ser Morgil,Morgil
 Amory,Amory Lorch,Lorch,Amory
 Ethan,Ethan,Ethan Glover
+Lewyn,Prince Lewyn,Lewyn
 Rhae,Rhae Mhar,Mhar,Rhae
 Moro,Khal Moro,Moro
 Banefort,Lord Banefort,Banefort

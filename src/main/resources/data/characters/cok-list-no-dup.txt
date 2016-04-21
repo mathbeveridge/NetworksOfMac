@@ -17,10 +17,12 @@ Robert,Robert Baratheon,Robert Arryn,King Robert,Robert,Lord Robert,Robert the U
 Varys,Lord Varys,Varys,Spider
 Eddard,Eddard,Ned Stark,Lord Eddard,Eddard Stark,Ned
 Jaime,Kingslayer,Ser Jaime,Jaime,Jaime the Kingslayer,Jaime Lannister
-Petyr,Petyr Baelish,Lord Baelish,Baelish,Lord Petyr,Lord Littlefinger,Littlefinger,Petyr
+Petyr,Petyr Baelish,Lord Baelish,Lord Paramount,Baelish,Paramount,Lord Petyr,Lord Littlefinger,Littlefinger,Petyr
 Hodor,Hodor
 Yoren,Yoren
+Qhorin,Qhorin Halfhand,Halfhand,Qhorin
 Tywin,Lord of Casterly Rock,Tywin Lannister,Lord Tywin,Tywin
+Brienne,Beauty,Brienne,Brienne the Blue,Brienne the Beauty,Lady Brienne
 Luwin,Maester Luwin,Luwin
 Rodrik,Rodrik Greyjoy,Rodrik,Ser Rodrik,Rodrik Cassel
 Samwell,Sam Tarly,Samwell Tarly,Sam,Samwell
@@ -29,7 +31,7 @@ Bronn,Bronn
 Jeor,Lord Mormont,Jeor Mormont,Lord of Bear Island,Old Bear,Bear,Commander Mormont,Jeor
 Cressen,Cressen,Maester Cressen
 Walder,Walder,Walder Frey,Walder Rivers,Black Walder,Walder Freys,Bastard Walder,Lord Walder,Lord Frey,Red Walder,Lord of the Crossing,Little Walder,Big Walder
-Balon,King Balon,Balon,Balon Greyjoy,Balon Swann,Lord Balon,Ser Balon
+Balon,King Balon,Balon,Balon Greyjoy,Balon Swann,Reaper,Lord Reaper,Lord Balon,Ser Balon
 Shae,Shae
 Jorah,Jorah,Jorah Mormont,Ser Jorah
 Osha,Osha
@@ -46,6 +48,7 @@ Janos,Janos Slynt,Lord Janos,Janos
 Gregor,Gregor Clegane,Mountain,Ser Gregor,Gregor
 Loras,Loras,Knight of Flowers,Ser Loras,Loras Tyrell
 Cortnay,Cortnay,Cortnay Penrose,Ser Cortnay
+Melisandre,Lady Melisandre,Melisandre
 Nan,Nan,Old Nan
 Aemon,Aemon the Dragonknight,Maester Aemon,Dragonknight,Aemon,Prince Aemon
 Jacelyn,Ser Jacelyn,Lord Jacelyn,Jacelyn,Jacelyn Bywater
@@ -115,6 +118,7 @@ Lynesse,Lynesse,Lady Lynesse
 Jason,Jason Mallister,Lord Jason,Jason
 Vyman,Vyman,Maester Vyman
 Randyll,Randyll,Lord Randyll,Randyll Tarly
+Colen,Ser Colen,Colen
 Jhiqui,Jhiqui
 Barristan,Ser Barristan,Barristan Selmy,Barristan the Bold,Barristan
 Rakharo,Rakharo
@@ -176,6 +180,7 @@ Lucas,Lucas,Lucas Blackwood
 Patrek,Patrek,Patrek Mallister
 Osmynd,Osmynd,Septon Osmynd
 Parmen,Parmen,Parmen Crane,Ser Parmen,Crane
+Elia,Princess Elia,Elia
 Varner,Varner,Lord Varner
 Tom,Tom,Fat Tom
 Guncer,Guncer Sunglass,Lord Sunglass,Guncer,Sunglass
@@ -207,7 +212,6 @@ Cinnamon,Cinnamon Wind,Cinnamon
 Bleeding,Bleeding Star,Bleeding
 Jast,Lord Jast,Jast
 Arthur,Arthur,Ashara Dayne,Ashara,Arthur Dayne,Dayne
-Paramount,Lord Paramount,Paramount
 Harbert,Harbert,Ser Harbert
 Pyp,Pyp
 Hullen,Hullen
@@ -256,6 +260,7 @@ Rubert,Rubert,Rubert Brax
 Willam,Willam,Lord Willam
 Denys,Denys Mallister,Denys
 Eunuch,Lord Eunuch,Eunuch
+Dermot,Ser Dermot,Dermot
 Harwin,Harwin
 Larence,Larence,Larence Snow
 Donnor,Lord Donnor,Donnor

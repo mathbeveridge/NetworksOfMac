@@ -199,6 +199,7 @@ Podrick Payne,Podrick Payne,Podrick
 Olyvar Frey,Olyvar,Olyvar Frey
 Ryam Redwyne,Ryam Redwyne,Ryam
 Theo Wull,Ser Theo,Wull,Theo,Theo Wull
+Rowan,Rowan,Lord Rowan
 Serrett,Serrett,Lord Serrett
 Morton Waynwood,Ser Morton,Morton Waynwood,Morton
 Wyman,Lord Wyman,Wyman
@@ -229,6 +230,7 @@ Selyse,Selyse,Lady Selyse
 Dustin,Lord Dustin,Dustin
 Morgil,Ser Morgil,Morgil
 Rhae Mhar,Rhae Mhar,Mhar,Rhae
+Lewyn,Prince Lewyn,Lewyn
 Cregan Stark,Cregan,Cregan Stark
 Moro,Khal Moro,Moro
 Banefort,Lord Banefort,Banefort

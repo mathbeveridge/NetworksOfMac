@@ -17,7 +17,7 @@ Varys,Lord Varys,Varys,Spider
 Mud,Mud Gate,Mud,Pie,Mud Pie
 Eddard,Eddard,Ned Stark,Lord Eddard,Eddard Stark,Ned
 Jaime,Kingslayer,Ser Jaime,Jaime,Jaime the Kingslayer,Jaime Lannister
-Petyr,Petyr Baelish,Lord Baelish,Baelish,Lord Petyr,Lord Littlefinger,Littlefinger,Petyr
+Petyr,Petyr Baelish,Lord Baelish,Lord Paramount,Baelish,Paramount,Lord Petyr,Lord Littlefinger,Littlefinger,Petyr
 Yoren,Yoren
 Hodor,Hodor
 Qhorin,Qhorin Halfhand,Halfhand,Qhorin
@@ -39,8 +39,8 @@ Rotten,Summer Islander,Summer Sea,Rotten,Summer Isles,Summer Sun,Summer Islander
 Lommy,Greenhands,Lommy,Lommy Greenhands
 Jeor,Lord Mormont,Jeor Mormont,Lord of Bear Island,Old Bear,Bear,Commander Mormont,Jeor
 Walder,Walder,Walder Frey,Walder Rivers,Black Walder,Walder Freys,Bastard Walder,Lord Walder,Lord Frey,Red Walder,Lord of the Crossing,Little Walder,Big Walder
+Balon,King Balon,Balon,Balon Greyjoy,Balon Swann,Reaper,Lord Reaper,Lord Balon,Ser Balon
 Rickon,Rickon
-Balon,King Balon,Balon,Balon Greyjoy,Balon Swann,Lord Balon,Ser Balon
 Shae,Shae
 Ghost,Ghost
 By,By
@@ -49,13 +49,11 @@ Watch,Red Watch,Watch,Commander of the City Watch
 Xaro,Daxos,Xhoan,Xaro Xhoan Daxos,Xhoan Daxos,Xaro
 All,All,All King
 Jorah,Jorah,Jorah Mormont,Ser Jorah
-Father,Father
 Weese,Weese
 Osha,Osha
 Edmure,Edmure Tully,Lord Edmure,Ser Edmure,Edmure
 Jojen,Jojen Reed,Jojen
 Meera,Meera,Meera Reed,Lady Meera
-Mother,Mother
 Tommen,Tommen,Prince Tommen
 Jaqen,Jaqen
 Was,Chataya,Was,Was Chataya
@@ -228,6 +226,7 @@ Tysha,Tysha
 Koss,Koss
 Pureborn,Pureborn
 Dornish,Dornish Marches,Marches,Dornish
+Mountains,Mountains
 Celtigar,Lord Celtigar,Celtigar
 Milkwater,Milkwater
 Myraham,Myraham
@@ -360,7 +359,6 @@ Lord of Winterfell,Lord of Winterfell
 Dale,Dale
 Nymeria,Nymeria
 Harys,Haigh,Lord Harys,Harys,Harys Swyft,Harys Haigh,Ser Harys
-Moon Brothers,Moon Brothers
 Gage,Gage
 Lord Florent,Lord Florent
 Perwyn,Perwyn Frey,Perwyn,Ser Perwyn
@@ -512,7 +510,6 @@ Mathos,Mallarawan,Mathos Mallarawan,Mathos
 Marcher,Marcher
 Tower of Dread,Tower of Dread
 Wild,Wild,Hares,Wild Hares
-Reaper,Reaper,Lord Reaper
 Lord of Dragonstone,Lord of Dragonstone
 Eddison,Tollett,Eddison Tollett,Eddison
 Bold Wind,Bold Wind
@@ -585,6 +582,7 @@ Cow,Cow
 Tyr,Tyr
 Ronnet,Ronnet,Red Ronnet
 Barre,Barre
+Sworn,Sworn
 Burning,Burning
 Tanton,Tanton,Ser Tanton
 Myrmen,Myrmen
@@ -605,7 +603,6 @@ Council,Great Council,Council
 Jaehaerys,Jaehaerys,King Jaehaerys
 Urron,Urron Redhand,Urron
 Minisa,Lady Minisa,Minisa,Minisa Tully
-Sworn,Sworn Brother,Sworn
 Greyguard,Greyguard
 Mark,Mark,Mark Mullendore
 Three Sisters,Three Sisters
@@ -632,7 +629,6 @@ Saltspear,Saltspear
 Chamber,Chamber
 Jast,Lord Jast,Jast
 Pisswater,Bend,Pisswater Bend,Pisswater
-Paramount,Lord Paramount,Paramount
 Harbert,Harbert,Ser Harbert
 Claw,Red Claw,Claw
 Fever,Fever River,Fever
@@ -707,6 +703,7 @@ Lymond,Lymond,Vikary,Lymond Vikary
 City of Bones,City of Bones
 Cassana,Cassana
 Bonifer,Bonifer the Good,Bonifer
+White Sword,White Sword
 Edwyle,Edwyle,Lord Edwyle
 Prank,Prank
 Holger,Holger

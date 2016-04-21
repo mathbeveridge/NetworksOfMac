@@ -63,18 +63,18 @@ public class ClashOfKings {
         places.add("Casterly");
         Set<String> lonely = finder.getLonelyWords();
 
-        System.out.println(titledNames);
-        System.out.println(pluralizedNames);
-        System.out.println(surnames);
-        System.out.println(names);
-        System.out.println(places);
-        System.out.println(lonely);
-        System.out.println();
+//        System.out.println(titledNames);
+//        System.out.println(pluralizedNames);
+//        System.out.println(surnames);
+//        System.out.println(names);
+//        System.out.println(places);
+//        System.out.println(lonely);
+//        System.out.println();
 
         finder.removePlaces();
         finder.removeTitles();
 
-        finder.printCounter().writeLog("src/main/resources/data/characters/cok-counter.csv");
+//        finder.printCounter().writeLog("src/main/resources/data/characters/cok-counter.csv");
 
         // gather phrases that are not inherently descriptive
         Set<String> nondescriptors = new HashSet<>();
@@ -91,7 +91,7 @@ public class ClashOfKings {
         finder.combineGroups("Eddard", "Ned");
         finder.combineGroups("Bran", "Brandon Stark");
         finder.combineGroups("Robert", "Usurper");
-        finder.combineGroups("Petyr", "Littlefinger", "Lord Baelish");
+        finder.combineGroups("Petyr", "Littlefinger", "Paramount");
         finder.combineGroups("Daenerys", "Dany", "Khaleesi");
         finder.combineGroups("Joffrey", "Joff");
         finder.combineGroups("Samwell", "Sam");
@@ -113,9 +113,12 @@ public class ClashOfKings {
         finder.combineGroups("Varys", "Spider");
         finder.combineGroups("Gregor", "Mountain");
         finder.combineGroups("Podrick", "Pod");
+        finder.combineGroups("Balon", "Reaper");
 
         // manually add important names that get missed
         names.add("Varys");
+        names.add("Qhorin");
+
         names.add("Bronn");
         names.add("Septa Mordane");
         names.add("Pycelle");
@@ -194,6 +197,8 @@ public class ClashOfKings {
         names.remove("Brynden Blackfish");  // as Brynden Tully
         names.remove("Davos Shorthand");// as Davos Seaworth
         names.remove("Littlefinger");   // as Petyr Baelish
+        names.remove("Paramount");      // as Petyr Baelish
+        names.remove("Reaper");         // as Balon Greyjoy
         names.remove("Grey Wind");      // dire wolf
         names.remove("Walder Freys");   // mistake
         names.remove("Aegon Targaryen");// unused, too problematic

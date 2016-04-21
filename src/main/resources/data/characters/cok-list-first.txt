@@ -17,10 +17,12 @@ Robert,Robert,Usurper
 Varys,Varys,Spider
 Eddard,Eddard,Ned
 Jaime,Kingslayer,Jaime
-Petyr,Baelish,Littlefinger,Petyr
+Petyr,Baelish,Paramount,Littlefinger,Petyr
 Hodor,Hodor
 Yoren,Yoren
+Qhorin,Halfhand,Qhorin
 Tywin,Tywin
+Brienne,Beauty,Brienne
 Luwin,Luwin
 Rodrik,Rodrik
 Samwell,Sam,Samwell
@@ -29,7 +31,7 @@ Bronn,Bronn
 Jeor,Mormont,Bear,Jeor
 Cressen,Cressen
 Walder,Walder,Frey
-Balon,Balon
+Balon,Balon,Reaper
 Shae,Shae
 Jorah,Jorah
 Osha,Osha
@@ -46,6 +48,7 @@ Janos,Janos
 Gregor,Mountain,Gregor
 Loras,Loras
 Cortnay,Cortnay
+Melisandre,Melisandre
 Nan,Nan
 Myrcella,Myrcella
 Jacelyn,Jacelyn
@@ -114,6 +117,7 @@ Celtigar,Celtigar
 Septa,Septa,Mordane
 Randyll,Randyll
 Vyman,Vyman
+Colen,Colen
 Barristan,Barristan
 Jhiqui,Jhiqui
 Jason,Jason
@@ -185,6 +189,7 @@ Parmen,Parmen,Crane
 Tion,Tion
 Philip,Foote,Philip
 Walda,Walda
+Elia,Elia
 Ryman,Ryman
 Guncer,Guncer,Sunglass
 Varner,Varner
@@ -236,6 +241,7 @@ Mark,Mark
 Qalen,Qalen
 Timon,Timon,Scrapesword
 Edrick,Snowbeard,Edrick
+Dermot,Dermot
 Leech,Leech
 Mooton,Mooton
 Rodwell,Rodwell

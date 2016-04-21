@@ -18,7 +18,6 @@ Luwin,Maester Luwin,Luwin
 Lysa,Lady Lysa,Lady Arryn,Lysa,Lysa Arryn
 Samwell,Sam Tarly,Ser Piggy,Piggy,Samwell Tarly,Lady Piggy,Lord of Ham,Sam,Samwell
 Varys,Lord Varys,Varys,Spider,Varys the Spider
-Father,Father
 Rodrik,Rodrik,Rodrik Stark,Ser Rodrik,Rodrik Cassel
 Bronn,Bronn
 Cersei,Cersei Lannister,Queen Cersei,Cersei
@@ -27,7 +26,6 @@ Septa,Septa Mordane,Septa,Mordane
 Greywater,Greywater,Commander of the City Watch of King,Watch,Greywater Watch,Commander of the City Watch
 Viserys,Viserys Targaryen,Prince Viserys,Viserys
 Pycelle,Pycelle,Grand Maester Pycelle,Maester Pycelle,Grand Maester
-Grace,Grace,Grace the King
 Sandor,Sandor Clegane,Sandor,Ser Sandor,Hound
 Jory,Jory Cassel,Jory
 Ghost,Ghost
@@ -40,7 +38,6 @@ Illyrio,Illyrio,Illyrio Mopatis,Mopatis,Magister Illyrio
 Hodor,Hodor
 Theon,Theon,Theon Greyjoy,Theon Stark
 Barristan,Barristan the Old,Ser Barristan,Barristan Selmy,Barristan the Bold,Bold,Barristan
-Mother,Mother
 Long,Long Night,Summer Sea,Summer Isles,Long,Great Summer,Lands of the Long Summer,Summer
 Rickon,Rickon,Rickon Stark
 Brynden,Brynden Blackfish,Blackfish,Ser Brynden,Brynden the Blackfish,Brynden,Brynden Tully
@@ -96,11 +93,11 @@ Hoster,Lord Hoster,Hoster Tully,Hoster,Lord of Riverrun
 Aggo,Aggo
 Jaremy,Jaremy,Ser Jaremy,Jaremy Rykker
 Myrcella,Princess Myrcella,Myrcella
+White,Knife,White,White Harbor,White Knife,Harbor,Swords,White Bull,White Swords,Bull
 Tommen,Tommen,Prince Tommen
 Beric,Lord Beric,Beric,Beric Dondarrion
 Valyrian,High Valyrian,Valyrian
 Lord Stark,Lord Stark
-White,Knife,White,White Harbor,White Knife,Harbor,Swords,White Bull,White Swords,Bull
 Every,Every
 Alyn,Alyn
 Boros,Boros Blount,Ser Boros,Boros
@@ -118,6 +115,7 @@ Neck,Neck
 Timett,Timett
 Tower of the Hand,Tower of the Hand
 Mycah,Mycah
+Mountains,Mountains
 End,End
 Asshai,Asshai
 Rickard,Rickard Stark,Rickard Karstark,Rickard,Lord Rickard
@@ -171,7 +169,6 @@ Galbart,Galbart,Galbart Glover
 Maegor,Maegor,Cruel,Maegor the Cruel
 Dancer,Dancer
 Maege,Lady Maege,Lady Mormont,Maege,Maege Mormont
-Sworn,Sworn Brothers,Brothers,Sworn Brotherhood,Brotherhood,Sworn
 Hunter,Hunter,Lord Hunter
 Protector of the Realm,Protector of the Realm
 Aron,Ser Aron,Aron Santagar,Aron
@@ -364,6 +361,7 @@ Rhae,Rhae Mhar,Mhar,Rhae
 Beloved,Beloved,Baelor the Beloved
 Yard,Yard,Great Yard
 Gowen,Gowen,Gowen Baratheon
+Brotherhood,Sworn Brotherhood,Brotherhood
 Rhaesh,Rhaesh Andahli,Andahli,Rhaesh
 Engines,Engines
 Lady Tarly,Lady Tarly
