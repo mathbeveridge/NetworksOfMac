@@ -30,10 +30,10 @@ Gendry,Gendry
 Sandor Clegane,Sandor Clegane,Sandor,Hound
 Bronn,Bronn
 Samwell Tarly,Sam Tarly,Samwell Tarly,Sam,Samwell
+Jeor Mormont,Lord Mormont,Lord Crow,Jeor Mormont,Old Bear,Lord of Bear Island,Commander Mormont,Jeor
+Balon Greyjoy,King Balon,Lord of the Iron Islands,Balon,Balon Greyjoy,Balon Swann,Reaper,Lord Reaper,Lord Balon,Ser Balon,Lord Greyjoy
+Balon Swann,King Balon,Lord of the Iron Islands,Balon,Balon Greyjoy,Balon Swann,Reaper,Lord Reaper,Lord Balon,Ser Balon,Lord Greyjoy
 Cressen,Cressen,Maester Cressen
-Jeor Mormont,Lord Mormont,Jeor Mormont,Old Bear,Lord of Bear Island,Commander Mormont,Jeor
-Balon Greyjoy,King Balon,Balon,Balon Greyjoy,Balon Swann,Reaper,Lord Reaper,Lord Balon,Ser Balon,Lord Greyjoy
-Balon Swann,King Balon,Balon,Balon Greyjoy,Balon Swann,Reaper,Lord Reaper,Lord Balon,Ser Balon,Lord Greyjoy
 Walder Frey,Walder,Walder Frey,Walder Rivers,Black Walder,Walder Freys,Bastard Walder,Lord Walder,Lord Frey,Red Walder,Lord of the Crossing,Little Walder,Big Walder
 Rickon,Rickon
 Shae,Shae
@@ -50,11 +50,11 @@ Tommen,Tommen,Prince Tommen
 Jaqen,Jaqen
 Lancel Lannister,Ser Lancel,Lancel,Lancel Lannister
 Pycelle,Pycelle,Grand Maester Pycelle,Maester Pycelle,Grand Maester
+Janos Slynt,Janos Slynt,Lord Slynt,Lord Janos,Janos
 Dontos,Dontos the Red,Ser Dontos,Dontos
 Hot Pie,Hot Pie
 Amory Lorch,Ser Amory,Amory Lorch,Amory
 Mandon Moore,Mandon Moore,Ser Mandon,Mandon
-Janos Slynt,Janos Slynt,Lord Janos,Janos
 Cortnay Penrose,Cortnay,Cortnay Penrose,Ser Cortnay
 Loras Tyrell,Loras,Knight of Flowers,Ser Loras,Loras Tyrell
 Gregor Clegane,Gregor Clegane,Mountain,Ser Gregor,Gregor
@@ -143,6 +143,8 @@ Allard,Allard
 Rattleshirt,Lord of Bones,Rattleshirt
 Mathis Rowan,Mathis,Lord Mathis,Mathis Rowan
 Urzen,Urzen
+Alester Florent,Alester Florent,Lord Florent,Lord Alester,Alester,Lord of Brightwater
+Bryce Caron,Lord Bryce,Bryce Caron,Bryce,Lord Caron
 Alayaya,Alayaya
 Preston Greenfield,Preston,Ser Preston,Preston Greenfield
 Amabel,Goodwife Amabel,Amabel
@@ -180,7 +182,6 @@ Robin Flint,Robin Ryger,Robin,Robin Flint
 Harra,Lady Harra,Goodwife Harra,Harra
 Hobber Redwyne,Ser Hobber,Hobber,Hobber Redwyne
 Helman Tallhart,Ser Helman,Helman,Helman Tallhart
-Bryce Caron,Lord Bryce,Bryce Caron,Bryce
 Elmar Frey,Elmar,Elmar Frey
 Axell Florent,Axell,Axell Florent,Ser Axell
 Frenken,Frenken,Maester Frenken
@@ -188,7 +189,6 @@ Aron Santagar,Ser Aron,Aron Santagar,Aron
 Daeron Targaryen,Daeron,Daeron Targaryen,King Daeron,Prince Daeron
 Hal Mollen,Hal,Hal Mollen
 Cley Cerwyn,Cley Cerwyn,Cley
-Alester Florent,Alester Florent,Lord Alester,Alester,Lord of Brightwater
 Ballabar,Maester Ballabar,Ballabar
 Howland Reed,Howland,Howland Reed,Lord of Greywater
 Jaremy Rykker,Jaremy,Ser Jaremy,Jaremy Rykker

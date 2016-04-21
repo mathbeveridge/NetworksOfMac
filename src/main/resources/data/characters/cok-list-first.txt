@@ -28,8 +28,8 @@ Gendry,Gendry
 Samwell,Sam,Samwell
 Sandor,Sandor,Hound
 Bronn,Bronn
+Jeor,Crow,Mormont,Jeor
 Cressen,Cressen
-Jeor,Mormont,Jeor
 Balon,Balon,Reaper,Greyjoy
 Walder,Walder,Frey
 Rickon,Rickon
@@ -47,11 +47,11 @@ Tommen,Tommen
 Jaqen,Jaqen
 Lancel,Lancel
 Pycelle,Pycelle
+Janos,Slynt,Janos
 Dontos,Dontos
 Hot
 Mandon,Mandon
 Amory,Amory
-Janos,Janos
 Gregor,Mountain,Gregor
 Loras,Loras
 Cortnay,Cortnay
@@ -137,9 +137,11 @@ Vylarr,Vylarr
 Osfryd,Osfryd
 Allard,Allard
 Preston,Preston
+Bryce,Bryce,Caron
 Mathis,Mathis
 Rattleshirt,Rattleshirt
 Urzen,Urzen
+Alester,Florent,Alester
 Alayaya,Alayaya
 Rymund,Rhymer,Rymund
 Arstan,Arstan,Whitebeard
@@ -181,10 +183,8 @@ Hobber,Hobber
 Daeron,Daeron
 Helman,Helman
 Elmar,Elmar
-Bryce,Bryce
 Aenys,Aenys
 Howland,Howland
-Alester,Alester
 Jaremy,Jaremy
 Kevan,Kevan
 Pono,Pono

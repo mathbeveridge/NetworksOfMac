@@ -28,9 +28,9 @@ Gendry,Gendry
 Samwell,Sam Tarly,Samwell Tarly,Sam,Samwell
 Sandor,Sandor Clegane,Sandor,Hound
 Bronn,Bronn
+Jeor,Lord Mormont,Lord Crow,Jeor Mormont,Old Bear,Lord of Bear Island,Commander Mormont,Jeor
+Balon,King Balon,Lord of the Iron Islands,Balon,Balon Greyjoy,Balon Swann,Reaper,Lord Reaper,Lord Balon,Ser Balon,Lord Greyjoy
 Cressen,Cressen,Maester Cressen
-Balon,King Balon,Balon,Balon Greyjoy,Balon Swann,Reaper,Lord Reaper,Lord Balon,Ser Balon,Lord Greyjoy
-Jeor,Lord Mormont,Jeor Mormont,Old Bear,Lord of Bear Island,Commander Mormont,Jeor
 Walder,Walder,Walder Frey,Walder Rivers,Black Walder,Walder Freys,Bastard Walder,Lord Walder,Lord Frey,Red Walder,Lord of the Crossing,Little Walder,Big Walder
 Rickon,Rickon
 Shae,Shae
@@ -47,10 +47,10 @@ Tommen,Tommen,Prince Tommen
 Jaqen,Jaqen
 Lancel,Ser Lancel,Lancel,Lancel Lannister
 Pycelle,Pycelle,Grand Maester Pycelle,Maester Pycelle,Grand Maester
+Janos,Janos Slynt,Lord Slynt,Lord Janos,Janos
 Dontos,Dontos the Red,Ser Dontos,Dontos
 Amory,Ser Amory,Amory Lorch,Amory
 Mandon,Mandon Moore,Ser Mandon,Mandon
-Janos,Janos Slynt,Lord Janos,Janos
 Gregor,Gregor Clegane,Mountain,Ser Gregor,Gregor
 Loras,Loras,Knight of Flowers,Ser Loras,Loras Tyrell
 Cortnay,Cortnay,Cortnay Penrose,Ser Cortnay
@@ -136,7 +136,9 @@ Vylarr,Vylarr
 Allard,Allard
 Mathis,Mathis,Lord Mathis,Mathis Rowan
 Rattleshirt,Lord of Bones,Rattleshirt
+Bryce,Lord Bryce,Bryce Caron,Bryce,Lord Caron
 Preston,Preston,Ser Preston,Preston Greenfield
+Alester,Alester Florent,Lord Florent,Lord Alester,Alester,Lord of Brightwater
 Urzen,Urzen
 Alayaya,Alayaya
 Amabel,Goodwife Amabel,Amabel
@@ -172,7 +174,6 @@ Rhaenys,Rhaenys,Princess Rhaenys
 Mors,Mors,Crowfood,Mors Umber,Mors Crowfood
 Aron,Ser Aron,Aron Santagar,Aron
 Harra,Lady Harra,Goodwife Harra,Harra
-Bryce,Lord Bryce,Bryce Caron,Bryce
 Axell,Axell,Axell Florent,Ser Axell
 Daeron,Daeron,Daeron Targaryen,King Daeron,Prince Daeron
 Elmar,Elmar,Elmar Frey
@@ -184,7 +185,6 @@ Ballabar,Maester Ballabar,Ballabar
 Howland,Howland,Howland Reed,Lord of Greywater
 Jaremy,Jaremy,Ser Jaremy,Jaremy Rykker
 Lyonel,Ser Lyonel,Lyonel
-Alester,Alester Florent,Lord Alester,Alester,Lord of Brightwater
 Aenys,Aenys Frey,Aenys,Ser Aenys
 Kevan,Ser Kevan,Kevan Lannister,Kevan
 Pono,Pono,Khal Pono

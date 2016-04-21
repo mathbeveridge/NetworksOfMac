@@ -39,7 +39,7 @@ public class ClashOfKings {
             "Land", "Lands", "Sea", "Seas", "Island", "Islands", "Isles", "Bay", "River", "Shore", "Point", // geographics
             "City", "Cities", "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", "Castle", "Lane", // landmarks
             "Cruel", "Bold", "Brave", "Good", "Strong", "Bitter", "Sweet", "Bad", // adjective titles
-            "Flowers", "Storm", "Bull", "Long", "Spring", "Bear", "Hot", "Pie", "Ben" // miscellaneous
+            "Flowers", "Storm", "Bull", "Long", "Spring", "Bear", "Hot", "Pie", "Ben", "Iron" // miscellaneous
     ));
 
     public static void main(String[] args) {
@@ -99,7 +99,7 @@ public class ClashOfKings {
         finder.combineGroups("Samwell", "Sam");
         finder.combineGroups("Sandor", "Hound");
         finder.combineGroups("Benjen", "Ben Stark");
-        finder.combineGroups("Jeor", "Old Bear", "Commander Mormont", "Lord Mormont", "Lord of Bear Island");
+        finder.combineGroups("Jeor", "Old Bear", "Commander Mormont", "Lord Mormont", "Lord of Bear Island", "Lord Crow");
         finder.combineGroups("Jon Arryn", "Lord Arryn");
         finder.combineGroups("Catelyn", "Lady Stark");
         finder.combineGroups("Pycelle", "Grand Maester");
@@ -119,7 +119,7 @@ public class ClashOfKings {
         finder.combineGroups("Theon", "Reek");
         finder.combineGroups("Arya", "Lumpyface");
         finder.combineGroups("Cersei", "Queen Regent");
-        finder.combineGroups("Alester", "Lord of Brightwater");
+        finder.combineGroups("Alester", "Lord of Brightwater", "Lord Florent");
         finder.combineGroups("Howland", "Lord of Greywater");
         finder.combineGroups("Velaryon", "Lord of the Tides");
         finder.combineGroups("Pylos", "Lord Maester");
@@ -128,10 +128,12 @@ public class ClashOfKings {
         finder.combineGroups("Rattleshirt", "Lord of Bones");
         finder.combineGroups("Wyman", "Lord of White Harbor");
         finder.combineGroups("Randyll", "Lord Tarly");
-        finder.combineGroups("Balon Greyjoy", "Lord Greyjoy");
+        finder.combineGroups("Balon Greyjoy", "Lord Greyjoy", "Lord of the Iron Islands");
         finder.combineGroups("Mace", "Lord of Highgarden", "Lord Tyrell");
         finder.combineGroups("Stannis", "Lord of Dragonstone");
         finder.combineGroups("Rickard Karstark", "Lord Karstark");
+        finder.combineGroups("Bryce", "Lord Caron");
+        finder.combineGroups("Janos", "Lord Slynt");
         finder.combineGroups("Donella", "Lady Hornwood");
 
         // manually add important names that get missed
