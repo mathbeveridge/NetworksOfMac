@@ -16,11 +16,9 @@ public class ClashOfKings {
             "My", "He", "His", "Her", "We", "Their", "You", "Your", "It", // pronouns
             "This", "That", "There", // indirect pronouns
             "Who", "Why", "What", // questions
-            "Man", "Men", "With", "If", "And", "Will", "Half", "Free", "Watch", "God",
-            "Wolf", "Hall", "Kingdoms", "Watchmen", "Shepherd", "Not", "Do", "Hot",
-            "Tongue", "Guard", "Whores", "Stone", "Red", // miscellaneous
             "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", "Grace", // GoT specific
-            "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons" // familial references
+            "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons", // familial references
+            "Not", "Hot", "Stone", "Men", "Man", "Guard" // miscellaneous
     ));
 
     // Words that are not unique, but may still be descriptive, expecially in combination
@@ -40,7 +38,7 @@ public class ClashOfKings {
             "Black", "Red", "Green", "Blue", "White", // colors
             "Land", "Lands", "Sea", "Seas", "Island", "Islands", "Isles", "Bay", "River", "Shore", // geographics
             "City", "Cities", "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", "Castle", // landmarks
-            "Cruel", "Bold", "Brave", // adjective titles
+            "Cruel", "Bold", "Brave", "Good", // adjective titles
             "Flowers", "Storm", "Bull", "Long", "Spring" // miscellaneous
     ));
 

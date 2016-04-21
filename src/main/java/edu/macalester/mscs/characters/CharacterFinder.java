@@ -226,7 +226,7 @@ public class CharacterFinder {
             String[] split = cap.split(" ");
             String name = StringUtils.substringAfter(cap, " ");
             if (split.length > 1 && isTitleWord(split[0]) && WordUtils.isCapitalized(split[1]) && !isGeneralWord(split[1])) {
-                if (split.length == 3 || split.length == 2 && (split[0].equals("Ko") || split[0].equals("Khal"))) {
+                if (split.length == 3 || (split[0].equals("Ko") || split[0].equals("Khal"))) {
                     names.add(name);
                 } else {
                     partNames.add(split[1]);
@@ -236,10 +236,14 @@ public class CharacterFinder {
         for (String name : partNames) {
             boolean isUnique = true;
             for (String cap : words) {
+                // cut off after "the" because anything preceding is either still unique, or inherently not unique
+                cap = StringUtils.substringBefore(cap, " the ");
                 String[] split = cap.split(" ");
                 if (split.length == 2) {
-                    // it's still unique if this is Title + Name
-                    isUnique = isUnique && !name.equals(split[0]) && (isTitleWord(split[0]) || !name.equals(split[1]));
+                    // not unique if first in a pair, or if second in a pair and not preceded by a general word
+                    if (name.equals(split[0]) || (!isGeneralWord(split[0]) && name.equals(split[1]))) {
+                        isUnique = false;
+                    }
                     // if something contains name and another non-general word, it's a name TODO this part is suspect
                     if (!isGeneralWord(split[0]) && !isGeneralWord(split[1])
                             && (name.equals(split[0]) || name.equals(split[1]))) {
@@ -247,7 +251,10 @@ public class CharacterFinder {
                     }
                 } else if (split.length > 2) {
                     for (String s : split) {
-                        isUnique = isUnique && !name.equals(s) && !name.equals(s + "s");
+                        // if it comes up as part of anything else, or pluralized, its not unique
+                        if (name.equals(s) || name.equals(s + "s")) {
+                            isUnique = false;
+                        }
                     }
                 }
             }

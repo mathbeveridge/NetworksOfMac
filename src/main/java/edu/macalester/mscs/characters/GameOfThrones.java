@@ -16,17 +16,16 @@ public class GameOfThrones {
             "My", "He", "His", "We", "Their", "Your", // pronouns  (It???)
             "This", "That", "There", // indirect pronouns
             "Who", "Why", // questions
-            "Man", "Men", "With", "If", "And", "Will", "Half", "Free", "Watch",
-            "Wolf", "Hall", "Kingdoms", "Watchmen", "Shepherd", // miscellaneous
-            "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", // GoT specific
-            "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons" // familial references
+            "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", "Grace", // GoT specific
+            "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons", // familial references
+            "If", "And", "Will", "With", "Half", "Men", "Man" // miscellaneous
     ));
 
     // Words that are titles
     public static final Set<String> TITLE_WORDS = new HashSet<>(Arrays.asList(
             "Lord", "Lady", "King", "Queen", "Regent", "Steward", "Prince", "Princess", // royal titles
             "Ser", "Maester", "Captain", "Commander", "Magister", "Master", "Builder",
-            "Septon", "Knight", // professional titles
+            "Septon", "Knight", "Hand", "Protector", // professional titles
             "Khal", "Ko" // dothraki titles
     ));
 
