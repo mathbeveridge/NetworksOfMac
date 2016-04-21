@@ -24,25 +24,29 @@ public class ClashOfKings {
     ));
 
     // Words that are not unique, but may still be descriptive, expecially in combination
-    public static final Set<String> GENERAL_WORDS = new HashSet<>(Arrays.asList(
-            "The", // titular articles
+    public static final Set<String> TITLE_WORDS = new HashSet<>(Arrays.asList(
             "Lord", "Lady", "King", "Queen", "Regent", "Steward", "Prince", "Princess", // royal titles
             "Ser", "Maester", "Captain", "Commander", "Magister", "Master", "Builder",
             "Septon", "Knight", "Shipwright", "Goodwife", "Ranger", // professional titles
+            "Khal", "Ko" // dothraki titles
+    ));
+
+    // Words that are not unique, but may still be descriptive, expecially in combination
+    public static final Set<String> GENERAL_WORDS = new HashSet<>(Arrays.asList(
+            "The", // titular articles
             "Young", "Old", "Fat", "Big", "Little", "Bastard", "Boy", // endearing titles
-            "Khal", "Ko", // dothraki titles
             "High", "Great", "Grand", "First", "Second", // superlatives
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
             "Black", "Red", "Green", "Blue", "White", // colors
             "Land", "Lands", "Sea", "Seas", "Island", "Islands", "Isles", "Bay", "River", "Shore", // geographics
             "City", "Cities", "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", "Castle", // landmarks
             "Cruel", "Bold", "Brave", // adjective titles
-            "Flowers", "Storm", "Iron", "Bull", "Long", "Spring" // miscellaneous
+            "Flowers", "Storm", "Bull", "Long", "Spring" // miscellaneous
     ));
 
     public static void main(String[] args) {
         // initialize the finder
-        CharacterFinder finder = new CharacterFinder(IGNORED_WORDS, GENERAL_WORDS, ".?!�");
+        CharacterFinder finder = new CharacterFinder(IGNORED_WORDS, TITLE_WORDS, GENERAL_WORDS, ".?!�");
         // read in the text
         finder.countCapitalized(FileUtils.readFile("src/main/resources/text/clashofkings.txt"));
         // fix a few mistakes
@@ -119,12 +123,14 @@ public class ClashOfKings {
         names.add("Pycelle");
         names.add("Mirri Maz Duur");
         names.add("Hodor");
+        names.add("Nan");
         names.add("Pyp");
         names.add("Syrio Forel");
         names.add("Grenn");
         names.add("Irri");
         names.add("Jhiqui");
         names.add("Qotho");
+        names.add("Tom");
         names.add("Osha");
         names.add("Shagga");
         names.add("Doreah");
@@ -191,10 +197,7 @@ public class ClashOfKings {
         names.remove("Davos Shorthand");// as Davos Seaworth
         names.remove("Littlefinger");   // as Petyr Baelish
         names.remove("Grey Wind");      // dire wolf
-        names.remove("Bitch");          // boat
-        names.remove("Laughter");       // boat
         names.remove("Walder Freys");   // mistake
-        names.remove("Dragon Tower");   // mistake
         names.remove("Aegon Targaryen");// unused, too problematic
         names.remove("Torrhen Stark");  // unused
         names.remove("Aerys Oakheart"); // unused

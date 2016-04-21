@@ -24,7 +24,7 @@ Cersei,Cersei Lannister,Queen Cersei,Cersei
 Renly,Lord Renly,Lord of Storm,King Renly,Renly,Renly Baratheon
 Septa,Septa Mordane,Septa,Mordane
 Viserys,Viserys Targaryen,Prince Viserys,Viserys
-Pycelle,Pycelle,Maester Pycelle,Grand Maester
+Pycelle,Pycelle,Grand Maester Pycelle,Maester Pycelle,Grand Maester
 Grace,Grace,Grace the King
 Sandor,Sandor Clegane,Sandor,Ser Sandor,Hound
 Jory,Jory Cassel,Jory
@@ -197,7 +197,6 @@ Gerold,Gerold Hightower,Ser Gerold,Gerold
 Torrhen,Torrhen Karstark,Torrhen,Torrhen Stark
 Randyll,Randyll,Lord Randyll,Randyll Tarly
 Harys,Harys,Harys Swyft,Swyft,Ser Harys
-Valyria,Valyria
 Bronze,Bronze,Bronze Yohn,Yohn Royce,Yohn,Bronze Yohn Royce
 Alyssa,Alyssa,Alyssa Arryn
 Bloody,Bloody Gate,Bloody
@@ -205,11 +204,11 @@ Flea,Flea,Flea Bottom,Bottom
 Jhaqo,Jhaqo,Khal Jhaqo,Ko Jhaqo
 Wylis,Wylis Manderly,Wylis,Ser Wylis
 Dornish,Dornish Marches,Dornish
+Malleon,Maester Malleon,Grand Maester Malleon,Malleon
 Sealord,Sealord
 Blackwater,Blackwater,Blackwater Rush,Rush
 Jonos,Lord Jonos,Lord Bracken,Jonos,Jonos Bracken
 Robar,Robar,Robar Royce,Ser Robar
-Malleon,Maester Malleon,Malleon
 Cotter,Pyke,Cotter,Cotter Pyke
 Yi,Yi,Yi Ti,Ti
 Sunset,Sunset,Sunset Lands,Sunset Sea
@@ -290,7 +289,9 @@ Podrick,Podrick Payne,Podrick
 Lord of Highgarden,Lord of Highgarden
 Preston,Preston,Ser Preston,Preston Greenfield
 Lady Frey,Lady Frey
+Aethelmure,Maester Aethelmure,Aethelmure,Grand Maester Aethelmure
 Merchant,Votyris,Merchant,Merchant Captain Byan Votyris,Byan
+Othell,Othell,Othell Yarwyck,Yarwyck,First Builder Othell Yarwyck
 Lord Tyrell,Lord Tyrell
 Harren,Black Harren,Harren
 Lann,Lann,Clever,Lann the Clever
@@ -299,7 +300,6 @@ Rowan,Rowan,Lord Rowan
 Jogos,Jogos,Jogos Nhai,Nhai
 Robin,Flint,Robin,Robin Flint
 Commander of the City,Commander of the City
-Othell,Othell,Othell Yarwyck,Yarwyck
 Theo,Ser Theo,Wull,Theo,Theo Wull
 Loren,King Loren,Loren
 Lord of Light,Lord of Light
@@ -326,7 +326,6 @@ Serrett,Serrett,Lord Serrett
 Cart,Cart King,Cart
 Albar,Ser Albar,Albar Royce,Albar
 Ryam,Ryam Redwyne,Ryam
-Aethelmure,Maester Aethelmure,Aethelmure
 Andar,Andar Royce,Andar
 Dothrak,Dothrak
 Gate of the Gods,Gate of the Gods

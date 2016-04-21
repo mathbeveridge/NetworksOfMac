@@ -12,7 +12,7 @@ import java.util.Set;
  */
 public class GameOfThrones {
 
-    public static final Set<String> GoT_IGNORED_WORDS = new HashSet<>(Arrays.asList(
+    public static final Set<String> IGNORED_WORDS = new HashSet<>(Arrays.asList(
             "My", "He", "His", "We", "Their", "Your", // pronouns  (It???)
             "This", "That", "There", // indirect pronouns
             "Who", "Why", // questions
@@ -22,14 +22,18 @@ public class GameOfThrones {
             "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons" // familial references
     ));
 
-    // Words that are not unique, but may still be descriptive, expecially in combination
-    public static final Set<String> GoT_GENERAL_WORDS = new HashSet<>(Arrays.asList(
-            "The", // titular articles
+    // Words that are titles
+    public static final Set<String> TITLE_WORDS = new HashSet<>(Arrays.asList(
             "Lord", "Lady", "King", "Queen", "Regent", "Steward", "Prince", "Princess", // royal titles
             "Ser", "Maester", "Captain", "Commander", "Magister", "Master", "Builder",
             "Septon", "Knight", // professional titles
+            "Khal", "Ko" // dothraki titles
+    ));
+
+    // Words that are not unique, but may still be descriptive, expecially in combination
+    public static final Set<String> GENERAL_WORDS = new HashSet<>(Arrays.asList(
+            "The", // titular articles
             "Young", "Old", "Fat", // endearing titles
-            "Khal", "Ko", // dothraki titles
             "High", "Great", "Grand", "First", "Second", // superlatives
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
             "Black", "Red", "Green", "Blue", // colors
@@ -40,7 +44,7 @@ public class GameOfThrones {
 
     public static void main(String[] args) {
         // initialize the finder
-        CharacterFinder finder = new CharacterFinder(GoT_IGNORED_WORDS, GoT_GENERAL_WORDS, ".?!�");
+        CharacterFinder finder = new CharacterFinder(IGNORED_WORDS, TITLE_WORDS, GENERAL_WORDS, ".?!�");
         // read in the text
         finder.countCapitalized(FileUtils.readFile("src/main/resources/text/got.txt"));
         // fix a few mistakes
@@ -125,12 +129,14 @@ public class GameOfThrones {
         names.add("Pycelle");
         names.add("Mirri Maz Duur");
         names.add("Hodor");
+        names.add("Nan");
         names.add("Pyp");
         names.add("Syrio Forel");
         names.add("Grenn");
         names.add("Irri");
         names.add("Jhiqui");
         names.add("Qotho");
+        names.add("Tom");
         names.add("Osha");
         names.add("Shagga");
         names.add("Doreah");

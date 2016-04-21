@@ -27,7 +27,7 @@ Cersei Lannister,Cersei Lannister,Queen Cersei,Cersei
 Renly Baratheon,Lord Renly,Lord of Storm,King Renly,Renly,Renly Baratheon
 Septa Mordane,Septa Mordane,Septa,Mordane
 Viserys Targaryen,Viserys Targaryen,Prince Viserys,Viserys
-Pycelle,Pycelle,Maester Pycelle,Grand Maester
+Pycelle,Pycelle,Grand Maester Pycelle,Maester Pycelle,Grand Maester
 Sandor Clegane,Sandor Clegane,Sandor,Ser Sandor,Hound
 Jory Cassel,Jory Cassel,Jory
 Gregor Clegane,Gregor the Mountain,Mountain,Gregor Clegane,Ser Gregor,Gregor
@@ -146,8 +146,8 @@ Torrhen Karstark,Torrhen Karstark,Torrhen,Torrhen Stark
 Alyssa Arryn,Alyssa,Alyssa Arryn
 Jhaqo,Jhaqo,Khal Jhaqo,Ko Jhaqo
 Robar Royce,Robar,Robar Royce,Ser Robar
+Malleon,Maester Malleon,Grand Maester Malleon,Malleon
 Jonos Bracken,Lord Jonos,Lord Bracken,Jonos,Jonos Bracken
-Malleon,Maester Malleon,Malleon
 Wylis Manderly,Wylis Manderly,Wylis,Ser Wylis
 Helman Tallhart,Helman,Helman Tallhart
 Flement Brax,Flement,Ser Flement,Flement Brax
@@ -199,7 +199,6 @@ Podrick Payne,Podrick Payne,Podrick
 Olyvar Frey,Olyvar,Olyvar Frey
 Ryam Redwyne,Ryam Redwyne,Ryam
 Theo Wull,Ser Theo,Wull,Theo,Theo Wull
-Harren,Black Harren,Harren
 Serrett,Serrett,Lord Serrett
 Morton Waynwood,Ser Morton,Morton Waynwood,Morton
 Wyman,Lord Wyman,Wyman
