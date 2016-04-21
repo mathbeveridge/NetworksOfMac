@@ -257,6 +257,7 @@ Hayhead,Hayhead
 Lucan,Lucan
 Azor,Ahai,Azor,Azor Ahai
 Burned,Burned Tower,Burned
+Cuy,Ser Emmon,Cuy,Emmon Cuy
 Robett,Robett,Robett Glover
 Smith,Smith
 Sigrin,Sigrin,Sigrin the Shipwright
@@ -403,7 +404,6 @@ Stevron,Stevron Frey,Stevron,Ser Stevron
 Kromm,Kromm
 Crone,Crone
 Alfyn,Alfyn,Crowkiller,Alfyn Crowkiller
-Cuy,Cuy,Emmon Cuy
 Bitch,Sea Bitch,Bitch
 Tytos,Tytos Blackwood,Lord Tytos,Tytos
 Tyrek,Tyrek,Tyrek Lannister
@@ -433,7 +433,6 @@ Varner,Varner,Lord Varner
 Stag,Stag
 First Keep,First Keep
 Quhuru,Mo,Quhuru Mo,Quhuru
-Ser Emmon,Ser Emmon
 Guildhall,Guildhall
 Maiden,Maiden,Fair,Maiden Fair
 Flowstone,Flowstone,Yard,Flowstone Yard

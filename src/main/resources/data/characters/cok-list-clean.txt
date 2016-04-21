@@ -172,6 +172,7 @@ Chayle,Septon Chayle,Chayle
 Osney Kettleblack,Osney,Osney Kettleblack
 Robett Glover,Robett,Robett Glover
 Jarman Buckwell,Jarman Buckwell,Jarman
+Emmon Cuy,Ser Emmon,Cuy,Emmon Cuy
 Horas Redwyne,Horas Redwyne,Horas,Ser Horas
 Robin Ryger,Robin Ryger,Robin,Robin Flint
 Mors Umber,Mors,Crowfood,Mors Umber,Mors Crowfood
@@ -220,7 +221,6 @@ Stevron Frey,Stevron Frey,Stevron,Ser Stevron
 Jeyne Poole,Jeyne Poole,Jeyne
 Osmynd,Osmynd,Septon Osmynd
 Addam Marbrand,Ser Addam,Addam Marbrand,Addam
-Emmon Cuy,Cuy,Emmon Cuy
 Tytos Blackwood,Tytos Blackwood,Lord Tytos,Tytos
 Philip Foote,Philip Foote,Foote,Ser Philip,Philip,Lord Philip
 Elia,Princess Elia,Elia

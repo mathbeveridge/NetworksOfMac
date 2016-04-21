@@ -135,6 +135,7 @@ public class ClashOfKings {
         finder.combineGroups("Bryce", "Lord Caron");
         finder.combineGroups("Janos", "Lord Slynt");
         finder.combineGroups("Donella", "Lady Hornwood");
+        finder.combineGroups("Emmon Cuy", "Ser Emmon");
 
         // manually add important names that get missed
         names.add("Varys");

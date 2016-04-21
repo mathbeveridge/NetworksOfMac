@@ -168,6 +168,7 @@ Rhaenys,Rhaenys
 Horas,Horas
 Caswell,Caswell
 Osney,Osney
+Emmon,Cuy,Emmon
 Chayle,Chayle
 Robett,Robett
 Mors,Mors,Crowfood
@@ -208,7 +209,6 @@ Jeyne,Jeyne
 Patrek,Patrek
 Osmynd,Osmynd
 Stevron,Stevron
-Emmon,Cuy,Emmon
 Tyrek,Tyrek
 Tytos,Tytos
 Mallador,Mallador
