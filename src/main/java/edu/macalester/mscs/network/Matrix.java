@@ -185,12 +185,16 @@ public class Matrix {
         if (!isModifiable) {
             throw new IllegalStateException("This matrix has been cleaned and can no longer be modified.");
         }
-        int index1 = nameIndices.get(name1);
-        int index2 = nameIndices.get(name2);
-        if (index1 != index2) {
-            matrix[index1][index2]++;
-            matrix[index2][index1]++;
-            encounters.add(new Encounter(characters[index1], name1, characters[index2], name2, position, context));
+
+        // don't add fake links when one name is a substring of the other
+        if (name1.indexOf(name2) == -1 && name2.indexOf(name1) == -1) {
+            int index1 = nameIndices.get(name1);
+            int index2 = nameIndices.get(name2);
+            if (index1 != index2) {
+                matrix[index1][index2]++;
+                matrix[index2][index1]++;
+                encounters.add(new Encounter(characters[index1], name1, characters[index2], name2, position, context));
+            }
         }
     }
 
