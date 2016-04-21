@@ -11,19 +11,27 @@ import java.util.*;
 public class MatrixConstructor {
 
 	public static final int NOISE = 4;
-	public static final int RADIUS = 20;
+	public static final int RADIUS = 15;
 
 	public static void main(String[] args) {
 		String folder = "src/main/resources/data/logs";
 
+		/**
+		 * Game of Thrones
+		 */
 //		String text = getText("src/main/resources/text/gameofthrones.txt");
+//		String characterString = getCharacterString("src/main/resources/data/characters/got-list-curated.txt");
+
 //		String characterString = getCharacterString("src/main/resources/data/characters/got-list-no-dup.txt");
 //		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 1, 6, "full-names");
-//		String characterString = getCharacterString("src/main/resources/data/characters/got-list-curated.txt");
 //		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 1, 7, "dup-names");
 //		writeFiles(constructMatrix(characterString, text, 15, NOISE, folder + "/log.txt"), folder, 1, 8, "smaller-radius");
-        writeFiles(constructMatrix(characterString, text, 15, NOISE, folder + "/log.txt"), folder, 1, 9, "curated2");
-//		writeFiles(constructMatrix(characterString, text, 15, NOISE, folder + "/log.txt"), folder, 1, 8, "smaller-radius");
+
+//		writeFiles(constructMatrix(characterString, text, 15, NOISE, folder + "/log.txt"), folder, 1, 9, "curated2");
+
+		/**
+		 * Clash of Kings
+		 */
 
 		String text = getText("src/main/resources/text/clashofkings.txt");
 		String characterString = getCharacterString("src/main/resources/data/characters/cok-list-curated.txt");
