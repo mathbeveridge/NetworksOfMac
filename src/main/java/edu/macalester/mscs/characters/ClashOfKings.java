@@ -18,7 +18,7 @@ public class ClashOfKings {
             "Who", "Why", "What", // questions
             "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", "Grace", // GoT specific
             "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons", // familial references
-            "Not", "Stone", "Men", "Man", "Guard", "Was" // miscellaneous
+            "Not", "Stone", "Men", "Man", "Guard", "Was", "Bread", "Wind" // miscellaneous
     ));
 
     // Words that are not unique, but may still be descriptive, expecially in combination
@@ -37,9 +37,9 @@ public class ClashOfKings {
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
             "Black", "Red", "Green", "Blue", "White", // colors
             "Land", "Lands", "Sea", "Seas", "Island", "Islands", "Isles", "Bay", "River", "Shore", "Point", // geographics
-            "City", "Cities", "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", "Castle", // landmarks
-            "Cruel", "Bold", "Brave", "Good", "Strong", // adjective titles
-            "Flowers", "Storm", "Bull", "Long", "Spring", "Bear", "Hot", "Pie" // miscellaneous
+            "City", "Cities", "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", "Castle", "Lane", // landmarks
+            "Cruel", "Bold", "Brave", "Good", "Strong", "Bitter", "Sweet", // adjective titles
+            "Flowers", "Storm", "Bull", "Long", "Spring", "Bear", "Hot", "Pie", "Ben" // miscellaneous
     ));
 
     public static void main(String[] args) {
@@ -97,7 +97,7 @@ public class ClashOfKings {
         finder.combineGroups("Joffrey", "Joff");
         finder.combineGroups("Samwell", "Sam");
         finder.combineGroups("Sandor", "Hound");
-        finder.combineGroups("Benjen", "Ben");
+        finder.combineGroups("Benjen", "Ben Stark");
         finder.combineGroups("Jeor", "Old Bear", "Commander Mormont", "Lord Mormont", "Lord of Bear Island");
         finder.combineGroups("Jon Arryn", "Lord Arryn");
         finder.combineGroups("Catelyn", "Lady Stark");
@@ -181,6 +181,7 @@ public class ClashOfKings {
 
         // manually remove a few names that are either mistakes, duplicates, or unused
         names.remove("Ned Stark");      // as Eddard Stark
+        names.remove("Brandon Stark");  // as Bran Stark
         names.remove("Joff");           // as Joffrey Baratheon
         names.remove("Sam Tarly");      // as Samwell Tarly
         names.remove("Ben Stark");      // as Benjen Stark
@@ -198,6 +199,8 @@ public class ClashOfKings {
         names.remove("Torrhen Stark");  // unused
         names.remove("Aerys Oakheart"); // unused
         names.remove("Walder Rivers");  // unused
+        names.remove("Jon Fossoway");   // unused
+        names.remove("Bleeding Star");  // ???
 
         Set<String> firstNames = finder.getFirstNames(names);
 

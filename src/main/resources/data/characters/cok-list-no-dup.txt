@@ -1,7 +1,6 @@
 Tyrion,Tyrion the Imp,Tyrion Lannister,Imp,Tyrion,Lord Tyrion
 Jon,Jon Snow,Jon Arryn,Jon,Lord Arryn,Jon Fossoway,Ser Jon
 Bran,Brandon the Burner,Bran,Bad,Brandon,Brandon the Bad,Prince Bran,Daughterless,Lord Brandon,Brandon the Shipwright,Brandon Stark,Brandon the Daughterless,Brandon the Builder,Burner,Bran Stark,Bran the Builder
-Brandon,Brandon the Burner,Bran,Bad,Brandon,Brandon the Bad,Prince Bran,Daughterless,Lord Brandon,Brandon the Shipwright,Brandon Stark,Brandon the Daughterless,Brandon the Builder,Burner,Bran Stark,Bran the Builder
 Arya,Lumpyhead Lumpyface Stickboy,Arya,Lumpyhead Rabbitkiller,Arya Underfoot,Lumpyface Stickboy,Lumpyface,Lumpyhead,Rabbitkiller,Stickboy,Lumpyface Lumpyhead Rabbitkiller,Arya Stark,Underfoot,Arya Stark the Hand
 Theon,Theon,Theon Turncloak,Theon Greyjoy,Theon Stark,Turncloak,Prince Theon,Reek
 Stannis,Lord Stannis,King Stannis,Stannis Baratheon,Stannis
@@ -105,7 +104,6 @@ Imry,High Captain Ser Imry Florent,Imry Florent,Imry,Ser Imry
 Viserys,Viserys
 Harren,Black Harren,Harren the Black,King Harren,Harren
 Alliser,Alliser Thorne,Ser Alliser,Alliser
-Benjen,Benjen the Sweet,Ben Blackthumb,Benjen Stark,Blackthumb,Benjen the Bitter,Bitter,Sweet,Benjen,Ben,Ben Stark
 Belwas,Belwas,Strong Belwas
 Wendel,Wendel,Wendel Manderly,Ser Wendel
 Desmond,Desmond,Ser Desmond,Desmond Grell
@@ -130,6 +128,7 @@ Guyard,Ser Guyard,Guyard Morrigen,Guyard,Guyard the Green
 Mace,Mace,Mace Tyrell
 Greatjon,Greatjon Umber,Lord Umber,Greatjon
 Osfryd,Osfryd Kettleblack,Osfryd
+Benjen,Benjen the Sweet,Benjen Stark,Benjen the Bitter,Benjen,Ben Stark
 Vylarr,Vylarr
 Rickard,Rickard Stark,Rickard Karstark,Rickard,Lord Rickard
 Allard,Allard
@@ -219,7 +218,6 @@ Ryman,Ryman Frey,Ryman
 Walda,Walda,Lady Walda
 Donella,Donella,Donella Hornwood,Lady Donella
 Philip,Philip Foote,Foote,Ser Philip,Philip,Lord Philip
-Bread,King Bread,Bread
 Waymar,Waymar Royce,Waymar,Ser Waymar
 Endrew,Ser Endrew,Endrew,Endrew Tarth
 Bar,Bar Emmon,Bar
@@ -228,7 +226,6 @@ Maekar,Maekar,King Maekar
 Rossart,Lord Rossart,Rossart
 Wylis,Wylis Manderly,Wylis,Ser Wylis
 Errol,Errol,Ser Errol
-Shadowblack,Shadowblack,Shadowblack Lane
 Lefford,Lord Lefford,Lefford
 Hother,Hother Umber,Hother
 Gawen,Gawen,Gawen Wylde,Ser Gawen,Wylde
@@ -237,8 +234,6 @@ Ramsay,Lord Ramsay,Ramsay
 Tothmure,Maester Tothmure,Tothmure
 Selwyn,Evenstar,Selwyn,Selwyn the Evenstar
 Karyl,Karyl,Karyl Vance
-Cinnamon,Cinnamon Wind,Cinnamon
-Bleeding,Bleeding Star,Bleeding
 Jast,Lord Jast,Jast
 Arthur,Arthur,Ashara Dayne,Ashara,Arthur Dayne,Dayne
 Harbert,Harbert,Ser Harbert
@@ -288,7 +283,6 @@ Dermot,Ser Dermot,Dermot
 Larence,Larence,Larence Snow
 Donnor,Lord Donnor,Donnor
 Naerys,Naerys,Princess Naerys
-Reeking,Reeking,Reeking Lane
 Jonnel,Jonnel,Lord Jonnel
 Arneld,Ser Arneld,Arneld
 Deremond,Lord Deremond,Deremond

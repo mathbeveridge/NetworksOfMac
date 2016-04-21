@@ -132,7 +132,7 @@ Mud,Mud Gate,Mud,Mud Pie
 Osmund,Ser Osmund,Osmund Kettleblack,Osmund
 Imry,High Captain Ser Imry Florent,Imry Florent,Imry,Ser Imry
 Viserys,Viserys
-Grey,Grey Wind,Grey
+Grey,Grey
 Lannisport,Lannisport
 Qartheen,Qartheen
 Bitterbridge,Bitterbridge
@@ -142,7 +142,6 @@ Whispering,Whispering Wood,Wood,Whispering
 Warrior,Warrior
 Drowned,Drowned God,Drowned
 Alliser,Alliser Thorne,Ser Alliser,Alliser
-Benjen,Benjen the Sweet,Ben Blackthumb,Benjen Stark,Blackthumb,Benjen the Bitter,Bitter,Sweet,Benjen,Ben,Ben Stark
 Belwas,Belwas,Strong Belwas
 Devan,Devan
 Small,Small,Small Hall
@@ -178,11 +177,11 @@ Arys,Arys,Ser Arys,Arys Oakheart
 Doran,Prince Doran,Doran,Doran Martell
 Guyard,Ser Guyard,Guyard Morrigen,Guyard,Guyard the Green
 Twins,Twins
-Shadow,Shadow,Shadow Tower
 Mace,Mace,Mace Tyrell
 Greatjon,Greatjon Umber,Lord Umber,Greatjon
 Frostfangs,Frostfangs
 Undying,Undying,Undying Ones,Ones,Undying One
+Benjen,Benjen the Sweet,Benjen Stark,Benjen the Bitter,Benjen,Ben Stark
 Wailing,Wailing,Wailing Tower
 Vylarr,Vylarr
 Rush,Blackwater Rush,Rush
@@ -216,6 +215,7 @@ Lordsport,Lordsport
 Seagard,Seagard
 Estermont,Estermont,Lord Estermont
 Castle Black,Castle Black
+Shadow Tower,Shadow Tower
 Koss,Koss
 Pureborn,Pureborn
 Chella,Chella
@@ -445,7 +445,6 @@ Flowstone,Flowstone,Yard,Flowstone Yard
 Barracks,Barracks Hall,Barracks
 Ryman,Ryman Frey,Ryman
 Bell,Bell Tower,Bell
-Black Wind,Black Wind
 South,South
 Andrik,Andrik,Unsmiling,Andrik the Unsmiling
 Parmen,Parmen,Parmen Crane,Ser Parmen,Crane
@@ -462,7 +461,6 @@ Tower of Ghosts,Tower of Ghosts
 Walda,Walda,Lady Walda
 Donella,Donella,Donella Hornwood,Lady Donella
 Philip,Philip Foote,Foote,Ser Philip,Philip,Lord Philip
-Bread,King Bread,Bread
 Thoros,Thoros
 Steelshanks,Walton the Moon King,Steelshanks Walton,Steelshanks,Walton
 Endrew,Ser Endrew,Endrew,Endrew Tarth
@@ -476,6 +474,7 @@ Errol,Errol,Ser Errol
 Warden,Warden
 Lefford,Lord Lefford,Lefford
 Hother,Hother Umber,Hother
+Blackthumb,Ben Blackthumb,Blackthumb
 Helm,Red Helm,Helm
 Own,Own Hand,Own
 Lord Botley,Lord Botley
@@ -505,7 +504,6 @@ Cape,Wrath,Cape Wrath,Cape
 Lord of Dragonstone,Lord of Dragonstone
 Eddison,Tollett,Eddison Tollett,Eddison
 First Ranger,First Ranger
-Bold Wind,Bold Wind
 Joss,Joss Stilwood,Joss,Stilwood
 Ramsay,Lord Ramsay,Ramsay
 Guards,Guards,Guards Hall
@@ -539,7 +537,6 @@ Blind,Blind,Sybassion,Blind Sybassion the Eater,Eater
 Josmyn,Peckledon,Josmyn,Josmyn Peckledon
 Edwyn,Edwyn,Edwyn the Spring King
 Black Ear,Black Ear
-Cinnamon,Cinnamon Wind,Cinnamon
 Lord Penrose,Lord Penrose
 Arthur,Arthur,Ashara Dayne,Ashara,Arthur Dayne,Dayne
 Ragged,Ragged Jenna,Jenna,Ragged

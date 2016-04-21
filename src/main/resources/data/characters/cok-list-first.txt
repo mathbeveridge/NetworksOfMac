@@ -1,7 +1,6 @@
 Tyrion,Imp,Tyrion
 Jon,Jon,Arryn
 Bran,Daughterless,Bran,Bad,Brandon,Burner
-Brandon,Daughterless,Bran,Bad,Brandon,Burner
 Arya,Lumpyface,Arya,Lumpyhead,Rabbitkiller,Stickboy,Underfoot
 Theon,Theon,Turncloak,Reek
 Stannis,Stannis
@@ -108,7 +107,6 @@ Viserys,Viserys
 Harren,Harren
 Desmond,Desmond
 Wendel,Wendel
-Benjen,Blackthumb,Bitter,Sweet,Benjen,Ben
 Alliser,Alliser
 Raff,Sweetling,Raff
 Belwas,Belwas
@@ -131,6 +129,7 @@ Guyard,Guyard
 Illyrio,Illyrio,Mopatis
 Mace,Mace
 Rickard,Rickard
+Benjen,Benjen
 Greatjon,Umber,Greatjon
 Vylarr,Vylarr
 Osfryd,Osfryd
@@ -213,7 +212,6 @@ Tytos,Tytos
 Mallador,Mallador
 Addam,Addam
 Lucas,Lucas
-Bread,Bread
 Donella,Donella
 Parmen,Parmen,Crane
 Tion,Tion
@@ -232,7 +230,6 @@ Karyl,Karyl
 Trystane,Trystane
 Gawen,Gawen,Wylde
 Lefford,Lefford
-Shadowblack,Shadowblack
 Rossart,Rossart
 Waymar,Waymar
 Hother,Hother
@@ -240,14 +237,12 @@ Ramsay,Ramsay
 Endrew,Endrew
 Tothmure,Tothmure
 Selwyn,Evenstar,Selwyn
-Bleeding,Bleeding
 Ermesande,Ermesande
 Urron,Urron
 Tanton,Tanton
 Alyn,Stackspear,Alyn
 Jaehaerys,Jaehaerys
 Utt,Utt
-Cinnamon,Cinnamon
 Minisa,Minisa
 Bryan,Bryan
 Jast,Jast
@@ -308,7 +303,6 @@ Jeffory,Jeffory
 Emmon,Emmon
 Bonifer,Bonifer
 Beron,Beron
-Reeking,Reeking
 Halys,Halys
 Edwyle,Edwyle
 Harrion,Harrion
