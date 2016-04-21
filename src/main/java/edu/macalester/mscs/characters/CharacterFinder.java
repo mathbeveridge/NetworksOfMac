@@ -58,20 +58,26 @@ import java.util.*;
 public class CharacterFinder {
 
     private final Set<String> ignoredWords;
+    private final Set<String> titleWords;
     private final Set<String> generalWords;
     private final String punctuation;
 
     private Map<String, Integer> counter = new HashMap<>();
     private CharacterGroups characterGroups;
 
-    public CharacterFinder(Set<String> ignoredWords, Set<String> generalWords, String punctuation) {
+    public CharacterFinder(Set<String> ignoredWords, Set<String> titleWords, Set<String> generalWords, String punctuation) {
         this.ignoredWords = ignoredWords;
+        this.titleWords = titleWords;
         this.generalWords = generalWords;
         this.punctuation = punctuation;
     }
 
     public Set<String> getIgnoredWords() {
         return ignoredWords;
+    }
+
+    public Set<String> getTitleWords() {
+        return titleWords;
     }
 
     public Set<String> getGeneralWords() {
@@ -84,6 +90,22 @@ public class CharacterFinder {
 
     public Map<String, Integer> getCounter() {
         return counter;
+    }
+
+    public CharacterGroups getCharacterGroups() {
+        return characterGroups;
+    }
+
+    private boolean isIgnoredWord(String part) {
+        return ignoredWords.contains(part);
+    }
+
+    private boolean isTitleWord(String s) {
+        return titleWords.contains(s);
+    }
+
+    private boolean isGeneralWord(String s) {
+        return isTitleWord(s) || generalWords.contains(s);
     }
 
     /**
@@ -107,8 +129,8 @@ public class CharacterFinder {
             for (int i = 0; i < parts.size(); i++) {
                 String part = parts.get(i);
                 if (i > 0 && !WordUtils.precedesSentenceStart(parts.get(i - 1), punctuation)) {
-                    if (WordUtils.isCapitalized(part) && !ignoredWords.contains(part)) {
-                        if (!generalWords.contains(part)) {
+                    if (WordUtils.isCapitalized(part) && !isIgnoredWord(part)) {
+                        if (!isGeneralWord(part)) {
                             incrementName(part, 0);
                         }
                         if (phrase == null) {
@@ -122,7 +144,7 @@ public class CharacterFinder {
                             if (part.equals(" ") || part.equals("of") || part.equals("the")) {
                                 phrase.append(part);
                             } else {
-                                if (!generalWords.contains(toAdd)) {
+                                if (!isGeneralWord(toAdd)) {
                                     incrementName(toAdd, 1);
                                 }
                                 phrase = null;
@@ -136,8 +158,8 @@ public class CharacterFinder {
             for (int i = 0; i < parts.size(); i++) {
                 String part = parts.get(i);
                 if (phrase != null || counter.containsKey(part) && (i == 0 || WordUtils.precedesSentenceStart(parts.get(i - 1), punctuation))) {
-                    if (part.length() > 1 && WordUtils.isCapitalized(part) && !ignoredWords.contains(part)) {
-                        if (!generalWords.contains(part)) {
+                    if (part.length() > 1 && WordUtils.isCapitalized(part) && !isIgnoredWord(part)) {
+                        if (!isGeneralWord(part)) {
                             incrementName(part, 0);
                         }
                         if (phrase == null) {
@@ -151,7 +173,7 @@ public class CharacterFinder {
                             if (part.equals(" ") || part.equals("of") || part.equals("the")) {
                                 phrase.append(part);
                             } else {
-                                if (!generalWords.contains(toAdd)) {
+                                if (!isGeneralWord(toAdd)) {
                                     incrementName(toAdd, 1);
                                 }
                                 phrase = null;
@@ -185,7 +207,7 @@ public class CharacterFinder {
      */
     public String stripTitle(String name) {
         String[] split = name.split(" ");
-        if (split.length > 1 && generalWords.contains(split[0]) && WordUtils.isCapitalized(split[1])) {
+        if (split.length > 1 && isTitleWord(split[0]) && WordUtils.isCapitalized(split[1])) {
             return StringUtils.substringAfter(name, " ");
         } else {
             return name;
@@ -202,9 +224,9 @@ public class CharacterFinder {
         Set<String> partNames = new HashSet<>();
         for (String cap : words) {
             String[] split = cap.split(" ");
-            String name = StringUtils.substringAfter(cap, " ");//cap.substring(cap.indexOf(" ") + 1);
-            if (split.length > 1 && generalWords.contains(split[0]) && WordUtils.isCapitalized(split[1]) && !generalWords.contains(split[1])) {
-                if (split.length == 2 && (split[0].equals("Ko") || split[0].equals("Khal")) || split.length == 3) {
+            String name = StringUtils.substringAfter(cap, " ");
+            if (split.length > 1 && isTitleWord(split[0]) && WordUtils.isCapitalized(split[1]) && !isGeneralWord(split[1])) {
+                if (split.length == 3 || (split[0].equals("Ko") || split[0].equals("Khal"))) {
                     names.add(name);
                 } else {
                     partNames.add(split[1]);
@@ -214,17 +236,26 @@ public class CharacterFinder {
         for (String name : partNames) {
             boolean isUnique = true;
             for (String cap : words) {
+                // cut off after "of" and "the" because anything preceding is either still unique, or inherently not unique
+                cap = StringUtils.substringBefore(cap, " of ");
+                cap = StringUtils.substringBefore(cap, " the ");
                 String[] split = cap.split(" ");
                 if (split.length == 2) {
-                    // it's still unique if this is Title + Name
-                    isUnique = isUnique && !name.equals(split[0]) && (generalWords.contains(split[0]) || !name.equals(split[1]));
-                    if (!generalWords.contains(split[0]) && !generalWords.contains(split[1])
+                    // not unique if first in a pair, or if second in a pair and not preceded by a general word
+                    if (name.equals(split[0]) || (!isGeneralWord(split[0]) && name.equals(split[1]))) {
+                        isUnique = false;
+                    }
+                    // if something contains name and another non-general word, it's a name TODO this part is suspect
+                    if (!isGeneralWord(split[0]) && !isGeneralWord(split[1])
                             && (name.equals(split[0]) || name.equals(split[1]))) {
                         names.add(cap);
                     }
                 } else if (split.length > 2) {
                     for (String s : split) {
-                        isUnique = isUnique && !name.equals(s) && !name.equals(s + "s");
+                        // if it comes up as part of anything else, or pluralized, its not unique
+                        if (name.equals(s) || name.equals(s + "s")) {
+                            isUnique = false;
+                        }
                     }
                 }
             }
@@ -247,7 +278,8 @@ public class CharacterFinder {
             String[] split = cap.split(" ");
             for (int i = 1; i < split.length; i++) {
                 String s = split[i];
-                if (!generalWords.contains(s) && !split[i-1].equalsIgnoreCase("the") && words.contains(s) && words.contains(s + "s")) {
+                if (!isGeneralWord(s) && !split[i-1].equalsIgnoreCase("the")
+                        && words.contains(s) && words.contains(s + "s")) {
                     pluralized.add(s);
                 }
             }
@@ -267,7 +299,7 @@ public class CharacterFinder {
         for (String cap : words) {
             String name = stripTitle(cap);
             String[] split = name.split(" ");
-            if (split.length == 2 && !generalWords.contains(split[0]) && !generalWords.contains(split[1])) {
+            if (split.length == 2 && !isGeneralWord(split[0]) && !isGeneralWord(split[1])) {
                 if (once.contains(split[1])) {
                     surnames.add(split[1]);
                 } else {
@@ -331,7 +363,7 @@ public class CharacterFinder {
         for (String cap : words) {
             String name = stripTitle(cap);
             String[] split = name.split(" ");
-            if (split.length == 2 && !generalWords.contains(split[0]) && surnames.contains(split[1])) {
+            if (split.length == 2 && !isGeneralWord(split[0]) && surnames.contains(split[1])) {
                 if (words.contains(name)) {
                     names.add(name);
                 } else {
@@ -379,7 +411,7 @@ public class CharacterFinder {
             // strip "of..." bits
             if (noPlace.contains(" of ")) {
                 String temp = StringUtils.substringBefore(noPlace, " of ");
-                if (!generalWords.contains(temp)) {
+                if (!isGeneralWord(temp)) {
                     noPlace = temp;
                 }
             }
@@ -535,7 +567,7 @@ public class CharacterFinder {
                 Set<String> set = new HashSet<>();
                 for (String s : characterGroups.getGroup(name)) {
                     String firstName = StringUtils.substringBefore(stripTitle(s), " ");
-                    if (!generalWords.contains(firstName)) {
+                    if (!isGeneralWord(firstName)) {
                         set.add(firstName);
                     }
                 }
