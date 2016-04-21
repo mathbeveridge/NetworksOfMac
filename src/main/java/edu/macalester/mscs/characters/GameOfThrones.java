@@ -45,7 +45,7 @@ public class GameOfThrones {
         // initialize the finder
         CharacterFinder finder = new CharacterFinder(IGNORED_WORDS, TITLE_WORDS, GENERAL_WORDS, ".?!�");
         // read in the text
-        finder.countCapitalized(FileUtils.readFile("src/main/resources/text/got.txt"));
+        finder.countCapitalized(FileUtils.readFile("src/main/resources/text/gameofthrones.txt"));
         // fix a few mistakes
         finder.incrementName("Jeor Mormont", 1); // gets wrecked
         finder.incrementName("Jeor", 0);

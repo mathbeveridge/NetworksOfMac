@@ -16,7 +16,7 @@ public class MatrixConstructor {
 	public static void main(String[] args) {
 		String folder = "src/main/resources/data/logs";
 
-//		String text = getText("src/main/resources/text/got.txt");
+//		String text = getText("src/main/resources/text/gameofthrones.txt");
 //		String characterString = getCharacterString("src/main/resources/data/characters/got-list-no-dup.txt");
 //		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 1, 6, "full-names");
 //		String characterString = getCharacterString("src/main/resources/data/characters/got-list-curated.txt");
