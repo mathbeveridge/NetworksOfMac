@@ -18,14 +18,14 @@ public class ClashOfKings {
             "Who", "Why", "What", // questions
             "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", "Grace", // GoT specific
             "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons", // familial references
-            "Not", "Hot", "Stone", "Men", "Man", "Guard" // miscellaneous
+            "Not", "Stone", "Men", "Man", "Guard", "Was" // miscellaneous
     ));
 
     // Words that are not unique, but may still be descriptive, expecially in combination
     public static final Set<String> TITLE_WORDS = new HashSet<>(Arrays.asList(
             "Lord", "Lady", "King", "Queen", "Regent", "Steward", "Prince", "Princess", // royal titles
             "Ser", "Maester", "Captain", "Commander", "Magister", "Master", "Builder",
-            "Septon", "Knight", "Shipwright", "Goodwife", "Ranger", // professional titles
+            "Septon", "Knight", "Shipwright", "Goodwife", "Ranger", "Squire", // professional titles
             "Khal", "Ko" // dothraki titles
     ));
 
@@ -38,8 +38,8 @@ public class ClashOfKings {
             "Black", "Red", "Green", "Blue", "White", // colors
             "Land", "Lands", "Sea", "Seas", "Island", "Islands", "Isles", "Bay", "River", "Shore", // geographics
             "City", "Cities", "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", "Castle", // landmarks
-            "Cruel", "Bold", "Brave", "Good", // adjective titles
-            "Flowers", "Storm", "Bull", "Long", "Spring" // miscellaneous
+            "Cruel", "Bold", "Brave", "Good", "Strong", // adjective titles
+            "Flowers", "Storm", "Bull", "Long", "Spring", "Bear", "Hot", "Pie" // miscellaneous
     ));
 
     public static void main(String[] args) {
@@ -73,6 +73,7 @@ public class ClashOfKings {
 
         finder.removePlaces();
         finder.removeTitles();
+        finder.removeWordsBelowThreshold(lonely, 5);
 
 //        finder.printCounter().writeLog("src/main/resources/data/characters/cok-counter.csv");
 
@@ -97,7 +98,7 @@ public class ClashOfKings {
         finder.combineGroups("Samwell", "Sam");
         finder.combineGroups("Sandor", "Hound");
         finder.combineGroups("Benjen", "Ben");
-        finder.combineGroups("Jeor", "Old Bear", "Commander Mormont", "Lord Mormont");
+        finder.combineGroups("Jeor", "Old Bear", "Commander Mormont", "Lord Mormont", "Lord of Bear Island");
         finder.combineGroups("Jon Arryn", "Lord Arryn");
         finder.combineGroups("Catelyn", "Lady Stark");
         finder.combineGroups("Pycelle", "Grand Maester");
@@ -114,77 +115,69 @@ public class ClashOfKings {
         finder.combineGroups("Gregor", "Mountain");
         finder.combineGroups("Podrick", "Pod");
         finder.combineGroups("Balon", "Reaper");
+        finder.combineGroups("Theon", "Reek");
+        finder.combineGroups("Arya", "Lumpyface");
+        finder.combineGroups("Cersei", "Queen Regent");
 
         // manually add important names that get missed
         names.add("Varys");
-        names.add("Qhorin");
-
-        names.add("Bronn");
-        names.add("Septa Mordane");
-        names.add("Pycelle");
-        names.add("Mirri Maz Duur");
         names.add("Hodor");
-        names.add("Nan");
-        names.add("Pyp");
-        names.add("Syrio Forel");
-        names.add("Grenn");
-        names.add("Irri");
-        names.add("Jhiqui");
-        names.add("Qotho");
-        names.add("Tom");
-        names.add("Osha");
-        names.add("Shagga");
-        names.add("Doreah");
         names.add("Yoren");
-        names.add("Halder");
-        names.add("Lyanna");
-        names.add("Jhogo");
-        names.add("Mord");
-        names.add("Gared");
-        names.add("Marillion");
-        names.add("Aggo");
-        names.add("Alyn");
-        names.add("Haggo");
-        names.add("Chett");
-        names.add("Cohollo");
-        names.add("Timett");
-        names.add("Mycah");
-        names.add("Conn");
+        names.add("Qhorin Halfhand"); // note that in book one, his name was spelled "Quorin"
+        names.add("Gendry");
+        names.add("Bronn");
+        names.add("Rickon");
         names.add("Shae");
-        names.add("Rakharo");
-        names.add("Chiggen");
-        names.add("Desmond");
-        names.add("Jyck");
-        names.add("Donal Noye");
-        names.add("Masha Heddle");
-        names.add("Quaro");
-        names.add("Hullen");
-        names.add("Harwin");
-        names.add("Moreo Tumitis");
-        names.add("Dareon");
-        names.add("Rhaego");
-        names.add("Cayn");
-        names.add("High Septon");
-        names.add("Morrec");
-        names.add("Maegor");
+        names.add("Craster");
+        names.add("Xaro Xhoan Daxos");
+        names.add("Weese");
+        names.add("Osha");
+        names.add("Jaqen");
+        names.add("Pycelle");
+        names.add("Hot Pie");
+        names.add("Nan");
+        names.add("Rorge");
+        names.add("Pyat Pree");
+        names.add("Dagmer Cleftjaw");
+        names.add("Shagga");
+        names.add("Thoren Smallwood");
         names.add("Mance Rayder");
-        names.add("Hobb");
-        names.add("Malleon");
-        names.add("Helman Tallhart");
-        names.add("Jafer Flowers");
-        names.add("Cotter Pyke");
-        names.add("Hugh");
-        names.add("Lothor Brune");
-        names.add("Howland Reed");
-        names.add("Bryce Caron");
-        names.add("Mychel Redfort");
-        names.add("Florian");
-        names.add("Quorin Halfhand");
-        names.add("Endrew Tarth");
-        names.add("Jaehaerys");
-        names.add("Jalabhar Xho");
-        names.add("Podrick Payne");
-        names.add("Lady Whent");
+        names.add("Salladhor Saan");
+        names.add("Lorren");
+        names.add("Timett");
+        names.add("Wex");
+        names.add("Arry");
+        names.add("High Septon");
+        names.add("Edd");
+        names.add("Hallyne");
+        names.add("Ygritte");
+        names.add("Patchface");
+        names.add("Syrio Forel");
+        names.add("Aggo");
+        names.add("Bael");
+        names.add("Esgred");
+        names.add("Mikken");
+        names.add("Ebben");
+        names.add("Farlen");
+        names.add("Viserys");
+        names.add("Belwas");
+        names.add("Dywen");
+        names.add("Devan");
+        names.add("Raff");
+        names.add("Alebelly");
+        names.add("Grenn");
+        names.add("Chataya");
+        names.add("Vylarr");
+        names.add("Allard");
+        names.add("Urzen");
+        names.add("Alayaya");
+        names.add("Rymund");
+        names.add("Arstan");
+        names.add("Jonquil");
+        names.add("Koss");
+        names.add("Chella");
+        names.add("Tysha");
+        names.add("Mordane");
 
         // manually remove a few names that are either mistakes, duplicates, or unused
         names.remove("Ned Stark");      // as Eddard Stark
@@ -204,6 +197,7 @@ public class ClashOfKings {
         names.remove("Aegon Targaryen");// unused, too problematic
         names.remove("Torrhen Stark");  // unused
         names.remove("Aerys Oakheart"); // unused
+        names.remove("Walder Rivers");  // unused
 
         Set<String> firstNames = finder.getFirstNames(names);
 
