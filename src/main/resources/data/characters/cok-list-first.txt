@@ -13,7 +13,7 @@ Robb,Robb
 Davos,Davos,Shorthand,Onion
 Daenerys,Stormborn,Dany,Khaleesi,Daenerys
 Robert,Robert,Usurper
-Varys,Varys,Spider
+Varys,Varys,Spider,Eunuch
 Eddard,Eddard,Ned
 Jaime,Kingslayer,Jaime
 Petyr,Baelish,Paramount,Littlefinger,Petyr
@@ -30,8 +30,8 @@ Sandor,Sandor,Hound
 Bronn,Bronn
 Cressen,Cressen
 Jeor,Mormont,Jeor
+Balon,Balon,Reaper,Greyjoy
 Walder,Walder,Frey
-Balon,Balon,Reaper
 Rickon,Rickon
 Shae,Shae
 Craster,Craster
@@ -42,6 +42,7 @@ Osha,Osha
 Jojen,Jojen
 Edmure,Edmure
 Meera,Meera
+Jacelyn,Bywater,Jacelyn
 Tommen,Tommen
 Jaqen,Jaqen
 Lancel,Lancel
@@ -57,7 +58,6 @@ Cortnay,Cortnay
 Melisandre,Melisandre
 Nan,Nan
 Myrcella,Myrcella
-Jacelyn,Jacelyn
 Rorge,Rorge
 Aemon,Dragonknight,Aemon
 Pyat,Pree,Pyat
@@ -66,9 +66,9 @@ Dagmer,Dagmer,Cleftjaw
 Shagga,Shagga
 Boros,Boros
 Meryn,Meryn
+Pylos,Pylos
 Roose,Roose,Bolton
 Aerys,Mad,Aerys
-Pylos,Pylos
 Thoren,Thoren,Smallwood
 Podrick,Pod,Podrick
 Salladhor,Saan,Salladhor
@@ -88,7 +88,7 @@ Jhogo,Jhogo
 Hallyne,Hallyne,Pyromancer
 Selyse,Selyse
 Edd,Edd,Dolorous
-Vargo,Vargo
+Vargo,Vargo,Hoat
 Ygritte,Ygritte
 Aggo,Aggo
 Patchface,Patchface
@@ -100,11 +100,13 @@ Brynden,Blackfish,Brynden
 Mikken,Mikken
 Ebben,Ebben
 Lollys,Lollys,Stokeworth
+Donella,Donella,Hornwood
 Farlen,Farlen
 Osmund,Osmund
 Imry,Imry
 Viserys,Viserys
 Harren,Harren
+Mace,Mace,Tyrell
 Desmond,Desmond
 Wendel,Wendel
 Alliser,Alliser
@@ -114,12 +116,13 @@ Devan,Devan
 Dywen,Dywen
 Rhaegar,Rhaegar
 Alebelly,Alebelly
+Rickard,Rickard,Karstark
 Grenn,Grenn
 Stafford,Stafford
 Chataya,Chataya
+Velaryon,Velaryon
 Margaery,Margaery
 Shireen,Shireen
-Velaryon,Velaryon
 Doran,Doran
 Robar,Robar
 Arys,Arys
@@ -127,8 +130,7 @@ Beric,Beric
 Benfred,Benfred
 Guyard,Guyard
 Illyrio,Illyrio,Mopatis
-Mace,Mace
-Rickard,Rickard
+Wyman,Harbor,Wyman
 Benjen,Benjen
 Greatjon,Umber,Greatjon
 Vylarr,Vylarr
@@ -136,7 +138,7 @@ Osfryd,Osfryd
 Allard,Allard
 Preston,Preston
 Mathis,Mathis
-Wyman,Wyman
+Rattleshirt,Rattleshirt
 Urzen,Urzen
 Alayaya,Alayaya
 Rymund,Rhymer,Rymund
@@ -149,12 +151,12 @@ Steffon,Steffon
 Beth,Beth
 Amabel,Amabel
 Marya,Marya
+Randyll,Randyll,Tarly
 Koss,Koss
 Chella,Chella
 Celtigar,Celtigar
 Mordane,Septa,Mordane
 Tysha,Tysha
-Randyll,Randyll
 Vyman,Vyman
 Colen,Colen
 Barristan,Barristan
@@ -181,6 +183,8 @@ Helman,Helman
 Elmar,Elmar
 Bryce,Bryce
 Aenys,Aenys
+Howland,Howland
+Alester,Alester
 Jaremy,Jaremy
 Kevan,Kevan
 Pono,Pono
@@ -190,8 +194,6 @@ Lyonel,Lyonel
 Alysanne,Alysanne
 Hosteen,Hosteen
 Harys,Haigh,Harys
-Howland,Howland
-Alester,Alester
 Perwyn,Perwyn
 Willem,Willem
 Burton,Burton,Crakehall
@@ -212,7 +214,6 @@ Tytos,Tytos
 Mallador,Mallador
 Addam,Addam
 Lucas,Lucas
-Donella,Donella
 Parmen,Parmen,Crane
 Tion,Tion
 Philip,Foote,Philip
@@ -233,6 +234,7 @@ Lefford,Lefford
 Rossart,Rossart
 Waymar,Waymar
 Hother,Hother
+Gulian,Gulian,Swann
 Ramsay,Ramsay
 Endrew,Endrew
 Tothmure,Tothmure
@@ -256,7 +258,6 @@ Barth,Barth
 Jarmen,Jarmen
 Lydden,Lydden
 Jhaqo,Jhaqo
-Gulian,Gulian
 Arthur,Arthur,Ashara,Dayne
 Mark,Mark
 Qalen,Qalen
@@ -285,7 +286,6 @@ Lamprey,Lamprey
 Naerys,Naerys
 Arryk,Arryk
 Denys,Denys
-Eunuch,Eunuch
 Genna,Genna
 Dorren,Dorren
 Donnel,Donnel

@@ -58,6 +58,7 @@ public class ClashOfKings {
         Set<String> pluralizedNames = finder.getPluralizedNames();
         Set<String> surnames = finder.getSurnames();
         Set<String> names = finder.getNamesBySurname(surnames);
+        surnames.remove("Bywater");
         names.addAll(titledNames);
         Set<String> places = finder.getPlaces(names);
         places.add("Casterly");
@@ -111,13 +112,27 @@ public class ClashOfKings {
         finder.combineGroups("Hoster", "Lord of Riverrun");
         finder.combineGroups("Loras", "Knight of Flowers");
         finder.combineGroups("Davos", "Onion Knight");
-        finder.combineGroups("Varys", "Spider");
+        finder.combineGroups("Varys", "Spider", "Eunuch");
         finder.combineGroups("Gregor", "Mountain");
         finder.combineGroups("Podrick", "Pod");
         finder.combineGroups("Balon", "Reaper");
         finder.combineGroups("Theon", "Reek");
         finder.combineGroups("Arya", "Lumpyface");
         finder.combineGroups("Cersei", "Queen Regent");
+        finder.combineGroups("Alester", "Lord of Brightwater");
+        finder.combineGroups("Howland", "Lord of Greywater");
+        finder.combineGroups("Velaryon", "Lord of the Tides");
+        finder.combineGroups("Pylos", "Lord Maester");
+        finder.combineGroups("Gulian", "Lord Swann");
+        finder.combineGroups("Vargo", "Lord Hoat");
+        finder.combineGroups("Rattleshirt", "Lord of Bones");
+        finder.combineGroups("Wyman", "Lord of White Harbor");
+        finder.combineGroups("Randyll", "Lord Tarly");
+        finder.combineGroups("Balon Greyjoy", "Lord Greyjoy");
+        finder.combineGroups("Mace", "Lord of Highgarden", "Lord Tyrell");
+        finder.combineGroups("Stannis", "Lord of Dragonstone");
+        finder.combineGroups("Rickard Karstark", "Lord Karstark");
+        finder.combineGroups("Donella", "Lady Hornwood");
 
         // manually add important names that get missed
         names.add("Varys");
@@ -177,6 +192,7 @@ public class ClashOfKings {
         names.add("Koss");
         names.add("Chella");
         names.add("Tysha");
+        names.add("Rattleshirt");
         names.add("Mordane");
 
         // manually remove a few names that are either mistakes, duplicates, or unused
@@ -193,6 +209,7 @@ public class ClashOfKings {
         names.remove("Littlefinger");   // as Petyr Baelish
         names.remove("Paramount");      // as Petyr Baelish
         names.remove("Reaper");         // as Balon Greyjoy
+        names.remove("Eunuch");         // as Varys
         names.remove("Grey Wind");      // dire wolf
         names.remove("Walder Freys");   // mistake
         names.remove("Aegon Targaryen");// unused, too problematic
