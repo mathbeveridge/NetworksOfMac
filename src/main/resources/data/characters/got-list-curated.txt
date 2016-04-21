@@ -90,8 +90,8 @@ Cohollo,Cohollo
 Chett,Chett
 Timett,Timett
 Rickard Stark,Rickard Stark,Lord Rickard
-Rickard Karstark,Rickard Karstark,Lord Rickard, Lord Karstark
-Mycah,Mycah, butchers boy
+Rickard Karstark,Rickard Karstark,Lord Rickard,Lord Karstark
+Mycah,Mycah,butchers boy
 Bowen Marsh,Bowen Marsh,Bowen Marsh the Lord Steward,Bowen
 Conn,Conn
 Shae,Shae
