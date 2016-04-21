@@ -19,6 +19,7 @@ public class MatrixConstructor {
 		/**
 		 * Game of Thrones
 		 */
+
 //		String text = getText("src/main/resources/text/gameofthrones.txt");
 //		String characterString = getCharacterString("src/main/resources/data/characters/got-list-curated.txt");
 
