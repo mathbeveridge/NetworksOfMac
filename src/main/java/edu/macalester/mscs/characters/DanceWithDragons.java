@@ -13,33 +13,35 @@ import java.util.Set;
 public class DanceWithDragons {
 
     public static final Set<String> IGNORED_WORDS = new HashSet<>(Arrays.asList(
-            "My", "He", "His", "Her", "We", "Their", "You", "Your", "It", // pronouns
+            "My", "She", "He", "His", "Her", "We", "They", "Their", "You", "Your", "It", // pronouns
             "This", "That", "There", // indirect pronouns
-            "Who", "Why", "What", // questions
+            "Who", "Why", "What", "Will", // questions
             "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", "Grace", // GoT specific
             "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons", // familial references
-            "Men", "Man" // miscellaneous
+            "Men", "Man", "And", "Sleepy", "Worship", "Magnificence", "Planky", "Town",
+            "Beyond", "Dornish" // miscellaneous
     ));
 
     // Words that are not unique, but may still be descriptive, expecially in combination
     public static final Set<String> TITLE_WORDS = new HashSet<>(Arrays.asList(
             "Lord", "Lady", "King", "Queen", "Regent", "Steward", "Prince", "Princess", // royal titles
             "Ser", "Maester", "Captain", "Commander", "Magister", "Master", "Builder",
-            "Septon", "Knight", "Shipwright", "Goodwife", "Ranger", "Squire", // professional titles
+            "Septon", "Septa", "Knight", "Shipwright", "Goodwife", "Ranger", "Squire", // professional titles
             "Khal", "Ko" // dothraki titles
     ));
 
     // Words that are not unique, but may still be descriptive, expecially in combination
     public static final Set<String> GENERAL_WORDS = new HashSet<>(Arrays.asList(
             "The", // titular articles
-            "Young", "Old", "Fat", "Big", "Little", "Bastard", "Boy", // endearing titles
+            "Young", "Old", "Fat", "Big", "Little", "Bastard", "Boy", "Deaf", // endearing titles
             "High", "Great", "Grand", "First", "Second", // superlatives
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
-            "Black", "Red", "Green", "Blue", "White", // colors
+            "Black", "Red", "Green", "Blue", "White", "Grey", "Brown", "Yellow", // colors
             "Land", "Lands", "Sea", "Seas", "Island", "Islands", "Isles", "Bay", "River", "Shore", "Point", // geographics
             "City", "Cities", "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", "Castle", "Lane", // landmarks
-            "Cruel", "Bold", "Brave", "Good", "Strong", "Bitter", "Sweet", "Bad", // adjective titles
-            "Bear" //"Flowers", "Storm", "Bull", "Long", "Spring", "Bear", "Hot", "Pie", "Ben", "Iron" // miscellaneous
+            "Cruel", "Bold", "Brave", "Good", "Strong", "Bitter", "Sweet", "Bad", "Clever", "Cautious",
+            "Wise", "Craven", "Poor", "Pretty", // adjective titles
+            "Bear", "Iron" // miscellaneous
     ));
 
     public static void main(String[] args) {
@@ -50,6 +52,8 @@ public class DanceWithDragons {
         // fix a few mistakes
         finder.incrementName("Petyr Baelish", 2);
         finder.incrementName("Petyr", 0);
+        finder.removeWords("Reek Ramsay");
+        finder.removeWords("Summer Islander King Robert");
 
         // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();
@@ -116,6 +120,9 @@ public class DanceWithDragons {
         finder.combineGroups("Stannis", "Lord of Dragonstone");
         finder.combineGroups("Rickard Karstark", "Lord Karstark");
         finder.combineGroups("Janos", "Lord Slynt");
+        finder.combineGroups("Quentyn", "Frog");
+        finder.combineGroups("Rolly", "Duck");
+        finder.combineGroups("Jon Connington", "Griff");
 
         // manually add important names that get missed
         names.add("Varys");
