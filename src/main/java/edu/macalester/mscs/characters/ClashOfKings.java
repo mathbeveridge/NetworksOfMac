@@ -90,6 +90,7 @@ public class ClashOfKings {
 
         // manually combine more character groups
         finder.combineGroups("Eddard", "Ned");
+        finder.combineGroups("Jon", "Lord Snow");
         finder.combineGroups("Bran", "Brandon Stark");
         finder.combineGroups("Robert", "Usurper");
         finder.combineGroups("Petyr", "Littlefinger", "Paramount");

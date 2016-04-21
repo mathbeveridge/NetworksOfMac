@@ -1,5 +1,5 @@
 Tyrion,Tyrion the Imp,Tyrion Lannister,Imp,Tyrion,Lord Tyrion
-Jon,Jon Snow,Jon Arryn,Jon,Lord Arryn,Jon Fossoway,Ser Jon
+Jon,Jon Snow,Jon Arryn,Lord Snow,Jon,Lord Arryn,Jon Fossoway,Ser Jon
 Bran,Brandon the Burner,Bran,Bad,Brandon,Brandon the Bad,Prince Bran,Daughterless,Lord Brandon,Brandon the Shipwright,Brandon Stark,Brandon the Daughterless,Brandon the Builder,Burner,Bran Stark,Bran the Builder
 Arya,Lumpyhead Lumpyface Stickboy,Arya,Lumpyhead Rabbitkiller,Arya Underfoot,Lumpyface Stickboy,Lumpyface,Lumpyhead,Rabbitkiller,Stickboy,Lumpyface Lumpyhead Rabbitkiller,Arya Stark,Underfoot,Arya Stark the Hand
 Theon,Theon,Theon Turncloak,Theon Greyjoy,Theon Stark,Turncloak,Prince Theon,Reek
@@ -437,7 +437,6 @@ Varner,Varner,Lord Varner
 Stag,Stag
 First Keep,First Keep
 Quhuru,Mo,Quhuru Mo,Quhuru
-Lord Snow,Lord Snow
 Ser Emmon,Ser Emmon
 Guildhall,Guildhall
 Maiden,Maiden,Fair,Maiden Fair
