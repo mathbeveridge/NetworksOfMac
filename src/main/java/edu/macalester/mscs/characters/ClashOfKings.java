@@ -38,7 +38,7 @@ public class ClashOfKings {
             "Black", "Red", "Green", "Blue", "White", // colors
             "Land", "Lands", "Sea", "Seas", "Island", "Islands", "Isles", "Bay", "River", "Shore", "Point", // geographics
             "City", "Cities", "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", "Castle", "Lane", // landmarks
-            "Cruel", "Bold", "Brave", "Good", "Strong", "Bitter", "Sweet", // adjective titles
+            "Cruel", "Bold", "Brave", "Good", "Strong", "Bitter", "Sweet", "Bad", // adjective titles
             "Flowers", "Storm", "Bull", "Long", "Spring", "Bear", "Hot", "Pie", "Ben" // miscellaneous
     ));
 
@@ -92,7 +92,6 @@ public class ClashOfKings {
         finder.combineGroups("Eddard", "Ned");
         finder.combineGroups("Jon", "Lord Snow");
         finder.combineGroups("Bran", "Brandon Stark");
-        finder.combineGroups("Robert", "Usurper");
         finder.combineGroups("Petyr", "Littlefinger", "Paramount");
         finder.combineGroups("Daenerys", "Dany", "Khaleesi");
         finder.combineGroups("Joffrey", "Joff");
@@ -201,6 +200,7 @@ public class ClashOfKings {
         names.remove("Aerys Oakheart"); // unused
         names.remove("Walder Rivers");  // unused
         names.remove("Jon Fossoway");   // unused
+        names.remove("Rodrik Greyjoy"); // unused
         names.remove("Bleeding Star");  // ???
 
         Set<String> firstNames = finder.getFirstNames(names);

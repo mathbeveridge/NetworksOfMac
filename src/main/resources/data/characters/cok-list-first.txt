@@ -1,6 +1,6 @@
 Tyrion,Imp,Tyrion
 Jon,Snow,Jon,Arryn
-Bran,Daughterless,Bran,Bad,Brandon,Burner
+Bran,Daughterless,Bran,Brandon,Burner
 Arya,Lumpyface,Arya,Lumpyhead,Rabbitkiller,Stickboy,Underfoot
 Theon,Theon,Turncloak,Reek
 Stannis,Stannis
