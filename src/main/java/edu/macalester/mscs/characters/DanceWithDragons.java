@@ -111,14 +111,11 @@ public class DanceWithDragons {
         finder.combineGroups("Rattleshirt", "Lord of Bones");
         finder.combineGroups("Wyman", "Lord of White Harbor");
         finder.combineGroups("Randyll", "Lord Tarly");
-        finder.combineGroups("Balon Greyjoy", "Lord Greyjoy", "Lord of the Iron Islands");
-        finder.combineGroups("Mace", "Lord of Highgarden", "Lord Tyrell");
+        finder.combineGroups("Balon Greyjoy", "Lord of the Iron Islands");
+        finder.combineGroups("Mace", "Lord Tyrell");
         finder.combineGroups("Stannis", "Lord of Dragonstone");
         finder.combineGroups("Rickard Karstark", "Lord Karstark");
-        finder.combineGroups("Bryce", "Lord Caron");
         finder.combineGroups("Janos", "Lord Slynt");
-        finder.combineGroups("Donella", "Lady Hornwood");
-        finder.combineGroups("Emmon Cuy", "Ser Emmon");
 
         // manually add important names that get missed
         names.add("Varys");
