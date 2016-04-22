@@ -20,6 +20,7 @@ Haldon,Haldon
 Wyman,Lard,Wyman
 Mance,Mance,Rayder
 Roose,Roose,Bolton
+Hodor,Hodor
 Victarion,Victarion
 Edd,Tollett,Edd,Dolorous
 Gerris,Gerris

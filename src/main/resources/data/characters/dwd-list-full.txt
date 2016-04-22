@@ -25,6 +25,7 @@ Haldon,Haldon Halfmaester,Haldon
 Wyman,Lord Wyman,Lard,Lord Lard,Wyman,Lord of White Harbor,Wyman Manderly
 Mance,Mance,Rayder,Mance Rayder
 Roose,Roose,Roose Bolton,Lord Roose,Lord of the Dreadfort,Lord Bolton,Roose Ryswell
+Hodor,Hodor
 Victarion,Victarion,Victarion Greyjoy
 Dolorous,Edd Tollett,Tollett,Edd,Dolorous Edd,Dolorous,Dolorous Edd Tollett
 Gerris,Ser Gerris,Gerris,Gerris Drinkwater

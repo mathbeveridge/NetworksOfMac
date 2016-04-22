@@ -24,9 +24,10 @@ Wyman Manderly,Lord Wyman,Lard,Lord Lard,Wyman,Lord of White Harbor,Wyman Mander
 Mance Rayder,Mance,Rayder,Mance Rayder
 Roose Bolton,Roose,Roose Bolton,Lord Roose,Lord of the Dreadfort,Lord Bolton,Roose Ryswell
 Roose Ryswell,Roose,Roose Bolton,Lord Roose,Lord of the Dreadfort,Lord Bolton,Roose Ryswell
+Hodor,Hodor
 Victarion Greyjoy,Victarion,Victarion Greyjoy
+Edd Tollett,Edd Tollett,Tollett,Edd,Dolorous Edd,Dolorous,Dolorous Edd Tollett
 Gerris Drinkwater,Ser Gerris,Gerris,Gerris Drinkwater
-Edd,Edd Tollett,Tollett,Edd,Dolorous Edd,Dolorous,Dolorous Edd Tollett
 Robert Baratheon,Robert Baratheon,King Robert,Robert,Ser Robert,Robert Strong
 Robert Strong,Robert Baratheon,King Robert,Robert,Ser Robert,Robert Strong
 Eddard Stark,Eddard,Young Usurper,Ned Stark,Usurper,Lord Eddard,Eddard Stark,Ned Woods,Ned

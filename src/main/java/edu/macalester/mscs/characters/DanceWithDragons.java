@@ -59,6 +59,7 @@ public class DanceWithDragons {
         finder.removeWords("Reek Ramsay");
         finder.removeWords("Summer Islander King Robert");
         finder.removeWords("Pyke Lord Dagon");
+        finder.removeWords("Jon of Hodor");
 
         // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();
@@ -142,63 +143,36 @@ public class DanceWithDragons {
         // manually add important names that get missed
         names.add("Varamyr");
         names.add("Ben Bones");
-
-        names.add("Varys");
-        names.add("Hodor");
-        names.add("Yoren");
-        names.add("Qhorin Halfhand"); // note that in book one, his name was spelled "Quorin"
-        names.add("Gendry");
-        names.add("Bronn");
-        names.add("Rickon");
-        names.add("Shae");
-        names.add("Craster");
-        names.add("Xaro Xhoan Daxos");
-        names.add("Weese");
-        names.add("Osha");
-        names.add("Jaqen");
-        names.add("Pycelle");
-        names.add("Hot Pie");
-        names.add("Nan");
-        names.add("Rorge");
-        names.add("Pyat Pree");
-        names.add("Dagmer Cleftjaw");
-        names.add("Shagga");
-        names.add("Thoren Smallwood");
         names.add("Mance Rayder");
-        names.add("Salladhor Saan");
-        names.add("Lorren");
-        names.add("Timett");
-        names.add("Wex");
-        names.add("High Septon");
-        names.add("Edd");
-        names.add("Hallyne");
-        names.add("Ygritte");
-        names.add("Patchface");
-        names.add("Syrio Forel");
-        names.add("Aggo");
-        names.add("Bael");
-        names.add("Esgred");
-        names.add("Mikken");
-        names.add("Ebben");
-        names.add("Farlen");
+        names.add("Hodor");
+        names.add("Edd Tollett");
         names.add("Belwas");
-        names.add("Dywen");
-        names.add("Raff");
-        names.add("Alebelly");
-        names.add("Grenn");
-        names.add("Chataya");
-        names.add("Vylarr");
-        names.add("Allard");
-        names.add("Urzen");
-        names.add("Alayaya");
-        names.add("Rymund");
-        names.add("Arstan");
-        names.add("Jonquil");
-        names.add("Koss");
-        names.add("Chella");
-        names.add("Tysha");
+        names.add("Xaro Xhoan Daxos");
         names.add("Rattleshirt");
-        names.add("Mordane");
+        names.add("Pycelle");
+        names.add("High Septon");
+        names.add("Tysha");
+        names.add("Aggo");
+        names.add("Nan");
+        names.add("Shae");
+        names.add("Patchface");
+        names.add("Craster");
+        names.add("Dywen");
+        names.add("Dagmer Cleftjaw");
+        names.add("Lorren");
+        names.add("Rickon");
+        names.add("Qhorin Halfhand"); // note that in book one, his name was spelled "Quorin"
+        names.add("Grenn");
+        names.add("Mikken");
+        names.add("Wex");
+        names.add("Pyat Pree");
+        names.add("Raff");
+        names.add("Arstan");
+        names.add("Shagga");
+        names.add("Timett");
+        names.add("Jaqen");
+        names.add("Farlen");
+        names.add("Syrio Forel");
 
         // manually remove a few names that are either mistakes, duplicates, or unused
         names.remove("Ned Stark");      // as Eddard Stark

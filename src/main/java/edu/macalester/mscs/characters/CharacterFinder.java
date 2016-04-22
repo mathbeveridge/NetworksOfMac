@@ -529,8 +529,6 @@ public class CharacterFinder {
                 list.add(s);
                 list.addAll(characterGroups.getGroup(s));
                 groupMap.put(list, characterGroups.getAliasCount(s));
-            } else {
-                System.out.println(s);
             }
         }
 
@@ -578,8 +576,6 @@ public class CharacterFinder {
                 }
                 list.addAll(set);
                 groupMap.put(list, characterGroups.getAliasCount(name));
-            } else {
-                System.out.println(name);
             }
         }
 
