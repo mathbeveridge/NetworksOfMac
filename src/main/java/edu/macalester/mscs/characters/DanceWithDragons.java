@@ -65,6 +65,8 @@ public class DanceWithDragons {
         finder.removeWords("Summer Islander King Robert");
         finder.removeWords("Pyke Lord Dagon");
         finder.removeWords("Jon of Hodor");
+        finder.removeWords("Rhodry Lord Cerwyn");
+        finder.removeWords("Henly Lord Slate");
 
         // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();
@@ -118,27 +120,26 @@ public class DanceWithDragons {
         finder.combineGroups("Sandor", "Hound");
         finder.combineGroups("Jeor Mormont", "Old Bear", "Commander Mormont", "Lord Mormont");
         finder.combineGroups("Pycelle", "Grand Maester");
-        finder.combineGroups("Lysa", "Lady Arryn");
-        finder.combineGroups("Tywin", "Lord of Casterly Rock");
+        finder.combineGroups("Lysa", "Lady Arryn", "Lady of the Eyrie");
+        finder.combineGroups("Tywin", "Lord of Casterly Rock", "Lord Lannister");
         finder.combineGroups("Roose", "Lord of the Dreadfort", "Lord Bolton");
         finder.combineGroups("Loras", "Knight of Flowers");
-        finder.combineGroups("Davos", "Onion Knight");
+        finder.combineGroups("Davos", "Onion Knight", "Lord Seaworth");
         finder.combineGroups("Varys", "Spider");
         finder.combineGroups("Gregor", "Mountain");
-        finder.combineGroups("Balon", "Reaper");
+        finder.combineGroups("Balon Greyjoy", "Reaper", "Lord of the Iron Islands", "Lord of Pyke");
         finder.combineGroups("Theon", "Reek");
         finder.combineGroups("Cersei", "Queen Regent");
         finder.combineGroups("Rattleshirt", "Lord of Bones");
-        finder.combineGroups("Wyman", "Lord of White Harbor", "Lord Lard");
+        finder.combineGroups("Wyman", "Lord of White Harbor", "Lord Lard", "Lord Manderly");
         finder.combineGroups("Randyll", "Lord Tarly");
-        finder.combineGroups("Balon Greyjoy", "Lord of the Iron Islands");
         finder.combineGroups("Mace", "Lord Tyrell");
         finder.combineGroups("Stannis", "Lord of Dragonstone");
         finder.combineGroups("Rickard Karstark", "Lord Karstark");
         finder.combineGroups("Janos", "Lord Slynt");
         finder.combineGroups("Quentyn", "Frog");
         finder.combineGroups("Rolly", "Duck");
-        finder.combineGroups("Jon Connington", "Griff");
+        finder.combineGroups("Jon Connington", "Griff", "Lord Connington");
         finder.combineGroups("Tyrion", "Imp", "Hugor", "Yollo");
         finder.combineGroups("Hother", "Whoresbane");
         finder.combineGroups("Nymeria", "Nym");
@@ -150,12 +151,26 @@ public class DanceWithDragons {
         finder.combineGroups("Aerys", "Mad King");
         finder.combineGroups("Tattered Prince", "Tatters", "Rags");
         finder.combineGroups("Mance Rayder", "Abel");
-        finder.combineGroups("Barbrey", "Lady Dustin");
+        finder.combineGroups("Barbrey", "Lady Dustin", "Lady of Barrowton");
         finder.combineGroups("Ben Plumm", "Brown Ben");
         finder.combineGroups("Varamyr", "Lump");
         finder.combineGroups("Salladhor", "Salla");
         finder.combineGroups("Aegor", "Bittersteel");
         finder.combineGroups("Cleon", "Butcher King");
+        finder.combineGroups("Tytos Blackwood", "Lord of Raventree");
+        finder.combineGroups("Godric", "Lord Borrell", "Lord of Sweetsister");
+        finder.combineGroups("Harwood Stout", "Lord Stout");
+        finder.combineGroups("Paxter", "Lord Redwyne");
+        finder.combineGroups("Rodrik Ryswell", "Lord Ryswell");
+        finder.combineGroups("Brandon Norrey", "Lord Norrey");
+        finder.combineGroups("Jonos", "Lord Bracken");
+        finder.combineGroups("Tytos Blackwood", "Lord Blackwood");
+        finder.combineGroups("Lord Hornwood", "Lord of the Hornwood");
+        finder.combineGroups("Willam", "Lord Dustin");
+        finder.combineGroups("Shrouded Lord", "Prince of Sorrows");
+        finder.combineGroups("Sansa", "Lady Lannister");
+        finder.combineGroups("Sybelle", "Lady Glover");
+        finder.combineGroups("Melisandre", "Lady Red");
 
         // manually add important names that get missed
         names.add("Ben Bones");
