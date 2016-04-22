@@ -25,16 +25,16 @@ public class DanceWithDragons {
 
     // Words that are not unique, but may still be descriptive, expecially in combination
     public static final Set<String> TITLE_WORDS = new HashSet<>(Arrays.asList(
-            "Lord", "Lady", "King", "Queen", "Regent", "Steward", "Prince", "Princess", // royal titles
-            "Ser", "Maester", "Captain", "Commander", "Magister", "Master", "Builder",
-            "Septon", "Septa", "Knight", "Shipwright", "Goodwife", "Ranger", "Squire", // professional titles
+            "Lord", "Lady", "King", "Queen", "Regent", "Steward", "Prince", "Princess", "Triarch", // royal titles
+            "Ser", "Maester", "Captain", "Commander", "Magister", "Master", "Builder", "Knight",
+            "Septon", "Septa", "Shipwright", "Goodwife", "Ranger", "Squire", "Admiral", // professional titles
             "Khal", "Ko" // dothraki titles
     ));
 
     // Words that are not unique, but may still be descriptive, expecially in combination
     public static final Set<String> GENERAL_WORDS = new HashSet<>(Arrays.asList(
             "The", // titular articles
-            "Young", "Old", "Fat", "Big", "Little", "Bastard", "Boy", "Deaf", "Blind", // endearing titles
+            "Young", "Old", "Fat", "Big", "Little", "Small", "Bastard", "Boy", "Deaf", "Blind", "Hero", // endearing titles
             "High", "Great", "Grand", "First", "Second", // superlatives
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
             "Black", "Red", "Green", "Blue", "White", "Grey", "Brown", "Yellow", // colors
@@ -44,8 +44,9 @@ public class DanceWithDragons {
             "Bridge", "Sept", "Harbor", // landmarks
             "Cruel", "Bold", "Brave", "Good", "Strong", "Bitter", "Sweet", "Bad", "Clever", "Cautious",
             "Wise", "Craven", "Poor", "Pretty", "Scared", "Homeless", "Hot", "Shy", "True", "Mad", "Blessed",
-            "Queer", // adjective titles
-            "Bear", "Iron", "Beggar", "Whore", "Wench", "Grandfather", "Water", "Crow", "Wolf" // miscellaneous
+            "Queer", "Sour", "Cunning", "Hairy", // adjective titles
+            "Bear", "Iron", "Beggar", "Whore", "Wench", "Grandfather", "Water", "Crow", "Wolf", "Shepherd",
+            "Dance", "Butcher" // miscellaneous
     ));
 
     // Words that are sometimes placed between first and last names
@@ -70,6 +71,7 @@ public class DanceWithDragons {
         Set<String> pluralizedNames = finder.getPluralizedNames();
         pluralizedNames.remove("Walder");
         pluralizedNames.remove("Cat");
+        pluralizedNames.remove("Aegon");
         Set<String> surnames = finder.getSurnames();
         Set<String> names = finder.getNamesBySurname(surnames);
         names.addAll(titledNames);
@@ -98,20 +100,23 @@ public class DanceWithDragons {
         nondescriptors.addAll(surnames);
         nondescriptors.addAll(WordUtils.getPlurals(surnames));
         nondescriptors.addAll(places);
+        nondescriptors.add("Qarl");
+        nondescriptors.add("Jack");
+        nondescriptors.add("Ralf");
 
         // build character groups
         finder.buildCharacterGroups(nondescriptors);
 
         // manually combine more character groups
         finder.combineGroups("Eddard", "Ned", "Usurper");
-        finder.combineGroups("Jon", "Lord Snow");
+        finder.combineGroups("Jon", "Lord Snow", "Lord Crow");
         finder.combineGroups("Bran", "Brandon Stark");
         finder.combineGroups("Petyr", "Littlefinger");
         finder.combineGroups("Daenerys", "Dany", "Khaleesi");
         finder.combineGroups("Joffrey", "Joff");
         finder.combineGroups("Samwell", "Sam");
         finder.combineGroups("Sandor", "Hound");
-        finder.combineGroups("Jeor Mormont", "Old Bear", "Commander Mormont", "Lord Mormont", "Lord Crow");
+        finder.combineGroups("Jeor Mormont", "Old Bear", "Commander Mormont", "Lord Mormont");
         finder.combineGroups("Pycelle", "Grand Maester");
         finder.combineGroups("Lysa", "Lady Arryn");
         finder.combineGroups("Tywin", "Lord of Casterly Rock");
@@ -134,7 +139,7 @@ public class DanceWithDragons {
         finder.combineGroups("Quentyn", "Frog");
         finder.combineGroups("Rolly", "Duck");
         finder.combineGroups("Jon Connington", "Griff");
-        finder.combineGroups("Tyrion", "Imp", "Hugor");
+        finder.combineGroups("Tyrion", "Imp", "Hugor", "Yollo");
         finder.combineGroups("Hother", "Whoresbane");
         finder.combineGroups("Nymeria", "Nym");
         finder.combineGroups("Barristan", "Ser Grandfather");
@@ -143,6 +148,14 @@ public class DanceWithDragons {
         finder.combineGroups("Morgan", "Middle Liddle");
         finder.combineGroups("Yezzan", "Yellowbelly");
         finder.combineGroups("Aerys", "Mad King");
+        finder.combineGroups("Tattered Prince", "Tatters", "Rags");
+        finder.combineGroups("Mance Rayder", "Abel");
+        finder.combineGroups("Barbrey", "Lady Dustin");
+        finder.combineGroups("Ben Plumm", "Brown Ben");
+        finder.combineGroups("Varamyr", "Lump");
+        finder.combineGroups("Salladhor", "Salla");
+        finder.combineGroups("Aegor", "Bittersteel");
+        finder.combineGroups("Cleon", "Butcher King");
 
         // manually add important names that get missed
         names.add("Ben Bones");
@@ -152,13 +165,82 @@ public class DanceWithDragons {
         names.add("Missandei");
         names.add("Varamyr");
         names.add("Belwas");
+        names.add("Tattered Prince");
+        names.add("Jeyne Poole");
+        names.add("Irri");
+        names.add("Othell Yarwyck");
+        names.add("Moqorro");
+        names.add("Grey Worm");
+        names.add("Meris");
+        names.add("Yandry");
         names.add("Xaro Xhoan Daxos");
+        names.add("Aero Hotah");
+        names.add("Dick Straw");
+        names.add("Dick Follard");
+        names.add("Dick Cole");
+        names.add("Yellow Dick");
+        names.add("Joffrey");
+        names.add("Jhiqui");
+        names.add("Wun");
+        names.add("Emmett");
+        names.add("Gilly");
+        names.add("Nurse");
+        names.add("Khrazz");
         names.add("Rattleshirt");
+        names.add("Holly");
+        names.add("Rowan");
+        names.add("Ysilla");
+        names.add("Mully");
+        names.add("Haggon");
+        names.add("Caggo");
         names.add("Pycelle");
+        names.add("Garth");
+        names.add("Bloodbeard");
+        names.add("Symon Stripeback");
+        names.add("Alyn");
         names.add("High Septon");
+        names.add("Hobb");
+        names.add("Barsena");
+        names.add("Coldhands");
+        names.add("Weeper");
+        names.add("Aeron");
+        names.add("Damon");
+        names.add("Hugh Hungerford");
+        names.add("Rhaegal");
+        names.add("Benerro");
+        names.add("Rakharo");
+        names.add("Skinner");
         names.add("Tysha");
+        names.add("Hagen");
         names.add("Aggo");
+        names.add("Jhogo");
+        names.add("Thistle");
+        names.add("Qezza");
         names.add("Nan");
+        names.add("Qavo Nogarys");
+        names.add("Donal Noye");
+        names.add("Leaf");
+        names.add("Squirrel");
+        names.add("Kasporio");
+        names.add("Goghor");
+        names.add("Belaquo");
+        names.add("Balaq");
+        names.add("Cromm");
+        names.add("Pynto");
+        names.add("Gerrick");
+        names.add("Petyr Baelish");
+        names.add("Wick Whittlestick");
+        names.add("Torgon Greyiron");
+        names.add("Marselen");
+        names.add("Sigorn");
+        names.add("Rory");
+        names.add("Bump");
+        names.add("Stalwart Shield");
+        names.add("Grimtongue");
+        names.add("Owen");
+        names.add("Kyra");
+
+        // 10 or less occurrences, but previously relevant
         names.add("Shae");
         names.add("Patchface");
         names.add("Craster");

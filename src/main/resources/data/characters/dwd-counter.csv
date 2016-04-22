@@ -307,7 +307,6 @@ Roost,16
 Benerro,16
 Rakharo,16
 Selaesori Qhoran,16
-Sour Alyn,15
 Light,15
 Lyseni,15
 Qartheen,15
@@ -352,7 +351,7 @@ Caggo,14
 High Valyrian,14
 Yurkhaz zo Yunzak,14
 Thistle,14
-Small,13
+Sour Alyn,13
 Elia,13
 King Hizdahr,13
 Iron Islands,13
@@ -463,14 +462,13 @@ Lysene,10
 Brynden,10
 Skahaz mo Kandaq,10
 Arbor,10
-Hero,10
 Jack Bulwer,10
 Usurper,10
 Lord Manderly,10
 Straw,10
 Craster,10
-Groat,10
 Doom,10
+Groat,10
 Hornwood,10
 Robb Stark,10
 Dywen,10
@@ -715,7 +713,6 @@ Zhak,6
 Toad,6
 Old Ghis,6
 Lord Davos,6
-Dance,6
 Lysono Maar,6
 Brusco,6
 Old Flint,6
@@ -971,7 +968,6 @@ Graces,4
 Neck,4
 Ten Towers,4
 Tully,4
-Admiral Groleo,4
 Ronnet,4
 Stone,4
 Sixskins,4
@@ -984,8 +980,8 @@ Qaggaz,4
 Morgan Liddle,4
 Myrtle,4
 Pointed,4
-Marlon,4
 Giant,4
+Marlon,4
 Marghaz zo Loraq,4
 Queenscrown,4
 Duckfield,4
@@ -1071,8 +1067,8 @@ Lord Hornwood,3
 Lord Bracken,3
 Good Masters,3
 Bay of Seals,3
-Roggon,3
 Lord Varys,3
+Roggon,3
 Fourteen,3
 Stick,3
 Harma Dogshead,3
@@ -1088,8 +1084,8 @@ Burned,3
 Daemon Blackfyre,3
 Kedry,3
 Tytos Blackwood,3
-Red Lamb,3
 Jon Stark,3
+Red Lamb,3
 Selhoru,3
 Cregan Karstark,3
 Maester Caleotte,3
@@ -1153,6 +1149,7 @@ Rhaegar Frey,3
 Gerold Dayne,3
 Tallharts,3
 Tristifer Botley,3
+Admiral Groleo,3
 Storm Crow,3
 Hother Umber,3
 Lord of the Hornwood,3
@@ -1218,8 +1215,8 @@ Mogat,2
 Vale of Arryn,2
 Cock,2
 Lazy Eel,2
-Maester Medrick,2
 Ser Duck,2
+Maester Medrick,2
 Raymun,2
 Jax,2
 Elza,2
@@ -1296,8 +1293,8 @@ Maids,2
 Chroyane,2
 Danny Flint,2
 Cotter,2
-Honeytree,2
 Harl,2
+Honeytree,2
 Rabbit,2
 Reader,2
 Feast,2
@@ -1332,7 +1329,6 @@ Lord Plumm,2
 Wash,2
 Talker,2
 Ser Gerold,2
-Triarch Malaquo,2
 Shadow,2
 Velos,2
 Gallows Gate,2
@@ -1390,8 +1386,8 @@ Bay of Ice,2
 Lady Val,2
 Pureborn,2
 Queen of Cities,2
-Khal Jhaqo,2
 Morna White Mask,2
+Khal Jhaqo,2
 Old Way,2
 Dayne,2
 Casterlys,2
@@ -1468,8 +1464,8 @@ Quenton Greyjoy,2
 Holdfast,2
 Greenstone,2
 Urho,2
-Lady Asha,2
 Urrax,2
+Lady Asha,2
 Burned Tower,2
 Norreys,2
 Alliser,2
@@ -1482,6 +1478,7 @@ Daeron,2
 Shagga,2
 Lady of Barrowton,2
 Wildlings,2
+Dance of the Dragons,2
 Conquest,2
 Harvest Hall,2
 Moat,2
@@ -1553,7 +1550,6 @@ Quentyn the Craven,1
 Triston,1
 Garth the Gross,1
 Wyls,1
-Butcher,1
 Urho the Unwashed,1
 Ralf,1
 Gendel,1
@@ -1575,9 +1571,9 @@ White Graces,1
 Dick Cole,1
 Prendahl,1
 Arstan Whitebeard,1
-Izembaro,1
 Treasure,1
 Lord Renly,1
+Izembaro,1
 Kems,1
 Stanny,1
 Princess Daena,1
@@ -1641,12 +1637,11 @@ Salladhor the Splendid,1
 Fountain,1
 Varamyr Threeskins,1
 Willas,1
+Hightower,1
 Simon Toyne,1
 Sealords,1
-Hightower,1
 Melara Hetherspoon,1
 Oldforge,1
-Admiral,1
 Donnel Hill,1
 Pretty Maris,1
 Lord Merryweather,1
@@ -1658,8 +1653,8 @@ Lord Ryswell,1
 King of Westeros,1
 Gerrold Redback,1
 Lancel Lannister,1
-Seat,1
 Lord of the Three Sisters,1
+Seat,1
 Lord of Raventree,1
 Harsley,1
 Symon,1
@@ -1685,6 +1680,7 @@ Artos the Implacable,1
 Ash,1
 Shrike,1
 Aegons,1
+Hero of the Unsullied,1
 King Jaehaerys,1
 Lynesse,1
 Rossart,1
@@ -1720,16 +1716,15 @@ Axe,1
 Lord of Casterly Rock,1
 Came Too Late,1
 Aerion Targaryen,1
-Cunning,1
 Mors Crowfood,1
-Red Bull,1
 Lhazarene the Lamb,1
+Red Bull,1
 Towers,1
 Wonders Made,1
 Cider Hall,1
 Princess Elia,1
-Slayer,1
 Garse,1
+Slayer,1
 Ravishment,1
 Darkling,1
 Daryn Hornwood,1
@@ -1741,11 +1736,11 @@ King of Andals,1
 Ithoke,1
 Headless Jeyne,1
 Dragonpit,1
-Baelor the Beloved,1
 Master of Breakwater Castle,1
+Baelor the Beloved,1
 Jack Musgood,1
-Kennet,1
 Monster,1
+Kennet,1
 Prestayn,1
 Witch,1
 Tickler,1
@@ -1790,8 +1785,8 @@ Lhorulu,1
 Lollys Stokeworth,1
 Hugor Halfmaester,1
 Lord Baelor,1
-Lord Tarly,1
 Dream,1
+Lord Tarly,1
 Oledo,1
 Locke,1
 King Harzoo,1
@@ -1819,7 +1814,6 @@ Aeron Damphair,1
 Patternmaker,1
 Ser Kennos,1
 Old Falcon,1
-Triarch Horonno,1
 Mudd,1
 Giants,1
 Lord of Griffin,1
@@ -1895,8 +1889,8 @@ Lady of the Waves,1
 Rahloo,1
 Griffin Seat,1
 Chains,1
-Lord Marshal,1
 Humbles,1
+Lord Marshal,1
 Helman Tallhart,1
 Mountains,1
 Ghazdor the Great,1
@@ -1912,9 +1906,9 @@ Kingswood Brotherhood,1
 Nakloz,1
 Florian,1
 Sparr,1
+Meadowlarks,1
 Goddess,1
 Stricklands,1
-Meadowlarks,1
 Henly Lord Slate,1
 Melantine,1
 Great Barrow,1
@@ -1934,7 +1928,6 @@ Alison,1
 Pree,1
 Prince of Sorrows,1
 Harghaz,1
-Hairy Butt Crack,1
 Leona,1
 Laughing,1
 Coals,1
@@ -1946,6 +1939,7 @@ Fulk,1
 Ryman Frey,1
 Bronze,1
 Arthor Karstark,1
+Triarch Malaquo,1
 Lord Fowler,1
 Rainwood,1
 Walton,1
@@ -1994,11 +1988,11 @@ Ser Pounce,1
 Maester Myles,1
 Strongs,1
 Saduleon,1
-Lewyn Martell,1
 Fields,1
+Lewyn Martell,1
 Lord Chester,1
-Jezhene,1
 Rhodry Lord Cerwyn,1
+Jezhene,1
 Triston Sunderland,1
 Beat,1
 Lord Dagon,1
@@ -2009,15 +2003,15 @@ Dorne Quentyn Martell,1
 Kinslayer,1
 Lord Lefford,1
 Big Bucket,1
-Seven Lamps,1
 Stair,1
+Seven Lamps,1
 Bold Voyager,1
-Maron,1
 Weeping Lady,1
 Vulture King,1
+Maron,1
 Lord Lannister,1
-Mead,1
 Commander of the Night,1
+Mead,1
 Lady Imp,1
 Grazdan mo Eraz,1
 Kedge Whiteye,1
@@ -2037,7 +2031,6 @@ The Dance,1
 Lord Dondarrion,1
 Foghouse,1
 Jhaqo,1
-Triarch,1
 Century,1
 Snakes,1
 Castamere,1
@@ -2051,8 +2044,8 @@ Lady of Spears,1
 Hole,1
 Lockes,1
 Lysono,1
-El,1
 Qarl the Thrall,1
+El,1
 Lord Tyrion,1
 Harmond Umber,1
 Loptail,1
@@ -2076,8 +2069,8 @@ Ib,1
 Woodhedge,1
 Prince Trystane,1
 Aemon the Dragonknight,1
-Great Pit,1
 Forrester,1
+Great Pit,1
 Rhee,1
 Sam the Slayer,1
 Smiler,1
@@ -2091,8 +2084,8 @@ Benjicot Branch,1
 Yunkish Supreme Commander,1
 King Daeron,1
 Sleepiness,1
-Hizdak,1
 Tattersalt,1
+Hizdak,1
 Yos Dob,1
 Manfryd Merlyn,1
 Cult,1
@@ -2128,18 +2121,18 @@ Tygett,1
 Moon Boy,1
 Auntie,1
 Quentyn the Cautious,1
-Sour,1
 Lord of Karhold,1
 Ser Arys,1
 Lord of the Iron Islands,1
 Lho,1
 Bountiful Harvest,1
 Mullin,1
-Qarl Quickaxe,1
 Thousand Thrones,1
+Qarl Quickaxe,1
 Lands of the Long Summer,1
 Hag,1
 Tyene Sand,1
+Butt Crack,1
 Theon the Clever,1
 Tower of the Hand,1
 Ruddy Hall,1
@@ -2168,8 +2161,8 @@ Velosi,1
 King of Seals,1
 Manly Stokeworth,1
 Hoarfrost Umber,1
-Tall Trees,1
 Balerion the Black Dread,1
+Tall Trees,1
 Black Canal,1
 Prayer,1
 Shark,1
@@ -2212,6 +2205,7 @@ Eroehs,1
 Harmune,1
 Egon Emeros the Exquisite,1
 Lady Taena,1
+Admiral of the Narrow Sea,1
 Armond Connington,1
 Malo Jayn,1
 Korra the Cruel,1
@@ -2282,8 +2276,8 @@ Pureborn Princess,1
 Lord Varamyr,1
 Lord Sweet,1
 Hazdar,1
-Sea Dragon,1
 Majesty,1
+Sea Dragon,1
 Onion,1
 Walders Big,1
 Cray,1
@@ -2308,8 +2302,8 @@ Greyiron,1
 Rutting Meadow,1
 Wyldes,1
 Hornwoods,1
-Cleon the Second,1
 Borrells,1
+Cleon the Second,1
 Mopatis,1
 Ser Glendon,1
 Merling Queen,1
@@ -2317,8 +2311,8 @@ Kennos,1
 Qarl Shepherd,1
 Brynden Blackfish,1
 Teeth,1
-Southshield,1
 Walys,1
+Southshield,1
 Queen Rhaella,1
 Wells,1
 Desmond,1
@@ -2329,8 +2323,8 @@ Slates,1
 Snowy Sept,1
 Fingerdancer,1
 Lady of Ghost Hill,1
-Humfrey,1
 Leviathan,1
+Humfrey,1
 Horseface,1
 Second Daughters,1
 Iron Gate,1
@@ -2358,14 +2352,14 @@ Salty,1
 Greyshield,1
 Vanity,1
 Maester Uthor,1
-Ser Osney,1
 The Death,1
+Ser Osney,1
 Qarl Kenning,1
 Blackhair,1
 Harzoo,1
 Dragonbinder,1
-Bole,1
 General,1
+Bole,1
 Bokkoko,1
 Blind Beth,1
 Euron Greyjoy,1
@@ -2382,13 +2376,13 @@ Greyfeather,1
 First King,1
 Lord of the Arbor,1
 Grisella,1
-Mounts the World,1
 Tormund Giantstink,1
+Mounts the World,1
 Azzak Ghazeen,1
 Lances,1
 Jocelyn,1
-Moon,1
 Pudding Face,1
+Moon,1
 Warrior Wench,1
 Pretty Penny,1
 The Fires,1
@@ -2437,8 +2431,8 @@ Blackmyre,1
 Hand Lucas Codd,1
 Redgrass Field,1
 Andal,1
-Eladon Goldenhair,1
 Black Bastard,1
+Eladon Goldenhair,1
 Khyzai,1
 Harlon Stark,1
 Adrack Humble,1
@@ -2561,7 +2555,6 @@ Nogarys,0
 Azor,0
 Silent,0
 Benethon,0
-Shepherd,0
 Emeros,0
 Wing,0
 Bargeman,0
@@ -2668,8 +2661,8 @@ Bryen,0
 Nhai,0
 Lazy,0
 Merrell,0
-Armond,0
 Alester,0
+Armond,0
 Glendon,0
 Brazen,0
 Darklyn,0
@@ -2684,7 +2677,6 @@ Harper,0
 Ibben,0
 Waves,0
 Servant,0
-Hairy,0
 Mint,0
 Smoking,0
 Maar,0
@@ -2718,8 +2710,8 @@ Ny,0
 Hamish,0
 Lew,0
 Selaesori,0
-Byrne,0
 Bald,0
+Byrne,0
 Monkeys,0
 Howd,0
 Rolfe,0
@@ -2846,8 +2838,8 @@ Pigeon,0
 Ahai,0
 Mirror,0
 Knife,0
-Realm,0
 Narrow,0
+Realm,0
 Cape,0
 Bearded,0
 Bone,0
@@ -2877,4 +2869,4 @@ Unnatural,0
 Victory,0
 Qhoyne,0
 
-2878
+2870
