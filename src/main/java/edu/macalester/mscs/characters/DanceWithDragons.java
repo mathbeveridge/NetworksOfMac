@@ -20,7 +20,7 @@ public class DanceWithDragons {
             "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons", "Daughter", "Cousin", // familial references
             "Men", "Man", "And", "Sleepy", "Worship", "Magnificence", "Planky", "Town", "Beyond",
             "Dornish", "Wedding", "Common", "Velvet", "Noble", "Broken", "Star", "Tongue", "Took",
-            "Glass", "Winter" // miscellaneous
+            "Glass", "Winter"//, "Queer" // miscellaneous
     ));
 
     // Words that are not unique, but may still be descriptive, expecially in combination
@@ -43,7 +43,8 @@ public class DanceWithDragons {
             "City", "Cities", "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", "Castle", "Lane",
             "Bridge", "Sept", "Harbor", // landmarks
             "Cruel", "Bold", "Brave", "Good", "Strong", "Bitter", "Sweet", "Bad", "Clever", "Cautious",
-            "Wise", "Craven", "Poor", "Pretty", "Scared", "Homeless", "Hot", "Shy", "True", "Mad", "Blessed", // adjective titles
+            "Wise", "Craven", "Poor", "Pretty", "Scared", "Homeless", "Hot", "Shy", "True", "Mad", "Blessed",
+            "Queer", // adjective titles
             "Bear", "Iron", "Beggar", "Whore", "Wench", "Grandfather", "Water", "Crow", "Wolf" // miscellaneous
     ));
 
@@ -144,11 +145,12 @@ public class DanceWithDragons {
         finder.combineGroups("Aerys", "Mad King");
 
         // manually add important names that get missed
-        names.add("Varamyr");
         names.add("Ben Bones");
         names.add("Mance Rayder");
         names.add("Hodor");
         names.add("Edd Tollett");
+        names.add("Missandei");
+        names.add("Varamyr");
         names.add("Belwas");
         names.add("Xaro Xhoan Daxos");
         names.add("Rattleshirt");

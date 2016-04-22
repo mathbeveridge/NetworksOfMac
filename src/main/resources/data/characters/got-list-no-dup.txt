@@ -24,7 +24,7 @@ Cersei,Cersei Lannister,Queen Cersei,Cersei
 Renly,Lord Renly,Lord of Storm,King Renly,Renly,Renly Baratheon
 Septa,Septa Mordane,Septa,Mordane
 Viserys,Viserys Targaryen,Prince Viserys,Viserys
-Pycelle,Pycelle,Grand Maester Pycelle,Maester Pycelle,Grand Maester
+Pycelle,Pycelle,Maester Pycelle,Grand Maester
 Sandor,Sandor Clegane,Sandor,Ser Sandor,Hound
 Jory,Jory Cassel,Jory
 Gregor,Gregor the Mountain,Mountain,Gregor Clegane,Ser Gregor,Gregor
@@ -141,7 +141,7 @@ Jhaqo,Jhaqo,Khal Jhaqo,Ko Jhaqo
 Wylis,Wylis Manderly,Wylis,Ser Wylis
 Jonos,Lord Jonos,Lord Bracken,Jonos,Jonos Bracken
 Robar,Robar,Robar Royce,Ser Robar
-Malleon,Maester Malleon,Grand Maester Malleon,Malleon
+Malleon,Maester Malleon,Malleon
 Horas,Ser Horror,Horror,Horas Redwyne,Horas,Ser Horas
 Cotter,Pyke,Cotter,Cotter Pyke
 Jafer,Jafer,Jafer Flowers
@@ -187,10 +187,12 @@ Naerys,Naerys,Queen Naerys
 Podrick,Podrick Payne,Podrick
 Morton,Ser Morton,Morton Waynwood,Morton
 Preston,Preston,Ser Preston,Preston Greenfield
+Mern,Mern,King Mern
 Rowan,Rowan,Lord Rowan
 Olyvar,Olyvar,Olyvar Frey
 Serrett,Serrett,Lord Serrett
 Theo,Ser Theo,Wull,Theo,Theo Wull
+Loren,King Loren,Loren
 Albar,Ser Albar,Albar Royce,Albar
 Ryam,Ryam Redwyne,Ryam
 Andar,Andar Royce,Andar

@@ -28,7 +28,6 @@ Gerris,Gerris
 Robert,Robert
 Eddard,Eddard,Usurper,Ned
 Jorah,Jorah
-Ben,Belly,Ben,Bearded
 Rolly,Duck,Rolly
 Kevan,Kevan
 Val,Val
@@ -38,6 +37,7 @@ Rhaegar,Rhaegar
 Yezzan,Yellowbelly,Yezzan
 Samwell,Slayer,Sam,Samwell
 Tommen,Tommen
+Missandei,Missandei
 Varamyr,Sixskins,Threeskins,Varamyr
 Belwas,Belwas
 Justin,Justin
@@ -64,6 +64,7 @@ Arnolf,Arnolf
 Myrcella,Myrcella
 Viserys,Viserys
 Tris,Tris
+Ben,Ben
 Unella,Unella
 Jeor,Mormont,Jeor
 Nym,Nym,Nymeria
@@ -76,7 +77,6 @@ Brynden,Blackfish,Brynden
 Devan,Devan
 Galbart,Galbart
 Scolera,Scolera
-Pycelle,Pycelle
 Arianne,Arianne
 Mors,Mors,Crowfood
 Clayton,Clayton
@@ -86,8 +86,8 @@ Cotter,Cotter
 Hother,Hother,Whoresbane
 Cletus,Cletus
 Shireen,Shireen
+Septon
 Godric,Godric
-High
 Hosteen,Hosteen
 Sansa,Sansa
 Tytos,Tytos
@@ -95,11 +95,13 @@ Jonos,Jonos
 Cellador,Cellador
 Dagon,Dagon,Drunkard
 Patrek,Patrek
+Jack,Musgood,Crabb,Jack
 Archibald,Archibald
 Salladhor,Smashed,Salladhor,Splendid
 Rodrik,Cassel,Rodrik,Reader
 Franklyn,Franklyn
 Rickard,Rickard,Karstark
+Ralf,Stonehouse,Limper,Ralf
 Harwood,Harwood,Fell
 Richard,Richard
 Tyene,Tyene
@@ -173,6 +175,7 @@ Wobblecheeks,Wobblecheeks,Ghazdor
 Quenton,Quenton
 Longwater,Longwater
 Pono,Pono
+Bill,Bill
 Barth,Barth
 Loras,Loras
 Maegor,Maegor
@@ -285,6 +288,7 @@ Osgood,Osgood
 Ryman,Ryman
 Tremond,Gargalen,Tremond
 Kraznys,Kraznys
+Bearded,Bearded
 Uthor,Uthor
 Marshal,Marshal
 Bumpkin,Bumpkin

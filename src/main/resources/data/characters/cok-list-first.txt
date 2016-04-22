@@ -49,7 +49,7 @@ Lancel,Lancel
 Pycelle,Pycelle
 Janos,Slynt,Janos
 Dontos,Dontos
-Hot
+Pie
 Mandon,Mandon
 Amory,Amory
 Gregor,Mountain,Gregor
@@ -82,7 +82,7 @@ Timett,Timett
 Wex,Wex
 Tanda,Tanda
 Drogo,Drogo
-High
+Septon
 Jhogo,Jhogo
 Hallyne,Hallyne,Pyromancer
 Selyse,Selyse
@@ -130,7 +130,7 @@ Benfred,Benfred
 Guyard,Guyard
 Illyrio,Illyrio,Mopatis
 Wyman,Harbor,Wyman
-Benjen,Benjen
+Benjen,Benjen,Stark
 Greatjon,Umber,Greatjon
 Vylarr,Vylarr
 Osfryd,Osfryd

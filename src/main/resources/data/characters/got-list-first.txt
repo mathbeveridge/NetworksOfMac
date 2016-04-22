@@ -112,9 +112,9 @@ Dareon,Dareon
 Tobho,Mott,Tobho
 Stevron,Stevron
 Nestor,Nestor
+Septon
 Morrec,Morrec
 Colemon,Colemon
-High
 Cayn,Cayn
 Galbart,Galbart
 Maegor,Maegor,Cruel
@@ -191,7 +191,9 @@ Maekar,Maekar
 Rowan,Rowan
 Theo,Wull,Theo
 Wyman,Wyman
+Loren,Loren
 Ryam,Ryam
+Mern,Mern
 Morton,Morton
 Naerys,Naerys
 Dontos,Dontos

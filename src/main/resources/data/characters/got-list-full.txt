@@ -25,7 +25,7 @@ Renly,Lord Renly,Lord of Storm,King Renly,Renly,Renly Baratheon
 Septa,Septa Mordane,Septa,Mordane
 Greywater,Greywater,Commander of the City Watch of King,Watch,Greywater Watch,Commander of the City Watch
 Viserys,Viserys Targaryen,Prince Viserys,Viserys
-Pycelle,Pycelle,Grand Maester Pycelle,Maester Pycelle,Grand Maester
+Pycelle,Pycelle,Maester Pycelle,Grand Maester
 Sandor,Sandor Clegane,Sandor,Ser Sandor,Hound
 Jory,Jory Cassel,Jory
 Ghost,Ghost
@@ -85,8 +85,8 @@ Meryn,Meryn Trant,Meryn,Ser Meryn
 Janos,Slynt,Janos Slynt,Lord Slynt,Janos
 Ilyn,Ilyn,Ilyn Payne,Ser Ilyn
 Aegon,Aegon the Conqueror,Aegon the Fortunate,Aegon,Aegon the Dragonlord,Aegon the Dragon,Aegon Targaryen,Conqueror,Fortunate,Aegon Dragonlord
-Free,Free Folk,Pentos,Folk,Magister of the Free City of Pentos,Free,Nine Free Cities
 Toad,Toad
+Free,Free Folk,Pentos,Folk,Magister of the Free City of Pentos,Free
 Marillion,Marillion
 Waymar,Waymar Royce,Waymar,Ser Waymar
 Hoster,Lord Hoster,Hoster Tully,Hoster,Lord of Riverrun
@@ -206,11 +206,11 @@ Flea,Flea,Flea Bottom,Bottom
 Jhaqo,Jhaqo,Khal Jhaqo,Ko Jhaqo
 Wylis,Wylis Manderly,Wylis,Ser Wylis
 Dornish,Dornish Marches,Dornish
-Malleon,Maester Malleon,Grand Maester Malleon,Malleon
 Sealord,Sealord
 Blackwater,Blackwater,Blackwater Rush,Rush
 Jonos,Lord Jonos,Lord Bracken,Jonos,Jonos Bracken
 Robar,Robar,Robar Royce,Ser Robar
+Malleon,Maester Malleon,Malleon
 Cotter,Pyke,Cotter,Cotter Pyke
 Yi,Yi,Yi Ti,Ti
 Whispering,Whispering Wood,Whispering Woods,Whispering
@@ -292,10 +292,8 @@ Podrick,Podrick Payne,Podrick
 Lord of Highgarden,Lord of Highgarden
 Preston,Preston,Ser Preston,Preston Greenfield
 Lady Frey,Lady Frey
-Aethelmure,Maester Aethelmure,Aethelmure,Grand Maester Aethelmure
 Merchant,Votyris,Merchant,Merchant Captain Byan Votyris,Byan
 Wolf,Young Wolf,Wolf
-Othell,Othell,Othell Yarwyck,Yarwyck,First Builder Othell Yarwyck
 Lord Tyrell,Lord Tyrell
 Harren,Black Harren,Harren
 Lann,Lann,Clever,Lann the Clever
@@ -303,6 +301,7 @@ Gods Eye,Gods Eye
 Rowan,Rowan,Lord Rowan
 Jogos,Jogos,Jogos Nhai,Nhai
 Robin,Flint,Robin,Robin Flint
+Othell,Othell,Othell Yarwyck,Yarwyck
 Theo,Ser Theo,Wull,Theo,Theo Wull
 Loren,King Loren,Loren
 Lord of Light,Lord of Light
@@ -330,6 +329,7 @@ Serrett,Serrett,Lord Serrett
 Cart,Cart King,Cart
 Albar,Ser Albar,Albar Royce,Albar
 Ryam,Ryam Redwyne,Ryam
+Aethelmure,Maester Aethelmure,Aethelmure
 Andar,Andar Royce,Andar
 Dothrak,Dothrak
 Gate of the Gods,Gate of the Gods

@@ -209,7 +209,7 @@ public class CharacterFinder {
      */
     public String stripTitle(String name) {
         String[] split = name.split(" ");
-        if (split.length > 1 && isTitleWord(split[0]) && WordUtils.isCapitalized(split[1])) {
+        if (split.length > 1 && isGeneralWord(split[0]) && WordUtils.isCapitalized(split[1])) {
             return StringUtils.substringAfter(name, " ");
         } else {
             return name;

@@ -49,7 +49,7 @@ Jacelyn Bywater,Bywater,Lord Bywater,Ser Jacelyn,Lord Jacelyn,Jacelyn,Jacelyn By
 Tommen,Tommen,Prince Tommen
 Jaqen,Jaqen
 Lancel Lannister,Ser Lancel,Lancel,Lancel Lannister
-Pycelle,Pycelle,Grand Maester Pycelle,Maester Pycelle,Grand Maester
+Pycelle,Pycelle,Maester Pycelle,Grand Maester
 Janos Slynt,Janos Slynt,Lord Slynt,Lord Janos,Janos
 Dontos,Dontos the Red,Ser Dontos,Dontos
 Hot Pie,Hot Pie
@@ -102,9 +102,9 @@ Mikken,Mikken
 Bael,Bael,Bael the Bard,Bard
 Ebben,Ebben
 Lollys Stokeworth,Lollys,Lollys Stokeworth,Castle Stokeworth,Lady Lollys,Stokeworth
-Imry Florent,High Captain Ser Imry Florent,Imry Florent,Imry,Ser Imry
 Farlen,Farlen
 Osmund Kettleblack,Ser Osmund,Osmund Kettleblack,Osmund
+Imry Florent,Imry Florent,Imry,Ser Imry
 Donella Hornwood,Donella,Lady Hornwood,Donella Hornwood,Lady Donella
 Viserys,Viserys
 Harren,Black Harren,Harren the Black,King Harren,Harren
