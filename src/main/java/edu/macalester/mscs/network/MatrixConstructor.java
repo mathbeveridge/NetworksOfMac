@@ -34,9 +34,17 @@ public class MatrixConstructor {
 		 * Clash of Kings
 		 */
 
-		String text = getText("src/main/resources/text/clashofkings.txt");
-		String characterString = getCharacterString("src/main/resources/data/characters/cok-list-curated.txt");
-		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 2, 1, "curated");
+//		String text = getText("src/main/resources/text/clashofkings.txt");
+//		String characterString = getCharacterString("src/main/resources/data/characters/cok-list-curated.txt");
+//		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 2, 1, "curated");
+
+		/**
+		 * Dance with Dragons
+		 */
+
+		String text = getText("src/main/resources/text/dancewithdragons.txt");
+		String characterString = getCharacterString("src/main/resources/data/characters/dwd-list-no-dup.txt");
+		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 5, 1, "no-dup");
 	}
 
 	/**
