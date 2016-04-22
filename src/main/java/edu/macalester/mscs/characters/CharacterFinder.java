@@ -141,7 +141,7 @@ public class CharacterFinder {
                         toAdd = phrase.toString();
                     } else {
                         if (phrase != null) {
-                            if (part.equals(" ") || part.equals("of") || part.equals("the")) {
+                            if (part.equals(" ") || part.equals("of") || part.equals("the") || part.equals("zo")) {
                                 phrase.append(part);
                             } else {
                                 if (!isGeneralWord(toAdd)) {
@@ -170,7 +170,7 @@ public class CharacterFinder {
                         toAdd = phrase.toString();
                     } else {
                         if (phrase != null) {
-                            if (part.equals(" ") || part.equals("of") || part.equals("the")) {
+                            if (part.equals(" ") || part.equals("of") || part.equals("the") || part.equals("zo")) {
                                 phrase.append(part);
                             } else {
                                 if (!isGeneralWord(toAdd)) {
@@ -299,11 +299,19 @@ public class CharacterFinder {
         for (String cap : words) {
             String name = stripTitle(cap);
             String[] split = name.split(" ");
-            if (split.length == 2 && !isGeneralWord(split[0]) && !isGeneralWord(split[1])) {
-                if (once.contains(split[1])) {
-                    surnames.add(split[1]);
-                } else {
-                    once.add(split[1]);
+            if (!isGeneralWord(split[0])) {
+                if (split.length == 2 && !isGeneralWord(split[1])) {
+                    if (once.contains(split[1])) {
+                        surnames.add(split[1]);
+                    } else {
+                        once.add(split[1]);
+                    }
+                } else if (split.length == 3 && split[1].equals("zo")) {
+                    if (once.contains(split[2])) {
+                        surnames.add(split[2]);
+                    } else {
+                        once.add(split[2]);
+                    }
                 }
             }
         }
@@ -321,7 +329,7 @@ public class CharacterFinder {
         String notPlacesString = notPlaces.toString();
         for (String cap : words) {
             if (cap.contains(" of ")) {
-                String place = cap.substring(cap.indexOf(" of") + 4);
+                String place = StringUtils.substringAfter(cap, " of ");
                 if (place.startsWith("the")) {
                     place = place.substring(4);
                 }
@@ -363,7 +371,8 @@ public class CharacterFinder {
         for (String cap : words) {
             String name = stripTitle(cap);
             String[] split = name.split(" ");
-            if (split.length == 2 && !isGeneralWord(split[0]) && surnames.contains(split[1])) {
+            if (!isGeneralWord(split[0]) && (split.length == 2 && surnames.contains(split[1])
+                    || split.length == 3 && split[1].equals("zo") && surnames.contains(split[2]))) {
                 if (words.contains(name)) {
                     names.add(name);
                 } else {

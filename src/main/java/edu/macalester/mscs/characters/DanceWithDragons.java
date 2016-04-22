@@ -16,10 +16,10 @@ public class DanceWithDragons {
             "My", "She", "He", "His", "Her", "We", "They", "Their", "You", "Your", "It", // pronouns
             "This", "That", "There", // indirect pronouns
             "Who", "Why", "What", "Will", // questions
-            "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", "Grace", // GoT specific
-            "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons", // familial references
+            "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", "Grace", "God", // GoT specific
+            "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons", "Cousin", // familial references
             "Men", "Man", "And", "Sleepy", "Worship", "Magnificence", "Planky", "Town",
-            "Beyond", "Dornish" // miscellaneous
+            "Beyond", "Dornish", "Wedding", "Common", "Velvet", "Noble", "Broken" // miscellaneous
     ));
 
     // Words that are not unique, but may still be descriptive, expecially in combination
@@ -33,15 +33,17 @@ public class DanceWithDragons {
     // Words that are not unique, but may still be descriptive, expecially in combination
     public static final Set<String> GENERAL_WORDS = new HashSet<>(Arrays.asList(
             "The", // titular articles
-            "Young", "Old", "Fat", "Big", "Little", "Bastard", "Boy", "Deaf", // endearing titles
+            "Young", "Old", "Fat", "Big", "Little", "Bastard", "Boy", "Deaf", "Blind", // endearing titles
             "High", "Great", "Grand", "First", "Second", // superlatives
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
             "Black", "Red", "Green", "Blue", "White", "Grey", "Brown", "Yellow", // colors
-            "Land", "Lands", "Sea", "Seas", "Island", "Islands", "Isles", "Bay", "River", "Shore", "Point", // geographics
-            "City", "Cities", "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", "Castle", "Lane", // landmarks
+            "Land", "Lands", "Sea", "Seas", "Island", "Islands", "Isles", "Bay", "River", "Shore", "Point",
+            "Lake", // geographics
+            "City", "Cities", "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", "Castle", "Lane",
+            "Bridge", "Sept", // landmarks
             "Cruel", "Bold", "Brave", "Good", "Strong", "Bitter", "Sweet", "Bad", "Clever", "Cautious",
-            "Wise", "Craven", "Poor", "Pretty", // adjective titles
-            "Bear", "Iron" // miscellaneous
+            "Wise", "Craven", "Poor", "Pretty", "Scared", "Homeless", "Hot", "Shy", // adjective titles
+            "Bear", "Iron", "Beggar", "Whore", "Wench", "Grandfather", "Water" // miscellaneous
     ));
 
     public static void main(String[] args) {
@@ -54,6 +56,7 @@ public class DanceWithDragons {
         finder.incrementName("Petyr", 0);
         finder.removeWords("Reek Ramsay");
         finder.removeWords("Summer Islander King Robert");
+        finder.removeWords("Pyke Lord Dagon");
 
         // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();
@@ -63,7 +66,7 @@ public class DanceWithDragons {
 //        surnames.remove("Bywater");
         names.addAll(titledNames);
         Set<String> places = finder.getPlaces(names);
-//        places.add("Casterly");
+        places.add("Vale");
         Set<String> lonely = finder.getLonelyWords();
 
 //        System.out.println(titledNames);
@@ -123,8 +126,15 @@ public class DanceWithDragons {
         finder.combineGroups("Quentyn", "Frog");
         finder.combineGroups("Rolly", "Duck");
         finder.combineGroups("Jon Connington", "Griff");
+        finder.combineGroups("Tyrion", "Imp");
+        finder.combineGroups("Hother", "Whoresbane");
+        finder.combineGroups("Nymeria", "Nym");
+        finder.combineGroups("Barristan", "Ser Grandfather");
+        finder.combineGroups("Ghazdor", "Wobblecheeks");
 
         // manually add important names that get missed
+        names.add("Varamyr");
+
         names.add("Varys");
         names.add("Hodor");
         names.add("Yoren");
@@ -164,10 +174,8 @@ public class DanceWithDragons {
         names.add("Mikken");
         names.add("Ebben");
         names.add("Farlen");
-        names.add("Viserys");
         names.add("Belwas");
         names.add("Dywen");
-        names.add("Devan");
         names.add("Raff");
         names.add("Alebelly");
         names.add("Grenn");
@@ -187,11 +195,14 @@ public class DanceWithDragons {
 
         // manually remove a few names that are either mistakes, duplicates, or unused
         names.remove("Ned Stark");      // as Eddard Stark
-        names.remove("Brandon Stark");  // as Bran Stark
+        names.remove("Jon Stark");      // as Jon Snow
+        names.remove("Daenerys Stormborn"); // as Daenerys Targaryen
+        names.remove("Frog");           // as Quentyn Martell
+        names.remove("Arya Horseface"); // as Quentyn Martell
+        names.remove("Arya Underfoot"); // as Quentyn Martell
         names.remove("Joff");           // as Joffrey Baratheon
         names.remove("Sam Tarly");      // as Samwell Tarly
         names.remove("Ben Stark");      // as Benjen Stark
-        names.remove("Ranger");         // as Benjen Stark
         names.remove("Theon Stark");    // as Theon Greyjoy
         names.remove("Theon Turncloak");// as Theon Greyjoy
         names.remove("Brynden Blackfish");  // as Brynden Tully
@@ -200,15 +211,19 @@ public class DanceWithDragons {
         names.remove("Paramount");      // as Petyr Baelish
         names.remove("Reaper");         // as Balon Greyjoy
         names.remove("Eunuch");         // as Varys
-        names.remove("Grey Wind");      // dire wolf
-        names.remove("Walder Freys");   // mistake
+        names.remove("Varamyr Threeskins"); // as Varamyr
+        names.remove("Varamyr Sixskins");   // as Varamyr
+        names.remove("Godry Giantslayer");  // as Godry Farring
+        names.remove("Euron Crow");     // as Euron Greyjoy
+        names.remove("Hugor Halfmaester");  // as Hugor Hill
+        names.remove("Mad Aerys");      // as Aerys Targaryen
+        names.remove("Whoresbane Umber");   // as Hother Umber
+        names.remove("Hizdahr Loraq");  // as Hizdahr zo Loraq
         names.remove("Aegon Targaryen");// unused, too problematic
-        names.remove("Torrhen Stark");  // unused
-        names.remove("Aerys Oakheart"); // unused
-        names.remove("Walder Rivers");  // unused
-        names.remove("Jon Fossoway");   // unused
-        names.remove("Rodrik Greyjoy"); // unused
-        names.remove("Bleeding Star");  // ???
+        names.remove("Brandon Norrey"); // unused
+        names.remove("Roose Ryswell");  // unused
+        names.remove("Lu");             // named axe
+        names.remove("Fiery Hand");     // mistake
 
         Set<String> firstNames = finder.getFirstNames(names);
 
