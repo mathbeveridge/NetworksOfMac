@@ -1,12 +1,12 @@
 Tyrion,Imp,Tyrion
+Arya,Lumpyface,Arya,Lumpyhead,Arry,Rabbitkiller,Stickboy,Underfoot
 Jon,Snow,Jon,Arryn
 Bran,Daughterless,Bran,Brandon,Burner
-Arya,Lumpyface,Arya,Lumpyhead,Rabbitkiller,Stickboy,Underfoot
 Theon,Theon,Turncloak,Reek
 Stannis,Stannis
 Joffrey,Illborn,Joffrey,Joff
+Catelyn,Cat,Catelyn,Stark
 Sansa,Sansa
-Catelyn,Catelyn,Stark
 Renly,Renly
 Cersei,Cersei
 Robb,Robb
@@ -82,7 +82,6 @@ Timett,Timett
 Wex,Wex
 Tanda,Tanda
 Drogo,Drogo
-Arry,Arry
 High
 Jhogo,Jhogo
 Hallyne,Hallyne,Pyromancer
