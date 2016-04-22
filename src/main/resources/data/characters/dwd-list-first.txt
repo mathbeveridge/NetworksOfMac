@@ -54,7 +54,7 @@ Doran,Doran
 Euron,Euron
 Janos,Slynt,Janos
 Rattleshirt,Rattleshirt
-Aerys,Mad,Aerys
+Aerys,Aerys
 Axell,Axell
 Gregor,Mountain,Gregor
 Arnolf,Arnolf
@@ -77,7 +77,6 @@ Pycelle,Pycelle
 Arianne,Arianne
 Mors,Mors,Crowfood
 Clayton,Clayton
-Crowfood,Mors,Crowfood
 Yurkhaz,Yurkhaz
 Galazza,Galazza
 Cotter,Cotter
@@ -90,7 +89,6 @@ Hosteen,Hosteen
 Sansa,Sansa
 Tytos,Tytos
 Jonos,Jonos
-Winter,Winter,Always
 Cellador,Cellador
 Dagon,Dagon,Drunkard
 Patrek,Patrek
@@ -101,7 +99,6 @@ Franklyn,Franklyn
 Rickard,Rickard,Karstark
 Harwood,Harwood,Fell
 Richard,Richard
-Blessed,Blessed,Beloved,Befuddled,Baelor
 Tyene,Tyene
 Tysha,Tysha
 Randyll,Randyll,Tarly
@@ -112,6 +109,7 @@ Aggo,Aggo
 Qyburn,Qyburn
 Lancel,Lancel
 Nan,Nan
+Baelor,Beloved,Befuddled,Baelor
 Elia,Elia
 Margaery,Margaery
 Ellaria,Ellaria
@@ -203,6 +201,7 @@ Alysane,Alysane
 Beric,Dondarrion,Beric
 Edrick,Snowbeard,Edrick
 Zekko,Zekko
+Aegon,Aegon
 Redfort,Redfort
 Renly,Renly
 Munkun,Munkun

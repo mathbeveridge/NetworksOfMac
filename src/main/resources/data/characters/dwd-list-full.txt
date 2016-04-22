@@ -104,9 +104,9 @@ Janos,Janos Slynt,Lord Slynt,Lord Janos,Janos
 Nurse,Nurse
 Leathers,Leathers
 Hardhome,Hardhome
-Mad,Mad,Mad King Aerys,Mad King,King Aerys,Aerys Targaryen,Aerys,Mad Aerys
 Khrazz,Khrazz
 Rattleshirt,Lord of Bones,Rattleshirt
+Aerys,Mad King Aerys,Mad King,King Aerys,Aerys Targaryen,Aerys,Mad Aerys
 Mole,Mole
 Me,Me
 Gregor,Gregor Clegane,Mountain,Ser Gregor,Gregor
@@ -185,7 +185,6 @@ Barsena,Barsena Blackhair,Barsena,Blackhair
 Hosteen,Ser Hosteen,Hosteen,Hosteen Frey
 Coldhands,Coldhands
 Pyramid,Pyramid,Great Pyramid
-Always,Winter,Winter Maid,Always,Land of Always Winter
 Weeper,Weeper
 Lady Dustin,Lady Dustin
 Death,Death,The Death
@@ -220,7 +219,6 @@ Barrow,Barrow Hall,Long Barrow,Great Barrow,Barrow
 Tyene,Tyene Sand,Tyene
 Harwood,Harwood,Harwood Stout,Harwood Fell,Lord Fell,Fell
 Tysha,Tysha
-Baelor,Blessed,Baelor the Blessed,Beloved,Blessed Baelor,Befuddled,King Baelor,Lord Baelor,Baelor the Befuddled,Baelor,Baelor the Beloved
 Lhazarene,Lhazarene,Red Lamb,Lamb,Lhazarene the Lamb
 Hagen,Hagen,Hagen the Horn
 Franklyn,Franklyn,Franklyn Flowers,Ser Franklyn
@@ -245,6 +243,7 @@ Elia,Princess Elia,Elia
 High Valyrian,High Valyrian
 Greyguard,Greyguard
 Kasporio,Kasporio the Cunning,Kasporio the Cunt,Cunt,Cunning,Kasporio
+Baelor,Baelor the Blessed,Beloved,Blessed Baelor,Befuddled,King Baelor,Lord Baelor,Baelor the Befuddled,Baelor,Baelor the Beloved
 Pentoshi,Pentoshi
 Small,Small,Small Paul,Paul
 Hardin,Hardin
@@ -1335,6 +1334,7 @@ Foghouse,Foghouse
 Quagg,Quagg
 Spicers,Spicers
 Blackfyre Rebellions,Blackfyre Rebellions
+Land of Always,Land of Always
 Bear Mormont,Bear Mormont
 Lord of Pyke,Lord of Pyke
 Blackbuckle,Blackbuckle

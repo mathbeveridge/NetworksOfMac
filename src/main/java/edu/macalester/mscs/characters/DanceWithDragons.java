@@ -20,7 +20,7 @@ public class DanceWithDragons {
             "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons", "Daughter", "Cousin", // familial references
             "Men", "Man", "And", "Sleepy", "Worship", "Magnificence", "Planky", "Town", "Beyond",
             "Dornish", "Wedding", "Common", "Velvet", "Noble", "Broken", "Star", "Tongue", "Took",
-            "Glass" // miscellaneous
+            "Glass", "Winter" // miscellaneous
     ));
 
     // Words that are not unique, but may still be descriptive, expecially in combination
@@ -43,7 +43,7 @@ public class DanceWithDragons {
             "City", "Cities", "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", "Castle", "Lane",
             "Bridge", "Sept", "Harbor", // landmarks
             "Cruel", "Bold", "Brave", "Good", "Strong", "Bitter", "Sweet", "Bad", "Clever", "Cautious",
-            "Wise", "Craven", "Poor", "Pretty", "Scared", "Homeless", "Hot", "Shy", "True", // adjective titles
+            "Wise", "Craven", "Poor", "Pretty", "Scared", "Homeless", "Hot", "Shy", "True", "Mad", "Blessed", // adjective titles
             "Bear", "Iron", "Beggar", "Whore", "Wench", "Grandfather", "Water", "Crow", "Wolf" // miscellaneous
     ));
 
@@ -137,6 +137,7 @@ public class DanceWithDragons {
         finder.combineGroups("Arya", "Arry", "Cat");
         finder.combineGroups("Morgan", "Middle Liddle");
         finder.combineGroups("Yezzan", "Yellowbelly");
+        finder.combineGroups("Aerys", "Mad King");
 
         // manually add important names that get missed
         names.add("Varamyr");
@@ -231,10 +232,8 @@ public class DanceWithDragons {
         names.remove("Hugor Halfmaester");  // as Tyrion Lannister
         names.remove("Ramsay Bolton");  // as Ramsay Snow
         names.remove("Duck");           // as Rolly Duckfield
+        names.remove("Crowfood Umber"); // as Mors Umber
 
-        names.remove("Aegon Targaryen");// unused, too problematic
-        names.remove("Brandon Norrey"); // unused
-        names.remove("Roose Ryswell");  // unused
         names.remove("Eyed Maid");      // unused
         names.remove("Lu");             // named axe
         names.remove("Pounce");         // a cat

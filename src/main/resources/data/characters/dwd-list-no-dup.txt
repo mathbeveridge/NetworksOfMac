@@ -53,8 +53,8 @@ Jojen,Jojen Reed,Jojen
 Euron,Euron,Euron Crow,Euron Greyjoy
 Doran,Prince Doran,Doran,Doran Martell
 Janos,Janos Slynt,Lord Slynt,Lord Janos,Janos
-Aerys,Mad,Mad King Aerys,Mad King,King Aerys,Aerys Targaryen,Aerys,Mad Aerys
 Rattleshirt,Lord of Bones,Rattleshirt
+Aerys,Mad King Aerys,Mad King,King Aerys,Aerys Targaryen,Aerys,Mad Aerys
 Arnolf,Arnolf Karstark,Arnolf,Lord Arnolf
 Axell,Axell,Axell Florent,Ser Axell
 Gregor,Gregor Clegane,Mountain,Ser Gregor,Gregor
@@ -71,7 +71,6 @@ Cleon,King Cleon,Cleon the Second,Cleon,Cleon the Great
 Devan,Devan Seaworth,Devan
 Brynden,Lord Brynden,Brynden Blackfish,Blackfish,Ser Brynden,Brynden,Brynden Tully
 Pycelle,Pycelle,Grand Maester Pycelle,Maester Pycelle,Grand Maester
-Crowfood,Mors,Crowfood,Crowfood Umber,Mors Umber,Mors Crowfood
 Arianne,Princess Arianne,Arianne
 Scolera,Scolera,Septa Scolera
 Clayton,Clayton Suggs,Ser Clayton,Clayton
@@ -89,7 +88,6 @@ Tytos,Tytos Blackwood,Tytos Lannister,Lord Tytos,Tytos
 Sansa,Sansa,Sansa Stark
 Jonos,Lord Jonos,Jonos,Jonos Bracken
 Dagon,Dagon,Drunkard,Dagon Codd,Lord Dagon,Dagon Greyjoy,Dagon the Drunkard
-Winter,Winter,Winter Maid,Always,Land of Always Winter
 Cellador,Cellador,Septon Cellador
 Rodrik,Cassel,Lord Rodrik,Rodrik,Rodrik Stark,Rodrik the Reader,Ser Rodrik,Rodrik Cassel,Reader,Rodrik Ryswell
 Archibald,Archibald,Archibald Yronwood,Ser Archibald
@@ -102,12 +100,12 @@ Tyene,Tyene Sand,Tyene
 Richard,Richard Horpe,Richard,Ser Richard
 Harwood,Harwood,Harwood Stout,Harwood Fell,Lord Fell,Fell
 Tysha,Tysha
-Blessed,Blessed,Baelor the Blessed,Beloved,Blessed Baelor,Befuddled,King Baelor,Lord Baelor,Baelor the Befuddled,Baelor,Baelor the Beloved
 Aggo,Aggo
 Aenys,Aenys Frey,Aenys,Ser Aenys
 Tycho,Nestoris,Lord Tycho,Tycho Nestoris,Tycho
 Qyburn,Lord Qyburn,Qyburn
 Moelle,Moelle,Septa Moelle
+Baelor,Baelor the Blessed,Beloved,Blessed Baelor,Befuddled,King Baelor,Lord Baelor,Baelor the Befuddled,Baelor,Baelor the Beloved
 Elia,Princess Elia,Elia
 Lancel,Ser Lancel,Lancel,Lancel Lannister
 Nan,Nan,Old Nan

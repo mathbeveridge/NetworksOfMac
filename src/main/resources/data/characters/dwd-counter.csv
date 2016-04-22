@@ -363,7 +363,6 @@ Longclaw,13
 Tyrosh,13
 Merchant,13
 Doran,13
-Winter,13
 Qyburn,13
 Balon,13
 Daznak,13
@@ -523,6 +522,7 @@ King Tommen,9
 Magister Illyrio,9
 Kingslayer,9
 Shieldhall,9
+Maid,9
 Oh,9
 Karstarks,9
 Long Lances,9
@@ -572,7 +572,6 @@ Adventure,8
 Peasebury,8
 Quaithe,8
 Cregan,8
-Maid,8
 Ben Plumm,8
 Barristan the Bold,8
 Steelskin,8
@@ -1270,7 +1269,6 @@ Wild,2
 Bedwyck,2
 Oberyn Martell,2
 Lymond Pease,2
-Blessed,2
 Galbart,2
 Rhoynish,2
 Canal,2
@@ -2049,13 +2047,11 @@ Foghouse,1
 Jhaqo,1
 Triarch,1
 Century,1
-Land of Always Winter,1
 Snakes,1
 Castamere,1
 Whent,1
 Great Norvos,1
 Skane,1
-Winter Maid,1
 Pease,1
 Dragonbreaker,1
 Artos,1
@@ -2305,7 +2301,6 @@ Walders Big,1
 Cray,1
 Lord Bowen,1
 Hoarfrost Hill,1
-Mad,1
 Mag,1
 Longs,1
 Quaro,1
@@ -2315,6 +2310,7 @@ Ragged,1
 Redwyne Straits,1
 Black Flame,1
 Jaehaerys the Conciliator,1
+Land of Always,1
 Benevolence,1
 Hall of Lamps,1
 Kingdoms,1
@@ -2891,4 +2887,4 @@ Unnatural,0
 Victory,0
 Qhoyne,0
 
-2892
+2888
