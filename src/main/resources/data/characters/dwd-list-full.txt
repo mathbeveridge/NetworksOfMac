@@ -1,5 +1,5 @@
 Jon,Jon Snow,Jon Connington,Jon Arryn,Griff,Lord Snow,Jon,Jon Stark,Lord Jon,Young Griff
-Tyrion,Lady Imp,Tyrion Lannister,Imp,Tyrion,Lord Tyrion
+Tyrion,Hugor,Hugor Halfwit,Lady Imp,Halfwit,Hugor Halfmaester,Tyrion Lannister,Imp,Hugor Hill,Tyrion,Lord Tyrion
 Daenerys,Daenerys Stormborn,Stormborn,Daenerys Targaryen,Dany,Khaleesi,Queen Daenerys,Daenerys
 Theon,Theon,Theon Turncloak,Theon the Clever,Theon Greyjoy,Theon Kinslayer,Theon Stark,Kinslayer,Turncloak,Reek
 Stannis,Lord of Dragonstone,Lord Stannis,King Stannis,Stannis Baratheon,Stannis
@@ -11,18 +11,18 @@ Bran,Bran,Brandon Norrey,Brandon the Shipwright,Brandon,Brandon Stark,Brandon th
 Asha,Asha,Asha Greyjoy,Lady Asha
 Davos,Onion Lord,Davos,Onion Knight,Lord Davos,Onion,Davos Seaworth
 Skahaz,Skahaz Shavepate,Skahaz,Shavepate
+Arya,Arya Underfoot,Lady Arya,Arya,Arry,Spotted,Cat,Arya Horseface,Arya Stark,Horseface,Underfoot,Spotted Cat
 Reznak,Reznak
 Daario,Naharis,Daario,Daario Naharis,Lord Daario
 Melisandre,Lady Melisandre,Melisandre
 Tormund,Tormund Giantsbane,Giantsbane,Tormund Horn,Tormund Giantsbutt,Tormund Giantsbabe,Giantsbabe,Tormund Thunderfist,Giantsbutt,Tormund,Tormund Giantstink,Giantstink,Thunderfist
 Cersei,Queen Regent,Queen Cersei,Cersei Lannister,Cersei
-Wyman,Lord Wyman,Purple Harbor,Purple,Harbor,Wyman,Purple Lotus,Lotus,Lord of White Harbor,Wyman Manderly
 Volantis,Volantis,Old Volantis
 Bowen,Bowen Marsh,Bowen,Lord Bowen,Marsh
 Jaime,Jaime,Jaime Lannister
 Watch,Watch,City Watch
 Haldon,Haldon Halfmaester,Haldon
-Arya,Arya Underfoot,Lady Arya,Arya,Arya Horseface,Arya Stark,Horseface,Underfoot
+Wyman,Lord Wyman,Lard,Lord Lard,Wyman,Lord of White Harbor,Wyman Manderly
 Mance,Mance,Rayder,Mance Rayder
 Roose,Roose,Roose Bolton,Lord Roose,Lord of the Dreadfort,Lord Bolton,Roose Ryswell
 Victarion,Victarion,Victarion Greyjoy
@@ -40,8 +40,8 @@ Val,Val,Lady Val
 Meera,Meera,Meera Reed
 Tywin,Lord of Casterly Rock,Tywin Lannister,Lord Tywin,Tywin
 Ghiscari,Dawn,Ghiscari Dawn,Dawn Age,Ghiscari,Age,Old Ghiscari
-Yezzan,Qaggaz,Yezzan,Yezzan zo Qaggaz
 Golden,Company,Great Pit,Golden Company,Pit,Golden Pit,Golden Fields,Golden
+Yezzan,Yellowbelly,Lord Yellowbelly,Yezzan,Yezzan zo Qaggaz
 Rhaegar,Rhaegar,Prince Rhaegar,Rhaegar Targaryen,Rhaegar Frey
 Samwell,Sam Tarly,Sam the Slayer,Samwell Tarly,Slayer,Sam the Scared,Sam,Samwell
 Drogon,Drogon
@@ -52,7 +52,6 @@ Iron Throne,Iron Throne
 Queer,Qarl Shepherd,Queer,Qarl the Maid,Black Shepherd,Kenning,Thrall,Limper,Qarl the Thrall,Ralf the Limper,Qarl Quickaxe,Quickaxe,Qarl,Ralf,Great Shepherd,Shepherd,Stonehouse,Ralf Kenning,Red Ralf Stonehouse,Queer Qarl Kenning
 Varamyr,Sixskins,Threeskins,Varamyr Threeskins,Varamyr,Varamyr Sixskins,Lord Varamyr
 Deepwood,Deepwood Motte,Motte,Deepwood
-Theodan,Old Tongue,Tongue,True History,Theodan,Ser Theodan,Theodan the True,Telling,True,True Tongue,True Telling
 Others,Others
 Belwas,Belwas,Strong Belwas
 Yunkish,Yunkish Supreme Commander,Supreme,Yunkish
@@ -69,6 +68,7 @@ Castle Black,Castle Black
 Tattered,Tattered,Tattered Prince
 Masters,Masters,Wise Masters,Good Masters,Great Masters
 Robb,King Robb,Robb,Robb Stark
+Walder,Walder,Walder Frey,Lord Walder,Big Walder Frey,Little Walder Frey,Little Walder,Big Walder
 Shy Maid,Shy Maid
 Aemon,Aemon the Dragonknight,Aemon Targaryen,Maester Aemon,Dragonknight,Aemon
 Moqorro,Moqorro
@@ -97,7 +97,6 @@ Doran,Prince Doran,Doran,Doran Martell
 Emmett,Emmett,Iron Emmett
 Willing,Isle,Fair Maids,Maiden,Fair,Willing Maiden,Velos,Fair Isle,Fair Velos,Willing,Maiden Fair
 Moat,Moat,Cailin,Moat Cailin
-Hugor,Hugor,Hugor Halfwit,Halfwit,Hugor Halfmaester,Hugor Hill
 Meereenese,Meereenese
 Gilly,Gilly
 Yollo,Yollo
@@ -130,13 +129,12 @@ Yunkishmen,Yunkishmen
 Unella,Septa Unella,Unella
 Mully,Mully
 Obara,Obara Sand,Obara
-Yurkhaz,Yunzak,Yurkhaz,Yurkhaz zo Yunzak
 Magnar,Magnar
+Jeor Mormont,Lord Mormont,Lord Crow,Jeor Mormont,Old Bear,Commander Mormont
 Haggon,Haggon
 Nymeria,Nym,Nymeria,Lady Nym
 Volantene,Volantene
 Alys,Lady Alys,Alys,Alys Karstark
-Old Bear,Lord Mormont,Lord Crow,Old Bear,Commander Mormont
 Volantenes,Volantenes
 Admiral,Groleo,Admiral,Admiral Groleo
 Toregg,Trees,Toregg the Tall,Tall Trees,Toregg,Tall
@@ -160,6 +158,7 @@ Cotter,Cotter,Cotter Pyke
 Last,Last,Last River,Hearth,Last Hearth
 Garth,Greyfeather,Garth Greyfeather,Garth,Gross,Garth the Gross
 Bloodbeard,Bloodbeard
+Yurkhaz,Yurkhaz,Yurkhaz zo Yunzak
 Yellow City,Yellow City
 End,End
 Galazza,Galazza,Galazza Galare
@@ -290,10 +289,8 @@ Hornfoot,Hornfoot
 Prince Aegon,Prince Aegon
 Jade,Jade Sea,Compendium,Jade Gates,Jade,Jade Compendium,Gates
 Alliser,Alliser Thorne,Ser Alliser,Alliser
-Spotted,Spotted,Spotted Cat
 Myles,Myles Toyne,Myles,Maester Myles
 Petyr,Petyr Baelish,Baelish,Lord Littlefinger,Littlefinger,Petyr
-Little Walder,Little Walder
 Not,Not
 Lord of Winterfell,Lord of Winterfell
 Wick,Wick,Wick Whittlestick,Whittlestick
@@ -392,7 +389,6 @@ Kiss,Kiss,Iron Kiss
 Duskendale,Duskendale
 Steelskin,Steelskin
 Ghoyan,Ghoyan Drohe,Ghoyan,Drohe
-Big Walder,Big Walder
 Narbert,Narbert,Ser Narbert
 Harlaw,Harlaw
 Catelyn,Lady Catelyn,Catelyn,Catelyn Tully
@@ -406,6 +402,7 @@ Grazdan,Grazdan zo Galare,Grazdan
 Raymun,Raymun,Raymun Redbeard
 Mopatis,Illyrio Mopatis,Mopatis
 Adventure,Adventure
+Purple,Purple Harbor,Purple,Purple Lotus,Lotus
 Boros,Boros Blount,Ser Boros,Boros
 Robin,Robin
 Rickon,Rickon
@@ -427,6 +424,7 @@ Rolfe,Dwarf,Rolfe,Rolfe the Dwarf
 Umma,Umma
 Kerwin,Kerwin
 Pyp,Pyp
+Cats,Cats
 Caleotte,Caleotte,Maester Caleotte
 Jaehaerys,Jaehaerys,Jaehaerys the Conciliator,Conciliator,King Jaehaerys,Jaehaerys the Wise
 Sealord,Sealord
@@ -439,6 +437,7 @@ Pahl,Pahl
 Lysono,Lysono Maar,Maar,Lysono
 Meryn,Meryn Trant,Meryn,Ser Meryn
 Nine Free Cities,Nine Free Cities
+Morgan,Morgan,Morgan Liddle,Middle,Middle Liddle
 Volon,Therys,Volon,Volon Therys
 Mantarys,Mantarys
 Daeron,Daeron the Good,Daeron,King Daeron,Daeron the Second,Daeron the Dragon
@@ -513,7 +512,6 @@ Grenn,Grenn
 Bloody,Bloody Bridge,Bloody
 Sandor,Sandor Clegane,Sandor,Hound
 Gerold,Gerold Dayne,Ser Gerold,Gerold
-Walder Frey,Walder Frey
 Girl,Girl General,General,Girl
 Gatehouse,Gatehouse Tower,Gatehouse
 Luton,Luton
@@ -547,8 +545,8 @@ Sothoryos,Sothoryos
 Life,The Life,Life
 Ezzara,Ezzara
 Harmune,Maester Harmune,Harmune
-Lord Walder,Lord Walder
 Towers,Towers,Ten Towers
+Unnatural,True History,Unnatural,Unnatural History,History
 Orson,Orson,Ser Orson,Orson Stone
 Gerion,Gerion Lannister,Gerion
 Ronald,Ser Ronald,Ronald,Ronald Storm,Ronald Connington
@@ -556,7 +554,6 @@ Tolosi,Tolosi
 Ragman,Ragman
 Ibbenese,Ibbenese
 One Eye,One Eye
-Morgan,Morgan,Morgan Liddle
 Ashara,Ashara Dayne,Ashara
 Hildy,Hildy
 Peace,Peace
@@ -613,6 +610,7 @@ Bite,Bite
 Brogg,Brogg
 Queensguard,Queensguard
 Fourteen,Fourteen,Fourteen Flames
+Off,Off
 Halfman,Halfman
 Harridan,Harridan
 Mollono,Mollono,Mollono Yos Dob,Dob,Yos,Yos Dob
@@ -628,8 +626,8 @@ Tristifer,Tristifer Botley,Tristifer
 Neck,Neck
 Urho,Urho the Unwashed,Unwashed,Urho
 Gorge,Gorge
+Pointed,Pointed
 Truth,Truth
-Pointed,Pointed Star,Pointed
 Rylona,Rhee,Rylona,Rylona Rhee
 Beggar King,Beggar King
 Mill,Mill
@@ -669,6 +667,7 @@ Lord of Sweetsister,Lord of Sweetsister
 Mirri,Maz Duur,Mirri,Mirri Maz Duur,Maz,Duur
 Slave,Slave
 Storm Crow,Storm Crow
+Theodan,Theodan,Ser Theodan,Theodan the True
 Fishermonger,Fishermonger
 Plaza,Plaza
 Prince of Pentos,Prince of Pentos
@@ -691,6 +690,7 @@ Long Lake,Long Lake
 Wonders,Made,Wonders Made,Wonders
 The Seven,The Seven
 Herons,Herons
+Smiling,Smiling
 Renly,Lord Renly,Renly
 Ship,Ship
 Lord Stark,Lord Stark
@@ -703,7 +703,6 @@ Waste,Waste,Red Waste
 Lord Hornwood,Lord Hornwood
 Lady Hornwood,Lady Hornwood
 Cutthroat,Cutthroat
-Smiling,Smiling Daughter,Smiling
 Ygon,Ygon Oldfather,Oldfather,Ygon
 Summer Isles,Summer Isles
 Oswell,Whent,Oswell,Oswell Whent,Lord Whent
@@ -712,8 +711,6 @@ Motho,Motho
 Black Walls,Black Walls
 Sable,Sable,Sable Hall
 Lymond,Pease,Lymond,Lymond Pease
-Unnatural,Unnatural,Unnatural History
-Arry,Arry
 Jory,Jory
 Zekko,Zekko,Khal Zekko
 Brienne,Brienne,Lady Brienne
@@ -742,7 +739,6 @@ Redfort,Lord Redfort,Redfort
 Short,Short
 Camarron,Camarron
 Wenda,Wenda the White Fawn,Fawn,Wenda
-Took,Took,Took Off
 Andalos,Andalos
 Qohorik,Qohorik
 Lucifer,Lucifer,Ser Lucifer,Lucifer Long
@@ -772,6 +768,7 @@ Domeric,Domeric
 Basilisks,Basilisks Isles,Basilisks
 Alios,Alios
 Mogat,Mogat
+Walders,Walders,Walders Big
 Ynys,Ynys
 Roggo,Roggo
 Bronze,Bronze,Yohn,Royce,Bronze Yohn Royce
@@ -791,7 +788,6 @@ Edmure,Edmure
 Syrax,Syrax
 Helicent,Helicent
 Chroyane,Chroyane
-Wild,Wild,Wild Daughter
 Dorden,Ser Dorden,Dorden
 Way,Way,Old Way
 Obella,Obella
@@ -820,6 +816,7 @@ Arthor,Arthor Karstark,Arthor
 Alester,Alester Florent,Alester
 Dove,Dove
 Queen of Cities,Queen of Cities
+Stars,Stars
 Gelmarr,Gelmarr the Grim,Gelmarr,Grim
 Maze,Maze
 Lambert,Lambert,Ser Lambert
@@ -830,6 +827,7 @@ King of Meereen,King of Meereen
 Lord Hand,Lord Hand
 Speech,Speech
 Jez,Jez
+Telling,Telling,True Telling
 Harzoo,Harzoo,King Harzoo
 Rosby,Rosby
 Nakloz,Nakloz
@@ -837,6 +835,7 @@ Jax,Jax
 King of the Andals,King of the Andals
 Gulltown,Gulltown
 Queen Whore,Queen Whore
+Vale of Arryn,Vale of Arryn
 Horn Hill,Horn Hill
 Torwynd,Torwynd
 Sistermen,Sistermen
@@ -846,6 +845,7 @@ Lamentation,Lamentation
 Forest,Forest
 Tumco,Tumco
 Shaggydog,Shaggydog
+Wild,Wild
 Daryn,Daryn Hornwood,Daryn
 Colloquo,Colloquo Votar,Colloquo,Votar
 Moon,Moon,Moon Boy
@@ -858,6 +858,7 @@ Quazzar,Quazzar
 Blind Bastard,Blind Bastard
 Bedwyck,Bedwyck
 Alannys,Alannys
+Symeon,Symeon
 Wife,Wife
 Iron Isles,Iron Isles
 Bacon,Pretty Bacon,Bacon
@@ -873,7 +874,6 @@ Doss,Blind Doss,Doss
 Aquan,Aquan the Red Bull,Aquan,Bull,Red Bull
 Sniff,Sniff
 Fearless,Fearless Ithoke,Ithoke,Fearless
-Symeon,Symeon,Symeon Star
 Rabbit,Rabbit
 Osfryd,Osfryd
 Stalker,Stalker
@@ -925,7 +925,6 @@ Tybero,Tybero Istarion,Tybero,Istarion
 Morrigen,Lord Morrigen,Morrigen
 Octarch,Octarch
 Conquest,Conquest
-Glass,Glass,Glass Garden,Glass Gardens
 Littlesister,Littlesister
 Queensgate,Queensgate
 Young Dragon,Young Dragon
@@ -934,7 +933,6 @@ Lorent,Lorent
 Big Liddle,Big Liddle
 Lady of Barrowton,Lady of Barrowton
 Caswell,Caswell,Lord Caswell
-Middle,Middle,Middle Liddle
 Tatters,Tatters
 Holdfast,Holdfast
 Thoros,Thoros
@@ -948,9 +946,9 @@ Belicho,Belicho
 Lady of the Waves,Lady of the Waves
 Steffar,Steffar,Steffar Stammerer,Stammerer
 Seven Lamps,Seven Lamps
-Walders Big,Walders Big
 First Flints,First Flints
 Lord Norrey,Lord Norrey
+Darkling,Darkling
 Stony,Stony,Stony Shore
 Prince of Sorrows,Prince of Sorrows
 Pudding,Pudding,Pudding Face
@@ -997,6 +995,7 @@ Fingerdancer,Fingerdancer
 Conwy,Conwy
 Servant,First Servant,Servant
 Bryen,Bryen Farring,Bryen
+Daughters,Daughters,Second Daughters
 Patternmaker,Patternmaker
 The Fires,The Fires
 Garrett,Garrett,Greenspear,Garrett Greenspear
@@ -1025,7 +1024,6 @@ Cobb,Cobb
 Keeper,Keeper
 Dorna,Dorna
 Jogos,Jogos,Jogos Nhai,Nhai
-Darkling,Darkling Daughter,Darkling
 Bright,Bright Prince,Bright
 Maude,Maude
 Spring,Spring
@@ -1120,7 +1118,6 @@ Sixth,Sixth
 Moonmaid,Moonmaid
 Rossart,Rossart
 Ghazdan,Ghazdan
-Shy Daughter,Shy Daughter
 Defender,Defender
 Steffon,Steffon
 White Sword Tower,White Sword Tower
@@ -1206,6 +1203,7 @@ Fever,Fever River,Fever
 Treasure,Treasure
 Valysar,Valysar
 Wyverns,Wyverns
+Redwyne Straits,Redwyne Straits
 Lefford,Lord Lefford,Lefford
 Fountain,Fountain
 Riverman,Riverman
@@ -1228,7 +1226,6 @@ Lady of Spears,Lady of Spears
 Forrester,Forrester
 Dragonpit,Dragonpit
 El,El
-Yellowbelly,Yellowbelly,Lord Yellowbelly
 Haereg,Haereg
 Lord of Godsgrace,Lord of Godsgrace
 Stanny,Stanny
@@ -1250,7 +1247,6 @@ Uhoris,Uhoris
 Laswell,Laswell Peake,Laswell
 Egon,Egon,Emeros,Egon Emeros the Exquisite,Exquisite
 Sothoyros,Sothoyros
-Second Daughters,Second Daughters
 Lord Seaworth,Lord Seaworth
 Pea,Pea Pod,Pod,Pea
 Zakh,Zakh
@@ -1280,7 +1276,6 @@ Tremond,Gargalen,Tremond Gargalen,Tremond
 Greenhill,Greenhill
 Bleed,Bleed
 Amory,Amory Lorch,Lorch,Amory
-Lard,Lard,Lord Lard
 Kraznys,Kraznys
 Willas,Willas
 Sealords,Sealords
@@ -1326,7 +1321,6 @@ Melara,Melara Hetherspoon,Melara,Hetherspoon
 Banded,Lizard,Banded Lizard,Banded
 Eroehs,Eroehs
 Ash,Ash
-Straits,Redwyne Straits,Straits
 Shrike,Shrike
 Lonely,Lonely Hills,Lonely
 Maisie,Maisie
@@ -1342,7 +1336,6 @@ Quagg,Quagg
 Spicers,Spicers
 Blackfyre Rebellions,Blackfyre Rebellions
 Bear Mormont,Bear Mormont
-Big Walder Frey,Big Walder Frey
 Lord of Pyke,Lord of Pyke
 Blackbuckle,Blackbuckle
 Sailor,Sailor
@@ -1384,7 +1377,6 @@ Oswald,Oswald
 Loptail,Loptail
 Burrow,Burrow
 Ullers,Ullers
-Little Walder Frey,Little Walder Frey
 Dornishwoman,Dornishwoman
 Aegon the Dragon,Aegon the Dragon
 Ramsgate,Ramsgate

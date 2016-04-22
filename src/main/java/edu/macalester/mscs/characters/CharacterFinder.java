@@ -307,11 +307,7 @@ public class CharacterFinder {
                         once.add(split[1]);
                     }
                 } else if (split.length == 3 && split[1].equals("zo")) {
-                    if (once.contains(split[2])) {
-                        surnames.add(split[2]);
-                    } else {
-                        once.add(split[2]);
-                    }
+                    surnames.add(split[2]);
                 }
             }
         }
