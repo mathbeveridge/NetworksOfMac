@@ -144,9 +144,7 @@ public class MatrixConstructor {
 		String[] characters = characterString.split(",");
 		for (String c : characters) {
 			c = StringUtils.substringBefore(c, "=");
-			if (c.contains(" zo ")) {
-				c = c.replace(" zo ", " ");
-			}
+			c = c.replaceAll(" [a-z]+ ", " "); // remove lowercase filler words
 			if (c.contains(" ")) {
 				c = c.substring(0, c.indexOf(' ') + 2);
 			}

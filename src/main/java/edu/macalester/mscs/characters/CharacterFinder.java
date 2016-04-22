@@ -60,15 +60,17 @@ public class CharacterFinder {
     private final Set<String> ignoredWords;
     private final Set<String> titleWords;
     private final Set<String> generalWords;
+    private final Set<String> fillerWords;
     private final String punctuation;
 
     private Map<String, Integer> counter = new HashMap<>();
     private CharacterGroups characterGroups;
 
-    public CharacterFinder(Set<String> ignoredWords, Set<String> titleWords, Set<String> generalWords, String punctuation) {
+    public CharacterFinder(Set<String> ignoredWords, Set<String> titleWords, Set<String> generalWords, Set<String> fillerWords, String punctuation) {
         this.ignoredWords = ignoredWords;
         this.titleWords = titleWords;
         this.generalWords = generalWords;
+        this.fillerWords = fillerWords;
         this.punctuation = punctuation;
     }
 
@@ -141,7 +143,7 @@ public class CharacterFinder {
                         toAdd = phrase.toString();
                     } else {
                         if (phrase != null) {
-                            if (part.equals(" ") || part.equals("of") || part.equals("the") || part.equals("zo")) {
+                            if (part.equals(" ") || part.equals("of") || part.equals("the") || fillerWords.contains(part)) {
                                 phrase.append(part);
                             } else {
                                 if (!isGeneralWord(toAdd)) {
@@ -170,7 +172,7 @@ public class CharacterFinder {
                         toAdd = phrase.toString();
                     } else {
                         if (phrase != null) {
-                            if (part.equals(" ") || part.equals("of") || part.equals("the") || part.equals("zo")) {
+                            if (part.equals(" ") || part.equals("of") || part.equals("the") || fillerWords.contains(part)) {
                                 phrase.append(part);
                             } else {
                                 if (!isGeneralWord(toAdd)) {
@@ -306,7 +308,7 @@ public class CharacterFinder {
                     } else {
                         once.add(split[1]);
                     }
-                } else if (split.length == 3 && split[1].equals("zo")) {
+                } else if (split.length == 3 && fillerWords.contains(split[1])) {
                     surnames.add(split[2]);
                 }
             }
@@ -368,7 +370,7 @@ public class CharacterFinder {
             String name = stripTitle(cap);
             String[] split = name.split(" ");
             if (!isGeneralWord(split[0]) && (split.length == 2 && surnames.contains(split[1])
-                    || split.length == 3 && split[1].equals("zo") && surnames.contains(split[2]))) {
+                    || split.length == 3 && fillerWords.contains(split[1]) && surnames.contains(split[2]))) {
                 if (words.contains(name)) {
                     names.add(name);
                 } else {

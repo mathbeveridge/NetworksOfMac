@@ -41,9 +41,12 @@ public class GameOfThrones {
             "Flowers", "Storm" // miscellaneous
     ));
 
+    // Words that are sometimes placed between first and last names
+    public static final Set<String> FILLER_WORDS = new HashSet<>(Arrays.asList("zo", "mo"));
+
     public static void main(String[] args) {
         // initialize the finder
-        CharacterFinder finder = new CharacterFinder(IGNORED_WORDS, TITLE_WORDS, GENERAL_WORDS, ".?!�");
+        CharacterFinder finder = new CharacterFinder(IGNORED_WORDS, TITLE_WORDS, GENERAL_WORDS, FILLER_WORDS, ".?!�");
         // read in the text
         finder.countCapitalized(FileUtils.readFile("src/main/resources/text/gameofthrones.txt"));
         // fix a few mistakes

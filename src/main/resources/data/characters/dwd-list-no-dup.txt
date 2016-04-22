@@ -10,6 +10,7 @@ Quentyn,Quentyn the Wise,Quentyn the Craven,Quentyn the Quail,Frog,Dorne Quentyn
 Brandon,Bran,Brandon Norrey,Brandon the Shipwright,Brandon,Brandon Stark,Brandon the Builder
 Asha,Asha,Asha Greyjoy,Lady Asha
 Davos,Onion Lord,Davos,Onion Knight,Lord Davos,Onion,Davos Seaworth
+Skahaz,Skahaz mo Kandaq,Skahaz Shavepate,Skahaz,Shavepate
 Arya,Arya Underfoot,Lady Arya,Arya,Arry,Spotted,Cat,Arya Horseface,Arya Stark,Horseface,Underfoot,Spotted Cat
 Daario,Naharis,Daario,Daario Naharis,Lord Daario
 Melisandre,Lady Melisandre,Melisandre
@@ -144,7 +145,7 @@ Trystane,Trystane,Prince Trystane
 Lyanna,Lady Lyanna,Lyanna Mormont,Lyanna Stark,Lyanna
 Marlon,Marlon Manderly,Ser Marlon,Marlon
 Lorren,Longaxe,Lorren Longaxe,Lorren
-Grazdan,Grazdan zo Galare,Grazdan
+Grazdan,Grazdan mo Eraz,Grazdan zo Galare,Grazdan
 Wendel,Wendel,Wendel Manderly,Ser Wendel
 Raymun,Raymun,Raymun Redbeard
 Narbert,Narbert,Ser Narbert
@@ -244,6 +245,7 @@ Dorden,Ser Dorden,Dorden
 Hoarfrost,Hoarfrost Umber,Hoarfrost,Hoarfrost Hill
 Edric,Edric Storm,Edric
 Kennos,Kennos,Ser Kennos
+Kraznys,Kraznys,Kraznys mo Nakloz
 Celladar,Celladar,Septon Celladar
 Seneschal,Lord Seneschal,Seneschal
 Jaqen,Jaqen

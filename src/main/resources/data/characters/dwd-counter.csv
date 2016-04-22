@@ -18,7 +18,6 @@ Davos,157
 Quentyn,154
 Snow,154
 Jon Snow,151
-Reznak,140
 Penny,133
 Westeros,131
 Barristan,121
@@ -33,6 +32,7 @@ Dorne,102
 Hodor,98
 Ser Barristan,96
 Landing,92
+Reznak,90
 Haldon,87
 Tormund,87
 Victarion,84
@@ -51,7 +51,6 @@ Duck,69
 Mormont,68
 Shavepate,68
 Meera,65
-Skahaz,65
 Seven Kingdoms,62
 Eastwatch,61
 Missandei,60
@@ -63,6 +62,7 @@ Bowen Marsh,58
 Roose Bolton,58
 Qarth,57
 Hizdahr zo Loraq,56
+Skahaz,55
 Yezzan,55
 Sam,54
 Harpy,53
@@ -123,6 +123,7 @@ Belwas,34
 Meereenese,34
 Frog,34
 Jon Connington,34
+Reznak mo Reznak,33
 Lannisters,33
 Nurse,33
 Gilly,33
@@ -334,7 +335,6 @@ Pentoshi,14
 Unella,14
 Othell Yarwyck,14
 Qezza,14
-Kandaq,14
 Justin,14
 Ryswells,14
 Tris,14
@@ -460,6 +460,7 @@ Victarion Greyjoy,10
 Umber,10
 Lysene,10
 Brynden,10
+Skahaz mo Kandaq,10
 Arbor,10
 Hero,10
 Usurper,10
@@ -683,9 +684,9 @@ Soren Shieldbreaker,6
 Dolorous Edd Tollett,6
 Sly,6
 Hoster,6
-Grazdan,6
 Kenning,6
 Ser Hosteen,6
+Kandaq,6
 Ellaria,6
 Qarl the Maid,6
 Shield,6
@@ -763,6 +764,7 @@ Princess Arianne,5
 Peck,5
 One Eye,5
 Tollett,5
+Grazdan,5
 Wylla,5
 Gatehouse Tower,5
 Harwood Fell,5
@@ -1319,7 +1321,6 @@ Prince of Dragonflies,2
 Sister,2
 Consort,2
 Forest,2
-Nakloz,2
 Noyne,2
 Jack Bulwer,2
 Pyat Pree,2
@@ -1918,6 +1919,7 @@ Lord Redfort,1
 Jarmen Buckwell,1
 Humble,1
 Kingswood Brotherhood,1
+Nakloz,1
 Florian,1
 Sparr,1
 Goddess,1
@@ -1993,6 +1995,7 @@ Garrett Greenspear,1
 Lady of the Eyrie,1
 Pattern,1
 Sheepshead Hills,1
+Kraznys mo Nakloz,1
 Blackfyre Pretenders,1
 Bill Bone,1
 Toraq,1
@@ -2028,6 +2031,7 @@ Lord Lannister,1
 Mead,1
 Commander of the Night,1
 Lady Imp,1
+Grazdan mo Eraz,1
 Kedge Whiteye,1
 Bear Mormont,1
 Black Knife,1
@@ -2216,7 +2220,6 @@ Mazdhan the Magnificent,1
 Crown,1
 Lord of the Skies,1
 Lord Karstark,1
-Kraznys,1
 Colloquo Votar,1
 Sansa Stark,1
 Eroehs,1
@@ -2782,6 +2785,7 @@ Sweetling,0
 Dar,0
 Arstan,0
 Spear,0
+Kraznys,0
 Longwater,0
 Spotted,0
 Royce,0
@@ -2887,4 +2891,4 @@ Unnatural,0
 Victory,0
 Qhoyne,0
 
-2888
+2892

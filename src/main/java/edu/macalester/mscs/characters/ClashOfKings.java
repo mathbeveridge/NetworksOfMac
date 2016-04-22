@@ -42,9 +42,12 @@ public class ClashOfKings {
             "Flowers", "Storm", "Bull", "Long", "Spring", "Bear", "Hot", "Pie", "Ben", "Iron" // miscellaneous
     ));
 
+    // Words that are sometimes placed between first and last names
+    public static final Set<String> FILLER_WORDS = new HashSet<>(Arrays.asList("zo", "mo"));
+
     public static void main(String[] args) {
         // initialize the finder
-        CharacterFinder finder = new CharacterFinder(IGNORED_WORDS, TITLE_WORDS, GENERAL_WORDS, ".?!�");
+        CharacterFinder finder = new CharacterFinder(IGNORED_WORDS, TITLE_WORDS, GENERAL_WORDS, FILLER_WORDS, ".?!�");
         // read in the text
         finder.countCapitalized(FileUtils.readFile("src/main/resources/text/clashofkings.txt"));
         // fix a few mistakes

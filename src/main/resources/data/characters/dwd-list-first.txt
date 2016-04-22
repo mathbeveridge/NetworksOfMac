@@ -10,6 +10,7 @@ Quentyn,Frog,Dorne,Quail,Quentyn
 Brandon,Bran,Brandon
 Asha,Asha
 Davos,Davos,Onion
+Skahaz,Skahaz,Shavepate
 Arya,Arya,Arry,Spotted,Cat,Horseface,Underfoot
 Daario,Naharis,Daario
 Melisandre,Melisandre
@@ -53,6 +54,7 @@ Harry,Harry,Merrell
 Jojen,Jojen
 Doran,Doran
 Euron,Euron
+Reznak,Reznak
 Janos,Slynt,Janos
 Rattleshirt,Rattleshirt
 Aerys,Aerys
@@ -282,6 +284,7 @@ Duncan,Duncan
 Osgood,Osgood
 Ryman,Ryman
 Tremond,Gargalen,Tremond
+Kraznys,Kraznys
 Uthor,Uthor
 Marshal,Marshal
 Bumpkin,Bumpkin

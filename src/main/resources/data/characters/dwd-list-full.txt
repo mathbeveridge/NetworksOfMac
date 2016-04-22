@@ -10,9 +10,8 @@ Quentyn,Quentyn the Wise,Quentyn the Craven,Quentyn the Quail,Frog,Dorne Quentyn
 Bran,Bran,Brandon Norrey,Brandon the Shipwright,Brandon,Brandon Stark,Brandon the Builder
 Asha,Asha,Asha Greyjoy,Lady Asha
 Davos,Onion Lord,Davos,Onion Knight,Lord Davos,Onion,Davos Seaworth
-Skahaz,Skahaz Shavepate,Skahaz,Shavepate
+Skahaz,Skahaz mo Kandaq,Skahaz Shavepate,Skahaz,Shavepate
 Arya,Arya Underfoot,Lady Arya,Arya,Arry,Spotted,Cat,Arya Horseface,Arya Stark,Horseface,Underfoot,Spotted Cat
-Reznak,Reznak
 Daario,Naharis,Daario,Daario Naharis,Lord Daario
 Melisandre,Lady Melisandre,Melisandre
 Tormund,Tormund Giantsbane,Giantsbane,Tormund Horn,Tormund Giantsbutt,Tormund Giantsbabe,Giantsbabe,Tormund Thunderfist,Giantsbutt,Tormund,Tormund Giantstink,Giantstink,Thunderfist
@@ -104,6 +103,7 @@ Yollo,Yollo
 Janos,Janos Slynt,Lord Slynt,Lord Janos,Janos
 Nurse,Nurse
 Leathers,Leathers
+Reznak mo Reznak,Reznak mo Reznak
 Hardhome,Hardhome
 Khrazz,Khrazz
 Rattleshirt,Lord of Bones,Rattleshirt
@@ -256,7 +256,6 @@ Qavo,Qavo Nogarys,Nogarys,Qavo
 Donal,Donal Noye,Noye,Donal
 Leaf,Leaf
 Crunch,Crunch
-Kandaq,Kandaq
 Him,Him
 Margaery,Margaery Tyrell,Margaery,Queen Margaery
 Squirrel,Squirrel
@@ -398,7 +397,7 @@ Trystane,Trystane,Prince Trystane
 Marlon,Marlon Manderly,Ser Marlon,Marlon
 Lorren,Longaxe,Lorren Longaxe,Lorren
 Halleck,Halleck
-Grazdan,Grazdan zo Galare,Grazdan
+Grazdan,Grazdan mo Eraz,Grazdan zo Galare,Grazdan
 Raymun,Raymun,Raymun Redbeard
 Mopatis,Illyrio Mopatis,Mopatis
 Adventure,Adventure
@@ -830,7 +829,6 @@ Jez,Jez
 Telling,Telling,True Telling
 Harzoo,Harzoo,King Harzoo
 Rosby,Rosby
-Nakloz,Nakloz
 Jax,Jax
 King of the Andals,King of the Andals
 Gulltown,Gulltown
@@ -943,6 +941,7 @@ Torrent,Torrent
 Harlot,Harlot
 Fork,Green Fork,Fork
 Belicho,Belicho
+Kraznys,Kraznys,Kraznys mo Nakloz
 Lady of the Waves,Lady of the Waves
 Steffar,Steffar,Steffar Stammerer,Stammerer
 Seven Lamps,Seven Lamps
@@ -983,7 +982,6 @@ Ullhor,Ullhor
 Rape,Rape
 Uthor,Maester Uthor,Uthor
 Velosi,Velosi
-Eraz,Eraz
 Cray,Cray
 Luke,Luke
 Charioteer,Charioteer
@@ -1276,7 +1274,6 @@ Tremond,Gargalen,Tremond Gargalen,Tremond
 Greenhill,Greenhill
 Bleed,Bleed
 Amory,Amory Lorch,Lorch,Amory
-Kraznys,Kraznys
 Willas,Willas
 Sealords,Sealords
 Hightower,Hightower

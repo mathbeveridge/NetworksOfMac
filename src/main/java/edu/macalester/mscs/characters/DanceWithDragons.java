@@ -47,9 +47,12 @@ public class DanceWithDragons {
             "Bear", "Iron", "Beggar", "Whore", "Wench", "Grandfather", "Water", "Crow", "Wolf" // miscellaneous
     ));
 
+    // Words that are sometimes placed between first and last names
+    public static final Set<String> FILLER_WORDS = new HashSet<>(Arrays.asList("zo", "mo"));
+
     public static void main(String[] args) {
         // initialize the finder
-        CharacterFinder finder = new CharacterFinder(IGNORED_WORDS, TITLE_WORDS, GENERAL_WORDS, ".?!�");
+        CharacterFinder finder = new CharacterFinder(IGNORED_WORDS, TITLE_WORDS, GENERAL_WORDS, FILLER_WORDS, ".?!�");
         // read in the text
         finder.countCapitalized(FileUtils.readFile("src/main/resources/text/dancewithdragons.txt"));
         // fix a few mistakes
@@ -83,7 +86,7 @@ public class DanceWithDragons {
 
         finder.removePlaces();
         finder.removeTitles();
-//        finder.removeWordsBelowThreshold(lonely, 5);
+        finder.removeWordsBelowThreshold(lonely, 1);
 
         finder.printCounter().writeLog("src/main/resources/data/characters/dwd-counter.csv");
 
