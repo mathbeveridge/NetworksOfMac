@@ -42,7 +42,7 @@ Pyp,Pyp
 Alliser,Alliser
 Syrio,Syrio,Forel
 Aemon,Dragonknight,Aemon
-Jeor,Mormont,Bear,Jeor
+Jeor,Mormont,Jeor
 Walder,Walder,Frey
 Loras,Loras,Daisy
 Grenn,Grenn

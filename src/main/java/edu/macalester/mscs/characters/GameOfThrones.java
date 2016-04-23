@@ -38,7 +38,7 @@ public class GameOfThrones {
             "Black", "Red", "Green", "Blue", "White", // colors
             "Land", "Lands", "Sea", "Seas", "Island", "Isles", "City", "Cities", // geographics
             "Alley", "Gate", "Keep", "Market", "Tower", // landmarks
-            "Flowers", "Storm" // miscellaneous
+            "Flowers", "Storm", "Bear", "Stone" // miscellaneous
     ));
 
     // Words that are sometimes placed between first and last names

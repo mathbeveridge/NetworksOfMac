@@ -10,7 +10,7 @@ Sansa,Sansa
 Renly,Renly
 Cersei,Cersei
 Robb,Robb
-Davos,Davos,Shorthand,Onion
+Davos,Davos,Shorthand,Flea,Onion,Bottom
 Daenerys,Stormborn,Dany,Khaleesi,Daenerys
 Robert,Robert,Usurper
 Varys,Varys,Spider,Eunuch

@@ -42,7 +42,7 @@ Pyp,Pyp
 Alliser Thorne,Alliser Thorne,Ser Alliser,Alliser
 Aemon Targaryen,Aemon the Dragonknight,Aemon Targaryen,Dragonknight,Maester Aemon,Aemon,Prince Aemon
 Syrio Forel,Syrio,Syrio Forel,Forel
-Jeor Mormont,Lord Mormont,Jeor Mormont,Old Bear,Bear,Commander Mormont,Jeor
+Jeor Mormont,Lord Mormont,Jeor Mormont,Old Bear,Commander Mormont,Jeor
 Walder Frey,Walder,Walder Frey,Lord Walder,Lord Frey,Lord of the Crossing
 Loras Tyrell,Loras,Knight of Flowers,Ser Daisy,Daisy,Ser Loras,Loras Tyrell
 Grenn,Grenn
@@ -92,7 +92,7 @@ Rickard Stark,Rickard Stark,Rickard Karstark,Rickard,Lord Rickard
 Rickard Karstark,Rickard Stark,Rickard Karstark,Rickard,Lord Rickard
 Mycah,Mycah
 Bowen Marsh,Bowen Marsh,Bowen Marsh the Lord Steward,Bowen
-Conn,Conn
+Conn,Conn of the Stone Crows,Conn
 Shae,Shae
 Rakharo,Rakharo
 Chiggen,Chiggen
@@ -154,15 +154,15 @@ Jafer Flowers,Jafer,Jafer Flowers
 Shella Whent,Shella Whent,Lady Shella,Shella,Lady Whent
 Horas Redwyne,Ser Horror,Horror,Horas Redwyne,Horas,Ser Horas
 Danwell Frey,Danwell,Danwell Frey,Ser Danwell
-Elia Martell,Princess Elia,Elia Martell,Elia
 Crakehall,Lord Crakehall,Crakehall
 Robett Glover,Robett,Robett Glover
 Jared Frey,Ser Jared,Jared,Jared Frey
-Hugh,Ser Hugh,Hugh
+Elia Martell,Princess Elia,Elia of Dorne,Elia Martell,Elia
 Perwyn,Perwyn,Ser Perwyn
 Arys Oakheart,Arys,Ser Arys,Arys Oakheart
 Willem Darry,Willem,Ser Willem,Willem Darry
 Balon Greyjoy,Balon Greyjoy
+Hugh,Hugh of the Vale,Ser Hugh,Hugh
 Bryce Caron,Marcher,Bryce Caron,Bryce,Marcher Lord Bryce Caron
 Mychel Redfort,Mychel Redfort,Mychel
 Lothor Brune,Lothor Brune,Lothor,Brune
@@ -198,7 +198,7 @@ Olyvar Frey,Olyvar,Olyvar Frey
 Ryam Redwyne,Ryam Redwyne,Ryam
 Theo Wull,Ser Theo,Wull,Theo,Theo Wull
 Mern,Mern,King Mern
-Rowan,Rowan,Lord Rowan
+Rowan,Rowan,Rowan of Goldengrove,Lord Rowan
 Serrett,Serrett,Lord Serrett
 Loren,King Loren,Loren
 Morton Waynwood,Ser Morton,Morton Waynwood,Morton

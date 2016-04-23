@@ -18,7 +18,8 @@ public class StormOfSwords {
             "Who", "Why", "What", "Will", "Was", // questions
             "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", "Grace", "God", // GoT specific
             "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons", "Daughter", "Cousin", // familial references
-            "Men", "Man", "And", "With", "Griffin", "No", "Summer" // miscellaneous
+            "Men", "Man", "And", "With", "Griffin", "No", "Summer", "Half", "Tongue", "Without",
+            "People" // miscellaneous
     ));
 
     // Words that are not unique, but may still be descriptive, expecially in combination
@@ -33,17 +34,17 @@ public class StormOfSwords {
     public static final Set<String> GENERAL_WORDS = new HashSet<>(Arrays.asList(
             "The", // titular articles
             "Young", "Old", "Fat", "Big", "Little", "Small", "Bastard", "Boy", "Deaf", "Blind", "Hero", // endearing titles
-            "High", "Great", "Grand", "First", "Second", // superlatives
+            "High", "Great", "Grand", "First", "Second", "Third", // superlatives
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
             "Black", "Red", "Green", "Blue", "White", "Grey", "Brown", "Yellow", "Silver", // colors
-            "Land", "Lands", "Sea", "Seas", "Island", "Islands", "Isles", "Bay", "River", "Shore", "Point",
-            "Lake", "Hills", "Straits", "Vale", // geographics
+            "Land", "Lands", "Sea", "Seas", "Island", "Islands", "Isle", "Isles", "Bay", "River", "Shore",
+            "Point", "Lake", "Hills", "Straits", "Vale", "Wood", // geographics
             "City", "Cities", "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", "Castle", "Lane",
             "Bridge", "Sept", "Harbor", // landmarks
             "Cruel", "Bold", "Brave", "Good", "Strong", "Bitter", "Sweet", "Bad", "Clever", "Cautious",
             "Wise", "Craven", "Poor", "Pretty", "Scared", "Homeless", "Hot", "Shy", "True", "Mad", "Blessed",
-            "Queer", "Sour", "Cunning", "Hairy", "Broken", // adjective titles
-            "Conqueror", "Wolf", "Fool", "Iron", "Worm", "Bull" // miscellaneous
+            "Queer", "Sour", "Cunning", "Hairy", "Broken", "Bloody", // adjective titles
+            "Conqueror", "Wolf", "Fool", "Iron", "Worm", "Bull", "Kingswood" // miscellaneous
     ));
 
     // Words that are sometimes placed between first and last names
@@ -56,15 +57,20 @@ public class StormOfSwords {
         finder.countCapitalized(FileUtils.readFile("src/main/resources/text/stormofswords.txt"));
         // fix a few mistakes
         finder.removeWords("Robb Starks");
+        finder.removeWords("Lysa of Bran");
+        finder.removeWords("Ned Dayne"); // comes up once
 
         // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();
         Set<String> pluralizedNames = finder.getPluralizedNames();
         pluralizedNames.remove("Walder");
         Set<String> surnames = finder.getSurnames();
+        surnames.add("Cerwyn");
         Set<String> names = finder.getNamesBySurname(surnames);
         names.addAll(titledNames);
         Set<String> places = finder.getPlaces(names);
+        places.add("Tarth");
+        places.add("Casterly");
         Set<String> lonely = finder.getLonelyWords();
 
         System.out.println(titledNames);
@@ -88,24 +94,72 @@ public class StormOfSwords {
         nondescriptors.addAll(surnames);
         nondescriptors.addAll(WordUtils.getPlurals(surnames));
         nondescriptors.addAll(places);
-        nondescriptors.add("Ben");
-        nondescriptors.add("Garth");
+
+        // add problematic names
         nondescriptors.add("Jon");
+        nondescriptors.add("Samwell");
+        nondescriptors.add("Brandon");
+        nondescriptors.add("Robert");
+        nondescriptors.add("Petyr");
+        nondescriptors.add("Walder");
+        nondescriptors.add("Aemon");
+        nondescriptors.add("Lothar");
+        nondescriptors.add("Jeyne");
+        nondescriptors.add("Balon");
+        nondescriptors.add("Ben");
+        nondescriptors.add("Robin");
+        nondescriptors.add("Donnel");
+        nondescriptors.add("Baelor");
+        nondescriptors.add("Walda");
+        nondescriptors.add("Willem");
+        nondescriptors.add("Martyn");
+        nondescriptors.add("Rodrik");
+        nondescriptors.add("Tytos");
+        nondescriptors.add("Garth");
+        nondescriptors.add("Lucas");
+        nondescriptors.add("Tim");
 
         // build character groups
         finder.buildCharacterGroups(nondescriptors);
 
+        // add back problematic names as necessary
         finder.addToCharacterGroup("Jon Snow", "Jon");
+        finder.addToCharacterGroup("Robert Baratheon", "Robert");
+        finder.addToCharacterGroup("Petyr Baelish", "Petyr");
+        finder.addToCharacterGroup("Aemon Targaryen", "Aemon");
+        finder.addToCharacterGroup("Lothar Frey", "Lothar");
+        finder.addToCharacterGroup("Jeyne Westerling", "Jeyne");
+        finder.addToCharacterGroup("Baelor the Blessed", "Baelor");
+        finder.addToCharacterGroup("Willem Lannister", "Willem");
+        finder.addToCharacterGroup("Martyn Lannister", "Martyn");
 
         // manually combine more character groups
-        finder.combineGroups("Eddard", "Ned");
         finder.combineGroups("Jon Snow", "Lord Snow");
-        finder.combineGroups("Catelyn", "Cat");
+        finder.combineGroups("Jon Connington", "Lord Connington", "Lord Jon");
+        finder.combineGroups("Jon Arryn", "Lord Arryn");
         finder.combineGroups("Bran", "Brandon Stark");
-        finder.combineGroups("Petyr", "Littlefinger");
+        finder.combineGroups("Samwell Tarly", "Sam", "Piggy");
+        finder.combineGroups("Robert Baratheon", "Usurper", "King Robert");
+        finder.combineGroups("Robert Arryn", "Lord Robert", "Lord of the Eyrie");
+        finder.combineGroups("Petyr Baelish", "Littlefinger", "Lord Petyr");
+        finder.combineGroups("Walder Frey", "Lord Walder", "Lord of the Crossing", "Lord Frey", "Lord Grandfather");
+        finder.combineGroups("Aemon Targaryen", "Maester Aemon");
+        finder.combineGroups("Aemon the Dragonknight", "Prince Aemon");
+        finder.combineGroups("Lothar Frey", "Lame Lothar");
+        finder.combineGroups("Jeyne Westerling", "Queen Jeyne");
+        finder.combineGroups("Balon Greyjoy", "King Balon", "Lord Balon");
+        finder.combineGroups("Balon Swann", "Ser Balon");
+        finder.combineGroups("Robin Ryger", "Ser Robin");
+        finder.combineGroups("Donnel Hill", "Sweet Donnel");
+        finder.combineGroups("Baelor the Blessed", "King Baelor");
+        finder.combineGroups("Baelor Hightower", "Baelor Brightsmile", "Baelor Breakwind");
+        finder.combineGroups("Walda Bolton", "Lady Walda", "Fat Walda", "Walda Frey");
+        finder.combineGroups("Rodrik Cassel", "Ser Rodrik");
+        finder.combineGroups("Tytos Lannister", "Lord Tytos");
+        finder.combineGroups("Eddard", "Ned");
+        finder.combineGroups("Catelyn", "Cat");
         finder.combineGroups("Daenerys", "Dany", "Khaleesi");
         finder.combineGroups("Joffrey", "Joff");
-        finder.combineGroups("Samwell", "Sam");
         finder.combineGroups("Sandor", "Hound");
         finder.combineGroups("Jeor Mormont", "Old Bear", "Commander Mormont", "Lord Mormont");
         finder.combineGroups("Pycelle", "Grand Maester");
@@ -123,7 +177,6 @@ public class StormOfSwords {
         finder.combineGroups("Stannis", "Lord of Dragonstone");
         finder.combineGroups("Rickard Karstark", "Lord Karstark");
         finder.combineGroups("Janos", "Lord Slynt");
-        finder.combineGroups("Jon Connington", "Lord Connington");
         finder.combineGroups("Tyrion", "Imp");
         finder.combineGroups("Hother", "Whoresbane");
         finder.combineGroups("Arya", "Arry");
@@ -137,6 +190,10 @@ public class StormOfSwords {
         finder.combineGroups("Benjen", "Ben Stark");
         finder.combineGroups("Podrick", "Pod");
         finder.combineGroups("Gerold", "White Bull");
+        finder.combineGroups("Arthur", "Sword of the Morning");
+        finder.combineGroups("Edric", "Lord of Starfall");
+        finder.combineGroups("Cley Cerwyn", "Lord Cerwyn");
+        finder.combineGroups("Sansa Stark", "Lady Wife");
 
         // manually add important names that get missed
         names.add("Baelor the Blessed");
@@ -255,8 +312,6 @@ public class StormOfSwords {
         names.remove("Joffrey");        // as Joffrey Baratheon
         names.remove("Sam Tarly");      // as Samwell Tarly
         names.remove("Ben Stark");      // as Benjen Stark
-        names.remove("Theon Stark");    // as Theon Greyjoy
-        names.remove("Theon Turncloak");// as Theon Greyjoy
         names.remove("Brynden Blackfish");  // as Brynden Tully
         names.remove("Davos Shorthand");// as Davos Seaworth
         names.remove("Petyr Littlefinger"); // as Petyr Baelish
@@ -279,6 +334,8 @@ public class StormOfSwords {
         names.remove("Merrett Muttonhead"); // as Merrett Frey
         names.remove("Baelor Brightsmile"); // as Baelor Hightower
         names.remove("Baelor Breakwind");   // as Baelor Hightower
+        names.remove("Roslin Tully");   // as Roslin Frey
+        names.remove("Walda Frey");     // as Walda Bolton
 
         names.remove("Nymeros Martell");// mistake
 

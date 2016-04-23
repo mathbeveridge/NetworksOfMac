@@ -209,7 +209,7 @@ public class CharacterFinder {
      */
     public String stripPlace(String name) {
         String noPlace = StringUtils.substringBefore(name, " of ");
-        if (!isGeneralWord(noPlace)) {
+        if (noPlace.contains(" ")) {
             return noPlace;
         } else {
             return name;
