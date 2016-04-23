@@ -23,18 +23,19 @@ Bowen Marsh,Bowen Marsh,Bowen,Lord Bowen,Marsh
 Jaime Lannister,Jaime,Jaime Lannister
 Wyman Manderly,Lord Manderly,Lord Wyman,Lard,Lord Lard,Wyman,Lord of White Harbor,Wyman Manderly
 Haldon Halfmaester,Haldon Halfmaester,Haldon
+Robert Strong,Young Usurper,Robert Baratheon,King Robert,Robert,Ser Robert,Usurper,Robert Strong
+Robert Baratheon,Young Usurper,Robert Baratheon,King Robert,Robert,Ser Robert,Usurper,Robert Strong
 Roose Bolton,Roose,Roose Bolton,Lord Roose,Lord of the Dreadfort,Lord Bolton,Roose Ryswell
 Roose Ryswell,Roose,Roose Bolton,Lord Roose,Lord of the Dreadfort,Lord Bolton,Roose Ryswell
 Hodor,Hodor
 Victarion Greyjoy,Victarion,Victarion Greyjoy
 Edd Tollett,Edd Tollett,Tollett,Edd,Dolorous Edd,Dolorous,Dolorous Edd Tollett
 Gerris Drinkwater,Ser Gerris,Gerris,Gerris Drinkwater
-Robert Baratheon,Robert Baratheon,King Robert,Robert,Ser Robert,Robert Strong
-Robert Strong,Robert Baratheon,King Robert,Robert,Ser Robert,Robert Strong
-Eddard Stark,Eddard,Young Usurper,Ned Stark,Usurper,Lord Eddard,Eddard Stark,Ned Woods,Ned
 Jorah Mormont,Jorah,Jorah Mormont,Ser Jorah
 Aegon Targaryen,Aegon the Conqueror,Aegon,Prince Aegon,Aegon the Dragon,Drunken Conqueror,Aegon the Unworthy,Unlikely,Aegon the Fourth,King Aegon,Aegon Targaryen,Unworthy,Conqueror,Fourth,Aegon the Unlikely
 Rolly Duckfield,Ser Rolly,Duck,Ser Duck,Rolly,Rolly Duckfield
+Eddard Stark,Eddard,Ned Stark,Lord Eddard,Eddard Stark,Ned Woods,Ned
+Ned Woods,Eddard,Ned Stark,Lord Eddard,Eddard Stark,Ned Woods,Ned
 Kevan Lannister,Ser Kevan,Kevan Lannister,Kevan
 Val,Val,Lady Val
 Meera Reed,Meera,Meera Reed
