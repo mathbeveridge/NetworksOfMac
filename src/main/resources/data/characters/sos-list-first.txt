@@ -31,8 +31,8 @@ Grenn,Grenn
 Meera,Meera
 Jojen,Jojen
 Margaery,Margaery
-Oberyn,Nymeros,Oberyn
 Jeor,Mormont,Bear,Jeor
+Oberyn,Oberyn
 Walder,Walder,Frey,Grandfather
 Arstan,Arstan,Whitebeard
 Loras,Loras

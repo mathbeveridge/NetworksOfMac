@@ -1,4 +1,4 @@
-Jon Snow,Jon Snow,Lord Snow,Jon
+Jon Snow,Jon Snow,Lord Snow,Jon,Jon Stark
 Imp,Imp Tyrion Lannister,Lord Imp,Imp,Tyrion Lannister,Tyrion
 Sansa,Sansa,Lady Sansa,Wife,Sansa Stark,Lady Wife
 Arya,Arya Underfoot,Arya,Arry,Arya Stark,Underfoot
@@ -34,9 +34,9 @@ Meera,Meera,Meera Reed
 Tom,Sevenstrings,Tom,Tom Sevensons,Fat Tom,Tom Sevenstrings,Tom of Sevenstreams,Sevensons
 Jojen,Jojen Reed,Jojen
 Margaery,Lady Margaery,Margaery Tyrell,Margaery,Queen Margaery
-Oberyn,Nymeros,Oberyn,Nymeros Martell,Oberyn Martell,Oberyn of Dorne,Oberyn Nymeros Martell,Prince Oberyn
 Styr,Styr the Magnar,Magnar,Magnar of Thenn,Styr
 Jeor,Lord Mormont,Jeor Mormont,Old Bear,Commander Mormont,Jeor
+Oberyn,Oberyn,Oberyn Martell,Oberyn of Dorne,Oberyn Nymeros Martell,Prince Oberyn
 Walder Frey,Walder Frey,Grandfather,Lord Walder,Lord Frey,Lord of the Crossing,Lord Grandfather
 Arstan,Arstan,Whitebeard,Arstan Whitebeard
 Thoros,Myr,Thoros of Myr,Thoros
@@ -812,7 +812,6 @@ River Gate,River Gate
 Snowgate,Snowgate
 Velaryon,Velaryon
 Whalen,Whalen Frey,Whalen
-Jon Stark,Jon Stark
 Lady of Winterfell,Lady of Winterfell
 Imry,Imry Florent,Imry
 Freys of the Crossing,Freys of the Crossing
@@ -933,6 +932,7 @@ Lhazerene,Lhazerene
 Polly,Polly
 Light of the Lord,Light of the Lord
 Todder,Todder
+Nymeros Martell,Nymeros Martell
 Hightower of Oldtown,Hightower of Oldtown
 Noseless,Noseless
 Inn,Inn,Inn of the Kneeling

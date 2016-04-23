@@ -44,7 +44,7 @@ public class StormOfSwords {
             "Cruel", "Bold", "Brave", "Good", "Strong", "Bitter", "Sweet", "Bad", "Clever", "Cautious",
             "Wise", "Craven", "Poor", "Pretty", "Scared", "Homeless", "Hot", "Shy", "True", "Mad", "Blessed",
             "Queer", "Sour", "Cunning", "Hairy", "Broken", "Bloody", // adjective titles
-            "Conqueror", "Wolf", "Fool", "Iron", "Worm", "Bull", "Kingswood", "Sword" // miscellaneous
+            "Conqueror", "Wolf", "Fool", "Iron", "Worm", "Bull", "Kingswood", "Sword", "Nymeros" // miscellaneous
     ));
 
     // Words that are sometimes placed between first and last names
@@ -134,7 +134,7 @@ public class StormOfSwords {
         finder.addToCharacterGroup("Martyn Lannister", "Martyn");
 
         // manually combine more character groups
-        finder.combineGroups("Jon Snow", "Lord Snow");
+        finder.combineGroups("Jon Snow", "Lord Snow", "Jon Stark");
         finder.combineGroups("Jon Connington", "Lord Connington", "Lord Jon");
         finder.combineGroups("Jon Arryn", "Lord Arryn");
         finder.combineGroups("Bran", "Brandon Stark");
@@ -247,23 +247,16 @@ public class StormOfSwords {
         names.add("Kyra");
 
         // manually remove a few names that are either mistakes, duplicates, or unused
-        names.remove("Ned Stark");      // as Eddard Stark
         names.remove("Jon Stark");      // as Jon Snow
-        names.remove("Brandon Stark");  // as Bran
-        names.remove("Daenerys Stormborn"); // as Daenerys Targaryen
-        names.remove("Arya Horseface"); // as Arya Stark
-        names.remove("Arya Underfoot"); // as Arya Stark
-        names.remove("Joff");           // as Joffrey Baratheon
-        names.remove("Joffrey");        // as Joffrey Baratheon
         names.remove("Sam Tarly");      // as Samwell Tarly
-        names.remove("Ben Stark");      // as Benjen Stark
-        names.remove("Brynden Blackfish");  // as Brynden Tully
+        names.remove("Joff");           // as Joffrey Baratheon
+        names.remove("Brandon Stark");  // as Bran
         names.remove("Petyr Littlefinger"); // as Petyr Baelish
-        names.remove("Littlefinger");   // as Petyr Baelish
         names.remove("Paramount");      // as Petyr Baelish
+        names.remove("Ned Stark");      // as Eddard Stark
         names.remove("Lysa Tully");     // as Lysa Arryn
-        names.remove("Imp");            // as Tyrion Lannister
-
+        names.remove("Brynden Blackfish");  // as Brynden Tully
+        names.remove("Ben Stark");      // as Benjen Stark
         names.remove("Merrett Muttonhead"); // as Merrett Frey
         names.remove("Baelor Brightsmile"); // as Baelor Hightower
         names.remove("Baelor Breakwind");   // as Baelor Hightower
@@ -274,13 +267,7 @@ public class StormOfSwords {
         names.remove("Scab");           // as Aerys Targaryen
         names.remove("Onions");         // as Davos
 
-        names.remove("Nymeros Martell");// mistake
         names.remove("Soldier");        // a doll
-
-        names.remove("Lu");             // named axe
-        names.remove("Pounce");         // a cat
-        names.remove("Eyed Maid");      // unused
-        names.remove("Hoarfrost Hill"); // mistake
         names.remove("Horn Hill");      // mistake
 
         Set<String> firstNames = finder.getFirstNames(names);

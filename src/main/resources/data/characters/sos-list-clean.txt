@@ -1,4 +1,4 @@
-Jon Snow,Jon Snow,Lord Snow,Jon
+Jon Snow,Jon Snow,Lord Snow,Jon,Jon Stark
 Tyrion Lannister,Imp Tyrion Lannister,Lord Imp,Imp,Tyrion Lannister,Tyrion
 Wife,Sansa,Lady Sansa,Wife,Sansa Stark,Lady Wife
 Sansa Stark,Sansa,Lady Sansa,Wife,Sansa Stark,Lady Wife
@@ -31,7 +31,7 @@ Grenn,Grenn
 Meera Reed,Meera,Meera Reed
 Jojen Reed,Jojen Reed,Jojen
 Margaery Tyrell,Lady Margaery,Margaery Tyrell,Margaery,Queen Margaery
-Oberyn Martell,Nymeros,Oberyn,Nymeros Martell,Oberyn Martell,Oberyn of Dorne,Oberyn Nymeros Martell,Prince Oberyn
+Oberyn Martell,Oberyn,Oberyn Martell,Oberyn of Dorne,Oberyn Nymeros Martell,Prince Oberyn
 Jeor Mormont,Lord Mormont,Jeor Mormont,Old Bear,Commander Mormont,Jeor
 Walder Frey,Walder Frey,Grandfather,Lord Walder,Lord Frey,Lord of the Crossing,Lord Grandfather
 Arstan,Arstan,Whitebeard,Arstan Whitebeard
