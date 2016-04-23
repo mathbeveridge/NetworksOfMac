@@ -1,8 +1,8 @@
 Tyrion,Tyrion the Imp,Tyrion Lannister,Imp,Tyrion,Lord Tyrion
 Arya,Lumpyhead Lumpyface Stickboy,Arya,Arry,Lumpyhead Rabbitkiller,Arya Underfoot,Lumpyface Stickboy,Lumpyface,Lumpyhead,Rabbitkiller,Stickboy,Lumpyface Lumpyhead Rabbitkiller,Arya Stark,Underfoot,Arya Stark the Hand
-Bran,Brandon the Burner,Bran,Brandon,Brandon the Bad,Prince Bran,Daughterless,Lord Brandon,Brandon the Shipwright,Brandon Stark,Brandon the Daughterless,Brandon the Builder,Burner,Bran Stark,Bran the Builder
 Jon Snow,Jon Snow,Lord Snow,Jon
 Theon,Theon,Theon Turncloak,Theon Greyjoy,Theon Stark,Turncloak,Prince Theon,Reek
+Bran,Prince Bran,Bran,Brandon Stark,Bran Stark,Bran the Builder
 Stannis,Lord of Dragonstone,Lord Stannis,King Stannis,Stannis Baratheon,Stannis
 Joffrey,Illborn,Prince Joffrey,Joffrey the Illborn,King Joffrey,Joffrey Baratheon,Joffrey,Joff
 Catelyn,Lady Catelyn,Lady Stark,Cat,Catelyn Stark,Catelyn
@@ -24,7 +24,6 @@ Tywin,Lord of Casterly Rock,Tywin Lannister,Lord Tywin,Tywin
 Brienne,Beauty,Brienne,Brienne the Blue,Brienne the Beauty,Lady Brienne
 Landing,Landing
 Luwin,Maester Luwin,Luwin
-Rodrik,Rodrik Greyjoy,Rodrik,Ser Rodrik,Rodrik Cassel
 Wall,Wall
 Gendry,Gendry
 Do,Do
@@ -76,6 +75,7 @@ Stonesnake,Stonesnake
 Myrcella,Myrcella Baratheon,Princess Myrcella,Myrcella
 Pyat,Pree,Pyat,Pyat Pree
 Others,Others
+Rodrik Cassel,Ser Rodrik,Rodrik Cassel
 Shagga,Shagga
 Boros,Boros Blount,Ser Boros,Boros
 Pylos,Lord Maester,Pylos,Maester Pylos
@@ -385,7 +385,6 @@ Street,Street
 Jade,Jade Sea,Jade
 Toad,Toad
 Prayer,Prayer
-Martyn,Martyn Rivers,Martyn,Martyn Lannister
 Lyanna,Lady Lyanna,Lyanna
 Faithful,Faithful,Urswyck,Faithful Urswyck
 Goodman,Goodman,Willit,Ironbelly,Goodman Willit,Goodman Ironbelly
@@ -460,6 +459,7 @@ Tower of Ghosts,Tower of Ghosts
 Walda,Walda,Lady Walda
 Philip,Philip Foote,Foote,Ser Philip,Philip,Lord Philip
 Thoros,Thoros
+Burner,Brandon the Burner,Burner
 Steelshanks,Walton the Moon King,Steelshanks Walton,Steelshanks,Walton
 Endrew,Ser Endrew,Endrew,Endrew Tarth
 Bar,Bar Emmon,Bar
@@ -492,6 +492,7 @@ Morros,Morros,Morros Slynt
 Maekar,Maekar,King Maekar
 Seastone,Seastone Chair,Seastone,Chair
 Shadowblack,Shadowblack,Shadowblack Lane
+Lord Brandon,Lord Brandon
 Nissa,Nissa,Nissa Nissa
 Mathos,Mallarawan,Mathos Mallarawan,Mathos
 Raven,Raven,Red Raven
@@ -549,6 +550,7 @@ Laughter,Laughter,Bold Laughter
 Hallis,Hallis,Hallis Mollen
 Urron,Urron Redhand,Urron
 Minisa,Lady Minisa,Minisa,Minisa Tully
+Brandon the Shipwright,Brandon the Shipwright
 Mark,Mark,Mark Mullendore
 Three Sisters,Three Sisters
 Horned,Honor,Horned Lord,Horned Honor,Horned
@@ -568,10 +570,12 @@ Messenger,Messenger,Red Messenger
 King of the Andals,King of the Andals
 Willum,Willum,Lord Willum
 Jhaqo,Jhaqo,Khal Jhaqo
+Martyn Rivers,Martyn Rivers
 Leyton,Lord Leyton,Leyton,Leyton Hightower
 Hubard,Hubard,Ser Hubard,Hubard Rambton
 Chamber,Chamber
 Sygerrik,Sygerrik
+Rodrik Greyjoy,Rodrik Greyjoy
 Lady Greyjoy,Lady Greyjoy
 Booming,Booming Tower,Booming
 Lamprey,Lord Lamprey,Lamprey
@@ -644,6 +648,7 @@ Walder Rivers,Walder Rivers
 Guest,Guest,Guest Keep
 Leech,Lord Leech,Leech
 Crackclaw,Crackclaw,Crackclaw Point
+Brandon the Bad,Brandon the Bad
 Jeffory,Jeffory Mallister,Jeffory
 High Captain,High Captain
 Lorn,Lorn,Lorn Point
@@ -673,6 +678,7 @@ Mooton,Mooton,Lord Mooton
 Library,Library,Library Tower
 Field,Field
 Laughing,Laughing,Laughing Lord
+Daughterless,Daughterless,Brandon the Daughterless
 Beggar,Beggar,Beggar King
 King of the Trident,King of the Trident
 Wendello,Qar,Deeth,Wendello Qar Deeth,Wendello
@@ -688,8 +694,10 @@ Castle Cerwyn,Castle Cerwyn
 Lady Mormont,Lady Mormont
 Jafer,Jafer,Jafer Flowers
 Kyle,Kyle,Kyle Royce
+Martyn Lannister,Martyn Lannister
 Lord Meadows,Lord Meadows
 Dermot,Ser Dermot,Dermot
+Brandon the Builder,Brandon the Builder
 Trident Three,Trident Three
 Dragon Tower,Dragon Tower
 Donnor,Lord Donnor,Donnor

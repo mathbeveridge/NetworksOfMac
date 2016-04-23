@@ -66,19 +66,19 @@ public class ClashOfKings {
         places.add("Casterly");
         Set<String> lonely = finder.getLonelyWords();
 
-//        System.out.println(titledNames);
-//        System.out.println(pluralizedNames);
-//        System.out.println(surnames);
-//        System.out.println(names);
-//        System.out.println(places);
-//        System.out.println(lonely);
-//        System.out.println();
+        System.out.println(titledNames);
+        System.out.println(pluralizedNames);
+        System.out.println(surnames);
+        System.out.println(names);
+        System.out.println(places);
+        System.out.println(lonely);
+        System.out.println();
 
         finder.removePlaces();
         finder.removeTitles();
         finder.removeWordsBelowThreshold(lonely, 5);
 
-//        finder.printCounter().writeLog("src/main/resources/data/characters/cok-counter.csv");
+        finder.printCounter().writeLog("src/main/resources/data/characters/cok-counter.csv");
 
         // gather phrases that are not inherently descriptive
         Set<String> nondescriptors = new HashSet<>();
@@ -90,11 +90,14 @@ public class ClashOfKings {
 
         // add problematic names
         nondescriptors.add("Jon");
+        nondescriptors.add("Brandon");
         nondescriptors.add("Robert");
         nondescriptors.add("Petyr");
         nondescriptors.add("Balon");
         nondescriptors.add("Walder");
         nondescriptors.add("Aemon");
+        nondescriptors.add("Martyn");
+        nondescriptors.add("Rodrik");
 
         // build character groups
         finder.buildCharacterGroups(nondescriptors);
@@ -107,13 +110,17 @@ public class ClashOfKings {
         finder.addToCharacterGroup("Maester Aemon", "Aemon");
 
         // manually combine more character groups
-        finder.combineGroups("Eddard", "Ned");
         finder.combineGroups("Jon Snow", "Lord Snow");
         finder.combineGroups("Jon Fossoway", "Ser Jon");
+        finder.combineGroups("Bran", "Brandon Stark");
         finder.combineGroups("Robert Baratheon", "King Robert", "Robert the Usurper");
         finder.combineGroups("Robert Arryn", "Lord Robert");
-        finder.combineGroups("Bran", "Brandon Stark");
         finder.combineGroups("Petyr Baelish", "Littlefinger", "Paramount", "Lord Petyr");
+        finder.combineGroups("Balon Greyjoy", "Lord Greyjoy", "Lord of the Iron Islands", "Reaper", "King Balon", "Lord Balon");
+        finder.combineGroups("Balon Swann", "Ser Balon");
+        finder.combineGroups("Walder Frey", "Lord Frey", "Lord of the Crossing", "Lord Walder");
+        finder.combineGroups("Rodrik Cassel", "Ser Rodrik");
+        finder.combineGroups("Eddard", "Ned");
         finder.combineGroups("Daenerys", "Dany", "Khaleesi");
         finder.combineGroups("Joffrey", "Joff");
         finder.combineGroups("Samwell", "Sam");
@@ -123,7 +130,6 @@ public class ClashOfKings {
         finder.combineGroups("Jon Arryn", "Lord Arryn");
         finder.combineGroups("Catelyn", "Lady Stark");
         finder.combineGroups("Pycelle", "Grand Maester");
-        finder.combineGroups("Walder Frey", "Lord Frey", "Lord of the Crossing", "Lord Walder");
         finder.combineGroups("Lysa", "Lady Arryn");
         finder.combineGroups("Greatjon", "Lord Umber");
         finder.combineGroups("Renly", "Lord of Storm");
@@ -147,8 +153,6 @@ public class ClashOfKings {
         finder.combineGroups("Rattleshirt", "Lord of Bones");
         finder.combineGroups("Wyman", "Lord of White Harbor");
         finder.combineGroups("Randyll", "Lord Tarly");
-        finder.combineGroups("Balon Greyjoy", "Lord Greyjoy", "Lord of the Iron Islands", "Reaper", "King Balon", "Lord Balon");
-        finder.combineGroups("Balon Swann", "Ser Balon");
         finder.combineGroups("Mace", "Lord of Highgarden", "Lord Tyrell");
         finder.combineGroups("Stannis", "Lord of Dragonstone");
         finder.combineGroups("Rickard Karstark", "Lord Karstark");
@@ -237,7 +241,6 @@ public class ClashOfKings {
         names.remove("Grey Wind");      // dire wolf
         names.remove("Torrhen Stark");  // unused
         names.remove("Aerys Oakheart"); // unused
-        names.remove("Rodrik Greyjoy"); // unused
         names.remove("Bleeding Star");  // ???
 
         Set<String> firstNames = finder.getFirstNames(names);

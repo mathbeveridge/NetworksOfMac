@@ -1,8 +1,8 @@
 Tyrion Lannister,Tyrion the Imp,Tyrion Lannister,Imp,Tyrion,Lord Tyrion
 Arya Stark,Lumpyhead Lumpyface Stickboy,Arya,Arry,Lumpyhead Rabbitkiller,Arya Underfoot,Lumpyface Stickboy,Lumpyface,Lumpyhead,Rabbitkiller,Stickboy,Lumpyface Lumpyhead Rabbitkiller,Arya Stark,Underfoot,Arya Stark the Hand
-Bran Stark,Brandon the Burner,Bran,Brandon,Brandon the Bad,Prince Bran,Daughterless,Lord Brandon,Brandon the Shipwright,Brandon Stark,Brandon the Daughterless,Brandon the Builder,Burner,Bran Stark,Bran the Builder
 Jon Snow,Jon Snow,Lord Snow,Jon
 Theon Greyjoy,Theon,Theon Turncloak,Theon Greyjoy,Theon Stark,Turncloak,Prince Theon,Reek
+Bran Stark,Prince Bran,Bran,Brandon Stark,Bran Stark,Bran the Builder
 Stannis Baratheon,Lord of Dragonstone,Lord Stannis,King Stannis,Stannis Baratheon,Stannis
 Joffrey Baratheon,Illborn,Prince Joffrey,Joffrey the Illborn,King Joffrey,Joffrey Baratheon,Joffrey,Joff
 Catelyn Stark,Lady Catelyn,Lady Stark,Cat,Catelyn Stark,Catelyn
@@ -23,7 +23,6 @@ Qhorin Halfhand,Qhorin Halfhand,Halfhand,Qhorin
 Tywin Lannister,Lord of Casterly Rock,Tywin Lannister,Lord Tywin,Tywin
 Brienne,Beauty,Brienne,Brienne the Blue,Brienne the Beauty,Lady Brienne
 Luwin,Maester Luwin,Luwin
-Rodrik Cassel,Rodrik Greyjoy,Rodrik,Ser Rodrik,Rodrik Cassel
 Gendry,Gendry
 Sandor Clegane,Sandor Clegane,Sandor,Hound
 Bronn,Bronn
@@ -61,6 +60,7 @@ Cleos Frey,Cleos,Cleos Frey,Ser Cleos
 Rorge,Rorge
 Myrcella Baratheon,Myrcella Baratheon,Princess Myrcella,Myrcella
 Dagmer Cleftjaw,Dagmer,Dagmer Cleftjaw,Cleftjaw
+Rodrik Cassel,Ser Rodrik,Rodrik Cassel
 Shagga,Shagga
 Boros Blount,Boros Blount,Ser Boros,Boros
 Roose Bolton,Roose,Roose Bolton,Lord of the Dreadfort,Lord Bolton
@@ -197,11 +197,9 @@ Pono,Pono,Khal Pono
 Kevan Lannister,Ser Kevan,Kevan Lannister,Kevan
 Aenys Frey,Aenys Frey,Aenys,Ser Aenys
 Alysanne,Alysanne,Queen Alysanne
-Martyn Lannister,Martyn Rivers,Martyn,Martyn Lannister
 Willem Lannister,Willem,Ser Willem,Willem Darry,Willem Lannister
 Harys Haigh,Haigh,Lord Harys,Harys,Harys Swyft,Harys Haigh,Ser Harys
 Jory Cassel,Jory Cassel,Jory
-Martyn Rivers,Martyn Rivers,Martyn,Martyn Lannister
 Willem Darry,Willem,Ser Willem,Willem Darry,Willem Lannister
 Burton Crakehall,Burton,Lord Crakehall,Crakehall,Burton Crakehall
 Garlan Tyrell,Ser Garlan,Garlan Tyrell,Garlan,Gallant,Garlan the Gallant
@@ -268,9 +266,11 @@ Tanton,Tanton,Ser Tanton
 Willum,Willum,Lord Willum
 Jhaqo,Jhaqo,Khal Jhaqo
 Minisa Tully,Lady Minisa,Minisa,Minisa Tully
+Martyn Rivers,Martyn Rivers
 Mark Mullendore,Mark,Mark Mullendore
 Rubert Brax,Rubert,Rubert Brax
 Qalen,Qalen,Maester Qalen
+Rodrik Greyjoy,Rodrik Greyjoy
 Larence Snow,Larence,Larence Snow
 Lamprey,Lord Lamprey,Lamprey
 Edwyd,Ser Edwyd,Edwyd
@@ -291,6 +291,7 @@ Edwyle,Edwyle,Lord Edwyle
 Symeon Star,Symeon,Symeon Star
 Manolo,Manolo,Magister Manolo
 Willam,Willam,Lord Willam
+Martyn Lannister,Martyn Lannister
 Dermot,Ser Dermot,Dermot
 Donnel Locke,Donnel Locke,Donnel
 Dorren Stark,Dorren Stark,Dorren

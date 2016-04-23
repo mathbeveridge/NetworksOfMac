@@ -1,8 +1,8 @@
 Tyrion,Tyrion the Imp,Tyrion Lannister,Imp,Tyrion,Lord Tyrion
 Arya,Lumpyhead Lumpyface Stickboy,Arya,Arry,Lumpyhead Rabbitkiller,Arya Underfoot,Lumpyface Stickboy,Lumpyface,Lumpyhead,Rabbitkiller,Stickboy,Lumpyface Lumpyhead Rabbitkiller,Arya Stark,Underfoot,Arya Stark the Hand
-Bran,Brandon the Burner,Bran,Brandon,Brandon the Bad,Prince Bran,Daughterless,Lord Brandon,Brandon the Shipwright,Brandon Stark,Brandon the Daughterless,Brandon the Builder,Burner,Bran Stark,Bran the Builder
 Jon,Jon Snow,Lord Snow,Jon
 Theon,Theon,Theon Turncloak,Theon Greyjoy,Theon Stark,Turncloak,Prince Theon,Reek
+Bran,Prince Bran,Bran,Brandon Stark,Bran Stark,Bran the Builder
 Stannis,Lord of Dragonstone,Lord Stannis,King Stannis,Stannis Baratheon,Stannis
 Joffrey,Illborn,Prince Joffrey,Joffrey the Illborn,King Joffrey,Joffrey Baratheon,Joffrey,Joff
 Catelyn,Lady Catelyn,Lady Stark,Cat,Catelyn Stark,Catelyn
@@ -23,7 +23,6 @@ Qhorin,Qhorin Halfhand,Halfhand,Qhorin
 Tywin,Lord of Casterly Rock,Tywin Lannister,Lord Tywin,Tywin
 Brienne,Beauty,Brienne,Brienne the Blue,Brienne the Beauty,Lady Brienne
 Luwin,Maester Luwin,Luwin
-Rodrik,Rodrik Greyjoy,Rodrik,Ser Rodrik,Rodrik Cassel
 Gendry,Gendry
 Samwell,Sam Tarly,Samwell Tarly,Sam,Samwell
 Sandor,Sandor Clegane,Sandor,Hound
@@ -199,7 +198,6 @@ Perwyn,Perwyn Frey,Perwyn,Ser Perwyn
 Aerion,Monstrous,Aerion the Monstrous,Aerion,Brightflame,Aerion Brightflame,Prince Aerion
 Burton,Burton,Lord Crakehall,Crakehall,Burton Crakehall
 Paxter,Paxter Redwyne,Lord Paxter,Paxter
-Martyn,Martyn Rivers,Martyn,Martyn Lannister
 Lyanna,Lady Lyanna,Lyanna
 Stevron,Stevron Frey,Stevron,Ser Stevron
 Tytos,Tytos Blackwood,Lord Tytos,Tytos

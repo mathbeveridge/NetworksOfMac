@@ -1,8 +1,8 @@
 Tyrion,Imp,Tyrion
 Arya,Lumpyface,Arya,Lumpyhead,Arry,Rabbitkiller,Stickboy,Underfoot
-Bran,Daughterless,Bran,Brandon,Burner
 Jon,Snow,Jon
 Theon,Theon,Turncloak,Reek
+Bran,Bran,Brandon
 Stannis,Stannis
 Joffrey,Illborn,Joffrey,Joff
 Catelyn,Cat,Catelyn,Stark
@@ -23,7 +23,6 @@ Qhorin,Halfhand,Qhorin
 Tywin,Tywin
 Brienne,Beauty,Brienne
 Luwin,Luwin
-Rodrik,Rodrik
 Gendry,Gendry
 Samwell,Sam,Samwell
 Sandor,Sandor,Hound
@@ -200,7 +199,6 @@ Harys,Haigh,Harys
 Perwyn,Perwyn
 Willem,Willem
 Burton,Burton,Crakehall
-Martyn,Martyn
 Jory,Jory
 Garlan,Garlan,Gallant
 Paxter,Paxter
@@ -258,6 +256,7 @@ Hallis,Hallis
 Hubard,Hubard
 Willum,Willum
 Jared,Jared
+Martyn,Martyn
 Barth,Barth
 Jarmen,Jarmen
 Lydden,Lydden
@@ -275,6 +274,7 @@ Rodwell,Rodwell
 Vayon,Vayon
 Arnell,Arnell
 Larence,Larence
+Rodrik,Rodrik
 Staedmon,Staedmon
 Willam,Willam
 Elbert,Elbert
