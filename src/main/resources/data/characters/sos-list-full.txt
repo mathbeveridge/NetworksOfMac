@@ -49,6 +49,7 @@ Varys,Lord Varys,Varys,Spider,Lady Varys
 Aemon Targaryen,Aemon Targaryen,Maester Aemon,Aemon
 Donal,Donal Noye,Noye,Donal
 Tormund,Tormund Giantsbane,Giantsbane,Crowlover,Tormund Giantsbabe,Giantsbabe,Tormund Thunderfist,Tormund,Tormund Crowlover,Thunderfist
+Jaime Lannister,Kingslayer,Jaime Lannister
 Aerys,Mad King,Scab,King Aerys,King Scab,Aerys Targaryen,Aerys,Aerys the Third,Aerys the Mad
 Gilly,Gilly
 Roose,Roose,Roose Bolton,Lord Roose,Lord of the Dreadfort,Lord Bolton
@@ -66,7 +67,6 @@ Be,Be
 Kevan,Ser Kevan,Kevan Lannister,Kevan
 Chett,Chett
 Mace,Mace,Puff,Lord Mace,Puff Fish,Mace Tyrell,Lord Tyrell
-Kingslayer,Kingslayer
 Merrett,Merrett Frey,Muttonhead,Merrett,Merrett Muttonhead,Ser Merrett
 Fist,Fist of the First,Fist
 Pyp,Pyp
@@ -175,7 +175,6 @@ Jon Arryn,Jon Arryn,Lord Arryn
 Longspear,Longspear,Longspear Ryk,Ryk
 Doran,Prince Doran,Doran,Doran Martell
 Tansy,Tansy
-Jaime Lannister,Jaime Lannister
 Viserion,Viserion
 Jinglebell,Jinglebell Frey,Jinglebell
 Symon,Symon Silver,Symon

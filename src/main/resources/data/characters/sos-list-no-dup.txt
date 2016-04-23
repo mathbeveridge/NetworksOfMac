@@ -106,7 +106,6 @@ Doran,Prince Doran,Doran,Doran Martell
 Jinglebell,Jinglebell Frey,Jinglebell
 Myrcella,Princess Myrcella,Queen Myrcella,Myrcella
 Desmond,Desmond,Ser Desmond,Desmond Grell
-Symon,Symon Silver,Symon
 Randyll,Lord Tarly,Randyll,Lord Randyll,Randyll Tarly
 Jason,Jason Mallister,Lord Jason,Jason
 Varamyr,Sixskins,Varamyr,Varamyr Sixskins
@@ -279,8 +278,8 @@ Graceford,Lady Graceford,Graceford
 Myranda,Lady Myranda,Myranda
 Vardis,Vardis Egen,Vardis
 Mullin,Maester Mullin,Mullin
-Squishlips,Squishlips,Squire Squishlips
 Trystane,Trystane,Prince Trystane
+Squishlips,Squishlips,Squire Squishlips
 Wilbert,Wilbert,Ser Wilbert
 Coldhands,Coldhands
 Leobald,Leobald,Leobald Tallhart
@@ -327,7 +326,6 @@ Arianne,Princess Arianne,Arianne
 Otto,Otto,Otto Hightower
 Erreck,Erreck,Maester Erreck
 Omer,Omer Blackberry,Omer
-Kyra,Kyra
 Jonothor,Jonothor Darry,Jonothor
 Mellario,Mellario,Lady Mellario
 Sherrit,King Sherrit,Sherrit

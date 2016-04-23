@@ -41,6 +41,7 @@ Melisandre,Melisandre
 Bronn,Bronn
 Varys,Varys,Spider
 Donal,Noye,Donal
+Jaime,Kingslayer,Jaime
 Aerys,Scab,Aerys
 Roose,Roose,Bolton
 Gilly,Gilly
@@ -107,7 +108,6 @@ Jon,Jon,Arryn
 Myrcella,Myrcella
 Desmond,Desmond
 Ben,Ben
-Jaime,Jaime
 Jinglebell,Jinglebell
 Varamyr,Sixskins,Varamyr
 Olenna,Olenna
@@ -349,10 +349,10 @@ Aemon,Aemon,Costayne
 Mellario,Mellario
 Chayle,Chayle
 Waymar,Waymar
+Jaime,Jaime
 Triston,Triston
 Quentyn,Quentyn
 Ther,Ther
-Kyra,Kyra
 Arianne,Arianne
 Jonothor,Jonothor
 Donnel,Donnel

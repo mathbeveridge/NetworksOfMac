@@ -42,6 +42,7 @@ Bronn,Ser Bronn,Bronn
 Varys,Lord Varys,Varys,Spider,Lady Varys
 Donal Noye,Donal Noye,Noye,Donal
 Aemon Targaryen,Aemon Targaryen,Maester Aemon,Aemon
+Jaime Lannister,Kingslayer,Jaime Lannister
 Aerys Targaryen,Mad King,Scab,King Aerys,King Scab,Aerys Targaryen,Aerys,Aerys the Third,Aerys the Mad
 Gilly,Gilly
 Roose Bolton,Roose,Roose Bolton,Lord Roose,Lord of the Dreadfort,Lord Bolton
@@ -111,7 +112,6 @@ Alester Florent,Alester Florent,Lord Alester,Alester
 Jon Arryn,Jon Arryn,Lord Arryn
 Doran Martell,Prince Doran,Doran,Doran Martell
 Jinglebell Frey,Jinglebell Frey,Jinglebell
-Jaime Lannister,Jaime Lannister
 Desmond Grell,Desmond,Ser Desmond,Desmond Grell
 Balon Greyjoy,King Balon,Balon Greyjoy,Lord Balon
 Ben Plumm,Ben Plumm,Brown Ben
@@ -176,7 +176,6 @@ Maiden Fair,Maiden,Maiden Fair
 Mully,Mully
 Robett Glover,Robett,Robett Glover
 Wynton Stout,Wynton,Wynton Stout
-Alyn,Alyn Connington,Alyn of Winterfell,Red Alyn,Alyn
 Rakharo,Rakharo
 Rollam Westerling,Rollam Westerling,Rollam
 Syrio Forel,Syrio,Syrio Forel,Forel
@@ -387,7 +386,6 @@ Raymar Royce,Raymar Royce,Raymar
 Ther Jaime,Ther Jaime,Ther
 Erreck,Erreck,Maester Erreck
 Jeyne Swann,Jeyne Swann
-Kyra,Kyra
 Ulwyck,Ser Ulwyck,Ulwyck
 Belgrave,Belgrave,Lord Belgrave
 Robin Hill,Robin Hill
