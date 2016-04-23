@@ -255,7 +255,6 @@ Jaehaerys,Jaehaerys,King Jaehaerys
 Barth,Lord Barth,Barth
 Ryam Redwyne,Ryam Redwyne,Ryam
 Ermesande,Lady Ermesande,Ermesande
-Arthur Dayne,Arthur,Ashara Dayne,Ashara,Arthur Dayne,Dayne
 Jarmen Buckwell,Jarmen Buckwell,Jarmen
 Utt,Utt,Septon Utt
 Urron Redhand,Urron Redhand,Urron
@@ -273,6 +272,7 @@ Qalen,Qalen,Maester Qalen
 Rodrik Greyjoy,Rodrik Greyjoy
 Larence Snow,Larence,Larence Snow
 Lamprey,Lord Lamprey,Lamprey
+Arthur Dayne,Arthur,Arthur Dayne
 Edwyd,Ser Edwyd,Edwyd
 Arnell,Ser Arnell,Arnell
 Petyr Pimple,Petyr Pimple,Pimple
@@ -315,6 +315,7 @@ Staedmon,Lord Staedmon,Staedmon
 Walder Rivers,Walder Rivers
 Beron,Lord Beron,Beron
 Leech,Lord Leech,Leech
+Gerold Hightower,Gerold Hightower,Gerold
 Jeffory Mallister,Jeffory Mallister,Jeffory
 Malcolm,Ser Malcolm,Malcolm
 Lothston,Lord Lothston,Lothston

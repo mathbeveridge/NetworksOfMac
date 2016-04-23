@@ -202,6 +202,21 @@ public class CharacterFinder {
     }
 
     /**
+     * If the phrase ends with "of...", that chunk gets removed.
+     * Otherwise returns name.
+     * @param name
+     * @return
+     */
+    public String stripPlace(String name) {
+        String noPlace = StringUtils.substringBefore(name, " of ");
+        if (!isGeneralWord(noPlace)) {
+            return noPlace;
+        } else {
+            return name;
+        }
+    }
+
+    /**
      * If the first word of name is a title (in generalWords), it gets removed.
      * Otherwise returns name.
      * @param name
@@ -299,7 +314,7 @@ public class CharacterFinder {
         Set<String> surnames = new HashSet<>();
         Set<String> once = new HashSet<>();
         for (String cap : words) {
-            String name = stripTitle(cap);
+            String name = stripTitle(stripPlace(cap));
             String[] split = name.split(" ");
             if (!isGeneralWord(split[0])) {
                 if (split.length == 2 && !isGeneralWord(split[1])) {
@@ -414,14 +429,7 @@ public class CharacterFinder {
     public void removePlaces() {
         Map<String, Integer> reducedCounter = new HashMap<>();
         for (String cap : counter.keySet()) {
-            String noPlace = cap;
-            // strip "of..." bits
-            if (noPlace.contains(" of ")) {
-                String temp = StringUtils.substringBefore(noPlace, " of ");
-                if (!isGeneralWord(temp)) {
-                    noPlace = temp;
-                }
-            }
+            String noPlace = stripPlace(cap);
             if (!reducedCounter.containsKey(noPlace)) {
                 reducedCounter.put(noPlace, 0);
             }

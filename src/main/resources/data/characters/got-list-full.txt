@@ -125,7 +125,7 @@ Bowen,Bowen Marsh,Bowen Marsh the Lord Steward,Bowen
 Conn,Conn
 Harrenhal,Harrenhal
 Rakharo,Rakharo
-Common,Tongue,Common Tongue,Common
+Common,Common
 Shae,Shae
 Chiggen,Chiggen
 Desmond,Desmond
@@ -254,6 +254,7 @@ Gurn,Gurn
 Florian,Ser Florian,Fool,Florian,Florian the Fool
 Oswell,Ser Oswell,Oswell,Oswell Whent
 Tanda,Tanda,Lady Tanda
+Marcher,Marcher,Bryce Caron,Bryce,Marcher Lord Bryce Caron
 Cheyk,Cheyk
 Hosteen,Ser Hosteen,Hosteen,Hosteen Frey
 Mychel,Mychel Redfort,Mychel
@@ -261,7 +262,6 @@ Jommo,Khal Jommo,Jommo
 Door,Moon Door,Door
 Port,Port
 Shepherd,Shepherd,Great Shepherd
-Marcher,Marcher,Bryce Caron,Bryce,Marcher Lord Bryce Caron,Caron
 Hobber,Ser Hobber,Hobber,Slobber,Ser Slobber
 Wheel,Wheel,Wheel Tower
 Horse,Horse,Horse Gate

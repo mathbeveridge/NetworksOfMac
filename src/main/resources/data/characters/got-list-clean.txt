@@ -163,6 +163,7 @@ Perwyn,Perwyn,Ser Perwyn
 Arys Oakheart,Arys,Ser Arys,Arys Oakheart
 Willem Darry,Willem,Ser Willem,Willem Darry
 Balon Greyjoy,Balon Greyjoy
+Bryce Caron,Marcher,Bryce Caron,Bryce,Marcher Lord Bryce Caron
 Mychel Redfort,Mychel Redfort,Mychel
 Lothor Brune,Lothor Brune,Lothor,Brune
 Howland Reed,Howland,Reed,Howland Reed
@@ -171,7 +172,6 @@ Jommo,Khal Jommo,Jommo
 Oswell Whent,Ser Oswell,Oswell,Oswell Whent
 Florian,Ser Florian,Fool,Florian,Florian the Fool
 Mace Tyrell,Mace,Mace Tyrell
-Bryce Caron,Marcher,Bryce Caron,Bryce,Marcher Lord Bryce Caron,Caron
 Tanda,Tanda,Lady Tanda
 Hosteen Frey,Ser Hosteen,Hosteen,Hosteen Frey
 Hobber,Ser Hobber,Hobber,Slobber,Ser Slobber

@@ -113,6 +113,7 @@ Dolorous,Edd,Dolorous Edd,Dolorous
 Vargo,Vargo,Lord Hoat,Lord Vargo,Vargo Hoat
 Jon Arryn,Jon Arryn,Lord Arryn
 Walders,Walders
+Kingdoms,Lord of the Seven Kingdoms,Queen of the Seven Kingdoms of Westeros,Queen of the Seven Kingdoms,Westeros,Kingdoms
 Weasel,Weasel
 Ygritte,Ygritte
 Patchface,Patchface
@@ -189,7 +190,6 @@ Benjen,Benjen the Sweet,Benjen Stark,Benjen the Bitter,Benjen,Ben Stark
 Wailing,Wailing,Wailing Tower
 Vylarr,Vylarr
 Rush,Blackwater Rush,Rush
-Common,Old Tongue,Tongue,Common Tongue,Symon Silver Tongue,Symon,Common
 Ice,Ice,Ice Dragon
 Osfryd,Osfryd Kettleblack,Osfryd
 Allard,Allard
@@ -228,6 +228,7 @@ Chella,Chella
 Dawn,Dawn,Dawn Age,Age
 Dornish,Dornish Marches,Marches,Dornish
 Lys,Lys
+Common,Common
 Mountains,Mountains
 Celtigar,Lord Celtigar,Celtigar
 Milkwater,Milkwater
@@ -341,7 +342,6 @@ Great Keep,Great Keep
 Jaremy,Jaremy,Ser Jaremy,Jaremy Rykker
 Lyonel,Ser Lyonel,Lyonel
 Lyseni,Lyseni
-Kingdoms,Lord of the Seven Kingdoms,Queen of the Seven Kingdoms of Westeros,Queen of the Seven Kingdoms,Kingdoms
 Kevan,Ser Kevan,Kevan Lannister,Kevan
 Pono,Pono,Khal Pono
 Qyburn,Qyburn
@@ -532,13 +532,13 @@ Victory,Iron Victory,Victory
 Ronnet,Ronnet,Red Ronnet
 Burning,Burning
 Tanton,Tanton,Ser Tanton
+Symon,Symon Silver,Symon
 Alyn,Alyn Stackspear,Stackspear,Alyn
 Blind,Blind,Sybassion,Blind Sybassion the Eater,Eater
 Josmyn,Peckledon,Josmyn,Josmyn Peckledon
 Edwyn,Edwyn,Edwyn the Spring King
 Black Ear,Black Ear
 Lord Penrose,Lord Penrose
-Arthur,Arthur,Ashara Dayne,Ashara,Arthur Dayne,Dayne
 Ragged,Ragged Jenna,Jenna,Ragged
 Lew,Long Lew,Lew
 Rolfe,Rolfe,Red Rolfe
@@ -597,6 +597,7 @@ Saathos,Saathos,Saathos the Wise,Wise
 Lymond,Lymond,Vikary,Lymond Vikary
 Old Gate,Old Gate
 City of Bones,City of Bones
+Arthur,Arthur,Arthur Dayne
 Emmon Frey,Emmon Frey
 Bonifer,Bonifer the Good,Bonifer
 White Sword,White Sword
@@ -701,6 +702,7 @@ Brandon the Builder,Brandon the Builder
 Trident Three,Trident Three
 Dragon Tower,Dragon Tower
 Donnor,Lord Donnor,Donnor
+Ashara,Ashara Dayne,Ashara
 Naerys,Naerys,Princess Naerys
 Reeking,Reeking,Reeking Lane
 Arneld,Ser Arneld,Arneld

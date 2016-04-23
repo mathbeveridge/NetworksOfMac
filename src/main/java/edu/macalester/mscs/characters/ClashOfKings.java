@@ -18,7 +18,7 @@ public class ClashOfKings {
             "Who", "Why", "What", // questions
             "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", "Grace", // GoT specific
             "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons", // familial references
-            "Not", "Stone", "Men", "Man", "Guard", "Was", "Bread", "Wind" // miscellaneous
+            "Not", "Stone", "Men", "Man", "Guard", "Was", "Bread", "Wind", "Tongue" // miscellaneous
     ));
 
     // Words that are not unique, but may still be descriptive, expecially in combination

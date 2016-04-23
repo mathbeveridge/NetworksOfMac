@@ -163,9 +163,9 @@ Hosteen,Ser Hosteen,Hosteen,Hosteen Frey
 Lothor,Lothor Brune,Lothor,Brune
 Mychel,Mychel Redfort,Mychel
 Jommo,Khal Jommo,Jommo
-Bryce,Marcher,Bryce Caron,Bryce,Marcher Lord Bryce Caron,Caron
 Florian,Ser Florian,Fool,Florian,Florian the Fool
 Oswell,Ser Oswell,Oswell,Oswell Whent
+Bryce,Marcher,Bryce Caron,Bryce,Marcher Lord Bryce Caron
 Tanda,Tanda,Lady Tanda
 Hobber,Ser Hobber,Hobber,Slobber,Ser Slobber
 Endrew,Endrew,Tarth,Endrew Tarth

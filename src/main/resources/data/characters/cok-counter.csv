@@ -103,11 +103,11 @@ Timett,30
 Highgarden,30
 Wex,29
 Lord Commander,29
+Seven Kingdoms,29
 Khaleesi,28
 Casterly Rock,28
 Tywin,28
 Kingslayer,28
-Seven Kingdoms,28
 Needle,28
 Clegane,27
 Arry,27
@@ -195,6 +195,7 @@ Grenn,17
 Tully,17
 Drogon,17
 King Joffrey,17
+Westeros,17
 Chataya,17
 Petyr,16
 Drowned God,16
@@ -210,7 +211,6 @@ Lady Hornwood,16
 Mandon Moore,16
 Lady Tanda,16
 City Watch,16
-Westeros,16
 Square,15
 Maegor,15
 Targaryen,15
@@ -317,7 +317,7 @@ Milkwater,11
 Lys,11
 Ilyn Payne,11
 Braavos,11
-Common Tongue,11
+Common,11
 Edd,11
 Harren,11
 Doran Martell,10
@@ -1191,7 +1191,6 @@ Ryman Frey,1
 Faithful Urswyck,1
 Lord Drumm,1
 Walton,1
-Old Tongue,1
 Maiden Fair,1
 Lorn Point,1
 Cley,1
@@ -1317,6 +1316,7 @@ Evenstar,1
 Black Dread,1
 Ottyn,1
 Lord Edwyle,1
+Symon Silver,1
 Lord Swann,1
 Flement Brax,1
 Faros,1
@@ -1339,7 +1339,6 @@ Lothor Apple,1
 Egon Emeros the Exquisite,1
 Vaes Dothrak,1
 Ser Willem,1
-Symon Silver Tongue,1
 Ser Arryk,1
 Lord Hoat,1
 Lord Beron,1
@@ -1513,7 +1512,6 @@ Silk,0
 Swords,0
 Ther,0
 Rossart,0
-Tongue,0
 Mirri,0
 Arthur,0
 Yohn,0
@@ -1757,7 +1755,6 @@ Implacable,0
 Dothrak,0
 Lymond,0
 Wailing,0
-Common,0
 Mirror,0
 Swyft,0
 Knife,0
@@ -1794,4 +1791,4 @@ Mott,0
 Septa,0
 Eddison,0
 
-1795
+1792

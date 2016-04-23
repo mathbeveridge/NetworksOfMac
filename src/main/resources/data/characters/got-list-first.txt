@@ -167,7 +167,7 @@ Hosteen,Hosteen
 Tanda,Tanda
 Daryn,Daryn
 Lothor,Lothor,Brune
-Bryce,Marcher,Bryce,Caron
+Bryce,Marcher,Bryce
 Mychel,Mychel
 Oswell,Oswell
 Florian,Fool,Florian

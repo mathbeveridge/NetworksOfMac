@@ -111,7 +111,6 @@ Bloodbeard,Bloodbeard
 Yurkhaz,Yurkhaz,Yurkhaz zo Yunzak
 Cletus,Cletus,Cletus Yronwood
 Sansa,Sansa,Lady Lannister,Sansa Stark
-Symon,Symon Stripeback,Stripeback,Symon
 Alyn,Sour Alyn,Alyn
 Shireen,Princess Shireen,Shireen
 Barsena,Barsena Blackhair,Barsena,Blackhair
@@ -131,6 +130,7 @@ Rhaegal,Rhaegal
 Randyll,Lord Tarly,Randyll,Lord Randyll,Randyll Tarly
 Benerro,Benerro
 Franklyn,Franklyn,Franklyn Flowers,Ser Franklyn
+Symon,Symon Stripeback,Symon
 Hagen,Hagen,Hagen the Horn
 Tyene,Tyene Sand,Tyene
 Rakharo,Rakharo

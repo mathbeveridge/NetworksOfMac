@@ -169,7 +169,6 @@ Hother,Hother Umber,Whoresbane Umber,Hother,Whoresbane
 Holiness,High Holiness,Holiness
 Myrish,Myrish
 Young Wolf,Young Wolf
-Symon,Symon Stripeback,Stripeback,Symon
 Den,Den
 Stepstones,Stepstones
 Shadow,Shadow,Shadow Tower
@@ -208,6 +207,7 @@ Selaesori,Qhoran,Selaesori,Selaesori Qhoran
 Archibald,Archibald,Archibald Yronwood,Ser Archibald
 Nightfort,Nightfort
 Benerro,Benerro
+Symon,Symon Stripeback,Symon
 Roost,Roost
 Rakharo,Rakharo
 Skinner,Skinner

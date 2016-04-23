@@ -18,7 +18,7 @@ public class GameOfThrones {
             "Who", "Why", // questions
             "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", "Grace", // GoT specific
             "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons", // familial references
-            "If", "And", "Will", "With", "Half", "Men", "Man" // miscellaneous
+            "If", "And", "Will", "With", "Half", "Men", "Man", "Tongue" // miscellaneous
     ));
 
     // Words that are titles

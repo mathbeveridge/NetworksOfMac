@@ -261,7 +261,6 @@ Barth,Barth
 Jarmen,Jarmen
 Lydden,Lydden
 Jhaqo,Jhaqo
-Arthur,Arthur,Ashara,Dayne
 Mark,Mark
 Qalen,Qalen
 Timon,Timon,Scrapesword
@@ -286,6 +285,7 @@ Donnor,Donnor
 Malcolm,Malcolm
 Cregan,Cregan
 Kyle,Kyle
+Arthur,Arthur
 Vardis,Vardis,Egen
 Lamprey,Lamprey
 Naerys,Naerys
@@ -309,6 +309,7 @@ Jeffory,Jeffory
 Emmon,Emmon
 Bonifer,Bonifer
 Beron,Beron
+Gerold,Gerold
 Halys,Halys
 Edwyle,Edwyle
 Harrion,Harrion

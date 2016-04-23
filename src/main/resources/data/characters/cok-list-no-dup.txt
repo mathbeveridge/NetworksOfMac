@@ -234,7 +234,6 @@ Tothmure,Maester Tothmure,Tothmure
 Selwyn,Evenstar,Selwyn,Selwyn the Evenstar
 Karyl,Karyl,Karyl Vance
 Jast,Lord Jast,Jast
-Arthur,Arthur,Ashara Dayne,Ashara,Arthur Dayne,Dayne
 Harbert,Harbert,Ser Harbert
 Jaehaerys,Jaehaerys,King Jaehaerys
 Hallis,Hallis,Hallis Mollen
@@ -264,6 +263,7 @@ Mott,Mott,Master Mott
 Arryk,Ser Arryk,Arryk
 Vardis,Vardis Egen,Vardis,Egen
 Lymond,Lymond,Vikary,Lymond Vikary
+Arthur,Arthur,Arthur Dayne
 Genna,Genna,Lady Genna
 Bonifer,Bonifer the Good,Bonifer
 Flement,Flement,Flement Brax
@@ -285,6 +285,7 @@ Arneld,Ser Arneld,Arneld
 Deremond,Lord Deremond,Deremond
 Symeon,Symeon,Symeon Star
 Donnel,Donnel Locke,Donnel
+Gerold,Gerold Hightower,Gerold
 Daven,Ser Daven,Daven
 Kym,Maester Kym,Kym
 Timon,Timon,Timon the Scrapesword,Scrapesword

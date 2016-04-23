@@ -123,7 +123,6 @@ Cletus Yronwood,Cletus,Cletus Yronwood
 Alyn,Sour Alyn,Alyn
 Shireen,Princess Shireen,Shireen
 High Septon,High Septon
-Symon Stripeback,Symon Stripeback,Stripeback,Symon
 Hobb,Finger Hobb,Hobb,Finger
 Barsena,Barsena Blackhair,Barsena,Blackhair
 Hosteen Frey,Ser Hosteen,Hosteen,Hosteen Frey
@@ -140,6 +139,7 @@ Harwood Fell,Harwood,Lord Stout,Harwood Stout,Harwood Fell,Lord Fell,Fell
 Hugh Hungerford,Hugh,Hugh Hungerford,Hungerford
 Rhaegal,Rhaegal
 Harwood Stout,Harwood,Lord Stout,Harwood Stout,Harwood Fell,Lord Fell,Fell
+Symon Stripeback,Symon Stripeback,Symon
 Benerro,Benerro
 Hagen,Hagen,Hagen the Horn
 Rakharo,Rakharo
