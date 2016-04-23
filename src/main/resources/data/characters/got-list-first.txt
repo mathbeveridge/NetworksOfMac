@@ -105,7 +105,6 @@ Addam,Addam
 Donal,Noye,Donal
 Quaro,Quaro
 Hullen,Hullen
-Balon,Balon
 Harwin,Harwin
 Moreo,Tumitis,Moreo
 Masha,Masha,Heddle
@@ -113,6 +112,7 @@ Rhaego,Rhaego
 Hallis,Hallis
 Dareon,Dareon
 Tobho,Mott,Tobho
+Gerold,Bull,Gerold
 Stevron,Stevron
 Nestor,Nestor
 Septon
@@ -128,17 +128,16 @@ Hunter,Hunter
 Aron,Aron
 Wendel,Wendel
 Lefford,Lefford
-Tytos,Blackwood,Tytos
 Jason,Jason
 Lyn,Lyn
 Hal,Hal
+Balon,Balon
 Arthur,Arthur
 Donnel,Donnel
 Randyll,Randyll
 Alyssa,Alyssa
-Torrhen,Torrhen
+Tytos,Blackwood,Tytos
 Yohn,Bronze,Yohn
-Gerold,Gerold
 Hobb,Hobb,Finger
 Harys,Harys,Swyft
 Wylis,Wylis
@@ -180,7 +179,6 @@ Quorin,Quorin,Halfhand
 Pono,Pono
 Ashara,Ashara
 Mandon,Mandon
-Martyn,Martyn
 Jalabhar,Jalabhar,Xho
 Derik,Derik
 Harrion,Harrion
@@ -215,6 +213,7 @@ Smalljon,Smalljon
 Dacey,Dacey
 Erryk,Erryk
 Daeryssa,Daeryssa
+Torrhen,Torrhen
 Dustin,Dustin
 Ethan,Ethan
 Cregan,Cregan
@@ -222,7 +221,9 @@ Gyles,Gyles
 Willum,Willum
 Chayle,Chayle
 Arryk,Arryk
+Martyn,Martyn
 Denys,Denys
+Tytos,Tytos
 Moro,Moro
 Estren,Estren
 Gowen,Gowen

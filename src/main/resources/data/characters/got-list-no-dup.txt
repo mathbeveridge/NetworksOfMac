@@ -101,7 +101,6 @@ Addam,Ser Addam,Addam Marbrand,Addam
 Willis,Willis Wode,Ser Willis,Willis
 Raymun,Raymun,Ser Raymun,Raymun Darry
 Ogo,Ogo,Khal Ogo
-Balon,Balon,Balon Greyjoy,Balon Swann,Ser Balon
 Quaro,Quaro
 Hullen,Hullen
 Masha,Masha,Masha Heddle,Heddle
@@ -114,6 +113,7 @@ Tobho,Tobho Mott,Mott,Master Mott,Tobho
 Stevron,Stevron Frey,Stevron,Ser Stevron
 Colemon,Colemon,Maester Colemon
 Nestor,Nestor,Lord Nestor,Nestor Royce
+Gerold,Gerold Hightower,White Bull,Ser Gerold,Bull,Gerold
 Morrec,Morrec
 Cayn,Cayn
 Karyl,Karyl,Karyl Vance,Ser Karyl,Lord Vance
@@ -125,15 +125,12 @@ Maegor,Maegor,Cruel,Maegor the Cruel
 Aron,Ser Aron,Aron Santagar,Aron
 Jason,Jason Mallister,Lord Jason,Jason
 Lefford,Lord Lefford,Lefford
-Tytos,Tytos Blackwood,Lord Blackwood,Tytos Brax,Lord Tytos,Tytos
 Lyn,Lyn,Lyn Corbray
 Wendel,Wendel,Wendel Manderly,Ser Wendel
 Arthur,Arthur,Ser Arthur,Arthur Dayne
 Donnel,Donnel Waynwood,Ser Donnel,Donnel
 Hal,Hal,Hal Mollen
-Torrhen,Torrhen Karstark,Torrhen,Torrhen Stark
 Randyll,Randyll,Lord Randyll,Randyll Tarly
-Gerold,Gerold Hightower,Ser Gerold,Gerold
 Harys,Harys,Harys Swyft,Swyft,Ser Harys
 Hobb,Finger Hobb,Hobb,Finger
 Alyssa,Alyssa,Alyssa Arryn
@@ -142,6 +139,7 @@ Jhaqo,Jhaqo,Khal Jhaqo,Ko Jhaqo
 Wylis,Wylis Manderly,Wylis,Ser Wylis
 Jonos,Lord Jonos,Lord Bracken,Jonos,Jonos Bracken
 Robar,Robar,Robar Royce,Ser Robar
+Torrhen,Torrhen Karstark,Torrhen
 Malleon,Maester Malleon,Malleon
 Horas,Ser Horror,Horror,Horas Redwyne,Horas,Ser Horas
 Cotter,Pyke,Cotter,Cotter Pyke
@@ -175,7 +173,6 @@ Jaehaerys,Jaehaerys,Jaehaerys the Second
 Ashara,Ashara Dayne,Ashara,Lady Ashara
 Jalabhar,Jalabhar,Jalabhar Xho,Xho
 Mandon,Mandon Moore,Ser Mandon,Mandon
-Martyn,Martyn Cassel,Martyn Rivers,Martyn
 Patrek,Patrek,Patrek Mallister
 Pono,Pono,Khal Pono
 Quorin,Quorin,Halfhand,Quorin Halfhand
