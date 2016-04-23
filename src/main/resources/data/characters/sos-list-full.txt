@@ -16,7 +16,7 @@ Mance,The Mance,Mance,Raydar,Mance Raydar,Rayder,Mance Rayder
 Tywin,Lord of Casterly Rock,Tywin Lannister,Lord Tywin,Tywin
 Brienne,Ser Brienne,Brienne,Brienne of Tarth,Lady Brienne
 Robert Baratheon,Robert Baratheon,Usurper Robert Baratheon,King Robert,Robert,Usurper,Robert the Usurper
-Baelish,Lord Baelish,Petyr Baelish,Petyr Littlefinger,Baelish,Lord Littlefinger,Lord Petyr,Littlefinger,Petyr
+Baelish,Lord Baelish,Petyr Baelish,Lord Paramount,Petyr Littlefinger,Baelish,Paramount,Lord Littlefinger,Lord Petyr,Littlefinger,Petyr
 Gregor,Gregor the Mountain,Mountain,Gregor Clegane,Ser Gregor,Gregor
 Hodor,Hodor
 Jorah,Jorah,Jorah Mormont,Ser Jorah
@@ -1133,7 +1133,6 @@ Booming,Booming Tower,Booming
 Yi,Yi,Yi Ti,Ti
 Skipping,Skipping,Skipping Stones
 Jayde,Jayde
-Paramount,Lord Paramount,Paramount
 Rymund,Rhymer,Rymund,Rymund the Rhymer
 Dudley,Dudley
 Dennet,Dennet

@@ -18,7 +18,7 @@ Mance,Mance,Raydar,Rayder
 Tywin,Tywin
 Brienne,Brienne
 Robert,Robert,Usurper
-Petyr,Baelish,Littlefinger,Petyr
+Petyr,Baelish,Paramount,Littlefinger,Petyr
 Gregor,Mountain,Gregor
 Hodor,Hodor
 Jorah,Jorah
@@ -353,6 +353,7 @@ Jaime,Jaime
 Triston,Triston
 Quentyn,Quentyn
 Ther,Ther
+Kyra,Kyra
 Arianne,Arianne
 Jonothor,Jonothor
 Donnel,Donnel

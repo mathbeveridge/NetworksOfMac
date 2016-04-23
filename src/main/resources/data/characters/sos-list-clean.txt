@@ -18,7 +18,7 @@ Mance Rayder,The Mance,Mance,Raydar,Mance Raydar,Rayder,Mance Rayder
 Tywin Lannister,Lord of Casterly Rock,Tywin Lannister,Lord Tywin,Tywin
 Brienne,Ser Brienne,Brienne,Brienne of Tarth,Lady Brienne
 Robert Baratheon,Robert Baratheon,Usurper Robert Baratheon,King Robert,Robert,Usurper,Robert the Usurper
-Petyr Baelish,Lord Baelish,Petyr Baelish,Petyr Littlefinger,Baelish,Lord Littlefinger,Lord Petyr,Littlefinger,Petyr
+Petyr Baelish,Lord Baelish,Petyr Baelish,Lord Paramount,Petyr Littlefinger,Baelish,Paramount,Lord Littlefinger,Lord Petyr,Littlefinger,Petyr
 Gregor Clegane,Gregor the Mountain,Mountain,Gregor Clegane,Ser Gregor,Gregor
 Hodor,Hodor
 Jorah Mormont,Jorah,Jorah Mormont,Ser Jorah
@@ -386,6 +386,7 @@ Raymar Royce,Raymar Royce,Raymar
 Ther Jaime,Ther Jaime,Ther
 Erreck,Erreck,Maester Erreck
 Jeyne Swann,Jeyne Swann
+Kyra,Kyra
 Ulwyck,Ser Ulwyck,Ulwyck
 Belgrave,Belgrave,Lord Belgrave
 Robin Hill,Robin Hill

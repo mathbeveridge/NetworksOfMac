@@ -141,7 +141,7 @@ public class StormOfSwords {
         finder.combineGroups("Samwell Tarly", "Sam", "Piggy");
         finder.combineGroups("Robert Baratheon", "Usurper", "King Robert");
         finder.combineGroups("Robert Arryn", "Lord Robert", "Lord of the Eyrie");
-        finder.combineGroups("Petyr Baelish", "Littlefinger", "Lord Petyr");
+        finder.combineGroups("Petyr Baelish", "Littlefinger", "Lord Petyr", "Lord Paramount");
         finder.combineGroups("Walder Frey", "Lord Walder", "Lord of the Crossing", "Lord Frey", "Lord Grandfather");
         finder.combineGroups("Aemon Targaryen", "Maester Aemon");
         finder.combineGroups("Aemon the Dragonknight", "Prince Aemon");
@@ -258,23 +258,11 @@ public class StormOfSwords {
         names.remove("Sam Tarly");      // as Samwell Tarly
         names.remove("Ben Stark");      // as Benjen Stark
         names.remove("Brynden Blackfish");  // as Brynden Tully
-        names.remove("Davos Shorthand");// as Davos Seaworth
         names.remove("Petyr Littlefinger"); // as Petyr Baelish
         names.remove("Littlefinger");   // as Petyr Baelish
         names.remove("Paramount");      // as Petyr Baelish
         names.remove("Lysa Tully");     // as Lysa Arryn
-        names.remove("Varamyr Threeskins"); // as Varamyr
-        names.remove("Varamyr Sixskins");   // as Varamyr
-        names.remove("Godry Giantslayer");  // as Godry Farring
-        names.remove("Mad Aerys");      // as Aerys Targaryen
-        names.remove("Whoresbane Umber");   // as Hother Umber
-        names.remove("Hizdahr Loraq");  // as Hizdahr zo Loraq
-        names.remove("Middle Liddle");  // as Morgan Liddle
-        names.remove("Yellowbelly");    // as Yezzan
-        names.remove("Lard");           // as Wyman Manderly
         names.remove("Imp");            // as Tyrion Lannister
-        names.remove("Ramsay Bolton");  // as Ramsay Snow
-        names.remove("Crowfood Umber"); // as Mors Umber
 
         names.remove("Merrett Muttonhead"); // as Merrett Frey
         names.remove("Baelor Brightsmile"); // as Baelor Hightower
