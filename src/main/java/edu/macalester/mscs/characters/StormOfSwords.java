@@ -197,7 +197,6 @@ public class StormOfSwords {
 
         // manually add important names that get missed
         names.add("Baelor the Blessed");
-        names.add("Belly Ben");
 
         names.add("Mance Rayder");
         names.add("Hodor");

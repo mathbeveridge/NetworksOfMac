@@ -283,7 +283,6 @@ Helman Tallhart,Helman,Helman Tallhart
 Steffon Baratheon,Steffon,Lord Steffon,Steffon Baratheon
 Hunter,Hunter,Lord Hunter
 Harys Swyft,Harys,Harys Swyft,Swyft,Harys Haigh,Ser Harys
-Belly Ben,Belly Ben,Belly
 Leyton Hightower,Lord Leyton,Leyton,Leyton Hightower
 Bar Emmon,Bar Emmon,Bar
 Luthor Tyrell,Lord Luthor,Luthor Tyrell,Luthor

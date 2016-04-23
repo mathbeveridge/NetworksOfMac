@@ -256,7 +256,6 @@ Kaeth,Maester Kaeth,Kaeth
 Gladden,Gladden Wylde,Gladden
 Harys,Harys,Harys Swyft,Swyft,Harys Haigh,Ser Harys
 Jate,Jate Blackberry,Jate
-Belly,Belly Ben,Belly
 Mikken,Mikken
 Janna,Janna Fossoway,Janna,Lady Janna
 Raymund,Raymund Frey,Ser Raymund,Raymund
