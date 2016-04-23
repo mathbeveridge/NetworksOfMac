@@ -105,6 +105,7 @@ public class DanceWithDragons {
         nondescriptors.add("Qarl");
         nondescriptors.add("Jack");
         nondescriptors.add("Ralf");
+        nondescriptors.add("Dick");
 
         // build character groups
         finder.buildCharacterGroups(nondescriptors);
@@ -193,9 +194,6 @@ public class DanceWithDragons {
         names.add("Xaro Xhoan Daxos");
         names.add("Aero Hotah");
         names.add("Dick Straw");
-        names.add("Dick Follard");
-        names.add("Dick Cole");
-        names.add("Yellow Dick");
         names.add("Joffrey");
         names.add("Jhiqui");
         names.add("Wun");

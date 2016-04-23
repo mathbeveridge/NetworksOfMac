@@ -59,7 +59,6 @@ Worm,Grey Worm,Worm
 Meris,Pretty Meris,Meris
 Yandry,Yandry
 Xaro,Daxos,Xhoan,Xaro Xhoan Daxos,Xhoan Daxos,Xaro
-Dick,Dick Straw,Dick Follard,Dick Cole,Follard,Yellow Dick,Dick,Straw
 Harry,Harry,Harry Merrell,Homeless Harry,Merrell,Harry Strickland
 Joffrey,Joffrey,Joff
 Varys,Lord Varys,Varys,Spider,Varys the Spider

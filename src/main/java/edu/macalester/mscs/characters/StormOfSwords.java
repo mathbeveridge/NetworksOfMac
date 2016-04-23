@@ -43,7 +43,7 @@ public class StormOfSwords {
             "Cruel", "Bold", "Brave", "Good", "Strong", "Bitter", "Sweet", "Bad", "Clever", "Cautious",
             "Wise", "Craven", "Poor", "Pretty", "Scared", "Homeless", "Hot", "Shy", "True", "Mad", "Blessed",
             "Queer", "Sour", "Cunning", "Hairy", // adjective titles
-            "Conqueror" // miscellaneous
+            "Conqueror", "Wolf" // miscellaneous
     ));
 
     // Words that are sometimes placed between first and last names
@@ -55,6 +55,7 @@ public class StormOfSwords {
         // read in the text
         finder.countCapitalized(FileUtils.readFile("src/main/resources/text/stormofswords.txt"));
         // fix a few mistakes
+        finder.removeWords("Robb Starks");
 
         // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();

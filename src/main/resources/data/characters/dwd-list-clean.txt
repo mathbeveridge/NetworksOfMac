@@ -67,10 +67,6 @@ Grey Worm,Grey Worm,Worm
 Meris,Pretty Meris,Meris
 Yandry,Yandry
 Xaro Xhoan Daxos,Daxos,Xhoan,Xaro Xhoan Daxos,Xhoan Daxos,Xaro
-Dick Cole,Dick Straw,Dick Follard,Dick Cole,Follard,Yellow Dick,Dick,Straw
-Yellow Dick,Dick Straw,Dick Follard,Dick Cole,Follard,Yellow Dick,Dick,Straw
-Dick Follard,Dick Straw,Dick Follard,Dick Cole,Follard,Yellow Dick,Dick,Straw
-Dick Straw,Dick Straw,Dick Follard,Dick Cole,Follard,Yellow Dick,Dick,Straw
 Harry Strickland,Harry,Harry Merrell,Homeless Harry,Merrell,Harry Strickland
 Joffrey,Joffrey,Joff
 Varys,Lord Varys,Varys,Spider,Varys the Spider
@@ -113,6 +109,7 @@ Brynden Tully,Lord Brynden,Brynden Blackfish,Blackfish,Ser Brynden,Brynden,Brynd
 Devan Seaworth,Devan Seaworth,Devan
 Tytos Blackwood,Tytos Blackwood,Tytos Lannister,Lord Blackwood,Lord of Raventree,Lord Tytos,Tytos
 Tytos Lannister,Tytos Blackwood,Tytos Lannister,Lord Blackwood,Lord of Raventree,Lord Tytos,Tytos
+Dick Straw,Dick Straw,Straw
 Mors Umber,Mors,Crowfood,Crowfood Umber,Mors Umber,Mors Crowfood
 Clayton Suggs,Clayton Suggs,Ser Clayton,Clayton
 Arianne,Princess Arianne,Arianne

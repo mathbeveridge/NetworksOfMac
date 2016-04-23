@@ -80,7 +80,6 @@ Yandry,Yandry
 Xaro,Daxos,Xhoan,Xaro Xhoan Daxos,Xhoan Daxos,Xaro
 Areo,Areo Hotah,Areo,Hotah
 Windblown,Windblown
-Dick,Dick Straw,Dick Follard,Dick Cole,Follard,Yellow Dick,Dick,Straw
 Satin,Satin Palace,Old Palace,Satin,Palace
 Harry,Harry,Harry Merrell,Homeless Harry,Merrell,Harry Strickland
 Joffrey,Joffrey,Joff
@@ -146,6 +145,7 @@ Tytos,Tytos Blackwood,Tytos Lannister,Lord Blackwood,Lord of Raventree,Lord Tyto
 Devan,Devan Seaworth,Devan
 Brynden,Lord Brynden,Brynden Blackfish,Blackfish,Ser Brynden,Brynden,Brynden Tully
 Sweets,Sweets
+Straw,Dick Straw,Straw
 Scolera,Scolera,Septa Scolera
 Caggo,Caggo,Corpsekiller,Caggo Corpsekiller
 Galbart,Galbart,Galbart Glover
@@ -513,6 +513,7 @@ Daemon,Daemon Blackfyre,Daemon,Daemon Sand
 Undying,Undying
 Basilisk,Basilisk Islands,Basilisk Isles,Basilisk
 Lysa,Lady Arryn,Lady of the Eyrie,Lysa,Lysa Arryn
+Yellow Dick,Yellow Dick
 Queen of Meereen,Queen of Meereen
 Lu,Lady Lu,Lu
 Mander,Mander
@@ -741,6 +742,7 @@ Blackhaven,Blackhaven
 Greenstone,Greenstone
 Eyed,Eyed,Eyed Maid
 Gynir,Gynir,Gynir Rednose,Rednose
+Follard,Dick Follard,Follard
 Mag,Mag,Mag the Mighty,Mighty
 Arthur,Arthur,Arthur Dayne
 Pate,Pate
@@ -1140,6 +1142,7 @@ Lacey,Lacey
 Prayer,Prayer
 Lord of Griffin,Lord of Griffin
 Sheepshead,Sheepshead,Sheepshead Hills
+Dick Cole,Dick Cole
 Paul,Small Paul,Paul
 Mead,Mead
 Kems,Kems

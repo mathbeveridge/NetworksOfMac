@@ -60,7 +60,6 @@ Worm,Worm
 Meris,Meris
 Xaro,Daxos,Xhoan,Xaro
 Yandry,Yandry
-Dick,Follard,Dick,Straw
 Joffrey,Joffrey,Joff
 Varys,Varys,Spider
 Harry,Harry,Merrell
@@ -103,6 +102,7 @@ Brynden,Blackfish,Brynden
 Devan,Devan
 Galbart,Galbart
 Groleo,Groleo
+Dick,Dick,Straw
 Jeor,Mormont,Jeor
 Scolera,Scolera
 Pycelle,Pycelle
