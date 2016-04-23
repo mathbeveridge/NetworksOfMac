@@ -2,7 +2,7 @@ Jon,Snow,Jon
 Tyrion,Hugor,Yollo,Halfwit,Imp,Tyrion
 Daenerys,Stormborn,Dany,Khaleesi,Daenerys
 Theon,Theon,Kinslayer,Turncloak,Reek
-Stannis,Stannis
+Stannis,Stannis,Hand
 Hizdahr,Hizdahr,Radiance
 Barristan,Barristan
 Ramsay,Ramsay
@@ -13,10 +13,10 @@ Asha,Asha
 Davos,Davos,Seaworth,Onion
 Skahaz,Skahaz,Shavepate
 Mance,Mance,Abel,Rayder
-Arya,Arya,Arry,Spotted,Cat,Horseface,Underfoot
 Daario,Naharis,Daario
 Melisandre,Melisandre
 Cersei,Cersei
+Arya,Arya,Cat,Arry,Horseface,Underfoot
 Bowen,Bowen,Marsh
 Jaime,Jaime
 Wyman,Lard,Manderly,Wyman

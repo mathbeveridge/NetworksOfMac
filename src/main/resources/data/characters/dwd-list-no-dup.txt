@@ -1,8 +1,8 @@
 Jon,Jon Snow,Lord Crow,Lord Snow,Jon
 Tyrion,Hugor,Hugor Halfwit,Yollo,Lady Imp,Halfwit,Hugor Halfmaester,Tyrion Lannister,Imp,Hugor Hill,Tyrion,Lord Tyrion
-Daenerys,Daenerys Stormborn,Stormborn,Daenerys Targaryen,Dany,Khaleesi,Queen Daenerys,Daenerys
+Daenerys,Daenerys Stormborn,Stormborn,Daenerys Targaryen,Khaleesi of Great Grass Sea,Dany,Khaleesi,Queen Daenerys,Daenerys
 Theon,Theon,Theon Turncloak,Theon the Clever,Theon Greyjoy,Theon Kinslayer,Theon Stark,Kinslayer,Turncloak,Reek
-Stannis,Lord of Dragonstone,Lord Stannis,King Stannis,Stannis Baratheon,Stannis
+Stannis,Lord of Dragonstone,Lord Stannis,King Stannis,Stannis Baratheon,Stannis,Hand of Stannis Baratheon
 Hizdahr,Hizdahr,Radiance,Hizdahr zo Loraq,Radiance King Hizdahr,Master Hizdahr,King Hizdahr,Hizdahr Loraq
 Barristan,Barristan the Old,Ser Barristan,Ser Grandfather,Barristan Selmy,Barristan the Bold,Barristan
 Ramsay,Lord Ramsay,Ramsay Snow,Ramsay,Ramsay Bolton
@@ -10,11 +10,11 @@ Quentyn,Quentyn the Wise,Quentyn the Craven,Quentyn the Quail,Frog,Dorne Quentyn
 Asha,Asha,Asha Greyjoy,Lady Asha
 Davos,Onion Lord,Davos,Onion Knight,Lord Davos,Onion,Davos Seaworth,Lord Seaworth
 Skahaz,Skahaz mo Kandaq,Skahaz Shavepate,Skahaz,Shavepate
-Arya,Arya Underfoot,Lady Arya,Arya,Arry,Spotted,Cat,Arya Horseface,Arya Stark,Horseface,Underfoot,Spotted Cat
 Mance,Mance,Abel,Rayder,Mance Rayder
 Daario,Naharis,Daario,Daario Naharis,Lord Daario
-Melisandre,Lady Melisandre,Melisandre,Lady Red
+Melisandre,Melisandre of Asshai,Lady Melisandre,Melisandre,Lady Red
 Cersei,Queen Regent,Queen Cersei,Cersei Lannister,Cersei
+Arya,Arya Underfoot,Lady Arya,Arya,Cat,Arry,Arya Horseface,Arya Stark,Horseface,Underfoot
 Bowen,Bowen Marsh,Bowen,Lord Bowen,Marsh
 Jaime,Jaime,Jaime Lannister
 Wyman,Lord Manderly,Lord Wyman,Lard,Lord Lard,Wyman,Lord of White Harbor,Wyman Manderly
@@ -54,7 +54,7 @@ Aemon,Aemon the Dragonknight,Aemon Targaryen,Maester Aemon,Dragonknight,Aemon
 Worm,Grey Worm,Worm
 Meris,Pretty Meris,Meris
 Yandry,Yandry
-Xaro,Daxos,Xhoan,Xaro Xhoan Daxos,Xhoan Daxos,Xaro
+Xaro,Daxos,Xhoan,Xaro of the Thirteen,Xaro Xhoan Daxos,Xhoan Daxos,Xaro
 Harry,Harry,Harry Merrell,Homeless Harry,Merrell,Harry Strickland
 Joffrey,Joffrey,Joff
 Varys,Lord Varys,Varys,Spider,Varys the Spider
@@ -111,8 +111,8 @@ Bloodbeard,Bloodbeard
 Yurkhaz,Yurkhaz,Yurkhaz zo Yunzak
 Cletus,Cletus,Cletus Yronwood
 Sansa,Sansa,Lady Lannister,Sansa Stark
-Alyn,Sour Alyn,Alyn
 Shireen,Princess Shireen,Shireen
+Alyn,Sour Alyn,Alyn of the Rosewood,Alyn
 Barsena,Barsena Blackhair,Barsena,Blackhair
 Hosteen,Ser Hosteen,Hosteen,Hosteen Frey
 Hobb,Finger Hobb,Hobb,Finger
@@ -122,8 +122,8 @@ Coldhands,Coldhands
 Cellador,Cellador,Septon Cellador
 Aeron,Damphair,Aeron,Aeron Damphair
 Damon,Damon,Damon Dance
+Patrek,Patrek,Patrek of King,Ser Patrek
 Archibald,Archibald,Archibald Yronwood,Ser Archibald
-Patrek,Patrek,Ser Patrek
 Harwood,Harwood,Lord Stout,Harwood Stout,Harwood Fell,Lord Fell,Fell
 Hugh,Hugh,Hugh Hungerford,Hungerford
 Rhaegal,Rhaegal
@@ -144,12 +144,12 @@ Tycho,Nestoris,Lord Tycho,Tycho Nestoris,Tycho
 Qyburn,Lord Qyburn,Qyburn
 Moelle,Moelle,Septa Moelle
 Baelor,Baelor the Blessed,Beloved,Blessed Baelor,Befuddled,King Baelor,Lord Baelor,Baelor the Befuddled,Baelor,Baelor the Beloved
-Elia,Princess Elia,Elia
 Qavo,Qavo Nogarys,Nogarys,Qavo
 Donal,Donal Noye,Noye,Donal
 Aegor,Aegor,Aegor Rivers,Bittersteel
 Leaf,Leaf
 Lancel,Ser Lancel,Lancel,Lancel Lannister
+Elia,Princess Elia,Elia of Dorne,Elia
 Thistle,Thistle
 Qezza,Qezza
 Nan,Nan,Old Nan
@@ -261,11 +261,10 @@ Ilyn,Ilyn,Payne,Ilyn Payne
 Paxter,Paxter Redwyne,Lord Redwyne,Paxter
 Wex,Wex
 Tristifer,Tristifer Botley,Tristifer
-Belly,Belly Ben,Belly
+Belly,Belly Ben,Belly,Belly of the Whale
 Benjen,Benjen Stark,Benjen
 Taena,Taena Merryweather,Taena,Lady Taena
 Willem,Willem,Ser Willem,Willem Darry
-Jenny,Lady Jenny,Jenny
 Edrick,Edrick Snowbeard,Snowbeard,Edrick Stark,Edrick
 Theodan,Theodan,Ser Theodan,Theodan the True
 Tristan,Tristan,Tristan Rivers
@@ -280,6 +279,7 @@ Munkun,Maester Munkun,Munkun
 Medrick,Medrick,Maester Medrick
 Renly,Lord Renly,Renly
 Lucifer,Lucifer,Ser Lucifer,Lucifer Long
+Jenny,Jenny of Oldstones,Lady Jenny,Jenny
 Humfrey,Humfrey Clifton,Humfrey
 Raff,Sweetling,Raff the Sweetling,Raff
 Osmund,Osmund Kettleblack,Osmund

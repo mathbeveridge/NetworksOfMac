@@ -46,7 +46,7 @@ public class DanceWithDragons {
             "Wise", "Craven", "Poor", "Pretty", "Scared", "Homeless", "Hot", "Shy", "True", "Mad", "Blessed",
             "Queer", "Sour", "Cunning", "Hairy", // adjective titles
             "Bear", "Iron", "Beggar", "Whore", "Wench", "Grandfather", "Water", "Crow", "Wolf", "Shepherd",
-            "Dance", "Butcher" // miscellaneous
+            "Dance", "Butcher", "Grass" // miscellaneous
     ));
 
     // Words that are sometimes placed between first and last names
@@ -65,8 +65,10 @@ public class DanceWithDragons {
         finder.removeWords("Summer Islander King Robert");
         finder.removeWords("Pyke Lord Dagon");
         finder.removeWords("Jon of Hodor");
+        finder.removeWords("Tyrion of Bronn");
         finder.removeWords("Rhodry Lord Cerwyn");
         finder.removeWords("Henly Lord Slate");
+        finder.removeWords("Hugor of the Hill"); // unused
         finder.removeWords("Ned Woods"); // unused
         finder.removeWords("Tytos Lannister"); // unused
 
@@ -107,6 +109,7 @@ public class DanceWithDragons {
 
         // add problematic names
         nondescriptors.add("Jon");
+        nondescriptors.add("Cat");
         nondescriptors.add("Robert");
         nondescriptors.add("Brandon");
         nondescriptors.add("Balon");
@@ -128,6 +131,7 @@ public class DanceWithDragons {
 
         // add back problematic names as necessary
         finder.addToCharacterGroup("Jon Snow", "Jon");
+        finder.addToCharacterGroup("Arya", "Cat");
         finder.addToCharacterGroup("Robert Baratheon", "Robert");
         finder.addToCharacterGroup("Rhaegar Targaryen", "Rhaegar");
         finder.addToCharacterGroup("Hoster Blackwood", "Hoster");
@@ -136,6 +140,7 @@ public class DanceWithDragons {
         // manually combine more character groups
         finder.combineGroups("Jon Snow", "Lord Snow", "Lord Crow");
         finder.combineGroups("Jon Connington", "Griff", "Lord Connington", "Lord Jon");
+        finder.combineGroups("Arya", "Arry");
         finder.combineGroups("Robert Baratheon", "Usurper", "King Robert");
         finder.combineGroups("Robert Strong", "Ser Robert");
         finder.combineGroups("Bran", "Brandon Stark");
@@ -177,7 +182,6 @@ public class DanceWithDragons {
         finder.combineGroups("Nymeria", "Nym");
         finder.combineGroups("Barristan", "Ser Grandfather");
         finder.combineGroups("Ghazdor", "Wobblecheeks");
-        finder.combineGroups("Arya", "Arry", "Cat");
         finder.combineGroups("Morgan", "Middle Liddle");
         finder.combineGroups("Yezzan", "Yellowbelly");
         finder.combineGroups("Aerys", "Mad King");
