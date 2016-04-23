@@ -1,7 +1,7 @@
 Tyrion,Imp,Tyrion
 Arya,Lumpyface,Arya,Lumpyhead,Arry,Rabbitkiller,Stickboy,Underfoot
-Jon,Snow,Jon,Arryn
 Bran,Daughterless,Bran,Brandon,Burner
+Jon,Snow,Jon
 Theon,Theon,Turncloak,Reek
 Stannis,Stannis
 Joffrey,Illborn,Joffrey,Joff
@@ -30,8 +30,6 @@ Sandor,Sandor,Hound
 Bronn,Bronn
 Jeor,Crow,Mormont,Jeor
 Cressen,Cressen
-Balon,Balon,Reaper,Greyjoy
-Walder,Walder,Frey
 Rickon,Rickon
 Shae,Shae
 Craster,Craster
@@ -48,6 +46,7 @@ Jaqen,Jaqen
 Lancel,Lancel
 Pycelle,Pycelle
 Janos,Slynt,Janos
+Walder,Walder,Frey
 Dontos,Dontos
 Pie
 Mandon,Mandon
@@ -59,7 +58,6 @@ Melisandre,Melisandre
 Nan,Nan
 Myrcella,Myrcella
 Rorge,Rorge
-Aemon,Dragonknight,Aemon
 Pyat,Pree,Pyat
 Cleos,Cleos
 Dagmer,Dagmer,Cleftjaw
@@ -69,6 +67,8 @@ Meryn,Meryn
 Pylos,Pylos
 Roose,Roose,Bolton
 Aerys,Mad,Aerys
+Balon,Balon,Reaper,Greyjoy
+Aegon,Aegon,Unworthy,Unlikely
 Thoren,Thoren,Smallwood
 Podrick,Pod,Podrick
 Salladhor,Saan,Salladhor
@@ -79,15 +79,18 @@ Lorren,Lorren
 Aeron,Damphair,Aeron
 Gyles,Gyles,Rosby
 Timett,Timett
+Aemon,Aemon
 Wex,Wex
 Tanda,Tanda
 Drogo,Drogo
 Septon
 Jhogo,Jhogo
+Balon,Balon
 Hallyne,Hallyne,Pyromancer
 Selyse,Selyse
 Edd,Edd,Dolorous
 Vargo,Vargo,Hoat
+Jon,Jon,Arryn
 Ygritte,Ygritte
 Aggo,Aggo
 Patchface,Patchface
@@ -208,6 +211,7 @@ Jeyne,Jeyne
 Patrek,Patrek
 Osmynd,Osmynd
 Stevron,Stevron
+Jon,Jon
 Tyrek,Tyrek
 Tytos,Tytos
 Mallador,Mallador
@@ -231,6 +235,7 @@ Trystane,Trystane
 Gawen,Gawen,Wylde
 Lefford,Lefford
 Rossart,Rossart
+Robert,Robert
 Waymar,Waymar
 Hother,Hother
 Gulian,Gulian,Swann
@@ -265,6 +270,7 @@ Edrick,Snowbeard,Edrick
 Dermot,Dermot
 Leech,Leech
 Mooton,Mooton
+Walder,Walder
 Rodwell,Rodwell
 Vayon,Vayon
 Arnell,Arnell
@@ -294,6 +300,7 @@ Deremond,Deremond
 Edwyd,Edwyd
 Flement,Flement
 Arneld,Arneld
+Petyr,Pimple,Petyr
 Lothston,Lothston
 Daven,Daven
 Kym,Kym

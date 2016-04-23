@@ -70,6 +70,7 @@ Meryn,Meryn
 Gared,Gared
 Robert,Robert
 Janos,Slynt,Janos
+Aegon,Aegon,Conqueror,Fortunate
 Ilyn,Ilyn
 Myrcella,Myrcella
 Aggo,Aggo

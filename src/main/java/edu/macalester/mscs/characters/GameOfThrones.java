@@ -220,7 +220,6 @@ public class GameOfThrones {
         names.remove("Theon Stark");    // as Theon Greyjoy
         names.remove("Brynden Blackfish");  // as Brynden Tully
         names.remove("Daisy");          // as Loras Tyrell
-        names.remove("Aegon Targaryen");// unused, too problematic
         names.remove("Torrhen Stark");  // unused
         names.remove("Horror");         // as Horas
         names.remove("Slobber");        // as Hobber

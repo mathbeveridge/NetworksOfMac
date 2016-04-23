@@ -1,5 +1,5 @@
 Eddard Stark,Eddard,Ned Stark,Lord Eddard,Eddard Stark,Ned
-Jon Snow,Jon Snow,Snow,Lord Snow,Jon Stark,Jon
+Jon Snow,Jon Snow,Snow,Lord Snow,Jon,Jon Stark
 Tyrion Lannister,Tyrion the Imp,Tyrion Lannister,Imp,Tyrion,Lord Tyrion
 Brandon Stark,Brandon the Burner,Bran,Brandon Starks,Brandon,Broken Arm,Broken,Bran the Broken,Brandon the Shipwright,Brandon Stark,Brandon the Builder,Burner,Shipwright,Arm,Bran the Builder
 Daenerys Targaryen,Daenerys Stormborn,Stormborn,Daenerys Targaryen,Princess Daenerys,Dany,Khaleesi,Princess of Dragonstone,Daenerys
@@ -70,6 +70,7 @@ Gared,Gared
 Meryn Trant,Meryn Trant,Meryn,Ser Meryn
 Robert Arryn,Lord of the Eyrie,Robert Arryn,Lord Robert
 Janos Slynt,Slynt,Janos Slynt,Lord Slynt,Janos
+Aegon Targaryen,Aegon the Conqueror,Aegon the Fortunate,Aegon,Aegon the Dragonlord,Aegon the Dragon,Aegon Targaryen,Conqueror,Fortunate,Aegon Dragonlord
 Ilyn Payne,Ilyn,Ilyn Payne,Ser Ilyn
 Aggo,Aggo
 Waymar Royce,Waymar Royce,Waymar,Ser Waymar

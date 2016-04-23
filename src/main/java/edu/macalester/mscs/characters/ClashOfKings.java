@@ -52,13 +52,12 @@ public class ClashOfKings {
         finder.countCapitalized(FileUtils.readFile("src/main/resources/text/clashofkings.txt"));
         // fix a few mistakes
         finder.incrementName("Tytos Blackwood", 2);
-        finder.removeWords("Walders"); // wtf is this???
-        finder.removeWords("Petyr Pimple"); // wtf is this???
-        finder.removeWords("Pimple");
+        finder.removeWords("Walder Freys");
 
         // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();
         Set<String> pluralizedNames = finder.getPluralizedNames();
+        pluralizedNames.remove("Walder");
         Set<String> surnames = finder.getSurnames();
         Set<String> names = finder.getNamesBySurname(surnames);
         surnames.remove("Bywater");
@@ -89,14 +88,32 @@ public class ClashOfKings {
         nondescriptors.addAll(WordUtils.getPlurals(surnames));
         nondescriptors.addAll(places);
 
+        // add problematic names
+        nondescriptors.add("Jon");
+        nondescriptors.add("Robert");
+        nondescriptors.add("Petyr");
+        nondescriptors.add("Balon");
+        nondescriptors.add("Walder");
+        nondescriptors.add("Aemon");
+
         // build character groups
         finder.buildCharacterGroups(nondescriptors);
 
+        // add back problematic names as necessary
+        finder.addToCharacterGroup("Jon Snow", "Jon");
+        finder.addToCharacterGroup("Robert Baratheon", "Robert");
+        finder.addToCharacterGroup("Petyr Baelish", "Petyr");
+        finder.addToCharacterGroup("Walder Frey", "Walder");
+        finder.addToCharacterGroup("Maester Aemon", "Aemon");
+
         // manually combine more character groups
         finder.combineGroups("Eddard", "Ned");
-        finder.combineGroups("Jon", "Lord Snow");
+        finder.combineGroups("Jon Snow", "Lord Snow");
+        finder.combineGroups("Jon Fossoway", "Ser Jon");
+        finder.combineGroups("Robert Baratheon", "King Robert", "Robert the Usurper");
+        finder.combineGroups("Robert Arryn", "Lord Robert");
         finder.combineGroups("Bran", "Brandon Stark");
-        finder.combineGroups("Petyr", "Littlefinger", "Paramount");
+        finder.combineGroups("Petyr Baelish", "Littlefinger", "Paramount", "Lord Petyr");
         finder.combineGroups("Daenerys", "Dany", "Khaleesi");
         finder.combineGroups("Joffrey", "Joff");
         finder.combineGroups("Samwell", "Sam");
@@ -106,7 +123,7 @@ public class ClashOfKings {
         finder.combineGroups("Jon Arryn", "Lord Arryn");
         finder.combineGroups("Catelyn", "Lady Stark");
         finder.combineGroups("Pycelle", "Grand Maester");
-        finder.combineGroups("Walder", "Lord Frey", "Lord of the Crossing");
+        finder.combineGroups("Walder Frey", "Lord Frey", "Lord of the Crossing", "Lord Walder");
         finder.combineGroups("Lysa", "Lady Arryn");
         finder.combineGroups("Greatjon", "Lord Umber");
         finder.combineGroups("Renly", "Lord of Storm");
@@ -118,7 +135,6 @@ public class ClashOfKings {
         finder.combineGroups("Varys", "Spider", "Eunuch");
         finder.combineGroups("Gregor", "Mountain");
         finder.combineGroups("Podrick", "Pod");
-        finder.combineGroups("Balon", "Reaper");
         finder.combineGroups("Theon", "Reek");
         finder.combineGroups("Arya", "Lumpyface");
         finder.combineGroups("Cersei", "Queen Regent");
@@ -131,7 +147,8 @@ public class ClashOfKings {
         finder.combineGroups("Rattleshirt", "Lord of Bones");
         finder.combineGroups("Wyman", "Lord of White Harbor");
         finder.combineGroups("Randyll", "Lord Tarly");
-        finder.combineGroups("Balon Greyjoy", "Lord Greyjoy", "Lord of the Iron Islands");
+        finder.combineGroups("Balon Greyjoy", "Lord Greyjoy", "Lord of the Iron Islands", "Reaper", "King Balon", "Lord Balon");
+        finder.combineGroups("Balon Swann", "Ser Balon");
         finder.combineGroups("Mace", "Lord of Highgarden", "Lord Tyrell");
         finder.combineGroups("Stannis", "Lord of Dragonstone");
         finder.combineGroups("Rickard Karstark", "Lord Karstark");
@@ -218,12 +235,8 @@ public class ClashOfKings {
         names.remove("Reaper");         // as Balon Greyjoy
         names.remove("Eunuch");         // as Varys
         names.remove("Grey Wind");      // dire wolf
-        names.remove("Walder Freys");   // mistake
-        names.remove("Aegon Targaryen");// unused, too problematic
         names.remove("Torrhen Stark");  // unused
         names.remove("Aerys Oakheart"); // unused
-        names.remove("Walder Rivers");  // unused
-        names.remove("Jon Fossoway");   // unused
         names.remove("Rodrik Greyjoy"); // unused
         names.remove("Bleeding Star");  // ???
 
