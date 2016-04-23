@@ -9,7 +9,7 @@ Robb Stark,Young Wolf,Robb of Winterfell,King Robb,Robb,Robb Stark
 Daenerys Targaryen,Daenerys Stormborn,Stormborn,Daenerys Targaryen,Dany,Khaleesi,Daenerys the Conqueror,Daenerys
 Joffrey Baratheon,Prince Joffrey,King Joff,King Joffrey,Joffrey Baratheon,Joffrey,Joff
 Catelyn Stark,Lady Catelyn,Cat,Catelyn Stark,Catelyn
-Davos Seaworth,Onion Lord,Davos,Onion Knight,Lord Davos,Onion,Davos Seaworth,Ser Davos
+Davos Seaworth,Onion Lord,Davos,Onion Knight,Ser Onions,Lord Davos,Onions,Onion,Davos Seaworth,Ser Davos
 Bran,Prince Bran,Bran,Bran the Broken,Brandon Stark
 Sandor Clegane,Sandor Clegane,Sandor,Hound
 Cersei Lannister,Queen Regent,Queen Cersei,Cersei Lannister,Cersei,Lady Cersei
@@ -34,7 +34,6 @@ Margaery Tyrell,Lady Margaery,Margaery Tyrell,Margaery,Queen Margaery
 Oberyn Martell,Nymeros,Oberyn,Nymeros Martell,Oberyn Martell,Oberyn of Dorne,Oberyn Nymeros Martell,Prince Oberyn
 Jeor Mormont,Lord Mormont,Jeor Mormont,Old Bear,Commander Mormont,Jeor
 Walder Frey,Walder Frey,Grandfather,Lord Walder,Lord Frey,Lord of the Crossing,Lord Grandfather
-Grandfather,Walder Frey,Grandfather,Lord Walder,Lord Frey,Lord of the Crossing,Lord Grandfather
 Arstan,Arstan,Whitebeard,Arstan Whitebeard
 Loras Tyrell,Loras,Knight of Flowers,Ser Loras,Loras Tyrell
 Craster,Craster
@@ -43,7 +42,7 @@ Bronn,Ser Bronn,Bronn
 Varys,Lord Varys,Varys,Spider,Lady Varys
 Donal Noye,Donal Noye,Noye,Donal
 Aemon Targaryen,Aemon Targaryen,Maester Aemon,Aemon
-Aerys Targaryen,Mad King,King Aerys,Aerys Targaryen,Aerys,Aerys the Third,Aerys the Mad
+Aerys Targaryen,Mad King,Scab,King Aerys,King Scab,Aerys Targaryen,Aerys,Aerys the Third,Aerys the Mad
 Gilly,Gilly
 Roose Bolton,Roose,Roose Bolton,Lord Roose,Lord of the Dreadfort,Lord Bolton
 Qhorin Halfhand,Qhorin Halfhand,Halfhand,Qhorin
@@ -52,8 +51,8 @@ Belwas,Belwas,Strong Belwas
 Cleos Frey,Cleos,Cleos Frey,Ser Cleos
 Shae,Shae
 Kevan Lannister,Ser Kevan,Kevan Lannister,Kevan
+Mace Tyrell,Mace,Puff,Lord Mace,Puff Fish,Mace Tyrell,Lord Tyrell
 Merrett Frey,Merrett Frey,Muttonhead,Merrett,Merrett Muttonhead,Ser Merrett
-Mace Tyrell,Mace,Lord Mace,Mace Tyrell,Lord Tyrell
 Vargo Hoat,Vargo,Lord Vargo,Hoat,Vargo Hoat
 Tommen,Tommen,King Tommen,Prince Tommen
 Podrick Payne,Podrick Payne,Pod,Podrick
@@ -201,7 +200,6 @@ Robin Flint,Robin Flint
 Merryweather,Merryweather,Lady Merryweather,Lord Merryweather
 Aggo,Aggo
 Tion Frey,Tion Frey,Tion
-Stone Mill,Stone Mill
 Harlan Grandison,Grandison,Lord Grandison,Harlan,Harlan Grandison
 Mallador Locke,Mallador Locke,Mallador,Ser Mallador
 Cafferen,Cafferen,Lord Cafferen
@@ -289,12 +287,10 @@ Belly Ben,Belly Ben,Belly
 Leyton Hightower,Lord Leyton,Leyton,Leyton Hightower
 Bar Emmon,Bar Emmon,Bar
 Luthor Tyrell,Lord Luthor,Luthor Tyrell,Luthor
-Puff Fish,Puff,Puff Fish
 Leslyn Haigh,Leslyn,Leslyn Haigh
 Kaeth,Maester Kaeth,Kaeth
 Preston Greenfield,Preston,Preston Greenfield
 Howland Reed,Howland,Howland Reed
-Took Off,Took,Took Off
 Mikken,Mikken
 Jon Darry,Jon Darry
 Harys Haigh,Harys,Harys Swyft,Swyft,Harys Haigh,Ser Harys
@@ -319,11 +315,9 @@ Donnel Haigh,Donnel Haigh
 Ermesande,Lady Ermesande,Ermesande
 Oswald Kettleblack,Oswald,Oswald Kettleblack
 Warren,Warren,Ser Warren
-Onions,Ser Onions,Onions
 Wylis Manderly,Wylis Manderly,Wylis
 Yohn Royce,Yohn Royce,Yohn
 Flement Brax,Brax,Flement,Flement Brax
-Swift Sword,Swift,Swift Sword
 Hubard Rambton,Hubard,Hubard Rambton
 Chelsted,Chelsted,Lord Chelsted
 Fell,Lord Fell,Fell
@@ -369,7 +363,6 @@ Mellario,Mellario,Lady Mellario
 Sherrit,King Sherrit,Sherrit
 Merlon Crakehall,Merlon Crakehall,Merlon
 Samwell Spicer,Samwell Spicer
-Mousedown Mill,Mousedown,Mousedown Mill
 Manfred Swann,Manfred,Manfred Swann
 Baelor Breakspear,Breakspear,Baelor Breakspear
 Rodrik Flint,Rodrik Flint
@@ -401,13 +394,10 @@ Belgrave,Belgrave,Lord Belgrave
 Robin Hill,Robin Hill
 Ambrose,Lord Ambrose,Ambrose
 Dustin,Lord Dustin,Dustin
-Scab,Scab,King Scab
 Tremond Gargalen,Tremond Gargalen,Tremond
 Meredyth Crane,Meredyth,Meredyth Crane
 Gwayne Gaunt,Gaunt,Gwayne Gaunt,Gwayne
 Omer Blackberry,Omer Blackberry,Omer
 Lymond Goodbrook,Lymond,Lymond Goodbrook
-Palestone Sword,Palestone,Palestone Sword
 Jothos Slynt,Jothos,Jothos Slynt
-Soldier,Soldier,Ser Soldier
 Botley,Lord Botley,Botley

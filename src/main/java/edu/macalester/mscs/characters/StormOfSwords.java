@@ -19,7 +19,7 @@ public class StormOfSwords {
             "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", "Grace", "God", // GoT specific
             "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons", "Daughter", "Cousin", // familial references
             "Men", "Man", "And", "With", "Griffin", "No", "Summer", "Half", "Tongue", "Without",
-            "People" // miscellaneous
+            "People", "Took" // miscellaneous
     ));
 
     // Words that are not unique, but may still be descriptive, expecially in combination
@@ -40,11 +40,11 @@ public class StormOfSwords {
             "Land", "Lands", "Sea", "Seas", "Island", "Islands", "Isle", "Isles", "Bay", "River", "Shore",
             "Point", "Lake", "Hills", "Straits", "Vale", "Wood", // geographics
             "City", "Cities", "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", "Castle", "Lane",
-            "Bridge", "Sept", "Harbor", // landmarks
+            "Bridge", "Sept", "Harbor", "Mill", // landmarks
             "Cruel", "Bold", "Brave", "Good", "Strong", "Bitter", "Sweet", "Bad", "Clever", "Cautious",
             "Wise", "Craven", "Poor", "Pretty", "Scared", "Homeless", "Hot", "Shy", "True", "Mad", "Blessed",
             "Queer", "Sour", "Cunning", "Hairy", "Broken", "Bloody", // adjective titles
-            "Conqueror", "Wolf", "Fool", "Iron", "Worm", "Bull", "Kingswood" // miscellaneous
+            "Conqueror", "Wolf", "Fool", "Iron", "Worm", "Bull", "Kingswood", "Sword" // miscellaneous
     ));
 
     // Words that are sometimes placed between first and last names
@@ -167,20 +167,20 @@ public class StormOfSwords {
         finder.combineGroups("Tywin", "Lord of Casterly Rock");
         finder.combineGroups("Roose", "Lord of the Dreadfort", "Lord Bolton");
         finder.combineGroups("Loras", "Knight of Flowers");
-        finder.combineGroups("Davos", "Onion Knight");
+        finder.combineGroups("Davos", "Onion Knight", "Ser Onions");
         finder.combineGroups("Varys", "Spider");
         finder.combineGroups("Gregor", "Mountain");
         finder.combineGroups("Cersei", "Queen Regent");
         finder.combineGroups("Rattleshirt", "Lord of Bones");
         finder.combineGroups("Randyll", "Lord Tarly");
-        finder.combineGroups("Mace", "Lord Tyrell");
+        finder.combineGroups("Mace", "Lord Tyrell", "Puff Fish");
         finder.combineGroups("Stannis", "Lord of Dragonstone");
         finder.combineGroups("Rickard Karstark", "Lord Karstark");
         finder.combineGroups("Janos", "Lord Slynt");
         finder.combineGroups("Tyrion", "Imp");
         finder.combineGroups("Hother", "Whoresbane");
         finder.combineGroups("Arya", "Arry");
-        finder.combineGroups("Aerys", "Mad King");
+        finder.combineGroups("Aerys", "Mad King", "King Scab");
         finder.combineGroups("Ben Plumm", "Brown Ben");
         finder.combineGroups("Salladhor", "Salla");
         finder.combineGroups("Paxter", "Lord Redwyne");
@@ -336,12 +336,17 @@ public class StormOfSwords {
         names.remove("Baelor Breakwind");   // as Baelor Hightower
         names.remove("Roslin Tully");   // as Roslin Frey
         names.remove("Walda Frey");     // as Walda Bolton
+        names.remove("Grandfather");    // as Walder Frey
+        names.remove("Puff Fish");      // as Mace Tyrell
+        names.remove("Scab");           // as Aerys Targaryen
+        names.remove("Onions");         // as Davos
 
         names.remove("Nymeros Martell");// mistake
+        names.remove("Soldier");        // a doll
 
-        names.remove("Eyed Maid");      // unused
         names.remove("Lu");             // named axe
         names.remove("Pounce");         // a cat
+        names.remove("Eyed Maid");      // unused
         names.remove("Hoarfrost Hill"); // mistake
         names.remove("Horn Hill");      // mistake
 

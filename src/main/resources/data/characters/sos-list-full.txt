@@ -7,7 +7,7 @@ Robb,Young Wolf,Robb of Winterfell,King Robb,Robb,Robb Stark
 Daenerys,Daenerys Stormborn,Stormborn,Daenerys Targaryen,Dany,Khaleesi,Daenerys the Conqueror,Daenerys
 Joffrey,Prince Joffrey,King Joff,King Joffrey,Joffrey Baratheon,Joffrey,Joff
 Catelyn,Lady Catelyn,Cat,Catelyn Stark,Catelyn
-Davos,Onion Lord,Davos,Onion Knight,Lord Davos,Onion,Davos Seaworth,Ser Davos
+Davos,Onion Lord,Davos,Onion Knight,Ser Onions,Lord Davos,Onions,Onion,Davos Seaworth,Ser Davos
 Bran,Prince Bran,Bran,Bran the Broken,Brandon Stark
 Sandor,Sandor Clegane,Sandor,Hound
 Cersei,Queen Regent,Queen Cersei,Cersei Lannister,Cersei,Lady Cersei
@@ -49,7 +49,7 @@ Varys,Lord Varys,Varys,Spider,Lady Varys
 Aemon Targaryen,Aemon Targaryen,Maester Aemon,Aemon
 Donal,Donal Noye,Noye,Donal
 Tormund,Tormund Giantsbane,Giantsbane,Crowlover,Tormund Giantsbabe,Giantsbabe,Tormund Thunderfist,Tormund,Tormund Crowlover,Thunderfist
-Aerys,Mad King,King Aerys,Aerys Targaryen,Aerys,Aerys the Third,Aerys the Mad
+Aerys,Mad King,Scab,King Aerys,King Scab,Aerys Targaryen,Aerys,Aerys the Third,Aerys the Mad
 Gilly,Gilly
 Roose,Roose,Roose Bolton,Lord Roose,Lord of the Dreadfort,Lord Bolton
 Lord Commander,Lord Commander
@@ -65,11 +65,11 @@ Shae,Shae
 Be,Be
 Kevan,Ser Kevan,Kevan Lannister,Kevan
 Chett,Chett
+Mace,Mace,Puff,Lord Mace,Puff Fish,Mace Tyrell,Lord Tyrell
 Kingslayer,Kingslayer
 Merrett,Merrett Frey,Muttonhead,Merrett,Merrett Muttonhead,Ser Merrett
 Fist,Fist of the First,Fist
 Pyp,Pyp
-Mace,Mace,Lord Mace,Mace Tyrell,Lord Tyrell
 Vargo,Vargo,Lord Vargo,Hoat,Vargo Hoat
 Tommen,Tommen,King Tommen,Prince Tommen
 Podrick,Podrick Payne,Pod,Podrick
@@ -339,6 +339,7 @@ Claw,Claw Isle,Claw
 Weeper,Weeper
 Plaza,Plaza of Punishment,Plaza,Plaza of Pride
 Left,Left Hand Lew,Left,Long Lew,Lew
+Swords,Swords,White Swords
 Robar,Robar,Robar Royce,Ser Robar
 Sybell,Sybell,Sybell Spicer,Lady Sybell
 Moon Boy,Moon Boy
@@ -585,6 +586,7 @@ Biter,Biter
 Sedgekins,Sedgekins
 Mudge,Mudge
 Benfrey,Benfrey,Ser Benfrey
+Off,Off
 Arson,Iceaxe,Arson,Arson Iceaxe
 Wenda,Wenda the White Fawn,Fawn,Wenda,White Fawn
 Stone Crows,Stone Crows
@@ -680,7 +682,6 @@ Philip,Philip Foote,Philip
 Belis,Belis
 Tumbler,Tumbler
 Islanders,Islanders
-White Swords,White Swords
 Blind Bastard,Blind Bastard
 Ballroom,Ballroom
 Deer,Deer Island,Deer
@@ -697,7 +698,6 @@ Howland,Howland,Howland Reed
 Tyrek,Tyrek
 Boneway,Boneway
 Burned,Burned
-Puff,Puff,Puff Fish
 Belly,Belly Ben,Belly
 Barracks,Flint Barracks,Barracks
 Bella,Bella
@@ -718,7 +718,6 @@ First Ranger,First Ranger
 Kaeth,Maester Kaeth,Kaeth
 Lordsport,Lordsport
 Lord Darry,Lord Darry
-Took,Took,Took Off
 Queensgate,Queensgate
 Pool,Pool
 Mikken,Mikken
@@ -855,7 +854,6 @@ Rolley,Rolley of Sisterton,Rolley
 Hammer,Hammer,Hammer of Justice
 Queensguard,Queensguard
 Andahar,Andahar,King Andahar
-Onions,Ser Onions,Onions
 Shieldhall,Shieldhall
 Beat,Beat
 Prince of Dragonflies,Prince of Dragonflies
@@ -1109,7 +1107,6 @@ Palla,Palla
 Four Tuns,Four Tuns
 Freehold,Freehold
 Ambrose,Lord Ambrose,Ambrose
-Scab,Scab,King Scab
 Lord Corbray,Lord Corbray
 Lord of Corpses,Lord of Corpses
 Master of the Drearfort,Master of the Drearfort
