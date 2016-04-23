@@ -230,6 +230,7 @@ Gulian,Lord Swann,Gulian,Gulian Swann
 Gawen,Gawen,Gawen Wylde,Ser Gawen,Wylde
 Trystane,Trystane,Trystane Martell
 Ramsay,Lord Ramsay,Ramsay
+Gerold,Gerold Hightower,White Bull,Gerold
 Tothmure,Maester Tothmure,Tothmure
 Selwyn,Evenstar,Selwyn,Selwyn the Evenstar
 Karyl,Karyl,Karyl Vance
@@ -285,7 +286,6 @@ Arneld,Ser Arneld,Arneld
 Deremond,Lord Deremond,Deremond
 Symeon,Symeon,Symeon Star
 Donnel,Donnel Locke,Donnel
-Gerold,Gerold Hightower,Gerold
 Daven,Ser Daven,Daven
 Kym,Maester Kym,Kym
 Timon,Timon,Timon the Scrapesword,Scrapesword

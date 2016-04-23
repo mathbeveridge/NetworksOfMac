@@ -509,6 +509,7 @@ King of the Iron Islands,King of the Iron Islands
 Joss,Joss Stilwood,Joss,Stilwood
 Ramsay,Lord Ramsay,Ramsay
 Guards,Guards,Guards Hall
+Gerold,Gerold Hightower,White Bull,Gerold
 Selwyn,Evenstar,Selwyn,Selwyn the Evenstar
 Karyl,Karyl,Karyl Vance
 Bronze,Bronze,Bronze Yohn,Yohn,Bronze Yohn Royce
@@ -521,7 +522,6 @@ Claw,Red Claw,Claw
 Torches,Torches
 Fever,Fever River,Fever
 Brown,Brown,Brown Bernarr,Bernarr
-White Bull,White Bull
 Swift,Swift,Swift Sword
 Barth,Lord Barth,Barth
 Ermesande,Lady Ermesande,Ermesande
@@ -709,7 +709,6 @@ Arneld,Ser Arneld,Arneld
 Rushing,Rushing Falls,Falls,Rushing
 River Gate,River Gate
 Lady Flint,Lady Flint
-Gerold,Gerold Hightower,Gerold
 Titan,Titan
 Freehold,Freehold
 Bottom,Bottom

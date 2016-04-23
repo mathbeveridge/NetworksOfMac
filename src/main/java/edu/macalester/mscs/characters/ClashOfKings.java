@@ -162,6 +162,7 @@ public class ClashOfKings {
         finder.combineGroups("Emmon Cuy", "Ser Emmon");
         finder.combineGroups("Arya", "Arry");
         finder.combineGroups("Catelyn", "Cat");
+        finder.combineGroups("Gerold", "White Bull");
 
         // manually add important names that get missed
         names.add("Varys");

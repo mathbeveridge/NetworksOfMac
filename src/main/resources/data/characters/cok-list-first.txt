@@ -240,6 +240,7 @@ Gulian,Gulian,Swann
 Ramsay,Ramsay
 Endrew,Endrew
 Tothmure,Tothmure
+Gerold,Gerold
 Selwyn,Evenstar,Selwyn
 Ermesande,Ermesande
 Urron,Urron
@@ -309,7 +310,6 @@ Jeffory,Jeffory
 Emmon,Emmon
 Bonifer,Bonifer
 Beron,Beron
-Gerold,Gerold
 Halys,Halys
 Edwyle,Edwyle
 Harrion,Harrion

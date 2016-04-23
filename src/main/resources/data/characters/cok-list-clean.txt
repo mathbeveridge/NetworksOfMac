@@ -245,6 +245,7 @@ Karyl Vance,Karyl,Karyl Vance
 Tothmure,Maester Tothmure,Tothmure
 Selwyn,Evenstar,Selwyn,Selwyn the Evenstar
 Wylis Manderly,Wylis Manderly,Wylis,Ser Wylis
+Gerold Hightower,Gerold Hightower,White Bull,Gerold
 Gawen Wylde,Gawen,Gawen Wylde,Ser Gawen,Wylde
 Jast,Lord Jast,Jast
 Harbert,Harbert,Ser Harbert
@@ -315,7 +316,6 @@ Staedmon,Lord Staedmon,Staedmon
 Walder Rivers,Walder Rivers
 Beron,Lord Beron,Beron
 Leech,Lord Leech,Leech
-Gerold Hightower,Gerold Hightower,Gerold
 Jeffory Mallister,Jeffory Mallister,Jeffory
 Malcolm,Ser Malcolm,Malcolm
 Lothston,Lord Lothston,Lothston
