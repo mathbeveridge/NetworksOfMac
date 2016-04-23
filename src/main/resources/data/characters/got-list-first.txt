@@ -1,12 +1,12 @@
 Eddard,Eddard,Ned
-Jon,Snow,Jon,Arryn
+Jon,Snow,Jon
 Tyrion,Imp,Tyrion
 Brandon,Bran,Brandon,Burner,Shipwright,Arm,Broken
 Daenerys,Stormborn,Dany,Khaleesi,Daenerys
 Catelyn,Catelyn,Stark
 Arya,Arya,Horseface,Underfoot
-Robert,Robert,Usurper
 Sansa,Sansa
+Robert,Robert,Usurper
 Robb,Robb
 Joffrey,Joffrey,Joff
 Drogo,Drogo,Rider
@@ -29,6 +29,7 @@ Sandor,Sandor,Hound
 Jory,Jory
 Gregor,Mountain,Gregor
 Mirri,Mirri,Maz,Duur
+Jon,Jon,Arryn
 Stannis,Stannis
 Benjen,Jen,Ranger,Benjen,Ben
 Illyrio,Illyrio,Mopatis
@@ -67,6 +68,7 @@ Lyanna,Lyanna
 Mord,Mord
 Meryn,Meryn
 Gared,Gared
+Robert,Robert
 Janos,Slynt,Janos
 Ilyn,Ilyn
 Myrcella,Myrcella
@@ -206,6 +208,7 @@ Forley,Forley
 Qos,Qos
 Rhae,Mhar,Rhae
 Amory,Lorch,Amory
+Eddard,Eddard
 Mark,Mark,Ryswell
 Smalljon,Smalljon
 Dacey,Dacey

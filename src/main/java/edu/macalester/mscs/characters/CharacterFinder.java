@@ -489,6 +489,22 @@ public class CharacterFinder {
         characterGroups = new CharacterGroups(counter, nondescriptors);
     }
 
+    public void addCharacterGroup(String name) {
+        int count = 0;
+        if (counter.containsKey(name)) {
+            count = counter.get(name);
+        }
+        characterGroups.addAlias(name, count);
+    }
+
+    public void addToCharacterGroup(String name, String alias) {
+        int count = 0;
+        if (counter.containsKey(alias)) {
+            count = counter.get(alias);
+        }
+        characterGroups.addAliasToGroup(name, alias, count);
+    }
+
     /**
      * Manually combine the groups containing each of the specified names
      * @param names

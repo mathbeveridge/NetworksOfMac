@@ -53,7 +53,7 @@ public class GameOfThrones {
         finder.incrementName("Jeor Mormont", 1); // gets wrecked
         finder.incrementName("Jeor", 0);
         finder.removeWords("Tully Stark"); // gets picked up accidentally
-        finder.removeWords("Storm Dancer"); // is a boat, not a name
+//        finder.removeWords("Storm Dancer"); // is a boat, not a name
 
         // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();
@@ -86,13 +86,24 @@ public class GameOfThrones {
         nondescriptors.addAll(WordUtils.getPlurals(surnames));
         nondescriptors.addAll(places);
 
+        // add problematic names
+        nondescriptors.add("Jon");
+        nondescriptors.add("Eddard");
+        nondescriptors.add("Robert");
+
         // build character groups
         finder.buildCharacterGroups(nondescriptors);
 
+        // add problematic names as appropriate
+        finder.addToCharacterGroup("Jon Snow", "Jon");
+        finder.addToCharacterGroup("Eddard Stark", "Eddard");
+        finder.addToCharacterGroup("Robert Baratheon", "Robert");
+
         // manually combine more character groups
-        finder.combineGroups("Eddard", "Ned");
+        finder.combineGroups("Jon Snow", "Jon Stark");
+        finder.combineGroups("Eddard Stark", "Ned", "Lord Eddard");
         finder.combineGroups("Bran", "Brandon Stark");
-        finder.combineGroups("Robert", "Usurper");
+        finder.combineGroups("Robert Baratheon", "Usurper", "King Robert");
         finder.combineGroups("Petyr", "Littlefinger", "Lord Baelish");
         finder.combineGroups("Daenerys", "Dany", "Khaleesi", "Princess of Dragonstone");
         finder.combineGroups("Joffrey", "Joff");
@@ -105,7 +116,7 @@ public class GameOfThrones {
         finder.combineGroups("Catelyn", "Lady Stark");
         finder.combineGroups("Pycelle", "Grand Maester");
         finder.combineGroups("Walder", "Lord Frey", "Lord of the Crossing");
-        finder.combineGroups("Robert Arryn", "Lord of the Eyrie");
+        finder.combineGroups("Robert Arryn", "Lord of the Eyrie", "Lord Robert");
         finder.combineGroups("Lysa", "Lady Arryn");
         finder.combineGroups("Maege", "Lady Mormont");
         finder.combineGroups("Greatjon", "Lord Umber");
