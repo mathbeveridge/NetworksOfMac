@@ -332,7 +332,7 @@ public class Matrix {
      * @return
      */
     public Logger toMatrixCsvLog() {
-        toMatrixCsvLog(null);
+        return toMatrixCsvLog(null);
     }
 
     /**
