@@ -247,8 +247,8 @@ public class ClashOfKings {
         Set<String> firstNames = finder.getFirstNames(names);
 
         FileUtils.writeFile(finder.getNameList(), "src/main/resources/data/characters/cok-list-full.txt");
-        FileUtils.writeFile(finder.getNameList(names), "src/main/resources/data/characters/cok-list-clean.txt");
-        FileUtils.writeFile(finder.getNameList(firstNames), "src/main/resources/data/characters/cok-list-no-dup.txt");
+        FileUtils.writeFile(finder.getNameList(names, true, 4), "src/main/resources/data/characters/cok-list-clean.txt");
+        FileUtils.writeFile(finder.getNameList(firstNames, true, 4), "src/main/resources/data/characters/cok-list-no-dup.txt");
         FileUtils.writeFile(finder.getFirstNameList(names), "src/main/resources/data/characters/cok-list-first.txt");
 
     }

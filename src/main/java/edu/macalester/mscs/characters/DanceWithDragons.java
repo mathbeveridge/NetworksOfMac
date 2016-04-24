@@ -71,6 +71,8 @@ public class DanceWithDragons {
         finder.removeWords("Hugor of the Hill"); // unused
         finder.removeWords("Ned Woods"); // unused
         finder.removeWords("Tytos Lannister"); // unused
+        finder.removeWords("Harry Merrell"); // unused
+        finder.removeWords("Merrell"); // unused
 
         // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();
@@ -124,7 +126,7 @@ public class DanceWithDragons {
         nondescriptors.add("Jack");
         nondescriptors.add("Ralf");
         nondescriptors.add("Dick");
-
+        
         // build character groups
         finder.buildCharacterGroups(nondescriptors);
 
@@ -165,7 +167,7 @@ public class DanceWithDragons {
         finder.combineGroups("Varys", "Spider");
         finder.combineGroups("Gregor", "Mountain");
         finder.combineGroups("Theon", "Reek");
-        finder.combineGroups("Cersei", "Queen Regent");
+        finder.combineGroups("Cersei", "Queen Regent", "Queen Dowager");
         finder.combineGroups("Rattleshirt", "Lord of Bones");
         finder.combineGroups("Wyman", "Lord of White Harbor", "Lord Lard", "Lord Manderly");
         finder.combineGroups("Randyll", "Lord Tarly");
@@ -348,9 +350,9 @@ public class DanceWithDragons {
         Set<String> firstNames = finder.getFirstNames(names);
 
         FileUtils.writeFile(finder.getNameList(), "src/main/resources/data/characters/dwd-list-full.txt");
-        FileUtils.writeFile(finder.getNameList(names), "src/main/resources/data/characters/dwd-list-clean.txt");
-        FileUtils.writeFile(finder.getNameList(firstNames), "src/main/resources/data/characters/dwd-list-no-dup.txt");
-        FileUtils.writeFile(finder.getFirstNameList(names), "src/main/resources/data/characters/dwd-list-first.txt");
+        FileUtils.writeFile(finder.getNameList(names, true, 4), "src/main/resources/data/characters/dwd-list-clean.txt");
+        FileUtils.writeFile(finder.getNameList(firstNames, true, 4), "src/main/resources/data/characters/dwd-list-no-dup.txt");
+        FileUtils.writeFile(finder.getFirstNameList(names, 4), "src/main/resources/data/characters/dwd-list-first.txt");
 
     }
 }
