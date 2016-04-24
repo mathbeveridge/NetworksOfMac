@@ -60,15 +60,17 @@ public class CharacterFinder {
     private final Set<String> ignoredWords;
     private final Set<String> titleWords;
     private final Set<String> generalWords;
+    private final Set<String> fillerWords;
     private final String punctuation;
 
     private Map<String, Integer> counter = new HashMap<>();
     private CharacterGroups characterGroups;
 
-    public CharacterFinder(Set<String> ignoredWords, Set<String> titleWords, Set<String> generalWords, String punctuation) {
+    public CharacterFinder(Set<String> ignoredWords, Set<String> titleWords, Set<String> generalWords, Set<String> fillerWords, String punctuation) {
         this.ignoredWords = ignoredWords;
         this.titleWords = titleWords;
         this.generalWords = generalWords;
+        this.fillerWords = fillerWords;
         this.punctuation = punctuation;
     }
 
@@ -141,7 +143,7 @@ public class CharacterFinder {
                         toAdd = phrase.toString();
                     } else {
                         if (phrase != null) {
-                            if (part.equals(" ") || part.equals("of") || part.equals("the")) {
+                            if (part.equals(" ") || part.equals("of") || part.equals("the") || fillerWords.contains(part)) {
                                 phrase.append(part);
                             } else {
                                 if (!isGeneralWord(toAdd)) {
@@ -170,7 +172,7 @@ public class CharacterFinder {
                         toAdd = phrase.toString();
                     } else {
                         if (phrase != null) {
-                            if (part.equals(" ") || part.equals("of") || part.equals("the")) {
+                            if (part.equals(" ") || part.equals("of") || part.equals("the") || fillerWords.contains(part)) {
                                 phrase.append(part);
                             } else {
                                 if (!isGeneralWord(toAdd)) {
@@ -200,6 +202,21 @@ public class CharacterFinder {
     }
 
     /**
+     * If the phrase ends with "of...", that chunk gets removed.
+     * Otherwise returns name.
+     * @param name
+     * @return
+     */
+    public String stripPlace(String name) {
+        String noPlace = StringUtils.substringBefore(name, " of ");
+        if (noPlace.contains(" ")) {
+            return noPlace;
+        } else {
+            return name;
+        }
+    }
+
+    /**
      * If the first word of name is a title (in generalWords), it gets removed.
      * Otherwise returns name.
      * @param name
@@ -207,7 +224,7 @@ public class CharacterFinder {
      */
     public String stripTitle(String name) {
         String[] split = name.split(" ");
-        if (split.length > 1 && isTitleWord(split[0]) && WordUtils.isCapitalized(split[1])) {
+        if (split.length > 1 && isGeneralWord(split[0]) && WordUtils.isCapitalized(split[1])) {
             return StringUtils.substringAfter(name, " ");
         } else {
             return name;
@@ -297,13 +314,17 @@ public class CharacterFinder {
         Set<String> surnames = new HashSet<>();
         Set<String> once = new HashSet<>();
         for (String cap : words) {
-            String name = stripTitle(cap);
+            String name = stripTitle(stripPlace(cap));
             String[] split = name.split(" ");
-            if (split.length == 2 && !isGeneralWord(split[0]) && !isGeneralWord(split[1])) {
-                if (once.contains(split[1])) {
-                    surnames.add(split[1]);
-                } else {
-                    once.add(split[1]);
+            if (!isGeneralWord(split[0])) {
+                if (split.length == 2 && !isGeneralWord(split[1])) {
+                    if (once.contains(split[1])) {
+                        surnames.add(split[1]);
+                    } else {
+                        once.add(split[1]);
+                    }
+                } else if (split.length == 3 && fillerWords.contains(split[1])) {
+                    surnames.add(split[2]);
                 }
             }
         }
@@ -321,7 +342,7 @@ public class CharacterFinder {
         String notPlacesString = notPlaces.toString();
         for (String cap : words) {
             if (cap.contains(" of ")) {
-                String place = cap.substring(cap.indexOf(" of") + 4);
+                String place = StringUtils.substringAfter(cap, " of ");
                 if (place.startsWith("the")) {
                     place = place.substring(4);
                 }
@@ -363,7 +384,8 @@ public class CharacterFinder {
         for (String cap : words) {
             String name = stripTitle(cap);
             String[] split = name.split(" ");
-            if (split.length == 2 && !isGeneralWord(split[0]) && surnames.contains(split[1])) {
+            if (!isGeneralWord(split[0]) && (split.length == 2 && surnames.contains(split[1])
+                    || split.length == 3 && fillerWords.contains(split[1]) && surnames.contains(split[2]))) {
                 if (words.contains(name)) {
                     names.add(name);
                 } else {
@@ -407,14 +429,7 @@ public class CharacterFinder {
     public void removePlaces() {
         Map<String, Integer> reducedCounter = new HashMap<>();
         for (String cap : counter.keySet()) {
-            String noPlace = cap;
-            // strip "of..." bits
-            if (noPlace.contains(" of ")) {
-                String temp = StringUtils.substringBefore(noPlace, " of ");
-                if (!isGeneralWord(temp)) {
-                    noPlace = temp;
-                }
-            }
+            String noPlace = stripPlace(cap);
             if (!reducedCounter.containsKey(noPlace)) {
                 reducedCounter.put(noPlace, 0);
             }
@@ -482,6 +497,22 @@ public class CharacterFinder {
         characterGroups = new CharacterGroups(counter, nondescriptors);
     }
 
+    public void addCharacterGroup(String name) {
+        int count = 0;
+        if (counter.containsKey(name)) {
+            count = counter.get(name);
+        }
+        characterGroups.addAlias(name, count);
+    }
+
+    public void addToCharacterGroup(String name, String alias) {
+        int count = 0;
+        if (counter.containsKey(alias)) {
+            count = counter.get(alias);
+        }
+        characterGroups.addAliasToGroup(name, alias, count);
+    }
+
     /**
      * Manually combine the groups containing each of the specified names
      * @param names
@@ -524,8 +555,6 @@ public class CharacterFinder {
                 list.add(s);
                 list.addAll(characterGroups.getGroup(s));
                 groupMap.put(list, characterGroups.getAliasCount(s));
-            } else {
-                System.out.println(s);
             }
         }
 
@@ -573,8 +602,6 @@ public class CharacterFinder {
                 }
                 list.addAll(set);
                 groupMap.put(list, characterGroups.getAliasCount(name));
-            } else {
-                System.out.println(name);
             }
         }
 

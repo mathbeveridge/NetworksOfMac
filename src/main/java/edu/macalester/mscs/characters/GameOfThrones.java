@@ -18,7 +18,7 @@ public class GameOfThrones {
             "Who", "Why", // questions
             "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", "Grace", // GoT specific
             "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons", // familial references
-            "If", "And", "Will", "With", "Half", "Men", "Man" // miscellaneous
+            "If", "And", "Will", "With", "Half", "Men", "Man", "Tongue" // miscellaneous
     ));
 
     // Words that are titles
@@ -35,22 +35,25 @@ public class GameOfThrones {
             "Young", "Old", "Fat", // endearing titles
             "High", "Great", "Grand", "First", "Second", // superlatives
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
-            "Black", "Red", "Green", "Blue", // colors
+            "Black", "Red", "Green", "Blue", "White", // colors
             "Land", "Lands", "Sea", "Seas", "Island", "Isles", "City", "Cities", // geographics
             "Alley", "Gate", "Keep", "Market", "Tower", // landmarks
-            "Flowers", "Storm" // miscellaneous
+            "Flowers", "Storm", "Bear", "Stone" // miscellaneous
     ));
+
+    // Words that are sometimes placed between first and last names
+    public static final Set<String> FILLER_WORDS = new HashSet<>(Arrays.asList("zo", "mo"));
 
     public static void main(String[] args) {
         // initialize the finder
-        CharacterFinder finder = new CharacterFinder(IGNORED_WORDS, TITLE_WORDS, GENERAL_WORDS, ".?!�");
+        CharacterFinder finder = new CharacterFinder(IGNORED_WORDS, TITLE_WORDS, GENERAL_WORDS, FILLER_WORDS, ".?!�");
         // read in the text
         finder.countCapitalized(FileUtils.readFile("src/main/resources/text/gameofthrones.txt"));
         // fix a few mistakes
         finder.incrementName("Jeor Mormont", 1); // gets wrecked
         finder.incrementName("Jeor", 0);
         finder.removeWords("Tully Stark"); // gets picked up accidentally
-        finder.removeWords("Storm Dancer"); // is a boat, not a name
+//        finder.removeWords("Storm Dancer"); // is a boat, not a name
 
         // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();
@@ -83,13 +86,32 @@ public class GameOfThrones {
         nondescriptors.addAll(WordUtils.getPlurals(surnames));
         nondescriptors.addAll(places);
 
+        // add problematic names
+        nondescriptors.add("Jon");
+        nondescriptors.add("Eddard");
+        nondescriptors.add("Robert");
+        nondescriptors.add("Balon");
+        nondescriptors.add("Tytos");
+        nondescriptors.add("Torrhen");
+        nondescriptors.add("Martyn");
+
         // build character groups
         finder.buildCharacterGroups(nondescriptors);
 
+        // add problematic names as appropriate
+        finder.addToCharacterGroup("Jon Snow", "Jon");
+        finder.addToCharacterGroup("Eddard Stark", "Eddard");
+        finder.addToCharacterGroup("Robert Baratheon", "Robert");
+        finder.addToCharacterGroup("Torrhen Karstark", "Torrhen");
+
         // manually combine more character groups
-        finder.combineGroups("Eddard", "Ned");
+        finder.combineGroups("Jon Snow", "Jon Stark");
+        finder.combineGroups("Eddard Stark", "Ned", "Lord Eddard");
+        finder.combineGroups("Robert Baratheon", "Usurper", "King Robert");
+        finder.combineGroups("Robert Arryn", "Lord of the Eyrie", "Lord Robert");
+        finder.combineGroups("Balon Swann", "Ser Balon");
+        finder.combineGroups("Tytos Blackwood", "Lord Tytos", "Lord Blackwood");
         finder.combineGroups("Bran", "Brandon Stark");
-        finder.combineGroups("Robert", "Usurper");
         finder.combineGroups("Petyr", "Littlefinger", "Lord Baelish");
         finder.combineGroups("Daenerys", "Dany", "Khaleesi", "Princess of Dragonstone");
         finder.combineGroups("Joffrey", "Joff");
@@ -102,7 +124,6 @@ public class GameOfThrones {
         finder.combineGroups("Catelyn", "Lady Stark");
         finder.combineGroups("Pycelle", "Grand Maester");
         finder.combineGroups("Walder", "Lord Frey", "Lord of the Crossing");
-        finder.combineGroups("Robert Arryn", "Lord of the Eyrie");
         finder.combineGroups("Lysa", "Lady Arryn");
         finder.combineGroups("Maege", "Lady Mormont");
         finder.combineGroups("Greatjon", "Lord Umber");
@@ -114,12 +135,12 @@ public class GameOfThrones {
         finder.combineGroups("Tywin", "Lord of Casterly Rock");
         finder.combineGroups("Horas", "Horror");
         finder.combineGroups("Jonos", "Lord Bracken");
-        finder.combineGroups("Tytos Blackwood", "Lord Blackwood");
         finder.combineGroups("Hobber", "Slobber");
         finder.combineGroups("Karyl", "Lord Vance");
         finder.combineGroups("Roose", "Lord of the Dreadfort", "Lord Bolton");
         finder.combineGroups("Hoster", "Lord of Riverrun");
         finder.combineGroups("Loras", "Knight of Flowers", "Daisy");
+        finder.combineGroups("Gerold", "White Bull");
 
         // manually add important names that get missed
         names.add("Varys");
@@ -206,8 +227,6 @@ public class GameOfThrones {
         names.remove("Theon Stark");    // as Theon Greyjoy
         names.remove("Brynden Blackfish");  // as Brynden Tully
         names.remove("Daisy");          // as Loras Tyrell
-        names.remove("Aegon Targaryen");// unused, too problematic
-        names.remove("Torrhen Stark");  // unused
         names.remove("Horror");         // as Horas
         names.remove("Slobber");        // as Hobber
 
