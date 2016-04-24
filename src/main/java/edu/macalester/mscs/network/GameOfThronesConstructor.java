@@ -1,10 +1,9 @@
 package edu.macalester.mscs.network;
 
 /**
- * Created by abeverid on 4/23/16.
+ * @author Andrew Beveridge
  */
 public class GameOfThronesConstructor extends MatrixConstructor {
-
 
     /**
      * Legacy file creation for Game of Thrones
@@ -21,50 +20,30 @@ public class GameOfThronesConstructor extends MatrixConstructor {
 //		writeFiles(constructMatrix(characterString, text, 15, NOISE, folder + "/log.txt"), folder, 1, 9, "curated2");
 //		writeFiles(constructMatrix(characterString, text, RADUIS, NOISE, folder + "/log.txt"), folder, 1, 10, "intercap");
 
-
     public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/got-list-curated.txt";
     public static final String TEXT_FILE_NAME = "src/main/resources/text/gameofthrones-intercap.txt";
     public static final int BOOK_NUMBER = 1;
 
-
-    public static final String[] ORDERED_CHARACTER_LIST = {
-            "Aerys T", "Alyn", "Barristan S", "Brandon S", "Cayn", "Cersei L", "Desmond", "Eddard S",
-            "Harwin", "Hullen", "Janos S", "Jon A", "Jory C", "Lyanna", "Malleon", "Petyr B", "Pycelle",
-            "Raymun D", "Renly B", "Rhaegar T", "Robert B", "Stannis B", "Tobho M", "Tom", "Torrhen K",
-            "Varys", "Vayon P", "Aemon T", "Alliser T", "Benjen S", "Bowen M", "Chett", "Dareon", "Donal N",
-            "Grenn", "Halder", "Hobb", "Jaremy R", "Jeor M", "Jon S", "Pyp", "Randyll T", "Samwell T", "Yoren",
-            "Addam M", "Bronn", "Chiggen", "Colemon", "Conn", "Jaime L", "Jyck", "Kevan L", "Lefford", "Lysa A",
-            "Marillion", "Mord", "Morrec", "Robert A", "Shae", "Shagga", "Timett", "Tyrion L", "Tywin L", "Vardis E",
-            "Willis W", "Aggo", "Cohollo", "Daenerys T", "Doreah", "Drogo", "Haggo", "Illyrio M", "Irri", "Jhiqui",
-            "Jhogo", "Jorah M", "Mirri M", "Ogo", "Qotho", "Quaro", "Rakharo", "Rhaego", "Viserys T", "Arya S", "Beric D",
-            "Boros B", "Gregor C", "Ilyn P", "Jeyne P", "Joffrey B", "Loras T", "Maegor", "Meryn T", "Mycah", "Myrcella",
-            "Sandor C", "Sansa S", "Septa M", "Syrio F", "Tommen", "Bran S", "Brynden T", "Catelyn S", "Donnel W", "Edmure T",
-            "Galbart G", "Greatjon U", "Hal M", "Hallis M", "Hodor", "Hoster T", "Karyl V", "Luwin", "Maege M", "Marq P",
-            "Masha H", "Nan", "Osha", "Rickard K", "Rickon S", "Robb S", "Rodrik C", "Roose B", "Stevron F", "Theon G", "Walder F"
-    };
-
     /**
-     * Main method for generating the matrix, edge list and log files for "A Clash of Kings."
+     * Main method for generating the matrix, edge list and log files for "A Game of Thrones."
      * @param args
      */
     public static void main(String[] args) {
-        int fileNum = 2;
-        String fileDesc = "intercap";
+        int fileNum = 11;
+        String fileDesc = "test";
 
-        ClashOfKingsConstructor cokConstructor = new ClashOfKingsConstructor(fileNum, fileDesc);
+        GameOfThronesConstructor constructor = new GameOfThronesConstructor(15, 4);
 
-        cokConstructor.constructMatrix();
-//        cokConstructor.writeFiles(ORDERED_CHARACTER_LIST);
-        cokConstructor.writeFiles();
+        constructor.constructMatrix(LOG_FILE_MATRIX);
+        constructor.writeFiles(fileNum, fileDesc, LOG_FOLDER, false);
     }
 
-    public GameOfThronesConstructor(int fileNumber, String fileDescriptor) {
-        super(CHARACTER_FILE_NAME, TEXT_FILE_NAME, BOOK_NUMBER, fileNumber, fileDescriptor);
+    public GameOfThronesConstructor(int radius, int noise) {
+        super(BOOK_NUMBER, TEXT_FILE_NAME, CHARACTER_FILE_NAME, radius, noise);
     }
 
 //    public void writeFiles() {
 //        writeFiles(VOLUME_NUMBER, fileNumber, fileDescriptor);
 //    }
-
 
 }
