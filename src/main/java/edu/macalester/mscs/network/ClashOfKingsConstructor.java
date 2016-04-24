@@ -17,11 +17,9 @@ public class ClashOfKingsConstructor extends MatrixConstructor {
 
 
 
-
-
-    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/got-list-curated.txt";
-    public static final String TEXT_FILE_NAME = "src/main/resources/text/gameofthrones-intercap.txt";
-    public static final int BOOK_NUMBER = 1;
+    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-curated.txt";
+    public static final String TEXT_FILE_NAME = "src/main/resources/text/clashofkings-intercap.txt";
+    public static final int BOOK_NUMBER = 2;
 
 
     /**
