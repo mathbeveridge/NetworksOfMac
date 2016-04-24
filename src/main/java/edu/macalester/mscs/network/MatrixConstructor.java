@@ -20,7 +20,7 @@ public class MatrixConstructor {
 		 * Game of Thrones
 		 */
 
-//		String text = getText("src/main/resources/text/gameofthrones.txt");
+//		String text = getText("src/main/resources/text/gameofthrones-intercap.txt");
 //		String characterString = getCharacterString("src/main/resources/data/characters/got-list-curated.txt");
 
 //		String characterString = getCharacterString("src/main/resources/data/characters/got-list-no-dup.txt");
@@ -29,14 +29,16 @@ public class MatrixConstructor {
 //		writeFiles(constructMatrix(characterString, text, 15, NOISE, folder + "/log.txt"), folder, 1, 8, "smaller-radius");
 
 //		writeFiles(constructMatrix(characterString, text, 15, NOISE, folder + "/log.txt"), folder, 1, 9, "curated2");
+//		writeFiles(constructMatrix(characterString, text, RADUIS, NOISE, folder + "/log.txt"), folder, 1, 10, "intercap");
 
 		/**
 		 * Clash of Kings
 		 */
 
-//		String text = getText("src/main/resources/text/clashofkings.txt");
+//		String text = getText("src/main/resources/text/clashofkings-intercap.txt");
 //		String characterString = getCharacterString("src/main/resources/data/characters/cok-list-curated.txt");
 //		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 2, 1, "curated");
+//		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 2, 2, "intercap");
 
 		/**
 		 * Dance with Dragons
@@ -205,12 +207,12 @@ public class MatrixConstructor {
 		logger.log(matrix.getEncounterList());
 		logger.writeLog(encountersFolder + "/_All.csv");
 		// write encounters files for each character
-		for (String name : matrix.getCharacters()) {
-			logger.clear();
-			logger.log(name + " Encounters:");
-			logger.log(matrix.getEncounterList(name));
-			logger.writeLog(encountersFolder + '/' + name.replace(' ', '_') + ".csv");
-		}
+//		for (String name : matrix.getCharacters()) {
+//			logger.clear();
+//			logger.log(name + " Encounters:");
+//			logger.log(matrix.getEncounterList(name));
+//			logger.writeLog(encountersFolder + '/' + name.replace(' ', '_') + ".csv");
+//		}
 		// write matrix file
 		matrix.toMatrixCsvLog().writeLog(getFileName(parentFolder, bookNumber, "mat", fileNumber, descriptor, "csv"));
 		// write edge file
