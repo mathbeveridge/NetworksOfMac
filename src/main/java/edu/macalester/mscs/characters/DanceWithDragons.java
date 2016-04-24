@@ -118,7 +118,6 @@ public class DanceWithDragons {
         nondescriptors.add("Rodrik");
         nondescriptors.add("Rickard");
         nondescriptors.add("Hoster");
-        nondescriptors.add("Grazdan");
         nondescriptors.add("Artos");
 
         nondescriptors.add("Qarl");
@@ -135,7 +134,6 @@ public class DanceWithDragons {
         finder.addToCharacterGroup("Robert Baratheon", "Robert");
         finder.addToCharacterGroup("Rhaegar Targaryen", "Rhaegar");
         finder.addToCharacterGroup("Hoster Blackwood", "Hoster");
-        finder.addToCharacterGroup("Grazdan zo Galare", "Grazdan");
 
         // manually combine more character groups
         finder.combineGroups("Jon Snow", "Lord Snow", "Lord Crow");
@@ -213,7 +211,6 @@ public class DanceWithDragons {
         names.add("Hodor");
         names.add("Edd Tollett");
         names.add("Missandei");
-        names.add("Varamyr");
         names.add("Belwas");
         names.add("Tattered Prince");
         names.add("Jeyne Poole");
@@ -326,8 +323,7 @@ public class DanceWithDragons {
         names.remove("Paramount");      // as Petyr Baelish
         names.remove("Reaper");         // as Balon Greyjoy
         names.remove("Eunuch");         // as Varys
-        names.remove("Varamyr Threeskins"); // as Varamyr
-        names.remove("Varamyr Sixskins");   // as Varamyr
+        names.remove("Varamyr Threeskins"); // as Varamyr Sixskins
         names.remove("Godry Giantslayer");  // as Godry Farring
         names.remove("Mad Aerys");      // as Aerys Targaryen
         names.remove("Whoresbane Umber");   // as Hother Umber

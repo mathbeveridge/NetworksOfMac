@@ -221,6 +221,7 @@ Illyrio,Illyrio,Mopatis
 Brus,Brus,Buckler
 Lorren,Longaxe,Lorren
 Catelyn,Catelyn
+Grazdan,Grazdan
 Marlon,Marlon
 Lyanna,Lyanna
 Ghael,Ghael
@@ -235,7 +236,6 @@ Rodrik,Cassel,Rodrik
 Daeron,Daeron
 Morgan,Morgan,Middle
 Nyessos,Nyessos
-Grazdan,Grazdan
 Kedry,Kedry
 Wylla,Wylla
 Rhaenys,Rhaenys
