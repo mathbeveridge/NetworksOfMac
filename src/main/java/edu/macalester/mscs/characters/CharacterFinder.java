@@ -553,7 +553,21 @@ public class CharacterFinder {
             if (characterGroups.isAlias(s)) {
                 List<String> list = new ArrayList<>();
                 list.add(s);
-                list.addAll(characterGroups.getGroup(s));
+                Set<String> group = characterGroups.getGroup(s);
+                for (String alias : group) {
+                    String[] split = alias.split(" ");
+                    boolean isUnique = true;
+                    if (split.length > 1) {
+                        for (String part : split) {
+                            if (group.contains(part)) {
+                                isUnique = false;
+                            }
+                        }
+                    }
+                    if (isUnique) {
+                        list.add(alias);
+                    }
+                }
                 groupMap.put(list, characterGroups.getAliasCount(s));
             }
         }

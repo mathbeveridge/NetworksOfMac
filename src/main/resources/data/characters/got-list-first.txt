@@ -9,7 +9,7 @@ Sansa,Sansa
 Robert,Robert,Usurper
 Robb,Robb
 Joffrey,Joffrey,Joff
-Drogo,Drogo,Rider
+Drogo,Drogo
 Petyr,Baelish,Littlefinger,Petyr
 Jaime,Kingslayer,Jaime
 Jorah,Jorah,Andal

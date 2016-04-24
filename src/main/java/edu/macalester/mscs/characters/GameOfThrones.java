@@ -25,7 +25,7 @@ public class GameOfThrones {
     public static final Set<String> TITLE_WORDS = new HashSet<>(Arrays.asList(
             "Lord", "Lady", "King", "Queen", "Regent", "Steward", "Prince", "Princess", // royal titles
             "Ser", "Maester", "Captain", "Commander", "Magister", "Master", "Builder",
-            "Septon", "Knight", "Hand", "Protector", // professional titles
+            "Septon", "Knight", "Hand", "Protector", "Rider", // professional titles
             "Khal", "Ko" // dothraki titles
     ));
 

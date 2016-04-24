@@ -141,7 +141,7 @@ public class ClashOfKings {
         finder.combineGroups("Varys", "Spider", "Eunuch");
         finder.combineGroups("Gregor", "Mountain");
         finder.combineGroups("Podrick", "Pod");
-        finder.combineGroups("Theon", "Reek");
+        finder.combineGroups("Ramsay", "Reek");
         finder.combineGroups("Arya", "Lumpyface");
         finder.combineGroups("Cersei", "Queen Regent");
         finder.combineGroups("Alester", "Lord of Brightwater", "Lord Florent");
