@@ -1,10 +1,9 @@
 package edu.macalester.mscs.network;
 
 /**
- * Created by abeverid on 4/23/16.
+ * @author Andrew Beveridge
  */
 public class GameOfThronesConstructor extends MatrixConstructor {
-
 
     /**
      * Legacy file creation for Game of Thrones
@@ -21,35 +20,30 @@ public class GameOfThronesConstructor extends MatrixConstructor {
 //		writeFiles(constructMatrix(characterString, text, 15, NOISE, folder + "/log.txt"), folder, 1, 9, "curated2");
 //		writeFiles(constructMatrix(characterString, text, RADUIS, NOISE, folder + "/log.txt"), folder, 1, 10, "intercap");
 
-
-
-
-    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-curated.txt";
-    public static final String TEXT_FILE_NAME = "src/main/resources/text/clashofkings-intercap.txt";
-    public static final int BOOK_NUMBER = 2;
-
+    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/got-list-curated.txt";
+    public static final String TEXT_FILE_NAME = "src/main/resources/text/gameofthrones-intercap.txt";
+    public static final int BOOK_NUMBER = 1;
 
     /**
-     * Main method for generating the matrix, edge list and log files for "A Clash of Kings."
+     * Main method for generating the matrix, edge list and log files for "A Game of Thrones."
      * @param args
      */
     public static void main(String[] args) {
-        int fileNum = 2;
-        String fileDesc = "intercap";
+        int fileNum = 11;
+        String fileDesc = "test";
 
-        ClashOfKingsConstructor cokConstructor = new ClashOfKingsConstructor(fileNum, fileDesc);
+        GameOfThronesConstructor constructor = new GameOfThronesConstructor(15, 4);
 
-        cokConstructor.constructMatrix();
-        cokConstructor.writeFiles();
+        constructor.constructMatrix(LOG_FILE_MATRIX);
+        constructor.writeFiles(fileNum, fileDesc, LOG_FOLDER, false);
     }
 
-    public GameOfThronesConstructor(int fileNumber, String fileDescriptor) {
-        super(CHARACTER_FILE_NAME, TEXT_FILE_NAME, BOOK_NUMBER, fileNumber, fileDescriptor);
+    public GameOfThronesConstructor(int radius, int noise) {
+        super(BOOK_NUMBER, TEXT_FILE_NAME, CHARACTER_FILE_NAME, radius, noise);
     }
 
 //    public void writeFiles() {
 //        writeFiles(VOLUME_NUMBER, fileNumber, fileDescriptor);
 //    }
-
 
 }
