@@ -332,13 +332,31 @@ public class Matrix {
      * @return
      */
     public Logger toMatrixCsvLog() {
+        toMatrixCsvLog(null);
+    }
+
+    /**
+     * Converts the Matrix to CSV lines of a matrix.
+     * The first line is the name headers.
+     * @return
+     */
+    public Logger toMatrixCsvLog(String orderedCharFileName) {
         Logger logger = new Logger();
-        logger.log(cleanArrayString(Arrays.toString(characters)));
-        for (int[] row : matrix) {
-            logger.log(cleanArrayString(Arrays.toString(row)));
+
+        if (orderedCharFileName == null) {
+            logger.log(cleanArrayString(Arrays.toString(characters)));
+            for (int[] row : matrix) {
+                logger.log(cleanArrayString(Arrays.toString(row)));
+            }
+        } else {
+            int[][] newMatrix = new int[matrix.length][matrix.length];
+
         }
         return logger;
     }
+
+
+
 
     /**
      * Converts the matrix to CSV lines of a list of edges, for import into Gephi.
