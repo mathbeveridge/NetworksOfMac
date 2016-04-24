@@ -22,7 +22,9 @@ Petyr Baelish,Lord Baelish,Petyr Baelish,Lord Paramount,Petyr Littlefinger,Baeli
 Gregor Clegane,Gregor the Mountain,Mountain,Gregor Clegane,Ser Gregor,Gregor
 Hodor,Hodor
 Jorah Mormont,Jorah,Jorah Mormont,Ser Jorah
+Ygritte,Ygritte
 Edmure Tully,Edmure Tully,Lord Edmure,Ser Edmure,Edmure
+Lem,Lemoncloak,Lem,Lem Lemoncloak
 Gendry,Gendry,Ser Gendry
 Eddard Stark,Eddard,Ned Stark,Lord Eddard,Eddard Stark,Ned
 Lysa Arryn,Lady Lysa,Lady Arryn,Lysa Tully,Lady of the Eyrie,Lysa,Lysa Arryn

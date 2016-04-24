@@ -199,6 +199,10 @@ public class StormOfSwords {
         // manually add important names that get missed
         names.add("Mance Rayder");
         names.add("Hodor");
+        names.add("Ygritte");
+        names.add("Lem");
+        names.add("Lem");
+
         names.add("Grenn");
         names.add("Arstan");
         names.add("Craster");
