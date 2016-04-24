@@ -115,7 +115,7 @@ public class ClashOfKings {
         finder.combineGroups("Bran", "Brandon Stark");
         finder.combineGroups("Robert Baratheon", "King Robert", "Robert the Usurper");
         finder.combineGroups("Robert Arryn", "Lord Robert");
-        finder.combineGroups("Petyr Baelish", "Littlefinger", "Paramount", "Lord Petyr");
+        finder.combineGroups("Petyr Baelish", "Littlefinger", "Lord Petyr");
         finder.combineGroups("Balon Greyjoy", "Lord Greyjoy", "Lord of the Iron Islands", "Reaper", "King Balon", "Lord Balon");
         finder.combineGroups("Balon Swann", "Ser Balon");
         finder.combineGroups("Walder Frey", "Lord Frey", "Lord of the Crossing", "Lord Walder");
@@ -236,10 +236,10 @@ public class ClashOfKings {
         names.remove("Brynden Blackfish");  // as Brynden Tully
         names.remove("Davos Shorthand");// as Davos Seaworth
         names.remove("Littlefinger");   // as Petyr Baelish
-        names.remove("Paramount");      // as Petyr Baelish
         names.remove("Reaper");         // as Balon Greyjoy
         names.remove("Eunuch");         // as Varys
         names.remove("Grey Wind");      // dire wolf
+        names.remove("Paramount");      // unused
         names.remove("Torrhen Stark");  // unused
         names.remove("Aerys Oakheart"); // unused
         names.remove("Bleeding Star");  // ???

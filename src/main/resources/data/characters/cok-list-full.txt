@@ -16,7 +16,7 @@ Robert Baratheon,Robert,Usurper
 Varys,Varys,Spider,Eunuch
 Eddard,Eddard,Ned
 Jaime,Kingslayer,Jaime
-Baelish,Baelish,Paramount,Littlefinger,Petyr
+Baelish,Baelish,Littlefinger,Petyr
 Hodor,Hodor
 Yoren,Yoren
 Qhorin,Halfhand,Qhorin
@@ -522,6 +522,7 @@ Sowbelly,Sowbelly,Row
 Alyn,Stackspear,Alyn
 Brown,Brown,Bernarr
 Jaehaerys,Jaehaerys
+Paramount,Paramount
 Minisa,Minisa
 Bryan,Bryan
 Greyjoy of Pyke,Greyjoy of Pyke

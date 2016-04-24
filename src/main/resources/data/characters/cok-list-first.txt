@@ -16,7 +16,7 @@ Robert,Robert,Usurper
 Varys,Varys,Spider,Eunuch
 Eddard,Eddard,Ned
 Jaime,Kingslayer,Jaime
-Petyr,Baelish,Paramount,Littlefinger,Petyr
+Petyr,Baelish,Littlefinger,Petyr
 Hodor,Hodor
 Yoren,Yoren
 Qhorin,Halfhand,Qhorin

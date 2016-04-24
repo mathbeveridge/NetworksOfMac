@@ -16,7 +16,7 @@ Robert Baratheon,Robert,Usurper
 Varys,Varys,Spider,Eunuch
 Eddard Stark,Eddard,Ned
 Jaime Lannister,Kingslayer,Jaime
-Petyr Baelish,Baelish,Paramount,Littlefinger,Petyr
+Petyr Baelish,Baelish,Littlefinger,Petyr
 Hodor,Hodor
 Yoren,Yoren
 Qhorin Halfhand,Halfhand,Qhorin
