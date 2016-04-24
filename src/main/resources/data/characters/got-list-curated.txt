@@ -1,17 +1,18 @@
-Eddard Stark,Eddard,Ned Stark,Lord Eddard,Eddard Stark,Ned,HandoftheKing,KingsHand
-Eddard Karstark,Eddard Karstark
+Eddard Stark,Eddard,Ned Stark,Lord Eddard,Eddard Stark,Ned,HandoftheKing,KingsHand,Hand
+Eddard Karstark,Eddard Karstark,EddardKarstark
 Jon Snow,Jon Snow,Snow,Lord Snow,Jon,Jon Stark
-Jon Arryn,Jon Arryn,Lord Jon,Lord Arryn
-Tyrion Lannister,Tyrion the Imp,Tyrion Lannister,Imp,Tyrion,Lord Tyrion
-Brandon Stark,Bran,Brandon,Bran the Broken,Brandon Stark
+Jon Arryn,Jon Arryn,Lord Jon,Lord Arryn,JonArryn,LordJon,LordJonArryn,LordArryn,LordoftheEyrie,KingsHandArryn
+Tyrion Lannister,Tyrion the Imp,Tyrion Lannister,Imp,Tyrion,Lord Tyrion,dwarf,halfman,Halfman
+Bran Stark,Bran,Bran the Broken,Bran Stark
+Brandon Stark,Brandon,Brandon Stark
 Daenerys Targaryen,Daenerys Stormborn,Stormborn,Daenerys Targaryen,Princess Daenerys,Dany,Khaleesi,Princess of Dragonstone,Daenerys
 Catelyn Stark,Lady Catelyn,Lady Stark,Catelyn Stark,Catelyn,Catelyn Tully Stark,Catelyn Tully
 Arya Stark,Arya Underfoot,Arya,Arya Horseface,Arya Stark,Horseface,Underfoot
-Robert Arryn,Robert Arryn,Lord of the Eyrie,Lord Robert,Defender of the Vale
+Robert Arryn,Robert Arryn,little Lord Robert,Lord of the Eyrie,Lord Robert,Defender of the Vale,LordRobert,RobertArryn
 Robert Baratheon,Robert Baratheon,King Robert,Robert,Usurper,the king
 Sansa Stark,Sansa,Lady Sansa,Sansa Stark
-Robb Stark,Robb the Lord,Lord Robb,Robb,Robb Stark
-Joffrey Baratheon,Prince Joffrey,King Joffrey,Joffrey Baratheon,Joffrey,Joff,Prince Joff,boy king
+Robb Stark,Robb the Lord,Lord Robb,Robb,Robb Stark,
+Joffrey Baratheon,Prince Joffrey,King Joffrey,Joffrey Baratheon,Joffrey,Joff,Prince Joff,boy king,the prince
 Drogo,Great Rider,Khal Drogo,Drogo
 Petyr Baelish,Petyr Baelish,Lord Baelish,Lord Petyr,Littlefinger,Petyr
 Jaime Lannister,Kingslayer,Ser Jaime,Jaime Lannister the Kingslayer,Jaime,Jaime Lannister
@@ -20,7 +21,7 @@ Tywin Lannister,Lord of Casterly Rock,Tywin Lannister,Lord Tywin,Tywin
 Luwin,Maester Luwin,Luwin
 Lysa Arryn,Lady Lysa,Lady Arryn,Lysa,Lysa Arryn
 Samwell Tarly,Sam Tarly,Ser Piggy,Piggy,Samwell Tarly,Lady Piggy,Lord of Ham,Sam,Samwell
-Varys,Lord Varys,Varys,Spider,Varys the Spider,eunuch
+Varys,Lord Varys,Varys,Spider,Varys the Spider,eunuch,master of whisperers
 Rodrik Cassel,Rodrik,Ser Rodrik,Rodrik Cassel
 Bronn,Bronn
 Cersei Lannister,Cersei Lannister,Queen Cersei,Cersei,the queen
@@ -38,13 +39,13 @@ Illyrio Mopatis,Illyrio,Illyrio Mopatis,Mopatis,Magister Illyrio
 Hodor,Hodor
 Theon Greyjoy,Theon,Theon Greyjoy
 Barristan Selmy,Barristan the Old,Ser Barristan,Barristan Selmy,Barristan the Bold,Bold,Barristan,Lord Commander of the Kingsguard
-Jeor Mormont,Lord Mormont,Jeor Mormont,Commander Mormont,Old Bear,Jeor,Lord Commander of the Night
+Jeor Mormont,Lord Mormont,Jeor Mormont,Commander Mormont,Old Bear,Jeor,Lord Commander of the Night,LordCommanderoftheNightsWatch
 Rickon Stark,Rickon,Rickon Stark
 Brynden Tully,Brynden Blackfish,Blackfish,Ser Brynden,Brynden the Blackfish,Brynden,Brynden Tully
 Pyp,Pyp
 Alliser Thorne,Alliser Thorne,Ser Alliser,Alliser
 Aemon Targaryen,Aemon Targaryen,Maester Aemon,Aemon
-Dragonknight,Prince Aemon,Dragonknight
+Dragonknight,Prince Aemon,PrinceAemon,Dragonknight
 Syrio Forel,Syrio,Syrio Forel,Forel
 Walder Frey,Walder,Walder Frey,Lord Walder,Lord Frey,Lord of the Crossing
 Loras Tyrell,Loras,Knight of Flowers,Ser Daisy,Daisy,Ser Loras,Loras Tyrell
@@ -72,7 +73,7 @@ Mord,Mord
 Gared,Gared
 Meryn Trant,Meryn Trant,Meryn,Ser Meryn
 Janos Slynt,Slynt,Janos Slynt,Lord Slynt,Janos
-Ilyn Payne,Ilyn,Ilyn Payne,Ser Ilyn
+Ilyn Payne,Ilyn,Ilyn Payne,Ser Ilyn,KingsJustice
 Aggo,Aggo
 Waymar Royce,Waymar Royce,Waymar,Ser Waymar
 Marillion,Marillion
@@ -135,7 +136,7 @@ Wendel Manderly,Wendel,Wendel Manderly,Ser Wendel
 Aron Santagar,Ser Aron,Aron Santagar,Aron
 Jason Mallister,Jason Mallister,Lord Jason,Jason
 Tytos Blackwood,Tytos Blackwood,Lord Blackwood,Lord Tytos
-Arthur Dayne,Arthur,Ser Arthur,Arthur Dayne
+Arthur Dayne,Arthur,Ser Arthur,Arthur Dayne,Sword of the Morning
 Donnel Waynwood,Donnel Waynwood,Ser Donnel,Donnel
 Hal Mollen,Hal,Hal Mollen
 Harys Swyft,Harys,Harys Swyft,Swyft,Ser Harys

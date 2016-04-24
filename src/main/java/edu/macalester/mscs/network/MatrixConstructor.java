@@ -12,39 +12,103 @@ public class MatrixConstructor {
 
 	public static final int NOISE = 4;
 	public static final int RADIUS = 15;
+    public static final String LOG_FOLDER = "src/main/resources/data/logs";
+    public static final String LOG_FILE_MATRIX = LOG_FOLDER + "/log.txt";
 
+
+    private String characterFileName;
+    private String textFileName;
+    private int bookNumber;
+    private int fileNumber;
+    private String fileDescriptor;
+    private int radius;
+    private int noise;
+    private Matrix matrix;
+
+    /**
+     * Constructor
+     * @param characterFileName The name of the CSV file containing the list of characters and nicknames
+     * @param textFileName The name of the file containing the book itselt
+     * @param bookNum The volume in the series. Will appear in the output file names.
+     * @param fileNum The increment for the current run. Will appear in the output file names.
+     * @param fileDesc A short description of what characterizes this run. Will appear in the output file names.
+     */
+    public MatrixConstructor(String characterFileName,String textFileName, int bookNum, int fileNum, String fileDesc) {
+        this.characterFileName = characterFileName;
+        this.textFileName = textFileName;
+        this.bookNumber = bookNum;
+        this.fileNumber = fileNum;
+        this.fileDescriptor = fileDesc;
+
+        // eventually add getters and setters for these
+        this.radius = RADIUS;
+        this.noise = NOISE;
+    }
+
+
+    /**
+     * Creates a Matrix containing all of the encounters
+     *
+     */
+    public void constructMatrix() {
+        String text = getText(textFileName);
+        String characterString = getCharacterString(characterFileName);
+
+        constructMatrix(characterString, text, radius, noise, LOG_FILE_MATRIX);
+    }
+
+    /**
+     * Writes out the log files so that the encounters can be disambiguated and varified.
+     * Must be called after constructMatrix
+     *
+     */
+    public void writeFiles() {
+        writeFiles(matrix, LOG_FOLDER, bookNumber, fileNumber, fileDescriptor);
+    }
+
+    /**
+     * The main method to produce the matrix, the edge file, and the log files.
+     * This main method should be deprecated. Instead, we can use the subclasses. In particular, there are a
+     * lot of commented lines below that can be deleted after the code review of the object oriented revision.
+     * Those commented lines can now be found in the appropriate subclass.
+     *
+     * @param args
+     */
 	public static void main(String[] args) {
-		String folder = "src/main/resources/data/logs";
 
-		/**
-		 * Game of Thrones
-		 */
-
-//		String text = getText("src/main/resources/text/gameofthrones.txt");
-//		String characterString = getCharacterString("src/main/resources/data/characters/got-list-curated.txt");
-
-//		String characterString = getCharacterString("src/main/resources/data/characters/got-list-no-dup.txt");
-//		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 1, 6, "full-names");
-//		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 1, 7, "dup-names");
-//		writeFiles(constructMatrix(characterString, text, 15, NOISE, folder + "/log.txt"), folder, 1, 8, "smaller-radius");
-
-//		writeFiles(constructMatrix(characterString, text, 15, NOISE, folder + "/log.txt"), folder, 1, 9, "curated2");
 
 		/**
 		 * Clash of Kings
 		 */
 
-//		String text = getText("src/main/resources/text/clashofkings.txt");
+//		String text = getText("src/main/resources/text/clashofkings-intercap.txt");
 //		String characterString = getCharacterString("src/main/resources/data/characters/cok-list-curated.txt");
 //		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 2, 1, "curated");
+//		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 2, 2, "intercap");
 
-		/**
-		 * Dance with Dragons
-		 */
+        // The new way to call the non-static version of MatrixConstructor.
+        // Subclasses make the constructor call even easier, since the only arugments that really change are
+        // the run number and the descriptor
+        MatrixConstructor mc =
+                new MatrixConstructor("src/main/resources/data/characters/cok-list-curated.txt",
+                        "src/main/resources/text/clashofkings-intercap.txt",
+                        2, 3, "test");
 
-		String text = getText("src/main/resources/text/dancewithdragons.txt");
-		String characterString = getCharacterString("src/main/resources/data/characters/dwd-list-no-dup.txt");
-		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 5, 1, "no-dup");
+        mc.constructMatrix();
+        mc.writeFiles();
+
+//		String characterString = getCharacterString("src/main/resources/data/characters/cok-list-curated.txt");
+//		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 2, 1, "curated");
+//		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 2, 2, "intercap");
+
+
+        /**
+         * Dance with Dragons
+         */
+
+		//String text = getText("src/main/resources/text/dancewithdragons.txt");
+		//String characterString = getCharacterString("src/main/resources/data/characters/dwd-list-no-dup.txt");
+		//writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 5, 1, "no-dup");
 	}
 
 	/**
@@ -55,7 +119,7 @@ public class MatrixConstructor {
 	 * @param file
 	 * @return
 	 */
-	public static String getCharacterString(String file) {
+	public String getCharacterString(String file) {
 		List<String> lines = FileUtils.readFile(file);
 		StringBuilder sb = new StringBuilder();
 		for (String line : lines) {
@@ -89,7 +153,7 @@ public class MatrixConstructor {
 	 * @param logFile
 	 * @return
 	 */
-	public static Matrix constructMatrix(String characterString, String text, int radius, int noise, String logFile) {
+	public void constructMatrix(String characterString, String text, int radius, int noise, String logFile) {
 
 		Logger logger = new Logger();
 		logger.log("=============================================================");
@@ -115,7 +179,9 @@ public class MatrixConstructor {
 		logger.log("================== PART 2: Edge Collection ==================");
 		logger.log("=============================================================");
 		logger.log();
-		Matrix matrix = new Matrix(characters, nameIndices, text, radius);
+
+		matrix = new Matrix(characters, nameIndices, text, radius);
+
 		logger.log(matrix.getEncounterList());
 		logger.log();
 		logger.log();
@@ -136,7 +202,6 @@ public class MatrixConstructor {
 			logger.writeLog(logFile);
 		}
 
-		return matrix;
 	}
 
 	/**
@@ -201,16 +266,16 @@ public class MatrixConstructor {
 		// write encounters file
 		String encountersFolder = getFileName(parentFolder, bookNumber, "encounters", fileNumber, descriptor);
 		Logger logger = new Logger();
-		logger.log("All Encounters:");
+		logger.log("char 1, char2, index, text");
 		logger.log(matrix.getEncounterList());
 		logger.writeLog(encountersFolder + "/_All.csv");
-		// write encounters files for each character
-		for (String name : matrix.getCharacters()) {
-			logger.clear();
-			logger.log(name + " Encounters:");
-			logger.log(matrix.getEncounterList(name));
-			logger.writeLog(encountersFolder + '/' + name.replace(' ', '_') + ".csv");
-		}
+		// no longer write encounters files for each character, but keeping the code for now, just in case.
+//		for (String name : matrix.getCharacters()) {
+//			logger.clear();
+//			logger.log(name + " Encounters:");
+//			logger.log(matrix.getEncounterList(name));
+//			logger.writeLog(encountersFolder + '/' + name.replace(' ', '_') + ".csv");
+//		}
 		// write matrix file
 		matrix.toMatrixCsvLog().writeLog(getFileName(parentFolder, bookNumber, "mat", fileNumber, descriptor, "csv"));
 		// write edge file
