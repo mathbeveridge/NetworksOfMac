@@ -76,8 +76,12 @@ public class GameOfThronesConstructor extends MatrixConstructor {
      * @return The list of characters in ORDERED_CHARACTER_FILE_NAME
      */
     public String[] getOrderedCharacters() {
-        List<String> orderedCharList = FileUtils.readFile(ORDERED_CHARACTER_FILE_NAME);
-        return orderedCharList.toArray(new String[orderedCharList.size()]);
+        try {
+            List<String> orderedCharList = FileUtils.readFile(ORDERED_CHARACTER_FILE_NAME);
+            return orderedCharList.toArray(new String[orderedCharList.size()]);
+        } catch (Exception e) {
+            return null;
+        }
     }
 
 }

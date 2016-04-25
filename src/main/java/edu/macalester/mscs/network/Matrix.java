@@ -76,12 +76,12 @@ public class Matrix {
     public void build(String text, int radius) {
         StringBuilder search = new StringBuilder();
         FixedQueue<String> nameQueue = new FixedQueue<>(radius);
-        ArrayDeque<Name> backup = new ArrayDeque<>();
+        Queue<Name> backup = new LinkedList<>();
 
         search.append(text.charAt(0));
         for (int i = 1; i < text.length() - 1; i++) {
             char c = text.charAt(i);
-            Name primary = new Name("", i, "");
+            Name primary = new Name();
             boolean wordEnd = !Character.isAlphabetic(c) && Character.isAlphabetic(text.charAt(i - 1));
             if (wordEnd) {
                 String context = search.toString();
@@ -91,39 +91,56 @@ public class Matrix {
                         primary = new Name(name, i, context);
                     }
                 }
-            }
-            // tally neighbors
-            if (!primary.name.isEmpty()) {
-                int index1 = nameIndices.get(primary.name);
-                Map<Integer, String> secondaries = new HashMap<>();
-                // use a map to avoid duplicate names on the left
-                // ie. "...Mirri Maz Duur said, pointing to the altar, a massive blue-veined stone carved with images of shepherds and their flocks. Khal Drogo..."
-                for (String secondary : nameQueue) {
-                    if (!secondary.isEmpty()) {
-                        int index2 = nameIndices.get(secondary);
-                        if (index1 == index2) {
-                            secondaries.clear();
-                            // clear so we don't pick things up multiple times for duplicate names on the right
-                            // ie. "...Dany asked her. 'I am named Mirri Maz Duur'..."
-                        } else {
-                            secondaries.put(index2, secondary);
+                // drain the backup queue into the name queue
+                // if backup.size() > 7, nothing is happening and it can be drained
+                if (primary.isValid() || backup.size() > 7) {
+                    while (!backup.isEmpty()) {
+                        Name last = backup.poll();
+                        // if last is valid, part of primary, and not primary, do NOT tally neighbors
+                        if (!last.isValid() || primary.name.contains(last.name) && !primary.name.equals(last.name)) {
+                            nameQueue.push("");
+                        } else { // else tally neighbors
+                            tallyNeighbors(last, nameQueue);
+                            nameQueue.push(last.name);
                         }
                     }
                 }
-                for (String secondary : secondaries.values()) {
-                    addEncounter(primary.name, secondary, primary.index, primary.context);
+                // update the queues
+                // no need to add non-names to an empty backup
+                if (backup.isEmpty() && !primary.isValid()) {
+                    nameQueue.push("");
+                } else {
+                    backup.add(primary);
                 }
             }
             // update the search string
             search.append(c);
             // cut the string to size
-            if (StringUtils.countMatches(search, ' ') > radius) {
+            if (StringUtils.countMatches(search, ' ') > radius + 2) {
                 search = new StringBuilder(search.substring(search.indexOf(" ") + 1));
             }
-            // update the queue if a word just finished
-            if (wordEnd) {
-                nameQueue.push(primary.name);
+        }
+    }
+
+    private void tallyNeighbors(Name primary, FixedQueue<String> nameQueue) {
+        int index1 = nameIndices.get(primary.name);
+        Map<Integer, String> secondaries = new HashMap<>();
+        // use a map to avoid duplicate names on the left
+        // ie. "...Mirri Maz Duur said, pointing to the altar, a massive blue-veined stone carved with images of shepherds and their flocks. Khal Drogo..."
+        for (String secondary : nameQueue) {
+            if (!secondary.isEmpty()) {
+                int index2 = nameIndices.get(secondary);
+                if (index1 == index2) {
+                    secondaries.clear();
+                    // clear so we don't pick things up multiple times for duplicate names on the right
+                    // ie. "...Dany asked her. 'I am named Mirri Maz Duur'..."
+                } else {
+                    secondaries.put(index2, secondary);
+                }
             }
+        }
+        for (String secondary : secondaries.values()) {
+            addEncounter(primary.name, secondary, primary.index, primary.context);
         }
     }
 
@@ -460,10 +477,18 @@ public class Matrix {
         final int index;
         final String context;
 
+        public Name() {
+            this("", -1, "");
+        }
+
         public Name(String name, int index, String context) {
             this.name = name;
             this.index = index;
             this.context = context;
+        }
+
+        public boolean isValid() {
+            return index > -1;
         }
     }
 

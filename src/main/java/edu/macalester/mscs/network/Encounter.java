@@ -54,6 +54,6 @@ public class Encounter implements Comparable<Encounter> {
 
 	@Override
 	public String toString() {
-		return this.character1 + " (" + name1 + "), " + this.character2 + " (" + name2 + "), " + this.position + ", \"" + this.context + "\"";
+		return this.character2 + " (" + name2 + "), " + this.character1 + " (" + name1 + "), " + this.position + ", \"" + this.context + "\"";
 	}
 }
