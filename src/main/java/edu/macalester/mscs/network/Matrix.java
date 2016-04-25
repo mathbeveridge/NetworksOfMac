@@ -2,6 +2,7 @@ package edu.macalester.mscs.network;
 
 import edu.macalester.mscs.utils.Logger;
 import edu.macalester.mscs.utils.WordUtils;
+import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.*;
@@ -331,30 +332,63 @@ public class Matrix {
      * @return
      */
     public Logger toMatrixCsvLog() {
-        toMatrixCsvLog(null);
-    }
+        Logger logger = new Logger(false);
 
-    /**
-     * Converts the Matrix to CSV lines of a matrix.
-     * The first line is the name headers.
-     * @return
-     */
-    public Logger toMatrixCsvLog(String orderedCharFileName) {
-        Logger logger = new Logger();
-
-        if (orderedCharFileName == null) {
-            logger.log(cleanArrayString(Arrays.toString(characters)));
-            for (int[] row : matrix) {
-                logger.log(cleanArrayString(Arrays.toString(row)));
-            }
-        } else {
-            int[][] newMatrix = new int[matrix.length][matrix.length];
-
+        logger.log(cleanArrayString(Arrays.toString(characters)));
+        for (int[] row : matrix) {
+            logger.log(cleanArrayString(Arrays.toString(row)));
         }
+
         return logger;
     }
 
 
+
+    /**
+     * Converts the Matrix to a JSON matrix, using the names in the given order.
+     * The first line is the name headers.
+     * @return
+     */
+    public Logger toMatrixJsonLog(String[] orderedCharacters) {
+        Logger logger = new Logger(false);
+        int[][] newMatrix = new int[matrix.length][matrix.length];
+        String name1, name2;
+        int i,j;
+        int name1index, name2index;
+        String[] orderedChars;
+
+        orderedChars = (orderedCharacters == null) ? getCharacters() : orderedCharacters;
+
+
+//        System.out.println(Arrays.toString(orderedCharacters));
+
+
+        for (i=0; i < newMatrix.length; i++) {
+            name1 = orderedChars[i];
+            name1index = ArrayUtils.indexOf(characters, name1);
+            for (j = i + 1; j < newMatrix.length; j++) {
+                name2 = orderedChars[j];
+                name2index = ArrayUtils.indexOf(characters, name2);
+
+//                System.out.println(i + " name1=" + name1 + " and " + j + " name2=" + name2 +
+//                " are at " + name1index + " and " + name2index);
+
+                newMatrix[i][j] = matrix[name1index][name2index];
+                newMatrix[j][i] = matrix[name1index][name2index];
+
+            }
+
+            logger.log("[");
+
+            for (int[] row : newMatrix) {
+                logger.log(Arrays.toString(row) + ",");
+            }
+
+            logger.log("]");
+        }
+
+            return logger;
+    }
 
 
     /**
