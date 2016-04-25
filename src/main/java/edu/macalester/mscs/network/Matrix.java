@@ -76,11 +76,14 @@ public class Matrix {
     public void build(String text, int radius) {
         StringBuilder search = new StringBuilder();
         FixedQueue<String> nameQueue = new FixedQueue<>(radius);
-        for (int i = 0; i < text.length() - 1; i++) {
+        ArrayDeque<Name> backup = new ArrayDeque<>();
+
+        search.append(text.charAt(0));
+        for (int i = 1; i < text.length() - 1; i++) {
             char c = text.charAt(i);
             Name primary = new Name("", i, "");
-            boolean notLetter = !Character.isAlphabetic(c);
-            if (notLetter) {
+            boolean wordEnd = !Character.isAlphabetic(c) && Character.isAlphabetic(text.charAt(i - 1));
+            if (wordEnd) {
                 String context = search.toString();
                 for (String name : nameIndices.keySet()) {
                     // check the ends with condition, and choose the longest option
@@ -118,7 +121,7 @@ public class Matrix {
                 search = new StringBuilder(search.substring(search.indexOf(" ") + 1));
             }
             // update the queue if a word just finished
-            if (i > 0 && notLetter && Character.isAlphabetic(text.charAt(i - 1))) {
+            if (wordEnd) {
                 nameQueue.push(primary.name);
             }
         }
