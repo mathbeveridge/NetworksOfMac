@@ -175,7 +175,7 @@ public class MatrixConstructor {
 
 		// write encounters file
 		String encountersFolder = getFileName(logFolder, "encounters", fileNumber, fileDescriptor);
-		Logger logger = new Logger(false);
+		Logger logger = new Logger();
 		logger.log("char 1, char2, index, text");
 		logger.log(matrix.getEncounterList());
 		logger.writeLog(encountersFolder + "/_All.csv");
@@ -263,49 +263,6 @@ public class MatrixConstructor {
 			sb.append(line).append(" ");
 		}
 		return sb.toString().trim();
-	}
-
-	/**
-	 * The main method to produce the matrix, the edge file, and the log files.
-	 * This main method should be deprecated. Instead, we can use the subclasses. In particular, there are a
-	 * lot of commented lines below that can be deleted after the code review of the object oriented revision.
-	 * Those commented lines can now be found in the appropriate subclass.
-	 *
-	 * @param args
-	 */
-	public static void main(String[] args) {
-
-
-		/**
-		 * Clash of Kings
-		 */
-
-//		String text = getText("src/main/resources/text/clashofkings-intercap.txt");
-//		String characterString = getCharacterString("src/main/resources/data/characters/cok-list-curated.txt");
-//		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 2, 1, "curated");
-//		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 2, 2, "intercap");
-
-		// The new way to call the non-static version of MatrixConstructor.
-		// Subclasses make the constructor call even easier, since the only arugments that really change are
-		// the run number and the descriptor
-		MatrixConstructor mc = new MatrixConstructor(2, "src/main/resources/text/clashofkings-intercap.txt", "src/main/resources/data/characters/cok-list-curated.txt",
-				15, 4);
-
-		mc.constructMatrix(LOG_FILE_MATRIX);
-		mc.writeFiles(3, "test", LOG_FOLDER, false);
-
-//		String characterString = getCharacterString("src/main/resources/data/characters/cok-list-curated.txt");
-//		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 2, 1, "curated");
-//		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 2, 2, "intercap");
-
-
-		/**
-		 * Dance with Dragons
-		 */
-
-		//String text = getText("src/main/resources/text/dancewithdragons.txt");
-		//String characterString = getCharacterString("src/main/resources/data/characters/dwd-list-no-dup.txt");
-		//writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 5, 1, "no-dup");
 	}
 
 }

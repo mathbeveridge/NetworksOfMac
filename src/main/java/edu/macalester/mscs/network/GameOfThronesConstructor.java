@@ -2,7 +2,6 @@ package edu.macalester.mscs.network;
 
 import edu.macalester.mscs.utils.FileUtils;
 
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -64,8 +63,6 @@ public class GameOfThronesConstructor extends MatrixConstructor {
 
         GameOfThronesConstructor constructor = new GameOfThronesConstructor(15, 4);
 
-        constructor.getOrderedCharacters();
-
         constructor.constructMatrix(LOG_FILE_MATRIX);
         constructor.writeFiles(fileNum, fileDesc, LOG_FOLDER, false);
     }
@@ -80,10 +77,7 @@ public class GameOfThronesConstructor extends MatrixConstructor {
      */
     public String[] getOrderedCharacters() {
         List<String> orderedCharList = FileUtils.readFile(ORDERED_CHARACTER_FILE_NAME);
-
-//        System.out.println("ordered list: " + Arrays.toString(orderedCharList.toArray(new String[0])));
-
-        return orderedCharList.toArray(new String[0]);
+        return orderedCharList.toArray(new String[orderedCharList.size()]);
     }
 
 }

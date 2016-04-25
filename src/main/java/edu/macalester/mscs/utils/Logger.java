@@ -9,7 +9,7 @@ import java.util.List;
 public class Logger {
 
     private final List<String> log;
-    private final boolean verbose;
+    private boolean verbose;
 
     public Logger() {
         this(false);
@@ -23,6 +23,14 @@ public class Logger {
 
     public Logger(List<String> log, boolean verbose) {
         this.log = log;
+        this.verbose = verbose;
+    }
+
+    public boolean isVerbose() {
+        return verbose;
+    }
+
+    public void setVerbose(boolean verbose) {
         this.verbose = verbose;
     }
 
@@ -43,14 +51,12 @@ public class Logger {
     public void log(Object o) {
         if (o == null) {
             log.add("");
-            if (verbose) { System.out.println(); };
+            if (verbose) { System.out.println(); }
+        } else if (o instanceof Logger) {
+            append((Logger) o);
         } else {
-            if (o instanceof Logger) {
-                append((Logger) o);
-            } else {
-                log.add(o.toString());
-                if (verbose) { System.out.println(o.toString()); };
-            }
+            log.add(o.toString());
+            if (verbose) { System.out.println(o.toString()); }
         }
     }
 

@@ -336,13 +336,11 @@ public class Matrix {
      * @return
      */
     public Logger toMatrixCsvLog() {
-        Logger logger = new Logger(false);
-
+        Logger logger = new Logger();
         logger.log(cleanArrayString(Arrays.toString(characters)));
         for (int[] row : matrix) {
             logger.log(cleanArrayString(Arrays.toString(row)));
         }
-
         return logger;
     }
 
@@ -354,44 +352,31 @@ public class Matrix {
      * @return
      */
     public Logger toMatrixJsonLog(String[] orderedCharacters) {
-        Logger logger = new Logger(false);
-        int[][] newMatrix = new int[matrix.length][matrix.length];
-        String name1, name2;
-        int i,j;
-        int name1index, name2index;
-        String[] orderedChars;
+        Logger logger = new Logger();
+        String[] orderedChars = (orderedCharacters == null) ? getCharacters() : orderedCharacters;
+        int length = orderedChars.length;
+        int[][] newMatrix = new int[length][length];
 
-        orderedChars = (orderedCharacters == null) ? getCharacters() : orderedCharacters;
-
-
-//        System.out.println(Arrays.toString(orderedCharacters));
-
-
-        for (i=0; i < newMatrix.length; i++) {
-            name1 = orderedChars[i];
-            name1index = ArrayUtils.indexOf(characters, name1);
-            for (j = i + 1; j < newMatrix.length; j++) {
-                name2 = orderedChars[j];
-                name2index = ArrayUtils.indexOf(characters, name2);
+        for (int i = 0; i < length; i++) {
+            String name1 = orderedChars[i];
+            int name1index = ArrayUtils.indexOf(characters, name1);
+            for (int j = i + 1; j < length; j++) {
+                String name2 = orderedChars[j];
+                int name2index = ArrayUtils.indexOf(characters, name2);
 
 //                System.out.println(i + " name1=" + name1 + " and " + j + " name2=" + name2 +
 //                " are at " + name1index + " and " + name2index);
 
                 newMatrix[i][j] = matrix[name1index][name2index];
                 newMatrix[j][i] = matrix[name1index][name2index];
-
             }
-
-            logger.log("[");
-
-            for (int[] row : newMatrix) {
-                logger.log(Arrays.toString(row) + ",");
-            }
-
-            logger.log("]");
         }
-
-            return logger;
+        logger.log("[");
+        for (int[] row : newMatrix) {
+            logger.log(Arrays.toString(row) + ",");
+        }
+        logger.log("]");
+        return logger;
     }
 
 
