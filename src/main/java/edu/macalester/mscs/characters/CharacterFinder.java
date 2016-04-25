@@ -66,7 +66,8 @@ public class CharacterFinder {
     private Map<String, Integer> counter = new HashMap<>();
     private CharacterGroups characterGroups;
 
-    public CharacterFinder(Set<String> ignoredWords, Set<String> titleWords, Set<String> generalWords, Set<String> fillerWords, String punctuation) {
+    public CharacterFinder(Set<String> ignoredWords, Set<String> titleWords, Set<String> generalWords,
+                           Set<String> fillerWords, String punctuation) {
         this.ignoredWords = ignoredWords;
         this.titleWords = titleWords;
         this.generalWords = generalWords;
@@ -120,6 +121,7 @@ public class CharacterFinder {
 
     /**
      * Builds up the counter from lines of a text
+     *
      * @param lines
      */
     public void countCapitalized(List<String> lines) {
@@ -190,6 +192,7 @@ public class CharacterFinder {
     /**
      * Manually increment a name some amount
      * If the name is not in the counter, it gets added
+     *
      * @param name
      * @param increment
      */
@@ -204,6 +207,7 @@ public class CharacterFinder {
     /**
      * If the phrase ends with "of...", that chunk gets removed.
      * Otherwise returns name.
+     *
      * @param name
      * @return
      */
@@ -219,6 +223,7 @@ public class CharacterFinder {
     /**
      * If the first word of name is a title (in generalWords), it gets removed.
      * Otherwise returns name.
+     *
      * @param name
      * @return
      */
@@ -233,6 +238,7 @@ public class CharacterFinder {
 
     /**
      * Returns a set of names that occur in a word triplet preceded by an ignored word
+     *
      * @return
      */
     public Set<String> getTitledNames() {
@@ -262,7 +268,7 @@ public class CharacterFinder {
                     if (name.equals(split[0]) || (!isGeneralWord(split[0]) && name.equals(split[1]))) {
                         isUnique = false;
                     }
-                    // if something contains name and another non-general word, it's a name TODO this part is suspect
+                    // if something contains name and another non-general word, it's a name
                     if (!isGeneralWord(split[0]) && !isGeneralWord(split[1])
                             && (name.equals(split[0]) || name.equals(split[1]))) {
                         names.add(cap);
@@ -286,6 +292,7 @@ public class CharacterFinder {
     /**
      * Returns words that exist in words and phrases as both "xxxx" and "xxxxs" and at least once do not follow "the"
      * Ignores words found in generalWords
+     *
      * @return
      */
     public Set<String> getPluralizedNames() {
@@ -295,7 +302,7 @@ public class CharacterFinder {
             String[] split = cap.split(" ");
             for (int i = 1; i < split.length; i++) {
                 String s = split[i];
-                if (!isGeneralWord(s) && !split[i-1].equalsIgnoreCase("the")
+                if (!isGeneralWord(s) && !split[i - 1].equalsIgnoreCase("the")
                         && words.contains(s) && words.contains(s + "s")) {
                     pluralized.add(s);
                 }
@@ -307,6 +314,7 @@ public class CharacterFinder {
     /**
      * Returns words that come second in multiple word pairs
      * Ignores words found in generalWords
+     *
      * @return
      */
     public Set<String> getSurnames() {
@@ -333,8 +341,9 @@ public class CharacterFinder {
 
     /**
      * Returns phrases that follow "of" or "of the" in the capitalized phrases
-     * @return
+     *
      * @param notPlaces
+     * @return
      */
     public Set<String> getPlaces(Collection<String> notPlaces) {
         Set<String> words = counter.keySet();
@@ -356,6 +365,7 @@ public class CharacterFinder {
 
     /**
      * Returns all words that are not compound or part of compound phrases
+     *
      * @return
      */
     public Set<String> getLonelyWords() {
@@ -375,6 +385,7 @@ public class CharacterFinder {
     /**
      * Returns all word pairs whose second word is in surnames
      * Ignores pairs with the first word in generalWords
+     *
      * @param surnames
      * @return
      */
@@ -398,6 +409,7 @@ public class CharacterFinder {
 
     /**
      * Returns a set of the first words in each of names
+     *
      * @param names
      * @return
      */
@@ -411,6 +423,7 @@ public class CharacterFinder {
 
     /**
      * Returns a new set that is the intersection of two sets, via the Set.retainAll method
+     *
      * @param set1
      * @param set2
      * @param <T>
@@ -460,6 +473,7 @@ public class CharacterFinder {
 
     /**
      * Removes certain words from the counter
+     *
      * @param words
      */
     public void removeWords(String... words) {
@@ -468,6 +482,7 @@ public class CharacterFinder {
 
     /**
      * Removes certain words from the counter
+     *
      * @param words
      */
     public void removeWords(Collection<String> words) {
@@ -476,6 +491,7 @@ public class CharacterFinder {
 
     /**
      * Removes certain words from the counter only if their occurrence is less than threshold
+     *
      * @param words
      * @param threshold
      */
@@ -491,6 +507,7 @@ public class CharacterFinder {
 
     /**
      * Builds the internal CharacterGroups data structure
+     *
      * @param nondescriptors
      */
     public void buildCharacterGroups(Set<String> nondescriptors) {
@@ -515,6 +532,7 @@ public class CharacterFinder {
 
     /**
      * Manually combine the groups containing each of the specified names
+     *
      * @param names
      */
     public void combineGroups(String... names) {
@@ -523,6 +541,7 @@ public class CharacterFinder {
 
     /**
      * Manually combine the groups containing each of the specified names
+     *
      * @param names
      */
     public void combineGroups(Collection<String> names) {
@@ -535,6 +554,7 @@ public class CharacterFinder {
     /**
      * Returns a list of strings, each of which corresponds to one of the CharacterGroups
      * Each line contains all the aliases in that group, and each line is one group
+     *
      * @return
      */
     public List<String> getNameList() {
@@ -545,16 +565,74 @@ public class CharacterFinder {
      * Returns a list of strings, each of which corresponds to one of the CharacterGroups
      * Each line contains all the aliases in that group, and each line is one group
      * Each line corresponds (in iteration order) to the group associated with the name in names
+     *
      * @return
      */
     public List<String> getNameList(Collection<String> names) {
+        return getNameList(names, false);
+    }
+
+    /**
+     * Returns a list of strings, each of which corresponds to one of the CharacterGroups
+     * Each line contains all the aliases in that group, and each line is one group
+     * Each line corresponds (in iteration order) to the group associated with the name in names
+     *
+     * The removeRedundancy flag will remove names whose components are in the same group
+     *
+     * @return
+     */
+    public List<String> getNameList(Collection<String> names, boolean removeRedundancy) {
+        return getNameList(names, removeRedundancy, 0);
+    }
+
+    /**
+     * Returns a list of strings, each of which corresponds to one of the CharacterGroups
+     * Each line contains all the aliases in that group, and each line is one group
+     * Each line corresponds (in iteration order) to the group associated with the name in names
+     *
+     * Only names that occur more than minimumOccurrence times will be included
+     *
+     * @return
+     */
+    public List<String> getNameList(Collection<String> names, int minimumOccurrence) {
+        return getNameList(names, false, minimumOccurrence);
+    }
+
+    /**
+     * Returns a list of strings, each of which corresponds to one of the CharacterGroups
+     * Each line contains all the aliases in that group, and each line is one group
+     * Each line corresponds (in iteration order) to the group associated with the name in names
+     *
+     * The removeRedundancy flag will remove names whose components are in the same group
+     * Only names that occur more than minimumOccurrence times will be included
+     *
+     * @return
+     */
+    public List<String> getNameList(Collection<String> names, boolean removeRedundancy, int minimumOccurrence) {
         Map<List<String>, Integer> groupMap = new HashMap<>();
-        for (String s : names) {
-            if (characterGroups.isAlias(s)) {
+        for (String name : names) {
+            if (characterGroups.isAlias(name)) {
                 List<String> list = new ArrayList<>();
-                list.add(s);
-                list.addAll(characterGroups.getGroup(s));
-                groupMap.put(list, characterGroups.getAliasCount(s));
+                list.add(name);
+                Set<String> group = characterGroups.getGroup(name);
+                for (String alias : group) {
+                    String[] split = alias.split(" ");
+                    boolean isUnique = true;
+                    if (removeRedundancy && split.length > 1) {
+                        for (String s : split) {
+                            if (group.contains(s)) {
+                                isUnique = false;
+                            }
+                        }
+                    }
+                    if (isUnique) {
+                        list.add(alias);
+                    }
+                }
+                int aliasCount = characterGroups.getAliasCount(name);
+                if (aliasCount >= minimumOccurrence) {
+                    groupMap.put(list, aliasCount);
+                }
             }
         }
 
@@ -588,6 +666,17 @@ public class CharacterFinder {
      * @return
      */
     public List<String> getFirstNameList(Collection<String> names) {
+        return getFirstNameList(names, 0);
+    }
+
+    /**
+     * Returns a list of strings, each of which corresponds to one of the CharacterGroups
+     * Each line contains all single-word aliases in that group, and each line is one group
+     * Each line corresponds (in iteration order) to the group associated with the name in names
+     * Only names that occur more than minimumOccurrence times will be included
+     * @return
+     */
+    public List<String> getFirstNameList(Collection<String> names, int minimumOccurrence) {
         Map<List<String>, Integer> groupMap = new HashMap<>();
         for (String name : names) {
             if (characterGroups.isAlias(name)) {
@@ -601,7 +690,10 @@ public class CharacterFinder {
                     }
                 }
                 list.addAll(set);
-                groupMap.put(list, characterGroups.getAliasCount(name));
+                int aliasCount = characterGroups.getAliasCount(name);
+                if (aliasCount >= minimumOccurrence) {
+                    groupMap.put(list, aliasCount);
+                }
             }
         }
 

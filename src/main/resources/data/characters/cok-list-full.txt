@@ -1,8 +1,8 @@
 Tyrion,Tyrion the Imp,Tyrion Lannister,Imp,Tyrion,Lord Tyrion
 Arya,Lumpyhead Lumpyface Stickboy,Arya,Arry,Lumpyhead Rabbitkiller,Arya Underfoot,Arya of Winterfell,Lumpyface Stickboy,Lumpyface,Lumpyhead,Rabbitkiller,Stickboy,Lumpyface Lumpyhead Rabbitkiller,Arya Stark,Underfoot,Arya Stark the Hand
 Jon Snow,Jon Snow,Lord Snow,Jon
-Theon,Theon,Theon Turncloak,Theon Greyjoy,Theon Stark,Turncloak,Prince Theon,Reek
 Bran,Prince Bran,Bran,Brandon Stark,Bran Stark,Bran the Builder
+Theon,Theon,Theon Turncloak,Theon Greyjoy,Theon Stark,Turncloak,Prince Theon
 Stannis,Lord of Dragonstone,Lord Stannis,King Stannis,Stannis Baratheon,Stannis
 Joffrey,Illborn,Prince Joffrey,Joffrey the Illborn,King Joffrey,Joffrey Baratheon,Joffrey,Joff
 Catelyn,Lady Catelyn,Lady Stark,Cat,Catelyn Stark,Catelyn
@@ -16,7 +16,7 @@ Robert Baratheon,Robert Baratheon,King Robert,Robert,Usurper,Robert the Usurper
 Varys,Lord Eunuch,Lord Varys,Varys,Spider,Eunuch
 Eddard,Eddard,Ned Stark,Lord Eddard,Eddard Stark,Ned
 Jaime,Kingslayer,Ser Jaime,Jaime,Jaime the Kingslayer,Jaime Lannister
-Baelish,Lord Baelish,Petyr Baelish,Lord Paramount,Baelish,Paramount,Lord Littlefinger,Paramount of the Trident,Lord Petyr,Littlefinger,Petyr
+Baelish,Lord Baelish,Petyr Baelish,Baelish,Lord Littlefinger,Lord Petyr,Littlefinger,Petyr
 Hodor,Hodor
 Yoren,Yoren
 Qhorin,Qhorin Halfhand,Halfhand,Qhorin
@@ -83,6 +83,7 @@ Roose,Roose,Roose Bolton,Lord of the Dreadfort,Lord Bolton
 Meryn,Meryn Trant,Meryn,Ser Meryn
 Mad,Aerys the First,Mad,Mad King Aerys,Mad King,King Aerys,Aerys Targaryen,Aerys,Aerys Oakheart
 Red Keep,Red Keep
+Ramsay,Lord Ramsay,Ramsay,Reek
 Biter,Biter
 Balon Greyjoy,King Balon,Lord of the Iron Islands,Balon Greyjoy,Reaper,Lord Reaper,Lord Balon,Lord Greyjoy
 Thoren,Thoren,Smallwood,Thoren Smallwood
@@ -508,7 +509,6 @@ Black Walder,Black Walder
 First Ranger,First Ranger
 King of the Iron Islands,King of the Iron Islands
 Joss,Joss Stilwood,Joss,Stilwood
-Ramsay,Lord Ramsay,Ramsay
 Guards,Guards,Guards Hall
 Gerold,Gerold Hightower,White Bull,Gerold
 Heart,Heart,Heart of Fire
@@ -545,6 +545,7 @@ Lew,Long Lew,Lew
 Rolfe,Rolfe,Red Rolfe
 Sygerrik,Sygerrik of Skagos,Sygerrik
 Kraken,Kraken,Great Kraken
+Paramount,Lord Paramount,Paramount,Paramount of the Trident
 Byren,Farring,Byren Farring,Byren
 Council,Great Council,Council
 Jaehaerys,Jaehaerys,King Jaehaerys

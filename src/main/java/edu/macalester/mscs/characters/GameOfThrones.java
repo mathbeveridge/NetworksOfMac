@@ -25,7 +25,7 @@ public class GameOfThrones {
     public static final Set<String> TITLE_WORDS = new HashSet<>(Arrays.asList(
             "Lord", "Lady", "King", "Queen", "Regent", "Steward", "Prince", "Princess", // royal titles
             "Ser", "Maester", "Captain", "Commander", "Magister", "Master", "Builder",
-            "Septon", "Knight", "Hand", "Protector", // professional titles
+            "Septon", "Knight", "Hand", "Protector", "Rider", // professional titles
             "Khal", "Ko" // dothraki titles
     ));
 
@@ -233,8 +233,8 @@ public class GameOfThrones {
         Set<String> firstNames = finder.getFirstNames(names);
 
         FileUtils.writeFile(finder.getNameList(), "src/main/resources/data/characters/got-list-full.txt");
-        FileUtils.writeFile(finder.getNameList(names), "src/main/resources/data/characters/got-list-clean.txt");
-        FileUtils.writeFile(finder.getNameList(firstNames), "src/main/resources/data/characters/got-list-no-dup.txt");
+        FileUtils.writeFile(finder.getNameList(names, true, 4), "src/main/resources/data/characters/got-list-clean.txt");
+        FileUtils.writeFile(finder.getNameList(firstNames, true, 4), "src/main/resources/data/characters/got-list-no-dup.txt");
         FileUtils.writeFile(finder.getFirstNameList(names), "src/main/resources/data/characters/got-list-first.txt");
 
     }

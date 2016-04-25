@@ -66,6 +66,9 @@ public class Matrix {
 
     /**
      * Builds the matrix from the text, given a maximum word radius for adjacency
+     *
+     * TODO: fix it so that Jon does not get registered as Jon Snow if it's part of Jon Arryn
+     *
      * @param text
      * @param radius
      */
@@ -78,7 +81,8 @@ public class Matrix {
             boolean notLetter = !Character.isAlphabetic(c);
             if (notLetter) {
                 for (String name : nameIndices.keySet()) {
-                    if (WordUtils.endsWithWord(search.toString(), name)) {
+                    // check the ends with condition, and choose the longest option
+                    if (WordUtils.endsWithWord(search.toString(), name) && name.length() > primary.length()) {
                         primary = name;
                     }
                 }
@@ -188,7 +192,7 @@ public class Matrix {
         }
 
         // don't add fake links when one name is a substring of the other
-        if (name1.indexOf(name2) == -1 && name2.indexOf(name1) == -1) {
+        if (!name1.contains(name2) && !name2.contains(name1)) {
             int index1 = nameIndices.get(name1);
             int index2 = nameIndices.get(name2);
             if (index1 != index2) {

@@ -277,8 +277,8 @@ public class StormOfSwords {
         Set<String> firstNames = finder.getFirstNames(names);
 
         FileUtils.writeFile(finder.getNameList(), "src/main/resources/data/characters/sos-list-full.txt");
-        FileUtils.writeFile(finder.getNameList(names), "src/main/resources/data/characters/sos-list-clean.txt");
-        FileUtils.writeFile(finder.getNameList(firstNames), "src/main/resources/data/characters/sos-list-no-dup.txt");
+        FileUtils.writeFile(finder.getNameList(names, true, 4), "src/main/resources/data/characters/sos-list-clean.txt");
+        FileUtils.writeFile(finder.getNameList(firstNames, true, 4), "src/main/resources/data/characters/sos-list-no-dup.txt");
         FileUtils.writeFile(finder.getFirstNameList(names), "src/main/resources/data/characters/sos-list-first.txt");
 
     }

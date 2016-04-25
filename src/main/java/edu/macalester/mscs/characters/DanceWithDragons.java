@@ -16,7 +16,7 @@ public class DanceWithDragons {
             "My", "She", "He", "His", "Her", "We", "They", "Their", "You", "Your", "It", // pronouns
             "This", "That", "There", // indirect pronouns
             "Who", "Why", "What", "Will", // questions
-            "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", "Grace", "God", // GoT specific
+            "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", "God", // GoT specific
             "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons", "Daughter", "Cousin", // familial references
             "Men", "Man", "And", "Sleepy", "Worship", "Magnificence", "Planky", "Town", "Beyond",
             "Dornish", "Wedding", "Common", "Velvet", "Noble", "Broken", "Star", "Tongue", "Took",
@@ -71,6 +71,8 @@ public class DanceWithDragons {
         finder.removeWords("Hugor of the Hill"); // unused
         finder.removeWords("Ned Woods"); // unused
         finder.removeWords("Tytos Lannister"); // unused
+        finder.removeWords("Harry Merrell"); // unused
+        finder.removeWords("Merrell"); // unused
 
         // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();
@@ -118,14 +120,13 @@ public class DanceWithDragons {
         nondescriptors.add("Rodrik");
         nondescriptors.add("Rickard");
         nondescriptors.add("Hoster");
-        nondescriptors.add("Grazdan");
         nondescriptors.add("Artos");
 
         nondescriptors.add("Qarl");
         nondescriptors.add("Jack");
         nondescriptors.add("Ralf");
         nondescriptors.add("Dick");
-
+        
         // build character groups
         finder.buildCharacterGroups(nondescriptors);
 
@@ -135,11 +136,10 @@ public class DanceWithDragons {
         finder.addToCharacterGroup("Robert Baratheon", "Robert");
         finder.addToCharacterGroup("Rhaegar Targaryen", "Rhaegar");
         finder.addToCharacterGroup("Hoster Blackwood", "Hoster");
-        finder.addToCharacterGroup("Grazdan zo Galare", "Grazdan");
 
         // manually combine more character groups
         finder.combineGroups("Jon Snow", "Lord Snow", "Lord Crow");
-        finder.combineGroups("Jon Connington", "Griff", "Lord Connington", "Lord Jon");
+        finder.combineGroups("Jon Connington", "Griff", "Lord Connington", "Lord Jon", "Lord of Griffin");
         finder.combineGroups("Arya", "Arry");
         finder.combineGroups("Robert Baratheon", "Usurper", "King Robert");
         finder.combineGroups("Robert Strong", "Ser Robert");
@@ -150,9 +150,10 @@ public class DanceWithDragons {
         finder.combineGroups("Rhaegar Targaryen", "Prince Rhaegar");
         finder.combineGroups("Rodrik Cassel", "Ser Rodrik");
         finder.combineGroups("Rodrik Ryswell", "Lord Ryswell");
+        finder.combineGroups("Rodrik the Reader", "Lord Rodrik");
         finder.combineGroups("Hoster Blackwood", "Hos");
         finder.combineGroups("Artos Stark", "Artos the Implacable");
-        finder.combineGroups("Eddard", "Ned");
+        finder.combineGroups("Eddard", "Ned", "Lord Stark");
         finder.combineGroups("Petyr", "Littlefinger");
         finder.combineGroups("Daenerys", "Dany", "Khaleesi");
         finder.combineGroups("Joffrey", "Joff");
@@ -167,7 +168,7 @@ public class DanceWithDragons {
         finder.combineGroups("Varys", "Spider");
         finder.combineGroups("Gregor", "Mountain");
         finder.combineGroups("Theon", "Reek");
-        finder.combineGroups("Cersei", "Queen Regent");
+        finder.combineGroups("Cersei", "Queen Regent", "Queen Dowager");
         finder.combineGroups("Rattleshirt", "Lord of Bones");
         finder.combineGroups("Wyman", "Lord of White Harbor", "Lord Lard", "Lord Manderly");
         finder.combineGroups("Randyll", "Lord Tarly");
@@ -196,7 +197,7 @@ public class DanceWithDragons {
         finder.combineGroups("Tytos Blackwood", "Lord of Raventree");
         finder.combineGroups("Godric", "Lord Borrell", "Lord of Sweetsister");
         finder.combineGroups("Harwood Stout", "Lord Stout");
-        finder.combineGroups("Paxter", "Lord Redwyne");
+        finder.combineGroups("Paxter", "Lord Redwyne", "Lord of the Arbor");
         finder.combineGroups("Brandon Norrey", "Lord Norrey");
         finder.combineGroups("Jonos", "Lord Bracken");
         finder.combineGroups("Tytos Blackwood", "Lord Blackwood");
@@ -206,14 +207,18 @@ public class DanceWithDragons {
         finder.combineGroups("Sansa", "Lady Lannister");
         finder.combineGroups("Sybelle", "Lady Glover");
         finder.combineGroups("Melisandre", "Lady Red");
+        finder.combineGroups("Arnolf", "Lord of Karhold");
+        finder.combineGroups("Triston", "Lord of the Three Sisters");
+        finder.combineGroups("Bowen Marsh", "Lord Steward");
 
         // manually add important names that get missed
+        names.add("Green Grace");
+        names.add("Tommen");
         names.add("Ben Bones");
         names.add("Mance Rayder");
         names.add("Hodor");
         names.add("Edd Tollett");
         names.add("Missandei");
-        names.add("Varamyr");
         names.add("Belwas");
         names.add("Tattered Prince");
         names.add("Jeyne Poole");
@@ -299,14 +304,6 @@ public class DanceWithDragons {
         names.add("Grenn");
         names.add("Mikken");
         names.add("Wex");
-        names.add("Pyat Pree");
-        names.add("Raff");
-        names.add("Arstan");
-        names.add("Shagga");
-        names.add("Timett");
-        names.add("Jaqen");
-        names.add("Farlen");
-        names.add("Syrio Forel");
 
         // manually remove a few names that are either mistakes, duplicates, or unused
         names.remove("Ned Stark");      // as Eddard Stark
@@ -326,8 +323,7 @@ public class DanceWithDragons {
         names.remove("Paramount");      // as Petyr Baelish
         names.remove("Reaper");         // as Balon Greyjoy
         names.remove("Eunuch");         // as Varys
-        names.remove("Varamyr Threeskins"); // as Varamyr
-        names.remove("Varamyr Sixskins");   // as Varamyr
+        names.remove("Varamyr Threeskins"); // as Varamyr Sixskins
         names.remove("Godry Giantslayer");  // as Godry Farring
         names.remove("Mad Aerys");      // as Aerys Targaryen
         names.remove("Whoresbane Umber");   // as Hother Umber
@@ -352,9 +348,9 @@ public class DanceWithDragons {
         Set<String> firstNames = finder.getFirstNames(names);
 
         FileUtils.writeFile(finder.getNameList(), "src/main/resources/data/characters/dwd-list-full.txt");
-        FileUtils.writeFile(finder.getNameList(names), "src/main/resources/data/characters/dwd-list-clean.txt");
-        FileUtils.writeFile(finder.getNameList(firstNames), "src/main/resources/data/characters/dwd-list-no-dup.txt");
-        FileUtils.writeFile(finder.getFirstNameList(names), "src/main/resources/data/characters/dwd-list-first.txt");
+        FileUtils.writeFile(finder.getNameList(names, true, 4), "src/main/resources/data/characters/dwd-list-clean.txt");
+        FileUtils.writeFile(finder.getNameList(firstNames, true, 4), "src/main/resources/data/characters/dwd-list-no-dup.txt");
+        FileUtils.writeFile(finder.getFirstNameList(names, 4), "src/main/resources/data/characters/dwd-list-first.txt");
 
     }
 }

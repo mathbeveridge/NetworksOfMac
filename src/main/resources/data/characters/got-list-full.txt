@@ -9,7 +9,7 @@ Sansa,Sansa,Lady Sansa,Sansa Stark
 Robert Baratheon,Robert Baratheon,King Robert,Robert,Usurper
 Robb,Robb the Lord,Lord Robb,Robb,Robb Stark
 Joffrey,Prince Joffrey,King Joffrey,Joffrey Baratheon,Joffrey,Joff,Prince Joff
-Drogo,Great Rider,Khal Drogo,Drogo,Rider
+Drogo,Great Rider,Khal Drogo,Drogo
 Petyr,Petyr Baelish,Lord Baelish,Lord Petyr,Littlefinger,Petyr
 Jaime,Kingslayer,Ser Jaime,Jaime Lannister the Kingslayer,Jaime,Jaime Lannister
 Jorah,Jorah,Jorah Mormont,Andal,Ser Jorah,Jorah the Andal
