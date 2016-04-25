@@ -78,13 +78,14 @@ public class Matrix {
         FixedQueue<String> nameQueue = new FixedQueue<>(radius);
         for (int i = 0; i < text.length() - 1; i++) {
             char c = text.charAt(i);
-            Name primary = new Name("", -1);
+            Name primary = new Name("", i, "");
             boolean notLetter = !Character.isAlphabetic(c);
             if (notLetter) {
+                String context = search.toString();
                 for (String name : nameIndices.keySet()) {
                     // check the ends with condition, and choose the longest option
-                    if (WordUtils.endsWithWord(search.toString(), name) && name.length() > primary.name.length()) {
-                        primary = new Name(name, i);
+                    if (WordUtils.endsWithWord(context, name) && name.length() > primary.name.length()) {
+                        primary = new Name(name, i, context);
                     }
                 }
             }
@@ -107,7 +108,7 @@ public class Matrix {
                     }
                 }
                 for (String secondary : secondaries.values()) {
-                    addEncounter(primary.name, secondary, primary.index, search.toString());
+                    addEncounter(primary.name, secondary, primary.index, primary.context);
                 }
             }
             // update the search string
@@ -454,10 +455,12 @@ public class Matrix {
     private static class Name {
         final String name;
         final int index;
+        final String context;
 
-        public Name(String name, int index) {
+        public Name(String name, int index, String context) {
             this.name = name;
             this.index = index;
+            this.context = context;
         }
     }
 
