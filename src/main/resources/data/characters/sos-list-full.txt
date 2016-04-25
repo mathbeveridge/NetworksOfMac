@@ -32,8 +32,8 @@ Lysa,Lady Lysa,Lady Arryn,Lysa Tully,Lady of the Eyrie,Lysa,Lysa Arryn
 Beric,Lord Beric,Beric,Beric Dondarrion
 Grenn,Grenn
 Meera,Meera,Meera Reed
-Tom,Sevenstrings,Tom,Tom Sevensons,Fat Tom,Tom Sevenstrings,Tom of Sevenstreams,Sevensons
 Jojen,Jojen Reed,Jojen
+Tom,Sevenstrings,Tom,Tom Sevensons,Tom Sevenstrings,Tom of Sevenstreams,Sevensons
 Margaery,Lady Margaery,Margaery Tyrell,Margaery,Queen Margaery
 Walder Frey,Walder Frey,Grandfather,Lord Walder,Lord Frey,Lord of the Crossing,Lord Grandfather
 Styr,Styr the Magnar,Magnar,Magnar of Thenn,Styr

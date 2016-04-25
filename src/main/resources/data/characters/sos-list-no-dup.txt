@@ -29,6 +29,7 @@ Lysa,Lady Arryn,Lady of the Eyrie,Lysa
 Beric,Beric
 Grenn,Grenn
 Meera,Meera
+Tom,Sevenstrings,Tom,Sevensons
 Jojen,Jojen
 Margaery,Margaery
 Oberyn,Oberyn

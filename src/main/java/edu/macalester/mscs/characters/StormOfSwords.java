@@ -62,6 +62,7 @@ public class StormOfSwords {
         finder.removeWords("Ser Denys Arryn"); // unused
         finder.removeWords("Edric Dayne"); // unused
         finder.removeWords("Mad Marq Rankenfell"); // unused
+        finder.removeWords("Fat Tom"); // unused
 
         // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();
@@ -222,9 +223,9 @@ public class StormOfSwords {
         names.add("Hodor");
         names.add("Ygritte");
         names.add("Lem");
-        names.add("Lem");
-
         names.add("Grenn");
+        names.add("Tom Sevenstrings");
+
         names.add("Arstan");
         names.add("Craster");
         names.add("Donal Noye");

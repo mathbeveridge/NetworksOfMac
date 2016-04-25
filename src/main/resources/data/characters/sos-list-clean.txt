@@ -31,6 +31,7 @@ Lysa Arryn,Lady Arryn,Lady of the Eyrie,Lysa
 Beric Dondarrion,Beric
 Grenn,Grenn
 Meera Reed,Meera
+Tom Sevenstrings,Sevenstrings,Tom,Sevensons
 Jojen Reed,Jojen
 Margaery Tyrell,Margaery
 Walder Frey,Walder Frey,Grandfather,Lord Walder,Lord Frey,Lord of the Crossing

@@ -30,6 +30,7 @@ Lysa,Lysa,Arryn
 Beric,Beric
 Grenn,Grenn
 Meera,Meera
+Tom,Sevenstrings,Tom,Sevensons
 Jojen,Jojen
 Margaery,Margaery
 Walder,Walder,Frey,Grandfather
