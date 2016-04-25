@@ -705,7 +705,6 @@ Lady Hornwood,Lady Hornwood
 Cutthroat,Cutthroat
 Ygon,Ygon Oldfather,Oldfather,Ygon
 Summer Isles,Summer Isles
-Oswell,Whent,Oswell,Oswell Whent,Lord Whent
 Deep,Deep,Deep Lake
 Rhaegar Frey,Rhaegar Frey
 Motho,Motho
@@ -1278,6 +1277,7 @@ King of the North,King of the North
 The Dance,The Dance
 Order,Order,Knight of the Order of the Green Hand
 Shade,Shade
+Lord Whent,Lord Whent
 Methyso,Methyso
 Thousand,Thousand,Thousand Thrones
 Jordayne,Jordayne,Lady Jordayne
@@ -1290,6 +1290,7 @@ Longspear,Longspear,Longspear Ryk,Ryk
 Beat,Beat
 Rush,Blackwater Rush,Rush
 Strongs,Strongs
+Oswell,Oswell,Oswell Whent
 Lash,Lash
 Barracks,Flint Barracks,Barracks
 Grey Grace,Grey Grace

@@ -82,6 +82,7 @@ public class DanceWithDragons {
         pluralizedNames.remove("Aegon");
         Set<String> surnames = finder.getSurnames();
         surnames.add("Merryweather");
+        surnames.add("Whent");
         Set<String> names = finder.getNamesBySurname(surnames);
         names.addAll(titledNames);
         Set<String> places = finder.getPlaces(names);

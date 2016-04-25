@@ -43,7 +43,7 @@ public class StormOfSwords {
             "Bridge", "Sept", "Harbor", "Mill", // landmarks
             "Cruel", "Bold", "Brave", "Good", "Strong", "Bitter", "Sweet", "Bad", "Clever", "Cautious",
             "Wise", "Craven", "Poor", "Pretty", "Scared", "Homeless", "Hot", "Shy", "True", "Mad", "Blessed",
-            "Queer", "Sour", "Cunning", "Hairy", "Broken", "Bloody", // adjective titles
+            "Queer", "Sour", "Cunning", "Hairy", "Broken", "Bloody", "Late", // adjective titles
             "Conqueror", "Wolf", "Fool", "Iron", "Worm", "Bull", "Kingswood", "Sword", "Nymeros" // miscellaneous
     ));
 
@@ -58,7 +58,10 @@ public class StormOfSwords {
         // fix a few mistakes
         finder.removeWords("Robb Starks");
         finder.removeWords("Lysa of Bran");
-        finder.removeWords("Ned Dayne"); // comes up once
+        finder.removeWords("Ned Dayne"); // unused
+        finder.removeWords("Ser Denys Arryn"); // unused
+        finder.removeWords("Edric Dayne"); // unused
+        finder.removeWords("Mad Marq Rankenfell"); // unused
 
         // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();
@@ -66,6 +69,8 @@ public class StormOfSwords {
         pluralizedNames.remove("Walder");
         Set<String> surnames = finder.getSurnames();
         surnames.add("Cerwyn");
+        surnames.add("Merryweather");
+        surnames.add("Mooton");
         Set<String> names = finder.getNamesBySurname(surnames);
         names.addAll(titledNames);
         Set<String> places = finder.getPlaces(names);
@@ -118,6 +123,8 @@ public class StormOfSwords {
         nondescriptors.add("Garth");
         nondescriptors.add("Lucas");
         nondescriptors.add("Tim");
+        nondescriptors.add("Daemon");
+        nondescriptors.add("Myles");
 
         // build character groups
         finder.buildCharacterGroups(nondescriptors);
@@ -137,11 +144,12 @@ public class StormOfSwords {
         finder.combineGroups("Jon Snow", "Lord Snow", "Jon Stark");
         finder.combineGroups("Jon Connington", "Lord Connington", "Lord Jon");
         finder.combineGroups("Jon Arryn", "Lord Arryn");
+        finder.combineGroups("Jon Darry", "Jonothor Darry");
         finder.combineGroups("Bran", "Brandon Stark");
-        finder.combineGroups("Samwell Tarly", "Sam", "Piggy");
+        finder.combineGroups("Samwell Tarly", "Sam", "Piggy", "Slayer");
         finder.combineGroups("Robert Baratheon", "Usurper", "King Robert");
         finder.combineGroups("Robert Arryn", "Lord Robert", "Lord of the Eyrie");
-        finder.combineGroups("Petyr Baelish", "Littlefinger", "Lord Petyr", "Lord Paramount");
+        finder.combineGroups("Petyr Baelish", "Littlefinger", "Lord Petyr");
         finder.combineGroups("Walder Frey", "Lord Walder", "Lord of the Crossing", "Lord Frey", "Lord Grandfather");
         finder.combineGroups("Aemon Targaryen", "Maester Aemon");
         finder.combineGroups("Aemon the Dragonknight", "Prince Aemon");
@@ -162,7 +170,6 @@ public class StormOfSwords {
         finder.combineGroups("Joffrey", "Joff");
         finder.combineGroups("Sandor", "Hound");
         finder.combineGroups("Jeor Mormont", "Old Bear", "Commander Mormont", "Lord Mormont");
-        finder.combineGroups("Pycelle", "Grand Maester");
         finder.combineGroups("Lysa", "Lady Arryn", "Lady of the Eyrie");
         finder.combineGroups("Tywin", "Lord of Casterly Rock");
         finder.combineGroups("Roose", "Lord of the Dreadfort", "Lord Bolton");
@@ -191,10 +198,19 @@ public class StormOfSwords {
         finder.combineGroups("Podrick", "Pod");
         finder.combineGroups("Gerold", "White Bull");
         finder.combineGroups("Arthur", "Sword of the Morning");
-        finder.combineGroups("Edric", "Lord of Starfall");
         finder.combineGroups("Cley Cerwyn", "Lord Cerwyn");
         finder.combineGroups("Sansa Stark", "Lady Wife");
         finder.combineGroups("Jaime Lannister", "Kingslayer");
+        finder.combineGroups("Maege Mormont", "Lady Mormont");
+        finder.combineGroups("Mathis Rowan", "Lord of Goldengrove", "Lord Rowan");
+        finder.combineGroups("Tremond Gargalen", "Lord Gargalen");
+        finder.combineGroups("Alester Florent", "Lord Florent");
+        finder.combineGroups("Jason Mallister", "Lord of Seagard", "Lord Mallister");
+        finder.combineGroups("Selwyn", "Lord of Evenfall");
+        finder.combineGroups("Leyton Hightower", "Lord Hightower");
+        finder.combineGroups("Lymond Goodbrook", "Lord Goodbrook");
+        finder.combineGroups("Hoster Tully", "Lord of Riverrun", "Lord Tully");
+        finder.combineGroups("Greatjon Umber", "Lord Umber");
 
         // manually add important names that get missed
         names.add("Mance Rayder");
@@ -253,10 +269,10 @@ public class StormOfSwords {
         // manually remove a few names that are either mistakes, duplicates, or unused
         names.remove("Jon Stark");      // as Jon Snow
         names.remove("Sam Tarly");      // as Samwell Tarly
+        names.remove("Piggy");      // as Samwell Tarly
         names.remove("Joff");           // as Joffrey Baratheon
         names.remove("Brandon Stark");  // as Bran
         names.remove("Petyr Littlefinger"); // as Petyr Baelish
-        names.remove("Paramount");      // as Petyr Baelish
         names.remove("Ned Stark");      // as Eddard Stark
         names.remove("Lysa Tully");     // as Lysa Arryn
         names.remove("Brynden Blackfish");  // as Brynden Tully
@@ -270,9 +286,14 @@ public class StormOfSwords {
         names.remove("Puff Fish");      // as Mace Tyrell
         names.remove("Scab");           // as Aerys Targaryen
         names.remove("Onions");         // as Davos
+        names.remove("Wife");           // as Sansa
+        names.remove("Aerion Brightfire");  // as Aerion Brightflame
+        names.remove("Jon Darry");      // as Jonothor Darry
 
         names.remove("Soldier");        // a doll
+        names.remove("Paramount");      // a generic title
         names.remove("Horn Hill");      // mistake
+        names.remove("Maiden Fair");    // mistake
 
         Set<String> firstNames = finder.getFirstNames(names);
 
