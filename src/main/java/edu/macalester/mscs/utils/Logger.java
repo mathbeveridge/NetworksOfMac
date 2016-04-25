@@ -9,13 +9,21 @@ import java.util.List;
 public class Logger {
 
     private final List<String> log;
+    private final boolean verbose;
 
     public Logger() {
-        this(new ArrayList<String>());
+        this(false);
     }
 
-    public Logger(List<String> log) {
+    public Logger(boolean verbose) {
+        this(new ArrayList<String>(), verbose);
+    }
+
+    public Logger(List<String> log) { this(log,false); }
+
+    public Logger(List<String> log, boolean verbose) {
         this.log = log;
+        this.verbose = verbose;
     }
 
     /**
@@ -35,12 +43,14 @@ public class Logger {
     public void log(Object o) {
         if (o == null) {
             log.add("");
-            System.out.println();
-        } else if (o instanceof Logger) {
-            append((Logger) o);
+            if (verbose) { System.out.println(); };
         } else {
-            log.add(o.toString());
-            System.out.println(o.toString());
+            if (o instanceof Logger) {
+                append((Logger) o);
+            } else {
+                log.add(o.toString());
+                if (verbose) { System.out.println(o.toString()); };
+            }
         }
     }
 

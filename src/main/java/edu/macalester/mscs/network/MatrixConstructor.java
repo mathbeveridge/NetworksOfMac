@@ -17,7 +17,7 @@ public class MatrixConstructor {
 
 	private final int bookNumber;
 	private final String text;
-	private List<String> characterList;
+	private List<String> fullCharacterList;
 	private Map<String, Integer> nameIndices;
 	private int radius;
 	private int noise;
@@ -49,8 +49,18 @@ public class MatrixConstructor {
 		return text;
 	}
 
-	public List<String> getCharacterList() {
-		return characterList;
+    /**
+     * Override this method if you want to specify a different order for the JSON file creation.
+     * This list must match the characters that actually appear in the network (and is a subset of the
+     * full list of characters).
+     * @return null
+     */
+    public String[] getOrderedCharacters() {
+        return null;
+    }
+
+	public List<String> getFullCharacterList() {
+		return fullCharacterList;
 	}
 
 	public Map<String, Integer> getNameIndices() {
@@ -59,19 +69,19 @@ public class MatrixConstructor {
 
 	public void makeCharacters(String characterFileName) {
 		List<String> lines = FileUtils.readFile(characterFileName);
-		characterList = new ArrayList<>();
+		fullCharacterList = new ArrayList<>();
 		nameIndices = new HashMap<>();
 		for (String c : lines) {
 			String[] split = c.split(",");
 			for (String name : split) {
-				nameIndices.put(name, characterList.size());
+				nameIndices.put(name, fullCharacterList.size());
 			}
 			c = split[0];
 			c = c.replaceAll(" [a-z]+ ", " "); // remove lowercase filler words
 			if (c.contains(" ")) {
 				c = c.substring(0, c.indexOf(' ') + 2);
 			}
-			characterList.add(c);
+			fullCharacterList.add(c);
 		}
 	}
 
@@ -111,7 +121,7 @@ public class MatrixConstructor {
 		logger.log("Noise threshold level: " + noise);
 		logger.log();
 		logger.log("Character list:");
-		logger.log(characterList);
+		logger.log(fullCharacterList);
 		logger.log();
 		logger.log("Name Indices:");
 		List<Map.Entry<String, Integer>> entries = new ArrayList(nameIndices.entrySet());
@@ -124,7 +134,7 @@ public class MatrixConstructor {
 		logger.log("=============================================================");
 		logger.log();
 
-		matrix = new Matrix(characterList, nameIndices, text, radius);
+		matrix = new Matrix(fullCharacterList, nameIndices, text, radius);
 
 		logger.log(matrix.getEncounterList());
 		logger.log();
@@ -165,7 +175,7 @@ public class MatrixConstructor {
 
 		// write encounters file
 		String encountersFolder = getFileName(logFolder, "encounters", fileNumber, fileDescriptor);
-		Logger logger = new Logger();
+		Logger logger = new Logger(false);
 		logger.log("char 1, char2, index, text");
 		logger.log(matrix.getEncounterList());
 		logger.writeLog(encountersFolder + "/_All.csv");
@@ -177,8 +187,12 @@ public class MatrixConstructor {
                 logger.writeLog(encountersFolder + '/' + name.replace(' ', '_') + ".csv");
             }
 		}
-		// write matrix file
+		// write matrix CSV file
 		matrix.toMatrixCsvLog().writeLog(getFileName(logFolder, "mat", fileNumber, fileDescriptor, "csv"));
+
+        // write matrix JSON file
+        matrix.toMatrixJsonLog(getOrderedCharacters()).writeLog(getFileName(logFolder, "mat", fileNumber, fileDescriptor, "json"));
+
 		// write edge file
 		matrix.toEdgeListCsvLog().writeLog(getFileName(logFolder, "edge", fileNumber, fileDescriptor, "csv"));
 	}
