@@ -7,7 +7,7 @@ Hizdahr zo Loraq,Hizdahr,Radiance
 Barristan Selmy,Ser Grandfather,Barristan
 Ramsay Snow,Ramsay
 Quentyn Martell,Frog,Quail,Quentyn
-Jon Connington,Jon Connington,Griff,Lord Connington,Lord Jon
+Jon Connington,Jon Connington,Griff,Lord Connington,Lord Jon,Lord of Griffin
 Brandon Stark,Bran,Brandon Stark
 Asha Greyjoy,Asha
 Davos Seaworth,Davos,Onion,Lord Seaworth
@@ -15,23 +15,23 @@ Skahaz mo Kandaq,Skahaz,Shavepate
 Mance Rayder,Mance,Abel,Rayder
 Daario Naharis,Naharis,Daario
 Melisandre,Melisandre,Lady Red
+Bowen Marsh,Bowen,Marsh,Lord Steward
 Dowager,Dowager,Queen Regent,Cersei
 Cersei Lannister,Dowager,Queen Regent,Cersei
 Arya Stark,Arya,Cat,Arry,Horseface,Underfoot
-Bowen Marsh,Bowen,Marsh
 Jaime Lannister,Jaime
 Wyman Manderly,Lord Manderly,Lard,Wyman,Lord of White Harbor
 Haldon Halfmaester,Haldon
 Hodor,Hodor
 Edd Tollett,Tollett,Edd,Dolorous
-Robert Baratheon,Robert,Usurper
 Victarion Greyjoy,Victarion
 Gerris Drinkwater,Gerris
+Robert Baratheon,Robert,Usurper
 Jorah Mormont,Jorah
 Aegon Targaryen,Aegon,Unlikely,Unworthy,Conqueror,Fourth
 Rolly Duckfield,Duck,Rolly
+Eddard Stark,Eddard,Ned,Lord Stark
 Roose Bolton,Roose Bolton,Lord Roose,Lord of the Dreadfort,Lord Bolton
-Eddard Stark,Eddard,Ned
 Kevan Lannister,Kevan
 Val,Val
 Meera Reed,Meera
@@ -54,6 +54,7 @@ Selyse Baratheon,Selyse
 Robb Stark,Robb
 Walder Frey,Walder
 Aemon Targaryen,Dragonknight,Aemon
+Green Grace,Green Grace
 Ben Plumm,Ben Plumm,Brown Ben
 Moqorro,Moqorro
 Grey Worm,Worm
@@ -78,11 +79,11 @@ Khrazz,Khrazz
 Rattleshirt,Lord of Bones,Rattleshirt
 Aerys Targaryen,Mad King,Aerys
 Salladhor Saan,Smashed,Salla,Salladhor,Splendid
+Arnolf Karstark,Arnolf,Lord of Karhold
 Barbrey Dustin,Barbrey,Lady of Barrowton,Lady Dustin
 Gregor Clegane,Mountain,Gregor
 Axell Florent,Axell
 Holly,Holly
-Arnolf Karstark,Arnolf
 Rowan,Rowan
 Myrcella Baratheon,Myrcella
 Viserys Targaryen,Viserys
@@ -261,6 +262,7 @@ Aly Mormont,Aly
 Bill Bone,Bill
 Robett Glover,Robett
 Lysa Arryn,Lady Arryn,Lady of the Eyrie,Lysa
+Paxter Redwyne,Lord Redwyne,Lord of the Arbor,Paxter
 Glendon Hewett,Hewett,Glendon
 Grenn,Grenn
 Harmune,Harmune
@@ -278,7 +280,6 @@ Alysane Mormont,Alysane
 Maege Mormont,Maege
 Ilyn Payne,Ilyn,Payne
 Tristifer Botley,Tristifer
-Paxter Redwyne,Lord Redwyne,Paxter
 Wex,Wex
 Benjen Stark,Benjen
 Walys Flowers,Walys

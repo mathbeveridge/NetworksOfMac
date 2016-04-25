@@ -13,22 +13,22 @@ Skahaz,Skahaz,Shavepate
 Mance,Mance,Abel,Rayder
 Daario,Naharis,Daario
 Melisandre,Melisandre,Lady Red
+Bowen,Bowen,Marsh,Lord Steward
 Dowager,Dowager,Queen Regent,Cersei
 Cersei,Dowager,Queen Regent,Cersei
 Arya,Arya,Cat,Arry,Horseface,Underfoot
-Bowen,Bowen,Marsh
 Jaime,Jaime
 Wyman,Lord Manderly,Lard,Wyman,Lord of White Harbor
 Haldon,Haldon
 Hodor,Hodor
 Victarion,Victarion
-Robert,Robert,Usurper
 Edd,Tollett,Edd,Dolorous
 Gerris,Gerris
+Robert,Robert,Usurper
 Jorah,Jorah
 Aegon,Aegon,Unlikely,Unworthy,Conqueror,Fourth
 Rolly,Duck,Rolly
-Eddard,Eddard,Ned
+Eddard,Eddard,Ned,Lord Stark
 Kevan,Kevan
 Val,Val
 Meera,Meera
@@ -72,12 +72,12 @@ Gilly,Gilly
 Khrazz,Khrazz
 Rattleshirt,Lord of Bones,Rattleshirt
 Salladhor,Smashed,Salla,Salladhor,Splendid
+Arnolf,Arnolf,Lord of Karhold
 Barbrey,Barbrey,Lady of Barrowton,Lady Dustin
 Aerys,Mad King,Aerys
 Axell,Axell
 Gregor,Mountain,Gregor
 Holly,Holly
-Arnolf,Arnolf
 Myrcella,Myrcella
 Rowan,Rowan
 Ysilla,Ysilla
@@ -246,6 +246,7 @@ Grenn,Grenn
 Harmune,Harmune
 Sandor,Sandor,Hound
 Ashara,Ashara
+Paxter,Lord Redwyne,Lord of the Arbor,Paxter
 Robett,Robett
 Ronald,Ronald
 Mikken,Mikken
@@ -259,7 +260,6 @@ Benjen,Benjen
 Belly,Belly
 Maege,Maege
 Wex,Wex
-Paxter,Lord Redwyne,Paxter
 Walys,Walys
 Beron,Beron,Blacktyde
 Tristifer,Tristifer
