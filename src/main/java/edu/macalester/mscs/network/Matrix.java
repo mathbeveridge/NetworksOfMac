@@ -6,6 +6,7 @@ import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.*;
+import java.util.function.Consumer;
 
 /**
  * @author Ari Weiland
@@ -74,22 +75,22 @@ public class Matrix {
      */
     public void build(String text, int radius) {
         StringBuilder search = new StringBuilder();
-        Queue<String> nameQueue = new ArrayDeque<>(radius + 1);
+        FixedQueue<String> nameQueue = new FixedQueue<>(radius);
         for (int i = 0; i < text.length() - 1; i++) {
             char c = text.charAt(i);
-            String primary = "";
+            Name primary = new Name("", -1);
             boolean notLetter = !Character.isAlphabetic(c);
             if (notLetter) {
                 for (String name : nameIndices.keySet()) {
                     // check the ends with condition, and choose the longest option
-                    if (WordUtils.endsWithWord(search.toString(), name) && name.length() > primary.length()) {
-                        primary = name;
+                    if (WordUtils.endsWithWord(search.toString(), name) && name.length() > primary.name.length()) {
+                        primary = new Name(name, i);
                     }
                 }
             }
             // tally neighbors
-            if (!primary.isEmpty()) {
-                int index1 = nameIndices.get(primary);
+            if (!primary.name.isEmpty()) {
+                int index1 = nameIndices.get(primary.name);
                 Map<Integer, String> secondaries = new HashMap<>();
                 // use a map to avoid duplicate names on the left
                 // ie. "...Mirri Maz Duur said, pointing to the altar, a massive blue-veined stone carved with images of shepherds and their flocks. Khal Drogo..."
@@ -106,7 +107,7 @@ public class Matrix {
                     }
                 }
                 for (String secondary : secondaries.values()) {
-                    addEncounter(primary, secondary, i, search.toString());
+                    addEncounter(primary.name, secondary, primary.index, search.toString());
                 }
             }
             // update the search string
@@ -117,10 +118,7 @@ public class Matrix {
             }
             // update the queue if a word just finished
             if (i > 0 && notLetter && Character.isAlphabetic(text.charAt(i - 1))) {
-                nameQueue.add(primary);
-                if (nameQueue.size() > radius) { // limit its size
-                    nameQueue.poll();
-                }
+                nameQueue.push(primary.name);
             }
         }
     }
@@ -451,5 +449,57 @@ public class Matrix {
             matrix = cleanMatrix;
         }
         return sb.toString();
+    }
+
+    private static class Name {
+        final String name;
+        final int index;
+
+        public Name(String name, int index) {
+            this.name = name;
+            this.index = index;
+        }
+    }
+
+    private static class FixedQueue<T> implements Iterable<T> {
+
+        private final int maxLength;
+        private final Queue<T> queue;
+
+        public FixedQueue(int maxLength) {
+            this.maxLength = maxLength;
+            this.queue = new LinkedList<>();
+        }
+
+        public T push(T t) {
+            queue.add(t);
+            if (queue.size() > maxLength) {
+                return queue.poll();
+            }
+            return null;
+        }
+
+        public T pop() {
+            return queue.poll();
+        }
+
+        public int size() {
+            return queue.size();
+        }
+
+        @Override
+        public Iterator<T> iterator() {
+            return queue.iterator();
+        }
+
+        @Override
+        public void forEach(Consumer<? super T> action) {
+            queue.forEach(action);
+        }
+
+        @Override
+        public Spliterator<T> spliterator() {
+            return queue.spliterator();
+        }
     }
 }
