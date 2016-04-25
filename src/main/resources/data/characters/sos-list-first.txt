@@ -80,6 +80,7 @@ Elia,Elia
 Willas,Willas
 Denys,Denys
 Edric,Edric
+Olenna,Olenna
 Rickon,Rickon
 Cotter,Cotter
 Meryn,Meryn
@@ -111,7 +112,6 @@ Desmond,Desmond
 Ben,Ben
 Jinglebell,Jinglebell
 Varamyr,Sixskins,Varamyr
-Olenna,Olenna
 Maegor,Maegor
 Randyll,Randyll,Tarly
 Paxter,Paxter,Redwyne

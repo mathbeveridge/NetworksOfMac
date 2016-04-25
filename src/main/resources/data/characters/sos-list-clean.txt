@@ -83,6 +83,7 @@ Elia Martell,Elia
 Rickard Stark,Lord Karstark,Rickard
 Willas Tyrell,Willas
 Denys Mallister,Denys
+Olenna Tyrell,Olenna,Queen of Thorns
 Edric Storm,Edric
 Rickon,Rickon
 Cotter Pyke,Cotter
@@ -117,7 +118,6 @@ Jinglebell Frey,Jinglebell
 Balon Greyjoy,King Balon,Balon Greyjoy,Lord Balon
 Ben Plumm,Ben Plumm,Brown Ben
 Randyll Tarly,Lord Tarly,Randyll
-Olenna Tyrell,Olenna
 Varamyr,Sixskins,Varamyr
 Maegor,Maegor
 Petyr Pimple,Pimple

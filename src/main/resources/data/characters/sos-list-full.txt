@@ -117,6 +117,7 @@ Denys,Denys Mallister,Ser Denys,Denys
 Fork,Blue Fork,Green Fork,Fork,Red Fork
 Rickon,Rickon
 Edric,Edric Storm,Edric
+Olenna,Lady Olenna,Olenna,Queen of Thorns,Olenna Tyrell
 Cotter,Cotter,Cotter Pyke
 Tickler,Tickler
 Harma,Harma the Dogshead,Harma Dogshead,Harma,Dogshead
@@ -187,7 +188,6 @@ Myrcella,Princess Myrcella,Queen Myrcella,Myrcella
 Randyll,Lord Tarly,Randyll,Lord Randyll,Randyll Tarly
 Stormcrows,Stormcrows
 Lyseni,Lyseni
-Olenna,Lady Olenna,Olenna,Olenna Tyrell
 Maegor,King Maegor,Maegor,Maegor the Cruel
 Butterbumps,Butterbumps
 Varamyr,Sixskins,Varamyr,Varamyr Sixskins
@@ -217,7 +217,6 @@ Town,Town
 Warrior,Warrior
 Titan,Titan of Braavos,Titan
 Gerold,Gerold Hightower,White Bull,Ser Gerold,Gerold
-Queen of Thorns,Queen of Thorns
 Dirk,Dirk
 Kegs,Kegs
 Shireen,Princess Shireen,Shireen

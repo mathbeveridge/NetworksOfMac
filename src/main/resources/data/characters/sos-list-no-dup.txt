@@ -81,6 +81,7 @@ Rickard,Lord Karstark,Rickard
 Willas,Willas
 Denys,Denys
 Edric,Edric
+Olenna,Olenna,Queen of Thorns
 Rickon,Rickon
 Cotter,Cotter
 Meryn,Meryn
@@ -110,7 +111,6 @@ Myrcella,Myrcella
 Desmond,Desmond
 Jinglebell,Jinglebell
 Varamyr,Sixskins,Varamyr
-Olenna,Olenna
 Maegor,Maegor
 Randyll,Lord Tarly,Randyll
 Paxter,Lord Redwyne,Paxter
