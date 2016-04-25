@@ -19,7 +19,7 @@ public class StormOfSwords {
             "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", "Grace", "God", // GoT specific
             "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons", "Daughter", "Cousin", // familial references
             "Men", "Man", "And", "With", "Griffin", "No", "Summer", "Half", "Tongue", "Without",
-            "People", "Took" // miscellaneous
+            "People", "Took", "Ther" // miscellaneous
     ));
 
     // Words that are not unique, but may still be descriptive, expecially in combination
@@ -44,7 +44,7 @@ public class StormOfSwords {
             "Cruel", "Bold", "Brave", "Good", "Strong", "Bitter", "Sweet", "Bad", "Clever", "Cautious",
             "Wise", "Craven", "Poor", "Pretty", "Scared", "Homeless", "Hot", "Shy", "True", "Mad", "Blessed",
             "Queer", "Sour", "Cunning", "Hairy", "Broken", "Bloody", "Late", // adjective titles
-            "Conqueror", "Wolf", "Fool", "Iron", "Worm", "Bull", "Kingswood", "Sword", "Nymeros" // miscellaneous
+            "Conqueror", "Wolf", "Fool", "Iron", "Worm", "Bull", "Kingswood", "Sword", "Nymeros", "Wife", "Bar" // miscellaneous
     ));
 
     // Words that are sometimes placed between first and last names
@@ -71,6 +71,7 @@ public class StormOfSwords {
         surnames.add("Cerwyn");
         surnames.add("Merryweather");
         surnames.add("Mooton");
+        surnames.add("Bulwer");
         Set<String> names = finder.getNamesBySurname(surnames);
         names.addAll(titledNames);
         Set<String> places = finder.getPlaces(names);
@@ -161,11 +162,11 @@ public class StormOfSwords {
         finder.combineGroups("Donnel Hill", "Sweet Donnel");
         finder.combineGroups("Baelor the Blessed", "King Baelor");
         finder.combineGroups("Baelor Hightower", "Baelor Brightsmile", "Baelor Breakwind");
-        finder.combineGroups("Walda Bolton", "Lady Walda", "Fat Walda", "Walda Frey");
+        finder.combineGroups("Walda Bolton", "Lady Walda", "Fat Walda", "Walda Frey", "Lady Bolton");
         finder.combineGroups("Rodrik Cassel", "Ser Rodrik");
         finder.combineGroups("Tytos Lannister", "Lord Tytos");
         finder.combineGroups("Eddard", "Ned");
-        finder.combineGroups("Catelyn", "Cat");
+        finder.combineGroups("Catelyn", "Cat", "Lady Stark");
         finder.combineGroups("Daenerys", "Dany", "Khaleesi");
         finder.combineGroups("Joffrey", "Joff");
         finder.combineGroups("Sandor", "Hound");
@@ -193,13 +194,13 @@ public class StormOfSwords {
         finder.combineGroups("Paxter", "Lord Redwyne");
         finder.combineGroups("Jonos", "Lord Bracken");
         finder.combineGroups("Tytos Blackwood", "Lord Blackwood");
-        finder.combineGroups("Robb", "Young Wolf");
+        finder.combineGroups("Robb", "Young Wolf", "King of the Trident");
         finder.combineGroups("Benjen", "Ben Stark");
         finder.combineGroups("Podrick", "Pod");
         finder.combineGroups("Gerold", "White Bull");
         finder.combineGroups("Arthur", "Sword of the Morning");
         finder.combineGroups("Cley Cerwyn", "Lord Cerwyn");
-        finder.combineGroups("Sansa Stark", "Lady Wife");
+        finder.combineGroups("Sansa Stark", "Lady Wife", "Lady of Winterfell");
         finder.combineGroups("Jaime Lannister", "Kingslayer");
         finder.combineGroups("Maege Mormont", "Lady Mormont");
         finder.combineGroups("Mathis Rowan", "Lord of Goldengrove", "Lord Rowan");
@@ -211,6 +212,10 @@ public class StormOfSwords {
         finder.combineGroups("Lymond Goodbrook", "Lord Goodbrook");
         finder.combineGroups("Hoster Tully", "Lord of Riverrun", "Lord Tully");
         finder.combineGroups("Greatjon Umber", "Lord Umber");
+        finder.combineGroups("Alerie", "Lady Tyrell");
+        finder.combineGroups("Roslin Frey", "Lady Tully", "Roslin Tully");
+        finder.combineGroups("Dontos Hollard", "Ser Fool");
+        finder.combineGroups("Olenna Tyrell", "Queen of Thorns");
 
         // manually add important names that get missed
         names.add("Mance Rayder");

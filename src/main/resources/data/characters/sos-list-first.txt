@@ -1,12 +1,13 @@
 Jon,Snow,Jon
 Tyrion,Imp,Tyrion
-Sansa,Sansa,Wife
+Jaime,Kingslayer,Jaime
+Sansa,Sansa
 Arya,Arya,Arry,Underfoot
 Samwell,Piggy,Slayer,Sam,Samwell
 Robb,Robb
 Daenerys,Stormborn,Dany,Khaleesi,Daenerys
 Joffrey,Joffrey,Joff
-Catelyn,Cat,Catelyn
+Catelyn,Cat,Catelyn,Stark
 Davos,Davos,Onions,Onion
 Bran,Bran,Brandon
 Sandor,Sandor,Hound
@@ -41,7 +42,6 @@ Melisandre,Melisandre
 Bronn,Bronn
 Varys,Varys,Spider
 Donal,Noye,Donal
-Jaime,Kingslayer,Jaime
 Aerys,Scab,Aerys
 Roose,Roose,Bolton
 Gilly,Gilly
@@ -67,7 +67,7 @@ Janos,Slynt,Janos
 Greatjon,Umber,Greatjon
 Dontos,Hollard,Dontos
 Alliser,Alliser
-Roslin,Roslin
+Roslin,Roslin,Tully
 Theon,Theon
 Pycelle,Pycelle
 Missandei,Missandei
@@ -137,6 +137,7 @@ Dacey,Dacey
 Ellaria,Ellaria
 Oswell,Oswell
 Tysha,Tysha
+Emmon,Emmon
 Mandon,Moore,Mandon
 Edwyn,Edwyn
 Luwin,Luwin
@@ -157,6 +158,7 @@ Torrhen,Torrhen
 Rhaegal,Rhaegal
 Cleon,Cleon
 Olyvar,Olyvar
+Alerie,Alerie,Tyrell
 Jaqen,Jaqen
 Cressen,Cressen
 Stevron,Stevron
@@ -179,7 +181,6 @@ Rollam,Rollam
 Dick,Dick
 Guncer,Guncer,Sunglass
 Sybell,Sybell
-Alerie,Alerie
 Lewyn,Lewyn
 Hosteen,Hosteen
 Khorane,Sathmantes,Khorane
@@ -198,6 +199,7 @@ Joanna,Joanna
 Patchface,Patchface
 Perwyn,Perwyn
 Rodrik,Cassel,Rodrik
+Walda,Walda,Bolton
 Sumner,Sumner
 Tristifer,Fifth,Tristifer
 Ballabar,Ballabar
@@ -215,7 +217,6 @@ Alyx,Alyx
 Jonos,Bracken,Jonos
 Shagga,Shagga
 Osfryd,Osfryd
-Walda,Walda
 Timett,Timett
 Raymun,Raymun,Redbeard
 Baelor,Breakwind,Brightsmile,Baelor
@@ -246,7 +247,6 @@ Lynesse,Lynesse
 Tobho,Mott,Tobho
 Gerald,Gerald
 Harrion,Harrion
-Bar,Bar
 Leslyn,Leslyn
 Preston,Preston
 Howland,Howland
@@ -269,7 +269,6 @@ Mikken,Mikken
 Euron,Euron
 Lymond,Lymond,Goodbrook
 Protector,Protector
-Emmon,Emmon
 Ryswell,Ryswell
 Cortnay,Cortnay
 Philip,Philip
@@ -348,10 +347,8 @@ Aemon,Aemon,Costayne
 Mellario,Mellario
 Chayle,Chayle
 Waymar,Waymar
-Jaime,Jaime
 Triston,Triston
 Quentyn,Quentyn
-Ther,Ther
 Kyra,Kyra
 Arianne,Arianne
 Donnel,Donnel

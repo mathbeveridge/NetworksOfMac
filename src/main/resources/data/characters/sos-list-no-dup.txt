@@ -1,11 +1,12 @@
 Jon,Lord Snow,Jon
 Tyrion,Imp,Tyrion
-Sansa,Sansa,Wife
+Jaime,Kingslayer,Jaime
+Sansa,Sansa,Lady of Winterfell,Lady Wife
 Arya,Arya,Arry,Underfoot
-Robb,Young Wolf,Robb
+Robb,Young Wolf,King of the Trident,Robb
 Daenerys,Stormborn,Dany,Khaleesi,Daenerys
 Joffrey,Joffrey,Joff
-Catelyn,Cat,Catelyn
+Catelyn,Lady Stark,Cat,Catelyn
 Davos,Davos,Onions,Onion
 Bran,Bran,Brandon Stark
 Cersei,Queen Regent,Cersei
@@ -65,9 +66,9 @@ Edd,Tollett,Edd,Dolorous
 Kraznys,Kraznys
 Janos,Lord Slynt,Janos
 Greatjon,Lord Umber,Greatjon
-Dontos,Hollard,Dontos
+Dontos,Hollard,Ser Fool,Dontos
 Alliser,Alliser
-Roslin,Roslin
+Roslin,Roslin,Lady Tully
 Theon,Theon
 Pycelle,Pycelle
 Missandei,Missandei
@@ -85,6 +86,7 @@ Cotter,Cotter
 Meryn,Meryn
 Irri,Irri
 Boros,Boros
+Jack,Jack
 Pylos,Pylos
 Osmund,Osmund
 Owen,Owen,Oaf
@@ -131,6 +133,7 @@ Dacey,Dacey
 Ellaria,Ellaria
 Oswell,Oswell
 Tysha,Tysha
+Emmon,Emmon
 Mandon,Moore,Mandon
 Edwyn,Edwyn
 Luwin,Luwin
@@ -154,6 +157,7 @@ Olyvar,Olyvar
 Jaqen,Jaqen
 Cressen,Cressen
 Stevron,Stevron
+Alerie,Lady Tyrell,Alerie
 Jhogo,Jhogo
 Gyles,Gyles
 Willem,Willem
@@ -172,7 +176,6 @@ Rakharo,Rakharo
 Rollam,Rollam
 Guncer,Guncer,Sunglass
 Sybell,Sybell
-Alerie,Alerie
 Lewyn,Lewyn
 Hosteen,Hosteen
 Rhaenys,Rhaenys
