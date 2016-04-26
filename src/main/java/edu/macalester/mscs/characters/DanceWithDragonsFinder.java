@@ -10,7 +10,7 @@ import java.util.Set;
 /**
  * @author Ari Weiland
  */
-public class DanceWithDragons {
+public class DanceWithDragonsFinder {
 
     public static final Set<String> IGNORED_WORDS = new HashSet<>(Arrays.asList(
             "My", "She", "He", "His", "Her", "We", "They", "Their", "You", "Your", "It", // pronouns

@@ -63,7 +63,7 @@ public class GameOfThronesConstructor extends MatrixConstructor {
 
         GameOfThronesConstructor constructor = new GameOfThronesConstructor(15, 4);
 
-        constructor.constructMatrix(LOG_FILE_MATRIX);
+        constructor.constructMatrix(LOG_FILE_NAME);
         constructor.writeFiles(fileNum, fileDesc, LOG_FOLDER, false);
     }
 

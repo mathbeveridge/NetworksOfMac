@@ -13,7 +13,7 @@ import java.util.Map;
 public class MatrixConstructor {
 
     public static final String LOG_FOLDER = "src/main/resources/data/logs";
-    public static final String LOG_FILE_MATRIX = LOG_FOLDER + "/log.txt";
+    public static final String LOG_FILE_NAME = LOG_FOLDER + "/log.txt";
 
 	private final int bookNumber;
 	private final String text;

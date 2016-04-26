@@ -10,7 +10,7 @@ import java.util.Set;
 /**
  * @author Ari Weiland
  */
-public class GameOfThrones {
+public class GameOfThronesFinder {
 
     public static final Set<String> IGNORED_WORDS = new HashSet<>(Arrays.asList(
             "My", "He", "His", "We", "Their", "Your", // pronouns  (It???)

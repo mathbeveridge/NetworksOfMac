@@ -27,7 +27,7 @@ public class DanceWithDragonsConstructor extends MatrixConstructor {
 
         DanceWithDragonsConstructor dwdConstructor = new DanceWithDragonsConstructor(15, 4);
 
-        dwdConstructor.constructMatrix(LOG_FILE_MATRIX);
+        dwdConstructor.constructMatrix(LOG_FILE_NAME);
         dwdConstructor.writeFiles(fileNum, fileDesc, LOG_FOLDER, false);
     }
 
