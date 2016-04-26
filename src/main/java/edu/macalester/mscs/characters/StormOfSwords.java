@@ -44,7 +44,8 @@ public class StormOfSwords {
             "Cruel", "Bold", "Brave", "Good", "Strong", "Bitter", "Sweet", "Bad", "Clever", "Cautious",
             "Wise", "Craven", "Poor", "Pretty", "Scared", "Homeless", "Hot", "Shy", "True", "Mad", "Blessed",
             "Queer", "Sour", "Cunning", "Hairy", "Broken", "Bloody", "Late", // adjective titles
-            "Conqueror", "Wolf", "Fool", "Iron", "Worm", "Bull", "Kingswood", "Sword", "Nymeros", "Wife", "Bar" // miscellaneous
+            "Conqueror", "Wolf", "Fool", "Iron", "Worm", "Bull", "Kingswood", "Sword", "Nymeros", "Wife",
+            "Bar", "Dornish", "Dornishman" // miscellaneous
     ));
 
     // Words that are sometimes placed between first and last names
@@ -73,6 +74,7 @@ public class StormOfSwords {
         surnames.add("Merryweather");
         surnames.add("Mooton");
         surnames.add("Bulwer");
+        surnames.remove("Blackfish");
         Set<String> names = finder.getNamesBySurname(surnames);
         names.addAll(titledNames);
         Set<String> places = finder.getPlaces(names);
@@ -217,6 +219,8 @@ public class StormOfSwords {
         finder.combineGroups("Roslin Frey", "Lady Tully", "Roslin Tully");
         finder.combineGroups("Dontos Hollard", "Ser Fool");
         finder.combineGroups("Olenna Tyrell", "Queen of Thorns");
+        finder.combineGroups("Oberyn Martell", "Red Viper");
+        finder.combineGroups("Pello", "Greenbeard");
 
         // manually add important names that get missed
         names.add("Mance Rayder");
@@ -225,25 +229,53 @@ public class StormOfSwords {
         names.add("Lem");
         names.add("Grenn");
         names.add("Tom Sevenstrings");
-
+        names.add("Styr");
         names.add("Arstan");
+        names.add("Thoros");
         names.add("Craster");
         names.add("Donal Noye");
-        names.add("Qhorin Halfhand"); // note that in book one, his name was spelled "Quorin"
+        names.add("Tormund");
         names.add("Gilly");
+        names.add("Hot Pie");
+        names.add("Qhorin Halfhand"); // note that in book one, his name was spelled "Quorin"
         names.add("Belwas");
+        names.add("Salladhor Saan");
+        names.add("Anguy");
         names.add("Shae");
+        names.add("Chett");
+        names.add("Pyp");
+        names.add("Paul");
         names.add("Rattleshirt");
         names.add("Edd Tollett");
+        names.add("Harwin");
+        names.add("Bowen Marsh");
+        names.add("Walton");
+        names.add("Jarl");
+        names.add("Daario");
+        names.add("Satin");
+        names.add("Qyburn");
         names.add("Pycelle");
         names.add("Missandei");
         names.add("Nan");
+        names.add("Polliver");
         names.add("Rickon");
+        names.add("Harma");
+        names.add("Tickler");
         names.add("Irri");
+        names.add("Jack Bulwer");
+        names.add("Greenbeard");
         names.add("Owen");
-        names.add("Jhiqui");
         names.add("High Septon");
+        names.add("Lark");
+        names.add("Jhiqui");
+        names.add("Clydas");
+        names.add("Val");
+        names.add("Marillion");
+        names.add("Urswyck");
+        names.add("Rorge");
         names.add("Othell Yarwyck");
+        names.add("Bannen");
+
         names.add("Hobb");
         names.add("Varamyr");
         names.add("Baelor the Blessed");
@@ -295,9 +327,11 @@ public class StormOfSwords {
         names.remove("Wife");           // as Sansa
         names.remove("Aerion Brightfire");  // as Aerion Brightflame
         names.remove("Jon Darry");      // as Jonothor Darry
+        names.remove("Jaime Jaime");    // as Jaime Lannister
 
         names.remove("Soldier");        // a doll
         names.remove("Paramount");      // a generic title
+        names.remove("Rickard Stark");  // unused
         names.remove("Horn Hill");      // mistake
         names.remove("Maiden Fair");    // mistake
 

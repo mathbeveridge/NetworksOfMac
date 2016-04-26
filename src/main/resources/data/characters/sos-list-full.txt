@@ -22,6 +22,7 @@ Gregor,Gregor the Mountain,Mountain,Gregor Clegane,Ser Gregor,Gregor
 Hodor,Hodor
 Jorah,Jorah,Jorah Mormont,Ser Jorah
 Greywater,Greywater,Watch,Greywater Watch
+Oberyn,Red Viper,Oberyn,Viper,Oberyn Martell,Oberyn of Dorne,Oberyn Nymeros Martell,Prince Oberyn
 Ygritte,Ygritte
 Edmure,Edmure Tully,Lord Edmure,Ser Edmure,Edmure
 Lem,Lemoncloak,Lem,Lem Lemoncloak
@@ -38,7 +39,6 @@ Margaery,Lady Margaery,Margaery Tyrell,Margaery,Queen Margaery
 Walder Frey,Walder Frey,Grandfather,Lord Walder,Lord Frey,Lord of the Crossing,Lord Grandfather
 Styr,Styr the Magnar,Magnar,Magnar of Thenn,Styr
 Jeor,Lord Mormont,Jeor Mormont,Old Bear,Commander Mormont,Jeor
-Oberyn,Oberyn,Oberyn Martell,Oberyn of Dorne,Oberyn Nymeros Martell,Prince Oberyn
 Arstan,Arstan,Whitebeard,Arstan Whitebeard
 Thoros,Myr,Thoros of Myr,Thoros
 Loras,Loras,Knight of Flowers,Ser Loras,Loras Tyrell
@@ -92,13 +92,12 @@ Dontos,Dontos the Fool,Dontos the Red,Ser Dontos,Hollard,Ser Fool,Dontos Hollard
 Greatjon,Greatjon Umber,Lord Umber,Greatjon
 Twins,The Twins,Twins
 Ghost,Ghost
+Brynden,Brynden Blackfish,Blackfish,Ser Brynden,Brynden,Brynden Tully
 Daario,Naharis,Daario,Daario Naharis
-Dornish,Dornish Marches,Warden of the West,Warden of the Southern Marches,Warden,Warden of the North,West,Dilly,Southern,Marches,Dornish,Dornish Dilly,Warden of the East
 Satin,Satin
 Alliser,Alliser Thorne,Ser Alliser,Alliser
 Roslin,Roslin,Roslin Tully,Lady Tully,Lady Roslin,Roslin Frey
 Theon,Theon,Theon Greyjoy
-Dornishman,Dornishman,Dornishman Timeon,Timeon
 Qyburn,Qyburn
 Pycelle,Pycelle,Maester Pycelle
 Throne,Iron Throne,Throne
@@ -123,11 +122,10 @@ Tickler,Tickler
 Harma,Harma the Dogshead,Harma Dogshead,Harma,Dogshead
 Meryn,Meryn Trant,Meryn,Ser Meryn
 Wind,Wind,Grey Wind
-Viper,Red Viper,Viper
 Irri,Irri
 Jack,Jack Bulwer,Jack
 Boros,Boros Blount,Ser Boros,Boros
-Greenbeard,Greenbeard
+Pello,Greenbeard,Pello of Tyrosh,Pello
 End,End
 Pylos,Pylos,Maester Pylos
 Mummers,Bloody Mummers,Mummers
@@ -155,7 +153,6 @@ Urswyck,Urswyck the Faithful,Faithful,Urswyck,Faithful Urswyck
 Illyrio,Illyrio,Illyrio Mopatis,Mopatis,Magister Illyrio
 Rorge,Rorge
 Grazdan,Grazdan mo Ullhor,Grazdan mo Eraz,Grazdan the Great,Grazdan
-Brynden,Brynden Blackfish,Ser Brynden,Brynden,Brynden Tully
 Moat,Moat,Cailin,Moat Cailin
 Masters,Masters,Wise Masters,Good Masters,Great Masters
 Othell,Othell,Othell Yarwyck,Yarwyck
@@ -281,6 +278,7 @@ Black Walder,Black Walder
 Wendel,Wendel,Wendel Manderly,Ser Wendel
 Emmett,Emmett,Iron Emmett
 Errok,Errok
+Warden,Warden of the West,Dornish Marches,Warden of the Southern Marches,Warden,Warden of the North,West,Southern,Marches,Warden of the East
 Torrhen,Torrhen,King Torrhen,Torrhen Stark
 Rainy,Rainy,Rainy Day,Name Day Boy,Day,Name
 Great Hall,Great Hall
@@ -583,6 +581,7 @@ Off,Off
 Arson,Iceaxe,Arson,Arson Iceaxe
 Wenda,Wenda the White Fawn,Fawn,Wenda,White Fawn
 Stone Crows,Stone Crows
+Timeon,Dornishman Timeon,Timeon
 Lord Manderly,Lord Manderly
 Seastone,Seastone Chair,Seastone,Chair
 Old Pate,Old Pate
@@ -784,6 +783,7 @@ Wulls,Wulls
 Silveraxe,Silveraxe
 Tor,Tor
 Marcher,Marcher
+Dilly,Dilly,Dornish Dilly
 Lord Piper,Lord Piper
 Heartsbane,Heartsbane
 Mullin,Maester Mullin,Mullin
@@ -1201,7 +1201,6 @@ Lemon,Lemon
 Kennos,Kennos,Ser Kennos
 Ramsford,Ramsford
 Mycahs,Mycahs
-Pello,Pello of Tyrosh,Pello
 North of the Wall,North of the Wall
 Reeds of the Neck,Reeds of the Neck
 Lucias,Vypren,Lucias,Lucias Vypren

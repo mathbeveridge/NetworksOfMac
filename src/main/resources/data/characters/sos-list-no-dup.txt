@@ -20,6 +20,7 @@ Petyr,Baelish,Littlefinger,Petyr
 Gregor,Mountain,Gregor
 Hodor,Hodor
 Jorah,Jorah
+Oberyn,Oberyn,Viper
 Ygritte,Ygritte
 Edmure,Edmure
 Lem,Lemoncloak,Lem
@@ -32,9 +33,10 @@ Meera,Meera
 Tom,Sevenstrings,Tom,Sevensons
 Jojen,Jojen
 Margaery,Margaery
-Oberyn,Oberyn
+Styr,Magnar,Styr
 Jeor,Lord Mormont,Old Bear,Commander Mormont,Jeor
 Arstan,Arstan,Whitebeard
+Thoros,Myr,Thoros
 Loras,Loras,Knight of Flowers
 Craster,Craster
 Melisandre,Melisandre
@@ -42,23 +44,30 @@ Bronn,Bronn
 Varys,Varys,Spider
 Aemon,Aemon
 Donal,Noye,Donal
+Tormund,Giantsbane,Crowlover,Giantsbabe,Tormund,Thunderfist
 Aerys,Mad King,Scab,Aerys
 Gilly,Gilly
 Roose,Roose,Lord of the Dreadfort,Lord Bolton
+Pie,Pie
 Renly,Renly
 Qhorin,Halfhand,Qhorin
+Salladhor,Saan,Salla,Salladhor
 Belwas,Belwas
 Cleos,Cleos
+Anguy,Archer,Anguy
 Shae,Shae
 Kevan,Kevan
+Chett,Chett
 Mace,Mace,Puff,Lord Tyrell
 Puff,Mace,Puff,Lord Tyrell
 Merrett,Muttonhead,Merrett
+Pyp,Pyp
 Hoster,Hoster,Lord of Riverrun,Lord Tully
 Vargo,Vargo,Hoat
 Tommen,Tommen
 Podrick,Pod,Podrick
 Rhaegar,Rhaegar
+Paul,Paul
 Axell,Axell
 Jeyne,Jeyne
 Rattleshirt,Lord of Bones,Rattleshirt
@@ -66,15 +75,24 @@ Lothar,Lame,Lothar
 Edd,Tollett,Edd,Dolorous
 Kraznys,Kraznys
 Janos,Lord Slynt,Janos
+Harwin,Harwin
+Walton,Steelshanks,Walton
+Bowen,Bowen,Marsh
+Jarl,Jarl
 Greatjon,Lord Umber,Greatjon
 Dontos,Hollard,Ser Fool,Dontos
+Brynden,Blackfish,Brynden
+Daario,Naharis,Daario
+Satin,Satin
 Alliser,Alliser
 Roslin,Roslin,Lady Tully
+Qyburn,Qyburn
 Theon,Theon
 Pycelle,Pycelle
 Missandei,Missandei
 Viserys,Viserys
 Nan,Nan
+Polliver,Polliver
 Addam,Addam
 Barristan,Barristan
 Elia,Elia
@@ -86,23 +104,32 @@ Olenna,Olenna,Queen of Thorns
 Rickon,Rickon
 Cotter,Cotter
 Meryn,Meryn
+Harma,Harma,Dogshead
+Tickler,Tickler
 Irri,Irri
 Boros,Boros
+Greenbeard,Greenbeard,Pello
 Jack,Jack
 Pylos,Pylos
 Osmund,Osmund
 Owen,Owen,Oaf
 Lollys,Lollys,Stokeworth
+Lark,Sisterman,Lark
 Jhiqui,Jhiqui
 Ryman,Ryman
 Alayne,Alayne
+Clydas,Clydas
 Garlan,Greensick,Garlan,Gallant,Gargoyle,Galling
+Val,Val
 Arthur,Sword of the Morning,Arthur
+Marillion,Marillion
 Ilyn,Ilyn
+Urswyck,Faithful,Urswyck
 Illyrio,Illyrio,Mopatis
+Rorge,Rorge
 Grazdan,Grazdan
-Brynden,Brynden
 Othell,Othell,Yarwyck
+Bannen,Bannen
 Drogo,Drogo
 Alester,Lord Florent,Alester
 Hobb,Hobb,Finger
