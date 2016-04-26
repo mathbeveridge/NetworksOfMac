@@ -182,7 +182,6 @@ Moat,Moat,Cailin,Moat Cailin
 Stiv,Stiv
 Othor,Othor
 Lord Karstark,Lord Karstark
-Eastwatch,Eastwatch
 Jason,Jason Mallister,Lord Jason,Jason
 Lyn,Lyn,Lyn Corbray
 Wendel,Wendel,Wendel Manderly,Ser Wendel
@@ -198,7 +197,7 @@ Hal,Hal,Hal Mollen
 Balerion,Balerion,Black Dread,Balerion the Black Dread,Dread
 Vale of Arryn,Vale of Arryn
 Tytos Blackwood,Tytos Blackwood,Lord Blackwood,Lord Tytos
-Finger,Finger Hobb,Hobb,Finger
+Three-Finger,Three-Finger Hobb,Hobb,Three-Finger
 Randyll,Randyll,Lord Randyll,Randyll Tarly
 Harys,Harys,Harys Swyft,Swyft,Ser Harys
 Bronze,Bronze,Bronze Yohn,Yohn Royce,Yohn,Bronze Yohn Royce
@@ -221,7 +220,6 @@ Whispering,Whispering Wood,Whispering Woods,Whispering
 Helman,Helman,Helman Tallhart
 Western,Western,Western Market
 Lord Steward,Lord Steward
-Horas,Ser Horror,Horror,Horas Redwyne,Horas,Ser Horas
 Jafer,Jafer,Jafer Flowers
 Jade,Jade Sea,Jade
 Shella,Shella Whent,Lady Shella,Shella,Lady Whent
@@ -235,6 +233,7 @@ Late,Late,Late Lord Frey
 Robett,Robett,Robett Glover
 Warden of the West,Warden of the West
 Elia,Princess Elia,Elia of Dorne,Elia Martell,Elia
+Horas,Ser Horror,Horror,Horas Redwyne,Horas,Ser Horas
 Willem,Willem,Ser Willem,Willem Darry
 Water,Water,Water Gate,Water Tower
 Crakehall,Lord Crakehall,Crakehall
@@ -294,6 +293,7 @@ Warden of the East,Warden of the East
 Isle,Isle,Isle of Faces
 High Steward,High Steward
 Naerys,Naerys,Queen Naerys
+Eye,Eye,Gods Eye
 Lord Hornwood,Lord Hornwood
 Martyn Cassel,Martyn Cassel
 Vargo,Vargo,Hoat,Vargo Hoat
@@ -308,7 +308,6 @@ Histories,Histories,Histories of the Great
 Lord Tyrell,Lord Tyrell
 Harren,Black Harren,Harren
 Lann,Lann,Clever,Lann the Clever
-Gods Eye,Gods Eye
 Warden of the North,Warden of the North
 Jogos,Jogos,Jogos Nhai,Nhai
 Robin,Flint,Robin,Robin Flint

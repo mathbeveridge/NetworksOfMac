@@ -40,8 +40,8 @@ Varamyr,Sixskins,Lump,Threeskins,Varamyr
 Yezzan,Yellowbelly,Yezzan
 Rhaegar,Rhaegar
 Samwell,Slayer,Sam,Samwell
-Tommen,Tommen,Grace
 Missandei,Missandei
+Tommen,Tommen,Grace
 Belwas,Belwas
 Tattered,Tatters,Tattered,Rags
 Justin,Justin
@@ -61,9 +61,9 @@ Worm,Worm
 Meris,Meris
 Xaro,Daxos,Xhoan,Xaro
 Yandry,Yandry
-Joffrey,Joffrey,Joff
 Varys,Varys,Spider
 Harry,Harry
+Joffrey,Joffrey,Joff
 Jhiqui,Jhiqui
 Jojen,Jojen
 Doran,Doran
@@ -83,6 +83,7 @@ Barbrey,Barbrey,Dustin
 Arnolf,Arnolf
 Axell,Axell
 Gregor,Mountain,Gregor
+Hagen,Horn,Hagen
 Holly,Holly
 Myrcella,Myrcella
 Rowan,Rowan
@@ -124,9 +125,10 @@ Cletus,Cletus
 Shireen,Shireen
 Sansa,Sansa,Lannister
 Septon
+Hobb,Hobb,Three-Finger
 Barsena,Barsena,Blackhair
 Hosteen,Hosteen
-Hobb,Hobb,Finger
+Damon,Damon,Dance-for-Me
 Weeper,Weeper
 Aeron,Damphair,Aeron
 Coldhands,Coldhands
@@ -135,10 +137,8 @@ Dagon,Dagon,Drunkard
 Harwood,Harwood,Stout,Fell
 Patrek,Patrek
 Archibald,Archibald
-Damon,Damon
 Hugh,Hugh,Hungerford
 Rhaegal,Rhaegal
-Hagen,Hagen
 Benerro,Benerro
 Franklyn,Franklyn
 Rakharo,Rakharo
@@ -238,12 +238,12 @@ Rodrik,Cassel,Rodrik
 Daeron,Daeron
 Morgan,Morgan,Middle
 Nyessos,Nyessos
+Wobblecheeks,Great-hearted,Wobblecheeks,Ghazdor
 Kedry,Kedry
 Wylla,Wylla
 Rhaenys,Rhaenys
 Willam,Willam,Dustin
 Luwin,Luwin
-Wobblecheeks,Wobblecheeks,Ghazdor
 Quenton,Quenton
 Longwater,Longwater
 Pono,Pono

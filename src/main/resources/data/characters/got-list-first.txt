@@ -138,7 +138,7 @@ Randyll,Randyll
 Alyssa,Alyssa
 Tytos,Blackwood,Tytos
 Yohn,Bronze,Yohn
-Hobb,Hobb,Finger
+Hobb,Hobb,Three-Finger
 Harys,Harys,Swyft
 Wylis,Wylis
 Robar,Robar
@@ -146,13 +146,13 @@ Malleon,Malleon
 Jonos,Jonos,Bracken
 Jhaqo,Jhaqo
 Shella,Whent,Shella
-Horas,Horror,Horas
 Helman,Helman
 Cotter,Pyke,Cotter
 Jafer,Jafer
 Flement,Flement
 Crakehall,Crakehall
 Perwyn,Perwyn
+Horas,Horror,Horas
 Arys,Arys
 Willem,Willem
 Jared,Jared

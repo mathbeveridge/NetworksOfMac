@@ -281,7 +281,6 @@ Elbert,Elbert
 Lymond,Lymond,Vikary
 Mott,Mott
 Erryk,Erryk
-Symeon,Symeon
 Donnor,Donnor
 Malcolm,Malcolm
 Cregan,Cregan

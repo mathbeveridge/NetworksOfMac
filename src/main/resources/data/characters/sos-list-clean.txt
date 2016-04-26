@@ -52,7 +52,7 @@ Roose Bolton,Roose,Lord of the Dreadfort,Lord Bolton
 Gilly,Gilly
 Hot Pie,Pie
 Renly Baratheon,Renly
-Qhorin Halfhand,Halfhand,Qhorin
+Qhorin Halfhand,Half-hand,Halfhand,Qhorin
 Cleos Frey,Cleos
 Belwas,Belwas
 Salladhor Saan,Saan,Salla,Salladhor
@@ -110,7 +110,6 @@ Tickler,Tickler
 Irri,Irri
 Boros Blount,Boros
 Greenbeard,Greenbeard,Pello
-Jack Bulwer,Jack
 Pylos,Pylos
 Owen,Owen,Oaf
 Osmund Kettleblack,Osmund
@@ -128,6 +127,7 @@ Marillion,Marillion
 Ilyn Payne,Ilyn
 Urswyck,Faithful,Urswyck
 Illyrio Mopatis,Illyrio,Mopatis
+Hobb,Hobb,Three-Finger
 Grazdan mo Ullhor,Grazdan
 Rorge,Rorge
 Grazdan mo Eraz,Grazdan
@@ -135,18 +135,18 @@ Othell Yarwyck,Othell,Yarwyck
 Bannen,Bannen
 Alester Florent,Lord Florent,Alester
 Drogo,Drogo
-Hobb,Hobb,Finger
 Jon Arryn,Jon Arryn,Lord Arryn
 Doran Martell,Doran
 Jason Mallister,Lord Mallister,Lord of Seagard,Jason
 Myrcella,Myrcella
 Desmond Grell,Desmond
 Jinglebell Frey,Jinglebell
+Fair Walda,Maiden,Fair
 Balon Greyjoy,King Balon,Balon Greyjoy,Lord Balon
 Ben Plumm,Ben Plumm,Brown Ben
-Randyll Tarly,Lord Tarly,Randyll
 Varamyr,Sixskins,Varamyr
 Maegor,Maegor
+Randyll Tarly,Lord Tarly,Randyll
 Petyr Pimple,Pimple
 Paxter Redwyne,Lord Redwyne,Paxter
 Benjen Stark,Benjen,Ben Stark
@@ -188,6 +188,7 @@ Rolph Spicer,Rolph
 Ardrian Celtigar,Ardrian,Celtigar
 Raynald Westerling,Raynald
 Elinor Tyrell,Elinor
+Jack Bulwer,Jack
 Galbart Glover,Galbart
 Emmett,Emmett
 Torrhen Stark,Torrhen
@@ -238,7 +239,6 @@ Patchface,Patchface
 Perwyn Frey,Perwyn
 Selwyn,Evenstar,Selwyn,Lord of Evenfall
 Kyle Condon,Kyle,Condon
-Fair Walda,Fair Walda
 Aerion Brightflame,Brightfire,Aerion,Brightflame
 Sumner Crakehall,Sumner
 Tristifer,Fifth,Tristifer
@@ -258,13 +258,12 @@ Ronnel Stout,Ronnel
 Xaro Xhoan Daxos,Daxos,Xhoan,Xaro
 Shagga,Shagga
 Osfryd,Osfryd
-Timett,Timett
 Danwell Frey,Danwell
 Alyx Frey,Alyx
 Ryam Redwyne,Ryam
 Osney Kettleblack,Osney
 Mordane,Mordane
-Duncan,Tall,Duncan
+Timett,Timett,One-Eye
 Byam,Byam
 Cley Cerwyn,Lord Cerwyn,Cley
 Frenken,Frenken
@@ -285,4 +284,5 @@ Ashara Dayne,Ashara
 Lynesse Hightower,Lynesse
 Arron Qorgyle,Arron
 Tobho Mott,Mott,Tobho
+Duncan,Tall,Duncan
 Daven Lannister,Daven

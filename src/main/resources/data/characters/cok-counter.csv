@@ -5,7 +5,7 @@ Jon,401
 Theon,379
 Stannis,297
 Sansa,281
-Joffrey,255
+Joffrey,252
 Catelyn,252
 Renly,243
 Cersei,204
@@ -21,9 +21,9 @@ Hodor,124
 Yoren,124
 Harrenhal,107
 Landing,104
-Wall,96
 Brienne,96
 Gendry,94
+Wall,93
 Do,91
 Well,90
 Mormont,89
@@ -44,7 +44,6 @@ Lommy,70
 Hound,70
 Watch,69
 Lord Tywin,69
-All,67
 Luwin,65
 Qhorin,65
 Summer,65
@@ -62,6 +61,7 @@ Tommen,50
 Hot Pie,50
 Asha,49
 Ned,46
+All,46
 Lord Stannis,46
 Night,44
 Xaro,44
@@ -508,7 +508,6 @@ High Hill,6
 Kettleblack,6
 Lorch,6
 Fossoways,6
-Eastwatch,6
 Aeron Damphair,6
 White Hart,6
 Lady Lysa,6
@@ -619,7 +618,6 @@ Harra,5
 Emmon,5
 Beauty,5
 Lord Beric,5
-Battle,5
 Betha,5
 Euron,5
 Desmond Grell,5
@@ -697,6 +695,7 @@ Ser Helman,4
 Lord Celtigar,4
 Barracks Hall,4
 Tower of Ghosts,4
+Battle,4
 Maester Frenken,4
 Crakehall,4
 Tyrek,4
@@ -829,7 +828,6 @@ Arstan Whitebeard,2
 Lady Sansa,2
 Light,2
 Mud Pie,2
-Eyes,2
 Marya,2
 Drowned,2
 Mark Mullendore,2
@@ -887,7 +885,6 @@ Lord Tytos,2
 Garlan Tyrell,2
 Hallis Mollen,2
 Davos of Flea Bottom,2
-Steel,2
 Red Messenger,2
 Tollett,2
 Last River,2
@@ -1073,7 +1070,6 @@ Master Mott,1
 Symon,1
 Benjen the Bitter,1
 Raventree Hall,1
-Eyed Maid,1
 Old Valyria,1
 Jogos Nhai,1
 Lord Jast,1
@@ -1118,6 +1114,7 @@ Robert the Usurper,1
 Volantis,1
 Poul Pemford,1
 Savior of the City,1
+Lothor Apple-Eater,1
 Wisdom Pollitor,1
 Minisa Tully,1
 Starks of Winterfell,1
@@ -1160,7 +1157,6 @@ Lord of Brightwater,1
 Joffrey the Illborn,1
 Summer Sun,1
 Lord of Riverrun,1
-Symeon Star,1
 Lorath,1
 Crowfood,1
 Lady Mormont,1
@@ -1175,6 +1171,7 @@ Wylis,1
 Red Ronnet,1
 Lord Meadows,1
 Wisdom Munciter,1
+Steel,1
 Son,1
 Lord Crakehall,1
 Galley White Hart,1
@@ -1272,7 +1269,6 @@ Walton the Moon King,1
 East,1
 Kitchen Keep,1
 Jhaqo,1
-All of Winterfell,1
 Doran,1
 Rickard Stark,1
 Elbert Arryn,1
@@ -1299,7 +1295,9 @@ Bronze Yohn,1
 Paramount of the Trident,1
 Jaehaerys,1
 Edrick Snowbeard,1
+Sloe-Eyed Maid,1
 Warden of the North,1
+Symeon Star-Eyes,1
 Bitch,1
 Mo,1
 Khal Jhaqo,1
@@ -1309,7 +1307,6 @@ Hot Hearts,1
 Waymar Royce,1
 Trident Three,1
 Lannisters of Casterly Rock,1
-Urrathon Night,1
 Frozen Shore,1
 Lumpyhead Rabbitkiller,1
 Santagar,1
@@ -1336,6 +1333,7 @@ South of the Blackwater,1
 Ti,1
 Ser Jon,1
 Lord of Greywater,1
+Urrathon Night-Walker,1
 Will Shaggydog,1
 Selyse Florent,1
 Free,1
@@ -1371,7 +1369,6 @@ Valyrian of the Nine Free Cities,1
 Lady Greyjoy,1
 Lady Lynesse,1
 Castle Cerwyn,1
-Lothor Apple,1
 Egon Emeros the Exquisite,1
 Vaes Dothrak,1
 Ser Willem,1
@@ -1428,7 +1425,6 @@ Rushing Falls,1
 Myrcella Baratheon,1
 Magister Manolo,1
 Benjen the Sweet,1
-All King,1
 Mopatis,1
 Arya of Winterfell,1
 Monstrous,1
@@ -1443,7 +1439,6 @@ High Valyrian,1
 Keepers of the Keys,1
 Own Hand,1
 Alfyn,1
-Eater,1
 Guild of Spicers,1
 Field of Fire,1
 Goodbrother of Great Wyk,1
@@ -1517,17 +1512,16 @@ Barracks,0
 Saathos,0
 Reaper,0
 Dermot,0
-Eyed,0
 Kiss,0
 Vaes,0
 Helman,0
+Eyes,0
 Goodbrother,0
 Flour,0
 Ardent,0
 Fork,0
 Reeking,0
 Age,0
-Apple,0
 Peckledon,0
 Ford,0
 Whispering,0
@@ -1663,6 +1657,7 @@ Claw,0
 Edwyle,0
 Laughing,0
 Naerys,0
+Sloe-Eyed,0
 Drumm,0
 Bronze,0
 Rainwood,0
@@ -1729,6 +1724,7 @@ Lew,0
 Keepers,0
 Stag,0
 Star,0
+Star-Eyes,0
 Jafer,0
 Wylde,0
 Sandor,0
@@ -1757,6 +1753,7 @@ Brightwater,0
 Evenfall,0
 Gynir,0
 Spirit,0
+Night-Walker,0
 Pigrun,0
 Falls,0
 Jade,0
@@ -1819,6 +1816,7 @@ Snowbeard,0
 Daven,0
 Hills,0
 Steelshanks,0
+Eater,0
 Jarmen,0
 Painted,0
 Golden,0
@@ -1838,6 +1836,7 @@ Casterly,0
 Roost,0
 Hallis,0
 Duur,0
+Apple-Eater,0
 Poole,0
 Roose,0
 Ear,0
@@ -1864,4 +1863,4 @@ Eddison,0
 Paramount,0
 Protector,0
 
-1865
+1864

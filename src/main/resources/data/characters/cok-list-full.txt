@@ -24,8 +24,8 @@ Tywin,Lord of Casterly Rock,Tywin Lannister,Lord Tywin,Tywin
 Brienne,Beauty,Brienne,Brienne of Tarth,Brienne the Blue,Brienne the Beauty,Lady Brienne
 Landing,Landing
 Luwin,Maester Luwin,Luwin
-Wall,Wall
 Gendry,Gendry
+Wall,Wall
 Do,Do
 Well,Well
 Sandor,Sandor Clegane,Sandor,Hound
@@ -43,7 +43,6 @@ By,By
 Craster,Craster
 Watch,Red Watch,Watch,Commander of the City Watch
 Xaro,Daxos,Xhoan,Xaro Xhoan Daxos,Xhoan Daxos,Xaro
-All,All,All of Winterfell,All King
 Jorah,Jorah,Jorah Mormont,Ser Jorah
 Weese,Weese
 Osha,Osha
@@ -63,6 +62,7 @@ Will,Shaggydog,Will the Asshai,Will Shaggydog,Will
 Asha,Asha
 Amory,Ser Amory,Amory Lorch,Amory
 Mandon,Mandon Moore,Ser Mandon,Mandon
+All,All
 Loras,Loras,Knight of Flowers,Ser Loras,Loras Tyrell
 Cortnay,Cortnay,Cortnay Penrose,Ser Cortnay
 Gregor,Gregor Clegane,Mountain,Ser Gregor,Gregor
@@ -266,7 +266,6 @@ Burned,Burned Tower,Burned
 Cuy,Ser Emmon,Cuy,Emmon Cuy
 Robett,Robett,Robett Glover
 Smith,Smith
-Battle,Battle of the Blackwater,Battle of the Camps,Battle
 Sigrin,Sigrin,Sigrin the Shipwright
 Skirling,Pass,Skirling,Skirling Pass
 Ottyn,Ser Ottyn,Ottyn Wythers,Ottyn
@@ -296,9 +295,11 @@ Cutjack,Cutjack
 Axell,Axell,Axell Florent,Ser Axell
 Dobber,Dobber
 Pia,Pia
+Battle,Battle of the Blackwater,Battle of the Camps,Battle
 Elmar,Elmar,Elmar Frey
 Matthos,Matthos
 Rhaegal,Rhaegal
+Sloe-Eyed,Qarl the Maid,Sloe-Eyed Maid,Sloe-Eyed,Maid,Qarl
 Halfman,Halfman
 Harlaw,Harlaw
 Helman,Ser Helman,Helman,Helman Tallhart
@@ -312,7 +313,6 @@ Frenken,Frenken,Maester Frenken
 Hobber,Ser Hobber,Hobber,Hobber Redwyne
 Hal,Hal,Hal Mollen
 Smiler,Smiler
-Qarl,Eyed,Qarl the Maid,Maid,Qarl,Eyed Maid
 Galley,Galley White Hart,Hart,White Hart,Galley
 Wraith,Wraith
 Tourmaline,Tourmaline Brotherhood,Brotherhood,Tourmaline
@@ -357,15 +357,14 @@ Tumblestone,Tumblestone
 Todric,Todric
 High Hill,High Hill
 Garlan,Ser Garlan,Garlan Tyrell,Garlan,Gallant,Garlan the Gallant
-Lothor,Lothor Brune,Apple,Lothor Apple,Lothor,Brune
 Jalabhar,Jalabhar,Jalabhar Xho,Xho
 Run,Run
 Burton,Burton,Lord Crakehall,Crakehall,Burton Crakehall
+Lothor,Lothor Brune,Lothor,Lothor Apple-Eater,Brune,Apple-Eater
 Paxter,Paxter Redwyne,Lord Paxter,Paxter
 Seaswift,Seaswift
 Deepwood,Motte,Glover of Deepwood Motte,Deepwood
 Broken,Nose,Broken Nose,Anvil,Broken Anvil,Broken Arm,Arm,Broken
-Eastwatch,Eastwatch
 Name,Name
 Kingslander,Kingslander
 Jonos,Lord Jonos,Jonos,Bracken,Jonos Bracken
@@ -515,12 +514,12 @@ Heart,Heart,Heart of Fire
 Selwyn,Evenstar,Selwyn,Selwyn the Evenstar
 Karyl,Karyl,Karyl Vance
 Bronze,Bronze,Bronze Yohn,Yohn,Bronze Yohn Royce
-Bleeding,Bleeding Star,Bleeding
 Jast,Lord Jast,Jast
 Pisswater,Bend,Pisswater Bend,Pisswater
 Harbert,Harbert,Ser Harbert
 Sowbelly,River Row,Sowbelly,Sowbelly Row,Row
 Claw,Red Claw,Claw
+Bleeding,Bleeding Star,Star,Bleeding
 Fever,Fever River,Fever
 Brown,Brown,Brown Bernarr,Bernarr
 Greyjoy of Pyke,Greyjoy of Pyke
@@ -534,7 +533,6 @@ Ronnet,Ronnet,Red Ronnet
 Tanton,Tanton,Ser Tanton
 Symon,Symon Silver,Symon
 Alyn,Alyn Stackspear,Stackspear,Alyn
-Blind,Blind,Sybassion,Blind Sybassion the Eater,Eater
 Josmyn,Peckledon,Josmyn,Josmyn Peckledon
 Edwyn,Edwyn,Edwyn the Spring King
 Black Ear,Black Ear
@@ -603,6 +601,7 @@ Horn,Horn,Horn of Winter
 Old Gate,Old Gate
 City of Bones,City of Bones
 Arthur,Arthur,Arthur Dayne
+Symeon,Symeon,Star-Eyes,Symeon Star-Eyes
 Emmon Frey,Emmon Frey
 Bonifer,Bonifer the Good,Bonifer
 White Sword,White Sword
@@ -624,7 +623,6 @@ Morosh,Morosh,Morosh the Myrman,Myrman
 Jonnel,Jonnel,Lord Jonnel
 Lord Whent,Lord Whent
 Deremond,Lord Deremond,Deremond
-Symeon,Symeon,Symeon Star
 Sickness,Sickness,Spring Sickness
 Whoremonger,Whoremonger King,Whoremonger
 Jogos,Jogos,Jogos Nhai,Nhai
@@ -663,6 +661,7 @@ Lorn,Lorn,Lorn Point
 Poul,Poul,Poul Pemford,Pemford
 Brafe,Brafe,Brafe Companions
 Old Valyria,Old Valyria
+Blind,Blind,Sybassion,Blind Sybassion the Eater,Eater
 Lothston,Lord Lothston,Lothston
 Starks Harrenhal,Starks Harrenhal
 River King,River King
@@ -677,12 +676,12 @@ Vayon,Vayon Poole,Vayon
 High Valyrian,High Valyrian
 Silken,Silken,Spirit,Silken Spirit
 Arnell,Ser Arnell,Arnell
-Urrathon,Urrathon,Urrathon Night
 Kitchen,Kitchen Keep,Kitchen
 Mooton,Mooton,Lord Mooton
 Library,Library,Library Tower
 Laughing,Laughing,Laughing Lord
 Daughterless,Daughterless,Brandon the Daughterless
+Urrathon,Urrathon,Night-Walker,Urrathon Night-Walker
 Beggar,Beggar,Beggar King
 King of the Trident,King of the Trident
 Wendello,Qar,Deeth,Wendello Qar Deeth,Wendello

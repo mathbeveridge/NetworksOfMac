@@ -139,7 +139,7 @@ Yohn Royce,Bronze,Yohn
 Tytos Blackwood,Tytos Blackwood,Lord Blackwood,Lord Tytos
 Alyssa Arryn,Alyssa
 Harys Swyft,Harys,Swyft
-Hobb,Hobb,Finger
+Hobb,Hobb,Three-Finger
 Randyll Tarly,Randyll
 Jonos Bracken,Lord Bracken,Jonos
 Torrhen Karstark,Torrhen
@@ -151,7 +151,6 @@ Cotter Pyke,Pyke,Cotter
 Jafer Flowers,Jafer
 Flement Brax,Flement
 Helman Tallhart,Helman
-Horas Redwyne,Horror,Horas
 Shella Whent,Shella,Lady Whent
 Elia Martell,Elia
 Robett Glover,Robett
@@ -163,6 +162,7 @@ Danwell Frey,Danwell
 Perwyn,Perwyn
 Balon Greyjoy,Balon Greyjoy
 Hugh,Hugh
+Horas Redwyne,Horror,Horas
 Hobber,Hobber,Slobber
 Tanda,Tanda
 Daryn Hornwood,Daryn

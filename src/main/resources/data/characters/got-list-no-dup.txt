@@ -132,7 +132,7 @@ Donnel,Donnel
 Arthur,Arthur
 Randyll,Randyll
 Alyssa,Alyssa
-Hobb,Hobb,Finger
+Hobb,Hobb,Three-Finger
 Yohn,Bronze,Yohn
 Harys,Harys,Swyft
 Wylis,Wylis
@@ -144,7 +144,6 @@ Torrhen,Torrhen
 Cotter,Pyke,Cotter
 Jafer,Jafer
 Flement,Flement
-Horas,Horror,Horas
 Shella,Shella,Lady Whent
 Helman,Helman
 Jared,Jared
@@ -152,6 +151,7 @@ Crakehall,Crakehall
 Robett,Robett
 Elia,Elia
 Perwyn,Perwyn
+Horas,Horror,Horas
 Arys,Arys
 Hugh,Hugh
 Danwell,Danwell

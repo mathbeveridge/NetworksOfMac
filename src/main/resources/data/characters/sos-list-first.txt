@@ -50,8 +50,8 @@ Aerys,Scab,Aerys
 Roose,Roose,Bolton
 Gilly,Gilly
 Pie,Pie
+Qhorin,Half-hand,Halfhand,Qhorin
 Renly,Renly
-Qhorin,Halfhand,Qhorin
 Salladhor,Saan,Salla,Salladhor
 Belwas,Belwas
 Cleos,Cleos
@@ -108,7 +108,6 @@ Cotter,Cotter
 Irri,Irri
 Boros,Boros
 Greenbeard,Greenbeard,Pello
-Jack,Jack
 Pylos,Pylos
 Owen,Owen,Oaf
 Osmund,Osmund
@@ -126,12 +125,12 @@ Marillion,Marillion
 Ilyn,Ilyn
 Urswyck,Faithful,Urswyck
 Illyrio,Illyrio,Mopatis
+Hobb,Hobb,Three-Finger
 Rorge,Rorge
 Grazdan,Grazdan
 Othell,Othell,Yarwyck
 Bannen,Bannen
 Alester,Florent,Alester
-Hobb,Hobb,Finger
 Drogo,Drogo
 Doran,Doran
 Jon,Jon,Arryn
@@ -140,12 +139,13 @@ Myrcella,Myrcella
 Desmond,Desmond
 Ben,Ben
 Jinglebell,Jinglebell
+Fair,Fair,Maiden
 Varamyr,Sixskins,Varamyr
 Maegor,Maegor
-Randyll,Randyll,Tarly
 Paxter,Paxter,Redwyne
 Benjen,Benjen,Ben
 Petyr,Pimple,Petyr
+Randyll,Randyll,Tarly
 Baelor,Baelor
 Balon,Balon
 Selyse,Selyse
@@ -183,6 +183,7 @@ Galbart,Galbart
 Raynald,Raynald
 Rolph,Rolph
 Smalljon,Smalljon
+Jack,Jack
 Torrhen,Torrhen
 Rhaegal,Rhaegal
 Cleon,Cleon
@@ -222,7 +223,6 @@ Mallador,Mallador
 Rhaenys,Rhaenys,Hill
 Robin,Robin
 Leonette,Leonette
-Fair,Fair
 Patchface,Patchface
 Perwyn,Perwyn
 Rodrik,Cassel,Rodrik
@@ -239,6 +239,7 @@ Ballabar,Ballabar
 Ramsay,Ramsay
 Kyle,Kyle,Condon
 Osfryd,Osfryd
+Timett,Timett,One-Eye
 Danwell,Danwell
 Jacelyn,Bywater,Jacelyn
 Jaehaerys,Jaehaerys,Conciliator
@@ -248,12 +249,10 @@ Ryam,Ryam
 Alyx,Alyx
 Jonos,Bracken,Jonos
 Shagga,Shagga
-Timett,Timett
 Raymun,Raymun,Redbeard
 Baelor,Breakwind,Brightsmile,Baelor
 Pyat,Pree,Pyat
 Mordane,Mordane
-Duncan,Tall,Duncan
 Byam,Byam
 Ronnel,Ronnel
 Patrek,Patrek
@@ -276,6 +275,7 @@ Temmo,Temmo
 Arron,Arron
 Genna,Genna
 Benfrey,Benfrey
+Duncan,Tall,Duncan
 Preston,Preston
 Jate,Jate
 Jon,Connington,Jon
@@ -296,14 +296,13 @@ Steffon,Steffon
 Helman,Helman
 Forley,Prester,Forley
 Spotted,Spotted
-Bethany,Bethany
+Bethany,Bethany,Fair-fingers
 Mikken,Mikken
 Euron,Euron
 Lymond,Lymond,Goodbrook
 Protector,Protector
 Ryswell,Ryswell
 Cortnay,Cortnay
-Indigo,Indigo
 Hunter,Hunter
 Myranda,Myranda
 Ermesande,Ermesande
@@ -357,7 +356,6 @@ Cedrik,Cedrik
 Rhaenyra,Rhaenyra
 Meredyth,Meredyth
 Dustin,Dustin
-Symeon,Symeon
 Botley,Botley
 Aemon,Aemon
 Merlon,Merlon
@@ -387,6 +385,7 @@ Rodrik,Rodrik
 Burton,Burton
 Belgrave,Belgrave
 Hobber,Hobber
+R-Randyll,R-Randyll
 Turquin,Turquin
 Danny,Danny
 Robert,Robert

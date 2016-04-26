@@ -751,7 +751,7 @@ public class CharacterFinder {
         boolean letters = true;
         for (int i = 0; i < line.length(); i++) {
             char c = line.charAt(i);
-            if (Character.isAlphabetic(c)) {
+            if (WordUtils.isWordCharacter(c)) {
                 if (sb == null) {
                     sb = new StringBuilder();
                 }

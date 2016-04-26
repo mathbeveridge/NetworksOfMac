@@ -82,7 +82,7 @@ public class Matrix {
         for (int i = 1; i < text.length() - 1; i++) {
             char c = text.charAt(i);
             Name primary = new Name();
-            boolean wordEnd = !Character.isAlphabetic(c) && Character.isAlphabetic(text.charAt(i - 1));
+            boolean wordEnd = !WordUtils.isWordCharacter(c) && WordUtils.isWordCharacter(text.charAt(i - 1));
             if (wordEnd) {
                 String context = search.toString();
                 for (String name : nameIndices.keySet()) {

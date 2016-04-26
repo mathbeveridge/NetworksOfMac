@@ -8,8 +8,12 @@ import java.util.Set;
  */
 public class WordUtils {
 
+    public static boolean isWordCharacter(char c) {
+        return c == '-' || Character.isAlphabetic(c);
+    }
+
     public static boolean isCapitalized(String word) {
-        return word.matches("[A-Z][a-z]+");
+        return word.matches("([A-Z][a-z-]+)+");
     }
 
     public static boolean containsWord(String input, String word) {

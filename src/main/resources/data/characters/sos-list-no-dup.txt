@@ -50,7 +50,7 @@ Gilly,Gilly
 Roose,Roose,Lord of the Dreadfort,Lord Bolton
 Pie,Pie
 Renly,Renly
-Qhorin,Halfhand,Qhorin
+Qhorin,Half-hand,Halfhand,Qhorin
 Salladhor,Saan,Salla,Salladhor
 Belwas,Belwas
 Cleos,Cleos
@@ -109,7 +109,6 @@ Tickler,Tickler
 Irri,Irri
 Boros,Boros
 Greenbeard,Greenbeard,Pello
-Jack,Jack
 Pylos,Pylos
 Osmund,Osmund
 Owen,Owen,Oaf
@@ -126,22 +125,23 @@ Marillion,Marillion
 Ilyn,Ilyn
 Urswyck,Faithful,Urswyck
 Illyrio,Illyrio,Mopatis
+Hobb,Hobb,Three-Finger
 Rorge,Rorge
 Grazdan,Grazdan
 Othell,Othell,Yarwyck
 Bannen,Bannen
 Drogo,Drogo
 Alester,Lord Florent,Alester
-Hobb,Hobb,Finger
 Doran,Doran
 Jason,Lord Mallister,Lord of Seagard,Jason
 Myrcella,Myrcella
 Desmond,Desmond
 Jinglebell,Jinglebell
+Fair,Maiden,Fair
 Varamyr,Sixskins,Varamyr
 Maegor,Maegor
-Randyll,Lord Tarly,Randyll
 Paxter,Lord Redwyne,Paxter
+Randyll,Lord Tarly,Randyll
 Benjen,Benjen,Ben Stark
 Baelor,Baelor
 Groleo,Groleo
@@ -177,6 +177,7 @@ Ardrian,Ardrian,Celtigar
 Andrew,Andrew
 Smalljon,Smalljon
 Elinor,Elinor
+Jack,Jack
 Emmett,Emmett
 Torrhen,Torrhen
 Rhaegal,Rhaegal
@@ -237,11 +238,10 @@ Ryam,Ryam
 Alyx,Alyx
 Shagga,Shagga
 Osfryd,Osfryd
-Timett,Timett
 Raymun,Raymun,Redbeard
 Pyat,Pree,Pyat
 Mordane,Mordane
-Duncan,Tall,Duncan
+Timett,Timett,One-Eye
 Danwell,Danwell
 Byam,Byam
 Ronnel,Ronnel
@@ -259,6 +259,7 @@ Genna,Genna
 Colemon,Colemon
 Benfrey,Benfrey
 Daven,Daven
+Duncan,Tall,Duncan
 Lynesse,Lynesse
 Cley,Lord Cerwyn,Cley
 Tobho,Mott,Tobho

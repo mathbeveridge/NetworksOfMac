@@ -2,7 +2,7 @@ Jon,672
 Tyrion,613
 Dany,391
 Grace,309
-Wall,294
+Wall,273
 Stannis,266
 Meereen,229
 Reek,226
@@ -53,7 +53,6 @@ Mormont,68
 Shavepate,68
 Meera,65
 Seven Kingdoms,62
-Eastwatch,61
 Missandei,60
 Iron Throne,60
 Robert,60
@@ -69,14 +68,15 @@ Sam,54
 Harpy,53
 Marsh,51
 Brazen Beasts,51
-Tommen,51
 Others,51
 Freys,51
+Tommen,50
 Ghiscari,49
 Lord Snow,49
 Dreadfort,49
 Yunkish,49
 Aegon,48
+Eastwatch,48
 Mance,48
 Slaver,47
 Kevan,47
@@ -113,11 +113,11 @@ Drowned,37
 Braavos,37
 Summer,37
 Kingsguard,37
-Blood,36
 Dragonstone,36
 Jhiqui,36
 Pyke,35
 Manderly,35
+Blood,34
 Wyman,34
 Lord of Light,34
 Belwas,34
@@ -141,9 +141,7 @@ Lannisters,32
 Hardhome,32
 Radiance,32
 Lord Wyman,32
-Too,32
 Euron,32
-Eye,31
 Deepwood Motte,31
 Satin,31
 Glover,31
@@ -156,11 +154,10 @@ Jojen,31
 Holly,30
 Oldtown,30
 Clydas,30
-Me,30
 Valyrian,30
+Eye,29
 Viserion,29
 Rowan,29
-Joffrey,29
 Lys,29
 Stormcrows,29
 Ysilla,28
@@ -168,7 +165,7 @@ Braavosi,28
 Astapori,28
 King Stannis,28
 New Ghis,28
-Baratheon,28
+Joffrey,28
 Barrowton,28
 Mully,27
 Ben,27
@@ -183,6 +180,7 @@ Volantene,26
 Haggon,26
 Tywin,26
 Tormund Giantsbane,26
+Baratheon,26
 Loraq,25
 Viserys,25
 Storm,25
@@ -193,7 +191,6 @@ Volantenes,24
 Varys,24
 Tyrell,24
 Myrcella,24
-Horse,24
 Ygritte,24
 Eddard Stark,23
 Daario Naharis,23
@@ -212,10 +209,12 @@ Massey,22
 Old Volantis,22
 Justin Massey,22
 Devan,22
+Horse,22
 Meris,21
 End,21
 Grey Worm,21
 Myrish,21
+King-Beyond-the-Wall,21
 Bloodbeard,21
 Yellow City,21
 High Holiness,21
@@ -276,6 +275,7 @@ Prince Rhaegar,17
 Maester Aemon,17
 Mountain,17
 Rhaegal,17
+She-Bear,17
 Strong Belwas,17
 Iron Emmett,17
 Ramsay Bolton,17
@@ -298,7 +298,6 @@ Karhold,16
 Tysha,16
 Hugor,16
 Sisterton,16
-Many,16
 Shireen,16
 Nightfort,16
 Skinner,16
@@ -309,7 +308,6 @@ Selaesori Qhoran,16
 Lyseni,15
 Qartheen,15
 Ser Balon,15
-Sit,15
 Tyene,15
 Symon Stripeback,15
 Iron Bank,15
@@ -355,8 +353,10 @@ Sire,13
 Tris Botley,13
 Septa Unella,13
 Squirrel,13
+Eastwatch-by-the-Sea,13
 Longclaw,13
 Tyrosh,13
+Hobb,13
 Ryswells,13
 Merchant,13
 Doran,13
@@ -379,7 +379,6 @@ Pretty Pig,12
 Dick Straw,12
 Ben Bones,12
 Square,12
-Damon Dance,12
 Cromm,12
 Cellador,12
 Dornishman,12
@@ -388,6 +387,7 @@ Great Hall,12
 Griffin,12
 Bittersteel,12
 Water Gardens,12
+Damon Dance-for-Me,12
 Pit,12
 Ser Justin,12
 Fire,12
@@ -420,7 +420,6 @@ Spotted Cat,11
 Marselen,11
 Davos Seaworth,11
 Norrey,11
-Hobb,11
 Nymeria,11
 Scolera,11
 Prince Doran,11
@@ -469,6 +468,7 @@ Hornwood,10
 Robb Stark,10
 Dywen,10
 Grief,10
+Many,10
 Patchface,10
 Scar,10
 Free,10
@@ -515,11 +515,11 @@ Blue Graces,9
 Magister Illyrio,9
 Kingslayer,9
 Shieldhall,9
+Too,9
 Oh,9
 Karstarks,9
 Long Lances,9
 Ryswell,9
-Hop,9
 Merman,9
 Shrouded Lord,9
 Drogo,9
@@ -536,6 +536,7 @@ Ser Godry,8
 Goghor the Giant,8
 Sand Snakes,8
 Flints,8
+Hop-Robin,8
 Arnolf,8
 Red Viper,8
 Dawn,8
@@ -569,7 +570,6 @@ Steelskin,8
 Tytos,8
 White Knife,8
 Duskendale,8
-Robin,8
 Alliser Thorne,8
 Andals,8
 Reed,8
@@ -619,7 +619,6 @@ Hazkar,7
 Grunt,7
 Tyrells,7
 Lord Rickard,7
-Finger Hobb,7
 Belaquo Bonebreaker,7
 Warden of the North,7
 Maid,7
@@ -636,6 +635,7 @@ Three Sisters,7
 Black Balaq,7
 Kasporio,7
 Oppo,7
+Three-Finger Hobb,7
 Bowen,7
 New Castle,7
 Barbrey Dustin,7
@@ -663,7 +663,6 @@ Alyn,6
 Wull,6
 Gerrick Kingsblood,6
 Turncloak,6
-Faced,6
 Ser Robert,6
 Jade Sea,6
 War,6
@@ -677,6 +676,7 @@ Othell,6
 Icemark,6
 Redbeard,6
 Hairy Hal,6
+Many-Faced,6
 Soren Shieldbreaker,6
 Dolorous Edd Tollett,6
 Sly,6
@@ -743,7 +743,6 @@ Lady Lu,5
 Ragman,5
 Sealord,5
 Tycho,5
-Wulfe One,5
 Ser Axell,5
 Bridge of Dream,5
 Robett Glover,5
@@ -844,7 +843,6 @@ Dragon Point,4
 Mad Aerys,4
 Lady Sybelle,4
 Osney Kettleblack,4
-Eyes,4
 Baelor the Blessed,4
 Mezzara,4
 Thenn,4
@@ -873,7 +871,6 @@ Belaquo,4
 Erik Ironmaker,4
 Gorys Edoryen,4
 Sandor Clegane,4
-Nose,4
 Wind,4
 Bear Island,4
 Cleftjaw,4
@@ -932,7 +929,6 @@ Lord Ghael,4
 Darkness,4
 Bartimus,4
 Jaehaerys,4
-Horn,4
 Princess Myrcella,4
 Lhazarene,4
 Jaime Lannister,4
@@ -973,7 +969,7 @@ Neck,4
 Ten Towers,4
 Tully,4
 Ronnet,4
-Stone,4
+Wulfe One-Ear,4
 Sixskins,4
 Dagon Greyjoy,4
 Barba,4
@@ -983,7 +979,6 @@ Ser Denys,4
 Qaggaz,4
 Morgan Liddle,4
 Myrtle,4
-Pointed,4
 Marlon,4
 Giant,4
 Marghaz zo Loraq,4
@@ -995,7 +990,6 @@ Swyft,4
 Old Empire,4
 Beggar King,4
 Jonos Bracken,4
-Ear,4
 Age of Heroes,4
 Rags,4
 Masters,4
@@ -1037,7 +1031,6 @@ Jory,3
 Uhlez,3
 Jon Arryn,3
 Rickard,3
-Breaker,3
 Arya Underfoot,3
 Weasel,3
 Mossador,3
@@ -1051,14 +1044,12 @@ Stone Hedge,3
 Dwarf,3
 Smiling,3
 Beasts,3
-Anvil,3
 Starks of Winterfell,3
 Dagmer,3
 Ilyn,3
 Lord Balon,3
 Nym,3
 Herons,3
-Left,3
 Mollono Yos Dob,3
 Stonedoor,3
 Swann,3
@@ -1074,11 +1065,9 @@ Good Masters,3
 Bay of Seals,3
 Roggon,3
 Lord Varys,3
-Fourteen,3
 Stick,3
 Harma Dogshead,3
 Dannel,3
-Blower,3
 Maidenpool,3
 Lyanna,3
 Narbert,3
@@ -1125,7 +1114,6 @@ Lady Hornwood,3
 Lysa Arryn,3
 Arys Oakheart,3
 Maelys the Monstrous,3
-Tall,3
 Lord Blackwood,3
 Lord Godric,3
 Underfoot,3
@@ -1145,6 +1133,7 @@ Weeping Water,3
 Glovers,3
 Flatlands,3
 Battle,3
+The Seven-Pointed,3
 Always,3
 Paxter Redwyne,3
 Melisandre of Asshai,3
@@ -1171,6 +1160,7 @@ Artos Flint,3
 Battle of the Bells,3
 Sunset Kingdoms,3
 Great Wyk,3
+Anvil-Breaker,3
 Tristan Rivers,3
 Aemon Targaryen,3
 Lucas,3
@@ -1191,7 +1181,6 @@ Ulmer,3
 Elia of Dorne,3
 Orell,3
 Lyanna Stark,3
-The Seven,3
 Loras Tyrell,3
 Egg,3
 Plaza of Punishment,2
@@ -1237,7 +1226,6 @@ Jax,2
 Elza,2
 Sparrowhawk,2
 Gates of Fate,2
-Eyed Maid,2
 Marlon Manderly,2
 Sealskinner,2
 Sniff,2
@@ -1266,7 +1254,6 @@ Sunderland,2
 Lady Cerwyn,2
 Lorent,2
 Skulls,2
-Lord Too,2
 Kettleblack,2
 Ser Aenys,2
 Curse,2
@@ -1285,8 +1272,10 @@ Alios,2
 Red Oarsman,2
 Fat Walda,2
 Thoros of Myr,2
+Dance-for-Me,2
 Blood of the Harpy,2
 Satin Palace,2
+Tormund Horn-Blower,2
 Mirri Maz Duur,2
 Helicent,2
 Woe,2
@@ -1296,6 +1285,7 @@ Iron Isles,2
 Owen,2
 Selyse Baratheon,2
 Jade Compendium,2
+Fourteen,2
 Nagga,2
 Elephant,2
 Lord Hand,2
@@ -1310,6 +1300,7 @@ Danny Flint,2
 Cotter,2
 Honeytree,2
 Harl,2
+Six-Toed Harl,2
 Rabbit,2
 Reader,2
 Feast,2
@@ -1343,7 +1334,6 @@ Ghazeen,2
 Boneway,2
 Lord Plumm,2
 Wash,2
-Talker,2
 Ser Gerold,2
 Shadow,2
 Velos,2
@@ -1351,7 +1341,6 @@ Gallows Gate,2
 Arryn,2
 Pink Graces,2
 Lord Mormont,2
-Tormund Horn,2
 Lucifer Long,2
 Rat Cook,2
 Wisdom,2
@@ -1371,10 +1360,8 @@ Pate,2
 Edmure,2
 Rickard Stark,2
 Long Night,2
-Symeon,2
 Gelmarr the Grim,2
 Qavo Nogarys,2
-Toed Harl,2
 Dick Follard,2
 Meha,2
 Roggo,2
@@ -1384,6 +1371,7 @@ Ser Wendel,2
 Blind Doss,2
 Seal Rock,2
 Green Fork,2
+Tall,2
 Ser Brynden,2
 Torgon the Latecomer,2
 Blind Bastard,2
@@ -1392,10 +1380,13 @@ Aegor Rivers,2
 Lord Littlefinger,2
 Lord Peasebury,2
 Lamentation,2
+Horn,2
 Quazzar,2
 Edrick Snowbeard,2
+Sloe-Eyed Maid,2
 Rangers,2
 Bay of Ice,2
+Symeon Star-Eyes,2
 Lady Val,2
 Pureborn,2
 Queen of Cities,2
@@ -1476,6 +1467,7 @@ Varys the Spider,2
 Tarth,2
 High Priest,2
 Forest of Qohor,2
+Stone,2
 Tal Toraq,2
 Young Dragon,2
 Quenton Greyjoy,2
@@ -1519,7 +1511,6 @@ Battle of the Trident,2
 Nail,2
 Rodrik Ryswell,2
 Steelshanks,2
-Sloe,2
 Ser Ronald,2
 Brienne,2
 Sybelle,2
@@ -1558,6 +1549,7 @@ Tagganaro,2
 Sealord of Braavos,2
 Ser Richard,2
 Kegs,2
+Horn-Blower,2
 Redwyne,2
 Baelish,2
 Dorea,2
@@ -1581,6 +1573,7 @@ Last Hearth,1
 Morgan,1
 Black Maris,1
 Rodrik Stark,1
+High-and-Mightiness,1
 Wobblecheeks,1
 Ella,1
 Ser Wylis,1
@@ -1598,12 +1591,14 @@ Arstan Whitebeard,1
 Izembaro,1
 Treasure,1
 Lord Renly,1
+Captain-General,1
 Kems,1
 Stanny,1
 Princess Daena,1
 Ser Boros,1
 Small Paul,1
 Prince Aemond,1
+Eyes,1
 Ygon Oldfather,1
 Temple of Trios,1
 Pahls,1
@@ -1732,6 +1727,7 @@ Keeper of the Night Lamp,1
 Giantsbutt,1
 Knight of Lemonwood,1
 Daryn,1
+Too-Fat-to-Sit-a-Horse,1
 Harwin,1
 Shiera Seastar,1
 Ghazdan,1
@@ -1761,6 +1757,7 @@ Princess Elia,1
 Slayer,1
 Garse,1
 Ravishment,1
+Left-Hand Lucas Codd,1
 Undying of Qarth,1
 Darkling,1
 Fist of the First,1
@@ -1778,7 +1775,6 @@ Jack Musgood,1
 Kennet,1
 Monster,1
 Prestayn,1
-Witch,1
 Tickler,1
 Stinky,1
 Priest,1
@@ -1820,6 +1816,7 @@ Aerys Targaryen,1
 Grey Gull,1
 Lhorulu,1
 Lollys Stokeworth,1
+Left,1
 Hugor Halfmaester,1
 Lord Baelor,1
 Lord Tarly,1
@@ -1898,7 +1895,6 @@ Lorath,1
 Dondarrion,1
 King of the North,1
 Joanna,1
-Willow Witch,1
 Peat,1
 Sara,1
 Forlorn Hope,1
@@ -1919,7 +1915,6 @@ Roro,1
 Musgood,1
 Last River,1
 Fever River,1
-King of Ruddy Hall,1
 Hearts,1
 Lord Norrey,1
 Red Tide,1
@@ -1931,11 +1926,10 @@ Century of Blood,1
 Rahloo,1
 Griffin Seat,1
 Chains,1
-Humbles,1
 Lord Marshal,1
+Humbles,1
 Helman Tallhart,1
 Mountains,1
-Ghazdor the Great,1
 Canal of the Heroes,1
 Bronze Yohn Royce,1
 Eraz,1
@@ -1952,6 +1946,7 @@ Sparr,1
 Goddess,1
 Stricklands,1
 Meadowlarks,1
+Hop-Bean,1
 Melantine,1
 Great Barrow,1
 Aegon the Dragon,1
@@ -1986,6 +1981,7 @@ Ryman Frey,1
 Bronze,1
 Arthor Karstark,1
 Triarch Malaquo,1
+Tommen-called-Baratheon,1
 Lord Fowler,1
 Rainwood,1
 Walton,1
@@ -2039,6 +2035,7 @@ Ser Pounce,1
 Maester Myles,1
 Strongs,1
 Saduleon,1
+Lord Too-Fat-to-Sit-a-Horse,1
 Lewyn Martell,1
 Fields,1
 Lord Chester,1
@@ -2048,7 +2045,6 @@ Good Grace,1
 Beat,1
 Lord Dagon,1
 Splendid,1
-Bean,1
 Boggs,1
 Gardens of Gelenei,1
 Dorne Quentyn Martell,1
@@ -2058,11 +2054,10 @@ Big Bucket,1
 Seven Lamps,1
 Stair,1
 Bold Voyager,1
-Weeping Lady,1
 Maron,1
+Weeping Lady,1
 Vulture King,1
 Lord Lannister,1
-Mead,1
 Commander of the Night,1
 Lady Imp,1
 Grazdan mo Eraz,1
@@ -2103,6 +2098,7 @@ Light of Wisdom,1
 Lord Tyrion,1
 Harmond Umber,1
 Loptail,1
+Ghazdor the Great-hearted,1
 Stouts,1
 Shivering Sea,1
 Lady Lyanna,1
@@ -2124,8 +2120,8 @@ Ib,1
 Woodhedge,1
 Prince Trystane,1
 Aemon the Dragonknight,1
-Forrester,1
 Great Pit,1
+Forrester,1
 Rhee,1
 Sam the Slayer,1
 Smiler,1
@@ -2194,6 +2190,7 @@ Tyene Sand,1
 Butt Crack,1
 Theon the Clever,1
 Tower of the Hand,1
+Great-hearted,1
 Ruddy Hall,1
 Mud Gate,1
 Tybero Istarion,1
@@ -2210,6 +2207,7 @@ Nute,1
 Fell,1
 Red Jeyne,1
 Shade,1
+Mead-King of Ruddy Hall,1
 Warren,1
 Longsister,1
 Queen Dowager,1
@@ -2230,7 +2228,6 @@ Jokin,1
 Edrick Stark,1
 Midwife,1
 True Telling,1
-Mightiness,1
 Corliss,1
 Barrow,1
 Liddles,1
@@ -2306,6 +2303,7 @@ Prince of Stink,1
 Kaspo,1
 Lord Caswell,1
 Lady of Winterfell,1
+Willow Witch-Eye,1
 Galendro,1
 Hand of Stannis Baratheon,1
 Speaker,1
@@ -2421,19 +2419,19 @@ Moonmaid,1
 Thomax,1
 Ronald Connington,1
 Sixth,1
+Lord Too-Fat,1
 Needle,1
 Salty,1
 Greyshield,1
 Vanity,1
 Maester Uthor,1
-The Death,1
 Ser Osney,1
+The Death,1
 Qarl Kenning,1
 Blackhair,1
 Harzoo,1
 Dragonbinder,1
 Bole,1
-General,1
 Bokkoko,1
 Blind Beth,1
 Euron Greyjoy,1
@@ -2475,10 +2473,13 @@ First Servant,1
 Raymund Redbeard,1
 Kyleg of the Wooden Ear,1
 Old Brusco,1
+Wulfe One-Eye,1
 Lord Yellowbelly,1
 Roger,1
+Seven-Pointed,1
 Gardens,1
 Ice Eyes,1
+Tall-Talker,1
 Yard,1
 Aquan the Red Bull,1
 Martells,1
@@ -2505,14 +2506,14 @@ Longspear Ryk,1
 Tormund Giantsbutt,1
 Edoryen,1
 Rhaenyra,1
+Joffrey-called-Baratheon,1
 Scales,1
 Donnel Flint,1
 Blackmyre,1
-Hand Lucas Codd,1
 Redgrass Field,1
 Andal,1
-Black Bastard,1
 Eladon Goldenhair,1
+Black Bastard,1
 Khyzai,1
 Harlon Stark,1
 Adrack Humble,1
@@ -2534,7 +2535,6 @@ Pyat,0
 Vulture,0
 Kite,0
 Rusty,0
-Eyed,0
 Therys,0
 Bumpkin,0
 Fearless,0
@@ -2598,6 +2598,7 @@ Perfumed,0
 Theodan,0
 Trader,0
 Quickaxe,0
+Breaker,0
 Duncan,0
 Crack,0
 Mirri,0
@@ -2627,6 +2628,7 @@ Frozen,0
 Lambert,0
 Weg,0
 Cook,0
+One-Ear,0
 Dragonpit,0
 Giantstink,0
 Scion,0
@@ -2728,6 +2730,8 @@ Tristan,0
 Rhegan,0
 Willem,0
 Maris,0
+Mead-King,0
+Sloe-Eyed,0
 Eric,0
 Longspear,0
 Lard,0
@@ -2741,6 +2745,7 @@ Rhaella,0
 Redback,0
 Wandering,0
 Colloquo,0
+Witch-Eye,0
 Hoarfrost,0
 Bezoar,0
 Purification,0
@@ -2769,6 +2774,7 @@ Century,0
 Doss,0
 Harper,0
 Ibben,0
+Symeon,0
 Waves,0
 Servant,0
 Mint,0
@@ -2798,6 +2804,7 @@ Lu,0
 Unlikely,0
 Dragonflies,0
 Cult,0
+Too-Fat,0
 Uthor,0
 Shivering,0
 Islander,0
@@ -2811,6 +2818,7 @@ Bald,0
 Monkeys,0
 Howd,0
 Rolfe,0
+Three-Finger,0
 Stammerer,0
 Manwoody,0
 Mounts,0
@@ -2824,6 +2832,7 @@ Bank,0
 Conciliator,0
 Harlon,0
 Face,0
+Star-Eyes,0
 Fever,0
 Wicked,0
 Gwyneth,0
@@ -2887,7 +2896,6 @@ Manfryd,0
 Syrio,0
 Harmony,0
 Jade,0
-Toed,0
 Upper,0
 Defender,0
 Port,0
@@ -2912,6 +2920,7 @@ Wrath,0
 Empire,0
 Maz,0
 Gelenei,0
+Six-Toed,0
 Temple,0
 Shrouded,0
 Skies,0
@@ -2922,6 +2931,7 @@ Myrakis,0
 Cloud,0
 Sallor,0
 Egon,0
+Left-Hand,0
 Snowbeard,0
 Ruddy,0
 Hedge,0
@@ -2929,6 +2939,7 @@ Jarmen,0
 Painted,0
 Flames,0
 Implacable,0
+One-Eye,0
 Dothrak,0
 Sunrise,0
 Came,0
@@ -2941,6 +2952,7 @@ Lefford,0
 Clifton,0
 Pigeon,0
 Ahai,0
+General,0
 Mirror,0
 Knife,0
 Realm,0
@@ -2959,6 +2971,7 @@ Duur,0
 Dowager,0
 Plaza,0
 Valley,0
+Ear,0
 Runceford,0
 Hermitage,0
 Grim,0
@@ -2979,4 +2992,4 @@ Victory,0
 Qhoyne,0
 Protector,0
 
-2980
+2993
