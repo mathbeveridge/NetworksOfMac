@@ -2,17 +2,17 @@ Jon,Lord Snow,Jon
 Tyrion,Imp,Tyrion
 Jaime,Kingslayer,Jaime
 Sansa,Sansa,Lady of Winterfell,Lady Wife
-Arya,Arya,Arry,Underfoot
+Arya,Arya,Arry,Squab,Underfoot
 Robb,Young Wolf,King of the Trident,Robb
 Daenerys,Stormborn,Dany,Khaleesi,Daenerys
 Joffrey,Joffrey,Joff
 Catelyn,Lady Stark,Cat,Catelyn
 Davos,Davos,Onions,Onion
 Bran,Bran,Brandon Stark
+Mance,Mance,Raydar,King-beyond-the-Wall,Rayder
 Cersei,Queen Regent,Cersei
 Sandor,Sandor,Hound
 Stannis,Lord of Dragonstone,Stannis
-Mance,Mance,Raydar,Rayder
 Tywin,Lord of Casterly Rock,Tywin
 Brienne,Brienne
 Robert,Robert,Usurper
@@ -133,29 +133,41 @@ Bannen,Bannen
 Drogo,Drogo
 Alester,Lord Florent,Alester
 Doran,Doran
+Ryk,Longspear,Ryk
 Jason,Lord Mallister,Lord of Seagard,Jason
+Jack-Be-Lucky,Jack-Be-Lucky
 Myrcella,Myrcella
 Desmond,Desmond
+Tansy,Tansy
 Jinglebell,Jinglebell
-Fair,Maiden,Fair
+Viserion,Viserion
+Symon,Symon
+Butterbumps,Butterbumps
 Varamyr,Sixskins,Varamyr
 Maegor,Maegor
+Karl,Karl,Clubfoot
 Paxter,Lord Redwyne,Paxter
 Randyll,Lord Tarly,Randyll
 Benjen,Benjen,Ben Stark
 Baelor,Baelor
 Groleo,Groleo
+Mero,Mero
+Mycah,Mycah
+Dalla,Dalla
 Selyse,Selyse
 Dywen,Dywen
 Amory,Amory
 Gerold,White Bull,Gerold
 Shireen,Shireen
 Raff,Sweetling,Raff
+Kegs,Kegs
+Dirk,Dirk
 Tanda,Tanda
 Ottyn,Ottyn,Wythers
 Oznak,Oznak
 Lothor,Lothor
 Maege,Lady Mormont,Maege
+Prendahl,Prendahl
 Mathis,Mathis,Lord of Goldengrove,Lord Rowan
 Dacey,Dacey
 Ellaria,Ellaria
@@ -167,7 +179,10 @@ Edwyn,Edwyn
 Luwin,Luwin
 Marq,Marq
 Lancel,Lancel
+Rossart,Rossart
+Porridge,Porridge
 Thoren,Thoren
+Utherydes,Wayn,Utherydes
 Wendel,Wendel
 Galbart,Galbart
 Vyman,Vyman
@@ -176,8 +191,14 @@ Raynald,Raynald
 Ardrian,Ardrian,Celtigar
 Andrew,Andrew
 Smalljon,Smalljon
+Gendel,Gendel
+Shagwell,Shagwell
+Notch,Notch
+Florian,Florian
 Elinor,Elinor
 Jack,Jack
+Orell,Orell
+Errok,Errok
 Emmett,Emmett
 Torrhen,Torrhen
 Rhaegal,Rhaegal

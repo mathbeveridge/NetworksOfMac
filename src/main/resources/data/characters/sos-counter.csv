@@ -330,7 +330,6 @@ Red Fork,14
 Lord Frey,14
 Horse,14
 Water,13
-Prendahl,13
 Lady Sansa,13
 Valyria,13
 Symon,13
@@ -488,7 +487,6 @@ Brown Ben,9
 Jhogo,9
 Lord Stannis,9
 Ser Barristan,9
-Spare Boot,9
 Benjen,9
 Jaqen,9
 Stone,9
@@ -552,9 +550,9 @@ Painted Table,8
 Dick,8
 Chataya,8
 Merrit,7
+Prendahl,7
 Garlan,7
 Oldstones,7
-Ghezn,7
 Lysene,7
 Isle of Faces,7
 Rickard,7
@@ -598,6 +596,7 @@ Aggo,7
 Oznak,7
 Sam Tarly,7
 Meraxes,7
+Spare Boot,7
 Jeyne Westerling,7
 Lord Davos,7
 Yoren,7
@@ -612,6 +611,7 @@ Selmy,7
 Rollam,7
 Brandon Stark,7
 Celtigar,7
+Prendahl na Ghezn,6
 Galyeon,6
 Doran Martell,6
 Ford,6
@@ -684,7 +684,6 @@ Young Dragon,6
 Horn Hill,6
 Ser Piggy,6
 Tormund Thunderfist,6
-Fair Walda,6
 Brynden Blackfish,6
 Prince Tommen,6
 High Valyrian,6
@@ -784,6 +783,7 @@ Holdfast,5
 Shagga,5
 Lady Sybell,5
 Grisel,5
+Fair Walda,5
 Ser Amory,5
 Softfoot,5
 Nage,5
@@ -1093,7 +1093,6 @@ Flint Barracks,3
 Raynald,3
 Lost,3
 Melisandre of Asshai,3
-Fair,3
 Crows,3
 Drink,3
 Ben Stark,3
@@ -1276,7 +1275,6 @@ Water Gate,2
 Trant,2
 Khorane Sathmantes,2
 Lannister of Casterly Rock,2
-Spare,2
 Volantene,2
 Conquest of Dorne,2
 Rainwood,2
@@ -1545,6 +1543,7 @@ Belmores,1
 Pomegranate,1
 Dornishwoman,1
 Fletcher Dick,1
+Ghezn,1
 Murmison,1
 Dontos the Red,1
 Blackbottom Bend,1
@@ -2759,4 +2758,4 @@ Wilbert,0
 Drearfort,0
 Protector,0
 
-2760
+2759

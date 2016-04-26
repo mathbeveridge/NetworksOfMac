@@ -2,7 +2,7 @@ Jon Snow,Lord Snow,Jon
 Tyrion Lannister,Imp,Tyrion
 Jaime Lannister,Kingslayer,Jaime
 Sansa Stark,Sansa,Lady of Winterfell,Lady Wife
-Arya Stark,Arya,Arry,Underfoot
+Arya Stark,Arya,Arry,Squab,Underfoot
 Samwell Tarly,Piggy,Samwell Tarly,Slayer,Sam
 Robb Stark,Young Wolf,King of the Trident,Robb
 Daenerys Targaryen,Stormborn,Dany,Khaleesi,Daenerys
@@ -10,10 +10,10 @@ Joffrey Baratheon,Joffrey,Joff
 Catelyn Stark,Lady Stark,Cat,Catelyn
 Davos Seaworth,Davos,Onions,Onion
 Bran,Bran,Brandon Stark
+Mance Rayder,Mance,Raydar,King-beyond-the-Wall,Rayder
 Cersei Lannister,Queen Regent,Cersei
 Sandor Clegane,Sandor,Hound
 Stannis Baratheon,Lord of Dragonstone,Stannis
-Mance Rayder,Mance,Raydar,Rayder
 Tywin Lannister,Lord of Casterly Rock,Tywin
 Brienne,Brienne
 Robert Baratheon,Robert,Usurper
@@ -136,30 +136,41 @@ Bannen,Bannen
 Alester Florent,Lord Florent,Alester
 Drogo,Drogo
 Jon Arryn,Jon Arryn,Lord Arryn
+Ryk,Longspear,Ryk
 Doran Martell,Doran
+Jack-Be-Lucky,Jack-Be-Lucky
 Jason Mallister,Lord Mallister,Lord of Seagard,Jason
 Myrcella,Myrcella
 Desmond Grell,Desmond
 Jinglebell Frey,Jinglebell
-Fair Walda,Maiden,Fair
+Tansy,Tansy
 Balon Greyjoy,King Balon,Balon Greyjoy,Lord Balon
 Ben Plumm,Ben Plumm,Brown Ben
+Viserion,Viserion
+Symon,Symon
+Butterbumps,Butterbumps
 Varamyr,Sixskins,Varamyr
 Maegor,Maegor
 Randyll Tarly,Lord Tarly,Randyll
 Petyr Pimple,Pimple
+Karl,Karl,Clubfoot
 Paxter Redwyne,Lord Redwyne,Paxter
 Benjen Stark,Benjen,Ben Stark
 Robert Arryn,Lord of the Eyrie,Robert Arryn,Lord Robert
 Groleo,Groleo
 Amory Lorch,Amory
 Balon Swann,Balon Swann,Ser Balon
+Mero,Mero
+Mycah,Mycah
+Dalla,Dalla
 Selyse,Selyse
 Dywen,Dywen
 Baelor the Blessed,Baelor
 Shireen,Shireen
 Gerold Hightower,White Bull,Gerold
 Raff,Sweetling,Raff
+Kegs,Kegs
+Dirk,Dirk
 Grey Worm,Grey Worm
 Tanda,Tanda
 Oznak zo Pahl,Oznak
@@ -167,6 +178,7 @@ Ottyn Wythers,Ottyn,Wythers
 Lothor Brune,Lothor
 Maege Mormont,Lady Mormont,Maege
 Emmon Cuy,Emmon
+Prendahl na Ghezn,Prendahl
 Oswell Whent,Oswell
 Ellaria Sand,Ellaria
 Dacey Mormont,Dacey
@@ -178,16 +190,26 @@ Mathis Rowan,Mathis,Lord of Goldengrove,Lord Rowan
 Marq Piper,Marq
 Luwin,Luwin
 Lancel,Lancel
+Rossart,Rossart
+Porridge,Porridge
+Utherydes Wayn,Wayn,Utherydes
 Thoren Smallwood,Thoren
 Edwyn Frey,Edwyn
 Vyman,Vyman
+Aemon the Dragonknight,Dragonknight,Prince Aemon
 Wendel Manderly,Wendel
 Andrew Estermont,Andrew
+Gendel,Gendel
 Smalljon Umber,Smalljon
 Rolph Spicer,Rolph
+Shagwell,Shagwell
 Ardrian Celtigar,Ardrian,Celtigar
+Notch,Notch
+Florian,Florian
 Raynald Westerling,Raynald
 Elinor Tyrell,Elinor
+Orell,Orell
+Errok,Errok
 Jack Bulwer,Jack
 Galbart Glover,Galbart
 Emmett,Emmett

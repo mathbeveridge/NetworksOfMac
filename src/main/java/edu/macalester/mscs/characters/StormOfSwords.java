@@ -43,13 +43,13 @@ public class StormOfSwords {
             "Bridge", "Sept", "Harbor", "Mill", // landmarks
             "Cruel", "Bold", "Brave", "Good", "Strong", "Bitter", "Sweet", "Bad", "Clever", "Cautious",
             "Wise", "Craven", "Poor", "Pretty", "Scared", "Homeless", "Hot", "Shy", "True", "Mad", "Blessed",
-            "Queer", "Sour", "Cunning", "Hairy", "Broken", "Bloody", "Late", // adjective titles
+            "Queer", "Sour", "Cunning", "Hairy", "Broken", "Bloody", "Late", "Fair", // adjective titles
             "Conqueror", "Wolf", "Fool", "Iron", "Worm", "Bull", "Kingswood", "Sword", "Nymeros", "Wife",
-            "Bar", "Dornish", "Dornishman" // miscellaneous
+            "Bar", "Dornish", "Dornishman", "Spare" // miscellaneous
     ));
 
     // Words that are sometimes placed between first and last names
-    public static final Set<String> FILLER_WORDS = new HashSet<>(Arrays.asList("zo", "mo"));
+    public static final Set<String> FILLER_WORDS = new HashSet<>(Arrays.asList("zo", "mo", "na"));
 
     public static void main(String[] args) {
         // initialize the finder
@@ -190,7 +190,7 @@ public class StormOfSwords {
         finder.combineGroups("Janos", "Lord Slynt");
         finder.combineGroups("Tyrion", "Imp");
         finder.combineGroups("Hother", "Whoresbane");
-        finder.combineGroups("Arya", "Arry");
+        finder.combineGroups("Arya", "Arry", "Squab");
         finder.combineGroups("Aerys", "Mad King", "King Scab");
         finder.combineGroups("Ben Plumm", "Brown Ben");
         finder.combineGroups("Salladhor", "Salla");
@@ -221,6 +221,7 @@ public class StormOfSwords {
         finder.combineGroups("Olenna Tyrell", "Queen of Thorns");
         finder.combineGroups("Oberyn Martell", "Red Viper");
         finder.combineGroups("Pello", "Greenbeard");
+        finder.combineGroups("Mance Rayder", "King-beyond-the-Wall");
 
         // manually add important names that get missed
         names.add("Mance Rayder");
@@ -262,7 +263,6 @@ public class StormOfSwords {
         names.add("Harma");
         names.add("Tickler");
         names.add("Irri");
-        names.add("Jack Bulwer");
         names.add("Greenbeard");
         names.add("Owen");
         names.add("High Septon");
@@ -271,19 +271,41 @@ public class StormOfSwords {
         names.add("Clydas");
         names.add("Val");
         names.add("Marillion");
+        names.add("Hobb");
         names.add("Urswyck");
         names.add("Rorge");
         names.add("Othell Yarwyck");
         names.add("Bannen");
-
-        names.add("Hobb");
+        names.add("Ryk");
+        names.add("Jack-Be-Lucky");
+        names.add("Tansy");
+        names.add("Viserion");
+        names.add("Symon");
+        names.add("Butterbumps");
         names.add("Varamyr");
-        names.add("Baelor the Blessed");
+        names.add("Karl");
         names.add("Dywen");
-        names.add("Grey Worm");
+        names.add("Mycah");
+        names.add("Dalla");
+        names.add("Mero");
+        names.add("Baelor the Blessed");
         names.add("Raff");
+        names.add("Kegs");
+        names.add("Dirk");
+        names.add("Grey Worm");
         names.add("Tysha");
+        names.add("Rossart");
+        names.add("Porridge");
+        names.add("Utherydes Wayn");
+        names.add("Aemon the Dragonknight");
+        names.add("Gendel");
+        names.add("Shagwell");
+        names.add("Notch");
+        names.add("Florian");
+        names.add("Jack Bulwer");
         names.add("Emmett");
+        names.add("Orell");
+        names.add("Errok");
 
         // 10 or less occurrences, but previously relevant
         names.add("Rhaegal");
