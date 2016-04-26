@@ -1,0 +1,601 @@
+Source,Target,Weight,Type
+"Jon S","Arya S",9.0,undirected
+"Jon S","Samwell T",50.0,undirected
+"Jon S","Robb S",12.0,undirected
+"Jon S","Bran",12.0,undirected
+"Jon S","Mance R",80.0,undirected
+"Jon S","Stannis B",9.0,undirected
+"Jon S","Robert B",8.0,undirected
+"Jon S","Ygritte",53.0,undirected
+"Jon S","Eddard S",7.0,undirected
+"Jon S","Grenn",29.0,undirected
+"Jon S","Styr",38.0,undirected
+"Jon S","Jeor M",15.0,undirected
+"Jon S","Craster",7.0,undirected
+"Jon S","Melisandre",7.0,undirected
+"Jon S","Donal N",31.0,undirected
+"Jon S","Aemon T",27.0,undirected
+"Jon S","Tormund",23.0,undirected
+"Jon S","Gilly",8.0,undirected
+"Jon S","Qhorin H",22.0,undirected
+"Jon S","Pyp",26.0,undirected
+"Jon S","Rattleshirt",23.0,undirected
+"Jon S","Janos S",9.0,undirected
+"Jon S","Bowen M",5.0,undirected
+"Jon S","Jarl",21.0,undirected
+"Jon S","Satin",33.0,undirected
+"Jon S","Alliser T",19.0,undirected
+"Jon S","Theon G",8.0,undirected
+"Jon S","Harma",7.0,undirected
+"Jon S","Owen",13.0,undirected
+"Jon S","Clydas",9.0,undirected
+"Jon S","Val",11.0,undirected
+"Jon S","Ryk",11.0,undirected
+"Jon S","Varamyr",6.0,undirected
+"Jon S","Dalla",6.0,undirected
+"Jon S","Kegs",5.0,undirected
+"Jon S","Orell",6.0,undirected
+"Jon S","Mully",4.0,undirected
+"Tyrion L","Jaime L",29.0,undirected
+"Tyrion L","Sansa S",71.0,undirected
+"Tyrion L","Arya S",5.0,undirected
+"Tyrion L","Robb S",14.0,undirected
+"Tyrion L","Joffrey B",71.0,undirected
+"Tyrion L","Catelyn S",6.0,undirected
+"Tyrion L","Cersei L",42.0,undirected
+"Tyrion L","Sandor C",4.0,undirected
+"Tyrion L","Stannis B",5.0,undirected
+"Tyrion L","Tywin L",38.0,undirected
+"Tyrion L","Robert B",11.0,undirected
+"Tyrion L","Petyr B",13.0,undirected
+"Tyrion L","Gregor C",21.0,undirected
+"Tyrion L","Oberyn M",28.0,undirected
+"Tyrion L","Lysa A",5.0,undirected
+"Tyrion L","Margaery T",6.0,undirected
+"Tyrion L","Loras T",8.0,undirected
+"Tyrion L","Bronn",28.0,undirected
+"Tyrion L","Varys",17.0,undirected
+"Tyrion L","Aerys T",5.0,undirected
+"Tyrion L","Roose B",5.0,undirected
+"Tyrion L","Renly B",6.0,undirected
+"Tyrion L","Shae",21.0,undirected
+"Tyrion L","Kevan L",11.0,undirected
+"Tyrion L","Mace T",11.0,undirected
+"Tyrion L","Tommen",8.0,undirected
+"Tyrion L","Podrick P",25.0,undirected
+"Tyrion L","Janos S",5.0,undirected
+"Tyrion L","Dontos H",7.0,undirected
+"Tyrion L","Pycelle",10.0,undirected
+"Tyrion L","Viserys",4.0,undirected
+"Tyrion L","Addam M",6.0,undirected
+"Tyrion L","Elia M",5.0,undirected
+"Tyrion L","Willas T",5.0,undirected
+"Tyrion L","Meryn T",5.0,undirected
+"Tyrion L","Boros B",5.0,undirected
+"Tyrion L","Lollys S",11.0,undirected
+"Tyrion L","Garlan T",9.0,undirected
+"Tyrion L","Ilyn P",4.0,undirected
+"Tyrion L","Doran M",5.0,undirected
+"Tyrion L","Myrcella",4.0,undirected
+"Tyrion L","Symon",7.0,undirected
+"Tyrion L","Maegor",4.0,undirected
+"Tyrion L","Balon S",4.0,undirected
+"Tyrion L","Tanda",4.0,undirected
+"Tyrion L","Ellaria S",4.0,undirected
+"Tyrion L","Ballabar",4.0,undirected
+"Jaime L","Sansa S",9.0,undirected
+"Jaime L","Arya S",10.0,undirected
+"Jaime L","Robb S",15.0,undirected
+"Jaime L","Joffrey B",18.0,undirected
+"Jaime L","Catelyn S",19.0,undirected
+"Jaime L","Cersei L",30.0,undirected
+"Jaime L","Stannis B",6.0,undirected
+"Jaime L","Tywin L",13.0,undirected
+"Jaime L","Brienne",85.0,undirected
+"Jaime L","Robert B",17.0,undirected
+"Jaime L","Gregor C",5.0,undirected
+"Jaime L","Edmure T",4.0,undirected
+"Jaime L","Lem",6.0,undirected
+"Jaime L","Eddard S",6.0,undirected
+"Jaime L","Loras T",16.0,undirected
+"Jaime L","Aerys T",16.0,undirected
+"Jaime L","Roose B",14.0,undirected
+"Jaime L","Renly B",7.0,undirected
+"Jaime L","Cleos F",25.0,undirected
+"Jaime L","Vargo H",15.0,undirected
+"Jaime L","Tommen",7.0,undirected
+"Jaime L","Walton",18.0,undirected
+"Jaime L","Qyburn",18.0,undirected
+"Jaime L","Rickard K",4.0,undirected
+"Jaime L","Barristan S",4.0,undirected
+"Jaime L","Elia M",4.0,undirected
+"Jaime L","Meryn T",8.0,undirected
+"Jaime L","Boros B",5.0,undirected
+"Jaime L","Osmund K",4.0,undirected
+"Jaime L","Urswyck",11.0,undirected
+"Jaime L","Rorge",8.0,undirected
+"Jaime L","Balon S",4.0,undirected
+"Jaime L","Shagwell",4.0,undirected
+"Jaime L","Robin R",7.0,undirected
+"Sansa S","Arya S",21.0,undirected
+"Sansa S","Robb S",17.0,undirected
+"Sansa S","Joffrey B",42.0,undirected
+"Sansa S","Catelyn S",9.0,undirected
+"Sansa S","Bran",10.0,undirected
+"Sansa S","Cersei L",14.0,undirected
+"Sansa S","Sandor C",6.0,undirected
+"Sansa S","Brienne",5.0,undirected
+"Sansa S","Robert B",5.0,undirected
+"Sansa S","Petyr B",27.0,undirected
+"Sansa S","Eddard S",6.0,undirected
+"Sansa S","Lysa A",28.0,undirected
+"Sansa S","Margaery T",32.0,undirected
+"Sansa S","Loras T",13.0,undirected
+"Sansa S","Renly B",4.0,undirected
+"Sansa S","Shae",8.0,undirected
+"Sansa S","Kevan L",5.0,undirected
+"Sansa S","Mace T",8.0,undirected
+"Sansa S","Podrick P",7.0,undirected
+"Sansa S","Dontos H",11.0,undirected
+"Sansa S","Olenna T",11.0,undirected
+"Sansa S","Rickon",7.0,undirected
+"Sansa S","Alayne S",10.0,undirected
+"Sansa S","Garlan T",5.0,undirected
+"Sansa S","Marillion",8.0,undirected
+"Sansa S","Myrcella",4.0,undirected
+"Sansa S","Butterbumps",6.0,undirected
+"Sansa S","Robert A",6.0,undirected
+"Sansa S","Lothor B",6.0,undirected
+"Sansa S","Oswell W",4.0,undirected
+"Sansa S","Elinor T",5.0,undirected
+"Arya S","Robb S",15.0,undirected
+"Arya S","Joffrey B",7.0,undirected
+"Arya S","Bran",9.0,undirected
+"Arya S","Cersei L",4.0,undirected
+"Arya S","Sandor C",42.0,undirected
+"Arya S","Gregor C",5.0,undirected
+"Arya S","Lem",23.0,undirected
+"Arya S","Gendry",44.0,undirected
+"Arya S","Eddard S",18.0,undirected
+"Arya S","Beric D",22.0,undirected
+"Arya S","Tom S",23.0,undirected
+"Arya S","Thoros",16.0,undirected
+"Arya S","Roose B",8.0,undirected
+"Arya S","Hot P",23.0,undirected
+"Arya S","Anguy",14.0,undirected
+"Arya S","Harwin",15.0,undirected
+"Arya S","Brynden T",4.0,undirected
+"Arya S","Nan",7.0,undirected
+"Arya S","Polliver",9.0,undirected
+"Arya S","Rickon",8.0,undirected
+"Arya S","Tickler",5.0,undirected
+"Arya S","Greenbeard",9.0,undirected
+"Arya S","Mycah",6.0,undirected
+"Arya S","Raff",5.0,undirected
+"Samwell T","Bran",11.0,undirected
+"Samwell T","Mance R",8.0,undirected
+"Samwell T","Stannis B",12.0,undirected
+"Samwell T","Grenn",41.0,undirected
+"Samwell T","Meera R",5.0,undirected
+"Samwell T","Jojen R",9.0,undirected
+"Samwell T","Jeor M",17.0,undirected
+"Samwell T","Craster",33.0,undirected
+"Samwell T","Melisandre",5.0,undirected
+"Samwell T","Aemon T",25.0,undirected
+"Samwell T","Gilly",36.0,undirected
+"Samwell T","Pyp",15.0,undirected
+"Samwell T","Paul",17.0,undirected
+"Samwell T","Edd T",13.0,undirected
+"Samwell T","Janos S",6.0,undirected
+"Samwell T","Bowen M",7.0,undirected
+"Samwell T","Alliser T",5.0,undirected
+"Samwell T","Denys M",12.0,undirected
+"Samwell T","Cotter P",9.0,undirected
+"Samwell T","Clydas",6.0,undirected
+"Samwell T","Bannen",11.0,undirected
+"Samwell T","Dywen",5.0,undirected
+"Samwell T","Dirk",4.0,undirected
+"Robb S","Joffrey B",12.0,undirected
+"Robb S","Catelyn S",44.0,undirected
+"Robb S","Bran",18.0,undirected
+"Robb S","Stannis B",4.0,undirected
+"Robb S","Tywin L",13.0,undirected
+"Robb S","Brienne",5.0,undirected
+"Robb S","Petyr B",5.0,undirected
+"Robb S","Edmure T",30.0,undirected
+"Robb S","Eddard S",11.0,undirected
+"Robb S","Walder F",24.0,undirected
+"Robb S","Roose B",7.0,undirected
+"Robb S","Hoster T",4.0,undirected
+"Robb S","Lothar F",11.0,undirected
+"Robb S","Jeyne W",18.0,undirected
+"Robb S","Greatjon U",12.0,undirected
+"Robb S","Brynden T",11.0,undirected
+"Robb S","Theon G",10.0,undirected
+"Robb S","Rickard K",15.0,undirected
+"Robb S","Rickon",13.0,undirected
+"Robb S","Ryman F",4.0,undirected
+"Robb S","Jinglebell F",4.0,undirected
+"Robb S","Balon G",6.0,undirected
+"Robb S","Smalljon U",5.0,undirected
+"Robb S","Raynald W",7.0,undirected
+"Robb S","Stevron",4.0,undirected
+"Robb S","Olyvar F",7.0,undirected
+"Robb S","Rollam W",4.0,undirected
+"Daenerys T","Robert B",7.0,undirected
+"Daenerys T","Jorah M",46.0,undirected
+"Daenerys T","Arstan",29.0,undirected
+"Daenerys T","Belwas",25.0,undirected
+"Daenerys T","Rhaegar T",12.0,undirected
+"Daenerys T","Kraznys N",9.0,undirected
+"Daenerys T","Daario",14.0,undirected
+"Daenerys T","Missandei",26.0,undirected
+"Daenerys T","Viserys",8.0,undirected
+"Daenerys T","Irri",17.0,undirected
+"Daenerys T","Jhiqui",17.0,undirected
+"Daenerys T","Grazdan E",4.0,undirected
+"Daenerys T","Drogo",6.0,undirected
+"Daenerys T","Ben P",8.0,undirected
+"Daenerys T","Viserion",6.0,undirected
+"Daenerys T","Groleo",5.0,undirected
+"Daenerys T","Grey W",13.0,undirected
+"Daenerys T","Oznak P",4.0,undirected
+"Daenerys T","Rhaegal",5.0,undirected
+"Daenerys T","Jhogo",4.0,undirected
+"Daenerys T","Rakharo",7.0,undirected
+"Joffrey B","Cersei L",34.0,undirected
+"Joffrey B","Sandor C",16.0,undirected
+"Joffrey B","Stannis B",11.0,undirected
+"Joffrey B","Tywin L",17.0,undirected
+"Joffrey B","Robert B",7.0,undirected
+"Joffrey B","Petyr B",4.0,undirected
+"Joffrey B","Gregor C",6.0,undirected
+"Joffrey B","Oberyn M",5.0,undirected
+"Joffrey B","Margaery T",37.0,undirected
+"Joffrey B","Loras T",11.0,undirected
+"Joffrey B","Aerys T",5.0,undirected
+"Joffrey B","Renly B",4.0,undirected
+"Joffrey B","Kevan L",9.0,undirected
+"Joffrey B","Mace T",6.0,undirected
+"Joffrey B","Tommen",17.0,undirected
+"Joffrey B","Dontos H",10.0,undirected
+"Joffrey B","Polliver",5.0,undirected
+"Joffrey B","Meryn T",8.0,undirected
+"Joffrey B","Tickler",6.0,undirected
+"Joffrey B","Osmund K",6.0,undirected
+"Joffrey B","Ilyn P",8.0,undirected
+"Joffrey B","Myrcella",5.0,undirected
+"Joffrey B","Paxter R",5.0,undirected
+"Joffrey B","Raff",6.0,undirected
+"Catelyn S","Cersei L",4.0,undirected
+"Catelyn S","Brienne",7.0,undirected
+"Catelyn S","Petyr B",6.0,undirected
+"Catelyn S","Edmure T",16.0,undirected
+"Catelyn S","Eddard S",7.0,undirected
+"Catelyn S","Lysa A",15.0,undirected
+"Catelyn S","Walder F",24.0,undirected
+"Catelyn S","Roose B",9.0,undirected
+"Catelyn S","Hoster T",15.0,undirected
+"Catelyn S","Jeyne W",11.0,undirected
+"Catelyn S","Greatjon U",9.0,undirected
+"Catelyn S","Brynden T",5.0,undirected
+"Catelyn S","Roslin F",6.0,undirected
+"Catelyn S","Rickard K",5.0,undirected
+"Catelyn S","Ryman F",6.0,undirected
+"Catelyn S","Jason M",5.0,undirected
+"Catelyn S","Desmond G",6.0,undirected
+"Catelyn S","Tansy",8.0,undirected
+"Catelyn S","Maege M",6.0,undirected
+"Catelyn S","Dacey M",5.0,undirected
+"Catelyn S","Vyman",5.0,undirected
+"Catelyn S","Raynald W",4.0,undirected
+"Davos S","Stannis B",30.0,undirected
+"Davos S","Melisandre",28.0,undirected
+"Davos S","Salladhor S",18.0,undirected
+"Davos S","Axell F",18.0,undirected
+"Davos S","Edric S",16.0,undirected
+"Davos S","Pylos",11.0,undirected
+"Davos S","Alester F",11.0,undirected
+"Davos S","Shireen",5.0,undirected
+"Davos S","Porridge",6.0,undirected
+"Davos S","Andrew E",4.0,undirected
+"Davos S","Cressen",4.0,undirected
+"Bran","Hodor",67.0,undirected
+"Bran","Eddard S",7.0,undirected
+"Bran","Meera R",53.0,undirected
+"Bran","Jojen R",44.0,undirected
+"Bran","Theon G",10.0,undirected
+"Bran","Nan",12.0,undirected
+"Bran","Rickon",32.0,undirected
+"Mance R","Ygritte",14.0,undirected
+"Mance R","Styr",14.0,undirected
+"Mance R","Craster",5.0,undirected
+"Mance R","Aemon T",5.0,undirected
+"Mance R","Tormund",20.0,undirected
+"Mance R","Gilly",6.0,undirected
+"Mance R","Qhorin H",8.0,undirected
+"Mance R","Pyp",4.0,undirected
+"Mance R","Rattleshirt",11.0,undirected
+"Mance R","Janos S",6.0,undirected
+"Mance R","Jarl",6.0,undirected
+"Mance R","Alliser T",5.0,undirected
+"Mance R","Harma",10.0,undirected
+"Mance R","Val",8.0,undirected
+"Mance R","Varamyr",6.0,undirected
+"Mance R","Dalla",10.0,undirected
+"Cersei L","Sandor C",5.0,undirected
+"Cersei L","Tywin L",17.0,undirected
+"Cersei L","Brienne",5.0,undirected
+"Cersei L","Robert B",15.0,undirected
+"Cersei L","Gregor C",4.0,undirected
+"Cersei L","Eddard S",6.0,undirected
+"Cersei L","Lysa A",4.0,undirected
+"Cersei L","Bronn",7.0,undirected
+"Cersei L","Varys",4.0,undirected
+"Cersei L","Mace T",4.0,undirected
+"Cersei L","Pycelle",4.0,undirected
+"Cersei L","Elia M",4.0,undirected
+"Cersei L","Willas T",5.0,undirected
+"Cersei L","Meryn T",10.0,undirected
+"Cersei L","Tickler",5.0,undirected
+"Cersei L","Boros B",4.0,undirected
+"Cersei L","Osmund K",5.0,undirected
+"Cersei L","Ilyn P",8.0,undirected
+"Cersei L","Raff",6.0,undirected
+"Cersei L","Mandon M",4.0,undirected
+"Sandor C","Robert B",5.0,undirected
+"Sandor C","Gregor C",10.0,undirected
+"Sandor C","Gendry",5.0,undirected
+"Sandor C","Eddard S",5.0,undirected
+"Sandor C","Beric D",14.0,undirected
+"Sandor C","Thoros",11.0,undirected
+"Sandor C","Polliver",19.0,undirected
+"Sandor C","Meryn T",4.0,undirected
+"Sandor C","Tickler",12.0,undirected
+"Sandor C","Ilyn P",4.0,undirected
+"Sandor C","Mycah",6.0,undirected
+"Sandor C","Raff",7.0,undirected
+"Stannis B","Tywin L",15.0,undirected
+"Stannis B","Robert B",5.0,undirected
+"Stannis B","Melisandre",19.0,undirected
+"Stannis B","Aemon T",4.0,undirected
+"Stannis B","Renly B",15.0,undirected
+"Stannis B","Axell F",7.0,undirected
+"Stannis B","Edric S",6.0,undirected
+"Stannis B","Balon G",4.0,undirected
+"Tywin L","Robert B",10.0,undirected
+"Tywin L","Petyr B",5.0,undirected
+"Tywin L","Gregor C",6.0,undirected
+"Tywin L","Oberyn M",9.0,undirected
+"Tywin L","Lysa A",4.0,undirected
+"Tywin L","Walder F",4.0,undirected
+"Tywin L","Varys",5.0,undirected
+"Tywin L","Aerys T",8.0,undirected
+"Tywin L","Roose B",4.0,undirected
+"Tywin L","Kevan L",13.0,undirected
+"Tywin L","Mace T",6.0,undirected
+"Tywin L","Tommen",4.0,undirected
+"Tywin L","Podrick P",4.0,undirected
+"Tywin L","Brynden T",4.0,undirected
+"Tywin L","Pycelle",5.0,undirected
+"Tywin L","Balon G",4.0,undirected
+"Tywin L","Joanna",4.0,undirected
+"Brienne","Loras T",6.0,undirected
+"Brienne","Roose B",10.0,undirected
+"Brienne","Cleos F",12.0,undirected
+"Brienne","Vargo H",4.0,undirected
+"Robert B","Eddard S",7.0,undirected
+"Robert B","Lysa A",5.0,undirected
+"Robert B","Aemon T",4.0,undirected
+"Robert B","Aerys T",8.0,undirected
+"Robert B","Renly B",4.0,undirected
+"Robert B","Rhaegar T",7.0,undirected
+"Robert B","Viserys",6.0,undirected
+"Robert B","Barristan S",6.0,undirected
+"Robert B","Jon A",4.0,undirected
+"Petyr B","Lysa A",27.0,undirected
+"Petyr B","Dontos H",4.0,undirected
+"Petyr B","Alayne S",7.0,undirected
+"Petyr B","Lothor B",5.0,undirected
+"Petyr B","Oswell W",4.0,undirected
+"Gregor C","Oberyn M",29.0,undirected
+"Gregor C","Bronn",4.0,undirected
+"Gregor C","Polliver",11.0,undirected
+"Gregor C","Elia M",8.0,undirected
+"Gregor C","Meryn T",5.0,undirected
+"Gregor C","Tickler",11.0,undirected
+"Gregor C","Ilyn P",6.0,undirected
+"Gregor C","Raff",12.0,undirected
+"Hodor","Meera R",25.0,undirected
+"Hodor","Jojen R",23.0,undirected
+"Jorah M","Arstan",13.0,undirected
+"Jorah M","Belwas",13.0,undirected
+"Jorah M","Rhaegar T",5.0,undirected
+"Jorah M","Daario",8.0,undirected
+"Jorah M","Barristan S",4.0,undirected
+"Jorah M","Jhiqui",4.0,undirected
+"Jorah M","Drogo",8.0,undirected
+"Jorah M","Mero",4.0,undirected
+"Oberyn M","Bronn",4.0,undirected
+"Oberyn M","Mace T",14.0,undirected
+"Oberyn M","Elia M",5.0,undirected
+"Oberyn M","Amory L",6.0,undirected
+"Oberyn M","Ellaria S",5.0,undirected
+"Ygritte","Styr",9.0,undirected
+"Ygritte","Tormund",10.0,undirected
+"Ygritte","Qhorin H",5.0,undirected
+"Ygritte","Rattleshirt",11.0,undirected
+"Ygritte","Jarl",6.0,undirected
+"Ygritte","Ryk",8.0,undirected
+"Edmure T","Walder F",9.0,undirected
+"Edmure T","Hoster T",11.0,undirected
+"Edmure T","Lothar F",4.0,undirected
+"Edmure T","Brynden T",6.0,undirected
+"Edmure T","Roslin F",15.0,undirected
+"Edmure T","Desmond G",4.0,undirected
+"Edmure T","Marq P",5.0,undirected
+"Lem","Gendry",9.0,undirected
+"Lem","Beric D",12.0,undirected
+"Lem","Tom S",18.0,undirected
+"Lem","Thoros",10.0,undirected
+"Lem","Hot P",6.0,undirected
+"Lem","Anguy",21.0,undirected
+"Lem","Harwin",7.0,undirected
+"Lem","Greenbeard",12.0,undirected
+"Lem","Jack-Be-Lucky",4.0,undirected
+"Gendry","Beric D",4.0,undirected
+"Gendry","Tom S",8.0,undirected
+"Gendry","Thoros",7.0,undirected
+"Gendry","Hot P",29.0,undirected
+"Gendry","Harwin",8.0,undirected
+"Eddard S","Beric D",8.0,undirected
+"Eddard S","Rickon",8.0,undirected
+"Lysa A","Hoster T",6.0,undirected
+"Lysa A","Alayne S",6.0,undirected
+"Lysa A","Marillion",9.0,undirected
+"Lysa A","Jon A",4.0,undirected
+"Lysa A","Robert A",5.0,undirected
+"Beric D","Tom S",4.0,undirected
+"Beric D","Thoros",21.0,undirected
+"Beric D","Anguy",4.0,undirected
+"Beric D","Harwin",6.0,undirected
+"Grenn","Jeor M",5.0,undirected
+"Grenn","Aemon T",5.0,undirected
+"Grenn","Pyp",26.0,undirected
+"Grenn","Edd T",12.0,undirected
+"Grenn","Owen",4.0,undirected
+"Grenn","Kegs",5.0,undirected
+"Meera R","Jojen R",32.0,undirected
+"Tom S","Hot P",4.0,undirected
+"Tom S","Anguy",12.0,undirected
+"Tom S","Greenbeard",4.0,undirected
+"Margaery T","Loras T",10.0,undirected
+"Margaery T","Renly B",6.0,undirected
+"Margaery T","Tommen",5.0,undirected
+"Margaery T","Willas T",5.0,undirected
+"Margaery T","Olenna T",4.0,undirected
+"Styr","Tormund",4.0,undirected
+"Styr","Rattleshirt",8.0,undirected
+"Styr","Jarl",16.0,undirected
+"Styr","Harma",4.0,undirected
+"Walder F","Lothar F",4.0,undirected
+"Walder F","Jeyne W",4.0,undirected
+"Walder F","Greatjon U",4.0,undirected
+"Walder F","Roslin F",6.0,undirected
+"Walder F","Jinglebell F",4.0,undirected
+"Walder F","Petyr P",4.0,undirected
+"Jeor M","Craster",7.0,undirected
+"Jeor M","Donal N",4.0,undirected
+"Jeor M","Qhorin H",5.0,undirected
+"Jeor M","Chett",6.0,undirected
+"Jeor M","Bowen M",8.0,undirected
+"Jeor M","Thoren S",5.0,undirected
+"Arstan","Belwas",23.0,undirected
+"Arstan","Rhaegar T",5.0,undirected
+"Arstan","Mero",6.0,undirected
+"Loras T","Renly B",7.0,undirected
+"Loras T","Willas T",4.0,undirected
+"Loras T","Olenna T",4.0,undirected
+"Loras T","Boros B",5.0,undirected
+"Loras T","Osmund K",4.0,undirected
+"Loras T","Garlan T",6.0,undirected
+"Loras T","Balon S",6.0,undirected
+"Craster","Gilly",15.0,undirected
+"Craster","Karl",6.0,undirected
+"Craster","Dirk",6.0,undirected
+"Bronn","Tommen",4.0,undirected
+"Bronn","Podrick P",17.0,undirected
+"Bronn","Lollys S",4.0,undirected
+"Varys","Renly B",4.0,undirected
+"Varys","Shae",7.0,undirected
+"Varys","Kevan L",5.0,undirected
+"Varys","Addam M",4.0,undirected
+"Varys","Lollys S",4.0,undirected
+"Donal N","Aemon T",8.0,undirected
+"Donal N","Bowen M",4.0,undirected
+"Aemon T","Pyp",4.0,undirected
+"Aemon T","Janos S",4.0,undirected
+"Aemon T","Clydas",13.0,undirected
+"Tormund","Rattleshirt",4.0,undirected
+"Tormund","Harma",4.0,undirected
+"Tormund","Ryk",6.0,undirected
+"Roose B","Vargo H",6.0,undirected
+"Roose B","Walton",6.0,undirected
+"Qhorin H","Rattleshirt",6.0,undirected
+"Belwas","Illyrio M",8.0,undirected
+"Belwas","Oznak P",6.0,undirected
+"Anguy","Harwin",6.0,undirected
+"Anguy","Greenbeard",9.0,undirected
+"Shae","Lollys S",5.0,undirected
+"Kevan L","Lancel",7.0,undirected
+"Chett","Paul",7.0,undirected
+"Chett","Lark",9.0,undirected
+"Mace T","Paxter R",4.0,undirected
+"Pyp","Edd T",4.0,undirected
+"Pyp","Owen",4.0,undirected
+"Hoster T","Tansy",5.0,undirected
+"Tommen","Boros B",4.0,undirected
+"Tommen","Myrcella",7.0,undirected
+"Rhaegar T","Viserys",7.0,undirected
+"Rhaegar T","Elia M",7.0,undirected
+"Paul","Lark",7.0,undirected
+"Rattleshirt","Jarl",6.0,undirected
+"Rattleshirt","Harma",5.0,undirected
+"Rattleshirt","Ryk",4.0,undirected
+"Rattleshirt","Weeper",4.0,undirected
+"Lothar F","Roslin F",4.0,undirected
+"Axell F","Porridge",5.0,undirected
+"Edd T","Dywen",5.0,undirected
+"Harwin","Greenbeard",4.0,undirected
+"Janos S","Bowen M",8.0,undirected
+"Janos S","Alliser T",13.0,undirected
+"Janos S","Hobb",4.0,undirected
+"Janos S","Othell Y",8.0,undirected
+"Bowen M","Denys M",5.0,undirected
+"Bowen M","Othell Y",9.0,undirected
+"Walton","Qyburn",4.0,undirected
+"Jarl","Val",5.0,undirected
+"Greatjon U","Rickard K",7.0,undirected
+"Brynden T","Rickard K",4.0,undirected
+"Satin","Owen",4.0,undirected
+"Satin","Kegs",4.0,undirected
+"Satin","Mully",4.0,undirected
+"Theon G","Rickon",8.0,undirected
+"Missandei","Irri",4.0,undirected
+"Missandei","Jhiqui",5.0,undirected
+"Nan","Luwin",4.0,undirected
+"Polliver","Meryn T",5.0,undirected
+"Polliver","Tickler",15.0,undirected
+"Polliver","Ilyn P",5.0,undirected
+"Polliver","Raff",10.0,undirected
+"Barristan S","Gerold H",5.0,undirected
+"Denys M","Cotter P",14.0,undirected
+"Olenna T","Butterbumps",4.0,undirected
+"Edric S","Pylos",5.0,undirected
+"Edric S","Andrew E",4.0,undirected
+"Cotter P","Othell Y",4.0,undirected
+"Meryn T","Tickler",6.0,undirected
+"Meryn T","Boros B",6.0,undirected
+"Meryn T","Osmund K",4.0,undirected
+"Meryn T","Ilyn P",6.0,undirected
+"Meryn T","Raff",6.0,undirected
+"Tickler","Ilyn P",4.0,undirected
+"Tickler","Raff",9.0,undirected
+"Irri","Jhiqui",15.0,undirected
+"Irri","Viserion",4.0,undirected
+"Owen","Kegs",5.0,undirected
+"Lollys S","Tanda",7.0,undirected
+"Ryman F","Petyr P",4.0,undirected
+"Ryman F","Stevron",4.0,undirected
+"Arthur D","Gerold H",4.0,undirected
+"Clydas","Hobb",6.0,undirected
+"Val","Dalla",7.0,undirected
+"Ilyn P","Raff",6.0,undirected
+"Rorge","Shagwell",4.0,undirected
+"Bannen","Dywen",5.0,undirected
+"Desmond G","Utherydes W",5.0,undirected
+"Viserion","Rhaegal",7.0,undirected
+"Paxter R","Mathis R",6.0,undirected
+"Jhogo","Rakharo",4.0,undirected
+"Jhogo","Aggo",4.0,undirected
+"Ballabar","Frenken",4.0,undirected
