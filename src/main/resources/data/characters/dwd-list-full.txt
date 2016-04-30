@@ -18,8 +18,8 @@ Melisandre,Melisandre of Asshai,Lady Melisandre,Melisandre,Lady Red
 Bowen,Bowen Marsh,Bowen,Lord Bowen,Marsh,Lord Steward
 Tormund,Tormund Giantsbane,Giantsbane,Tormund Giantsbutt,Giantsbutt,Horn-Blower,Giantstink,Thunderfist,Tormund Giantsbabe,Giantsbabe,Tormund Thunderfist,Tormund,Tormund Horn-Blower,Tormund Giantstink
 Cersei,Dowager,Queen Regent,Queen Dowager,Queen Cersei,Cersei Lannister,Cersei
+Arya,Arya Underfoot,Lady Arya,Arya,Cat,Arry,Arya Horseface,Cat of the Canals,Horseface,Arya Stark,Underfoot
 Volantis,Volantis,Old Volantis
-Arya,Arya Underfoot,Lady Arya,Arya,Cat,Arry,Arya Horseface,Horseface,Arya Stark,Underfoot
 Jaime,Jaime,Jaime Lannister
 Wyman,Lord Manderly,Lord Wyman,Lord Wyman Manderly,Lard,Lord Lard,Wyman,Lord of White Harbor,Wyman Manderly
 Watch,Watch,City Watch
@@ -404,7 +404,6 @@ Bastard of Bolton,Bastard of Bolton
 Lhazar,Lhazar
 Disputed,Disputed Lands,Disputed
 Bucket,Big Bucket Wull,Bucket,Big Bucket
-Cat of the Canals,Cat of the Canals
 Wendel,Wendel,Wendel Manderly,Ser Wendel
 Seal,Seal Rock,Seal,Seal Gate
 Hazzea,Hazzea
@@ -414,7 +413,6 @@ Daeron,King Daeron the Good,Daeron,King Daeron,Daeron the Second,Daeron the Drag
 Umma,Umma
 Kerwin,Kerwin
 Pyp,Pyp
-Cats,Cats
 Caleotte,Caleotte,Maester Caleotte
 Jaehaerys,Jaehaerys,Jaehaerys the Conciliator,Conciliator,King Jaehaerys,Jaehaerys the Wise
 Sworn,Sworn
@@ -761,7 +759,6 @@ Domeric,Domeric
 Basilisks,Basilisks Isles,Basilisks
 Alios,Alios
 Mogat,Mogat
-Walders,Walders,Walders Big
 Ynys,Ynys
 Roggo,Roggo
 Bronze,Bronze,Yohn,Royce,Bronze Yohn Royce
@@ -950,6 +947,7 @@ Kraznys,Kraznys,Kraznys mo Nakloz
 Lady of the Waves,Lady of the Waves
 Steffar,Steffar,Steffar Stammerer,Stammerer
 Seven Lamps,Seven Lamps
+Walders Big,Walders Big
 First Flints,First Flints
 Darkling,Darkling
 Stony,Stony,Stony Shore
@@ -1253,7 +1251,6 @@ Kyleg,Wooden,Ear,Kyleg,Kyleg of the Wooden Ear
 Stanny,Stanny
 Stone Garden,Stone Garden
 Lorath,Lorath
-Aegons,Aegons
 Narraqqa,Narraqqa
 Kingslanders,Kingslanders
 Izembaro,Izembaro

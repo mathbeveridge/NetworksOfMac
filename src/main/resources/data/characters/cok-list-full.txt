@@ -111,7 +111,6 @@ Hallyne,Hallyne the Pyromancer of the Alchemists,Hallyne,Pyromancer,Hallyne the 
 Dolorous,Edd,Dolorous Edd,Dolorous
 Vargo,Lord Vargo Hoat,Vargo,Lord Hoat,Lord Vargo,Vargo Hoat
 Selyse,Selyse,Queen Selyse,Lady Selyse,Selyse Florent
-Walders,Walders
 Weasel,Weasel
 Jon Arryn,Jon Arryn,Lord Arryn
 Ygritte,Ygritte

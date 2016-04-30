@@ -629,7 +629,6 @@ High Hill,High Hill
 Cobblecat,Cobblecat
 Alan,Alan,Alan of Rosby
 Bastard of Godsgrace,Bastard of Godsgrace
-Walders,Walders
 Euron,Euron,Euron Crow,Euron Greyjoy
 Visenya,Visenya
 Cortnay,Cortnay,Ser Cortnay Penrose,Cortnay Penrose
