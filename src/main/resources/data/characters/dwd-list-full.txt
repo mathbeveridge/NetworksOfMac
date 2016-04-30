@@ -73,6 +73,7 @@ Aemon,Aemon Targaryen,Maester Aemon,Dragonknight,Prince Aemon the Dragonknight,A
 Moqorro,Moqorro
 Ben Plumm,Brown Ben Plumm,Ben Plumm,Brown Ben
 Upper,Upper,Upper Rhoyne,Little Rhoyne,Rhoyne
+Century,Blood of the Harpy,Century of Blood,Century,Old Blood,Blood
 Green Grace,Green Grace
 Worm,Grey Worm,Worm
 Meris,Pretty Meris,Meris
@@ -583,7 +584,6 @@ Bear Island,Bear Island
 Bountiful,Bountiful Harvest,Harvest Hall,Bountiful,Harvest
 Benjicot,Benjicot,Benjicot Branch,Branch
 Ilyn,Ilyn,Ilyn Payne,Ser Ilyn Payne
-Old Blood,Old Blood
 Serry,Serry
 Six-Toed,Harl,Six-Toed,Six-Toed Harl
 Prince of Winterfell,Prince of Winterfell
@@ -941,7 +941,6 @@ Mint,Old Mint,Mint
 Elyria,Elyria
 Torrent,Torrent
 Harlot,Harlot
-Blood of the Harpy,Blood of the Harpy
 Fork,Green Fork,Fork
 Kraznys,Kraznys,Kraznys mo Nakloz
 Lady of the Waves,Lady of the Waves
@@ -1367,7 +1366,6 @@ Blackfyre Rebellions,Blackfyre Rebellions
 Land of Always,Land of Always
 Gardens of Gelenei,Gardens of Gelenei
 Bear Mormont,Bear Mormont
-Century,Century of Blood,Century
 Blackbuckle,Blackbuckle
 Lord Rickard Stark,Lord Rickard Stark
 Sailor,Sailor

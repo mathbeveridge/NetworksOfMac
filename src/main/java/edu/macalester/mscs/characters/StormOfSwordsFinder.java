@@ -1,7 +1,6 @@
 package edu.macalester.mscs.characters;
 
 import edu.macalester.mscs.utils.FileUtils;
-import edu.macalester.mscs.utils.WordUtils;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -65,308 +64,288 @@ public class StormOfSwordsFinder {
         finder.removeWords("Mad Marq Rankenfell"); // unused
         finder.removeWords("Fat Tom"); // unused
         finder.removeWords("Samwell Spicer"); // unused
-
-        // gather names, titles, places, and things
-        Set<String> titledNames = finder.getTitledNames();
-        Set<String> pluralizedNames = finder.getPluralizedNames();
-        pluralizedNames.remove("Walder");
-        Set<String> surnames = finder.getSurnames();
-        surnames.add("Cerwyn");
-        surnames.add("Merryweather");
-        surnames.add("Mooton");
-        surnames.add("Bulwer");
-        surnames.add("Roote");
-        surnames.add("Blackfyre");
-        surnames.remove("Blackfish");
-        Set<String> names = finder.getNamesBySurname(surnames);
-        names.addAll(titledNames);
-        Set<String> places = finder.getPlaces(names);
-        places.add("Tarth");
-        places.add("Casterly");
-        Set<String> lonely = finder.getLonelyWords();
-
-        System.out.println(titledNames);
-        System.out.println(pluralizedNames);
-        System.out.println(surnames);
-        System.out.println(names);
-        System.out.println(places);
-        System.out.println(lonely);
-        System.out.println();
-
-        finder.removePlaces();
-        finder.removeTitles();
-        finder.removeWordsBelowThreshold(lonely, 1);
-
+        
         finder.printCounter().writeLog("src/main/resources/data/characters/sos-counter.csv");
 
-        // gather phrases that are not inherently descriptive
-        Set<String> nondescriptors = new HashSet<>();
-        nondescriptors.addAll(pluralizedNames);
-        nondescriptors.addAll(WordUtils.getPlurals(pluralizedNames));
-        nondescriptors.addAll(surnames);
-        nondescriptors.addAll(WordUtils.getPlurals(surnames));
-        nondescriptors.addAll(places);
-
-        // add problematic names
-        nondescriptors.add("Jon");
-        nondescriptors.add("Brandon");
-        nondescriptors.add("Robert");
-        nondescriptors.add("Petyr");
-        nondescriptors.add("Walder");
-        nondescriptors.add("Aemon");
-        nondescriptors.add("Lothar");
-        nondescriptors.add("Jeyne");
-        nondescriptors.add("Balon");
-        nondescriptors.add("Ben");
-        nondescriptors.add("Robin");
-        nondescriptors.add("Donnel");
-        nondescriptors.add("Baelor");
-        nondescriptors.add("Walda");
-        nondescriptors.add("Willem");
-        nondescriptors.add("Martyn");
-        nondescriptors.add("Rodrik");
-        nondescriptors.add("Tytos");
-        nondescriptors.add("Garth");
-        nondescriptors.add("Lucas");
-        nondescriptors.add("Tim");
-        nondescriptors.add("Daemon");
-        nondescriptors.add("Myles");
-
-        // build character groups
-        finder.buildCharacterGroups(nondescriptors);
-
-        // add back problematic names as necessary
-        finder.addToCharacterGroup("Jon Snow", "Jon");
-        finder.addToCharacterGroup("Robert Baratheon", "Robert");
-        finder.addToCharacterGroup("Petyr Baelish", "Petyr");
-        finder.addToCharacterGroup("Aemon Targaryen", "Aemon");
-        finder.addToCharacterGroup("Lothar Frey", "Lothar");
-        finder.addToCharacterGroup("Jeyne Westerling", "Jeyne");
-        finder.addToCharacterGroup("Baelor the Blessed", "Baelor");
-        finder.addToCharacterGroup("Willem Lannister", "Willem");
-        finder.addToCharacterGroup("Martyn Lannister", "Martyn");
-
-        // manually combine more character groups
-        finder.combineGroups("Jon Snow", "Lord Snow", "Jon Stark");
-        finder.combineGroups("Jon Connington", "Lord Connington", "Lord Jon");
-        finder.combineGroups("Jon Arryn", "Lord Arryn");
-        finder.combineGroups("Jon Darry", "Jonothor Darry");
-        finder.combineGroups("Bran", "Brandon Stark");
-        finder.combineGroups("Samwell Tarly", "Sam", "Piggy");
-        finder.combineGroups("Robert Baratheon", "Usurper", "King Robert");
-        finder.combineGroups("Robert Arryn", "Lord Robert", "Lord of the Eyrie");
-        finder.combineGroups("Petyr Baelish", "Littlefinger", "Lord Petyr");
-        finder.combineGroups("Walder Frey", "Lord Walder", "Lord of the Crossing", "Lord Frey", "Lord Grandfather");
-        finder.combineGroups("Aemon Targaryen", "Maester Aemon");
-        finder.combineGroups("Aemon the Dragonknight", "Prince Aemon");
-        finder.combineGroups("Lothar Frey", "Lame Lothar");
-        finder.combineGroups("Jeyne Westerling", "Queen Jeyne");
-        finder.combineGroups("Balon Greyjoy", "King Balon", "Lord Balon");
-        finder.combineGroups("Balon Swann", "Ser Balon");
-        finder.combineGroups("Robin Ryger", "Ser Robin");
-        finder.combineGroups("Donnel Hill", "Sweet Donnel");
-        finder.combineGroups("Baelor the Blessed", "King Baelor");
-        finder.combineGroups("Baelor Hightower", "Baelor Brightsmile", "Baelor Breakwind");
-        finder.combineGroups("Walda Bolton", "Lady Walda", "Fat Walda", "Walda Frey", "Lady Bolton");
-        finder.combineGroups("Rodrik Cassel", "Ser Rodrik");
-        finder.combineGroups("Tytos Lannister", "Lord Tytos");
-        finder.combineGroups("Garth of Greenaway", "Garth Greenaway");
-        finder.combineGroups("Myles Mooton", "Ser Myles");
-        finder.combineGroups("Eddard", "Ned");
-        finder.combineGroups("Catelyn", "Cat", "Lady Stark");
-        finder.combineGroups("Daenerys", "Dany", "Khaleesi");
-        finder.combineGroups("Joffrey", "Joff", "Robert the Second");
-        finder.combineGroups("Sandor", "Hound");
-        finder.combineGroups("Jeor Mormont", "Old Bear", "Commander Mormont", "Lord Mormont");
-        finder.combineGroups("Lysa", "Lady Arryn", "Lady of the Eyrie");
-        finder.combineGroups("Tywin", "Lord of Casterly Rock");
-        finder.combineGroups("Roose", "Lord of the Dreadfort", "Lord Bolton");
-        finder.combineGroups("Loras", "Knight of Flowers");
-        finder.combineGroups("Davos", "Onion Knight", "Ser Onions");
-        finder.combineGroups("Varys", "Spider");
-        finder.combineGroups("Gregor", "Mountain");
-        finder.combineGroups("Cersei", "Queen Regent");
-        finder.combineGroups("Rattleshirt", "Lord of Bones");
-        finder.combineGroups("Randyll", "Lord Tarly");
-        finder.combineGroups("Mace", "Lord Tyrell", "Puff Fish");
-        finder.combineGroups("Stannis", "Lord of Dragonstone");
-        finder.combineGroups("Rickard Karstark", "Lord Karstark");
-        finder.combineGroups("Janos", "Lord Slynt");
-        finder.combineGroups("Tyrion", "Imp");
-        finder.combineGroups("Hother", "Whoresbane");
-        finder.combineGroups("Arya", "Arry", "Squab");
-        finder.combineGroups("Aerys", "Mad King", "King Scab");
-        finder.combineGroups("Ben Plumm", "Brown Ben");
-        finder.combineGroups("Salladhor", "Salla");
-        finder.combineGroups("Paxter", "Lord Redwyne");
-        finder.combineGroups("Jonos", "Lord Bracken");
-        finder.combineGroups("Tytos Blackwood", "Lord Blackwood");
-        finder.combineGroups("Robb", "Young Wolf", "King of the Trident");
-        finder.combineGroups("Benjen", "Ben Stark");
-        finder.combineGroups("Podrick", "Pod");
-        finder.combineGroups("Gerold", "White Bull");
-        finder.combineGroups("Arthur", "Sword of the Morning");
-        finder.combineGroups("Cley Cerwyn", "Lord Cerwyn");
-        finder.combineGroups("Sansa Stark", "Lady Wife", "Lady of Winterfell");
-        finder.combineGroups("Jaime Lannister", "Kingslayer");
-        finder.combineGroups("Maege Mormont", "Lady Mormont");
-        finder.combineGroups("Mathis Rowan", "Lord of Goldengrove", "Lord Rowan");
-        finder.combineGroups("Tremond Gargalen", "Lord Gargalen");
-        finder.combineGroups("Alester Florent", "Lord Florent");
-        finder.combineGroups("Jason Mallister", "Lord of Seagard", "Lord Mallister");
-        finder.combineGroups("Selwyn", "Lord of Evenfall");
-        finder.combineGroups("Leyton Hightower", "Lord Hightower");
-        finder.combineGroups("Lymond Goodbrook", "Lord Goodbrook");
-        finder.combineGroups("Hoster Tully", "Lord of Riverrun", "Lord Tully");
-        finder.combineGroups("Greatjon Umber", "Lord Umber");
-        finder.combineGroups("Alerie", "Lady Tyrell");
-        finder.combineGroups("Roslin Frey", "Lady Tully", "Roslin Tully");
-        finder.combineGroups("Dontos Hollard", "Ser Fool");
-        finder.combineGroups("Olenna Tyrell", "Queen of Thorns");
-        finder.combineGroups("Oberyn Martell", "Red Viper");
-        finder.combineGroups("Pello", "Greenbeard");
-        finder.combineGroups("Mance Rayder", "King-beyond-the-Wall");
-
         // manually add important names that get missed
-        names.add("Mance Rayder");
-        names.add("Hodor");
-        names.add("Ygritte");
-        names.add("Lem");
-        names.add("Grenn");
-        names.add("Tom Sevenstrings");
-        names.add("Styr");
-        names.add("Arstan");
-        names.add("Thoros");
-        names.add("Craster");
-        names.add("Donal Noye");
-        names.add("Tormund");
-        names.add("Gilly");
-        names.add("Hot Pie");
-        names.add("Qhorin Halfhand"); // note that in book one, his name was spelled "Quorin"
-        names.add("Belwas");
-        names.add("Salladhor Saan");
-        names.add("Anguy");
-        names.add("Shae");
-        names.add("Chett");
-        names.add("Pyp");
-        names.add("Paul");
-        names.add("Rattleshirt");
-        names.add("Edd Tollett");
-        names.add("Harwin");
-        names.add("Bowen Marsh");
-        names.add("Walton");
-        names.add("Jarl");
-        names.add("Daario");
-        names.add("Satin");
-        names.add("Qyburn");
-        names.add("Pycelle");
-        names.add("Missandei");
-        names.add("Nan");
-        names.add("Polliver");
-        names.add("Rickon");
-        names.add("Harma");
-        names.add("Tickler");
-        names.add("Irri");
-        names.add("Greenbeard");
-        names.add("Owen");
-        names.add("High Septon");
-        names.add("Lark");
-        names.add("Jhiqui");
-        names.add("Clydas");
-        names.add("Val");
-        names.add("Marillion");
-        names.add("Hobb");
-        names.add("Urswyck");
-        names.add("Rorge");
-        names.add("Othell Yarwyck");
-        names.add("Bannen");
-        names.add("Ryk");
-        names.add("Jack-Be-Lucky");
-        names.add("Tansy");
-        names.add("Viserion");
-        names.add("Symon");
-        names.add("Butterbumps");
-        names.add("Varamyr");
-        names.add("Karl");
-        names.add("Dywen");
-        names.add("Mycah");
-        names.add("Dalla");
-        names.add("Mero");
-        names.add("Baelor the Blessed");
-        names.add("Raff");
-        names.add("Kegs");
-        names.add("Dirk");
-        names.add("Grey Worm");
-        names.add("Tysha");
-        names.add("Rossart");
-        names.add("Porridge");
-        names.add("Utherydes Wayn");
-        names.add("Aemon the Dragonknight");
-        names.add("Gendel");
-        names.add("Shagwell");
-        names.add("Notch");
-        names.add("Florian");
-        names.add("Jack Bulwer");
-        names.add("Emmett");
-        names.add("Orell");
-        names.add("Errok");
+        finder.addNames("Mance Rayder");
+        finder.addNames("Hodor");
+        finder.addNames("Ygritte");
+        finder.addNames("Lem");
+        finder.addNames("Grenn");
+        finder.addNames("Tom Sevenstrings");
+        finder.addNames("Styr");
+        finder.addNames("Arstan");
+        finder.addNames("Thoros");
+        finder.addNames("Craster");
+        finder.addNames("Donal Noye");
+        finder.addNames("Tormund");
+        finder.addNames("Gilly");
+        finder.addNames("Hot Pie");
+        finder.addNames("Qhorin Halfhand"); // note that in book one, his name was spelled "Quorin"
+        finder.addNames("Belwas");
+        finder.addNames("Salladhor Saan");
+        finder.addNames("Anguy");
+        finder.addNames("Shae");
+        finder.addNames("Chett");
+        finder.addNames("Pyp");
+        finder.addNames("Paul");
+        finder.addNames("Rattleshirt");
+        finder.addNames("Edd Tollett");
+        finder.addNames("Harwin");
+        finder.addNames("Bowen Marsh");
+        finder.addNames("Walton");
+        finder.addNames("Jarl");
+        finder.addNames("Daario");
+        finder.addNames("Satin");
+        finder.addNames("Qyburn");
+        finder.addNames("Pycelle");
+        finder.addNames("Missandei");
+        finder.addNames("Nan");
+        finder.addNames("Polliver");
+        finder.addNames("Rickon");
+        finder.addNames("Harma");
+        finder.addNames("Tickler");
+        finder.addNames("Irri");
+        finder.addNames("Greenbeard");
+        finder.addNames("Owen");
+        finder.addNames("High Septon");
+        finder.addNames("Lark");
+        finder.addNames("Jhiqui");
+        finder.addNames("Clydas");
+        finder.addNames("Val");
+        finder.addNames("Marillion");
+        finder.addNames("Hobb");
+        finder.addNames("Urswyck");
+        finder.addNames("Rorge");
+        finder.addNames("Othell Yarwyck");
+        finder.addNames("Bannen");
+        finder.addNames("Ryk");
+        finder.addNames("Jack-Be-Lucky");
+        finder.addNames("Tansy");
+        finder.addNames("Viserion");
+        finder.addNames("Symon");
+        finder.addNames("Butterbumps");
+        finder.addNames("Varamyr");
+        finder.addNames("Karl");
+        finder.addNames("Dywen");
+        finder.addNames("Mycah");
+        finder.addNames("Dalla");
+        finder.addNames("Mero");
+        finder.addNames("Baelor the Blessed");
+        finder.addNames("Raff");
+        finder.addNames("Kegs");
+        finder.addNames("Dirk");
+        finder.addNames("Grey Worm");
+        finder.addNames("Tysha");
+        finder.addNames("Rossart");
+        finder.addNames("Porridge");
+        finder.addNames("Utherydes Wayn");
+        finder.addNames("Aemon the Dragonknight");
+        finder.addNames("Gendel");
+        finder.addNames("Shagwell");
+        finder.addNames("Notch");
+        finder.addNames("Florian");
+        finder.addNames("Jack Bulwer");
+        finder.addNames("Emmett");
+        finder.addNames("Orell");
+        finder.addNames("Errok");
 
         // 10 or less occurrences, but previously relevant
-        names.add("Rhaegal");
-        names.add("Jaqen");
-        names.add("Jhogo");
-        names.add("Mully");
-        names.add("Rakharo");
-        names.add("Syrio Forel");
-        names.add("Weeper");
-        names.add("Aggo");
-        names.add("Patchface");
-        names.add("Xaro Xhoan Daxos");
-        names.add("Timett");
-        names.add("Pyat Pree");
-        names.add("Shagga");
-        names.add("Mikken");
-        names.add("Farlen");
-        names.add("Coldhands");
-        names.add("Kyra");
+        finder.addNames("Rhaegal");
+        finder.addNames("Jaqen");
+        finder.addNames("Jhogo");
+        finder.addNames("Mully");
+        finder.addNames("Rakharo");
+        finder.addNames("Syrio Forel");
+        finder.addNames("Weeper");
+        finder.addNames("Aggo");
+        finder.addNames("Patchface");
+        finder.addNames("Xaro Xhoan Daxos");
+        finder.addNames("Timett");
+        finder.addNames("Pyat Pree");
+        finder.addNames("Shagga");
+        finder.addNames("Mikken");
+        finder.addNames("Farlen");
+        finder.addNames("Coldhands");
+        finder.addNames("Kyra");
+
+        finder.addSurnames("Cerwyn");
+        finder.addSurnames("Merryweather");
+        finder.addSurnames("Mooton");
+        finder.addSurnames("Bulwer");
+        finder.addSurnames("Roote");
+        finder.addSurnames("Blackfyre");
+
+        finder.addPlaces("Casterly");
+        finder.addPlaces("Tarth");
+        finder.addPlaces("Hedge");
+
+        finder.addNondescriptors("Jon");
+        finder.addNondescriptors("Brandon");
+        finder.addNondescriptors("Robert");
+        finder.addNondescriptors("Petyr");
+        finder.addNondescriptors("Walder");
+        finder.addNondescriptors("Aemon");
+        finder.addNondescriptors("Lothar");
+        finder.addNondescriptors("Jeyne");
+        finder.addNondescriptors("Balon");
+        finder.addNondescriptors("Ben");
+        finder.addNondescriptors("Robin");
+        finder.addNondescriptors("Donnel");
+        finder.addNondescriptors("Baelor");
+        finder.addNondescriptors("Walda");
+        finder.addNondescriptors("Willem");
+        finder.addNondescriptors("Martyn");
+        finder.addNondescriptors("Rodrik");
+        finder.addNondescriptors("Tytos");
+        finder.addNondescriptors("Garth");
+        finder.addNondescriptors("Lucas");
+        finder.addNondescriptors("Tim");
+        finder.addNondescriptors("Daemon");
+        finder.addNondescriptors("Myles");
+
+        // gather names, titles, places, and things
+        finder.processCapitalized();
 
         // manually remove a few names that are either mistakes, duplicates, or unused
-        names.remove("Jon Stark");      // as Jon Snow
-        names.remove("Sam Tarly");      // as Samwell Tarly
-        names.remove("Piggy");      // as Samwell Tarly
-        names.remove("Joff");           // as Joffrey Baratheon
-        names.remove("Brandon Stark");  // as Bran
-        names.remove("Petyr Littlefinger"); // as Petyr Baelish
-        names.remove("Ned Stark");      // as Eddard Stark
-        names.remove("Lysa Tully");     // as Lysa Arryn
-        names.remove("Brynden Blackfish");  // as Brynden Tully
-        names.remove("Ben Stark");      // as Benjen Stark
-        names.remove("Merrett Muttonhead"); // as Merrett Frey
-        names.remove("Baelor Brightsmile"); // as Baelor Hightower
-        names.remove("Baelor Breakwind");   // as Baelor Hightower
-        names.remove("Roslin Tully");   // as Roslin Frey
-        names.remove("Walda Frey");     // as Walda Bolton
-        names.remove("Grandfather");    // as Walder Frey
-        names.remove("Puff Fish");      // as Mace Tyrell
-        names.remove("Scab");           // as Aerys Targaryen
-        names.remove("Onions");         // as Davos
-        names.remove("Wife");           // as Sansa
-        names.remove("Aerion Brightfire");  // as Aerion Brightflame
-        names.remove("Jon Darry");      // as Jonothor Darry
-        names.remove("Jaime Jaime");    // as Jaime Lannister
+        finder.removeNames("Jon Stark");      // as Jon Snow
+        finder.removeNames("Sam Tarly");      // as Samwell Tarly
+        finder.removeNames("Piggy");      // as Samwell Tarly
+        finder.removeNames("Joff");           // as Joffrey Baratheon
+        finder.removeNames("Brandon Stark");  // as Bran
+        finder.removeNames("Petyr Littlefinger"); // as Petyr Baelish
+        finder.removeNames("Ned Stark");      // as Eddard Stark
+        finder.removeNames("Lysa Tully");     // as Lysa Arryn
+        finder.removeNames("Brynden Blackfish");  // as Brynden Tully
+        finder.removeNames("Ben Stark");      // as Benjen Stark
+        finder.removeNames("Merrett Muttonhead"); // as Merrett Frey
+        finder.removeNames("Baelor Brightsmile"); // as Baelor Hightower
+        finder.removeNames("Baelor Breakwind");   // as Baelor Hightower
+        finder.removeNames("Roslin Tully");   // as Roslin Frey
+        finder.removeNames("Walda Frey");     // as Walda Bolton
+        finder.removeNames("Grandfather");    // as Walder Frey
+        finder.removeNames("Puff Fish");      // as Mace Tyrell
+        finder.removeNames("Scab");           // as Aerys Targaryen
+        finder.removeNames("Onions");         // as Davos
+        finder.removeNames("Wife");           // as Sansa
+        finder.removeNames("Aerion Brightfire");  // as Aerion Brightflame
+        finder.removeNames("Jon Darry");      // as Jonothor Darry
+        finder.removeNames("Jaime Jaime");    // as Jaime Lannister
 
-        names.remove("Soldier");        // a doll
-        names.remove("Paramount");      // a generic title
-        names.remove("Rickard Stark");  // unused
-        names.remove("Horn Hill");      // mistake
-        names.remove("Maiden Fair");    // mistake
+        finder.removeNames("Soldier");        // a doll
+        finder.removeNames("Paramount");      // a generic title
+        finder.removeNames("Rickard Stark");  // unused
+        finder.removeNames("Horn Hill");      // mistake
+        finder.removeNames("Maiden Fair");    // mistake
 
-        Set<String> firstNames = finder.getFirstNames(names);
+        finder.removeNondescriptors("Blackfish");
 
-        FileUtils.writeFile(finder.getNameList(), "src/main/resources/data/characters/sos-list-full.txt");
-        FileUtils.writeFile(finder.getNameList(names, true, 4), "src/main/resources/data/characters/sos-list-clean.txt");
-        FileUtils.writeFile(finder.getNameList(firstNames, true, 4), "src/main/resources/data/characters/sos-list-no-dup.txt");
-        FileUtils.writeFile(finder.getFirstNameList(names), "src/main/resources/data/characters/sos-list-first.txt");
+        System.out.println(finder.getTitledNames());
+        System.out.println(finder.getPluralized());
+        System.out.println(finder.getSurnames());
+        System.out.println(finder.getNames());
+        System.out.println(finder.getPlaces());
+        System.out.println(finder.getNondescriptors());
+        System.out.println();
+
+        // build character groups
+        CharacterGroups groups = finder.buildCharacterGroups();
+
+        // add back problematic names as necessary
+        groups.addAliasToGroup("Jon Snow", "Jon", finder.getCount("Jon"));
+        groups.addAliasToGroup("Robert Baratheon", "Robert", finder.getCount("Robert"));
+        groups.addAliasToGroup("Petyr Baelish", "Petyr", finder.getCount("Petyr"));
+        groups.addAliasToGroup("Aemon Targaryen", "Aemon", finder.getCount("Aemon"));
+        groups.addAliasToGroup("Lothar Frey", "Lothar", finder.getCount("Lothar"));
+        groups.addAliasToGroup("Jeyne Westerling", "Jeyne", finder.getCount("Jeyne"));
+        groups.addAliasToGroup("Baelor the Blessed", "Baelor", finder.getCount("Baelor"));
+        groups.addAliasToGroup("Willem Lannister", "Willem", finder.getCount("Willem"));
+        groups.addAliasToGroup("Martyn Lannister", "Martyn", finder.getCount("Martyn"));
+
+        // manually combine more character groups
+        groups.combineGroups("Jon Snow", "Lord Snow", "Jon Stark");
+        groups.combineGroups("Jon Connington", "Lord Connington", "Lord Jon");
+        groups.combineGroups("Jon Arryn", "Lord Arryn");
+        groups.combineGroups("Jon Darry", "Jonothor Darry");
+        groups.combineGroups("Bran", "Brandon Stark");
+        groups.combineGroups("Samwell Tarly", "Sam", "Piggy");
+        groups.combineGroups("Robert Baratheon", "Usurper", "King Robert");
+        groups.combineGroups("Robert Arryn", "Lord Robert", "Lord of the Eyrie");
+        groups.combineGroups("Petyr Baelish", "Littlefinger", "Lord Petyr");
+        groups.combineGroups("Walder Frey", "Lord Walder", "Lord of the Crossing", "Lord Frey", "Lord Grandfather");
+        groups.combineGroups("Aemon Targaryen", "Maester Aemon");
+        groups.combineGroups("Aemon the Dragonknight", "Prince Aemon");
+        groups.combineGroups("Lothar Frey", "Lame Lothar");
+        groups.combineGroups("Jeyne Westerling", "Queen Jeyne");
+        groups.combineGroups("Balon Greyjoy", "King Balon", "Lord Balon");
+        groups.combineGroups("Balon Swann", "Ser Balon");
+        groups.combineGroups("Robin Ryger", "Ser Robin");
+        groups.combineGroups("Donnel Hill", "Sweet Donnel");
+        groups.combineGroups("Baelor the Blessed", "King Baelor");
+        groups.combineGroups("Baelor Hightower", "Baelor Brightsmile", "Baelor Breakwind");
+        groups.combineGroups("Walda Bolton", "Lady Walda", "Fat Walda", "Walda Frey", "Lady Bolton");
+        groups.combineGroups("Rodrik Cassel", "Ser Rodrik");
+        groups.combineGroups("Tytos Lannister", "Lord Tytos");
+        groups.combineGroups("Garth of Greenaway", "Garth Greenaway");
+        groups.combineGroups("Myles Mooton", "Ser Myles");
+        groups.combineGroups("Eddard", "Ned");
+        groups.combineGroups("Catelyn", "Cat", "Lady Stark");
+        groups.combineGroups("Daenerys", "Dany", "Khaleesi");
+        groups.combineGroups("Joffrey", "Joff", "Robert the Second");
+        groups.combineGroups("Sandor", "Hound");
+        groups.combineGroups("Jeor Mormont", "Old Bear", "Commander Mormont", "Lord Mormont");
+        groups.combineGroups("Lysa", "Lady Arryn", "Lady of the Eyrie");
+        groups.combineGroups("Tywin", "Lord of Casterly Rock");
+        groups.combineGroups("Roose", "Lord of the Dreadfort", "Lord Bolton");
+        groups.combineGroups("Loras", "Knight of Flowers");
+        groups.combineGroups("Davos", "Onion Knight", "Ser Onions");
+        groups.combineGroups("Varys", "Spider");
+        groups.combineGroups("Gregor", "Mountain");
+        groups.combineGroups("Cersei", "Queen Regent");
+        groups.combineGroups("Rattleshirt", "Lord of Bones");
+        groups.combineGroups("Randyll", "Lord Tarly");
+        groups.combineGroups("Mace", "Lord Tyrell", "Puff Fish");
+        groups.combineGroups("Stannis", "Lord of Dragonstone");
+        groups.combineGroups("Rickard Karstark", "Lord Karstark");
+        groups.combineGroups("Janos", "Lord Slynt");
+        groups.combineGroups("Tyrion", "Imp");
+        groups.combineGroups("Hother", "Whoresbane");
+        groups.combineGroups("Arya", "Arry", "Squab");
+        groups.combineGroups("Aerys", "Mad King", "King Scab");
+        groups.combineGroups("Ben Plumm", "Brown Ben");
+        groups.combineGroups("Salladhor", "Salla");
+        groups.combineGroups("Paxter", "Lord Redwyne");
+        groups.combineGroups("Jonos", "Lord Bracken");
+        groups.combineGroups("Tytos Blackwood", "Lord Blackwood");
+        groups.combineGroups("Robb", "Young Wolf", "King of the Trident");
+        groups.combineGroups("Benjen", "Ben Stark");
+        groups.combineGroups("Podrick", "Pod");
+        groups.combineGroups("Gerold", "White Bull");
+        groups.combineGroups("Arthur", "Sword of the Morning");
+        groups.combineGroups("Cley Cerwyn", "Lord Cerwyn");
+        groups.combineGroups("Sansa Stark", "Lady Wife", "Lady of Winterfell");
+        groups.combineGroups("Jaime Lannister", "Kingslayer");
+        groups.combineGroups("Maege Mormont", "Lady Mormont");
+        groups.combineGroups("Mathis Rowan", "Lord of Goldengrove", "Lord Rowan");
+        groups.combineGroups("Tremond Gargalen", "Lord Gargalen");
+        groups.combineGroups("Alester Florent", "Lord Florent");
+        groups.combineGroups("Jason Mallister", "Lord of Seagard", "Lord Mallister");
+        groups.combineGroups("Selwyn", "Lord of Evenfall");
+        groups.combineGroups("Leyton Hightower", "Lord Hightower");
+        groups.combineGroups("Lymond Goodbrook", "Lord Goodbrook");
+        groups.combineGroups("Hoster Tully", "Lord of Riverrun", "Lord Tully");
+        groups.combineGroups("Greatjon Umber", "Lord Umber");
+        groups.combineGroups("Alerie", "Lady Tyrell");
+        groups.combineGroups("Roslin Frey", "Lady Tully", "Roslin Tully");
+        groups.combineGroups("Dontos Hollard", "Ser Fool");
+        groups.combineGroups("Olenna Tyrell", "Queen of Thorns");
+        groups.combineGroups("Oberyn Martell", "Red Viper");
+        groups.combineGroups("Pello", "Greenbeard");
+        groups.combineGroups("Mance Rayder", "King-beyond-the-Wall");
+
+        groups.writeNameList("src/main/resources/data/characters/sos-list-full.txt");
+        groups.writeNameList(finder.getNames(), true, 4, "src/main/resources/data/characters/sos-list-clean.txt");
 
     }
 }

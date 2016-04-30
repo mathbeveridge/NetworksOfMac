@@ -59,6 +59,7 @@ Ben Plumm,Brown Ben Plumm,Ben Plumm,Brown Ben
 Grey Worm,Worm
 Green Grace,Green Grace
 Meris,Meris
+Areo Hotah,Areo,Hotah
 Xaro Xhoan Daxos,Daxos,Xhoan,Xaro
 Yandry,Yandry
 Varys,Varys,Spider

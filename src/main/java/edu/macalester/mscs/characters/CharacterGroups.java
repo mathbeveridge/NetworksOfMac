@@ -1,5 +1,8 @@
 package edu.macalester.mscs.characters;
 
+import edu.macalester.mscs.utils.EntryComparator;
+import edu.macalester.mscs.utils.FileUtils;
+
 import java.util.*;
 
 /**
@@ -66,18 +69,26 @@ public class CharacterGroups {
         counter.put(alias, count);
     }
 
-    public void combineGroups(String group1, String group2) {
-        if (!isAlias(group1)) {
-            throw new IllegalArgumentException(group1 + " is not an alias in these groups.");
-        }
-        if (!isAlias(group2)) {
-            throw new IllegalArgumentException(group2 + " is not an alias in these groups.");
-        }
-        group1 = getPrimaryAlias(group1);
-        group2 = getPrimaryAlias(group2);
-        if (!group1.equals(group2)) {
-            getGroup(group1).addAll(groups.remove(group2));
-            redirects.put(group2, group1);
+    public void combineGroups(String... groups) {
+        combineGroups(Arrays.asList(groups));
+    }
+
+    public void combineGroups(Collection<String> groups) {
+        String first = null;
+        for (String group : groups) {
+            if (!isAlias(group)) {
+                throw new IllegalArgumentException(group + " is not an alias in these groups.");
+            }
+            if (first == null) {
+                first = group;
+            } else {
+                String group1 = getPrimaryAlias(first);
+                String group2 = getPrimaryAlias(group);
+                if (!group1.equals(group2)) {
+                    getGroup(group1).addAll(this.groups.remove(group2));
+                    redirects.put(group2, group1);
+                }
+            }
         }
     }
 
@@ -118,5 +129,158 @@ public class CharacterGroups {
 
     public int getAliasCount(String group) {
         return getAliasCount(getGroup(group));
+    }
+
+    /**
+     * Returns a list of strings, each of which corresponds to one of the CharacterGroups
+     * Each line contains all the aliases in that group, and each line is one group
+     * Each line corresponds (in iteration order) to the group associated with the name in names
+     *
+     * @return
+     */
+    public void writeNameList(String file) {
+        writeNameList(false, file);
+    }
+
+    /**
+     * Returns a list of strings, each of which corresponds to one of the CharacterGroups
+     * Each line contains all the aliases in that group, and each line is one group
+     * Each line corresponds (in iteration order) to the group associated with the name in names
+     *
+     * The removeRedundancy flag will remove names whose components are in the same group
+     *
+     * @return
+     */
+    public void writeNameList(boolean removeRedundancy, String file) {
+        writeNameList(removeRedundancy, 0, file);
+    }
+
+    /**
+     * Returns a list of strings, each of which corresponds to one of the CharacterGroups
+     * Each line contains all the aliases in that group, and each line is one group
+     * Each line corresponds (in iteration order) to the group associated with the name in names
+     *
+     * Only names that occur more than minimumOccurrence times will be included
+     *
+     * @return
+     */
+    public void writeNameList(int minimumOccurrence, String file) {
+        writeNameList(false, minimumOccurrence, file);
+    }
+
+    /**
+     * Returns a list of strings, each of which corresponds to one of the CharacterGroups
+     * Each line contains all the aliases in that group, and each line is one group
+     * Each line corresponds (in iteration order) to the group associated with the name in names
+     *
+     * The removeRedundancy flag will remove names whose components are in the same group
+     * Only names that occur more than minimumOccurrence times will be included
+     *
+     * @return
+     */
+    public void writeNameList(boolean removeRedundancy, int minimumOccurrence, String file) {
+        writeNameList(getPrimaryAliases(), removeRedundancy, minimumOccurrence, file);
+    }
+
+    /**
+     * Returns a list of strings, each of which corresponds to one of the CharacterGroups
+     * Each line contains all the aliases in that group, and each line is one group
+     * Each line corresponds (in iteration order) to the group associated with the name in names
+     *
+     * @return
+     */
+    public void writeNameList(Collection<String> names, String file) {
+        writeNameList(names, false, file);
+    }
+
+    /**
+     * Returns a list of strings, each of which corresponds to one of the CharacterGroups
+     * Each line contains all the aliases in that group, and each line is one group
+     * Each line corresponds (in iteration order) to the group associated with the name in names
+     *
+     * The removeRedundancy flag will remove names whose components are in the same group
+     *
+     * @return
+     */
+    public void writeNameList(Collection<String> names, boolean removeRedundancy, String file) {
+        writeNameList(names, removeRedundancy, 0, file);
+    }
+
+    /**
+     * Returns a list of strings, each of which corresponds to one of the CharacterGroups
+     * Each line contains all the aliases in that group, and each line is one group
+     * Each line corresponds (in iteration order) to the group associated with the name in names
+     *
+     * Only names that occur more than minimumOccurrence times will be included
+     *
+     * @return
+     */
+    public void writeNameList(Collection<String> names, int minimumOccurrence, String file) {
+        writeNameList(names, false, minimumOccurrence, file);
+    }
+
+    /**
+     * Returns a list of strings, each of which corresponds to one of the CharacterGroups
+     * Each line contains all the aliases in that group, and each line is one group
+     * Each line corresponds (in iteration order) to the group associated with the name in names
+     *
+     * The removeRedundancy flag will remove names whose components are in the same group
+     * Only names that occur more than minimumOccurrence times will be included
+     *
+     * @return
+     */
+    public void writeNameList(Collection<String> names, boolean removeRedundancy, int minimumOccurrence, String file) {
+        FileUtils.writeFile(getNameList(names, removeRedundancy, minimumOccurrence), file);
+    }
+
+    private List<String> getNameList(Collection<String> names, boolean removeRedundancy, int minimumOccurrence) {
+        Map<List<String>, Integer> groupMap = new HashMap<>();
+        for (String name : names) {
+            if (isAlias(name)) {
+                List<String> list = new ArrayList<>();
+                list.add(name);
+                Set<String> group = getGroup(name);
+                for (String alias : group) {
+                    String[] split = alias.split(" ");
+                    boolean isUnique = true;
+                    if (removeRedundancy && split.length > 1) {
+                        for (String s : split) {
+                            if (group.contains(s)) {
+                                isUnique = false;
+                            }
+                        }
+                    }
+                    if (isUnique) {
+                        list.add(alias);
+                    }
+                }
+                int aliasCount = getAliasCount(name);
+                if (aliasCount >= minimumOccurrence) {
+                    groupMap.put(list, aliasCount);
+                }
+            }
+        }
+
+        List<Map.Entry<List<String>, Integer>> groups = new ArrayList<>(groupMap.entrySet());
+        groups.sort(EntryComparator.DESCENDING);
+        List<String> lines = new ArrayList<>();
+        for (Map.Entry<List<String>, Integer> group : groups) {
+            System.out.println(group.getValue() + "\t" + group.getKey());
+            StringBuilder line = new StringBuilder();
+            boolean first = true;
+            for (String name : group.getKey()) {
+                if (first) {
+                    first = false;
+                } else {
+                    line.append(",");
+                }
+                line.append(name);
+            }
+            lines.add(line.toString());
+        }
+        System.out.println();
+        System.out.println(groups.size());
+        System.out.println();
+        return lines;
     }
 }
