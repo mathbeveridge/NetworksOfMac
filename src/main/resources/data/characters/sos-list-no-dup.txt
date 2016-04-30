@@ -3,9 +3,10 @@ Tyrion,Imp,Tyrion
 Jaime,Kingslayer,Jaime
 Sansa,Sansa,Lady of Winterfell,Lady Wife
 Arya,Arya,Arry,Squab,Underfoot
+Samwell,Piggy,Slayer,Sam,Samwell
 Robb,Young Wolf,King of the Trident,Robb
 Daenerys,Stormborn,Dany,Khaleesi,Daenerys
-Joffrey,Joffrey,Joff
+Joffrey,Joffrey,Joff,Robert the Second
 Catelyn,Lady Stark,Cat,Catelyn
 Davos,Davos,Onions,Onion
 Bran,Bran,Brandon Stark
@@ -59,7 +60,6 @@ Shae,Shae
 Kevan,Kevan
 Chett,Chett
 Mace,Mace,Puff,Lord Tyrell
-Puff,Mace,Puff,Lord Tyrell
 Merrett,Muttonhead,Merrett
 Pyp,Pyp
 Hoster,Hoster,Lord of Riverrun,Lord Tully
@@ -80,9 +80,9 @@ Walton,Steelshanks,Walton
 Bowen,Bowen,Marsh
 Jarl,Jarl
 Greatjon,Lord Umber,Greatjon
-Dontos,Hollard,Ser Fool,Dontos
 Brynden,Blackfish,Brynden
 Daario,Naharis,Daario
+Dontos,Ser Fool,Dontos
 Satin,Satin
 Alliser,Alliser
 Roslin,Roslin,Lady Tully
@@ -163,7 +163,6 @@ Raff,Sweetling,Raff
 Kegs,Kegs
 Dirk,Dirk
 Tanda,Tanda
-Ottyn,Ottyn,Wythers
 Oznak,Oznak
 Lothor,Lothor
 Maege,Lady Mormont,Maege
@@ -171,10 +170,10 @@ Prendahl,Prendahl
 Mathis,Mathis,Lord of Goldengrove,Lord Rowan
 Dacey,Dacey
 Ellaria,Ellaria
+Mandon,Mandon
 Oswell,Oswell
 Tysha,Tysha
 Emmon,Emmon
-Mandon,Moore,Mandon
 Edwyn,Edwyn
 Luwin,Luwin
 Marq,Marq
@@ -203,6 +202,7 @@ Emmett,Emmett
 Torrhen,Torrhen
 Rhaegal,Rhaegal
 Cleon,Cleon
+Ottyn,Ottyn
 Olyvar,Olyvar
 Jaqen,Jaqen
 Cressen,Cressen
@@ -233,7 +233,6 @@ Khorane,Sathmantes,Khorane
 Aggo,Aggo
 Cafferen,Cafferen
 Tion,Tion
-Harlan,Grandison,Harlan
 Martyn,Martyn
 Cellador,Cellador
 Mallador,Mallador
@@ -243,6 +242,7 @@ Joanna,Joanna
 Patchface,Patchface
 Selwyn,Evenstar,Selwyn,Lord of Evenfall
 Perwyn,Perwyn
+Kyle,Kyle
 Sumner,Sumner
 Tristifer,Fifth,Tristifer
 Ballabar,Ballabar
@@ -250,7 +250,6 @@ Ramsay,Ramsay
 Aerion,Brightfire,Aerion,Brightflame
 Tallad,Tallad
 Marya,Marya
-Kyle,Kyle,Condon
 Jaehaerys,Jaehaerys,Conciliator
 Jonos,Lord Bracken,Jonos
 Osney,Osney
@@ -266,11 +265,11 @@ Timett,Timett,One-Eye
 Danwell,Danwell
 Byam,Byam
 Ronnel,Ronnel
-Jacelyn,Bywater,Jacelyn
 Patrek,Patrek
 Frenken,Frenken
 Larra,Larra,Blackmont
 Temmo,Temmo
+Jacelyn,Jacelyn
 Jonothor,Jon Darry,Jonothor
 Nestor,Nestor
 Leyton,Leyton,Lord Hightower

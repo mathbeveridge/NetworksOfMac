@@ -286,6 +286,9 @@ public class CharacterFinder {
                 names.add(name);
             }
         }
+        for (String name : names) {
+            incrementName(name, 0);
+        }
         return names;
     }
 
@@ -397,12 +400,11 @@ public class CharacterFinder {
             String[] split = name.split(" ");
             if (!isGeneralWord(split[0]) && (split.length == 2 && surnames.contains(split[1])
                     || split.length == 3 && fillerWords.contains(split[1]) && surnames.contains(split[2]))) {
-                if (words.contains(name)) {
-                    names.add(name);
-                } else {
-                    names.add(cap);
-                }
+                names.add(name);
             }
+        }
+        for (String name : names) {
+            incrementName(name, 0);
         }
         return names;
     }

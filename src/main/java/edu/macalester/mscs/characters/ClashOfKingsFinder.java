@@ -39,7 +39,8 @@ public class ClashOfKingsFinder {
             "Land", "Lands", "Sea", "Seas", "Island", "Islands", "Isles", "Bay", "River", "Shore", "Point", // geographics
             "City", "Cities", "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", "Castle", "Lane", // landmarks
             "Cruel", "Bold", "Brave", "Good", "Strong", "Bitter", "Sweet", "Bad", // adjective titles
-            "Flowers", "Storm", "Bull", "Long", "Spring", "Bear", "Hot", "Pie", "Ben", "Iron" // miscellaneous
+            "Flowers", "Storm", "Bull", "Long", "Spring", "Bear", "Hot", "Pie", "Ben", "Iron", "Watch",
+            "Horn" // miscellaneous
     ));
 
     // Words that are sometimes placed between first and last names
@@ -53,6 +54,7 @@ public class ClashOfKingsFinder {
         // fix a few mistakes
         finder.incrementName("Tytos Blackwood", 2);
         finder.removeWords("Walder Freys");
+        finder.removeWords("Ser Guyard of King Renly");
 
         // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();
@@ -73,10 +75,6 @@ public class ClashOfKingsFinder {
         System.out.println(places);
         System.out.println(lonely);
         System.out.println();
-
-        finder.removePlaces();
-        finder.removeTitles();
-        finder.removeWordsBelowThreshold(lonely, 5);
 
         finder.printCounter().writeLog("src/main/resources/data/characters/cok-counter.csv");
 
@@ -111,15 +109,16 @@ public class ClashOfKingsFinder {
 
         // manually combine more character groups
         finder.combineGroups("Jon Snow", "Lord Snow");
-        finder.combineGroups("Jon Fossoway", "Ser Jon");
+        finder.combineGroups("Jon Fossoway", "Ser Jon", "Ser Jon Fossoway");
         finder.combineGroups("Bran", "Brandon Stark");
         finder.combineGroups("Robert Baratheon", "King Robert", "Robert the Usurper");
-        finder.combineGroups("Robert Arryn", "Lord Robert");
+        finder.combineGroups("Robert Arryn", "Lord Robert", "Lord Robert of the Eyrie");
         finder.combineGroups("Petyr Baelish", "Littlefinger", "Lord Petyr");
         finder.combineGroups("Balon Greyjoy", "Lord Greyjoy", "Lord of the Iron Islands", "Reaper", "King Balon", "Lord Balon");
-        finder.combineGroups("Balon Swann", "Ser Balon");
-        finder.combineGroups("Walder Frey", "Lord Frey", "Lord of the Crossing", "Lord Walder");
-        finder.combineGroups("Rodrik Cassel", "Ser Rodrik");
+        finder.combineGroups("Balon Swann", "Ser Balon", "Ser Balon Swann");
+        finder.combineGroups("Walder Frey", "Lord Frey", "Lord of the Crossing", "Lord Walder", "Lord Walder Frey");
+        finder.combineGroups("Aemon the Dragonknight", "Prince Aemon");
+        finder.combineGroups("Rodrik Cassel", "Ser Rodrik", "Ser Rodrik Cassel");
         finder.combineGroups("Eddard", "Ned");
         finder.combineGroups("Daenerys", "Dany", "Khaleesi");
         finder.combineGroups("Joffrey", "Joff");

@@ -60,7 +60,7 @@ Dagmer Cleftjaw,Dagmer,Cleftjaw
 Cleos Frey,Cleos
 Rorge,Rorge
 Myrcella Baratheon,Myrcella
-Rodrik Cassel,Ser Rodrik,Rodrik Cassel
+Rodrik Cassel,Ser Rodrik Cassel,Ser Rodrik,Rodrik Cassel
 Shagga,Shagga
 Boros Blount,Boros
 Pylos,Lord Maester,Pylos
@@ -68,8 +68,8 @@ Meryn Trant,Meryn
 Roose Bolton,Roose,Lord of the Dreadfort,Lord Bolton
 Aerys Targaryen,Mad,Aerys
 Ramsay,Ramsay,Reek
+Aegon Targaryen,Aegon,Unworthy,Conqueror,Unlikely
 Balon Greyjoy,King Balon,Lord of the Iron Islands,Balon Greyjoy,Reaper,Lord Balon,Lord Greyjoy
-Aegon Targaryen,Aegon,Unworthy,Unlikely
 Thoren Smallwood,Thoren,Smallwood
 Podrick Payne,Pod,Podrick
 Lysa Arryn,Lady Arryn,Lysa
@@ -78,15 +78,14 @@ Salladhor Saan,Saan,Salladhor
 Ilyn Payne,Ilyn
 Lorren,Lorren
 Aeron Greyjoy,Damphair,Aeron
-Gyles Rosby,Gyles,Rosby
 Timett,Timett
 Aemon,Aemon
 Wex,Wex
 Tanda,Tanda
 Drogo,Drogo
 High Septon,High Septon
+Balon Swann,Balon Swann,Ser Balon Swann,Ser Balon
 Jhogo,Jhogo
-Balon Swann,Balon Swann,Ser Balon
 Hallyne,Hallyne,Pyromancer
 Selyse Florent,Selyse
 Vargo Hoat,Vargo,Lord Hoat
@@ -94,6 +93,7 @@ Edd,Edd,Dolorous
 Jon Arryn,Jon Arryn,Lord Arryn
 Ygritte,Ygritte
 Syrio Forel,Syrio,Forel
+Gyles Rosby,Gyles
 Aggo,Aggo
 Patchface,Patchface
 Hoster Tully,Hoster,Lord of Riverrun
@@ -133,12 +133,12 @@ Illyrio Mopatis,Illyrio,Mopatis
 Arys Oakheart,Arys
 Beric Dondarrion,Beric
 Wyman Manderly,Harbor,Wyman
-Guyard Morrigen,Guyard
 Robar Royce,Robar
 Osfryd Kettleblack,Osfryd
 Greatjon Umber,Lord Umber,Greatjon
 Benjen Stark,Benjen,Ben Stark
 Vylarr,Vylarr
+Guyard Morrigen,Guyard
 Allard,Allard
 Bryce Caron,Bryce,Lord Caron
 Rattleshirt,Lord of Bones,Rattleshirt
@@ -205,7 +205,6 @@ Perwyn Frey,Perwyn
 Harys Haigh,Haigh,Harys
 Jory Cassel,Jory
 Jonos Bracken,Jonos,Bracken
-Burton Crakehall,Burton,Crakehall
 Paxter Redwyne,Paxter
 Willem Darry,Willem
 Willem Lannister,Willem
@@ -218,14 +217,12 @@ Jeyne Poole,Jeyne
 Stevron Frey,Stevron
 Tytos Blackwood,Tytos
 Patrek Mallister,Patrek
-Jon Fossoway,Jon Fossoway,Ser Jon
+Jon Fossoway,Jon Fossoway,Ser Jon Fossoway,Ser Jon
 Lucas Blackwood,Lucas
 Mallador Locke,Mallador
 Ryman Frey,Ryman
 Tion Frey,Tion
-Parmen Crane,Parmen,Crane
 Walda,Walda
-Philip Foote,Foote,Philip
 Elia,Elia
 Guncer Sunglass,Guncer,Sunglass
 Varner,Varner

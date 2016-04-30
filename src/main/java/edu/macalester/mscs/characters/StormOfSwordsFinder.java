@@ -64,6 +64,7 @@ public class StormOfSwordsFinder {
         finder.removeWords("Edric Dayne"); // unused
         finder.removeWords("Mad Marq Rankenfell"); // unused
         finder.removeWords("Fat Tom"); // unused
+        finder.removeWords("Samwell Spicer"); // unused
 
         // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();
@@ -74,6 +75,8 @@ public class StormOfSwordsFinder {
         surnames.add("Merryweather");
         surnames.add("Mooton");
         surnames.add("Bulwer");
+        surnames.add("Roote");
+        surnames.add("Blackfyre");
         surnames.remove("Blackfish");
         Set<String> names = finder.getNamesBySurname(surnames);
         names.addAll(titledNames);
@@ -106,7 +109,6 @@ public class StormOfSwordsFinder {
 
         // add problematic names
         nondescriptors.add("Jon");
-        nondescriptors.add("Samwell");
         nondescriptors.add("Brandon");
         nondescriptors.add("Robert");
         nondescriptors.add("Petyr");
@@ -150,7 +152,7 @@ public class StormOfSwordsFinder {
         finder.combineGroups("Jon Arryn", "Lord Arryn");
         finder.combineGroups("Jon Darry", "Jonothor Darry");
         finder.combineGroups("Bran", "Brandon Stark");
-        finder.combineGroups("Samwell Tarly", "Sam", "Piggy", "Slayer");
+        finder.combineGroups("Samwell Tarly", "Sam", "Piggy");
         finder.combineGroups("Robert Baratheon", "Usurper", "King Robert");
         finder.combineGroups("Robert Arryn", "Lord Robert", "Lord of the Eyrie");
         finder.combineGroups("Petyr Baelish", "Littlefinger", "Lord Petyr");
@@ -168,10 +170,12 @@ public class StormOfSwordsFinder {
         finder.combineGroups("Walda Bolton", "Lady Walda", "Fat Walda", "Walda Frey", "Lady Bolton");
         finder.combineGroups("Rodrik Cassel", "Ser Rodrik");
         finder.combineGroups("Tytos Lannister", "Lord Tytos");
+        finder.combineGroups("Garth of Greenaway", "Garth Greenaway");
+        finder.combineGroups("Myles Mooton", "Ser Myles");
         finder.combineGroups("Eddard", "Ned");
         finder.combineGroups("Catelyn", "Cat", "Lady Stark");
         finder.combineGroups("Daenerys", "Dany", "Khaleesi");
-        finder.combineGroups("Joffrey", "Joff");
+        finder.combineGroups("Joffrey", "Joff", "Robert the Second");
         finder.combineGroups("Sandor", "Hound");
         finder.combineGroups("Jeor Mormont", "Old Bear", "Commander Mormont", "Lord Mormont");
         finder.combineGroups("Lysa", "Lady Arryn", "Lady of the Eyrie");

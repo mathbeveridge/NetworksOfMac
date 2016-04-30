@@ -66,7 +66,7 @@ Pylos,Lord Maester,Pylos
 Roose,Roose,Lord of the Dreadfort,Lord Bolton
 Aerys,Mad,Aerys
 Ramsay,Ramsay,Reek
-Aegon,Aegon,Unworthy,Unlikely
+Aegon,Aegon,Unworthy,Conqueror,Unlikely
 Thoren,Thoren,Smallwood
 Podrick,Pod,Podrick
 Lysa,Lady Arryn,Lysa
@@ -75,7 +75,6 @@ Mance,Mance,Rayder
 Ilyn,Ilyn
 Lorren,Lorren
 Aeron,Damphair,Aeron
-Gyles,Gyles,Rosby
 Timett,Timett
 Aemon,Aemon
 Wex,Wex
@@ -90,6 +89,7 @@ Ygritte,Ygritte
 Aggo,Aggo
 Patchface,Patchface
 Hoster,Hoster,Lord of Riverrun
+Gyles,Gyles
 Syrio,Syrio,Forel
 Bael,Bael,Bard
 Esgred,Esgred
@@ -125,10 +125,10 @@ Robar,Robar
 Arys,Arys
 Beric,Beric
 Benfred,Benfred
-Guyard,Guyard
 Illyrio,Illyrio,Mopatis
 Wyman,Harbor,Wyman
 Greatjon,Lord Umber,Greatjon
+Guyard,Guyard
 Vylarr,Vylarr
 Osfryd,Osfryd
 Allard,Allard
@@ -193,7 +193,6 @@ Hosteen,Hosteen
 Harys,Haigh,Harys
 Perwyn,Perwyn
 Willem,Willem
-Burton,Burton,Crakehall
 Jory,Jory
 Garlan,Garlan,Gallant
 Paxter,Paxter
@@ -209,9 +208,7 @@ Tytos,Tytos
 Mallador,Mallador
 Addam,Addam
 Lucas,Lucas
-Parmen,Parmen,Crane
 Tion,Tion
-Philip,Foote,Philip
 Walda,Walda
 Elia,Elia
 Ryman,Ryman

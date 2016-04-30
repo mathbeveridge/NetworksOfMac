@@ -41,9 +41,9 @@ Pyp,Pyp
 Alliser,Alliser
 Syrio,Syrio,Forel
 Aemon,Dragonknight,Aemon
-Jeor,Lord Mormont,Old Bear,Commander Mormont,Jeor
 Walder,Walder,Lord Frey,Lord of the Crossing
 Loras,Loras,Knight of Flowers,Daisy
+Jeor,Lord Mormont,Old Bear,Commander Mormont,Jeor
 Grenn,Grenn
 Nan,Nan
 Vardis,Vardis

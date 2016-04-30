@@ -35,8 +35,8 @@ Meera,Meera
 Tywin,Lord of Casterly Rock,Lord Lannister,Tywin
 Varamyr,Sixskins,Lump,Threeskins,Varamyr
 Yezzan,Yellowbelly,Yezzan
-Rhaegar,Rhaegar
 Samwell,Slayer,Sam,Samwell
+Rhaegar,Rhaegar
 Missandei,Missandei
 Tommen,Tommen
 Belwas,Belwas
@@ -65,8 +65,8 @@ Doran,Doran
 Euron,Euron
 Wun,Wun,Dar,Weg
 Emmett,Emmett
-Cleon,Cleon,Butcher King
 Janos,Lord Slynt,Janos
+Cleon,Cleon,Butcher King
 Nurse,Nurse
 Gilly,Gilly
 Khrazz,Khrazz
@@ -114,6 +114,7 @@ Bloodbeard,Bloodbeard
 Alyn,Alyn
 Cletus,Cletus
 Shireen,Shireen
+Baelor,Beloved,Befuddled,Baelor
 Sansa,Sansa,Lady Lannister
 Hobb,Hobb,Three-Finger
 Barsena,Barsena,Blackhair
@@ -149,7 +150,6 @@ Lancel,Lancel
 Qavo,Nogarys,Qavo
 Leaf,Leaf
 Nan,Nan
-Baelor,Beloved,Befuddled,Baelor
 Elia,Elia
 Thistle,Thistle
 Qezza,Qezza
@@ -171,7 +171,6 @@ Wick,Wick,Whittlestick
 Petyr,Baelish,Littlefinger,Petyr
 Rory,Rory
 Alliser,Alliser
-Stalwart,Stalwart
 Cregan,Cregan
 Owen,Owen,Oaf
 Kyra,Kyra
@@ -204,9 +203,9 @@ Dagmer,Dagmer,Cleftjaw
 Boros,Boros
 Wendel,Wendel
 Narbert,Narbert
+Brus,Brus
 Trystane,Trystane
 Raymun,Raymun
-Brus,Brus,Buckler
 Lorren,Longaxe,Lorren
 Catelyn,Catelyn
 Grazdan,Grazdan
@@ -254,10 +253,9 @@ Gerold,Gerold
 Glendon,Hewett,Glendon
 Gerion,Gerion
 Lewyn,Lewyn
-Ilyn,Ilyn,Payne
 Beric,Beric,Dondarrion
 Benjen,Benjen
-Belly,Belly
+Ilyn,Ilyn
 Maege,Maege
 Wex,Wex
 Walys,Walys

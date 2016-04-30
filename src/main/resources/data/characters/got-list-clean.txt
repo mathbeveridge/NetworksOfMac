@@ -27,9 +27,9 @@ Viserys Targaryen,Viserys
 Pycelle,Pycelle,Grand Maester
 Sandor Clegane,Sandor,Hound
 Jory Cassel,Jory
+Jon Arryn,Jon Arryn,Lord Jon,Lord Arryn
 Gregor Clegane,Mountain,Gregor
 Mirri Maz Duur,Mirri,Maz,Duur
-Jon Arryn,Jon Arryn,Lord Arryn
 Stannis Baratheon,Stannis
 Benjen Stark,Jen,Ranger,Benjen,Ben
 Illyrio Mopatis,Illyrio,Mopatis
@@ -42,8 +42,8 @@ Alliser Thorne,Alliser
 Pyp,Pyp
 Syrio Forel,Syrio,Forel
 Aemon Targaryen,Dragonknight,Aemon
-Jeor Mormont,Lord Mormont,Old Bear,Commander Mormont,Jeor
 Walder Frey,Walder,Lord Frey,Lord of the Crossing
+Jeor Mormont,Lord Mormont,Old Bear,Commander Mormont,Jeor
 Loras Tyrell,Loras,Knight of Flowers,Daisy
 Grenn,Grenn
 Nan,Nan
@@ -132,13 +132,13 @@ Aron Santagar,Aron
 Jason Mallister,Jason
 Lefford,Lefford
 Hal Mollen,Hal
+Balon Swann,Balon Swann,Ser Balon Swann,Ser Balon
 Donnel Waynwood,Donnel
-Balon Swann,Balon Swann,Ser Balon
 Arthur Dayne,Arthur
 Yohn Royce,Bronze,Yohn
-Tytos Blackwood,Tytos Blackwood,Lord Blackwood,Lord Tytos
 Alyssa Arryn,Alyssa
 Harys Swyft,Harys,Swyft
+Tytos Blackwood,Tytos Blackwood,Lord Blackwood,Lord Tytos Blackwood,Lord Tytos
 Hobb,Hobb,Three-Finger
 Randyll Tarly,Randyll
 Jonos Bracken,Lord Bracken,Jonos
@@ -160,9 +160,9 @@ Willem Darry,Willem
 Jared Frey,Jared
 Danwell Frey,Danwell
 Perwyn,Perwyn
-Balon Greyjoy,Balon Greyjoy
 Hugh,Hugh
 Horas Redwyne,Horror,Horas
+Balon Greyjoy,Balon Greyjoy,Lord Balon Greyjoy
 Hobber,Hobber,Slobber
 Tanda,Tanda
 Daryn Hornwood,Daryn

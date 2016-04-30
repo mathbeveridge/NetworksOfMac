@@ -46,7 +46,7 @@ public class DanceWithDragonsFinder {
             "Wise", "Craven", "Poor", "Pretty", "Scared", "Homeless", "Hot", "Shy", "True", "Mad", "Blessed",
             "Queer", "Sour", "Cunning", "Hairy", // adjective titles
             "Bear", "Iron", "Beggar", "Whore", "Wench", "Grandfather", "Water", "Crow", "Wolf", "Shepherd",
-            "Dance", "Butcher", "Grass" // miscellaneous
+            "Dance", "Butcher", "Grass", "Belly", "Stalwart" // miscellaneous
     ));
 
     // Words that are sometimes placed between first and last names
@@ -86,6 +86,7 @@ public class DanceWithDragonsFinder {
         Set<String> names = finder.getNamesBySurname(surnames);
         names.addAll(titledNames);
         Set<String> places = finder.getPlaces(names);
+        places.add("Mander");
         Set<String> lonely = finder.getLonelyWords();
 
         System.out.println(titledNames);
@@ -95,10 +96,6 @@ public class DanceWithDragonsFinder {
         System.out.println(places);
         System.out.println(lonely);
         System.out.println();
-
-        finder.removePlaces();
-        finder.removeTitles();
-        finder.removeWordsBelowThreshold(lonely, 1);
 
         finder.printCounter().writeLog("src/main/resources/data/characters/dwd-counter.csv");
 
@@ -122,6 +119,7 @@ public class DanceWithDragonsFinder {
         nondescriptors.add("Rickard");
         nondescriptors.add("Hoster");
         nondescriptors.add("Artos");
+        nondescriptors.add("Ben");
 
         nondescriptors.add("Qarl");
         nondescriptors.add("Jack");
@@ -154,6 +152,7 @@ public class DanceWithDragonsFinder {
         finder.combineGroups("Rodrik the Reader", "Lord Rodrik");
         finder.combineGroups("Hoster Blackwood", "Hos");
         finder.combineGroups("Artos Stark", "Artos the Implacable");
+        finder.combineGroups("Ben Plumm", "Brown Ben", "Brown Ben Plumm");
         finder.combineGroups("Eddard", "Ned", "Lord Stark");
         finder.combineGroups("Petyr", "Littlefinger");
         finder.combineGroups("Daenerys", "Dany", "Khaleesi");

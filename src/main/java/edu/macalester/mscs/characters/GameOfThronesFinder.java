@@ -53,7 +53,6 @@ public class GameOfThronesFinder {
         finder.incrementName("Jeor Mormont", 1); // gets wrecked
         finder.incrementName("Jeor", 0);
         finder.removeWords("Tully Stark"); // gets picked up accidentally
-//        finder.removeWords("Storm Dancer"); // is a boat, not a name
 
         // gather names, titles, places, and things
         Set<String> titledNames = finder.getTitledNames();
@@ -64,19 +63,15 @@ public class GameOfThronesFinder {
         Set<String> places = finder.getPlaces(names);
         Set<String> lonely = finder.getLonelyWords();
 
-//        System.out.println(titledNames);
-//        System.out.println(pluralizedNames);
-//        System.out.println(surnames);
-//        System.out.println(names);
-//        System.out.println(places);
-//        System.out.println(lonely);
-//        System.out.println();
+        System.out.println(titledNames);
+        System.out.println(pluralizedNames);
+        System.out.println(surnames);
+        System.out.println(names);
+        System.out.println(places);
+        System.out.println(lonely);
+        System.out.println();
 
-        finder.removePlaces();
-        finder.removeTitles();
-        finder.removeWordsBelowThreshold(lonely, 10);
-
-//        finder.printCounter().writeLog("src/main/resources/data/characters/got-counter.csv");
+        finder.printCounter().writeLog("src/main/resources/data/characters/got-counter.csv");
 
         // gather phrases that are not inherently descriptive
         Set<String> nondescriptors = new HashSet<>();
@@ -106,11 +101,14 @@ public class GameOfThronesFinder {
 
         // manually combine more character groups
         finder.combineGroups("Jon Snow", "Jon Stark");
-        finder.combineGroups("Eddard Stark", "Ned", "Lord Eddard");
+        finder.combineGroups("Jon Arryn", "Lord Jon");
+        finder.combineGroups("Eddard Stark", "Ned", "Lord Eddard", "Lord Eddard Stark");
         finder.combineGroups("Robert Baratheon", "Usurper", "King Robert");
         finder.combineGroups("Robert Arryn", "Lord of the Eyrie", "Lord Robert");
-        finder.combineGroups("Balon Swann", "Ser Balon");
-        finder.combineGroups("Tytos Blackwood", "Lord Tytos", "Lord Blackwood");
+        finder.combineGroups("Balon Swann", "Ser Balon", "Ser Balon Swann");
+        finder.combineGroups("Balon Greyjoy", "Lord Balon Greyjoy");
+        finder.combineGroups("Tytos Blackwood", "Lord Tytos", "Lord Blackwood", "Lord Tytos Blackwood");
+        finder.combineGroups("Tytos Brax", "Ser Tytos Brax");
         finder.combineGroups("Bran", "Brandon Stark");
         finder.combineGroups("Petyr", "Littlefinger", "Lord Baelish");
         finder.combineGroups("Daenerys", "Dany", "Khaleesi", "Princess of Dragonstone");

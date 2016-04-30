@@ -27,9 +27,9 @@ Viserys,Viserys
 Pycelle,Pycelle
 Sandor,Sandor,Hound
 Jory,Jory
+Jon,Jon,Arryn
 Gregor,Mountain,Gregor
 Mirri,Mirri,Maz,Duur
-Jon,Jon,Arryn
 Stannis,Stannis
 Benjen,Jen,Ranger,Benjen,Ben
 Illyrio,Illyrio,Mopatis
@@ -42,8 +42,8 @@ Pyp,Pyp
 Alliser,Alliser
 Syrio,Syrio,Forel
 Aemon,Dragonknight,Aemon
-Jeor,Mormont,Jeor
 Walder,Walder,Frey
+Jeor,Mormont,Jeor
 Loras,Loras,Daisy
 Grenn,Grenn
 Nan,Nan
@@ -205,10 +205,7 @@ Banefort,Banefort
 Ronel,Ronel
 Forley,Forley
 Qos,Qos
-Rhae,Mhar,Rhae
-Amory,Lorch,Amory
 Eddard,Eddard
-Mark,Mark,Ryswell
 Smalljon,Smalljon
 Dacey,Dacey
 Erryk,Erryk
@@ -233,4 +230,7 @@ Erik,Erik
 Garth,Garth
 Emmon,Emmon
 Morgil,Morgil
+Rhae,Rhae
+Amory,Amory
+Mark,Mark
 Lewyn,Lewyn
