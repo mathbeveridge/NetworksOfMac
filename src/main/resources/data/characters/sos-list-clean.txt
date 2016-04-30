@@ -35,13 +35,13 @@ Tom Sevenstrings,Sevenstrings,Tom,Sevensons
 Jojen Reed,Jojen
 Margaery Tyrell,Margaery
 Styr,Magnar,Styr
-Walder Frey,Walder Frey,Grandfather,Lord Walder,Lord Frey,Lord of the Crossing
-Jeor Mormont,Lord Mormont,Old Bear,Commander Mormont,Jeor
 Arstan,Arstan,Whitebeard
+Jeor Mormont,Lord Mormont,Old Bear,Commander Mormont,Jeor
 Thoros,Myr,Thoros
 Loras Tyrell,Loras,Knight of Flowers
 Craster,Craster
 Melisandre,Melisandre
+Walder Frey,Walder Frey,Grandfather,Lord Walder,Lord Frey,Lord of the Crossing
 Bronn,Bronn
 Varys,Varys,Spider
 Donal Noye,Noye,Donal
@@ -145,7 +145,6 @@ Desmond Grell,Desmond
 Jinglebell Frey,Jinglebell
 Tansy,Tansy
 Balon Greyjoy,King Balon,Balon Greyjoy,Lord Balon
-Ben Plumm,Ben Plumm,Brown Ben
 Viserion,Viserion
 Symon,Symon
 Butterbumps,Butterbumps
@@ -159,20 +158,19 @@ Benjen Stark,Benjen,Ben Stark
 Robert Arryn,Lord of the Eyrie,Robert Arryn,Lord Robert
 Groleo,Groleo
 Amory Lorch,Amory
-Balon Swann,Balon Swann,Ser Balon
 Mero,Mero
 Mycah,Mycah
 Dalla,Dalla
 Selyse,Selyse
 Dywen,Dywen
-Baelor the Blessed,Baelor
 Shireen,Shireen
-Gerold Hightower,White Bull,Gerold
 Raff,Sweetling,Raff
 Kegs,Kegs
+Ben Plumm,Ben Plumm,Brown Ben
 Dirk,Dirk
 Grey Worm,Grey Worm
 Tanda,Tanda
+Gerold Hightower,White Bull,Gerold
 Oznak zo Pahl,Oznak
 Lothor Brune,Lothor
 Maege Mormont,Lady Mormont,Maege
@@ -182,10 +180,10 @@ Oswell Whent,Oswell
 Ellaria Sand,Ellaria
 Dacey Mormont,Dacey
 Emmon Frey,Emmon
-Donnel Hill,Sweet Donnel,Donnel Hill
 Mandon Moore,Mandon
 Tysha,Tysha
 Mathis Rowan,Mathis,Lord of Goldengrove,Lord Rowan
+Baelor the Blessed,Baelor
 Marq Piper,Marq
 Luwin,Luwin
 Lancel,Lancel
@@ -202,6 +200,7 @@ Gendel,Gendel
 Smalljon Umber,Smalljon
 Rolph Spicer,Rolph
 Shagwell,Shagwell
+Balon Swann,Balon Swann,Ser Balon
 Ardrian Celtigar,Ardrian,Celtigar
 Notch,Notch
 Florian,Florian
@@ -224,14 +223,12 @@ Jhogo,Jhogo
 Olyvar Frey,Olyvar
 Gyles,Gyles
 Willem Lannister,Willem
-Robin Ryger,Ser Robin,Robin Ryger
 Mully,Mully
 Syrio Forel,Syrio,Forel
 Gawen Westerling,Gawen
 Weeper,Weeper
 Robett Glover,Robett
 Utt,Utt
-Dick Follard,Dick Follard
 Rollam Westerling,Rollam
 Daeron,Daeron
 Alyn Connington,Alyn
@@ -250,6 +247,7 @@ Hosteen Frey,Hosteen
 Cafferen,Cafferen
 Tion Frey,Tion
 Martyn Lannister,Martyn
+Donnel Hill,Sweet Donnel,Donnel Hill
 Cellador,Cellador
 Robin Flint,Robin Flint
 Mallador Locke,Mallador
@@ -264,9 +262,9 @@ Aerion Brightflame,Brightfire,Aerion,Brightflame
 Sumner Crakehall,Sumner
 Tristifer,Fifth,Tristifer
 Rodrik Cassel,Cassel,Ser Rodrik
+Robin Ryger,Ser Robin,Robin Ryger
 Ramsay Snow,Ramsay
 Ballabar,Ballabar
-Walda Bolton,Lady Bolton,Walda Bolton,Fat Walda,Lady Walda,Walda Frey
 Tallad,Tallad
 Marya,Marya
 Raymun Darry,Raymun,Redbeard
@@ -274,6 +272,7 @@ Jonos Bracken,Lord Bracken,Jonos
 Jaehaerys,Jaehaerys,Conciliator
 Pyat Pree,Pree,Pyat
 Baelor Hightower,Breakwind,Brightsmile,Baelor Hightower
+Dick Follard,Dick Follard
 Ronnel Stout,Ronnel
 Xaro Xhoan Daxos,Daxos,Xhoan,Xaro
 Shagga,Shagga
@@ -282,6 +281,7 @@ Danwell Frey,Danwell
 Alyx Frey,Alyx
 Ryam Redwyne,Ryam
 Osney Kettleblack,Osney
+Walda Bolton,Lady Bolton,Walda Bolton,Fat Walda,Lady Walda,Walda Frey
 Mordane,Mordane
 Timett,Timett,One-Eye
 Byam,Byam
