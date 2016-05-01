@@ -68,8 +68,6 @@ public class Matrix {
     /**
      * Builds the matrix from the text, given a maximum word radius for adjacency
      *
-     * TODO: fix it so that Jon does not get registered as Jon Snow if it's part of Jon Arryn
-     *
      * @param text
      * @param radius
      */
