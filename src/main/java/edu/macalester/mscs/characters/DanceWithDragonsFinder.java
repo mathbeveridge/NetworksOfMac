@@ -330,6 +330,7 @@ public class DanceWithDragonsFinder {
 
         groups.writeNameList("src/main/resources/data/characters/dwd-list-full.txt");
         groups.writeNameList(finder.getNames(), true, 4, "src/main/resources/data/characters/dwd-list-clean.txt");
+        groups.writeNameList(finder.getNames(), false, 4, "src/main/resources/data/characters/dwd-list-clean-redundant.txt");
 
     }
 }

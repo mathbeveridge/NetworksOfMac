@@ -214,5 +214,6 @@ public class GameOfThronesFinder {
 
         groups.writeNameList("src/main/resources/data/characters/got-list-full.txt");
         groups.writeNameList(finder.getNames(), true, 4, "src/main/resources/data/characters/got-list-clean.txt");
+        groups.writeNameList(finder.getNames(), false, 4, "src/main/resources/data/characters/got-list-clean-redundant.txt");
     }
 }

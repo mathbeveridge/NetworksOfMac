@@ -247,6 +247,7 @@ public class FeastForCrowsFinder {
 
         groups.writeNameList("src/main/resources/data/characters/ffc-list-full.txt");
         groups.writeNameList(finder.getNames(), true, 4, "src/main/resources/data/characters/ffc-list-clean.txt");
+        groups.writeNameList(finder.getNames(), false, 4, "src/main/resources/data/characters/ffc-list-clean-redundant.txt");
 
     }
 }
