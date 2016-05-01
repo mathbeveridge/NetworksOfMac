@@ -72,9 +72,9 @@ public class MatrixCsvToJson {
 
 
     public static void main(String args[]) {
-        MatrixCsvToJson toJson = new MatrixCsvToJson("src/main/resources/data/characters/got-ordered-characters.txt",
+        MatrixCsvToJson toJson = new MatrixCsvToJson("src/main/resources/data/characters/got-community50.txt",
                 "src/main/resources/data/logs/GoT1-mat11-rebecca.csv",
-                "src/main/resources/data/logs/GoT1-mat11-rebecca-out2.json");
+                "src/main/resources/data/logs/GoT1-mat11-rebecca-out50.json");
 
 
         toJson.createJson();
@@ -87,28 +87,24 @@ public class MatrixCsvToJson {
         try {
             List<String> lines = FileUtils.readFile(csvFileName);
             String rawCharList = lines.get(0);
-            int[][] matrix = new int[lines.size() - 1][lines.size() - 1];
+            int[][] matrix = new int[lines.size()-1][lines.size()-1];
 
-            int i, j;
-            StringTokenizer tokenizer;
-            String token;
-            int weight;
 
 //            System.out.println(rawCharList);
 
-            if (orderedCharacters.length != matrix.length) {
+            if (orderedCharacters.length > matrix.length) {
                 throw new RuntimeException("Character list length " + orderedCharacters.length +
                 " matrix length " + matrix.length + "mismatch");
             }
 
             // read in the matrix, which has a header line
-            for (i = 1; i < lines.size(); i++) {
-                tokenizer = new StringTokenizer(lines.get(i),",");
-                j = 0;
+            for (int i = 1; i < lines.size(); i++) {
+                StringTokenizer tokenizer = new StringTokenizer(lines.get(i),",");
+                int j = 0;
 
                 while (tokenizer.hasMoreTokens()) {
-                    token = tokenizer.nextToken();
-                    weight = Integer.parseInt(token);
+                    String token = tokenizer.nextToken();
+                    int weight = Integer.parseInt(token);
                     matrix[i-1][j] = weight;
                     matrix[j][i-1] = weight;
                     j++;
@@ -119,14 +115,14 @@ public class MatrixCsvToJson {
             // create a new matrix using the specified character order
             String[] characters = rawCharList.split(",");
 
-            int[][] newMatrix = new int[matrix.length][matrix.length];
+            int[][] newMatrix = new int[orderedCharacters.length][orderedCharacters.length];
             String name1, name2;
             int name1index, name2index;
 
-            for (i=0; i < newMatrix.length; i++) {
+            for (int i=0; i < newMatrix.length; i++) {
                 name1 = orderedCharacters[i];
                 name1index = ArrayUtils.indexOf(characters,name1);
-                for (j=i+1; j < newMatrix.length; j++) {
+                for (int j=i+1; j < newMatrix.length; j++) {
                     name2 = orderedCharacters[j];
                     name2index = ArrayUtils.indexOf(characters,name2);
 

@@ -1,214 +1,0 @@
-\documentclass{article}
-
-\usepackage[latin1]{inputenc}
-\usepackage{amsmath, amssymb}
-\usepackage{tikz}
-\usepackage{pgfplots}
-\usepackage[margin=.05in, paperwidth=6in, paperheight=3.15in]{geometry}
-\usetikzlibrary{positioning}
-
-\usepackage[scaled]{helvet}
-\renewcommand\familydefault{\sfdefault} 
-\usepackage[T1]{fontenc}
-
-
-
-\definecolor{pear}{rgb}{0.82, 0.89, 0.19}
-
-\definecolor{peargreen}{HTML}{D1E231}
-\definecolor{pearblue}{HTML}{8982D0}
-%\definecolor{pearblue}{HTML}{7066D0}
-\definecolor{pearred}{HTML}{EF6370}
-
-%%%%% http://paletton.com/#uid=72o1r0kp4sVfrE2kyvqsSopvAjo
-\definecolor{myblue}{HTML}{4862A8}
-\definecolor{mygreen}{HTML}{9AD62E}
-\definecolor{myorange}{HTML}{E6AC32}
-\definecolor{myred}{HTML}{BC2976}
-\definecolor{mygreen2}{HTML}{B3E853}
-\definecolor{myorange2}{HTML}{FAC75A}
-\definecolor{myred2}{HTML}{CC498E}
-
-
-
-\begin{document}
-\pagestyle{empty}
-
-
-\begin{tikzpicture}[scale=.7]
-\begin{axis}[
-  width=0.25\textwidth,
-  xbar,
-  y=-0.5cm,
-  bar width=0.3cm,
-  enlarge y limits={abs=0.45cm},
-%  enlarge y limits=auto, 
-  xlabel={Degree},
-  symbolic y coords={ Jon, Z, Bran, Robb, Y, Catelyn, Jaime, Tyrion, X, Cersei, Eddard, Robert, W, Arya, Joffrey, Sansa, V, Daenerys, Drogo},
- xtick={0, .25, .5, .75, 1.01},
- xmajorgrids,
- grid style=white,
- axis on top,
- ytick=data,
-  xmin=0, xmax=1.1,
- xticklabels={0,,,,47},
-  %nodes near coords, nodes near coords align={horizontal},
-  ]
-\addplot[fill=myblue] table[col sep=tab,header=false] {
-0.595744681	Jon0.425531915	Bran0.595744681	Robb0.70212766	Catelyn0.382978723	Jaime0.765957447	Tyrion0.446808511	Cersei1	Eddard0.70212766	Robert0.425531915	Arya0.468085106	Joffrey0.617021277	Sansa0.361702128	Daenerys0.29787234	Drogo
-};
-\end{axis}
-\end{tikzpicture}
-%%%%
-%
-% Weighted Degree
-%
-%%%%%%
-\begin{tikzpicture}[scale=.7]
-\begin{axis}[
-  width=0.25\textwidth,
-  xbar,
-  y=-0.5cm,
-  bar width=0.3cm,
-  enlarge y limits={abs=0.45cm},
-%  enlarge y limits=auto, 
-  xlabel={Weighted Degree},
-   symbolic y coords={ Jon, Z, Bran, Robb, Y, Catelyn, Jaime, Tyrion, X, Cersei, Eddard, Robert, W, Arya, Joffrey, Sansa, V, Daenerys, Drogo},
- xmin=0, xmax=1.1,
- xtick={0, .25, .5, .75,1.01},
- xmajorgrids,
- grid style=white,
- axis on top,
- ytick=data,
- yticklabels={,,},
- xticklabels={0,,,,1050},
-  %nodes near coords, nodes near coords align={horizontal},
-  ]
-\addplot[fill=myblue] table[col sep=tab,header=false] {
-0.585714286	Jon0.412380952	Bran0.42	Robb0.407619048	Catelyn0.171428571	Jaime0.501904762	Tyrion0.278095238	Cersei1	Eddard0.680952381	Robert0.36	Arya0.322857143	Joffrey0.459047619	Sansa0.344761905	Daenerys0.159047619	Drogo
-};
-\end{axis}
-\end{tikzpicture}
-%%%%
-%
-% Eigenvector
-%
-%%%%%%
-\begin{tikzpicture}[scale=.7]
-\begin{axis}[
-  width=0.25\textwidth,
-  xbar,
-  y=-0.5cm,
-  bar width=0.3cm,
-  enlarge y limits={abs=0.45cm},
-%  enlarge y limits=auto, 
-  xlabel={Eigenvector},
-   symbolic y coords={ Jon, Z, Bran, Robb, Y, Catelyn, Jaime, Tyrion, X, Cersei, Eddard, Robert, W, Arya, Joffrey, Sansa, V, Daenerys, Drogo},
- xtick={0, .25, .5, .75,1.01},
- xmajorgrids,
- grid style=white,
- axis on top,
- ytick=data,
- yticklabels={,,},
-  xmin=0, xmax=1.1,
- xticklabels={0,,,,1.0},
-  %nodes near coords, nodes near coords align={horizontal},
-  ]
-\addplot[fill=mygreen] table[col sep=tab,header=false] {
-0.570907109	Jon0.550697493	Bran0.670085258	Robb0.744205662	Catelyn0.54944713	Jaime0.742961866	Tyrion0.641646151	Cersei1	Eddard0.858318024	Robert0.545054799	Arya0.643043323	Joffrey0.728594218	Sansa0.175470205	Daenerys0.062803229	Drogo
-};
-\end{axis}
-\end{tikzpicture}
-%%%%
-%
-% PageRank
-%
-%%%%%%
-\begin{tikzpicture}[scale=.7]
-\begin{axis}[
-  width=0.25\textwidth,
-  xbar,
-  y=-0.5cm,
-  bar width=0.3cm,
-  enlarge y limits={abs=0.45cm},
-%  enlarge y limits=auto, 
-  xlabel={PageRank},
-   symbolic y coords={ Jon, Z, Bran, Robb, Y, Catelyn, Jaime, Tyrion, X, Cersei, Eddard, Robert, W, Arya, Joffrey, Sansa, V, Daenerys, Drogo},
- xtick={0, .25, .5, .75,1.01},
- xmajorgrids,
- grid style=white,
- axis on top,
- ytick=data,
- yticklabels={,,},
-  xmin=0, xmax=1.1,
- xticklabels={0,,,,0.05},
-  %nodes near coords, nodes near coords align={horizontal},
-  ]
-\addplot[fill=mygreen] table[col sep=tab,header=false] {
-0.685206591	Jon0.418027291	Bran0.588019073	Robb0.724608283	Catelyn0.354929111	Jaime0.858922341	Tyrion0.399463662	Cersei1	Eddard0.639844764	Robert0.401600931	Arya0.418262721	Joffrey0.589622693	Sansa0.430861242	Daenerys0.394106601	Drogo
-};
-\end{axis}
-\end{tikzpicture}
-%%%%
-%
-% Closeness
-%
-%%%%%%
-\begin{tikzpicture}[scale=.7]
-\begin{axis}[
-  width=0.25\textwidth,
-  xbar,
-  y=-0.5cm,
-  bar width=0.3cm,
-  enlarge y limits={abs=0.45cm},
-%  enlarge y limits=auto, 
-  xlabel={Closeness},
-   symbolic y coords={ Jon, Z, Bran, Robb, Y, Catelyn, Jaime, Tyrion, X, Cersei, Eddard, Robert, W, Arya, Joffrey, Sansa, V, Daenerys, Drogo},
- xtick={0, .25, .5, .75,1.01},
- xmajorgrids,
- grid style=white,
- axis on top,
- xticklabels={0,,,,4.3},
- ytick=data,
- yticklabels={,,},
- xmin=0, xmax=1.1,
-  %nodes near coords, nodes near coords align={horizontal},
-  ]
-\addplot[fill=myred, domain=0:1] table[col sep=tab,header=false] {
-0.465160075	Jon0.482109228	Bran0.457627119	Robb0.450094162	Catelyn0.508474576	Jaime0.444444444	Tyrion0.506591337	Cersei0.395480226	Eddard0.421845574	Robert0.502824859	Arya0.489642185	Joffrey0.459510358	Sansa0.563088512	Daenerys0.766478343	Drogo
-};
-\end{axis}
-\end{tikzpicture}
-%%%%
-%
-% Betweenness
-%
-%%%%%%
-\begin{tikzpicture}[scale=.7]
-\begin{axis}[
-  width=0.25\textwidth,
-  xbar,
-  y=-0.5cm,
-  bar width=0.3cm,
-  enlarge y limits={abs=0.45cm},
-%  enlarge y limits=auto, 
-  xlabel={Betweenness},
-   symbolic y coords={ Jon, Z, Bran, Robb, Y, Catelyn, Jaime, Tyrion, X, Cersei, Eddard, Robert, W, Arya, Joffrey, Sansa, V, Daenerys, Drogo},
- xmin=0, xmax=1.1,
- xtick={0, .25, .5, .75,1.01},
- xmajorgrids,
- grid style=white,
- axis on top,
- ytick=data,
- yticklabel pos=right,
- xticklabels={0,,,,2268},
-  %nodes near coords, nodes near coords align={horizontal},
-  ]
-\addplot[fill=myorange] table[col sep=tab,header=false] {
-0.592276906	Jon0.143807236	Bran0.312506792	Robb0.4540288	Catelyn0.048314321	Jaime0.722062473	Tyrion0.059470459	Cersei1	Eddard0.57368844	Robert0.087244018	Arya0.086169176	Joffrey0.301339155	Sansa0.627926147	Daenerys0.116710461	Drogo
-};
-\end{axis}
-\end{tikzpicture}
-
-
-\end{document}
