@@ -43,12 +43,11 @@ Margaery,89
 Melisandre,86
 Hand,86
 Bronn,85
-Lord Tywin,83
 Varys,83
+Lord Tywin,82
 Kingsguard,82
 Gilly,81
 Joff,79
-Lord Commander,79
 Jorah,79
 Bolton,77
 Castle Black,76
@@ -62,6 +61,7 @@ Lord Beric,68
 Chett,67
 Tom,66
 Kingslayer,64
+Lord Commander,64
 Tyrell,64
 Trident,64
 Imp,64
@@ -77,11 +77,11 @@ Tormund,58
 Ned,57
 Renly,56
 Frey,55
-Seven Kingdoms,54
 Oberyn,53
 Magnar,53
 Anguy,53
 Tommen,52
+Seven Kingdoms,52
 Thenns,51
 Mountain,51
 Westeros,51
@@ -100,7 +100,6 @@ Noye,45
 Belwas,45
 Hot Pie,44
 Dragonstone,44
-Lord Walder,44
 Maester Aemon,43
 Satin,43
 Cleos,43
@@ -108,21 +107,21 @@ Greatjon,43
 Ser Jorah,43
 Aemon,43
 Highgarden,43
+Lord Walder,43
 Sandor Clegane,42
 Jeyne,42
 Rattleshirt,41
 Whitebeard,41
 Qyburn,41
 Salladhor Saan,41
-Roose Bolton,41
 Loras,40
 Gregor,40
+Roose Bolton,40
 Shadow Tower,39
 Missandei,39
 Iron Throne,39
 Pod,39
 Donal Noye,38
-Mace Tyrell,38
 Storm,38
 Rhaegar,37
 Kevan,37
@@ -131,39 +130,37 @@ Beric,36
 Polliver,36
 Paul,36
 Styr,36
+Mace Tyrell,35
 Arstan,35
-Robb Stark,34
 Viserys,34
 Drogon,34
 Slynt,34
 Aegon,33
 Halfhand,33
-Prince Oberyn,33
 Rickon,33
 Dontos,33
+Robb Stark,33
 Pie,33
 Kraznys,33
 Eyrie,33
 Tickler,32
-Red Viper,32
-Cotter Pyke,32
 Irri,32
 Blackwater,32
 Khaleesi,31
+Prince Oberyn,31
+Cotter Pyke,31
 Roslin,31
 End,30
 Bowen Marsh,30
 Gods,30
 Eastwatch,30
 Tyrells,30
-Gregor Clegane,30
 Greenbeard,30
 Valyrian,30
 Elia,29
 Lady Catelyn,29
 Lothar,29
 Smallwood,29
-Walder Frey,29
 Ser Loras,29
 Other,29
 Axell,29
@@ -187,17 +184,17 @@ Vargo Hoat,27
 Val,27
 Brave Companions,26
 Tarly,26
+Red Viper,26
 Qhorin Halfhand,26
 Marillion,26
 Lord of Light,26
 North,26
-Stannis Baratheon,25
-Janos Slynt,25
 Starks,25
 Lord Hoster,25
 Red Keep,25
 Willas,24
 Rorge,24
+Stannis Baratheon,24
 Lord Bolton,24
 Alayne,24
 Lady Lysa,24
@@ -208,7 +205,7 @@ Rayder,24
 Ser Gregor,23
 Sworn,23
 Targaryen,23
-Tywin Lannister,23
+Walder Frey,23
 King-beyond-the-Wall,23
 Neck,23
 Tully,23
@@ -217,6 +214,7 @@ Urswyck,22
 Myrish,22
 Ser Cleos,22
 King Robert,22
+Gregor Clegane,22
 Lord Tyrell,22
 Nightfort,22
 Devan,22
@@ -228,6 +226,7 @@ Ned Stark,21
 Mummers,21
 Theon,20
 Ser Axell,20
+Janos Slynt,20
 Dondarrion,20
 Grazdan,20
 Jack-Be-Lucky,20
@@ -239,10 +238,8 @@ Arstan Whitebeard,19
 Small Paul,19
 Viserion,19
 Glover,19
-Jorah Mormont,19
 Jaime Lannister,19
 Me,19
-Commander Mormont,19
 Lollys,19
 Shall,19
 Tarth,19
@@ -259,7 +256,6 @@ Balerion,18
 Moat Cailin,18
 Lame Lothar,18
 Stormcrows,18
-Eddard Stark,17
 Saan,17
 Owen,17
 Arya Stark,17
@@ -280,17 +276,18 @@ Usurper,16
 Longclaw,16
 Kraznys mo Nakloz,16
 Green Fork,16
+Jorah Mormont,16
 Podrick Payne,16
 Dywen,16
 Harma,16
-Maester Pycelle,16
+Tywin Lannister,16
 Dalla,16
 Frostfangs,16
 Grey Wind,16
 Town,16
 Edd,16
+Eddard Stark,15
 White Harbor,15
-Denys Mallister,15
 Dirk,15
 Fist of the First,15
 Grey Worm,15
@@ -310,7 +307,6 @@ Warrior,15
 Barristan,15
 Kegs,15
 Lord of the Dreadfort,14
-Addam Marbrand,14
 Prince Rhaegar,14
 Daario Naharis,14
 Ser Jaime,14
@@ -325,9 +321,7 @@ Three-Finger Hobb,14
 Salla,14
 Horn of Winter,14
 Gift,14
-Osmund Kettleblack,14
 Red Fork,14
-Lord Frey,14
 Horse,14
 Water,13
 Lady Sansa,13
@@ -346,12 +340,11 @@ Sevenstrings,13
 Othell Yarwyck,13
 Ser Alliser,13
 Arryn,13
-Davos Seaworth,13
 Tysha,13
 Sunspear,13
 Balon Greyjoy,13
 Whispering Wood,13
-Edmure Tully,13
+Commander Mormont,13
 Petyr Pimple,13
 Tyroshi,13
 Selyse,13
@@ -360,35 +353,28 @@ Archer,13
 Redwyne,13
 Lord of Bones,13
 Edric,12
-Free Cities,12
 Lord Renly,12
 Maegor,12
 Rossart,12
 Slayer,12
-Oberyn Martell,12
-Good Masters,12
 Squab,12
 Harma Dogshead,12
-Meryn Trant,12
-Arthur Dayne,12
 Last,12
 Florent,12
-Balon Swann,12
+Davos Seaworth,12
 Whitetree,12
-Lysa Arryn,12
 Dreadfort,12
 Targaryens,12
+Edmure Tully,12
 Porridge,12
 Lord Robert,12
 Reeds,12
 Citadel,12
 Lys,12
-Alliser Thorne,12
 Lord Eddard,12
-Jason Mallister,12
 Lord Janos,12
 Gendel,11
-Beric Dondarrion,11
+Free Cities,11
 Ser Boros,11
 Thenn,11
 Ghiscari,11
@@ -397,12 +383,13 @@ Lady Smallwood,11
 Black Walder,11
 Oswell,11
 King Stannis,11
+Lord Commander of the Kingsguard,11
 Errok,11
 Lord Redwyne,11
 Hobb,11
 Thoren Smallwood,11
 Lord of the Crossing,11
-Boros Blount,11
+Lysa Arryn,11
 Illyrio,11
 Sam the Slayer,11
 Lord Petyr,11
@@ -416,27 +403,22 @@ Ser Denys,11
 Braavos,11
 Groleo,11
 Orell,11
-Hoster Tully,11
-Marq Piper,11
 Myr,10
 Payne,10
 Galbart Glover,10
-Robert Baratheon,10
+Grand Maester Pycelle,10
 Rhaegal,10
+Oberyn Martell,10
 Mad Huntsman,10
 Lord Tully,10
-Great Hall,10
+Meryn Trant,10
 Willas Tyrell,10
 Owen the Oaf,10
-Rickard Karstark,10
 Kettleblacks,10
-Cersei Lannister,10
 Elinor,10
 Seagard,10
 Sharna,10
 Janos,10
-Ben Plumm,10
-Kevan Lannister,10
 Ser Mandon,10
 Olenna,10
 Jack,10
@@ -445,19 +427,22 @@ Catelyn Stark,10
 Lightbringer,10
 Megga,10
 Alayaya,10
+Lord Frey,10
 Lancel,10
 Lamprey,10
 Grigg the Goat,10
 Dunsen,10
+Ser Denys Mallister,10
 Mully,9
+Beric Dondarrion,9
 Light,9
-Baelor the Blessed,9
 Nan,9
 Karl,9
 Meryn,9
 Umber,9
 Walda,9
 Ser Ryman,9
+Robert Baratheon,9
 Blane,9
 Kettleblack,9
 Rowan,9
@@ -466,6 +451,7 @@ Astapori,9
 Sisterman,9
 Thoros of Myr,9
 Ben,9
+Good Masters,9
 Queen Cersei,9
 Stoney Sept,9
 Ser Dontos,9
@@ -475,6 +461,7 @@ Raff the Sweetling,9
 Ser Ilyn,9
 Skirling Pass,9
 Brienne of Tarth,9
+Great Hall,9
 Sword of the Morning,9
 Lord Rickard,9
 Ghis,9
@@ -491,23 +478,23 @@ Benjen,9
 Jaqen,9
 Stone,9
 Lord Edmure,9
-Ilyn Payne,9
 Good Master,9
 Boros,9
 Andals,9
 King Aerys,9
+Osmund Kettleblack,9
 Bloody Mummers,9
 Ser Addam,9
 Vyman,9
 Samwell,9
 Longspear Ryk,9
-Loras Tyrell,9
+Ser Addam Marbrand,8
 Yarwyck,8
 Denys,8
 Lady Maege,8
 Emmett,8
+Ser Boros Blount,8
 Jalabhar Xho,8
-Donnel Hill,8
 White Book,8
 Deepwood Motte,8
 Lady Frey,8
@@ -519,6 +506,7 @@ Clubfoot Karl,8
 Claw Isle,8
 Torrhen,8
 Crone,8
+Ser Arthur Dayne,8
 Weeper,8
 Saltpans,8
 Daenerys,8
@@ -528,12 +516,13 @@ Longspear,8
 Rat Cook,8
 Petyr Baelish,8
 Lannisport,8
+Rickard Karstark,8
 Doran,8
-Dick Follard,8
+Cersei Lannister,8
+Ser Gregor Clegane,8
 Utherydes Wayn,8
 Thorne,8
 Moon Boy,8
-Ser Osmund,8
 Jojen Reed,8
 Aegon the Conqueror,8
 Lady Tanda,8
@@ -543,8 +532,8 @@ Lord Karstark,8
 Desmond,8
 Shagwell,8
 Ice,8
-Lothor Brune,8
 Walder Rivers,8
+Hoster Tully,8
 Rakharo,8
 Painted Table,8
 Dick,8
@@ -553,6 +542,7 @@ Merrit,7
 Prendahl,7
 Garlan,7
 Oldstones,7
+Ser Marq Piper,7
 Lysene,7
 Isle of Faces,7
 Rickard,7
@@ -560,11 +550,10 @@ Andrew,7
 Azor Ahai,7
 Vargo,7
 Braavosi,7
-Cleos Frey,7
 Rains of Castamere,7
+Lord Jason Mallister,7
 Ser Desmond,7
 Osmund,7
-White Bull,7
 Pentoshi,7
 Maidenpool,7
 Dacey,7
@@ -573,10 +562,13 @@ Westerling,7
 Florian,7
 Oznak zo Pahl,7
 Smalljon,7
+Ser Ilyn Payne,7
+Ser Alliser Thorne,7
 Lord Vargo,7
 Lady Stark,7
 Piggy,7
 Steelshanks Walton,7
+Balon Swann,7
 Maester Luwin,7
 Karhold,7
 Qohorik,7
@@ -587,8 +579,7 @@ Dickon,7
 Beyond,7
 Down,7
 Lord of Highgarden,7
-Gerold Hightower,7
-Wise Masters,7
+Ser Osmund,7
 Robin Flint,7
 Khal Drogo,7
 Tullys,7
@@ -597,15 +588,15 @@ Oznak,7
 Sam Tarly,7
 Meraxes,7
 Spare Boot,7
-Jeyne Westerling,7
 Lord Davos,7
 Yoren,7
 Robin,7
 Asshai,7
-Amory Lorch,7
 Zollo,7
 Needle,7
+Lothor Brune,7
 Alla,7
+Lord Tywin Lannister,7
 Naath,7
 Selmy,7
 Rollam,7
@@ -614,8 +605,9 @@ Celtigar,7
 Prendahl na Ghezn,6
 Galyeon,6
 Doran Martell,6
+Baelor the Blessed,6
 Ford,6
-Wendel Manderly,6
+Addam Marbrand,6
 High Hall,6
 Deep Lake,6
 Plumm,6
@@ -624,23 +616,22 @@ Mummer,6
 Dacey Mormont,6
 Hand of the King,6
 Daenerys Stormborn,6
-Prince Lewyn,6
 Dale,6
 Tanda,6
 Greyguard,6
 Hornfoot,6
 Darry,6
+Red Viper of Dorne,6
 Stevron,6
 Hake,6
 Cleon,6
 Robett Glover,6
+White Bull,6
 Ser Arthur,6
 Lord Gyles,6
 Westerosi,6
 Mag the Mighty,6
-Randyll Tarly,6
 Right,6
-Robin Ryger,6
 Lord Rowan,6
 Mad King,6
 Wars,6
@@ -655,7 +646,6 @@ Stone Drum,6
 Mire,6
 Blackwater Rush,6
 Hold,6
-Aemon the Dragonknight,6
 Justice,6
 Big Boil,6
 Stony Shore,6
@@ -665,17 +655,19 @@ Old King,6
 Sapphire Isle,6
 Patchface,6
 Hag,6
+Maester Pycelle,6
+Ben Plumm,6
 Symon Silver,6
-Wynton Stout,6
 Black Betha,6
-Paxter Redwyne,6
 Kella,6
 Blackwater Bay,6
 Baelor,6
 Brella,6
 Barristan the Bold,6
 Lum,6
+Lord Commander Mormont,6
 Lemoncloak,6
+Jeyne Westerling,6
 Rosby,6
 City Watch,6
 Mander,6
@@ -684,27 +676,29 @@ Young Dragon,6
 Horn Hill,6
 Ser Piggy,6
 Tormund Thunderfist,6
-Brynden Blackfish,6
 Prince Tommen,6
 High Valyrian,6
 Yunkish,6
 Alysanne,6
 Smiling Knight,6
 Peach,6
-Ser Bronn,6
 Maester Pylos,6
 Illyrio Mopatis,6
 Cerwyn,6
+Sweet Donnel Hill,6
 Ser Rolph,6
+Ser Osmund Kettleblack,5
 Vhagar,5
 Tumblestone,5
+Ser Ottyn Wythers,5
 Ghael,5
-Lady Joanna,5
+Lord Janos Slynt,5
 Dragon,5
 Flea Bottom,5
 Rast,5
 Wull,5
 Halder,5
+Great Sept of Baelor,5
 Spider,5
 Florents,5
 Square,5
@@ -720,32 +714,28 @@ Fingers,5
 Ramsay,5
 Septon Utt,5
 Ser Raynald,5
-Rolph Spicer,5
 Onion Knight,5
 Joso,5
+Prince Lewyn,5
 Rides,5
 Garth,5
 Maegor the Cruel,5
 Aerys Targaryen,5
 Left,5
-Great Sept,5
 Benjen Stark,5
-Barristan Selmy,5
 Jason,5
 Seaworth,5
 High Heart,5
-Ottyn Wythers,5
 Black Gate,5
+Ser Kevan Lannister,5
 Wylla,5
 Grandmother,5
 Red Wedding,5
 Nakloz,5
 Naharis,5
 Slaver,5
-Mathis Rowan,5
 Willem,5
 Queen Jeyne,5
-Ryman Frey,5
 Anguy the Archer,5
 Maiden Fair,5
 Ice Dragon,5
@@ -758,6 +748,7 @@ Lord Randyll,5
 Bear,5
 Ollo Lophand,5
 Lothar Frey,5
+Dick Follard,5
 Stokeworth,5
 Garth of Oldtown,5
 New Gift,5
@@ -766,24 +757,29 @@ Grigg,5
 Deaf Dick,5
 Jarman Buckwell,5
 Captain Groleo,5
+Wise Masters,5
 Quort,5
 Joramun,5
 Liddle,5
 Long,5
 Sweet Donnel,5
+Kevan Lannister,5
 Blount,5
+Paxter Redwyne,5
 Day,5
-Axell Florent,5
 Kyle,5
 Ibbenese,5
 Toad,5
 Del,5
+Ser Wynton Stout,5
 Martyn,5
 Holdfast,5
 Shagga,5
 Lady Sybell,5
 Grisel,5
+Alliser Thorne,5
 Fair Walda,5
+Brynden Blackfish,5
 Ser Amory,5
 Softfoot,5
 Nage,5
@@ -797,16 +793,19 @@ Plaza of Pride,5
 Giantsbane,5
 Grandison,5
 Oxcross,5
+Jason Mallister,5
 Knight of the Laughing Tree,5
 Tears,5
 Donal,5
 Bastard of Nightsong,5
 Cafferen,5
+Loras Tyrell,5
 Andal,5
 Lady Brienne,4
 Sunglass,4
 Ser Davos,4
 Stone Crows,4
+Lady Joanna,4
 Last Hearth,4
 Willem Lannister,4
 Rhaenys,4
@@ -818,9 +817,9 @@ Amory,4
 Merling King,4
 Mudge,4
 Garigus,4
-Three Thousand,4
 Boltons,4
 Maz Duur,4
+Denys Mallister,4
 Vale of Arryn,4
 Simon Toyne,4
 King Renly,4
@@ -829,15 +828,14 @@ Old Pate,4
 War,4
 Reynes,4
 Goat,4
-Mallador Locke,4
 Frozen,4
 Volantis,4
 Seastone Chair,4
+Ser Amory Lorch,4
 Rainbow Guard,4
 Leech Lord,4
 Podrick,4
 Varamyr Sixskins,4
-Dragon Tower,4
 Great Pyramid,4
 Wythers,4
 Bear Island,4
@@ -850,10 +848,11 @@ Dragonknight,4
 Tristifer,4
 Ser Balon,4
 Prince Viserys,4
+Late Lord Frey,4
 Shayala,4
 Tarbecks,4
 Cellador,4
-Garlan Tyrell,4
+Randyll Tarly,4
 Florian the Fool,4
 Off,4
 Hullen,4
@@ -865,15 +864,13 @@ Moon Door,4
 Rivers,4
 Bernarr,4
 Pyat Pree,4
-Rhaegar Targaryen,4
 Skahazadhan,4
 Lord Manderly,4
 Maiden,4
 Princess Shireen,4
 Old Pomegranate,4
-Robar Royce,4
-Great Masters,4
 Maric,4
+Ser Cleos Frey,4
 Ballabar,4
 King Aegon,4
 Maege Mormont,4
@@ -890,6 +887,7 @@ Alerie,4
 Castamere,4
 Winter,4
 Unburnt,4
+Lord Walder Frey,4
 Lord Alester,4
 Flint,4
 Patrek Mallister,4
@@ -903,8 +901,6 @@ Hands,4
 Faith,4
 Hamish,4
 Mountains of the Moon,4
-Ryam Redwyne,4
-Desmond Grell,4
 Liddles,4
 Tion Frey,4
 Jenny,4
@@ -913,7 +909,6 @@ Crown,4
 Timett,4
 Vaes Dothrak,4
 Royce,4
-Queen Alysanne,4
 Ollo,4
 Lives of Four,4
 Edwyn Frey,4
@@ -926,23 +921,29 @@ Sedgekins,4
 Ronnel Harclay,4
 Smalljon Umber,4
 Pimple,4
+Ser Balon Swann,4
 Leonette,4
 Reach,4
+Prince Aemon the Dragonknight,4
 Queenscrown,4
+Brown Ben Plumm,4
 Styr the Magnar,4
 Munda,4
 Dust,4
+Ser Loras Tyrell,4
 Garth of Greenaway,4
 Ulmer,4
 Elia of Dorne,4
 Gates of the Moon,4
 Raff,4
 King Balon,4
+Sea Dragon Tower,4
 Lance,4
+Marq Piper,4
 Plaza of Punishment,3
 Lady Merryweather,3
+Ser Mandon Moore,3
 Supper,3
-Gregor the Mountain,3
 Frenken,3
 Marya,3
 Alyx,3
@@ -950,50 +951,51 @@ Long Barrow,3
 Alyn,3
 Bears,3
 Shagwell the Fool,3
+Wendel Manderly,3
 Lord Slynt,3
 Ser Ottyn,3
+Three Thousand,3
 Queen Selyse,3
 New,3
 Queensgate,3
-Gerald Gower,3
 Golden Tooth,3
-Preston Greenfield,3
 Lord Steward,3
-Philip Foote,3
 Lord Sumner,3
 Hightower,3
 Cock,3
 Lord Ryswell,3
 Lady of the Leaves,3
-Raymun Darry,3
 Temmo,3
 Weasel,3
-Brynden Tully,3
+Rolph Spicer,3
 Ballroom,3
 Ryk,3
 Wendel,3
 Ragwyle,3
+Cleos Frey,3
 Watt of Long Lake,3
 Terror,3
 Wet,3
 High Hill,3
-Sword Tower,3
 Ser Osfryd,3
 Ser Aenys,3
+Ser Robar Royce,3
 Ser Edmure,3
 Fossoways,3
+Ser Gerold Hightower,3
 Leaves,3
 Heart,3
 Locke,3
+King Baelor the Blessed,3
 Maester Cressen,3
 Salt,3
 Greywater Watch,3
+Good Masters of Astapor,3
 Blackwoods,3
 Aegon the Unworthy,3
 Sand,3
 Mikken,3
 Bay of Seals,3
-Belly Ben,3
 Skagos,3
 Hamish the Harper,3
 Tallhart,3
@@ -1002,6 +1004,8 @@ Dolorous Edd Tollett,3
 Maids,3
 Lord of Riverrun,3
 Lord Umber,3
+Ser Barristan Selmy,3
+Lord Mace Tyrell,3
 Grand Maester,3
 Steel,3
 Bessa,3
@@ -1009,24 +1013,30 @@ Stallion,3
 Ser Jacelyn,3
 Pinkeye,3
 Burned,3
+Arthur Dayne,3
 Osney,3
 Lady Marya,3
+Robin Ryger,3
 Islanders,3
 Walders,3
 Tytos Blackwood,3
 Daenerys Targaryen,3
-Helman Tallhart,3
+Ser Jorah Mormont,3
 Bastard of Godsgrace,3
 Aurochs,3
 Iron Emmett,3
 Aegon the Dragon,3
 King Robb,3
+Rhaegar Targaryen,3
 Galyeon of Cuy,3
 Cley Cerwyn,3
+Mathis Rowan,3
 Sorrowful,3
 Ser Robin,3
+Great Masters,3
 Boneway,3
 Baratheons,3
+Ryman Frey,3
 Eastwatch-by-the-Sea,3
 Lord of the Eyrie,3
 Howland Reed,3
@@ -1037,37 +1047,35 @@ Queen Margaery,3
 Marbrand,3
 Tion,3
 Grandfather,3
+Ser Bronn of the Blackwater,3
 Norrey,3
 Sallor the Bald,3
 Wayn,3
 King Tommen,3
 Thief,3
 Cobblecat,3
-Emmon Cuy,3
 Bridge of Skulls,3
 Lions,3
 Glendon,3
 Lady Lollys,3
-Joffrey Baratheon,3
+Boros Blount,3
 Bella,3
 Belis,3
 Benfrey,3
 Whent,3
-Aenys Frey,3
 Bodger,3
 Timeon,3
-Raynald Westerling,3
 Brown Bernarr,3
 Ser Brynden,3
 Blind Bastard,3
 Queen Regent,3
 Lord of Harmony,3
 Lord of Dragonstone,3
-Mandon Moore,3
 Darkness,3
 Big Willow,3
 Watty the Miller,3
 Jaehaerys,3
+Ser Robin Ryger,3
 Lady Bulwer,3
 Lady Whent,3
 Perwyn,3
@@ -1078,10 +1086,9 @@ Spring,3
 Visenya,3
 Mud Gate,3
 Lord Celtigar,3
+Ser Wendel Manderly,3
 Emmon,3
-Emmon Frey,3
 Alayne Stone,3
-Puff Fish,3
 Greenaway,3
 Tumbler,3
 Tyrek,3
@@ -1094,10 +1101,11 @@ Raynald,3
 Lost,3
 Melisandre of Asshai,3
 Crows,3
+Axell Florent,3
 Drink,3
 Ben Stark,3
-Alester Florent,3
 Evenfall,3
+Queen Alysanne,3
 Septa Mordane,3
 Syrio,3
 Robar,3
@@ -1108,9 +1116,11 @@ Old Ghis,3
 Ashford,3
 Harrion,3
 Norreys,3
+White Sword Tower,3
 Alan of Rosby,3
 Victarion,3
 Dogshead,3
+Lord Commander of the Night,3
 Daeron,3
 Lady Melisandre,3
 Scarb,3
@@ -1122,50 +1132,46 @@ Brackens,3
 Utt,3
 Horn of Joramun,3
 Ser Stevron,3
-Spotted Pate,3
+Big Belly Ben,3
 Septon Cellador,3
 Stout,3
+Lord Hoster Tully,3
 Field of Fire,3
+Amory Lorch,3
 White Swords,3
 Moonmaid,3
 Khorane,3
 Name,3
 Jon Darry,3
-Olenna Tyrell,3
 First Ranger,3
-Lord Protector,3
-Jonos Bracken,3
+Deaf Dick Follard,3
+Ser Bronn,3
 Jeor Mormont,3
 Disputed Lands,3
-Gladden Wylde,3
 Bastard of Bolton,3
 Merryweather,3
-Gawen Westerling,3
 Worship,3
-Red Alyn,3
 Mud,3
 Lady Tarbeck,3
 Donnel,3
-Cortnay Penrose,3
 Lordsport,3
 Baelish,3
 Lysa Tully,3
 Bracken,3
+Ser Mallador Locke,2
 Beesbury,2
 Yaya,2
+Ser Forley Prester,2
 Old Henly,2
 Arron,2
 Kaeth,2
 Rodrik,2
 Jeyne Poole,2
-Donnel Haigh,2
 Cape Wrath,2
 Maester Vyman,2
-Ashara Dayne,2
 Garths,2
 Arson Iceaxe,2
-King Andahar,2
-Free City,2
+Lord Eddard Stark,2
 Martyn Lannister,2
 Cailin,2
 Prank,2
@@ -1173,25 +1179,28 @@ Lame Lothar Frey,2
 Crane,2
 Ser Daven,2
 Knotts,2
-King Cleon,2
-Forley Prester,2
 Iron Islands,2
 Eroeh,2
+Ser Whalen Frey,2
 Ser Maynard,2
 Banners,2
 Rills,2
+Lord Protector of the Vale,2
+Ser Brynden Tully,2
 Lord Yronwood,2
+King Joffrey Baratheon,2
 Alyce,2
 Death,2
-Bar Emmon,2
-Luthor Tyrell,2
-Arron Qorgyle,2
+Lord Beric Dondarrion,2
 Ser Wilbert,2
-Leslyn Haigh,2
 Lord Roote,2
+Ser Gladden Wylde,2
 Flints,2
+Ser Gregor the Mountain,2
+Donnel Hill,2
 Marissa,2
 Eye,2
+Raymun Darry,2
 Whores,2
 Bright Banners,2
 Colemon,2
@@ -1200,25 +1209,27 @@ Urswyck the Faithful,2
 Weatherback Ridge,2
 Aegons,2
 Prince Aegon,2
+Ser Flement Brax,2
 Lynesse,2
 Jade Sea,2
 Greatjon Umber,2
-Andrew Estermont,2
+Red Alyn of the Rosewood,2
 Way,2
+Lord Mathis Rowan,2
 Axe,2
 Chyttering,2
 Aerion Brightfire,2
 Battle of the Camps,2
 Robert the Usurper,2
+Mallador Locke,2
 First Builder,2
 Dragonpit,2
 Shield Islands,2
-Collio Quaynis,2
 Wenda the White Fawn,2
 Silence,2
+Ser Ryam Redwyne,2
 Starks of Winterfell,2
 Alyx Frey,2
-Willem Darry,2
 Lord of Death,2
 Othell,2
 Joy,2
@@ -1239,29 +1250,30 @@ Iron Fleet,2
 Courage,2
 Ser Andrew,2
 Mudd,2
+Barristan Selmy,2
 Lady Arryn,2
 Chiswyck,2
 Gold,2
+Ser Preston Greenfield,2
 Harren the Black,2
 Goodbrook,2
 Kedge,2
 Water Tower,2
 Maid of Tarth,2
 Sky,2
+Garlan Tyrell,2
 Bael the Bard,2
-Leyton Hightower,2
 Lord Gawen,2
 Prince of Winterfell,2
 Lord Baelish,2
 Stafford,2
 Grass,2
 Hearts,2
-Lord Farman,2
 Brune,2
-Whalen Frey,2
 Jon Stark,2
 Leo Longthorn,2
 Prince of Dragonflies,2
+Helman Tallhart,2
 Osha,2
 Snowgate,2
 Maester Ballabar,2
@@ -1285,50 +1297,59 @@ Corbray,2
 Leobald Tallhart,2
 Gorge,2
 Darrys,2
-Commander Qorgyle,2
 Aegon the Fourth,2
 Laughing Lord,2
 Follard,2
+Lord Alester Florent,2
 Marcher,2
 Princess Rhaenys,2
 Ser Mallador,2
+Ser Dontos Hollard,2
 Orland of Oldtown,2
 Coldhands,2
+Old King Andahar,2
 Wynton,2
 Hammer of Justice,2
 Saduleon,2
+Emmon Cuy,2
 Lewyn Martell,2
 Lord Goodbrook,2
 Beat,2
 Nestor Royce,2
 Stair,2
-Fat Flower,2
 Kedge Whiteye,2
 Grazdan mo Eraz,2
 Lord Nestor,2
 Greywater,2
+Ser Emmon Frey,2
 Yohn Royce,2
 Honor,2
 Pate,2
+Prince Oberyn Martell,2
 Lord Stark,2
 Shieldhall,2
+Aenys Frey,2
 Ser Wendel,2
-Arys Oakheart,2
-Renly Baratheon,2
 Mouth,2
+Raynald Westerling,2
 Stone Thumbs,2
 Sybell,2
+Ser Leslyn Haigh,2
 Mordane,2
+Ser Ryman Frey,2
 Lady Genna,2
 Tor,2
 Prince Trystane,2
+Aemon the Dragonknight,2
 Olyvar Frey,2
+Red Deer Island,2
 Bael,2
 Hook,2
 Ser Danwell,2
 Pit,2
 Lord Piper,2
 King Daeron,2
+Wise Masters of Yunkai,2
 Myraham,2
 Martyn Rivers,2
 Tim Stone,2
@@ -1338,25 +1359,30 @@ Harclays,2
 Blackwood,2
 Oberyn of Dorne,2
 Maid,2
+Lord Rickard Karstark,2
 War of the Five,2
+Ser Desmond Grell,2
 Reynes of Castamere,2
-Lord Mooton,2
 Alys Karstark,2
 Manwoody,2
 Hayford,2
 Cuy,2
 Wulls,2
 Black Ears,2
+Gerold Hightower,2
 Lord of Karhold,2
+Ryam Redwyne,2
 Bountiful Harvest,2
+Ser Garlan Tyrell,2
 Hal,2
 Lord Cafferen,2
-Master Kraznys,2
+Ser Gerald Gower,2
 Ruddy Hall,2
 Sherrer,2
 Tumberjon,2
 Wylde,2
 Free,2
+Ser Willem Darry,2
 Starfall,2
 Beauty,2
 Toregg,2
@@ -1366,21 +1392,24 @@ Alesander,2
 Evenstar,2
 Rolley of Sisterton,2
 Ottyn,2
+Ser Duncan the Tall,2
 Sharp,2
 Baelor Hightower,2
-Flement Brax,2
 Chamber of the Painted Table,2
+Desmond Grell,2
 Lychester,2
 Xaro,2
 Daemon,2
 Ser Rolland,2
 Farlen,2
+Ser Rolph Spicer,2
 Small Hall,2
 Sweetling,2
 Silverwing,2
 Arryns,2
 Fern,2
 Hosts,2
+Lord Puff Fish,2
 Castle Cerwyn,2
 Maidenvault,2
 Toyne,2
@@ -1392,39 +1421,39 @@ Robett,2
 Merrett Frey,2
 Hornfoots,2
 Fourth,2
-Hubard Rambton,2
 Pool,2
 Titan of Braavos,2
 Lady Leonette,2
 Lady of Winterfell,2
 Freys of the Crossing,2
 Blackfyre,2
+Lord Randyll Tarly,2
 Lady Janna,2
 Tower of Guards,2
 Mead-king of Ruddy Hall,2
 White Knife,2
 Rainbow,2
 Randyll,2
+Seven Kingdoms of Westeros,2
 Garth Greyfeather,2
-Oswell Whent,2
-Duncan the Tall,2
+Ilyn Payne,2
 Genna,2
 Ser Lancel,2
+Ser Oswell Whent,2
 Lothar Mallery,2
 Silveraxe,2
 Dance of the Dragons,2
 Conquest,2
 Mag,2
-Jaehaerys the Conciliator,2
 Beyond the Wall,2
 Lady Ermesande,2
-Ser Pate,2
 Tourmaline Brotherhood,2
 Sunset Kingdoms,2
 Osfryd,2
 Mopatis,2
 Westerling of the Crag,2
 Lord Sunglass,2
+Spotted Pate,2
 Aemon Targaryen,2
 Lady Bethany,2
 Lord Tarbeck,2
@@ -1432,38 +1461,37 @@ Alfyn Crowkiller,2
 Rebellion,2
 Walda Bolton,2
 Lewys the Fishwife,2
+Prince Oberyn of Dorne,2
 Jate,2
 Little Willow,2
 River Gate,2
-Danwell Frey,2
 Alaric of Eysen,2
 Estermont,2
 Lhazar,2
 Ragged Jenna,2
 Zei,2
 Aenys,2
+Ser Axell Florent,2
+Olenna Tyrell,2
+Ser Meryn Trant,2
 Old Empire,2
 Duty,2
 Lord of the Rainwood,2
-Vardis Egen,2
 Prince Joffrey,2
-Dontos Hollard,2
+Jonos Bracken,2
 Boot,2
-Sumner Crakehall,2
 Beardless Dick,2
 Robert Arryn,2
 Hempen Dan,2
-Deer Island,2
 Stonesnake,2
-Oswald Kettleblack,2
-Perwyn Frey,2
 Martells,2
 Lord Hunter,2
 Connington,2
+Lord Commander Qorgyle,2
 Orphan Oss,2
 Brindlewood,2
-Dagos Manwoody,2
 Lady Graceford,2
+Cortnay Penrose,2
 Gery,2
 Mott,2
 Harren,2
@@ -1471,6 +1499,7 @@ Fairmarket,2
 Bastard of Winterfell,2
 Rat,1
 Aaaaahoooooooooooooooooooooooooo,1
+Lord Walder of the Crossing,1
 Michael,1
 Garth the Gross,1
 Prince Aerion,1
@@ -1479,21 +1508,27 @@ Garth Greenaway,1
 Gargalens of Salt Shore,1
 Lord Leech,1
 Silver Bridge,1
+Ser Manfred Swann,1
 Brightroar,1
 Ser Harys,1
 Hollard,1
 Captain Khorane,1
+Lord Gawen Westerling of the Crag,1
+Donnel Haigh,1
 Burleys,1
 Halfman,1
 Tarbecks of Tarbeck Hall,1
 Sky Blue Su,1
-Hobber Redwyne,1
 Boys,1
 History of the Rhoynish Wars,1
+Ashara Dayne,1
 Corpses,1
-Burton Crakehall,1
-Rhaegar Prince,1
+Ser Kyle Condon,1
 Crackclaw Point,1
+Ser Hobber Redwyne,1
+Gregor the Mountain,1
+Free City,1
+Lord Farman of Faircastle,1
 Osney Kettleblack,1
 Lady Blackmont,1
 Commander of the Kingsguard,1
@@ -1505,6 +1540,7 @@ Song of the Seven,1
 Myranda,1
 Hall of Heroes,1
 Khal Temmo,1
+Lord Bar Emmon,1
 Lady Bolton,1
 Jory Cassell,1
 Allar Deem,1
@@ -1516,54 +1552,67 @@ Kingliness,1
 Peckledon,1
 Piper,1
 Princess of Dorne,1
+Commander Runcel Hightower,1
 Ser Gerald,1
 Lynesse Hightower,1
-Duncan the Small,1
 Timett One-Eye,1
+Ser Cortnay Penrose,1
 Castle Stokeworth,1
 Hightower of Oldtown,1
 Lann the Clever,1
 Deer,1
 Bethany Fair-fingers,1
 King of the Trident,1
+Ser Hosteen Frey,1
 Baelor Breakwind,1
+King Cleon,1
 Eleyna,1
 Lord Grandfather,1
 Tallad,1
 Milk Snakes,1
 Ryon Allyrion,1
 Lennocks,1
+Ser Pate of Sevenstreams,1
 Meros,1
 Freehold,1
 Lormelle Long Lance,1
 Ale,1
-Lass Down,1
+Black Walder Frey,1
 King Maegor,1
 Belmores,1
+Little Walder Frey,1
 Pomegranate,1
 Dornishwoman,1
 Fletcher Dick,1
 Ghezn,1
 Murmison,1
 Dontos the Red,1
+Gerald Gower,1
 Blackbottom Bend,1
 Lady Oakheart,1
+Preston Greenfield,1
+Philip Foote,1
 Gunthor,1
 Lord Roose,1
+Bar Emmon,1
+Luthor Tyrell,1
 Pate of Shermer,1
 Elinor Tyrell,1
 Delp,1
+Arron Qorgyle,1
 Battle of the Fords,1
+Lord Commander of the City Watch,1
 Nella,1
 Aegon the Third,1
 Grazdans,1
+Lord Dagos Manwoody,1
 Lord Merryweather,1
 Merry,1
+King Daeron the First,1
 Green Gergen,1
 Nightrunners,1
 Petyr Littlefinger,1
 King of Westeros,1
-Parmen Crane,1
 Ardrian Celtigar,1
 Myles Mooton,1
 Master Mott,1
@@ -1576,7 +1625,6 @@ Lady Ashara,1
 King Torrhen,1
 Henk the Helm,1
 Ser Benfrey,1
-Connington the Hand,1
 Rykker,1
 Jayde,1
 Raymund,1
@@ -1584,14 +1632,14 @@ Vance,1
 Robin Hill,1
 Bastard of Bronzegate,1
 Chella,1
-Aemon Rivers,1
+Lady Janna Fossoway,1
 Grove,1
 Arya Underfoot,1
 Harma the Dogshead,1
 Hornvale,1
+Brynden Tully,1
 Marianne,1
 Ser Damon,1
-Jaremy Rykker,1
 Duncan,1
 Ser Lothor,1
 Thunderfist,1
@@ -1599,14 +1647,19 @@ Lives of Five,1
 Kings-beyond-the-Wall,1
 Golden Gallery,1
 Vow Unspoken,1
-Maester Hareth,1
+Grand Maester Hareth,1
+Lord Gawen Westerling,1
 Lord Chelsted,1
 Prince Bran,1
 Euron Crow,1
+Andrew Estermont,1
 Broken Tower,1
+Ser Waymar Royce,1
+Ser Aladale Wynch,1
 Dalt,1
 Cleon the Great,1
 Wat,1
+Lord Protector of Winterfell,1
 Lady Cersei,1
 Hill of Rhaenys,1
 Harte Rode Out,1
@@ -1614,7 +1667,6 @@ Bag of Bones,1
 Alyn Connington,1
 Sisters,1
 Lord of Casterly Rock,1
-Janna Fossoway,1
 Iceaxe,1
 Round Room,1
 Hop-Robin,1
@@ -1622,9 +1674,9 @@ Mors Crowfood,1
 Byam,1
 Merlon Crakehall,1
 Cedrik Storm,1
+Lady Ashara Dayne,1
 Lady Meliana,1
 Falyse,1
-Harlan Grandison,1
 Princess Elia,1
 Ser Forley,1
 Undying of Qarth,1
@@ -1634,35 +1686,43 @@ Daeron the Good,1
 Ryger,1
 Manderly,1
 Smiling,1
+Ser Balon Swann of the Kingsguard,1
 Skipping Stones,1
 Snow of Winterfell,1
 Shadowcat,1
+Lord Philip Foote,1
 Danwell,1
 Bran the Broken,1
+Ser Jonothor Darry,1
+Lady Roslin Frey,1
 Dennet,1
 Walks,1
+Collio Quaynis,1
 Sack,1
 Noisy,1
 Maester Turquin,1
 Helm,1
 Bastard of Uplands,1
+Ser Oswald Kettleblack,1
+White Bull Gerold Hightower,1
 Torwynd the Tame,1
-Booming Tower,1
 Last of the Giants,1
 Ser Perwyn,1
 Blackberry,1
 Butters,1
 Crowlover,1
 Sludgy Pond,1
+Ser Jacelyn Bywater,1
 Antler,1
 Lusty Lad,1
 Quaithe of the Shadow,1
+Lady Joanna of Casterly Rock,1
 Onion Lord,1
 Galbart,1
-Jonothor Darry,1
 Gullet,1
 Tyta,1
 Rhoynish,1
+Prince Rhaegar Targaryen,1
 King Viserys,1
 Tuns,1
 Black Harren,1
@@ -1683,18 +1743,20 @@ Dread,1
 King of the Rivers,1
 Lothstons,1
 Fat Walda,1
+Lord Steffon Baratheon,1
+Lady Olenna Tyrell,1
 Jothos Slynt,1
 Valor,1
 Garlan the Gargoyle,1
-Lord Lazyeye,1
-Walda Frey,1
 Noseless,1
 Willum,1
-Ser Kennos,1
 Arson,1
 Breaker of Ice,1
 Lucias Vypren,1
 Redbeard,1
+Good Master Kraznys,1
+Lady Walda Frey,1
+Lord Paramount of the Trident,1
 Giants,1
 Ferny,1
 Horn-blower,1
@@ -1703,10 +1765,9 @@ Palestone Sword,1
 Edd Tollett,1
 Warden of the West,1
 Kingslanders,1
-Daven Lannister,1
 Mag Mar Tun Doh Weg,1
-Lyonel Selmy,1
 Lord Bracken,1
+Good Queen Alysanne,1
 Gate of the Gods,1
 Corbrays,1
 Squishlips,1
@@ -1723,10 +1784,10 @@ Jaime Jaime,1
 Lord Tytos,1
 Ser Ulwyck,1
 Lord of Corpses,1
+Ser Brynden Blackfish,1
 Dareon,1
 Prince Aemon,1
 Lophand,1
-Elwood Harte,1
 Strongboar of Crakehall,1
 Whents,1
 Great-Uncle,1
@@ -1740,6 +1801,7 @@ Nolla,1
 Lord Mallister,1
 Dagos,1
 Ser Fool,1
+Leyton Hightower,1
 Hare,1
 Hellholt,1
 Oldcastle,1
@@ -1748,22 +1810,24 @@ Down White Harbor,1
 Hallis Mollen,1
 Lenn,1
 Rollam Westerling,1
-Manfred Swann,1
 Rulore,1
 Lyanna,1
 Ashara,1
+Commander Rodrik Flint,1
+Ser Jaremy Rykker,1
+Lady Cersei Lannister,1
 Wylis,1
 Lord of Goldengrove,1
 Garth Greenhand,1
+Collio Quaynis of Tyrosh,1
 Lord Crakehall,1
-Endrew Tarth,1
 Roro,1
 Tristifer the Fifth,1
 Fieldstone,1
 Tormunds,1
-Raymund Frey,1
 Queen of Westeros,1
 Swan,1
+Lord Farman,1
 Aerion Brightflame,1
 Rymund the Rhymer,1
 Daemon Blackfyre,1
@@ -1786,6 +1850,7 @@ Eraz,1
 Lambswold,1
 Tall-talker,1
 Lymond Goodbrook,1
+Ser Arys Oakheart,1
 The Twins,1
 Septon Barth,1
 Bay of Crabs,1
@@ -1793,19 +1858,26 @@ Talla,1
 Marei,1
 Brotherhood,1
 Ormond,1
+Lord Mooton of Maidenpool,1
 Sybell Spicer,1
-Jack Bulwer,1
+Ser Elwood Harte,1
+Lord Leyton Hightower,1
 Great Cleon,1
 Sam the Scared,1
 Sun,1
+Prince Duncan the Small,1
 Bloom,1
 Red Mountains,1
+Lord Renly Baratheon,1
 Brenett,1
+Prince Lewyn of Dorne,1
 Blackmont of Blackmont,1
 Mallery,1
 Baker,1
+Ser Endrew Tarth,1
 Lord Mathis,1
 Lady Margaery,1
+Robar Royce,1
 Pree,1
 Harmen Uller,1
 Laughing,1
@@ -1814,15 +1886,18 @@ Fair Isle,1
 Erreg the Kinslayer,1
 Fossoway,1
 Lord Plumm,1
+Ser Osmund of the Kingsguard,1
 Knott,1
 Willamen,1
 Faithful Urswyck,1
 Ser Gerold,1
+Lord Jonos Bracken of Stone Hedge,1
 Imry,1
 Whore,1
 Three Toes,1
 Sheepshit,1
 Watt,1
+Ser Triston of Tally Hill,1
 Daenerys the Conqueror,1
 Sallydance,1
 Karlon Stark,1
@@ -1831,8 +1906,8 @@ Lord Jon,1
 Arryk,1
 Onions,1
 Toefinger,1
+Ser Raymund Frey,1
 Horton Redfort,1
-Daeron the First,1
 Eysen,1
 Tremond Gargalen,1
 Erryk,1
@@ -1845,10 +1920,10 @@ Torrhen Stark,1
 Leslyn,1
 Marwyn,1
 Guncer Sunglass,1
+King Jaehaerys the Conciliator,1
 Chelsted,1
 Samwell of the Night,1
 Aethan,1
-Otto Hightower,1
 Xho,1
 Warden of the East,1
 Bloody Maester,1
@@ -1856,7 +1931,7 @@ Qorgyle of Sandstone,1
 Lady Deddings,1
 King Sherrit,1
 Ser Robar,1
-Selwyn the Evenstar,1
+Ser Hubard Rambton,1
 Blackfyre Pretenders,1
 Ser Warren,1
 Pale,1
@@ -1879,16 +1954,18 @@ Nymeria,1
 Maester Kaeth,1
 Imp Tyrion Lannister,1
 Bastard of Bracken,1
+Ser Daemon Sand,1
 Norvos,1
+Fat Flower,1
 Cobbler,1
 Vulture King,1
 Queen of the Seven Kingdoms,1
+Sweet Lass Down,1
 Shaggydog,1
 Shirei,1
 Longsclaw,1
 Beck,1
 Elwood,1
-Hosteen Frey,1
 Sisterton,1
 Violet,1
 Lord Guncer,1
@@ -1899,9 +1976,12 @@ Likely,1
 Aerys the Third,1
 Raymun Redbeard,1
 Ser Endrew,1
+Joffrey Baratheon,1
 Beldecar,1
 Footmen,1
 Bill,1
+Lord Luthor Tyrell,1
+Ser Burton Crakehall,1
 Cleganes,1
 Pyke of Eastwatch,1
 Grey Keep,1
@@ -1911,40 +1991,49 @@ Tail,1
 Light of the Lord,1
 Harper,1
 Omer Blackberry,1
-Rickard Stark,1
 Stonehelm,1
 Paw,1
 Lhazareen,1
+Spotted Pate of Maidenpool,1
 Snakes,1
 Greenapple,1
 Grazdan mo Ullhor,1
 Galley,1
 Lord Luthor,1
-Samwell Spicer,1
+Lady Roslin Tully,1
+Lady Lysa Arryn,1
 Lanna,1
 Sathmantes,1
 Ser Tytos,1
+Arys Oakheart,1
 Delena,1
 Lord Mallery,1
+King Cleon of Astapor,1
 Utherydes,1
 Woodfoot,1
+Renly Baratheon,1
 Gilbert Farring,1
 Young Henly,1
 Maelys the Monstrous,1
-Roslin Tully,1
 Valyrians,1
+Ser Parmen Crane,1
 Lord Selwyn,1
 Zollo the Fat,1
 Shivering Sea,1
-Lord Paramount,1
 Alyn of Winterfell,1
 Lord Blackwood,1
 Ryam,1
+Great Masters of Meereen,1
+Lord Connington the Hand,1
 Enormity,1
+Ser Arthur Dayne of the Kingsguard,1
+Ser Danwell Frey,1
+Cersei Lannister of Casterly Rock,1
 Ser Merrett,1
 Underfoot,1
 Brightfire,1
 Ser Onions,1
+Ser Donnel Haigh,1
 Hornwood,1
 Mace,1
 Brandon the Shipwright,1
@@ -1956,16 +2045,15 @@ Lord Littlefinger,1
 Lantern,1
 Selwyn of Tarth,1
 Lord Mace,1
-Wylis Manderly,1
 Bend,1
 Highgardener,1
 Eel Alley,1
 Lord Steffon,1
-Jacelyn Bywater,1
 Aemon Costayne,1
 Tumbledown Tower,1
 Joth Quick-bow,1
 Pia,1
+Ser Denys Mallister of the Shadow Tower,1
 Brightsmile,1
 King of the Iron Islands,1
 Dontos the Fool,1
@@ -1976,10 +2064,13 @@ Great Other,1
 Quaithe,1
 Lhazarene,1
 Mahr,1
+Ser Lothor Brune,1
 Bay of Ice,1
 Squire Squishlips,1
 Fishwife,1
 Symeon Star-Eyes,1
+Ser Kennos of Kayce,1
+Lord Tytos Lannister,1
 King Tristifer,1
 Mago,1
 Nysterica,1
@@ -1989,7 +2080,6 @@ Hall of Light,1
 Islander,1
 Dayne,1
 Sam Sam,1
-Waymar Royce,1
 Lannisters of Casterly Rock,1
 Temple of the Graces,1
 Whale,1
@@ -1997,13 +2087,13 @@ Khaznys mo Nakloz,1
 Lady Tully,1
 Cunt,1
 Lord Florent,1
-Ser Triston,1
 Lew,1
 Left Hand Lew,1
 Lord Grandison,1
 Beth,1
-Tytos Lannister,1
+Lord Mooton,1
 Anvil Ryn,1
+Ser Emmon Cuy,1
 War of the Ninepenny,1
 Aerys the Mad,1
 Hunter,1
@@ -2014,12 +2104,13 @@ Thorns,1
 Massey,1
 Elia Martell,1
 Womb of the World,1
-Westeros the Lord Commander,1
 Robb of Winterfell,1
 Garlan the Greensick,1
+Ser Philip Foote,1
 Driftmark,1
 Star,1
 Fish,1
+Lord Selwyn the Evenstar,1
 Lady Wife,1
 Mullin,1
 Lyn Corbray,1
@@ -2028,25 +2119,30 @@ Ser Soldier,1
 Fever,1
 Lumpyhead,1
 Little Bee,1
-Harys Haigh,1
 Baelor Breakspear,1
-Raymar Royce,1
 Rose of Gold,1
 Gyles of Rosby,1
+Great Hall of Riverrun,1
+Master Kraznys,1
+Westeros the Lord Commander of the Kingsguard,1
+Ser Andrew Estermont,1
 Tyrell of Highgarden,1
 Guard,1
 Lord Jason,1
 Goat of Harrenhal,1
 Street of Steel,1
 Red Temple,1
+Ser Perwyn Frey,1
 Wensington,1
+Puff Fish of Highgarden,1
 Lord of Darkness,1
 Lord Estermont,1
 Serwyn of the Mirror Shield,1
 Tower of Ghosts,1
 Wailing Tower,1
 Fell,1
-Donnel the Constant,1
+Emmon Frey,1
+Lord Raymar Royce,1
 Warren,1
 Donyse,1
 Flowers of Spring,1
@@ -2059,10 +2155,13 @@ Lucas Roote,1
 Battle,1
 Balerion the Black Dread,1
 Roadside Rose,1
+Ser Lyonel Selmy of Harvest Hall,1
 Maester Frenken,1
 Lord Swann,1
 Euron,1
 She-Wolf,1
+Ser Harlan Grandison,1
+Wynton Stout,1
 Jinglebell Frey,1
 King of the Isles,1
 Selsye,1
@@ -2077,11 +2176,13 @@ Blue Worm,1
 Garlan the Galling,1
 Lord Dustin,1
 Wenda,1
-Daemon Sand,1
+Lady Mellario of Norvos,1
 Stormborn,1
+Ser Donnel the Constant,1
 Oznaks,1
 Hother Whoresbane,1
 Ser Raymund,1
+Lord Roose Bolton of the Dreadfort,1
 Queen Naerys,1
 Robert Stone,1
 Ser Myles,1
@@ -2096,11 +2197,15 @@ Jynessa,1
 Admiral of the Narrow Sea,1
 Oswyn Longneck the Thrice-Hanged,1
 Mallister of Seagard,1
+Ser Vardis Egen,1
 Love,1
 Brightwater,1
 Rosbys,1
+Alester Florent,1
 Dyah,1
 Mighty,1
+Lord Commander Ser Gerold Hightower,1
+Ser Helman Tallhart,1
 Ser Willas,1
 Sunset Sea,1
 Sumner,1
@@ -2110,11 +2215,14 @@ Knight of Tears,1
 Todder,1
 Pello of Tyrosh,1
 Tom of Sevenstreams,1
+Lord Jon Connington,1
 White Fawn,1
 Lord Cerwyn,1
 Bright,1
+White Bull of the Kingsguard,1
 Randa,1
 Owen Norrey,1
+Hubard Rambton,1
 Jaime Jaime Jaime,1
 Lady Walda,1
 Kyra,1
@@ -2133,7 +2241,6 @@ Tytos,1
 Dancy,1
 King Joff,1
 Lord Ambrose,1
-Roslin Frey,1
 Elys Westerling,1
 Palace of Dust,1
 Library Tower,1
@@ -2141,7 +2248,6 @@ Speaker,1
 Ashford Castle,1
 Daeron the Young Dragon,1
 Raventree,1
-Kyle Condon,1
 Brightwater Keep,1
 Lester,1
 Yi Ti,1
@@ -2156,10 +2262,13 @@ Master of the Drearfort,1
 Tormund Giantsbabe,1
 Handship,1
 Tarbeck Hall,1
+Red Keep Stannis Baratheon,1
 Three Whores,1
 Larra Blackmont,1
 Cleaver,1
 Lord Leyton,1
+Fat Flower of Highgarden,1
+Ser Arron Qorgyle,1
 Silverfist,1
 Uller,1
 Steffon,1
@@ -2167,15 +2276,18 @@ Old Wyk,1
 First Steward,1
 Vaes Tolorru,1
 Lord Gargalen,1
+Nine Free Cities,1
+Ser Aemon Rivers,1
 Winterfall,1
 False,1
 Aegon the Unnumbered,1
-Lady Mellario,1
+Ser Harys Haigh,1
 Doe,1
 Cradle,1
 Bulwer,1
 Usurper Robert Baratheon,1
 Ember,1
+Ser Bertram Beesbury,1
 Garlan the Gallant,1
 Ride,1
 Heart of Fire,1
@@ -2188,12 +2300,16 @@ Bessa the Barmaid,1
 Dornish Dilly,1
 Morros,1
 Rushing Falls,1
+Three Thousand of Qohor,1
+Jaehaerys the Conciliator,1
 Ebben,1
 Maester Erreck,1
 King Scab,1
 Lothston,1
+Booming Tower of Seagard,1
 Whiteye,1
-Bertram Beesbury,1
+Ser Pate,1
+Ser Raymun Darry,1
 Hundred Hearths,1
 Warden of the Southern Marches,1
 Waynwoods,1
@@ -2201,48 +2317,58 @@ Windwyrm,1
 Street of Silk,1
 Lady Varys,1
 King of Dragonstone,1
+Paxter Redwyne of the Arbor,1
 Queen Rhaella,1
 Sharp Point,1
 Lommy Greenhands,1
 Demon of Darry,1
 Cathterly Rock,1
-Maester Gerardys,1
 Lord R-Randyll,1
+Free City of Braavos,1
 Oberyn Nymeros Martell,1
 Master Cressen,1
 Karhold Starks,1
-Jeyne Swann,1
+Lord Edmure Tully,1
+Ser Raynald Westerling,1
 Perros,1
 Oakhearts,1
+Ser Daven Lannister,1
 Princess Rhaella,1
 Battle of the Trident,1
-Rodrik Flint,1
+Lord Robert Baratheon,1
 Daven,1
 Baelor Brightsmile,1
+Cotter Pyke of Eastwatch-by-the-Sea,1
 Allyria,1
+Ser Otto Hightower,1
 Ygrette,1
 Matthis Rowan,1
 Painted,1
 Submission of Sunspear,1
+Black Jack Bulwer,1
+Lady Jeyne Westerling,1
 Lord Buckler,1
 Rill,1
+Ser Wylis Manderly,1
+Danwell Frey,1
 Lister,1
 Boil,1
 Valyria the Smoking Sea,1
+Rhaegar Prince of Dragonstone,1
 Redforts,1
 Golden,1
 Donnelwood,1
 Blackshield,1
 Nymeros Martell,1
 Lord of Starfall,1
-Gwayne Gaunt,1
 Skagossons,1
 Queen of the Seven Kingdoms of Westeros,1
+Ser Aenys Frey,1
 Wyl the Whittler,1
 Tooth,1
 Mousedown Mill,1
 Harrion Karstark,1
-Jon Connington,1
+Ser Imry Florent,1
 Iggo,1
 First Keep,1
 Ser Osney,1
@@ -2263,6 +2389,7 @@ Lord Fell,1
 Grazdan the Great,1
 Garse Goodbrook,1
 Cask of Ale,1
+Vardis Egen,1
 Seven Gods,1
 Tobho Mott,1
 Ryles,1
@@ -2270,12 +2397,15 @@ Martell of Sunspear,1
 Lord Belgrave,1
 Woodswatch-by-the-Pool,1
 Fletcher,1
+Lord Tywin of the Rock,1
 Lances,1
 Jonos,1
 Tarly of Horn Hill,1
 Mero of Braavos,1
 Book,1
 Sawwood,1
+Sumner Crakehall,1
+Ser Sumner Crakehall,1
 Jothiel,1
 Forel,1
 Casterly,1
@@ -2283,28 +2413,36 @@ Maester Brenett,1
 Roose,1
 Pansy,1
 Bastard Walder,1
+Young Wolf Robb Stark,1
 King Baelor,1
 Companions,1
 Age of Heroes,1
 Penrose,1
 Morrigen,1
+Ser Gwayne Gaunt,1
+Gladden Wylde,1
 Lyanna Stark,1
+Oswald Kettleblack,1
 Lord Botley,1
+Gawen Westerling,1
 Soul of Ice,1
+Perwyn Frey,1
 Gage,1
 Lord Corbray,1
+Grand Maester Gerardys,1
 Little Matt,1
 Mad Prendos,1
+Red Alyn,1
 Ser Marq,1
-Steffon Baratheon,1
+Lord Rickard Stark,1
 Jared,1
 Tim Tangletongue,1
-Runcel Hightower,1
 Parmen,1
-Imry Florent,1
 Mors,1
 Mory,1
+Dagos Manwoody,1
 Hearteater,1
+Ser Davos Seaworth,1
 Greybeard,1
 Barrowton,1
 Maerie the Whore,1
@@ -2317,8 +2455,9 @@ Horn-Blower,1
 Traitor,1
 Maester Gormon,1
 Dilly,1
+Lady Jeyne Swann,1
+Little Lord Lazyeye,1
 Dornish Marches,1
-Aladale Wynch,1
 Mance Raydar,1
 Condon,0
 Pretenders,0
@@ -2412,6 +2551,7 @@ Serwyn,0
 Longthorn,0
 Sunset,0
 Howland,0
+Rankenfell,0
 Skirling,0
 Danny,0
 Garse,0
@@ -2758,4 +2898,4 @@ Wilbert,0
 Drearfort,0
 Protector,0
 
-2759
+2899
