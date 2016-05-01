@@ -39,7 +39,7 @@ public class FeastForCrowsFinder {
             "Point", "Lake", "Hills", "Straits", "Vale", "Wood", // geographics
             "City", "Cities", "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", "Castle", "Lane",
             "Bridge", "Sept", "Harbor", "Mill", // landmarks
-            "Just" // adjective titles
+            "Just", "Sweet" // adjective titles
 //            "Cruel", "Bold", "Brave", "Good", "Strong", "Bitter", "Sweet", "Bad", "Clever", "Cautious",
 //            "Wise", "Craven", "Poor", "Pretty", "Scared", "Homeless", "Hot", "Shy", "True", "Mad",
 //            "Queer", "Sour", "Cunning", "Hairy", "Broken", "Bloody", "Late", "Fair", // adjective titles
@@ -231,44 +231,18 @@ public class FeastForCrowsFinder {
         groups.combineGroups("Cersei", "Queen Regent");
         groups.combineGroups("Randyll", "Lord Tarly");
         groups.combineGroups("Mace", "Lord Tyrell");
-        groups.combineGroups("Stannis", "Lord of Dragonstone");
-        groups.combineGroups("Rickard Karstark", "Lord Karstark");
-        groups.combineGroups("Janos", "Lord Slynt");
         groups.combineGroups("Tyrion", "Imp");
-        groups.combineGroups("Hother", "Whoresbane");
         groups.combineGroups("Arya", "Arry", "Squab", "Cat");
-        groups.combineGroups("Aerys", "Mad King", "King Scab");
-        groups.combineGroups("Ben Plumm", "Brown Ben");
-        groups.combineGroups("Salladhor", "Salla");
+        groups.combineGroups("Aerys", "Mad King");
         groups.combineGroups("Paxter", "Lord Redwyne");
-        groups.combineGroups("Jonos", "Lord Bracken");
-        groups.combineGroups("Tytos Blackwood", "Lord Blackwood");
-        groups.combineGroups("Robb", "Young Wolf", "King of the Trident");
-        groups.combineGroups("Benjen", "Ben Stark");
+        groups.combineGroups("Robb", "Young Wolf");
         groups.combineGroups("Podrick", "Pod");
-        groups.combineGroups("Gerold", "White Bull");
         groups.combineGroups("Arthur", "Sword of the Morning");
-        groups.combineGroups("Cley Cerwyn", "Lord Cerwyn");
-        groups.combineGroups("Sansa Stark", "Lady Wife", "Lady of Winterfell");
         groups.combineGroups("Jaime Lannister", "Kingslayer");
-        groups.combineGroups("Maege Mormont", "Lady Mormont");
-        groups.combineGroups("Mathis Rowan", "Lord of Goldengrove", "Lord Rowan");
-        groups.combineGroups("Tremond Gargalen", "Lord Gargalen");
-        groups.combineGroups("Alester Florent", "Lord Florent");
-        groups.combineGroups("Jason Mallister", "Lord of Seagard", "Lord Mallister");
-        groups.combineGroups("Selwyn", "Lord of Evenfall");
         groups.combineGroups("Leyton Hightower", "Lord Hightower");
-        groups.combineGroups("Lymond Goodbrook", "Lord Goodbrook");
         groups.combineGroups("Hoster Tully", "Lord of Riverrun", "Lord Tully");
-        groups.combineGroups("Greatjon Umber", "Lord Umber");
-        groups.combineGroups("Alerie", "Lady Tyrell");
-        groups.combineGroups("Roslin Frey", "Lady Tully", "Roslin Tully");
-        groups.combineGroups("Dontos Hollard", "Ser Fool");
         groups.combineGroups("Olenna Tyrell", "Queen of Thorns");
-        groups.combineGroups("Oberyn Martell", "Red Viper");
-        groups.combineGroups("Pello", "Greenbeard");
         groups.combineGroups("Mance Rayder", "King-beyond-the-Wall");
-
         groups.combineGroups("Bonifer", "Baelor Butthole");
 
         groups.writeNameList("src/main/resources/data/characters/ffc-list-full.txt");
