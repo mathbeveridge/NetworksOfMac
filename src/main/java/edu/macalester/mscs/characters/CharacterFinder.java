@@ -475,7 +475,7 @@ public class CharacterFinder {
                 }
             }
         }
-        nondescriptors.addAll(surnames);
+        nondescriptors.addAll(places);
     }
 
     /**
