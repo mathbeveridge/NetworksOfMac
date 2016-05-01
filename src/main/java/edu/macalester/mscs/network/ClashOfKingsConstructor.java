@@ -14,8 +14,12 @@ public class ClashOfKingsConstructor extends MatrixConstructor {
 //		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 2, 1, "curated");
 //		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 2, 2, "intercap");
 
-    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-curated.txt";
-    public static final String TEXT_FILE_NAME = "src/main/resources/text/clashofkings-intercap.txt";
+//    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-curated.txt";
+//    public static final String TEXT_FILE_NAME = "src/main/resources/text/clashofkings-intercap.txt";
+
+    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-curated-hyphenated.csv";
+    public static final String TEXT_FILE_NAME = "src/main/resources/text/clashofkings-hyphenated-update.txt";
+
     public static final int BOOK_NUMBER = 2;
 
     /**
@@ -23,8 +27,8 @@ public class ClashOfKingsConstructor extends MatrixConstructor {
      * @param args
      */
     public static void main(String[] args) {
-        int fileNum = 2;
-        String fileDesc = "intercap";
+        int fileNum = 3;
+        String fileDesc = "hyphen";
 
         ClashOfKingsConstructor constructor = new ClashOfKingsConstructor(15, 4);
 

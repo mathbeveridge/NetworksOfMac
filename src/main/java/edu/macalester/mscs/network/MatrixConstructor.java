@@ -190,11 +190,13 @@ public class MatrixConstructor {
 		// write matrix CSV file
 		matrix.toMatrixCsvLog().writeLog(getFileName(logFolder, "mat", fileNumber, fileDescriptor, "csv"));
 
+		// write edge file
+		matrix.toEdgeListCsvLog().writeLog(getFileName(logFolder, "edge", fileNumber, fileDescriptor, "csv"));
+
         // write matrix JSON file
         matrix.toMatrixJsonLog(getOrderedCharacters()).writeLog(getFileName(logFolder, "mat", fileNumber, fileDescriptor, "json"));
 
-		// write edge file
-		matrix.toEdgeListCsvLog().writeLog(getFileName(logFolder, "edge", fileNumber, fileDescriptor, "csv"));
+
 	}
 
 	/**

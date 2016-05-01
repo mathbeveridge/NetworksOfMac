@@ -381,8 +381,8 @@ public class Matrix {
                 String name2 = orderedChars[j];
                 int name2index = ArrayUtils.indexOf(characters, name2);
 
-//                System.out.println(i + " name1=" + name1 + " and " + j + " name2=" + name2 +
-//                " are at " + name1index + " and " + name2index);
+               System.out.println(i + " name1=" + name1 + " and " + j + " name2=" + name2 +
+                " are at " + name1index + " and " + name2index);
 
                 newMatrix[i][j] = matrix[name1index][name2index];
                 newMatrix[j][i] = matrix[name1index][name2index];
