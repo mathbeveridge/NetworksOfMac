@@ -17,14 +17,14 @@ public class FeastForCrowsFinder {
             "Who", "Why", "What", "Will", "Was", // questions
             "House", "Houses", "Clan", "Lords", "Ladies", "Kings", "Dothraki", "Grace", "God", // GoT specific
             "Father", "Mother", "Uncle", "Aunt", "Brother", "Brothers", "Sons", "Daughter", "Cousin", // familial references
-            "Men", "Man" // miscellaneous
+            "Men", "Man", "All", "Storm", "Summer", "Merry", "Common" // miscellaneous
     ));
 
     // Words that are not unique, but may still be descriptive, expecially in combination
     public static final Set<String> TITLE_WORDS = new HashSet<>(Arrays.asList(
             "Lord", "Lady", "King", "Queen", "Regent", "Steward", "Prince", "Princess", "Triarch", // royal titles
             "Ser", "Maester", "Captain", "Commander", "Magister", "Master", "Builder", "Knight",
-            "Septon", "Septa", "Shipwright", "Goodwife", "Ranger", "Squire", "Admiral", // professional titles
+            "Septon", "Septa", "Shipwright", "Goodwife", "Ranger", "Squire", "Admiral", "Archmaester", // professional titles
             "Khal", "Ko" // dothraki titles
     ));
 
@@ -34,17 +34,14 @@ public class FeastForCrowsFinder {
             "Young", "Old", "Fat", "Big", "Little", "Small", "Bastard", "Boy", "Deaf", "Blind", "Hero", // endearing titles
             "High", "Great", "Grand", "First", "Second", "Third", // superlatives
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
-            "Black", "Red", "Green", "Blue", "White", "Grey", "Brown", "Yellow", "Silver", // colors
+            "Black", "Red", "Green", "Blue", "White", "Grey", "Brown", "Yellow", "Silver", "Golden", // colors
             "Land", "Lands", "Sea", "Seas", "Island", "Islands", "Isle", "Isles", "Bay", "River", "Shore",
             "Point", "Lake", "Hills", "Straits", "Vale", "Wood", // geographics
             "City", "Cities", "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", "Castle", "Lane",
             "Bridge", "Sept", "Harbor", "Mill", // landmarks
-            "Just" // adjective titles
-//            "Cruel", "Bold", "Brave", "Good", "Strong", "Bitter", "Sweet", "Bad", "Clever", "Cautious",
-//            "Wise", "Craven", "Poor", "Pretty", "Scared", "Homeless", "Hot", "Shy", "True", "Mad",
-//            "Queer", "Sour", "Cunning", "Hairy", "Broken", "Bloody", "Late", "Fair", // adjective titles
-//            "Conqueror", "Wolf", "Fool", "Iron", "Worm", "Bull", "Kingswood", "Sword", "Nymeros", "Wife",
-//            "Bar", "Dornish", "Dornishman", "Spare" // miscellaneous
+            "Just", "Sweet", "Brave", "Bold", "Scared", "Poor", "Blessed", "Mad", "Unworthy", "Good", "Long",
+            "Tall", "Faithful", // adjective titles
+            "Spotted", "Iron", "Bloody", "Belly" // miscellaneous
     ));
 
     // Words that are sometimes placed between first and last names
@@ -57,11 +54,24 @@ public class FeastForCrowsFinder {
         finder.countCapitalized(FileUtils.readFile("src/main/resources/text/feastforcrows.txt"));
         // fix a few mistakes
         finder.incrementWord("Jeor Mormont", 0);
+        finder.removeWords("Winterfell Tommen"); // mistake
+        finder.removeWords("Arya the Lannisters"); // mistake
+        finder.removeWords("Ser Hyle of Podrick"); // mistake
+        finder.removeWords("Lord Nestor the Gates of the Moon"); // mistake
+        finder.removeWords("Randyll Tarly the Hand of the King"); // mistake
         finder.removeWords("Petyr Pimple"); // unused
+        finder.removeWords("Strong Sam Stone"); // unused
+        finder.removeWords("Brynden Rivers"); // unused
+        finder.removeWords("Rodrik Freeborn"); // unused
+        finder.removeWords("Harys Haigh"); // unused
+        finder.removeWords("Harry Sawyer"); // unused
+        finder.removeWords("The Loves of Queen Nymeria"); // a book
 
         finder.printCounter().writeLog("src/main/resources/data/characters/ffc-counter.csv");
 
         // manually add important names that get missed
+        finder.addNames("Baelor the Blessed");
+
         finder.addNames("Mance Rayder");
         finder.addNames("Hodor");
         finder.addNames("Ygritte");
@@ -126,7 +136,6 @@ public class FeastForCrowsFinder {
         finder.addNames("Mycah");
         finder.addNames("Dalla");
         finder.addNames("Mero");
-        finder.addNames("Baelor the Blessed");
         finder.addNames("Raff");
         finder.addNames("Kegs");
         finder.addNames("Dirk");
@@ -165,25 +174,40 @@ public class FeastForCrowsFinder {
         finder.addNames("Kyra");
 
         // other additions
-//        finder.addSurnames("Cerwyn");
-//        finder.addSurnames("Merryweather");
-//        finder.addSurnames("Mooton");
-//        finder.addSurnames("Bulwer");
-//        finder.addSurnames("Roote");
-//        finder.addSurnames("Blackfyre");
+        finder.addSurnames("Stokeworth");
 
-//        finder.addPlaces("Casterly");
-//        finder.addPlaces("Tarth");
-//        finder.addPlaces("Hedge");
+        finder.addPlaces("Casterly");
+        finder.addPlaces("Myr");
 
         finder.addNondescriptors("Jon");
         finder.addNondescriptors("Robert");
+        finder.addNondescriptors("Balon");
         finder.addNondescriptors("Aemon");
+        finder.addNondescriptors("Baelor");
+        finder.addNondescriptors("Gyles");
+        finder.addNondescriptors("Walder");
+        finder.addNondescriptors("Ralf");
+        finder.addNondescriptors("Quellon");
 
         // gather names, titles, places, and things
         finder.processCapitalized();
 
         // manually remove a few names that are either mistakes, duplicates, or unused
+        finder.removeNames("Littlefinger");     // as Petyr Baelish
+        finder.removeNames("Maid Margaery");    // as Margaery Tyrell
+        finder.removeNames("Balon Twice-Crowned");  // as Balon Greyjoy
+        finder.removeNames("Aemon Battleborn"); // as Maester Aemon
+        finder.removeNames("Aemon Steelsong");  // as Maester Aemon
+        finder.removeNames("Baelor Butthole");  // as Bonifer Hasty
+        finder.removeNames("Euron Crow");       // as Euron Greyjoy
+        finder.removeNames("Lysa Tully");       // as Lysa Arryn
+        finder.removeNames("Beloved Baelor");   // as Baelor the Blessed
+        finder.removeNames("Bronze Yohn");      // as Yohn Royce
+        finder.removeNames("Catelyn Tully");    // as Catelyn Stark
+        finder.removeNames("Ned Stark");        // as Eddard Stark
+
+        finder.removeNames("Protector");        // mistake
+        finder.removeNames("Horn Hill");        // mistake
 
         finder.removeNondescriptors("Tywin");
 
@@ -201,22 +225,31 @@ public class FeastForCrowsFinder {
         // add back problematic names as necessary
         groups.addAliasToGroup("Jon Snow", "Jon", finder.getCount("Jon"));
         groups.addAliasToGroup("Robert Baratheon", "Robert", finder.getCount("Robert"));
+        groups.addAliasToGroup("Balon Greyjoy", "Balon", finder.getCount("Balon"));
         groups.addAliasToGroup("Aemon Targaryen", "Aemon", finder.getCount("Aemon"));
+        groups.addAliasToGroup("Baelor the Blessed", "Baelor", finder.getCount("Baelor"));
+        groups.addAliasToGroup("Gyles Rosby", "Gyles", finder.getCount("Gyles"));
+        groups.addAliasToGroup("Black Walder", "Walder", finder.getCount("Walder"));
 
         // manually combine more character groups
         groups.combineGroups("Jon Snow", "Lord Snow");
         groups.combineGroups("Jon Connington", "Lord Jon");
         groups.combineGroups("Jon Arryn", "Lord Arryn", "Lord Jon");
         groups.combineGroups("Robert Baratheon", "King Robert");
-        groups.combineGroups("Robert Arryn", "Lord Robert", "Lord of the Eyrie");
+        groups.combineGroups("Robert Arryn", "Lord Robert", "Lord of the Eyrie", "Sweetrobin");
+        groups.combineGroups("Balon Greyjoy", "King Balon", "Lord Balon", "Balon the Blessed", "Balon the Brave", "Balon Twice-Crowned", "Balon the Widowmaker", "Balon the Bold");
+        groups.combineGroups("Balon Swann", "Ser Balon");
         groups.combineGroups("Maester Aemon", "Aemon Targaryen", "Aemon Battleborn", "Aemon Steelsong");
         groups.combineGroups("Aemon the Dragonknight", "Prince Aemon");
+        groups.combineGroups("Baelor the Blessed", "King Baelor the Blessed", "Blessed Baelor", "Beloved Baelor", "King Baelor");
+        groups.combineGroups("Gyles Rosby", "Lord Gyles");
+        groups.combineGroups("Walder Frey", "Lord Walder", "Lord of the Crossing", "Lord Frey");
+        groups.combineGroups("Ralf Stonehouse", "Red Ralf Stonehouse", "Red Ralf");
+        groups.combineGroups("Ralf the Limper", "Ralf the Limp");
+        groups.combineGroups("Quellon Greyjoy", "Lord Quellon");
+
         groups.combineGroups("Samwell Tarly", "Sam");
         groups.combineGroups("Petyr Baelish", "Littlefinger");
-        groups.combineGroups("Walder Frey", "Lord Walder", "Lord of the Crossing", "Lord Frey");
-        groups.combineGroups("Balon Greyjoy", "King Balon", "Lord Balon");
-        groups.combineGroups("Balon Swann", "Ser Balon");
-        groups.combineGroups("Baelor the Blessed", "King Baelor");
         groups.combineGroups("Tytos Lannister", "Lord Tytos");
         groups.combineGroups("Eddard", "Ned");
         groups.combineGroups("Catelyn", "Lady Stark");
@@ -231,48 +264,25 @@ public class FeastForCrowsFinder {
         groups.combineGroups("Cersei", "Queen Regent");
         groups.combineGroups("Randyll", "Lord Tarly");
         groups.combineGroups("Mace", "Lord Tyrell");
-        groups.combineGroups("Stannis", "Lord of Dragonstone");
-        groups.combineGroups("Rickard Karstark", "Lord Karstark");
-        groups.combineGroups("Janos", "Lord Slynt");
         groups.combineGroups("Tyrion", "Imp");
-        groups.combineGroups("Hother", "Whoresbane");
         groups.combineGroups("Arya", "Arry", "Squab", "Cat");
-        groups.combineGroups("Aerys", "Mad King", "King Scab");
-        groups.combineGroups("Ben Plumm", "Brown Ben");
-        groups.combineGroups("Salladhor", "Salla");
+        groups.combineGroups("Aerys", "Mad King");
         groups.combineGroups("Paxter", "Lord Redwyne");
-        groups.combineGroups("Jonos", "Lord Bracken");
-        groups.combineGroups("Tytos Blackwood", "Lord Blackwood");
-        groups.combineGroups("Robb", "Young Wolf", "King of the Trident");
-        groups.combineGroups("Benjen", "Ben Stark");
+        groups.combineGroups("Robb", "Young Wolf");
         groups.combineGroups("Podrick", "Pod");
-        groups.combineGroups("Gerold", "White Bull");
         groups.combineGroups("Arthur", "Sword of the Morning");
-        groups.combineGroups("Cley Cerwyn", "Lord Cerwyn");
-        groups.combineGroups("Sansa Stark", "Lady Wife", "Lady of Winterfell");
         groups.combineGroups("Jaime Lannister", "Kingslayer");
-        groups.combineGroups("Maege Mormont", "Lady Mormont");
-        groups.combineGroups("Mathis Rowan", "Lord of Goldengrove", "Lord Rowan");
-        groups.combineGroups("Tremond Gargalen", "Lord Gargalen");
-        groups.combineGroups("Alester Florent", "Lord Florent");
-        groups.combineGroups("Jason Mallister", "Lord of Seagard", "Lord Mallister");
-        groups.combineGroups("Selwyn", "Lord of Evenfall");
         groups.combineGroups("Leyton Hightower", "Lord Hightower");
-        groups.combineGroups("Lymond Goodbrook", "Lord Goodbrook");
         groups.combineGroups("Hoster Tully", "Lord of Riverrun", "Lord Tully");
-        groups.combineGroups("Greatjon Umber", "Lord Umber");
-        groups.combineGroups("Alerie", "Lady Tyrell");
-        groups.combineGroups("Roslin Frey", "Lady Tully", "Roslin Tully");
-        groups.combineGroups("Dontos Hollard", "Ser Fool");
         groups.combineGroups("Olenna Tyrell", "Queen of Thorns");
-        groups.combineGroups("Oberyn Martell", "Red Viper");
-        groups.combineGroups("Pello", "Greenbeard");
         groups.combineGroups("Mance Rayder", "King-beyond-the-Wall");
-
         groups.combineGroups("Bonifer", "Baelor Butthole");
+        groups.combineGroups("Nym", "Nymeria");
+        groups.combineGroups("Harry", "Harrold Hardyng");
 
         groups.writeNameList("src/main/resources/data/characters/ffc-list-full.txt");
         groups.writeNameList(finder.getNames(), true, 4, "src/main/resources/data/characters/ffc-list-clean.txt");
+        groups.writeNameList(finder.getNames(), false, 4, "src/main/resources/data/characters/ffc-list-clean-redundant.txt");
 
     }
 }

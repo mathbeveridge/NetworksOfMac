@@ -229,6 +229,7 @@ public class ClashOfKingsFinder {
         groups.combineGroups("Gerold", "White Bull");
 
         groups.writeNameList("src/main/resources/data/characters/cok-list-full.txt");
+        groups.writeNameList(finder.getNames(), true, 4, "src/main/resources/data/characters/cok-list-clean.txt");
         groups.writeNameList(finder.getNames(), false, 4, "src/main/resources/data/characters/cok-list-clean-redundant.txt");
 
     }

@@ -346,6 +346,7 @@ public class StormOfSwordsFinder {
 
         groups.writeNameList("src/main/resources/data/characters/sos-list-full.txt");
         groups.writeNameList(finder.getNames(), true, 4, "src/main/resources/data/characters/sos-list-clean.txt");
+        groups.writeNameList(finder.getNames(), false, 4, "src/main/resources/data/characters/sos-list-clean-redundant.txt");
 
     }
 }
