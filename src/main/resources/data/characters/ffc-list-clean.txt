@@ -51,7 +51,6 @@ Gyles Rosby,Gyles
 Mya Stone,Mya
 Doran Martell,Doran
 Rodrik Harlaw,Rodrik,Reader
-Drowned Town,Drowned
 Mace Tyrell,Mace,Lord Tyrell
 Nimble Dick,Nimble
 Randyll Tarly,Lord Tarly,Randyll
@@ -114,13 +113,13 @@ Gorold Goodbrother,Gorold
 Sylva Santagar,Sylva
 Marillion,Marillion
 Megga Tyrell,Megga
+Tallad,Tallad,Trees,Tall
 Amerei,Amerei
 Horton Redfort,Redfort,Horton
 Paxter Redwyne,Lord Redwyne,Paxter
 Craster,Craster
 Bonifer Hasty,Bonifer,Butthole
 Caleotte,Caleotte
-Hewett,Hewett
 Alla Tyrell,Alla
 Narbert,Narbert
 Ronnet Connington,Ronnet
@@ -128,16 +127,12 @@ Kojja Mo,Kojja
 Hoster Tully,Hoster,Lord of Riverrun,Lord Tully
 Balon Swann,Swann,Ser Balon
 Lucas Codd,Left-Hand,Lucas
-Tallad,Tallad
 Raynard Ruttiger,Ruttiger,Raynard
 Tris Botley,Tris
 Yorko Terys,Yorko
-Garlan,Garlan,Gallant
 Gerold Dayne,Gerold
 Theon Greyjoy,Theon,Turncloak
 Dermot,Dermot
-Denys Arryn,Denys
-Happy Port,Happy
 Jalabhar Xho,Jalabhar,Xho
 Stoneheart,Stoneheart
 Forley Prester,Forley
@@ -149,15 +144,14 @@ Raff,Sweetling,Raff
 Roose Bolton,Roose,Lord of the Dreadfort,Lord Bolton
 Tanda Stokeworth,Tanda
 Mance Rayder,Mance,King-beyond-the-Wall,Rayder
+Garlan,Garlan
 Merlyn,Merlyn
 Thoros,Thoros
 Mariya,Mariya
 Jaqen,Jaqen
-Robin Hollard,Hanged,Potter,Robin
 Quellon Greyjoy,Lord Quellon,Quellon Greyjoy
 Nan,Nan
 Dalla,Dalla
-Robin Ryger,Hanged,Potter,Robin
 Bran Stark,Bran
 Edd Tollett,Edd,Dolorous
 Walder Rivers,Walder Rivers
@@ -165,37 +159,29 @@ Syrio Forel,Syrio,Forel
 Jaehaerys,Jaehaerys,Conciliator
 Jeor Mormont,Mormont,Bear
 Leyton Hightower,Leyton,Lord Hightower
+Lewys Piper,Lewys,Lew
 Trystane,Trystane
 Grenn,Grenn
+Lew Piper,Lewys,Lew
 Gormond Goodbrother,Oldfather,Gormond
-Seneschal,Seneschal
 Arthur Dayne,Sword of the Morning,Arthur
 Aemon the Dragonknight,Dragonknight,Prince Aemon
 Kennos,Kennos
 Goodwin,Goodwin
 Criston Cole,Cole,Kingmaker,Criston
-Alyn Connington,Stackspear,Alyn
-Ben Beesbury,Blackthumb,Mouth,Bushy,Ben
-Alyn Ambrose,Stackspear,Alyn
 Sybell Spicer,Sybell,Spicer
 Lyle Crakehall,Lyle
-Lucamore Strong,Lucamore,Lusty
-Florian,Fool,Florian,Perfect
-Lew Piper,Lew
 Willas Tyrell,Willas
-Humfrey Wagstaff,Wagstaff,Humfrey
 Melisandre,Melisandre
-Humfrey Swyft,Wagstaff,Humfrey
+Denys Arryn,Denys
 Torbert,Torbert
 Tristifer Botley,Tristifer
 Barristan,Barristan
 Cleos Frey,Cleos
 Terrance Lynderly,Terrance,Lynderly
 Rorge,Rorge
-Tytos Blackwood,Tytos
 Anya Waynwood,Anya
-Tytos Lannister,Tytos
-Humfrey Waters,Wagstaff,Humfrey
+Lucamore Strong,Lucamore
 Harras Harlaw,Harras
 Greybeard Grandison,Grandison,Greybeard
 Baelor Blacktyde,Baelor Blacktyde
@@ -208,39 +194,31 @@ Ebrose,Ebrose
 Ellaria Sand,Ellaria
 Daenerys Targaryen,Daenerys
 Wylis Manderly,Wylis
-Owen Merryweather,Owen
-Vinegar Vaellyn,Vaellyn,Vinegar
 Alysanne Bulwer,Alysanne
-Owen,Owen
 Clydas,Clydas
 Daemon Sand,Daemon
 Merrett Frey,Merrett
 Ralf Stonehouse,Red Ralf Stonehouse,Red Ralf,Ralf Stonehouse
 Val,Val
 Quhuru Mo,Quhuru
-Tom Sevenstrings,Tom,Costayne
+Vaellyn,Vaellyn,Vinegar
 Lewyn Martell,Lewyn
 Alannys Harlaw,Alannys
-Owen Inchfield,Owen
 Lem,Lem
 Harwyn Plumm,Harwyn
 Sigfryd Harlaw,Sigfryd,Silverhair
 Amory Lorch,Amory
 Elys Waynwood,Elys
 Tyrek Lannister,Tyrek
-Toland,Toland,Ghost
 Quellon Humble,Quellon Humble
 Gyles Grafton,Grafton
 Glover,Glover
 Masha Heddle,Masha
 Ronnel Arryn,Ronnel
-Rykker,Rykker
 Raynald Westerling,Raynald
 Terrence Toyne,Terrence
 Dick Crabb,Dick Crabb
 Roslin Frey,Roslin
-Planky Town,Planky
-Ghost Hill,Toland,Ghost
 Rickon,Rickon
 Shae,Shae
 Gawen Westerling,Gawen
@@ -260,6 +238,7 @@ Daeron,Daeron
 Tickler,Tickler
 Donnel,Donnel
 Dagon Greyjoy,Dagon
+Tom Sevenstrings,Tom
 Unella,Unella
 Ryam Redwyne,Ryam
 Sawane Botley,Sawane
