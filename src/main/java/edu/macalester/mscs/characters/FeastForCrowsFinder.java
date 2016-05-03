@@ -12,6 +12,7 @@ import java.util.Set;
 public class FeastForCrowsFinder {
 
     public static final Set<String> IGNORED_WORDS = new HashSet<>(Arrays.asList(
+            "The",
             "My", "She", "He", "His", "Her", "We", "They", "Their", "You", "Your", "It", // pronouns
             "This", "That", "There", // indirect pronouns
             "Who", "Why", "What", "Will", "Was", // questions
@@ -30,7 +31,6 @@ public class FeastForCrowsFinder {
 
     // Words that are not unique, but may still be descriptive, expecially in combination
     public static final Set<String> GENERAL_WORDS = new HashSet<>(Arrays.asList(
-            "The", // titular articles
             "Young", "Old", "Fat", "Big", "Little", "Small", "Bastard", "Boy", "Deaf", "Blind", "Hero", // endearing titles
             "High", "Great", "Grand", "First", "Second", "Third", // superlatives
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
@@ -40,7 +40,7 @@ public class FeastForCrowsFinder {
             "City", "Cities", "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", "Castle", "Lane",
             "Bridge", "Sept", "Harbor", "Mill", "Port", "Town", // landmarks
             "Just", "Sweet", "Brave", "Bold", "Scared", "Poor", "Blessed", "Mad", "Unworthy", "Good", "Long",
-            "Faithful", "Gallant", "Lusty", // adjective titles
+            "Faithful", "Gallant", "Lusty", "Cruel", // adjective titles
             "Spotted", "Iron", "Bloody", "Belly", "Fool", "Ghost" // miscellaneous
     ));
 
@@ -67,7 +67,8 @@ public class FeastForCrowsFinder {
         finder.removeWords("Harry Sawyer"); // unused
         finder.removeWords("Tytos Lannister"); // unused
         finder.removeWords("Long Tom Costayne"); // unused
-        finder.removeWords("The Loves of Queen Nymeria"); // a book
+        finder.removeWords("Ser Rodrik"); // unused
+        finder.removeWords("Loves of Queen Nymeria"); // a book
         finder.removeWords("Hand Lew"); // a book
 
         finder.printCounter().writeLog("src/main/resources/data/characters/ffc-counter.csv");
@@ -218,7 +219,8 @@ public class FeastForCrowsFinder {
         finder.removeNames("Bronze Yohn");      // as Yohn Royce
         finder.removeNames("Catelyn Tully");    // as Catelyn Stark
         finder.removeNames("Ned Stark");        // as Eddard Stark
-        finder.removeNames("Vinegar Vaellyn");        // as Eddard Stark
+        finder.removeNames("Vinegar Vaellyn");  // as Vaellyn
+        finder.removeNames("Sweetrobin");       // as Robert Arryn
 
         finder.removeNames("Protector");        // unused
         finder.removeNames("Seneschal");        // unused
@@ -260,7 +262,7 @@ public class FeastForCrowsFinder {
         groups.combineGroups("Baelor the Blessed", "King Baelor the Blessed", "Blessed Baelor", "Beloved Baelor", "King Baelor");
         groups.combineGroups("Gyles Rosby", "Lord Gyles");
         groups.combineGroups("Walder Frey", "Lord Walder", "Lord of the Crossing", "Lord Frey");
-        groups.combineGroups("Ralf Stonehouse", "Red Ralf Stonehouse", "Red Ralf");
+        groups.combineGroups("Red Ralf Stonehouse", "Red Ralf");
         groups.combineGroups("Ralf the Limper", "Ralf the Limp");
         groups.combineGroups("Quellon Greyjoy", "Lord Quellon");
         groups.combineGroups("Denys Arryn", "Ser Denys", "Ser Denys Arryn");
@@ -273,7 +275,7 @@ public class FeastForCrowsFinder {
         groups.combineGroups("Catelyn", "Lady Stark");
         groups.combineGroups("Joffrey", "Joff");
         groups.combineGroups("Sandor", "Hound");
-        groups.combineGroups("Jeor Mormont", "Old Bear", "Commander Mormont", "Lord Mormont");
+        groups.combineGroups("Jeor Mormont", "Old Bear", "Lord Commander Mormont", "Lord Mormont");
         groups.combineGroups("Tywin", "Lord of Casterly Rock");
         groups.combineGroups("Roose", "Lord of the Dreadfort", "Lord Bolton");
         groups.combineGroups("Loras", "Knight of Flowers");

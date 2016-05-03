@@ -136,7 +136,7 @@ public class CharacterFinder {
             // find capitals that don't start sentences
             for (int i = 0; i < parts.size(); i++) {
                 String part = parts.get(i);
-                if (i > 0 && !WordUtils.precedesSentenceStart(parts.get(i - 1), punctuation)) {
+                if (i > 0 && (isGeneralWord(part) || !WordUtils.precedesSentenceStart(parts.get(i - 1), punctuation))) {
                     if (WordUtils.isCapitalized(part) && !isIgnoredWord(part)) {
                         if (!isGeneralWord(part)) {
                             incrementWord(part, 0);
