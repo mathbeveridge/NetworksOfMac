@@ -149,7 +149,9 @@ public class CharacterFinder {
                         toAdd = phrase.toString();
                     } else {
                         if (phrase != null) {
-                            if (part.equals(" ") || part.equals("of") || part.equals("the") || fillerWords.contains(part)) {
+                            // ignore phrases that start with "One of"
+                            if ((part.equals(" ") || part.equals("of") || part.equals("the") || fillerWords.contains(part))
+                                    && !(part.equals("of") && (phrase.toString().equals("One ") || phrase.toString().equals("Two ")))) {
                                 phrase.append(part);
                             } else {
                                 if (!isGeneralWord(toAdd)) {

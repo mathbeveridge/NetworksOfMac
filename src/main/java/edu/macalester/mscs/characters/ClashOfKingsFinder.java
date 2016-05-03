@@ -12,6 +12,7 @@ import java.util.Set;
 public class ClashOfKingsFinder {
 
     public static final Set<String> IGNORED_WORDS = new HashSet<>(Arrays.asList(
+            "The",
             "My", "He", "His", "Her", "We", "Their", "You", "Your", "It", // pronouns
             "This", "That", "There", // indirect pronouns
             "Who", "Why", "What", // questions
@@ -30,7 +31,6 @@ public class ClashOfKingsFinder {
 
     // Words that are not unique, but may still be descriptive, expecially in combination
     public static final Set<String> GENERAL_WORDS = new HashSet<>(Arrays.asList(
-            "The", // titular articles
             "Young", "Old", "Fat", "Big", "Little", "Bastard", "Boy", // endearing titles
             "High", "Great", "Grand", "First", "Second", // superlatives
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
@@ -152,6 +152,7 @@ public class ClashOfKingsFinder {
         finder.removeNames("Aerys Oakheart"); // unused
         finder.removeNames("Bleeding Star");  // ???
 
+        finder.removeNondescriptors("Mountain");
         finder.removeNondescriptors("Bywater");
 
         System.out.println(finder.getTitledNames());
@@ -178,7 +179,7 @@ public class ClashOfKingsFinder {
         groups.combineGroups("Bran", "Brandon Stark");
         groups.combineGroups("Robert Baratheon", "King Robert", "Robert the Usurper");
         groups.combineGroups("Robert Arryn", "Lord Robert", "Lord Robert of the Eyrie");
-        groups.combineGroups("Petyr Baelish", "Littlefinger", "Lord Petyr");
+        groups.combineGroups("Petyr Baelish", "Littlefinger", "Lord Petyr", "Lord Baelish");
         groups.combineGroups("Balon Greyjoy", "Lord Greyjoy", "Lord of the Iron Islands", "Reaper", "King Balon", "Lord Balon");
         groups.combineGroups("Balon Swann", "Ser Balon", "Ser Balon Swann");
         groups.combineGroups("Walder Frey", "Lord Frey", "Lord of the Crossing", "Lord Walder", "Lord Walder Frey");

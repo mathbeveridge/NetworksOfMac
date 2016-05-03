@@ -12,6 +12,7 @@ import java.util.Set;
 public class DanceWithDragonsFinder {
 
     public static final Set<String> IGNORED_WORDS = new HashSet<>(Arrays.asList(
+            "The",
             "My", "She", "He", "His", "Her", "We", "They", "Their", "You", "Your", "It", // pronouns
             "This", "That", "There", // indirect pronouns
             "Who", "Why", "What", "Will", // questions
@@ -32,7 +33,6 @@ public class DanceWithDragonsFinder {
 
     // Words that are not unique, but may still be descriptive, expecially in combination
     public static final Set<String> GENERAL_WORDS = new HashSet<>(Arrays.asList(
-            "The", // titular articles
             "Young", "Old", "Fat", "Big", "Little", "Small", "Bastard", "Boy", "Deaf", "Blind", "Hero", // endearing titles
             "High", "Great", "Grand", "First", "Second", // superlatives
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
@@ -45,7 +45,7 @@ public class DanceWithDragonsFinder {
             "Wise", "Craven", "Poor", "Pretty", "Scared", "Homeless", "Hot", "Shy", "True", "Mad", "Blessed",
             "Queer", "Sour", "Cunning", "Hairy", // adjective titles
             "Bear", "Iron", "Beggar", "Whore", "Wench", "Grandfather", "Water", "Crow", "Wolf", "Shepherd",
-            "Dance", "Butcher", "Grass", "Belly", "Stalwart" // miscellaneous
+            "Dance", "Butcher", "Grass", "Belly", "Stalwart", "Beasts", "Cunt", "Pig" // miscellaneous
     ));
 
     // Words that are sometimes placed between first and last names
@@ -276,7 +276,7 @@ public class DanceWithDragonsFinder {
         groups.combineGroups("Joffrey", "Joff");
         groups.combineGroups("Samwell", "Sam");
         groups.combineGroups("Sandor", "Hound");
-        groups.combineGroups("Jeor Mormont", "Old Bear", "Commander Mormont", "Lord Mormont");
+        groups.combineGroups("Jeor Mormont", "Old Bear", "Lord Commander Mormont", "Lord Mormont");
         groups.combineGroups("Pycelle", "Grand Maester");
         groups.combineGroups("Lysa", "Lady Arryn", "Lady of the Eyrie");
         groups.combineGroups("Tywin", "Lord of Casterly Rock", "Lord Lannister");
@@ -287,7 +287,7 @@ public class DanceWithDragonsFinder {
         groups.combineGroups("Theon", "Reek");
         groups.combineGroups("Cersei", "Queen Regent", "Queen Dowager");
         groups.combineGroups("Rattleshirt", "Lord of Bones");
-        groups.combineGroups("Wyman", "Lord of White Harbor", "Lord Lard", "Lord Manderly");
+        groups.combineGroups("Wyman", "Lord of White Harbor", "Lord Lard", "Lord Manderly", "Lord Pig");
         groups.combineGroups("Randyll", "Lord Tarly");
         groups.combineGroups("Mace", "Lord Tyrell");
         groups.combineGroups("Stannis", "Lord of Dragonstone");
