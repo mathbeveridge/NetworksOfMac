@@ -914,6 +914,7 @@ Moon Tower,Moon Tower
 Pyromancer,Pyromancer
 Artys,Ser Artys Arryn,Artys Arryn,Artys
 Shetts,Shetts
+Halfhand,Halfhand
 Stackspear,Alyn Stackspear,Stackspear
 Erryk,Ser Erryk,Erryk
 Wendish,Wendish Town,Wendish
@@ -961,7 +962,6 @@ Swiftfin,Swiftfin
 Grimston,Grimston
 Lady Hayford,Lady Hayford
 Cressen,Cressen
-Saan,Salladhor Saan,Saan
 Daena,Daena
 Lord of Winterfell,Lord of Winterfell
 Robin Hollard,Robin Hollard
@@ -1015,7 +1015,6 @@ Dragonkin,Dragonkin
 Joseran,Maester Joseran,Joseran
 Denestan,Maester Denestan,Denestan
 Apotheosis,Apotheosis
-Halfhand,Qhorin Halfhand,Halfhand
 Loreza,Loreza
 Whitewalls,Whitewalls
 Bellonara,Bellonara
@@ -1043,6 +1042,7 @@ Myrish-born,Myrish-born
 Chicken,Knight of the Red Chicken,Chicken
 Conclave,Conclave
 King of the Andals,King of the Andals
+Saan,Saan
 Farmer,Farmer
 Gull,Old Grey Gull,Gull
 Spike,Crow Spike Keep,Spike
@@ -1298,67 +1298,11 @@ Roggo,Red Roggo,Roggo
 Ser Walder Rivers,Ser Walder Rivers
 Seastrider,Seastrider
 Jon Heddle,Jon Heddle
-Ryk,Ryk
-Patchface,Patchface
-Bowen Marsh,Bowen Marsh
-Greenbeard,Greenbeard
-Utherydes Wayn,Utherydes Wayn
-Porridge,Porridge
-Lark,Lark
-Tansy,Tansy
-Notch,Notch
-Jhiqui,Jhiqui
-Rakharo,Rakharo
-Rhaegal,Rhaegal
-Jarl,Jarl
-Bannen,Bannen
-Viserion,Viserion
-Pyat Pree,Pyat Pree
-Harma,Harma
-Emmett,Emmett
-Walton,Walton
-Weeper,Weeper
-Othell Yarwyck,Othell Yarwyck
-Aggo,Aggo
-Rattleshirt,Rattleshirt
-Gendel,Gendel
-Jhogo,Jhogo
-Rossart,Rossart
-Missandei,Missandei
 Canker,Canker
-Shagga,Shagga
-Arstan,Arstan
-Timett,Timett
-Belwas,Belwas
-Tormund,Tormund
 Loves,Loves
-Daario,Daario
 Poole,Poole
-Dirk,Dirk
 Freeborn,Freeborn
-Tysha,Tysha
-Dywen,Dywen
-Styr,Styr
-Farlen,Farlen
 Oldfather,Oldfather
-Jack-Be-Lucky,Jack-Be-Lucky
-Kegs,Kegs
-Mycah,Mycah
 Sawyer,Sawyer
 Hugh Beesbury,Hugh Beesbury
-Karl,Karl
 Pimple,Pimple
-Orell,Orell
-Grey Worm,Grey Worm
-Butterbumps,Butterbumps
-Satin,Satin
-Mero,Mero
-Varamyr,Varamyr
-Kyra,Kyra
-Xaro Xhoan Daxos,Xaro Xhoan Daxos
-Ygritte,Ygritte
-Mikken,Mikken
-Irri,Irri
-Mully,Mully
-Errok,Errok
-Chett,Chett
