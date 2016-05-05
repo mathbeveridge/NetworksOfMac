@@ -12,6 +12,7 @@ import java.util.Set;
 public class GameOfThronesFinder {
 
     public static final Set<String> IGNORED_WORDS = new HashSet<>(Arrays.asList(
+            "The",
             "My", "He", "His", "We", "Their", "Your", // pronouns  (It???)
             "This", "That", "There", // indirect pronouns
             "Who", "Why", // questions
@@ -30,7 +31,6 @@ public class GameOfThronesFinder {
 
     // Words that are not unique, but may still be descriptive, expecially in combination
     public static final Set<String> GENERAL_WORDS = new HashSet<>(Arrays.asList(
-            "The", // titular articles
             "Young", "Old", "Fat", // endearing titles
             "High", "Great", "Grand", "First", "Second", // superlatives
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers

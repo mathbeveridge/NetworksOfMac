@@ -136,7 +136,7 @@ public class CharacterFinder {
             // find capitals that don't start sentences
             for (int i = 0; i < parts.size(); i++) {
                 String part = parts.get(i);
-                if (i > 0 && !WordUtils.precedesSentenceStart(parts.get(i - 1), punctuation)) {
+                if (i > 0 && (isGeneralWord(part) || !WordUtils.precedesSentenceStart(parts.get(i - 1), punctuation))) {
                     if (WordUtils.isCapitalized(part) && !isIgnoredWord(part)) {
                         if (!isGeneralWord(part)) {
                             incrementWord(part, 0);
@@ -149,7 +149,9 @@ public class CharacterFinder {
                         toAdd = phrase.toString();
                     } else {
                         if (phrase != null) {
-                            if (part.equals(" ") || part.equals("of") || part.equals("the") || fillerWords.contains(part)) {
+                            // ignore phrases that start with "One of"
+                            if ((part.equals(" ") || part.equals("of") || part.equals("the") || fillerWords.contains(part))
+                                    && !(part.equals("of") && (phrase.toString().equals("One ") || phrase.toString().equals("Two ")))) {
                                 phrase.append(part);
                             } else {
                                 if (!isGeneralWord(toAdd)) {

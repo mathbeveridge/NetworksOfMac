@@ -12,6 +12,7 @@ import java.util.Set;
 public class StormOfSwordsFinder {
 
     public static final Set<String> IGNORED_WORDS = new HashSet<>(Arrays.asList(
+            "The",
             "My", "She", "He", "His", "Her", "We", "They", "Their", "You", "Your", "It", // pronouns
             "This", "That", "There", // indirect pronouns
             "Who", "Why", "What", "Will", "Was", // questions
@@ -31,7 +32,6 @@ public class StormOfSwordsFinder {
 
     // Words that are not unique, but may still be descriptive, expecially in combination
     public static final Set<String> GENERAL_WORDS = new HashSet<>(Arrays.asList(
-            "The", // titular articles
             "Young", "Old", "Fat", "Big", "Little", "Small", "Bastard", "Boy", "Deaf", "Blind", "Hero", // endearing titles
             "High", "Great", "Grand", "First", "Second", "Third", // superlatives
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
