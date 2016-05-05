@@ -36,12 +36,12 @@ public class FeastForCrowsFinder {
             "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", // numbers
             "Black", "Red", "Green", "Blue", "White", "Grey", "Brown", "Yellow", "Silver", "Golden", // colors
             "Land", "Lands", "Sea", "Seas", "Island", "Islands", "Isle", "Isles", "Bay", "River", "Shore",
-            "Point", "Lake", "Hills", "Straits", "Vale", "Wood", // geographics
-            "City", "Cities", "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Rock", "Castle", "Lane",
-            "Bridge", "Sept", "Harbor", "Mill", "Port", "Town", // landmarks
+            "Point", "Lake", "Hills", "Straits", "Vale", "Wood", "Rock", // locations (natural)
+            "City", "Cities", "Alley", "Gate", "Keep", "Market", "Tower", "Hall", "Castle", "Lane",
+            "Bridge", "Sept", "Harbor", "Mill", "Port", "Town", "Guild", // locations (man-made)
             "Just", "Sweet", "Brave", "Bold", "Scared", "Poor", "Blessed", "Mad", "Unworthy", "Good", "Long",
-            "Faithful", "Gallant", "Lusty", "Cruel", // adjective titles
-            "Spotted", "Iron", "Bloody", "Belly", "Fool", "Ghost" // miscellaneous
+            "Faithful", "Gallant", "Lusty", "Cruel", "Tall", // adjective titles
+            "Spotted", "Iron", "Bloody", "Belly", "Fool", "Ghost", "Crow" // miscellaneous
     ));
 
     // Words that are sometimes placed between first and last names
@@ -59,6 +59,7 @@ public class FeastForCrowsFinder {
         finder.removeWords("Ser Hyle of Podrick"); // mistake
         finder.removeWords("Lord Nestor the Gates of the Moon"); // mistake
         finder.removeWords("Randyll Tarly the Hand of the King"); // mistake
+        finder.removeWords("Blackbird Gilly"); // mistake
         finder.removeWords("Petyr Pimple"); // unused
         finder.removeWords("Strong Sam Stone"); // unused
         finder.removeWords("Brynden Rivers"); // unused
@@ -68,6 +69,13 @@ public class FeastForCrowsFinder {
         finder.removeWords("Tytos Lannister"); // unused
         finder.removeWords("Long Tom Costayne"); // unused
         finder.removeWords("Ser Rodrik"); // unused
+        finder.removeWords("Canker Jeyne"); // unused
+        finder.removeWords("Jeyne Fowler"); // unused
+        finder.removeWords("Jeyne Poole"); // unused
+        finder.removeWords("Lord Lucas"); // unused
+        finder.removeWords("Raynard Ruttiger"); // unused
+        finder.removeWords("Gormond Drumm the Oldfather"); // unused
+        finder.removeWords("Queen Alysanne"); // unused
         finder.removeWords("Loves of Queen Nymeria"); // a book
         finder.removeWords("Hand Lew"); // a book
 
@@ -202,6 +210,8 @@ public class FeastForCrowsFinder {
         finder.addNondescriptors("Humfrey");
         finder.addNondescriptors("Tytos");
         finder.addNondescriptors("Owen");
+        finder.addNondescriptors("Jeyne");
+        finder.addNondescriptors("Hugh");
 
         // gather names, titles, places, and things
         finder.processCapitalized();
@@ -221,12 +231,15 @@ public class FeastForCrowsFinder {
         finder.removeNames("Ned Stark");        // as Eddard Stark
         finder.removeNames("Vinegar Vaellyn");  // as Vaellyn
         finder.removeNames("Sweetrobin");       // as Robert Arryn
+        finder.removeNames("Brynden Blackfish");// as Brynden Tully
+        finder.removeNames("Lew Piper");        // as Lewis Piper
 
         finder.removeNames("Protector");        // unused
         finder.removeNames("Seneschal");        // unused
         finder.removeNames("Horn Hill");        // mistake
 
         finder.removeNondescriptors("Tywin");
+        finder.removeNondescriptors("Viper");
 
         System.out.println(finder.getTitledNames());
         System.out.println(finder.getPluralized());
@@ -241,6 +254,8 @@ public class FeastForCrowsFinder {
 
         // add back problematic names as necessary
         groups.addAliasToGroup("Jon Snow", "Jon", finder.getCount("Jon"));
+        groups.addAliasToGroup("Jon Connington", "Lord Jon", finder.getCount("Lord Jon")); // needs to be completely manually disambiguated
+        groups.addAliasToGroup("Jon Arryn", "Lord Jon", finder.getCount("Lord Jon")); // needs to be completely manually disambiguated
         groups.addAliasToGroup("Robert Baratheon", "Robert", finder.getCount("Robert"));
         groups.addAliasToGroup("Balon Greyjoy", "Balon", finder.getCount("Balon"));
         groups.addAliasToGroup("Aemon Targaryen", "Aemon", finder.getCount("Aemon"));
@@ -248,11 +263,13 @@ public class FeastForCrowsFinder {
         groups.addAliasToGroup("Gyles Rosby", "Gyles", finder.getCount("Gyles"));
         groups.addAliasToGroup("Black Walder", "Walder", finder.getCount("Walder"));
         groups.addAliasToGroup("Denys Arryn", "Denys", finder.getCount("Denys"));
+        groups.addAliasToGroup("Jeyne Westerling", "Jeyne", finder.getCount("Jeyne")); // needs to be completely manually disambiguated
+        groups.addAliasToGroup("Jeyne Heddle", "Jeyne", finder.getCount("Jeyne")); // needs to be completely manually disambiguated
+        groups.addAliasToGroup("Jeyne Farman", "Jeyne", finder.getCount("Jeyne")); // needs to be completely manually disambiguated
 
         // manually combine more character groups
         groups.combineGroups("Jon Snow", "Lord Snow");
-        groups.combineGroups("Jon Connington", "Lord Jon");
-        groups.combineGroups("Jon Arryn", "Lord Arryn", "Lord Jon");
+        groups.combineGroups("Jon Arryn", "Lord Arryn");
         groups.combineGroups("Robert Baratheon", "King Robert");
         groups.combineGroups("Robert Arryn", "Lord Robert", "Lord of the Eyrie", "Sweetrobin");
         groups.combineGroups("Balon Greyjoy", "King Balon", "Lord Balon", "Balon the Blessed", "Balon the Brave", "Balon Twice-Crowned", "Balon the Widowmaker", "Balon the Bold");
@@ -268,6 +285,8 @@ public class FeastForCrowsFinder {
         groups.combineGroups("Denys Arryn", "Ser Denys", "Ser Denys Arryn");
         groups.combineGroups("Robin Ryger", "Ser Robin Ryger");
         groups.combineGroups("Owen Inchfield", "Ser Owen Inchfield");
+        groups.combineGroups("Jeyne Heddle", "Long Jeyne Heddle", "Long Jeyne");
+        groups.combineGroups("Jeyne Farman", "Fat Jeyne Farman");
 
         groups.combineGroups("Samwell Tarly", "Sam");
         groups.combineGroups("Petyr Baelish", "Littlefinger");
@@ -300,6 +319,7 @@ public class FeastForCrowsFinder {
         groups.combineGroups("Nym", "Nymeria");
         groups.combineGroups("Harry", "Harrold Hardyng");
         groups.combineGroups("Lewys Piper", "Lew");
+        groups.combineGroups("Emmon Frey", "Emm");
 
         groups.writeNameList("src/main/resources/data/characters/ffc-list-full.txt");
         groups.writeNameList(finder.getNames(), true, 4, "src/main/resources/data/characters/ffc-list-clean.txt");

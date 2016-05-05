@@ -5,7 +5,7 @@ Brienne,401
 Sam,350
 Tommen,191
 Victarion,149
-Robert,144
+Robert,145
 Alayne,138
 Margaery,125
 Arya,123
@@ -22,11 +22,10 @@ Podrick,85
 Qyburn,83
 Eye,81
 Pate,78
+Euron,77
 Tyrion,77
 Riverrun,77
-Euron,76
 Lord Tywin,75
-Crow,75
 Balon,74
 Myrcella,74
 Lancel,71
@@ -372,6 +371,7 @@ Lanna,10
 Elinor,10
 Gates,10
 Dalla,10
+Gorold Goodbrother,10
 Jaqen,10
 Maggy,10
 Osfryd,10
@@ -409,7 +409,6 @@ Most Devout,9
 Honeywine,9
 Samwell Tarly,9
 Other,9
-Gorold Goodbrother,9
 Lollys,9
 Grenn,9
 Lady Nym,9
@@ -456,6 +455,7 @@ Arys Oakheart,8
 Balon Greyjoy,8
 Ralf the Limper,8
 Him of Many Faces,8
+Gorold,8
 Gregor,8
 Tankard,8
 Emmon Frey,8
@@ -572,7 +572,6 @@ Lord Piper,6
 Lord Orton,6
 Young Lord Hunter,6
 Islander,6
-Gorold,6
 Lord Mooton,6
 Emmon,6
 Paxter Redwyne,6
@@ -757,6 +756,7 @@ Tarle the Thrice-Drowned,4
 Clement,4
 Orkmont,4
 Rhaegar Targaryen,4
+Hibald,4
 Hasty,4
 Mathis Rowan,4
 Lord Nestor Royce,4
@@ -908,7 +908,6 @@ Kingswood Brotherhood,3
 Maester Ballabar,3
 Russell,3
 Arry,3
-Hibald,3
 Lord Arryn,3
 Lady Stark,3
 Taena Merryweather,3
@@ -1096,7 +1095,6 @@ Chief Gaoler,2
 Ser Galladon,2
 Balon the Brave,2
 Rainbow Guard,2
-One of Gorold,2
 Melisandre,2
 Ser Galladon of Morne,2
 Erik Ironmaker,2
@@ -1293,7 +1291,6 @@ Stonehand,2
 Brightwater,2
 Sunset Sea,2
 Ser Humfrey,2
-Queen Alysanne,2
 Barristan the Bold,2
 Hermit,2
 Frog,2
@@ -1413,7 +1410,6 @@ Lord Lyonel Corbray,1
 Germund,1
 Lady Joanna,1
 Long Jon Heddle,1
-Jeyne Poole,1
 Hardstone Hills,1
 Hobber Redwyne,1
 Cape Wrath,1
@@ -1425,9 +1421,7 @@ Lysa Tully of Riverrun,1
 Red Eunuch,1
 Pander,1
 Baelor Butthole,1
-One of Euron,1
 Seven of the Most Devout,1
-One of Hibald,1
 Sloey,1
 Boremund,1
 Dargood,1
@@ -1445,7 +1439,6 @@ Lucamore Strong,1
 Carpenter,1
 Hall of Heroes,1
 Young Dickon,1
-Gormond Drumm the Oldfather,1
 Princess Arianne Martell,1
 Age,1
 Ralf the Limp,1
@@ -1526,7 +1519,6 @@ Twelve-Tooth,1
 Bakkalon,1
 Arm,1
 Bethany,1
-One of Robert,1
 Rolder,1
 Marchers,1
 Jade Gates,1
@@ -1541,7 +1533,6 @@ Ramsay,1
 Prince Aegon,1
 Maester Murenmure,1
 Barth,1
-Lord Lucas,1
 Lord Philip,1
 Silty Town,1
 Arya Underfoot,1
@@ -1636,7 +1627,6 @@ Leaves,1
 Ser Steffon Swyft,1
 Shipbreaker Bay,1
 Noho Dimittis,1
-Two of Gorold Goodbrother,1
 Halfhand,1
 Ser Portifer,1
 Ser Richard Farrow,1
@@ -1646,7 +1636,6 @@ Shepherd,1
 Ser Hugo,1
 Gyles Greycloak,1
 Lady Roslin,1
-Raynard Ruttiger,1
 Toland of Ghost Hill,1
 Rhoynish,1
 King Viserys,1
@@ -1700,7 +1689,6 @@ Ser Deziel Dalt,1
 Weeping Woman,1
 Bonifer,1
 Lady Toland,1
-Canker Jeyne,1
 Ser Preston Greenfield,1
 Hotho the Humpback,1
 Loreza,1
@@ -1744,7 +1732,6 @@ Talon,1
 Hoster,1
 Sow,1
 Knight of the Bloody Gate,1
-Blackbird Gilly,1
 Norne Goodbrother,1
 Stafford,1
 Burned,1
@@ -1977,7 +1964,6 @@ Maelys the Monstrous,1
 Valyrians,1
 Home,1
 Harlan,1
-Tall,1
 Hardy,1
 Romny Weaver,1
 Blackwater Rush,1
@@ -2050,7 +2036,6 @@ Lord of the Iron Islands,1
 Star,1
 Fish,1
 Lady Sylva Santagar,1
-Jeyne Fowler,1
 Old Dick,1
 Hal,1
 Tyene Sand,1
@@ -2874,11 +2859,10 @@ Barristan,0
 Serpent,0
 Lyle,0
 Oarsman,0
-Guild,0
 Cletus,0
 Hoare,0
 Paramount,0
 Eighty-Six,0
 Protector,0
 
-2882
+2866
