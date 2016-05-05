@@ -2,13 +2,13 @@ Jaime Lannister,Kingslayer,Jaime
 Cersei Lannister,Queen Regent,Cersei
 Brienne,Brienne,Beauty
 Samwell Tarly,Seducer,Samwell,Slayer,Sam
+Arya Stark,Horseface,Underfoot,Salty,Squab,Arya,Arry,Cat
 Tommen,Tommen
-Arya Stark,Horseface,Underfoot,Squab,Arya,Arry,Cat
 Petyr Baelish,Littlefinger,Baelish,Petyr
+Victarion Greyjoy,Victarion,Nuncle
 Margaery Tyrell,Margaery
 Robert Baratheon,Robert
 Aeron Greyjoy,Damphair,Aeron
-Victarion Greyjoy,Victarion
 Alayne Stone,Alayne
 Sansa Stark,Sansa
 Tywin Lannister,Lord of Casterly Rock,Tywin
@@ -22,11 +22,14 @@ Podrick Payne,Podrick,Pod
 Gilly,Gilly
 Qyburn,Qyburn
 Balon Greyjoy,Twice-Crowned,Widowmaker,Balon
+High Septon,High Septon,Holiness
+Taena Merryweather,Lady Merryweather,Taena
 Stannis Baratheon,Stannis
 Pycelle,Pycelle
 Euron Greyjoy,Euron
 Hyle Hunt,Hyle
 Myrcella Baratheon,Myrcella
+Pate,Pate
 Sandor Clegane,Sandor,Hound
 Joffrey,Joffrey,Joff
 Robert Arryn,Lord of the Eyrie,Robert Arryn,Lord Robert,Sweetrobin
@@ -34,10 +37,10 @@ Osmund Kettleblack,Osmund
 Lancel,Lancel
 Brynden Tully,Blackfish,Brynden
 Arys Oakheart,Arys
-High Septon,High Septon
 Renly Baratheon,Renly
-Taena Merryweather,Taena
+Areo Hotah,Hotah,Areo
 Meribald,Meribald
+Dareon,Dareon
 Osney Kettleblack,Osney
 Lysa Arryn,Lysa
 Edmure Tully,Edmure
@@ -48,8 +51,10 @@ Ilyn Payne,Ilyn
 Gyles Rosby,Gyles
 Mace Tyrell,Lord Tyrell,Mace
 Mya Stone,Mya
+Alleras,Alleras,Sphinx
 Doran Martell,Doran
 Randyll Tarly,Lord Tarly,Randyll
+Moon Boy,Mountains,Keepers,Keeper,Moon,Pool
 Rodrik Harlaw,Rodrik,Reader
 Nimble Dick,Nimble
 Emmon Frey,Emmon,Emm
@@ -59,22 +64,32 @@ Garin,Garin
 Catelyn Stark,Lady Stark,Catelyn
 Yohn Royce,Bronze,Yohn
 Rhaegar Targaryen,Rhaegar
+Aurane Waters,Lord Waters,Aurane
 Beric Dondarrion,Dondarrion,Beric
+Nute,Barber,Nute
 Aegon Targaryen,Conqueror,Aegon
+Orton Merryweather,Lord Merryweather,Orton
 Harys Swyft,Harys
 Ryman Frey,Ryman
 Creighton Longbough,Creighton
 Falyse,Falyse
+Nym,Nymeria,Nym
+Nymeria Sand,Nymeria,Nym
 Daven Lannister,Daven
 Leo Tyrell,Lazy,Leo
 Oberyn Viper,Oberyn,Viper
-Nym,Nymeria,Nym
+Gerold Dayne,Darkstar,Gerold
+Lyle Crakehall,Strongboar,Lyle
+Blue Bard,Bard,Wat
+Xhondo,Xhondo
 Robb Stark,Robb,Wolf
 Tyene Sand,Tyene
 Meryn Trant,Meryn
-Aurane Waters,Aurane
+Josmyn Peckledon,Peckledon,Peck
 Varys,Spider,Varys
+Brusco,Brusco
 Lyn Corbray,Lyn
+Andrey Dalt,Andrey,Drey
 Edwyn Frey,Edwyn
 Marwyn Belmore,Marwyn,Mage
 Eddard Stark,Eddard,Ned
@@ -84,12 +99,17 @@ Boros Blount,Boros
 Obara Sand,Obara
 Walder Frey,Lord of the Crossing,Walder Frey,Lord Walder,Lord Frey
 Lothor Brune,Lothor
-Orton Merryweather,Orton
 Addam Marbrand,Addam
 Balman Byrch,Balman
+Mollander,Mollander
+Melara,Hetherspoon,Melara
+Armen,Acolyte,Armen
 Shagwell,Shagwell
 Genna Lannister,Genna
+Pia,Pia
+Maddy,Maddy
 Illifer,Penniless,Illifer
+Anya Waynwood,Lady Waynwood,Anya
 Jeyne Heddle,Jeyne
 Colemon,Colemon
 Bronn,Bronn
@@ -101,7 +121,9 @@ Harrold Hardyng,Hardyng,Harrold,Harry,Heir
 Shadrich,Shadrich,Shady,Mouse,Glen
 Harry,Hardyng,Harrold,Harry,Heir
 Hotho Harlaw,Humpback,Hotho
+Dorcas,Dorcas
 Jeyne Westerling,Jeyne
+Maggy,Maggy,Frog
 Vargo Hoat,Vargo,Hoat
 Olenna Tyrell,Queen of Thorns,Olenna
 Paxter Redwyne,Lord Redwyne,Paxter
@@ -109,19 +131,30 @@ Jocelyn Swyft,Jocelyn
 Walgrave,Walgrave
 Gorold Goodbrother,Gorold
 Sylva Santagar,Sylva
+Timeon,Timeon
 Marillion,Marillion
+Willow,Willow
 Megga Tyrell,Megga
+Gilwood Hunter,Hunter
+Rosey,Rosey
+Gretchel,Gretchel
 Amerei,Amerei
 Horton Redfort,Redfort,Horton
 Craster,Craster
 Maegor,Maegor
+Denyo,Denyo
 Caleotte,Caleotte
 Bonifer Hasty,Butthole,Bonifer
+Gendry,Gendry
+Whitesmile Wat,Whitesmile,Wat
 Alla Tyrell,Alla
+Cedra,Cedra
 Narbert,Narbert
 Hoster Tully,Lord of Riverrun,Lord Tully,Hoster
 Ronnet Connington,Ronnet
+Biter,Biter
 Kojja Mo,Kojja
+Roone,Roone
 Erik Anvil-Breaker,Anvil-Breaker,Ironmaker,Erik
 Erik Ironmaker,Anvil-Breaker,Ironmaker,Erik
 Symond Templeton,Templeton,Symond
@@ -129,16 +162,23 @@ Tallad,Tallad
 Theon Greyjoy,Turncloak,Theon
 Tris Botley,Tris
 Yorko Terys,Yorko
+Senelle,Senelle
 Roose Bolton,Lord of the Dreadfort,Lord Bolton,Roose
 Lucas Codd,Left-Hand,Lucas
-Gerold Dayne,Gerold
+Pyg,Pyg
+Garth,Garth,Gross
 Dermot,Dermot
+Ralf the Limper,Limper,Limp
+Rennifer Longwaters,Longwaters,Rennifer
+Brea,Brea
 Balon Swann,Balon Swann,Ser Balon
 Jalabhar Xho,Jalabhar,Xho
 Stoneheart,Stoneheart
+Lollys,Lackwit,Lollys
 Forley Prester,Forley
 Elinor Tyrell,Elinor
 Lyonel Corbray,Lyonel
+Umma,Umma
 Mance Rayder,King-beyond-the-Wall,Rayder,Mance
 Quellon Greyjoy,Quellon Greyjoy,Lord Quellon
 Pyp,Pyp
@@ -146,6 +186,8 @@ Clarence Crabb,Clarence,Short
 Raff,Sweetling,Raff
 Leyton Hightower,Lord Hightower,Leyton
 Tanda Stokeworth,Tanda
+Red Oarsman,Oarsman
+Urri,Urri
 Garlan,Garlan
 Raynard,Raynard
 Merlyn,Merlyn
@@ -162,6 +204,7 @@ Jeor Mormont,Mormont,Bear
 Lewys Piper,Lewys,Lew
 Trystane,Trystane
 Grenn,Grenn
+Rorge,Mad Dog of Saltpans,Rorge
 Arthur Dayne,Sword of the Morning,Arthur
 Mark Mullendore,Mark
 Jaehaerys,Conciliator,Jaehaerys
@@ -170,7 +213,6 @@ Aemon the Dragonknight,Dragonknight,Prince Aemon
 Kennos,Kennos
 Criston Cole,Kingmaker,Criston,Cole
 Sybell Spicer,Sybell,Spicer
-Lyle Crakehall,Lyle
 Hallyne,Hallyne
 Willas Tyrell,Willas
 Melisandre,Melisandre
@@ -179,8 +221,6 @@ Tristifer Botley,Tristifer
 Barristan,Barristan
 Cleos Frey,Cleos
 Terrance Lynderly,Terrance,Lynderly
-Rorge,Rorge
-Anya Waynwood,Anya
 Lucamore Strong,Lucamore
 Harras Harlaw,Harras
 Greybeard Grandison,Grandison,Greybeard
