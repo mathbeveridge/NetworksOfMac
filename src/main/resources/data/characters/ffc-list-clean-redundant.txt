@@ -1,252 +1,252 @@
-Jaime Lannister,Kingslayer,Ser Jaime,Lord Jaime,Jaime,Jaime Lannister
-Cersei Lannister,Queen Regent,Queen Cersei,Cersei Lannister,Sweet Cersei,Cersei
-Brienne,Beauty,Brienne,Brienne of Tarth,Brienne the Beauty,Lady Brienne
-Samwell Tarly,Sam the Slayer,Sam the Seducer,Samwell Tarly,Seducer,Slayer,Black Sam,Sam the Scared,Sam,Samwell
-Tommen,Tommen,King Tommen
-Arya Stark,Arya Underfoot,Arya of Winterfell,Arya,Arry,Cat,Arya Horseface,Cat of the Canals,Arya Stark,Horseface,Squab,Underfoot
-Petyr Baelish,Petyr Baelish,Lord Baelish,Baelish,Lord Petyr,Lord Littlefinger,Littlefinger,Petyr
-Margaery Tyrell,Lady Margaery,Margaery Tyrell,Maid Margaery,Margaery,Queen Margaery
+Jaime Lannister,Jaime Lannister,Kingslayer,Lord Jaime,Ser Jaime,Jaime
+Cersei Lannister,Cersei Lannister,Queen Regent,Queen Cersei,Sweet Cersei,Cersei
+Brienne,Brienne the Beauty,Brienne of Tarth,Lady Brienne,Brienne,Beauty
+Samwell Tarly,Sam the Seducer,Sam the Slayer,Sam the Scared,Samwell Tarly,Black Sam,Seducer,Samwell,Slayer,Sam
+Tommen,King Tommen,Tommen
+Arya Stark,Arya of Winterfell,Cat of the Canals,Arya Underfoot,Arya Horseface,Arya Stark,Horseface,Underfoot,Squab,Arya,Arry,Cat
+Petyr Baelish,Lord Littlefinger,Petyr Baelish,Lord Baelish,Littlefinger,Lord Petyr,Baelish,Petyr
+Margaery Tyrell,Margaery Tyrell,Queen Margaery,Lady Margaery,Maid Margaery,Margaery
 Robert Baratheon,Robert Baratheon,King Robert,Robert
-Aeron Greyjoy,Aeron King,Aeron Greyjoy,Damphair,Aeron,Aeron Damphair,Damphair King
-Victarion Greyjoy,Victarion,Victarion Greyjoy
-Alayne Stone,Alayne,Alayne Stone,Lady Alayne
-Sansa Stark,Sansa,Lady Sansa,Sansa Stark
-Tywin Lannister,Lord of Casterly Rock,Tywin Lannister,Lord Tywin Lannister,Lord Tywin,Tywin
-Arianne Martell,Princess Arianne,Arianne Martell,Princess Arianne Martell,Arianne
-Tyrion Lannister,Tyrion Lannister,Imp,Tyrion
-Loras Tyrell,Loras,Knight of Flowers,Ser Loras,Loras Tyrell
-Jon Snow,Jon Snow,Snow,Lord Snow,Jon,Great Lord Snow,Lord Commander Snow
-Aemon Targaryen,Battleborn,Aemon Steelsong,Aemon Targaryen,Maester Aemon,Aemon,Aemon Battleborn,Steelsong
-Asha Greyjoy,Princess Asha,Asha,Asha Greyjoy
-Podrick Payne,Podrick Payne,Poor Podrick,Pod,Podrick
+Aeron Greyjoy,Aeron Damphair,Aeron Greyjoy,Damphair King,Aeron King,Damphair,Aeron
+Victarion Greyjoy,Victarion Greyjoy,Victarion
+Alayne Stone,Alayne Stone,Lady Alayne,Alayne
+Sansa Stark,Sansa Stark,Lady Sansa,Sansa
+Tywin Lannister,Lord of Casterly Rock,Lord Tywin Lannister,Tywin Lannister,Lord Tywin,Tywin
+Arianne Martell,Princess Arianne Martell,Princess Arianne,Arianne Martell,Arianne
+Tyrion Lannister,Tyrion Lannister,Tyrion,Imp
+Loras Tyrell,Knight of Flowers,Loras Tyrell,Ser Loras,Loras
+Jon Snow,Lord Commander Snow,Great Lord Snow,Lord Snow,Jon Snow,Snow,Jon
+Aemon Targaryen,Aemon Battleborn,Aemon Steelsong,Aemon Targaryen,Maester Aemon,Battleborn,Steelsong,Aemon
+Asha Greyjoy,Princess Asha,Asha Greyjoy,Asha
+Podrick Payne,Podrick Payne,Poor Podrick,Podrick,Pod
 Gilly,Gilly
-Qyburn,Lord Qyburn,Qyburn,Maester Qyburn
-Balon Greyjoy,King Balon,Balon the Blessed,Balon the Brave,Balon Greyjoy,Balon,Widowmaker,Balon the Widowmaker,Lord Balon,Twice-Crowned,Balon Twice-Crowned,Balon the Bold
-Stannis Baratheon,Lord Stannis,King Stannis,Stannis Baratheon,Stannis
-Pycelle,Pycelle,Grand Maester Pycelle,Maester Pycelle
-Euron Greyjoy,Euron,Euron Crow,Lord Euron,Euron Greyjoy
-Hyle Hunt,Hyle Hunt,Hyle,Ser Hyle Hunt,Ser Hyle
-Myrcella Baratheon,Myrcella Baratheon,Princess Myrcella,Queen Myrcella,Little Myrcella Baratheon,Myrcella
+Qyburn,Maester Qyburn,Lord Qyburn,Qyburn
+Balon Greyjoy,Balon the Widowmaker,Balon Twice-Crowned,Balon the Blessed,Balon the Brave,Balon the Bold,Balon Greyjoy,Twice-Crowned,King Balon,Widowmaker,Lord Balon,Balon
+Pycelle,Grand Maester Pycelle,Maester Pycelle,Pycelle
+Stannis Baratheon,Stannis Baratheon,Lord Stannis,King Stannis,Stannis
+Euron Greyjoy,Euron Greyjoy,Euron Crow,Lord Euron,Euron
+Hyle Hunt,Ser Hyle Hunt,Hyle Hunt,Ser Hyle,Hyle
+Myrcella Baratheon,Little Myrcella Baratheon,Myrcella Baratheon,Princess Myrcella,Queen Myrcella,Myrcella
 Sandor Clegane,Sandor Clegane,Sandor,Hound
-Joffrey,Prince Joffrey,King Joffrey,Joffrey,Joff,Brave Joffrey
-Robert Arryn,Lord of the Eyrie,Robert Arryn,Lord Robert,Ser Sweetrobin,Sweetrobin
-Osmund Kettleblack,Ser Osmund Kettleblack,Ser Osmund,Osmund Kettleblack,Osmund
+Joffrey,Prince Joffrey,Brave Joffrey,King Joffrey,Joffrey,Joff
+Osmund Kettleblack,Ser Osmund Kettleblack,Osmund Kettleblack,Ser Osmund,Osmund
+Robert Arryn,Lord of the Eyrie,Ser Sweetrobin,Robert Arryn,Lord Robert,Sweetrobin
 Lancel,Lord Lancel,Lancel
-Brynden Tully,Brynden Blackfish,Blackfish,Ser Brynden,Brynden,Ser Brynden Tully,Brynden Tully
-Arys Oakheart,Arys,Ser Arys the Unworthy,Ser Arys Oakheart,Ser Arys,Ser Arys of the Kingsguard,Arys Oakheart
+Brynden Tully,Brynden Blackfish,Ser Brynden Tully,Brynden Tully,Ser Brynden,Blackfish,Brynden
+Arys Oakheart,Ser Arys of the Kingsguard,Ser Arys the Unworthy,Ser Arys Oakheart,Arys Oakheart,Ser Arys,Arys
 High Septon,High Septon
-Renly Baratheon,Lord Renly,King Renly,Renly,Renly Baratheon
-Taena Merryweather,Taena Merryweather,Taena,Lady Taena
-Meribald,Meribald,Septon Meribald
-Osney Kettleblack,Osney,Osney Kettleblack,Ser Osney,Ser Osney Kettleblack
-Lysa Arryn,Lady Lysa,Lysa Tully of Riverrun,Lysa Tully,Lysa,Lysa Arryn
+Renly Baratheon,Renly Baratheon,Lord Renly,King Renly,Renly
+Taena Merryweather,Taena Merryweather,Lady Taena,Taena
+Meribald,Septon Meribald,Meribald
+Osney Kettleblack,Ser Osney Kettleblack,Osney Kettleblack,Ser Osney,Osney
+Lysa Arryn,Lysa Tully of Riverrun,Lysa Tully,Lysa Arryn,Lady Lysa,Lysa
 Edmure Tully,Edmure Tully,Lord Edmure,Ser Edmure,Edmure
-Kevan Lannister,Ser Kevan,Ser Kevan Lannister,Kevan Lannister,Kevan
-Gregor Clegane,Ser Gregor Clegane,Gregor Clegane,Mountain,Ser Gregor,Gregor
-Ilyn Payne,Ilyn,Ilyn Payne,Ser Ilyn,Ser Ilyn Payne
-Nestor Royce,Nestor,Lord Nestor,Lord Nestor Royce,Nestor Royce
-Gyles Rosby,Lord Gyles,Gyles,Gyles Rosby
-Mya Stone,Mya,Mya Stone
-Mace Tyrell,Mace,Mace Tyrell,Lord Tyrell
-Doran Martell,Prince Doran,Doran,Doran Martell
-Randyll Tarly,Lord Tarly,Randyll,Lord Randyll,Randyll Tarly,Lord Randyll Tarly,Randyll Bloody Tarly
-Rodrik Harlaw,Lord Rodrik Harlaw,Rodrik Harlaw,Lord Rodrik,Rodrik,Rodrik the Reader,Reader
+Kevan Lannister,Ser Kevan Lannister,Kevan Lannister,Ser Kevan,Kevan
+Gregor Clegane,Ser Gregor Clegane,Gregor Clegane,Ser Gregor,Mountain,Gregor
+Ilyn Payne,Ser Ilyn Payne,Ilyn Payne,Ser Ilyn,Ilyn
+Nestor Royce,Lord Nestor Royce,Nestor Royce,Lord Nestor,Nestor
+Gyles Rosby,Gyles Rosby,Lord Gyles,Gyles
+Mace Tyrell,Mace Tyrell,Lord Tyrell,Mace
+Mya Stone,Mya Stone,Mya
+Doran Martell,Doran Martell,Prince Doran,Doran
+Randyll Tarly,Randyll Bloody Tarly,Lord Randyll Tarly,Randyll Tarly,Lord Randyll,Lord Tarly,Randyll
+Rodrik Harlaw,Lord Rodrik Harlaw,Rodrik the Reader,Rodrik Harlaw,Lord Rodrik,Rodrik,Reader
 Nimble Dick,Nimble Dick,Nimble
-Emmon Frey,Lord Emmon,Emmon Frey,Ser Emmon,Emm,Lord Emmon Frey,Emmon
-Aerys Targaryen,Mad King Aerys,Mad King,King Aerys,Aerys Targaryen,Aerys
-Baelor the Blessed,Baelor the Blessed,Beloved,King Baelor the Blessed,Blessed Baelor,King Baelor,Beloved Baelor,Baelor,Baelor the Beloved
-Garin,Garin,Prince Garin,Garin the Great
-Catelyn Stark,Lady Catelyn,Lady Stark,Catelyn Stark,Catelyn,Catelyn Tully
-Yohn Royce,Bronze,Bronze Yohn,Yohn Royce,Yohn,Bronze Yohn Royce,Lord Yohn
-Beric Dondarrion,Lord Beric,Beric,Beric Dondarrion,Dondarrion
-Rhaegar Targaryen,Rhaegar,Prince Rhaegar,Rhaegar Targaryen
-Aegon Targaryen,Aegon the Conqueror,Aegon,Prince Aegon,Aegon the Dragon,Aegon the Unworthy,King Aegon the Third,Aegon Targaryen,Conqueror,King Aegon
-Harys Swyft,Ser Harys Swyft,Harys,Harys Swyft,Ser Harys
-Ryman Frey,Ser Ryman,Ryman Frey,Ser Ryman Frey,Ryman
-Creighton Longbough,Ser Creighton Longbough,Creighton,Creighton Longbough,Ser Creighton
-Falyse,Lady Falyse of Stokeworth,Lady Falyse,Falyse,Sweet Falyse
-Daven Lannister,Ser Daven,Daven Lannister,Ser Daven Lannister,Daven
-Leo Tyrell,Lazy,Lazy Leo,Leo,Leo Tyrell
-Nym,Nym,Nymeria,Lady Nym
-Oberyn Viper,Red Viper,Oberyn,Viper,Prince Oberyn Viper,Oberyn Viper,Red Viper of Dorne,Prince Oberyn of Dorne,Prince Oberyn
+Emmon Frey,Lord Emmon Frey,Lord Emmon,Emmon Frey,Ser Emmon,Emmon,Emm
+Aerys Targaryen,Aerys Targaryen,Mad King Aerys,King Aerys,Mad King,Aerys
+Baelor the Blessed,King Baelor the Blessed,Baelor the Blessed,Baelor the Beloved,Blessed Baelor,Beloved Baelor,King Baelor,Beloved,Baelor
+Garin,Garin the Great,Prince Garin,Garin
+Catelyn Stark,Catelyn Stark,Catelyn Tully,Lady Catelyn,Lady Stark,Catelyn
+Yohn Royce,Bronze Yohn Royce,Bronze Yohn,Yohn Royce,Lord Yohn,Bronze,Yohn
+Beric Dondarrion,Beric Dondarrion,Lord Beric,Dondarrion,Beric
+Rhaegar Targaryen,Rhaegar Targaryen,Prince Rhaegar,Rhaegar
+Aegon Targaryen,King Aegon the Third,Aegon the Conqueror,Aegon the Unworthy,Aegon the Dragon,Aegon Targaryen,Prince Aegon,King Aegon,Conqueror,Aegon
+Harys Swyft,Ser Harys Swyft,Harys Swyft,Ser Harys,Harys
+Ryman Frey,Ser Ryman Frey,Ryman Frey,Ser Ryman,Ryman
+Creighton Longbough,Ser Creighton Longbough,Creighton Longbough,Ser Creighton,Creighton
+Falyse,Lady Falyse of Stokeworth,Sweet Falyse,Lady Falyse,Falyse
+Leo Tyrell,Leo Tyrell,Lazy Leo,Lazy,Leo
+Daven Lannister,Ser Daven Lannister,Daven Lannister,Ser Daven,Daven
+Nym,Lady Nym,Nymeria,Nym
+Oberyn Viper,Prince Oberyn of Dorne,Prince Oberyn Viper,Red Viper of Dorne,Prince Oberyn,Oberyn Viper,Red Viper,Oberyn,Viper
 Tyene Sand,Tyene Sand,Lady Tyene,Tyene
-Robb Stark,Young Wolf,Robb,Wolf,Robb Stark
-Meryn Trant,Meryn Trant,Ser Meryn Trant,Meryn,Ser Meryn
-Edwyn Frey,Edwyn,Edwyn Frey
-Lyn Corbray,Lyn,Ser Lyn Corbray,Ser Lyn,Lyn Corbray
-Aurane Waters,Lord Aurane,Aurane,Aurane Waters
-Varys,Lord Varys,Varys,Spider
+Robb Stark,Young Wolf,Robb Stark,Robb,Wolf
+Meryn Trant,Ser Meryn Trant,Meryn Trant,Ser Meryn,Meryn
+Varys,Lord Varys,Spider,Varys
+Aurane Waters,Aurane Waters,Lord Aurane,Aurane
+Lyn Corbray,Ser Lyn Corbray,Lyn Corbray,Ser Lyn,Lyn
+Edwyn Frey,Edwyn Frey,Edwyn
 Myranda Royce,Lady Myranda Royce,Myranda Royce,Lady Myranda,Myranda
-Eddard Stark,Eddard,Lord Eddard Stark,Ned Stark,Lord Eddard,Eddard Stark,Ned
-Marwyn Belmore,Ser Marwyn,Mage,Marwyn the Mage,Ser Marwyn Belmore,Archmaester Marwyn,Marwyn,Marwyn Belmore
+Eddard Stark,Lord Eddard Stark,Eddard Stark,Lord Eddard,Ned Stark,Eddard,Ned
+Marwyn Belmore,Ser Marwyn Belmore,Archmaester Marwyn,Marwyn the Mage,Marwyn Belmore,Ser Marwyn,Marwyn,Mage
 Quentyn Martell,Quentyn Martell,Quentyn
 Obara Sand,Obara Sand,Lady Obara,Obara
-Boros Blount,Boros the Belly,Ser Boros Blount,Boros Blount,Ser Boros,Boros
+Walder Frey,Lord of the Crossing,Walder Frey,Lord Walder,Lord Frey
 Orton Merryweather,Orton Merryweather,Lord Orton,Orton
-Walder Frey,Walder Frey,Lord Walder,Lord Frey,Lord of the Crossing
+Boros Blount,Ser Boros Blount,Boros the Belly,Boros Blount,Ser Boros,Boros
 Lothor Brune,Ser Lothor Brune,Lothor Brune,Ser Lothor,Lothor
-Addam Marbrand,Ser Addam Marbrand,Ser Addam,Addam Marbrand,Addam
-Balman Byrch,Balman,Ser Balman Byrch,Balman Byrch,Ser Balman
+Addam Marbrand,Ser Addam Marbrand,Addam Marbrand,Ser Addam,Addam
+Balman Byrch,Ser Balman Byrch,Balman Byrch,Ser Balman,Balman
+Illifer,Ser Illifer the Penniless,Illifer the Penniless,Ser Illifer,Penniless,Illifer
 Shagwell,Shagwell
-Genna Lannister,Genna Lannister,Genna,Lady Genna
-Illifer,Ser Illifer the Penniless,Illifer,Ser Illifer,Penniless,Illifer the Penniless
-Colemon,Colemon,Maester Colemon
-Jeyne Heddle,Jeyne,Long Jeyne Heddle,Jeyne Heddle,Long Jeyne
-Bronn,Ser Bronn,Bronn,Ser Bronn of the Blackwater
-Jeyne Farman,Fat Jeyne Farman,Jeyne,Jeyne Farman
-Harrold Hardyng,Harrold Hardyng,Harry,Heir,Harry the Heir,Hardyng,Ser Harry,Harrold,Lord Harrold,Ser Harrold
-Osfryd Kettleblack,Osfryd Kettleblack,Osfryd,Ser Osfryd
-Shadrich,Shadrich,Shady,Mouse,Mad Mouse,Ser Shadrich the Mad Mouse,Shadrich of the Shady Glen,Glen,Ser Shadrich
-Jon Arryn,Jon Arryn,Lord Jon,Lord Arryn
-Harry,Harrold Hardyng,Harry,Heir,Harry the Heir,Hardyng,Ser Harry,Harrold,Lord Harrold,Ser Harrold
-Dontos Hollard,Ser Dontos the Red,Young Dontos,Ser Dontos,Dontos Hollard,Dontos
-Hotho Harlaw,Humpback,Hotho Harlaw,Hotho Humpback,Hotho the Humpback,Hotho
+Genna Lannister,Genna Lannister,Lady Genna,Genna
+Bronn,Ser Bronn of the Blackwater,Ser Bronn,Bronn
+Colemon,Maester Colemon,Colemon
+Jeyne Heddle,Long Jeyne Heddle,Jeyne Heddle,Long Jeyne,Jeyne
+Jeyne Farman,Fat Jeyne Farman,Jeyne Farman,Jeyne
+Hotho Harlaw,Hotho the Humpback,Hotho Humpback,Hotho Harlaw,Humpback,Hotho
+Osfryd Kettleblack,Osfryd Kettleblack,Ser Osfryd,Osfryd
+Jon Arryn,Lord Arryn,Jon Arryn,Lord Jon
+Harrold Hardyng,Harrold Hardyng,Harry the Heir,Lord Harrold,Ser Harrold,Ser Harry,Hardyng,Harrold,Harry,Heir
+Shadrich,Ser Shadrich the Mad Mouse,Shadrich of the Shady Glen,Ser Shadrich,Mad Mouse,Shadrich,Shady,Mouse,Glen
+Harry,Harrold Hardyng,Harry the Heir,Lord Harrold,Ser Harrold,Ser Harry,Hardyng,Harrold,Harry,Heir
+Dontos Hollard,Ser Dontos the Red,Dontos Hollard,Young Dontos,Ser Dontos,Dontos
 Jeyne Westerling,Jeyne Westerling,Jeyne
+Vargo Hoat,Lord Vargo,Vargo Hoat,Vargo,Hoat
 Paxter Redwyne,Paxter Redwyne,Lord Redwyne,Lord Paxter,Paxter
-Jocelyn Swyft,Jocelyn,Lady Jocelyn,Jocelyn Swyft
-Olenna Tyrell,Lady Olenna,Olenna,Queen of Thorns,Lady Olenna Tyrell,Olenna Tyrell
-Vargo Hoat,Vargo,Lord Vargo,Hoat,Vargo Hoat
+Olenna Tyrell,Lady Olenna Tyrell,Queen of Thorns,Olenna Tyrell,Lady Olenna,Olenna
+Jocelyn Swyft,Jocelyn Swyft,Lady Jocelyn,Jocelyn
 Walgrave,Archmaester Walgrave,Old Walgrave,Walgrave
-Sylva Santagar,Spotted Sylva,Lady Sylva,Sylva,Sylva Santagar,Lady Sylva Santagar
-Gorold Goodbrother,Gorold,Lord Gorold,Gorold Goodbrother
+Gorold Goodbrother,Gorold Goodbrother,Lord Gorold,Gorold
+Sylva Santagar,Lady Sylva Santagar,Sylva Santagar,Spotted Sylva,Lady Sylva,Sylva
 Marillion,Marillion
-Megga Tyrell,Megga Tyrell,Megga,Lady Megga
-Amerei,Amerei,Lady Amerei
+Megga Tyrell,Megga Tyrell,Lady Megga,Megga
+Maegor,Maegor the Cruel,King Maegor,Maegor
+Amerei,Lady Amerei,Amerei
+Horton Redfort,Lord of Redfort,Horton Redfort,Lord Redfort,Lord Horton,Redfort,Horton
 Craster,Craster
-Maegor,King Maegor,Maegor,Maegor the Cruel
-Horton Redfort,Lord Horton,Lord of Redfort,Lord Redfort,Redfort,Horton,Horton Redfort
 Alla Tyrell,Alla Tyrell,Alla
-Bonifer Hasty,Ser Bonifer,Bonifer Hasty,Ser Bonifer Hasty,Baelor Butthole,Ser Bonifer the Good,Bonifer,Butthole
-Caleotte,Caleotte,Maester Caleotte
+Caleotte,Maester Caleotte,Caleotte
+Bonifer Hasty,Ser Bonifer the Good,Ser Bonifer Hasty,Baelor Butthole,Bonifer Hasty,Ser Bonifer,Butthole,Bonifer
 Narbert,Septon Narbert,Narbert
-Ronnet Connington,Ronnet,Ronnet Connington,Ser Ronnet,Red Ronnet Connington,Red Ronnet
-Hoster Tully,Lord Hoster,Hoster Tully,Hoster,Lord of Riverrun,Lord Tully
-Kojja Mo,Kojja,Kojja Mo
-Symond Templeton,Symond,Templeton,Ser Symond,Symond Templeton
-Erik Ironmaker,King Erik,Erik the Just,Erik Ironmaker,Erik Anvil-Breaker,Ironmaker,Anvil-Breaker,Erik
-Erik Anvil-Breaker,King Erik,Erik the Just,Erik Ironmaker,Erik Anvil-Breaker,Ironmaker,Anvil-Breaker,Erik
-Tallad,Tallad,Tallad the Tall,Ser Tallad the Tall,Ser Tallad
-Gerold Dayne,Gerold Dayne,Ser Gerold Dayne,Gerold the Great,Ser Gerold,Gerold
-Roose Bolton,Roose,Roose Bolton,Lord of the Dreadfort,Lord Bolton
+Hoster Tully,Lord of Riverrun,Hoster Tully,Lord Hoster,Lord Tully,Hoster
+Kojja Mo,Kojja Mo,Kojja
+Ronnet Connington,Red Ronnet Connington,Ronnet Connington,Ser Ronnet,Red Ronnet,Ronnet
+Symond Templeton,Symond Templeton,Ser Symond,Templeton,Symond
+Erik Anvil-Breaker,Erik Anvil-Breaker,Erik Ironmaker,Erik the Just,Anvil-Breaker,King Erik,Ironmaker,Erik
+Tallad,Ser Tallad the Tall,Tallad the Tall,Ser Tallad,Tallad
+Erik Ironmaker,Erik Anvil-Breaker,Erik Ironmaker,Erik the Just,Anvil-Breaker,King Erik,Ironmaker,Erik
+Lucas Codd,Left-Hand Lucas Codd,Lucas Codd,Left-Hand,Lucas
+Gerold Dayne,Ser Gerold Dayne,Gerold the Great,Gerold Dayne,Ser Gerold,Gerold
+Roose Bolton,Lord of the Dreadfort,Roose Bolton,Lord Bolton,Roose
 Yorko Terys,Yorko Terys,Yorko
 Tris Botley,Tris Botley,Tris
-Lucas Codd,Left-Hand,Lucas Codd,Left-Hand Lucas Codd,Lucas
-Theon Greyjoy,Theon,Theon Turncloak,Theon Greyjoy,Turncloak
-Jalabhar Xho,Jalabhar,Jalabhar Xho,Xho,Prince Jalabhar
-Stoneheart,Stoneheart,Lady Stoneheart
+Theon Greyjoy,Theon Turncloak,Theon Greyjoy,Turncloak,Theon
+Stoneheart,Lady Stoneheart,Stoneheart
+Elinor Tyrell,Elinor Tyrell,Lady Elinor,Elinor
 Balon Swann,Balon Swann,Ser Balon
-Forley Prester,Forley,Ser Forley,Forley Prester,Ser Forley Prester
 Dermot,Ser Dermot of the Rainwood,Ser Dermot,Dermot
-Elinor Tyrell,Elinor Tyrell,Elinor,Lady Elinor
-Garlan,Ser Garlan,Garlan,Ser Garlan the Gallant,Garlan the Gallant
-Tanda Stokeworth,Tanda,Lady Tanda,Tanda Stokeworth
-Raynard,Raynard,Septon Raynard
+Forley Prester,Ser Forley Prester,Forley Prester,Ser Forley,Forley
+Jalabhar Xho,Prince Jalabhar,Jalabhar Xho,Jalabhar,Xho
+Lyonel Corbray,Lord Lyonel Corbray,Lyonel Corbray,Lord Lyonel,Lyonel
+Raynard,Septon Raynard,Raynard
+Raff,Raff the Sweetling,Sweetling,Raff
+Garlan,Ser Garlan the Gallant,Garlan the Gallant,Ser Garlan,Garlan
 Thoros,Thoros of Myr,Thoros
+Quellon Greyjoy,Quellon Greyjoy,Lord Quellon
 Pyp,Pyp
-Quellon Greyjoy,Lord Quellon,Quellon Greyjoy
-Merlyn,Merlyn,Lord Merlyn
-Lyonel Corbray,Lyonel,Lord Lyonel Corbray,Lyonel Corbray,Lord Lyonel
-Mance Rayder,Mance,King-beyond-the-Wall,Rayder,Mance Rayder
-Raff,Sweetling,Raff the Sweetling,Raff
-Leyton Hightower,Lord Leyton,Lord Leyton of the Hightower,Leyton,Leyton Hightower,Lord Hightower
-Clarence Crabb,Clarence Crabb,Ser Clarence,Clarence the Short,Clarence,Short,Ser Clarence Crabb
+Mance Rayder,King-beyond-the-Wall,Mance Rayder,Rayder,Mance
+Merlyn,Lord Merlyn,Merlyn
+Clarence Crabb,Clarence the Short,Ser Clarence Crabb,Clarence Crabb,Ser Clarence,Clarence,Short
+Leyton Hightower,Lord Leyton of the Hightower,Leyton Hightower,Lord Hightower,Lord Leyton,Leyton
+Tanda Stokeworth,Tanda Stokeworth,Lady Tanda,Tanda
 Jaqen,Jaqen
-Mariya,Mariya,Lady Mariya
-Bran Stark,Bran,Bran Stark
+Bran Stark,Bran Stark,Bran
+Edd Tollett,Dolorous Edd Tollett,Dolorous Edd,Edd Tollett,Dolorous,Edd
+Mariya,Lady Mariya,Mariya
+Nan,Old Nan,Nan
 Dalla,Dalla
-Edd Tollett,Edd Tollett,Edd,Dolorous Edd,Dolorous,Dolorous Edd Tollett
 Walder Rivers,Walder Rivers
-Nan,Nan,Old Nan
-Arthur Dayne,Sword of the Morning,Arthur,Ser Arthur,Ser Arthur Dayne,Arthur Dayne
-Lewys Piper,Lewys Piper,Little Lew,Lew Piper,Lewys,Little Lew Piper,Lew
-Jeor Mormont,Lord Mormont,Lord Commander Mormont,Jeor Mormont,Old Bear,Mormont,Bear
+Jaehaerys,Jaehaerys the Conciliator,King Jaehaerys,Conciliator,Jaehaerys
+Arthur Dayne,Sword of the Morning,Ser Arthur Dayne,Arthur Dayne,Ser Arthur,Arthur
 Grenn,Grenn
-Trystane,Trystane,Prince Trystane
-Jaehaerys,Jaehaerys,Jaehaerys the Conciliator,Conciliator,King Jaehaerys
-Mark Mullendore,Mark,Ser Mark Mullendore,Mark Mullendore
-Syrio Forel,Syrio,Syrio Forel,Forel
-Kennos,Kennos,Ser Kennos,Ser Kennos of Kayce
-Hallyne,Lord Hallyne,Hallyne,Hallyne of the Guild of Alchemists
-Sybell Spicer,Sybell,Sybell Spicer,Spicer,Lady Sybell
-Criston Cole,Cole,Kingmaker,Ser Criston,Criston Cole,Criston,Criston the Kingmaker
-Gormond Goodbrother,Gormond,Gormond Goodbrother
-Aemon the Dragonknight,Aemon the Dragonknight,Dragonknight,Prince Aemon the Dragonknight,Prince Aemon
-Lyle Crakehall,Ser Lyle,Lyle,Lyle Crakehall
+Syrio Forel,Syrio Forel,Syrio,Forel
+Trystane,Prince Trystane,Trystane
+Mark Mullendore,Ser Mark Mullendore,Mark Mullendore,Mark
+Lewys Piper,Little Lew Piper,Lewys Piper,Little Lew,Lew Piper,Lewys,Lew
+Jeor Mormont,Lord Commander Mormont,Lord Mormont,Jeor Mormont,Old Bear,Mormont,Bear
+Aemon the Dragonknight,Prince Aemon the Dragonknight,Aemon the Dragonknight,Dragonknight,Prince Aemon
+Hallyne,Hallyne of the Guild of Alchemists,Lord Hallyne,Hallyne
+Criston Cole,Criston the Kingmaker,Criston Cole,Ser Criston,Kingmaker,Criston,Cole
+Lyle Crakehall,Lyle Crakehall,Ser Lyle,Lyle
+Kennos,Ser Kennos of Kayce,Ser Kennos,Kennos
+Sybell Spicer,Sybell Spicer,Lady Sybell,Sybell,Spicer
 Willas Tyrell,Willas Tyrell,Willas
-Barristan,Ser Barristan,Barristan the Bold,Barristan
+Gormond Goodbrother,Gormond Goodbrother,Gormond
 Tristifer Botley,Tristifer Botley,Tristifer
 Torbert,Septon Torbert,Torbert
-Lucamore Strong,Lucamore,Ser Lucamore Strong,Lucamore Strong,Lucamore the Lusty
-Harras Harlaw,Harras,Harras Harlaw,Ser Harras Harlaw,Ser Harras
+Cleos Frey,Ser Cleos Frey,Cleos Frey,Ser Cleos,Cleos
 Rorge,Rorge
-Greybeard Grandison,Greybeard Grandison,Grandison,Greybeard,Lord Grandison
+Terrance Lynderly,Terrance Lynderly,Lord Lynderly,Terrance,Lynderly
 Melisandre,Melisandre of Asshai,Lady Melisandre,Melisandre
-Terrance Lynderly,Terrance,Terrance Lynderly,Lord Lynderly,Lynderly
-Cleos Frey,Cleos,Cleos Frey,Ser Cleos,Ser Cleos Frey
+Barristan,Barristan the Bold,Ser Barristan,Barristan
 Anya Waynwood,Anya Waynwood,Lady Anya,Anya
+Harras Harlaw,Ser Harras Harlaw,Harras Harlaw,Ser Harras,Harras
+Lucamore Strong,Ser Lucamore Strong,Lucamore the Lusty,Lucamore Strong,Lucamore
+Greybeard Grandison,Greybeard Grandison,Lord Grandison,Grandison,Greybeard
 Jon Connington,Jon Connington,Lord Jon
 Quhuru Mo,Quhuru Mo,Quhuru
 Daenerys Targaryen,Daenerys Targaryen,Daenerys
-Wylis Manderly,Wylis Manderly,Wylis,Ser Wylis Manderly,Ser Wylis
+Ellaria Sand,Ellaria Sand,Ellaria
 Alannys Harlaw,Alannys Harlaw,Lady Alannys,Alannys
+Ebrose,Archmaester Ebrose,Ebrose
 Merrett Frey,Merrett Frey,Merrett
-Albar Royce,Ser Albar,Ser Albar Royce,Albar Royce,Albar
+Lewyn Martell,Prince Lewyn of Dorne,Lewyn Martell,Prince Lewyn,Lewyn
+Daemon Sand,Ser Daemon Sand,Daemon Sand,Ser Daemon,Daemon
 Manfrey Martell,Ser Manfrey Martell,Manfrey Martell,Ser Manfrey,Manfrey
-Ebrose,Ebrose,Archmaester Ebrose
+Wylis Manderly,Ser Wylis Manderly,Wylis Manderly,Ser Wylis,Wylis
+Lambert Turnberry,Ser Lambert Turnberry,Lambert Turnberry,Ser Lambert,Lambert
 Clydas,Clydas
-Lambert Turnberry,Lambert,Ser Lambert,Lambert Turnberry,Ser Lambert Turnberry
-Galladon,Galladon,Ser Galladon of Morne,Ser Galladon
-Daemon Sand,Daemon,Daemon Sand,Ser Daemon Sand,Ser Daemon
-Ellaria Sand,Ellaria,Ellaria Sand
+Moelle,Septa Moelle,Moelle
+Vaellyn,Archmaester Vaellyn,Vinegar Vaellyn,Vaellyn,Vinegar
+Albar Royce,Ser Albar Royce,Albar Royce,Ser Albar,Albar
+Galladon,Ser Galladon of Morne,Ser Galladon,Galladon
 Val,Val
-Lewyn Martell,Lewyn Martell,Prince Lewyn,Lewyn,Prince Lewyn of Dorne
-Moelle,Moelle,Septa Moelle
-Vaellyn,Vaellyn,Archmaester Vaellyn,Vinegar Vaellyn,Vinegar
-Harwyn Plumm,Ser Harwyn,Harwyn,Harwyn Plumm
-Raynald Westerling,Raynald Westerling,Raynald,Ser Raynald,Ser Raynald Westerling
+Sigfryd Harlaw,Sigfryd Harlaw the Silverhair,Sigfryd Silverhair,Sigfryd Harlaw,Silverhair,Sigfryd
+Tyrek Lannister,Tyrek Lannister,Lord Tyrek,Tyrek
+Harwyn Plumm,Harwyn Plumm,Ser Harwyn,Harwyn
 Lem,Lem
+Glover,Lady Glover,Glover
 Amory Lorch,Ser Amory Lorch,Amory Lorch,Amory
-Sigfryd Harlaw,Sigfryd Harlaw,Sigfryd Harlaw the Silverhair,Sigfryd,Sigfryd Silverhair,Silverhair
-Ronnel Arryn,Ronnel,Ser Ronnel Arryn,Ronnel Arryn
+Masha Heddle,Masha Heddle,Masha
+Raynald Westerling,Ser Raynald Westerling,Raynald Westerling,Ser Raynald,Raynald
 Quellon Humble,Quellon Humble
-Roslin Frey,Roslin,Lady Roslin,Roslin Frey
-Glover,Glover,Lady Glover
-Masha Heddle,Masha,Masha Heddle
-Denys Arryn,Ser Denys,Denys,Ser Denys Arryn,Denys Arryn
+Elys Waynwood,Ser Elys Waynwood,Elys Waynwood,Ser Elys,Elys
+Ronnel Arryn,Ser Ronnel Arryn,Ronnel Arryn,Ronnel
+Denys Arryn,Ser Denys Arryn,Denys Arryn,Ser Denys,Denys
+Roslin Frey,Lady Roslin,Roslin Frey,Roslin
+Gyles Grafton,Gyles Grafton,Lord Grafton,Grafton
 Maron Volmark,Maron Volmark,Prince Maron,Maron
 Dick Crabb,Dick Crabb
-Tyrek Lannister,Lord Tyrek,Tyrek,Tyrek Lannister
-Terrence Toyne,Terrence Toyne,Ser Terrence Toyne,Terrence
-Gyles Grafton,Grafton,Gyles Grafton,Lord Grafton
-Elys Waynwood,Elys,Elys Waynwood,Ser Elys,Ser Elys Waynwood
+Terrence Toyne,Ser Terrence Toyne,Terrence Toyne,Terrence
 Rickon,Rickon
-Cedric Payne,Cedric,Ser Cedric,Ser Cedric Payne,Cedric Payne
-Raymun Darry,Raymun,Ser Raymun,Raymun Darry,Ser Raymun Darry
+Roger Hogg,Ser Roger Hogg,Roger Hogg,Ser Roger,Roger
+Gawen Westerling,Lord Gawen Westerling,Gawen Westerling,Lord Gawen,Gawen
 Shae,Shae
 Baelor Blacktyde,Baelor Blacktyde
-Ryam Redwyne,Ryam Redwyne,Ser Ryam Redwyne,Ryam,Archmaester Ryam
-Tom Sevenstrings,Tom,Tom Sevenstrings,Tom of Sevenstreams
-Daeron,King Daeron the First,Daeron,King Daeron
-Gwynesse,Gwynesse,Lady Gwynesse
-Gunthor,Gunthor,Ser Gunthor
-Ellyn Tarbeck,Ellyn,Tarbeck,Lady Ellyn,Ellyn Tarbeck,Tarbeck Hall
-Dagon Greyjoy,Dagon,Lord Dagon,Dagon Greyjoy
-Talbert Serry,Talbert Serry,Ser Talbert Serry,Talbert
+Donnel,Donnel of Duskendale,Ser Donnel,Donnel
+Ellyn Tarbeck,Ellyn Tarbeck,Tarbeck Hall,Lady Ellyn,Tarbeck,Ellyn
+Tom Sevenstrings,Tom of Sevenstreams,Tom Sevenstrings,Tom
+Wynch,Lord Wynch,Wynch
 Theobald,Archmaester Theobald,Theobald
 Greydon Goodbrother,Greydon Goodbrother,Greydon
-Jasper Arryn,Boy Jasper,Jasper,Lord Jasper Arryn,Jasper Arryn,Lord Jasper
+Ryam Redwyne,Ser Ryam Redwyne,Archmaester Ryam,Ryam Redwyne,Ryam
+Gwynesse,Lady Gwynesse,Gwynesse
+Sawane Botley,Sawane Botley,Sawane
+Janos Slynt,Janos Slynt,Lord Janos,Slynt,Janos
 Alysanne Bulwer,Alysanne Bulwer,Alysanne
-Anders Yronwood,Lord Anders,Anders,Anders Yronwood
-Sawane Botley,Sawane,Sawane Botley
+Raymun Darry,Ser Raymun Darry,Raymun Darry,Ser Raymun,Raymun
+Cedric Payne,Ser Cedric Payne,Cedric Payne,Ser Cedric,Cedric
+Quincy Cox,Ser Quincy Cox,Ser Quincy,Quincy Cox,Quincy
 Tickler,Tickler
-Quincy Cox,Quincy,Ser Quincy,Ser Quincy Cox,Quincy Cox
+Daeron,King Daeron the First,King Daeron,Daeron
 Horas Redwyne,Horas Redwyne,Horas
 Unella,Septa Unella,Unella
-Wynch,Wynch,Lord Wynch
-Donnel,Ser Donnel,Donnel,Donnel of Duskendale
-Janos Slynt,Slynt,Janos Slynt,Lord Janos,Janos
-Roelle,Roelle,Septa Roelle
-Alerie,Alerie,Lady Alerie
-Gawen Westerling,Gawen,Gawen Westerling,Lord Gawen,Lord Gawen Westerling
+Anders Yronwood,Anders Yronwood,Lord Anders,Anders
+Talbert Serry,Ser Talbert Serry,Talbert Serry,Talbert
+Gunthor,Ser Gunthor,Gunthor
+Jasper Arryn,Lord Jasper Arryn,Jasper Arryn,Lord Jasper,Boy Jasper,Jasper
 Germund Botley,Germund Botley,Germund
-Roger Hogg,Roger,Ser Roger,Ser Roger Hogg,Roger Hogg
+Roelle,Septa Roelle,Roelle
+Alerie,Lady Alerie,Alerie
+Dagon Greyjoy,Dagon Greyjoy,Lord Dagon,Dagon

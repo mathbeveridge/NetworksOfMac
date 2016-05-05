@@ -57,9 +57,9 @@ Jon Snow,50
 Khaleesi,47
 Old Nan,45
 Irri,44
+Kingsguard,44
 Vale,43
 Summer,43
-Kingsguard,43
 Jhiqui,42
 Theon Greyjoy,42
 Greyjoy,42
@@ -248,6 +248,7 @@ Dancer,11
 Shadow Tower,11
 Moreo,11
 Lord Robert,11
+City Watch,11
 Braavos,11
 Ser Barristan Selmy,11
 Ser Alliser Thorne,11
@@ -271,7 +272,6 @@ Arryns,10
 Ben Stark,10
 Ser Waymar,10
 Aerys Targaryen,10
-City Watch,10
 Lady Arryn,10
 Othor,10
 Grand Maester,10
@@ -860,7 +860,6 @@ Queen Regent,1
 Addam Marbrand,1
 Lann the Clever,1
 Podrick Payne,1
-Two of the Kingsguard,1
 Mandon Moore,1
 Brandon the Shipwright,1
 Ser Mark Ryswell,1
@@ -1142,7 +1141,6 @@ Lord Balon Greyjoy,1
 Lady Waynwood,1
 Lord Karyl Vance,1
 Willem,1
-Two of the City Watch,1
 Baratheons,1
 Arya Stark of Winterfell,1
 Cregan Stark,1
@@ -1445,4 +1443,4 @@ Door,0
 Andar,0
 Bryce,0
 
-1446
+1444

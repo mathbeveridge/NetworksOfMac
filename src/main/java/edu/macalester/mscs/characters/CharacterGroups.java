@@ -238,11 +238,6 @@ public class CharacterGroups {
         for (String name : names) {
             if (isAlias(name)) {
                 List<String> list = new ArrayList<>();
-
-                // now add the name at the end, after sorting the aliases by length to avoid substrings appearing
-                // before superstrings
-                //list.add(name);
-
                 Set<String> group = getGroup(name);
                 for (String alias : group) {
                     String[] split = alias.split(" ");
@@ -262,11 +257,11 @@ public class CharacterGroups {
                 Collections.sort(list, new Comparator<String>() {
                     @Override
                     public int compare(String o1, String o2) {
-                        return - o1.length() + o2.length();
+                        return o2.length() - o1.length();
                     }
                 });
 
-                list.add(0,name);
+                list.add(0, name);
 
                 int aliasCount = getAliasCount(name);
                 if (aliasCount >= minimumOccurrence) {
