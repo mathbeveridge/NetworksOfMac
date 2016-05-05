@@ -3,7 +3,6 @@ package edu.macalester.mscs.characters;
 import edu.macalester.mscs.utils.FileUtils;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -54,70 +53,47 @@ public class CharacterTokenUpdater {
 
     public static void main(String[] args) {
 
-        try {
-            List<String> charLines = FileUtils.readFile(CHARACTER_FILE_NAME);
+        List<String> charLines = FileUtils.readFile(CHARACTER_FILE_NAME);
+        List<String> tokens = new ArrayList<>();
+        List<String> tokensNoSpaces = new ArrayList<>();
 
-            Iterator<String> iter = charLines.iterator();
+        // make hyphenated version
+        List<String> newCharLines = new ArrayList<>();
+        for (String line : charLines) {
+            // update for hyphenated character name file
+            newCharLines.add(line.replace(" ", "-"));
 
-            ArrayList<String> tokens = new ArrayList<String>();
+            /// update list of tokens to be replaced in text
+            String[] splitLine = line.split(",");
 
+            // Note that we SKIP the first entry in each line (the unique id).
+            // This entry MUST repeat in the list of values that follow!
+            // The unique id is often a short version of the name, while the remaining entries must be ordered
+            // so that if name1 appears before name2 then name1 is NOT a substring of name2
 
-            // make intercapped version
-            List<String> newCharLines = new ArrayList<String>();
-
-
-            while (iter.hasNext()) {
-                String line = iter.next();
-
-                // update for intercapped character name file
-                newCharLines.add(line.replace(" ","-"));
-
-                /// update list of tokens to be replaced in text
-                String[] splitLine = line.split(",");
-
-                // Note that we SKIP the first entry in each line (the unique id).
-                // This entry MUST repeat in the list of values that follow!
-                // The unique id is often a short version of the name, while the remaining entries must be ordered
-                // so that if name1 appears before name2 then name1 is NOT a substring of name2
-
-                for (int i=1; i < splitLine.length; i++) {
-                    String word = splitLine[i];
-                    if (word.contains(" ")) {
-                        System.out.println("adding: [" + word + "]");
-                        tokens.add(word);
-                    } else {
-                        System.out.println("skipping: [" + word + "]");
-                    }
+            for (int i = 1; i < splitLine.length; i++) {
+                String word = splitLine[i];
+                if (word.contains(" ")) {
+                    System.out.println("adding: [" + word + "]");
+                    tokens.add(word);
+                    tokensNoSpaces.add(word.replace(" ", "-"));
+                } else {
+                    System.out.println("skipping: [" + word + "]");
                 }
             }
-
-
-            ArrayList<String> tokensNoSpaces = new ArrayList<String>();
-
-            for (String token : tokens) {
-                tokensNoSpaces.add(token.replace(" ", "-"));
-            }
-
-
-            List<String> text = FileUtils.readFile(TEXT_FILE_NAME);
-            List<String> newText = new ArrayList<String>();
-
-            for (int j=0; j < text.size(); j++) {
-                String line = text.get(j);
-
-                for (int k=0; k < tokens.size(); k++) {
-                    line = line.replace(tokens.get(k), tokensNoSpaces.get(k));
-                }
-
-                newText.add(line);
-            }
-
-            FileUtils.writeFile(newText, UPDATED_TEXT_FILE_NAME);
-
-            FileUtils.writeFile(newCharLines, UPDATED_CHARACTER_FILE_NAME);
-
-        } catch (Exception e) {
-            e.printStackTrace();
         }
+
+        List<String> text = FileUtils.readFile(TEXT_FILE_NAME);
+        List<String> newText = new ArrayList<>();
+
+        for (String line : text) {
+            for (int k = 0; k < tokens.size(); k++) {
+                line = line.replace(tokens.get(k), tokensNoSpaces.get(k));
+            }
+            newText.add(line);
+        }
+
+        FileUtils.writeFile(newText, UPDATED_TEXT_FILE_NAME);
+        FileUtils.writeFile(newCharLines, UPDATED_CHARACTER_FILE_NAME);
     }
 }
