@@ -73,7 +73,6 @@ Harys Swyft,Harys
 Ryman Frey,Ryman
 Creighton Longbough,Creighton
 Falyse,Falyse
-Nym,Nymeria,Nym
 Nymeria Sand,Nymeria,Nym
 Daven Lannister,Daven
 Leo Tyrell,Lazy,Leo
@@ -155,6 +154,7 @@ Hoster Tully,Lord of Riverrun,Lord Tully,Hoster
 Ronnet Connington,Ronnet
 Biter,Biter
 Kojja Mo,Kojja
+Quellon Greyjoy,Lord of the Iron Islands,Quellon
 Roone,Roone
 Erik Anvil-Breaker,Anvil-Breaker,Ironmaker,Erik
 Erik Ironmaker,Anvil-Breaker,Ironmaker,Erik
@@ -179,7 +179,6 @@ Stoneheart,Stoneheart
 Lollys,Lackwit,Lollys
 Forley Prester,Forley
 Elinor Tyrell,Elinor
-Quellon Greyjoy,Lord of the Iron Islands,Quellon Greyjoy,Lord Quellon
 Umma,Umma
 Mance Rayder,King-beyond-the-Wall,Rayder,Mance
 Pyp,Pyp

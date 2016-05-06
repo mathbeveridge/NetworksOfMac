@@ -75,7 +75,6 @@ Creighton Longbough,Ser Creighton Longbough,Creighton Longbough,Ser Creighton,Cr
 Falyse,Lady Falyse of Stokeworth,Sweet Falyse,Lady Falyse,Falyse
 Leo Tyrell,Leo Tyrell,Lazy Leo,Lazy,Leo
 Daven Lannister,Ser Daven Lannister,Daven Lannister,Ser Daven,Daven
-Nym,Nymeria Sand,Lady Nym,Nymeria,Nym
 Nymeria Sand,Nymeria Sand,Lady Nym,Nymeria,Nym
 Gerold Dayne,Ser Gerold Dayne,Gerold the Great,Gerold Dayne,Ser Gerold,Darkstar,Gerold
 Oberyn Viper,Prince Oberyn of Dorne,Prince Oberyn Viper,Red Viper of Dorne,Prince Oberyn,Oberyn Viper,Red Viper,Oberyn,Viper
@@ -155,6 +154,7 @@ Hoster Tully,Lord of Riverrun,Hoster Tully,Lord Hoster,Lord Tully,Hoster
 Kojja Mo,Kojja Mo,Kojja
 Ronnet Connington,Red Ronnet Connington,Ronnet Connington,Ser Ronnet,Red Ronnet,Ronnet
 Biter,Biter
+Quellon Greyjoy,Lord of the Iron Islands,Quellon Greyjoy,Lord Quellon,Quellon
 Roone,Roone
 Symond Templeton,Symond Templeton,Ser Symond,Templeton,Symond
 Erik Anvil-Breaker,Erik Anvil-Breaker,Erik Ironmaker,Erik the Just,Anvil-Breaker,King Erik,Ironmaker,Erik
@@ -179,7 +179,6 @@ Ralf the Limper,Ralf the Limper,Ralf the Limp,Limper,Limp
 Dermot,Ser Dermot of the Rainwood,Ser Dermot,Dermot
 Forley Prester,Ser Forley Prester,Forley Prester,Ser Forley,Forley
 Jalabhar Xho,Prince Jalabhar,Jalabhar Xho,Jalabhar,Xho
-Quellon Greyjoy,Lord of the Iron Islands,Quellon Greyjoy,Lord Quellon
 Red Oarsman,Red Oarsman,Oarsman
 Umma,Umma
 Raynard,Septon Raynard,Raynard

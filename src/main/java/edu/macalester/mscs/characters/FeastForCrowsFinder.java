@@ -66,15 +66,15 @@ public class FeastForCrowsFinder {
         finder.removeWords("Lord Nestor the Gates of the Moon"); // mistake
         finder.removeWords("Randyll Tarly the Hand of the King"); // mistake
         finder.removeWords("Blackbird Gilly"); // mistake
+
         finder.removeWords("Petyr Pimple"); // unused
         finder.removeWords("Strong Sam Stone"); // unused
         finder.removeWords("Brynden Rivers"); // unused
         finder.removeWords("Rodrik Freeborn"); // unused
+        finder.removeWords("Ser Rodrik"); // unused
         finder.removeWords("Harys Haigh"); // unused
         finder.removeWords("Harry Sawyer"); // unused
-        finder.removeWords("Tytos Lannister"); // unused
         finder.removeWords("Long Tom Costayne"); // unused
-        finder.removeWords("Ser Rodrik"); // unused
         finder.removeWords("Canker Jeyne"); // unused
         finder.removeWords("Jeyne Fowler"); // unused
         finder.removeWords("Jeyne Poole"); // unused
@@ -83,8 +83,8 @@ public class FeastForCrowsFinder {
         finder.removeWords("Gormond Drumm the Oldfather"); // unused
         finder.removeWords("Queen Alysanne"); // unused
         finder.removeWords("Garth the Twelfth"); // unused
+        finder.removeWords("Hand Lew"); // unused
         finder.removeWords("Loves of Queen Nymeria"); // a book
-        finder.removeWords("Hand Lew"); // a book
 
         finder.printCounter().writeLog("src/main/resources/data/characters/ffc-counter.csv");
 
@@ -208,6 +208,7 @@ public class FeastForCrowsFinder {
         finder.removeNames("Brynden Blackfish");// as Brynden Tully
         finder.removeNames("Lew Piper");        // as Lewis Piper
         finder.removeNames("Tris Botley");      // as Tristifer Botley
+        finder.removeNames("Nym");              // as Nymeria Sand
 
         finder.removeNames("Protector");        // unused
         finder.removeNames("Seneschal");        // unused
@@ -237,6 +238,7 @@ public class FeastForCrowsFinder {
         groups.addAliasToGroup("Baelor the Blessed", "Baelor", finder.getCount("Baelor"));
         groups.addAliasToGroup("Gyles Rosby", "Gyles", finder.getCount("Gyles"));
         groups.addAliasToGroup("Black Walder", "Walder", finder.getCount("Walder"));
+        groups.addAliasToGroup("Quellon Greyjoy", "Quellon", finder.getCount("Quellon"));
         groups.addAliasToGroup("Denys Arryn", "Denys", finder.getCount("Denys"));
         groups.addAliasToGroup("Archmaester Marwyn", "Marwyn", finder.getCount("Marwyn"));
         groups.addAliasToGroup("Jeyne Westerling", "Jeyne", finder.getCount("Jeyne")); // needs to be completely manually disambiguated

@@ -196,6 +196,7 @@ Many-Faced,Many-Faced
 Gulltown,Gulltown Arryns,Gulltown Girl,Gulltown,Girl
 Ronnet,Red Ronnet Connington,Ronnet Connington,Ser Ronnet,Red Ronnet,Ronnet
 Sworn,Sworn
+Quellon Greyjoy,Lord of the Iron Islands,Quellon Greyjoy,Lord Quellon,Quellon
 Narbert,Septon Narbert,Narbert
 Biter,Biter
 Kojja,Kojja Mo,Kojja
@@ -232,7 +233,6 @@ Jalabhar,Prince Jalabhar,Jalabhar Xho,Jalabhar,Xho
 Dermot,Ser Dermot of the Rainwood,Ser Dermot,Dermot
 Elinor,Elinor Tyrell,Lady Elinor,Elinor
 Rennifer,Rennifer Longwaters,Longwaters,Rennifer
-Quellon Greyjoy,Lord of the Iron Islands,Quellon Greyjoy,Lord Quellon
 White Harbor,White Harbor
 Stoneheart,Lady Stoneheart,Stoneheart
 Lollys,Lollys Lackwit,Lackwit,Lollys
@@ -1171,6 +1171,7 @@ Rest,Rest
 Poetess,Poetess
 Beron,Blind Beron Blacktyde,Beron Blacktyde,Beron
 Gallows,Gallows Inn,Gallows
+Tytos Lannister,Tytos Lannister
 Knight of Spottswood,Knight of Spottswood
 Dagmer,Dagmer Cleftjaw,Cleftjaw,Dagmer
 Fury,Fury
