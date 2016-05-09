@@ -64,8 +64,8 @@ Areo Hotah,Hotah,Areo
 Xaro Xhoan Daxos,Daxos,Xhoan,Xaro
 Yandry,Yandry
 Varys,Spider,Varys
-Harry Strickland,Harry
 Joffrey,Joffrey,Joff
+Harry Strickland,Harry
 Jhiqui,Jhiqui
 Jojen Reed,Jojen
 Doran Martell,Doran

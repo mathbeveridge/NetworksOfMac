@@ -64,7 +64,7 @@ Xaro Xhoan Daxos,Xaro of the Thirteen,Xaro Xhoan Daxos,Xhoan Daxos,Daxos,Xhoan,X
 Yandry,Yandry
 Areo Hotah,Areo Hotah,Hotah,Areo
 Varys,Varys the Spider,Lord Varys,Spider,Varys
-Harry Strickland,Homeless Harry Strickland,Ser Harry Strickland,Hot Harry Merrell,Harry Strickland,Homeless Harry,Harry
+Harry Strickland,Homeless Harry Strickland,Ser Harry Strickland,Harry Strickland,Homeless Harry,Harry
 Joffrey,Joffrey,Joff
 Jojen Reed,Jojen Reed,Jojen
 Jhiqui,Jhiqui

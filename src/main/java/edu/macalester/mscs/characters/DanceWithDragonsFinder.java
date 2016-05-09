@@ -70,7 +70,7 @@ public class DanceWithDragonsFinder {
         finder.removeWords("Hugor of the Hill"); // unused
         finder.removeWords("Ned Woods"); // unused
         finder.removeWords("Tytos Lannister"); // unused
-        finder.removeWords("Harry Merrell"); // unused
+        finder.removeWords("Hot Harry Merrell"); // unused
         finder.removeWords("Merrell"); // unused
 
         finder.printCounter().writeLog("src/main/resources/data/characters/dwd-counter.csv");

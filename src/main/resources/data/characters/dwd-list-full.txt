@@ -85,8 +85,8 @@ Yandry,Yandry
 Windblown,Windblown
 Weeping,Weeping Lady of Lys,Weeping Water,Weeping,Lys
 Varys,Varys the Spider,Lord Varys,Spider,Varys
-Harry,Homeless Harry Strickland,Ser Harry Strickland,Hot Harry Merrell,Harry Strickland,Homeless Harry,Harry
 Satin,Old Palace of Sunspear,Palace of Sorrow,Palace of Love,Satin Palace,Palace,Satin
+Harry,Homeless Harry Strickland,Ser Harry Strickland,Harry Strickland,Homeless Harry,Harry
 Drowned,Drowned
 Joffrey,Joffrey,Joff
 Jhiqui,Jhiqui
