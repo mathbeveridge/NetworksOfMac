@@ -1,5 +1,6 @@
 package edu.macalester.mscs.utils;
 
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -43,5 +44,10 @@ public class WordUtils {
         return plurals;
     }
 
-
+    public static final Comparator<String> DESCENDING_LENGTH_COMPARATOR = new Comparator<String>() {
+        @Override
+        public int compare(String o1, String o2) {
+            return o2.length() - o1.length();
+        }
+    };
 }

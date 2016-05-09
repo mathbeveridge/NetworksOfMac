@@ -2,6 +2,7 @@ package edu.macalester.mscs.characters;
 
 import edu.macalester.mscs.utils.EntryComparator;
 import edu.macalester.mscs.utils.FileUtils;
+import edu.macalester.mscs.utils.WordUtils;
 
 import java.util.*;
 
@@ -237,34 +238,27 @@ public class CharacterGroups {
         Map<List<String>, Integer> groupMap = new HashMap<>();
         for (String name : names) {
             if (isAlias(name)) {
-                List<String> list = new ArrayList<>();
-                Set<String> group = getGroup(name);
-                for (String alias : group) {
-                    String[] split = alias.split(" ");
-                    boolean isUnique = true;
-                    if (removeRedundancy && split.length > 1) {
-                        for (String s : split) {
-                            if (group.contains(s)) {
-                                isUnique = false;
-                            }
-                        }
-                    }
-                    if (isUnique) {
-                        list.add(alias);
-                    }
-                }
-
-                Collections.sort(list, new Comparator<String>() {
-                    @Override
-                    public int compare(String o1, String o2) {
-                        return o2.length() - o1.length();
-                    }
-                });
-
-                list.add(0, name);
-
                 int aliasCount = getAliasCount(name);
                 if (aliasCount >= minimumOccurrence) {
+                    List<String> list = new ArrayList<>();
+                    Set<String> group = getGroup(name);
+                    for (String alias : group) {
+                        String[] split = alias.split(" ");
+                        boolean isUnique = true;
+                        if (removeRedundancy && split.length > 1) {
+                            for (String s : split) {
+                                if (group.contains(s)) {
+                                    isUnique = false;
+                                }
+                            }
+                        }
+                        if (isUnique) {
+                            list.add(alias);
+                        }
+                    }
+
+                    Collections.sort(list, WordUtils.DESCENDING_LENGTH_COMPARATOR);
+                    list.add(0, name);
                     groupMap.put(list, aliasCount);
                 }
             }
