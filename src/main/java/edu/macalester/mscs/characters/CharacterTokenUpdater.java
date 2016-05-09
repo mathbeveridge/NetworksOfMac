@@ -43,10 +43,18 @@ public class CharacterTokenUpdater {
 
 
     // Storm of Swords
-    public static final String CHARACTER_FILE_NAME = "src/main/resources/working/characters/sos-list-clean-redundant.csv";
-    public static final String TEXT_FILE_NAME = "src/main/resources/text/stormofswords-updated2.txt";
-    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/working/characters/sos-list-curated-hyphenated.csv";
-    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/stormofswords-hyphenated.txt";
+//    public static final String CHARACTER_FILE_NAME = "src/main/resources/working/characters/sos-list-clean-redundant.csv";
+//    public static final String TEXT_FILE_NAME = "src/main/resources/text/stormofswords-updated2.txt";
+//    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/working/characters/sos-list-curated-hyphenated.csv";
+//    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/stormofswords-hyphenated.txt";
+
+
+    // Feast for Crows
+    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/ffc-list-clean-redundant-ordered.csv";
+    public static final String TEXT_FILE_NAME = "src/main/resources/text/feastforcrows-clean.txt";
+    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/ffc-list-curated-hyphenated.csv";
+    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/feastforcrows-hyphenated.txt";
+
 
 
 
