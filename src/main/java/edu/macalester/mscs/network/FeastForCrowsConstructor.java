@@ -17,12 +17,12 @@ public class FeastForCrowsConstructor extends MatrixConstructor {
      * @param args
      */
     public static void main(String[] args) {
-        int fileNum = 1;
-        String fileDesc = "first";
+        int fileNum = 3;
+        String fileDesc = "hyphen";
 
-        FeastForCrowsConstructor constructor = new FeastForCrowsConstructor(15, 4);
+        FeastForCrowsConstructor constructor = new FeastForCrowsConstructor(15, 3);
 
-        constructor.constructMatrix(LOG_FILE_NAME);
+        constructor.constructMatrix(fileNum, fileDesc, LOG_FOLDER);
         constructor.writeFiles(fileNum, fileDesc, LOG_FOLDER, false);
     }
 

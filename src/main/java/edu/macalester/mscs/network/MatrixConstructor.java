@@ -13,7 +13,7 @@ import java.util.Map;
 public class MatrixConstructor {
 
     public static final String LOG_FOLDER = "src/main/resources/data/logs";
-    public static final String LOG_FILE_NAME = LOG_FOLDER + "/log.txt";
+    public static final String DEFAULT_LOG_FILE_NAME = LOG_FOLDER + "/log.txt";
 
 	private final int bookNumber;
 	private final String text;
@@ -108,10 +108,13 @@ public class MatrixConstructor {
 	/**
 	 * This primary workhorse method builds a matrix from a characterString, text, and other parameters.
 	 * The log data is written to the console and printed to logFile if specified, or ignored if null.
-	 * @param logFile
 	 * @return
 	 */
-    public void constructMatrix(String logFile) {
+    public void constructMatrix(int fileNumber, String fileDescriptor, String logFolder) {
+        String logFile = getFileName(logFolder, "log", fileNumber, fileDescriptor, "txt");
+
+        System.out.println("Log file name=" + logFile);
+
 		Logger logger = new Logger();
 		logger.log("=============================================================");
 		logger.log("=================== PART 1: General Info ====================");

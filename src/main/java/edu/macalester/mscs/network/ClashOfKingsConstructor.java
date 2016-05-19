@@ -27,12 +27,12 @@ public class ClashOfKingsConstructor extends MatrixConstructor {
      * @param args
      */
     public static void main(String[] args) {
-        int fileNum = 3;
+        int fileNum = 4;
         String fileDesc = "hyphen";
 
-        ClashOfKingsConstructor constructor = new ClashOfKingsConstructor(15, 4);
+        ClashOfKingsConstructor constructor = new ClashOfKingsConstructor(15, 3);
 
-        constructor.constructMatrix(LOG_FILE_NAME);
+        constructor.constructMatrix(fileNum, fileDesc, LOG_FOLDER);
         constructor.writeFiles(fileNum, fileDesc, LOG_FOLDER, false);
     }
 

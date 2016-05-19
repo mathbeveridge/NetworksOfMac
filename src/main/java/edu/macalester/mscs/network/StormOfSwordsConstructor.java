@@ -10,16 +10,16 @@ public class StormOfSwordsConstructor extends MatrixConstructor {
     public static final int BOOK_NUMBER = 3;
 
     /**
-     * Main method for generating the matrix, edge list and log files for "A Clash of Kings."
+     * Main method for generating the matrix, edge list and log files for "A Storm of Swords."
      * @param args
      */
     public static void main(String[] args) {
-        int fileNum = 2;
-        String fileDesc = "hyphenated";
+        int fileNum = 3;
+        String fileDesc = "hyphen";
 
-        StormOfSwordsConstructor constructor = new StormOfSwordsConstructor(15, 4);
+        StormOfSwordsConstructor constructor = new StormOfSwordsConstructor(15, 3);
 
-        constructor.constructMatrix(LOG_FILE_NAME);
+        constructor.constructMatrix(fileNum, fileDesc, LOG_FOLDER);
         constructor.writeFiles(fileNum, fileDesc, LOG_FOLDER, false);
     }
 

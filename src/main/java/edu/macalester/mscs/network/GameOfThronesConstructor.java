@@ -26,7 +26,7 @@ public class GameOfThronesConstructor extends MatrixConstructor {
 
     public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/got-list-curated-hyphenated.csv";
     public static final String ORDERED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/got-community-ordered.txt";
-    public static final String TEXT_FILE_NAME = "src/main/resources/text/gameofthrones-hypenated-update.txt";
+    public static final String TEXT_FILE_NAME = "src/main/resources/text/gameofthrones-hyphenated-update.txt";
     public static final int BOOK_NUMBER = 1;
 
 //    public static final String[] GOT1_ORDERED_CHAR = {
@@ -58,12 +58,12 @@ public class GameOfThronesConstructor extends MatrixConstructor {
      * @param args
      */
     public static void main(String[] args) {
-        int fileNum = 13;
-        String fileDesc = "hypenated";
+        int fileNum = 14;
+        String fileDesc = "hyphen";
 
-        GameOfThronesConstructor constructor = new GameOfThronesConstructor(15, 4);
+        GameOfThronesConstructor constructor = new GameOfThronesConstructor(15, 3);
 
-        constructor.constructMatrix(LOG_FILE_NAME);
+        constructor.constructMatrix(fileNum, fileDesc, LOG_FOLDER);
         constructor.writeFiles(fileNum, fileDesc, LOG_FOLDER, false);
     }
 

@@ -50,11 +50,22 @@ public class CharacterTokenUpdater {
 
 
     // Feast for Crows
-    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/ffc-list-clean-redundant-ordered.csv";
-    public static final String TEXT_FILE_NAME = "src/main/resources/text/feastforcrows-clean.txt";
-    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/ffc-list-curated-hyphenated.csv";
-    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/feastforcrows-hyphenated.txt";
+//    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/ffc-list-clean-redundant-ordered.csv";
+//    public static final String TEXT_FILE_NAME = "src/main/resources/text/feastforcrows-clean.txt";
+//    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/ffc-list-curated-hyphenated.csv";
+//    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/feastforcrows-hyphenated.txt";
 
+    // Feast for Crows
+//    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/dwd-list-clean-updated.csv";
+//    public static final String TEXT_FILE_NAME = "src/main/resources/text/dancewithdragons-updated.txt";
+//    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/dwd-list-curated-hyphenated.csv";
+//    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/dancewithdragons-hyphenated.txt";
+
+
+    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/pp-characters.csv";
+    public static final String TEXT_FILE_NAME = "src/main/resources/text/prideandprejudice.tex";
+    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/pp-char-hyphen.csv";
+    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/pandp-hyphen.txt";
 
 
 
