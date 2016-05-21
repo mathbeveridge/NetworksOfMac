@@ -181,7 +181,7 @@ public class MatrixConstructor {
 		Logger logger = new Logger();
 		logger.log("char 1, char2, index, text");
 		logger.log(matrix.getEncounterList());
-		logger.writeLog(encountersFolder + "/_All.csv");
+		logger.writeLog(getFileName(logFolder, "encounters", fileNumber, fileDescriptor, "csv"));
 		if (encounterListsByCharacter) { // optional
 			for (String name : matrix.getCharacters()) {
                 logger.clear();

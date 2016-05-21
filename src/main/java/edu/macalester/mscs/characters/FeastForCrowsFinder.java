@@ -332,9 +332,9 @@ public class FeastForCrowsFinder {
         groups.combineGroups("Wyman Manderly", "Lord Manderly");
         groups.combineGroups("Clement Piper", "Lord Piper");
 
-        groups.writeNameList("src/main/resources/data/characters/ffc-list-full.txt");
-        groups.writeNameList(finder.getNames(), true, 4, "src/main/resources/data/characters/ffc-list-clean.txt");
-        groups.writeNameList(finder.getNames(), false, 4, "src/main/resources/data/characters/ffc-list-clean-redundant.txt");
+        groups.writeNameList("src/main/resources/data/characters/ffc-list2-full.txt");
+        groups.writeNameList(finder.getNames(), true, 2, "src/main/resources/data/characters/ffc-list2-clean.txt");
+        groups.writeNameList(finder.getNames(), false, 2, "src/main/resources/data/characters/ffc-list2-clean-redundant.txt");
 
     }
 }

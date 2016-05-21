@@ -344,9 +344,9 @@ public class StormOfSwordsFinder {
         groups.combineGroups("Pello", "Greenbeard");
         groups.combineGroups("Mance Rayder", "King-beyond-the-Wall");
 
-        groups.writeNameList("src/main/resources/data/characters/sos-list-full.txt");
-        groups.writeNameList(finder.getNames(), true, 4, "src/main/resources/data/characters/sos-list-clean.txt");
-        groups.writeNameList(finder.getNames(), false, 4, "src/main/resources/data/characters/sos-list-clean-redundant.txt");
+        groups.writeNameList("src/main/resources/data/characters/sos-list2-full.txt");
+        groups.writeNameList(finder.getNames(), true, 2, "src/main/resources/data/characters/sos-list2-clean.txt");
+        groups.writeNameList(finder.getNames(), false, 2, "src/main/resources/data/characters/sos-list2-clean-redundant.txt");
 
     }
 }

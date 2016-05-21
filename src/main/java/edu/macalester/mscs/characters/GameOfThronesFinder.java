@@ -174,7 +174,7 @@ public class GameOfThronesFinder {
         // manually combine more character groups
         groups.combineGroups("Jon Snow", "Jon Stark");
         groups.combineGroups("Jon Arryn", "Lord Jon");
-        groups.combineGroups("Eddard Stark", "Ned", "Lord Eddard", "Lord Eddard Stark");
+        groups.combineGroups("Eddard Stark", "Ned Stark", "Lord Eddard", "Lord Eddard Stark");
         groups.combineGroups("Robert Baratheon", "Usurper", "King Robert");
         groups.combineGroups("Robert Arryn", "Lord of the Eyrie", "Lord Robert");
         groups.combineGroups("Balon Swann", "Ser Balon", "Ser Balon Swann");
@@ -212,8 +212,8 @@ public class GameOfThronesFinder {
         groups.combineGroups("Loras", "Knight of Flowers", "Daisy");
         groups.combineGroups("Gerold", "White Bull");
 
-        groups.writeNameList("src/main/resources/data/characters/got-list-full.txt");
-        groups.writeNameList(finder.getNames(), true, 4, "src/main/resources/data/characters/got-list-clean.txt");
-        groups.writeNameList(finder.getNames(), false, 4, "src/main/resources/data/characters/got-list-clean-redundant.txt");
+        groups.writeNameList("src/main/resources/data/characters/got-list2-full.txt");
+        groups.writeNameList(finder.getNames(), true, 2, "src/main/resources/data/characters/got-list2-clean.txt");
+        groups.writeNameList(finder.getNames(), false, 2, "src/main/resources/data/characters/got-list2-clean-redundant.txt");
     }
 }

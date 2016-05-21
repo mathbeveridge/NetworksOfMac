@@ -328,9 +328,9 @@ public class DanceWithDragonsFinder {
         groups.combineGroups("Triston", "Lord of the Three Sisters");
         groups.combineGroups("Bowen Marsh", "Lord Steward");
 
-        groups.writeNameList("src/main/resources/data/characters/dwd-list-full2.txt");
-        groups.writeNameList(finder.getNames(), true, 2, "src/main/resources/data/characters/dwd-list-clean2.txt");
-        groups.writeNameList(finder.getNames(), false, 2, "src/main/resources/data/characters/dwd-list-clean-redundant2.txt");
+        groups.writeNameList("src/main/resources/data/characters/dwd-list2-full.txt");
+        groups.writeNameList(finder.getNames(), true, 2, "src/main/resources/data/characters/dwd-list2-clean.txt");
+        groups.writeNameList(finder.getNames(), false, 2, "src/main/resources/data/characters/dwd-list2-clean-redundant.txt");
 
     }
 }

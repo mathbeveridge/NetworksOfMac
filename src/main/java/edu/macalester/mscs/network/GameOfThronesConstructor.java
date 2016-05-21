@@ -58,8 +58,8 @@ public class GameOfThronesConstructor extends MatrixConstructor {
      * @param args
      */
     public static void main(String[] args) {
-        int fileNum = 14;
-        String fileDesc = "hyphen";
+        int fileNum = 15;
+        String fileDesc = "lastnames";
 
         GameOfThronesConstructor constructor = new GameOfThronesConstructor(15, 3);
 
