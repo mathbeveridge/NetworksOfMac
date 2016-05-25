@@ -197,7 +197,7 @@ public class MatrixConstructor {
 		matrix.toEdgeListCsvLog().writeLog(getFileName(logFolder, "edge", fileNumber, fileDescriptor, "csv"));
 
         // write matrix JSON file
-        matrix.toMatrixJsonLog(getOrderedCharacters()).writeLog(getFileName(logFolder, "mat", fileNumber, fileDescriptor, "json"));
+        //matrix.toMatrixJsonLog(getOrderedCharacters()).writeLog(getFileName(logFolder, "mat", fileNumber, fileDescriptor, "json"));
 
 
 	}

@@ -27,18 +27,18 @@ public class CharacterTokenUpdater {
 
 
     // Game of Thrones
-//    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/got-list-curated.csv";
-//    public static final String TEXT_FILE_NAME = "src/main/resources/text/gameofthrones-intercap.txt";
-//    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/got-list-curated-hyphenated.csv";
-//    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/gameofthrones-hyphenated-update.txt";
+    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/got-list-final.csv";
+    public static final String TEXT_FILE_NAME = "src/main/resources/text/gameofthrones-hyphenated-update.txt";
+    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/got-list-merged.csv";
+    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/gameofthrones-merged.txt";
 
 
 
     // Clash of Kings
-//    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-curated-updated.csv";
-//    public static final String TEXT_FILE_NAME = "src/main/resources/text/clashofkings-intercap-apostrophe.txt";
-//    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-curated-hyphenated.csv";
-//    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/clashofkings-hyphenated-update.txt";
+//    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-curated-hyphenated2-temp.csv";
+//    public static final String TEXT_FILE_NAME = "src/main/resources/text/clashofkings-hyphenated-update2.txt";
+//    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-curated-hyphenated3.csv";
+//    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/clashofkings-hyphenated-update3.txt";
 
 
 
@@ -62,10 +62,10 @@ public class CharacterTokenUpdater {
 //    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/dancewithdragons-hyphenated.txt";
 
 
-    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/pp-characters.csv";
-    public static final String TEXT_FILE_NAME = "src/main/resources/text/prideandprejudice.tex";
-    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/pp-char-hyphen.csv";
-    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/pandp-hyphen.txt";
+//    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/pp-characters.csv";
+//    public static final String TEXT_FILE_NAME = "src/main/resources/text/prideandprejudice.tex";
+//    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/pp-char-hyphen.csv";
+//    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/pandp-hyphen.txt";
 
 
 

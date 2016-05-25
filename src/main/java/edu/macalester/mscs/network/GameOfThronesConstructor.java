@@ -24,9 +24,9 @@ public class GameOfThronesConstructor extends MatrixConstructor {
 //		writeFiles(constructMatrix(characterString, text, 15, NOISE, folder + "/log.txt"), folder, 1, 9, "curated2");
 //		writeFiles(constructMatrix(characterString, text, RADUIS, NOISE, folder + "/log.txt"), folder, 1, 10, "intercap");
 
-    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/got-list-curated-hyphenated.csv";
+    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/got-list-merged.csv";
     public static final String ORDERED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/got-community-ordered.txt";
-    public static final String TEXT_FILE_NAME = "src/main/resources/text/gameofthrones-hyphenated-update.txt";
+    public static final String TEXT_FILE_NAME = "src/main/resources/text/gameofthrones-merged.txt";
     public static final int BOOK_NUMBER = 1;
 
 //    public static final String[] GOT1_ORDERED_CHAR = {
@@ -58,8 +58,8 @@ public class GameOfThronesConstructor extends MatrixConstructor {
      * @param args
      */
     public static void main(String[] args) {
-        int fileNum = 15;
-        String fileDesc = "lastnames";
+        int fileNum = 17;
+        String fileDesc = "merged";
 
         GameOfThronesConstructor constructor = new GameOfThronesConstructor(15, 3);
 

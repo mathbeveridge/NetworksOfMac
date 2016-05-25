@@ -17,8 +17,8 @@ public class ClashOfKingsConstructor extends MatrixConstructor {
 //    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-curated.txt";
 //    public static final String TEXT_FILE_NAME = "src/main/resources/text/clashofkings-intercap.txt";
 
-    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-curated-hyphenated.csv";
-    public static final String TEXT_FILE_NAME = "src/main/resources/text/clashofkings-hyphenated-update.txt";
+    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-curated-hyphenated3.csv";
+    public static final String TEXT_FILE_NAME = "src/main/resources/text/clashofkings-hyphenated-update3.txt";
 
     public static final int BOOK_NUMBER = 2;
 
@@ -27,8 +27,8 @@ public class ClashOfKingsConstructor extends MatrixConstructor {
      * @param args
      */
     public static void main(String[] args) {
-        int fileNum = 4;
-        String fileDesc = "hyphen";
+        int fileNum = 5;
+        String fileDesc = "lastname";
 
         ClashOfKingsConstructor constructor = new ClashOfKingsConstructor(15, 3);
 

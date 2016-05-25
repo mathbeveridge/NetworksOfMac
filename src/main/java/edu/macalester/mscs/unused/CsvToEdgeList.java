@@ -24,7 +24,7 @@ public class CsvToEdgeList {
 
 			edgeWriter.write("Source,Target,Weight,Type\n");
 
-			ArrayList<String> processedList = new ArrayList<>();
+			ArrayList<String> processedList = new ArrayList<String>();
 			String[] temp;
 			int row = 0;
 			while ((temp = csvReader.readNext()) != null) {
