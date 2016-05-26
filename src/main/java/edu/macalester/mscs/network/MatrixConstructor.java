@@ -12,8 +12,7 @@ import java.util.Map;
 
 public class MatrixConstructor {
 
-    public static final String LOG_FOLDER = "src/main/resources/data/logs";
-    public static final String DEFAULT_LOG_FILE_NAME = LOG_FOLDER + "/log.txt";
+    public static final String LOG_FOLDER = "src/main/resources/data/output";
 
 	private final int bookNumber;
 	private final String text;
@@ -58,6 +57,13 @@ public class MatrixConstructor {
     public String[] getOrderedCharacters() {
         return null;
     }
+
+	/**
+	 * Override this method if you want to create a CSV for the nodes with additional attributes
+	 * TODO make this abstract to force the user to implement it
+	 * @return
+     */
+	public String getCharacterDataFileName() { return null; }
 
 	public List<String> getFullCharacterList() {
 		return fullCharacterList;
@@ -177,12 +183,13 @@ public class MatrixConstructor {
 		}
 
 		// write encounters file
-		String encountersFolder = getFileName(logFolder, "encounters", fileNumber, fileDescriptor);
 		Logger logger = new Logger();
 		logger.log("char 1, char2, index, text");
 		logger.log(matrix.getEncounterList());
 		logger.writeLog(getFileName(logFolder, "encounters", fileNumber, fileDescriptor, "csv"));
 		if (encounterListsByCharacter) { // optional
+			String encountersFolder = getFileName(logFolder, "encounters", fileNumber, fileDescriptor);
+
 			for (String name : matrix.getCharacters()) {
                 logger.clear();
                 logger.log(name + " Encounters:");
@@ -196,8 +203,13 @@ public class MatrixConstructor {
 		// write edge file
 		matrix.toEdgeListCsvLog().writeLog(getFileName(logFolder, "edge", fileNumber, fileDescriptor, "csv"));
 
-        // write matrix JSON file
-        //matrix.toMatrixJsonLog(getOrderedCharacters()).writeLog(getFileName(logFolder, "mat", fileNumber, fileDescriptor, "json"));
+		// write node file
+		if (getCharacterDataFileName() != null) {
+			matrix.toNodeListCsvLog(getCharacterDataFileName()).writeLog(getFileName(logFolder, "node", fileNumber, fileDescriptor, "csv"));
+		}
+
+		// write matrix JSON file
+        matrix.toMatrixJsonLog(getOrderedCharacters()).writeLog(getFileName(logFolder, "mat", fileNumber, fileDescriptor, "json"));
 
 
 	}
@@ -242,17 +254,17 @@ public class MatrixConstructor {
 	 * @return
 	 */
 	private String getFileName(String parentFolder, String type, int fileNumber, String descriptor, String extension) {
-		if (descriptor == null) {
-			descriptor = "";
-		} else if (!descriptor.isEmpty()) {
-			descriptor = '-' + descriptor;
+		if (type == null) {
+			type = "";
+		} else if (!type.isEmpty()) {
+			type = '-' + type;
 		}
 		if (extension == null) {
 			extension = "";
 		} else if (!extension.isEmpty() && !extension.startsWith(".")) {
 			extension = '.' + extension;
 		}
-		return parentFolder + "/GoT" + bookNumber + "-" + type + fileNumber + descriptor + extension;
+		return parentFolder + "/GoT" + bookNumber + "-" + fileNumber + type + "-" + descriptor + extension;
 	}
 
 	/**
