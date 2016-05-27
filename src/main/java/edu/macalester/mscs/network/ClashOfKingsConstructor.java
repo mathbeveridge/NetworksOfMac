@@ -5,20 +5,9 @@ package edu.macalester.mscs.network;
  */
 public class ClashOfKingsConstructor extends MatrixConstructor {
 
-    /**
-     * Legacy file creation for Clash of Kings
-     */
 
-//		String text = getText("src/main/resources/text/clashofkings-intercap.txt");
-//		String characterString = getCharacterString("src/main/resources/data/characters/cok-list-curated.txt");
-//		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 2, 1, "curated");
-//		writeFiles(constructMatrix(characterString, text, RADIUS, NOISE, folder + "/log.txt"), folder, 2, 2, "intercap");
-
-//    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-curated.txt";
-//    public static final String TEXT_FILE_NAME = "src/main/resources/text/clashofkings-intercap.txt";
-
-    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-curated-hyphenated3.csv";
-    public static final String TEXT_FILE_NAME = "src/main/resources/text/clashofkings-hyphenated-update3.txt";
+    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-merged.csv";
+    public static final String TEXT_FILE_NAME = "src/main/resources/text/clashofkings-merged-2.txt";
 
     public static final int BOOK_NUMBER = 2;
 
@@ -27,8 +16,8 @@ public class ClashOfKingsConstructor extends MatrixConstructor {
      * @param args
      */
     public static void main(String[] args) {
-        int fileNum = 5;
-        String fileDesc = "lastname";
+        int fileNum = 6;
+        String fileDesc = "merged";
 
         ClashOfKingsConstructor constructor = new ClashOfKingsConstructor(15, 3);
 
