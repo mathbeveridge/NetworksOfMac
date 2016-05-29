@@ -5,8 +5,8 @@ package edu.macalester.mscs.network;
  */
 public class StormOfSwordsConstructor extends MatrixConstructor {
 
-    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/sos-list-curated-hyphenated.csv";
-    public static final String TEXT_FILE_NAME = "src/main/resources/text/stormofswords-hyphenated.txt";
+    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/sos-list-merged-clean.csv";
+    public static final String TEXT_FILE_NAME = "src/main/resources/text/stormofswords-merged.txt";
     public static final int BOOK_NUMBER = 3;
 
     /**
@@ -14,8 +14,8 @@ public class StormOfSwordsConstructor extends MatrixConstructor {
      * @param args
      */
     public static void main(String[] args) {
-        int fileNum = 3;
-        String fileDesc = "hyphen";
+        int fileNum = 4;
+        String fileDesc = "merged";
 
         StormOfSwordsConstructor constructor = new StormOfSwordsConstructor(15, 3);
 

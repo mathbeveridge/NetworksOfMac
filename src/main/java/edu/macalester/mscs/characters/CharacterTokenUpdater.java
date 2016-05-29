@@ -35,18 +35,18 @@ public class CharacterTokenUpdater {
 
 
     // Clash of Kings
-    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-merged-temp3.csv";
-    public static final String TEXT_FILE_NAME = "src/main/resources/text/clashofkings-merged-1.txt";
-    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-merged.csv";
-    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/clashofkings-merged-2.txt";
+//    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-merged-temp3.csv";
+//    public static final String TEXT_FILE_NAME = "src/main/resources/text/clashofkings-merged-1.txt";
+//    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-merged.csv";
+//    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/clashofkings-merged-2.txt";
 
 
 
     // Storm of Swords
-//    public static final String CHARACTER_FILE_NAME = "src/main/resources/working/characters/sos-list-clean-redundant.csv";
-//    public static final String TEXT_FILE_NAME = "src/main/resources/text/stormofswords-updated2.txt";
-//    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/working/characters/sos-list-curated-hyphenated.csv";
-//    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/stormofswords-hyphenated.txt";
+    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/sos-list-merged.csv";
+    public static final String TEXT_FILE_NAME = "src/main/resources/text/stormofswords-hyphenated.txt";
+    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/sos-list-merged-clean.csv";
+    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/stormofswords-merged.txt";
 
 
     // Feast for Crows

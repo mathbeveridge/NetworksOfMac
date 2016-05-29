@@ -84,21 +84,64 @@ public class CharacterSearch {
 */
 
 
-
-        processFiles("src/main/resources/text/stormofswords.txt",
-                "src/main/resources/data/characters/sos-list-curated-hyphenated.csv",
-                "src/main/resources/data/characters/mynotoar/GameOfThronesCatalogShort.csv",
-                "src/main/resources/data/characters/mynotoar/SOS-GameOfThrones-Keep.csv",
-                "src/main/resources/data/characters/mynotoar/SOS-GameOfThrones-Remove.csv"
-        );
-
-
-
         /// createAddFile();
 
+        String[] sosCatalogFileNames = new String[] {
+                "src/main/resources/data/characters/mynotoar/GameOfThronesCatalogShort.csv",
+                "src/main/resources/data/characters/mynotoar/GameOfThronesAppendixCatalogShort.csv",
+                "src/main/resources/data/characters/mynotoar/ClashOfKingsCatalogShort.csv",
+                "src/main/resources/data/characters/mynotoar/ClashOfKingsAppendixCatalogShort.csv"
+        };
+
+        updateCharListFile("src/main/resources/data/characters/sos-list-curated-hyphenated.csv",
+                sosCatalogFileNames,
+                "src/main/resources/text/stormofswords.txt");
+
+
+    }
 
 
 
+
+    private static void updateCharListFile(String charFileName, String[] charCatalogNames, String textFileName) {
+
+        Map<String, String> charMap = new TreeMap<String, String>();
+
+        List<String> charList = FileUtils.readFile(charFileName);
+
+        for (String currentLine : charList) {
+            String currentKey = currentLine.split(",")[0];
+            charMap.put(currentKey, "old," + currentLine);
+        }
+
+
+        Map<String, String> tempMap;
+
+        for (int i=0; i < charCatalogNames.length; i++) {
+            tempMap = processFile(textFileName, charCatalogNames[i]);
+            updateCharacterMap(charMap, tempMap);
+        }
+
+        List<String> updatedList = new ArrayList<String>();
+
+        for (String k : charMap.keySet()) {
+            updatedList.add(charMap.get(k));
+        }
+
+        System.out.println("updatedList=" + updatedList.size());
+
+
+
+        for (String temp : updatedList) {
+            //System.out.println(temp);
+
+            if (temp == null) {
+                System.out.println("\t\t========" + temp);
+            }
+        }
+
+        String filePrefix = charFileName.split("\\.")[0];
+        FileUtils.writeFile(updatedList, filePrefix + "-merged.csv");
 
 
     }
@@ -107,11 +150,8 @@ public class CharacterSearch {
      * Goes through the original text and then makes a recommendation for each character in the given catelog: keep or remove.
      * @param textName
      * @param catalogName
-     * @param keepCatalogName
-     * @param removeCatalogName
      */
-    private static void processFiles(String textName, String currentListName,
-                                     String catalogName, String keepCatalogName, String removeCatalogName) {
+    private static Map<String,String> processFile(String textName, String catalogName) {
         List<String> charLines = FileUtils.readFile(catalogName);
         HashMap<String, String[]> charMap = new HashMap<String, String[]>();
         HashMap<String, String> charLineMap = new HashMap<String, String>();
@@ -129,7 +169,6 @@ public class CharacterSearch {
         List<String> textLines = FileUtils.readFile(textName);
 
         for (String textLine : textLines) {
-
 
             List<String> removalList = new ArrayList<String>();
 
@@ -178,13 +217,8 @@ public class CharacterSearch {
             System.out.println("\t suggest removing:" + key );
         }
 
-        List<String> currentCharList = FileUtils.readFile(currentListName);
-        TreeMap<String, String> currentMap = new TreeMap<String, String>();
+        TreeMap<String, String> keepMap = new TreeMap<String, String>();
 
-        for (String currentLine : currentCharList) {
-            String currentKey = currentLine.split(",")[0];
-            currentMap.put(currentKey, "old," + currentLine);
-        }
 
         List<String> keepLines = new ArrayList<String>();
         List<String> removeLines = new ArrayList<String>();
@@ -197,40 +231,275 @@ public class CharacterSearch {
                 removeLines.add(line);
             } else {
                 keepLines.add(line);
+                keepMap.put(charKey,charLineMap.get(charKey));
+            }
+        }
 
-                if (! currentMap.containsKey(charKey)) {
-                    System.out.println("Adding for [" + charKey + "]");
-                    currentMap.put(charKey, charLineMap.get(charKey));
+        String filePrefix = catalogName.split("\\.")[0];
+
+        FileUtils.writeFile(keepLines,filePrefix + "_SOSkeep.csv");
+        FileUtils.writeFile(removeLines,filePrefix + "_SOSremove.csv");
+
+        return keepMap;
+    }
+
+
+
+
+    /**
+     * Goes through the original text and then makes a recommendation for each character in the given catelog: keep or remove.
+     * @param textName
+     * @param catalogName
+     * @param keepCatalogName
+     * @param removeCatalogName
+     */
+    private static Map<String,String> processFiles(String textName,
+                                            String catalogName, String keepCatalogName, String removeCatalogName) {
+        List<String> charLines = FileUtils.readFile(catalogName);
+        HashMap<String, String[]> charMap = new HashMap<String, String[]>();
+        HashMap<String, String> charLineMap = new HashMap<String, String>();
+
+        System.out.println("Processing book:" + textName + " and catalog:" + catalogName);
+
+
+        for (String line : charLines) {
+            String[] tokens = line.split(",");
+            String key = tokens[1].replace("\"","");
+            charMap.put(key, tokens);
+            charLineMap.put(key,line);
+        }
+
+        List<String> textLines = FileUtils.readFile(textName);
+
+        for (String textLine : textLines) {
+
+            List<String> removalList = new ArrayList<String>();
+
+            for (String key : charMap.keySet()) {
+                String[] tokens = charMap.get(key);
+
+                if (textLine.contains(tokens[SHORT_CAT_NAME_INDEX])) {
+                    // name
+                    System.out.println("matched: " + key + " name token:" + tokens[SHORT_CAT_NAME_INDEX]);
+                    removalList.add(key);
+                } else if ( tokens.length > SHORT_CAT_ALIAS_INDEX &&
+                        tokens[SHORT_CAT_ALIAS_INDEX].length() > 0 && textLine.contains(tokens[SHORT_CAT_ALIAS_INDEX])) {
+                    System.out.println("matched: " + key + " alias token:" + tokens[SHORT_CAT_ALIAS_INDEX]);
+                    removalList.add(key);
+                } else if ( tokens.length > SHORT_CAT_SURNAME_INDEX &&
+                        tokens[SHORT_CAT_TITLE_INDEX].length() > 0) {
+                    if (tokens[SHORT_CAT_SURNAME_INDEX].length() >0) {
+                        if (textLine.contains(tokens[SHORT_CAT_TITLE_INDEX] + ' ' + tokens[SHORT_CAT_SURNAME_INDEX])) {
+                            System.out.println("matched: " + key + " title/last name token:" + tokens[SHORT_CAT_TITLE_INDEX] + ' ' + tokens[SHORT_CAT_SURNAME_INDEX]);
+                            removalList.add(key);
+                        }
+                    }
+
+                    if (tokens[SHORT_CAT_SURNAME_INDEX].length() >0) {
+                        if (textLine.contains(tokens[SHORT_CAT_FORENAME_INDEX] + ' ' + tokens[SHORT_CAT_SURNAME_INDEX])) {
+                            System.out.println("matched: " + key + " first/last name token:" + tokens[SHORT_CAT_FORENAME_INDEX] + ' ' + tokens[SHORT_CAT_SURNAME_INDEX]);
+                            removalList.add(key);
+                        }
+                    }
                 }
+
+
+            }
+
+            if (removalList.size() > 0) {
+                for (String k : removalList) {
+                    charMap.remove(k);
+                }
+            }
+        }
+
+
+        System.out.println("===== didn't match " + charMap.size());
+
+        for (String key : charMap.keySet()) {
+            System.out.println("\t suggest removing:" + key );
+        }
+
+       TreeMap<String, String> keepMap = new TreeMap<String, String>();
+
+
+        List<String> keepLines = new ArrayList<String>();
+        List<String> removeLines = new ArrayList<String>();
+
+        for (String line : charLines) {
+            String charKey = line.split(",")[SHORT_CAT_ID_INDEX];
+            System.out.println("\t===charKey=[" + charKey + "]");
+
+            if (charMap.containsKey(charKey)) {
+                removeLines.add(line);
+            } else {
+                keepLines.add(line);
+                keepMap.put(charKey,charLineMap.get(charKey));
             }
         }
 
         FileUtils.writeFile(keepLines,keepCatalogName);
         FileUtils.writeFile(removeLines,removeCatalogName);
 
-        List<String> updatedList = new ArrayList<String>();
-
-        for (String k : currentMap.keySet()) {
-            updatedList.add(currentMap.get(k));
-        }
-
-        System.out.println("updatedList=" + updatedList.size());
 
 
-
-        for (String temp : updatedList) {
-            //System.out.println(temp);
-
-            if (temp == null) {
-                System.out.println("\t\t========" + temp);
-            }
-         }
-
-       FileUtils.writeFile(updatedList, currentListName + "2");
-
-
-
+        return keepMap;
     }
+
+
+
+
+
+    /**
+     * Goes through the original text and then makes a recommendation for each character in the given catelog: keep or remove.
+     * @param textName
+     * @param catalogName
+     * @param keepCatalogName
+     * @param removeCatalogName
+     */
+//    private Map<String,String> processFiles(String textName, String currentListName,
+//                                     String catalogName, String keepCatalogName, String removeCatalogName) {
+//        List<String> charLines = FileUtils.readFile(catalogName);
+//        HashMap<String, String[]> charMap = new HashMap<String, String[]>();
+//        HashMap<String, String> charLineMap = new HashMap<String, String>();
+//
+//        System.out.println("Processing book:" + textName + " and catalog:" + catalogName);
+//
+//
+//        for (String line : charLines) {
+//            String[] tokens = line.split(",");
+//            String key = tokens[1].replace("\"","");
+//            charMap.put(key, tokens);
+//            charLineMap.put(key,line);
+//        }
+//
+//        List<String> textLines = FileUtils.readFile(textName);
+//
+//        for (String textLine : textLines) {
+//
+//            List<String> removalList = new ArrayList<String>();
+//
+//            for (String key : charMap.keySet()) {
+//                String[] tokens = charMap.get(key);
+//
+//                if (textLine.contains(tokens[SHORT_CAT_NAME_INDEX])) {
+//                    // name
+//                    System.out.println("matched: " + key + " name token:" + tokens[SHORT_CAT_NAME_INDEX]);
+//                    removalList.add(key);
+//                } else if ( tokens.length > SHORT_CAT_ALIAS_INDEX &&
+//                        tokens[SHORT_CAT_ALIAS_INDEX].length() > 0 && textLine.contains(tokens[SHORT_CAT_ALIAS_INDEX])) {
+//                    System.out.println("matched: " + key + " alias token:" + tokens[SHORT_CAT_ALIAS_INDEX]);
+//                    removalList.add(key);
+//                } else if ( tokens.length > SHORT_CAT_SURNAME_INDEX &&
+//                        tokens[SHORT_CAT_TITLE_INDEX].length() > 0) {
+//                    if (tokens[SHORT_CAT_SURNAME_INDEX].length() >0) {
+//                        if (textLine.contains(tokens[SHORT_CAT_TITLE_INDEX] + ' ' + tokens[SHORT_CAT_SURNAME_INDEX])) {
+//                            System.out.println("matched: " + key + " title/last name token:" + tokens[SHORT_CAT_TITLE_INDEX] + ' ' + tokens[SHORT_CAT_SURNAME_INDEX]);
+//                            removalList.add(key);
+//                        }
+//                    }
+//
+//                    if (tokens[SHORT_CAT_SURNAME_INDEX].length() >0) {
+//                        if (textLine.contains(tokens[SHORT_CAT_FORENAME_INDEX] + ' ' + tokens[SHORT_CAT_SURNAME_INDEX])) {
+//                            System.out.println("matched: " + key + " first/last name token:" + tokens[SHORT_CAT_FORENAME_INDEX] + ' ' + tokens[SHORT_CAT_SURNAME_INDEX]);
+//                            removalList.add(key);
+//                        }
+//                    }
+//                }
+//
+//
+//            }
+//
+//            if (removalList.size() > 0) {
+//                for (String k : removalList) {
+//                    charMap.remove(k);
+//                }
+//            }
+//        }
+//
+//
+//        System.out.println("===== didn't match " + charMap.size());
+//
+//        for (String key : charMap.keySet()) {
+//            System.out.println("\t suggest removing:" + key );
+//        }
+//
+//        List<String> currentCharList = FileUtils.readFile(currentListName);
+//
+//        TreeMap<String, String> currentMap = new TreeMap<String, String>();
+//        TreeMap<String, String> keepMap = new TreeMap<String, String>();
+//
+//
+//        for (String currentLine : currentCharList) {
+//            String currentKey = currentLine.split(",")[0];
+//            currentMap.put(currentKey, "old," + currentLine);
+//        }
+//
+//        List<String> keepLines = new ArrayList<String>();
+//        List<String> removeLines = new ArrayList<String>();
+//
+//        for (String line : charLines) {
+//            String charKey = line.split(",")[SHORT_CAT_ID_INDEX];
+//            System.out.println("\t===charKey=[" + charKey + "]");
+//
+//            if (charMap.containsKey(charKey)) {
+//                removeLines.add(line);
+//            } else {
+//                keepLines.add(line);
+//
+//                if (! currentMap.containsKey(charKey)) {
+//                    System.out.println("Adding for [" + charKey + "]");
+//                    currentMap.put(charKey, charLineMap.get(charKey));
+//                    keepMap.put(charKey,charLineMap.get(charKey));
+//                }
+//            }
+//        }
+//
+//        FileUtils.writeFile(keepLines,keepCatalogName);
+//        FileUtils.writeFile(removeLines,removeCatalogName);
+//
+//        List<String> updatedList = new ArrayList<String>();
+//
+//        for (String k : currentMap.keySet()) {
+//            updatedList.add(currentMap.get(k));
+//        }
+//
+//        System.out.println("updatedList=" + updatedList.size());
+//
+//
+//
+//        for (String temp : updatedList) {
+//            //System.out.println(temp);
+//
+//            if (temp == null) {
+//                System.out.println("\t\t========" + temp);
+//            }
+//         }
+//
+//       FileUtils.writeFile(updatedList, currentListName + "2");
+//
+//
+//        return keepMap;
+//    }
+
+
+
+    /**
+     * Adds key/value pairs in newCharMap to currentCharMap, provided that the key does not already exist.
+     * @param currentCharMap
+     * @param newCharMap
+     * @return
+     */
+    private static void updateCharacterMap(Map<String,String> currentCharMap, Map<String,String> newCharMap) {
+
+        for (String newKey : newCharMap.keySet()) {
+            if (!currentCharMap.containsKey(newKey)) {
+                System.out.println("Adding for [" + newKey + "]");
+                currentCharMap.put(newKey, newCharMap.get(newKey));
+            }
+        }
+    }
+
 
 
     /**
@@ -276,6 +545,11 @@ public class CharacterSearch {
         FileUtils.writeFile(newLines,"src/main/resources/data/characters/mynotoar/SOS-keep.csv");
 
     }
+
+
+
+
+
 
     /**
      * Similar to processFiles, but this one takes a comma delimited string of names as an input.
