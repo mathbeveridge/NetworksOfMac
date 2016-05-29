@@ -36,8 +36,13 @@ public class FileUtils {
         try {
             writer = new BufferedWriter(new FileWriter(file));
             for (String line : lines) {
-                writer.write(line);
-                writer.write('\n');
+                if (line == null) {
+                    System.out.println("FileUtils.writeFile() is skipping null line");
+                } else {
+                    writer.write(line);
+                    writer.write('\n');
+                }
+
             }
         } catch (IOException e) {
             throw new RuntimeException(e);

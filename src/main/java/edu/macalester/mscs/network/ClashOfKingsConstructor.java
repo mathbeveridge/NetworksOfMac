@@ -6,7 +6,7 @@ package edu.macalester.mscs.network;
 public class ClashOfKingsConstructor extends MatrixConstructor {
 
 
-    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-merged.csv";
+    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-merged2.csv";
     public static final String TEXT_FILE_NAME = "src/main/resources/text/clashofkings-merged-2.txt";
 
     public static final int BOOK_NUMBER = 2;
