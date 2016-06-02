@@ -4,6 +4,7 @@ import com.opencsv.CSVReader;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Takes in an adjacency matrix (CSV) and outputs an edge list that is ready to
@@ -24,7 +25,7 @@ public class CsvToEdgeList {
 
 			edgeWriter.write("Source,Target,Weight,Type\n");
 
-			ArrayList<String> processedList = new ArrayList<String>();
+			List<String> processedList = new ArrayList<>();
 			String[] temp;
 			int row = 0;
 			while ((temp = csvReader.readNext()) != null) {

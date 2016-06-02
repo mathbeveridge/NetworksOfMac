@@ -3,10 +3,10 @@ package edu.macalester.mscs.characters;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 import edu.macalester.mscs.utils.FileUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import java.io.FileReader;
 import java.io.FileWriter;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -52,78 +52,64 @@ public class CharacterListMerger {
         // Feast for Crows
         processFiles(FFC_LIST_FILE_NAME, FFC_MYNOTOAR_FILE_NAME, FFC_OUTPUT_FILE_NAME);
 
-
-
 //        removeDoubles();
 
     }
 
     public static void processFiles(String curatedFileName, String mynotoarFileName, String outputFileName) {
+        List<String> curatedList = FileUtils.readFile(curatedFileName);
+        List<String> mynotoarList = FileUtils.readFile(mynotoarFileName);
 
+        List<String> outputList = new ArrayList<>();
 
-            List<String> curatedList = FileUtils.readFile(curatedFileName);
-            List<String> mynotoarList = FileUtils.readFile(mynotoarFileName);
+        int curatedIndex = 0;
+        int mynotoarIndex = 0;
 
-            List<String> outputList = new ArrayList<String>();
-
+        while (curatedIndex < curatedList.size() || mynotoarIndex < mynotoarList.size()) {
             String curatedLine = null;
-            String mynotoarLine = null;
-
-            int curatedIndex = 0;
-            int mynotoarIndex = 0;
-
-            while (curatedIndex < curatedList.size() || mynotoarIndex < mynotoarList.size()) {
-                if (curatedIndex < curatedList.size()) {
-                    curatedLine = curatedList.get(curatedIndex);
-                } else {
-                    curatedLine = null;
-                }
-
-                if (mynotoarIndex < mynotoarList.size()) {
-                    mynotoarLine = mynotoarList.get(mynotoarIndex);
-                } else {
-                    mynotoarLine = null;
-                }
-
-                if (curatedLine != null && mynotoarLine != null) {
-                    String curatedKey = curatedLine.split(",")[0];
-                    String mynotoarKey = mynotoarLine.split(",")[0];
-
-                    int val = curatedKey.compareTo(mynotoarKey);
-
-                    if (val == 0) {
-                        System.out.println("match: " + curatedLine);
-                        outputList.add("old match," + curatedLine);
-                        curatedIndex++;
-                        mynotoarIndex++;
-                    } else if (val < 0) {
-                        System.out.println("curated no match: " + curatedLine);
-                        outputList.add("old no match," + curatedLine);
-                        curatedIndex++;
-                    } else {
-                        System.out.println("official no match: " + mynotoarLine);
-                        outputList.add("NEW NEW NEW NEW NEW," + mynotoarLine);
-                        mynotoarIndex++;
-                    }
-                } else if (curatedLine == null) {
-                    System.out.println("mynotoar endgame: " + mynotoarLine);
-                    outputList.add("NEW NEW NEW NEW NEW," + mynotoarLine);
-                    mynotoarIndex++;
-                } else {
-                    System.out.println("curated endgame: " + curatedLine);
-                    outputList.add("old no match," + curatedLine);
-                    curatedIndex++;
-                }
-
+            if (curatedIndex < curatedList.size()) {
+                curatedLine = curatedList.get(curatedIndex);
             }
 
-            FileUtils.writeFile(outputList, outputFileName);
+            String mynotoarLine = null;
+            if (mynotoarIndex < mynotoarList.size()) {
+                mynotoarLine = mynotoarList.get(mynotoarIndex);
+            }
 
+            if (curatedLine != null && mynotoarLine != null) {
+                String curatedKey = StringUtils.substringBefore(curatedLine, ",");
+                String mynotoarKey = StringUtils.substringBefore(mynotoarLine, ",");
 
+                int val = curatedKey.compareTo(mynotoarKey);
 
+                if (val == 0) {
+                    System.out.println("match: " + curatedLine);
+                    outputList.add("old match," + curatedLine);
+                    curatedIndex++;
+                    mynotoarIndex++;
+                } else if (val < 0) {
+                    System.out.println("curated no match: " + curatedLine);
+                    outputList.add("old no match," + curatedLine);
+                    curatedIndex++;
+                } else {
+                    System.out.println("official no match: " + mynotoarLine);
+                    outputList.add("NEW NEW NEW NEW NEW," + mynotoarLine);
+                    mynotoarIndex++;
+                }
+            } else if (curatedLine == null) {
+                System.out.println("mynotoar endgame: " + mynotoarLine);
+                outputList.add("NEW NEW NEW NEW NEW," + mynotoarLine);
+                mynotoarIndex++;
+            } else {
+                System.out.println("curated endgame: " + curatedLine);
+                outputList.add("old no match," + curatedLine);
+                curatedIndex++;
+            }
 
+        }
+
+        FileUtils.writeFile(outputList, outputFileName);
     }
-
 
     public static void processFilesOld(String curatedFileName, String mynotoarFileName, String outputFileName) {
 
@@ -193,14 +179,11 @@ public class CharacterListMerger {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-
     }
-
 
     private static void removeDoubles() {
         List<String> lines = FileUtils.readFile("src/main/resources/data/characters/cok-list-merged-temp2.csv");
-        List<String> newLines = new ArrayList<String>();
+        List<String> newLines = new ArrayList<>();
 
         String prevLine = null;
 
@@ -208,8 +191,8 @@ public class CharacterListMerger {
             if (prevLine == null) {
                 prevLine = currentLine;
             } else {
-                String prevToken = prevLine.split(",")[0];
-                String currentToken = currentLine.split(",")[0];
+                String prevToken = StringUtils.substringBefore(prevLine, ",");
+                String currentToken = StringUtils.substringBefore(currentLine, ",");
 
                 //System.out.println(prevToken + " and " + currentToken);
 
@@ -221,24 +204,18 @@ public class CharacterListMerger {
                         System.out.println("skipping:" + currentLine);
                         newLines.add(prevLine);
                     }
-
                     prevLine = null;
                 } else {
                     newLines.add(prevLine);
                     prevLine = currentLine;
                 }
-
             }
-
         }
-
 
         if (prevLine != null) {
             newLines.add(prevLine);
         }
 
-
         FileUtils.writeFile(newLines, "src/main/resources/data/characters/cok-list-merged-temp3.csv");
-
     }
 }

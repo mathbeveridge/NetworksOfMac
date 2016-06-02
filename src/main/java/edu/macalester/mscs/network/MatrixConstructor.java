@@ -237,7 +237,7 @@ public class MatrixConstructor {
 	/**
 	 * Returns a file name in parentFolder, with name
 	 *
-	 * GoT[bookNumber]-[type][fileNumber]-[descriptor].[extension]
+	 * GoT[bookNumber]-[fileNumber]-[type]-[descriptor].[extension]
 	 *
 	 * Note that descriptor is optional, and if specified as null or the empty string,
 	 * it and the final hyphen will not be included. Also if the '.' is included in
@@ -247,24 +247,24 @@ public class MatrixConstructor {
 	 * the returned file name.
 	 *
 	 * @param parentFolder
-	 * @param type
 	 * @param fileNumber
+	 * @param type
 	 * @param descriptor
 	 * @param extension
 	 * @return
 	 */
 	private String getFileName(String parentFolder, String type, int fileNumber, String descriptor, String extension) {
-		if (type == null) {
-			type = "";
-		} else if (!type.isEmpty()) {
-			type = '-' + type;
+		if (descriptor == null) {
+			descriptor = "";
+		} else if (!descriptor.isEmpty()) {
+			descriptor = '-' + descriptor;
 		}
 		if (extension == null) {
 			extension = "";
 		} else if (!extension.isEmpty() && !extension.startsWith(".")) {
 			extension = '.' + extension;
 		}
-		return parentFolder + "/GoT" + bookNumber + "-" + fileNumber + type + "-" + descriptor + extension;
+		return parentFolder + "/GoT" + bookNumber + "-" + fileNumber + "-" + type + descriptor + extension;
 	}
 
 	/**

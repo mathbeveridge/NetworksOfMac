@@ -254,7 +254,7 @@ public class CharacterFinder {
         logger.log();
         logger.log(counter.size());
         return logger;
-}
+    }
 
     //==========================================//
     //       Name Manipulation Functions        //
