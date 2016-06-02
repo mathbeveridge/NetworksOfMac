@@ -1,9 +1,10 @@
 package edu.macalester.mscs.characters;
 
+import com.opencsv.CSVReader;
 import edu.macalester.mscs.utils.FileUtils;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.io.FileReader;
+import java.util.*;
 
 /**
  * Creates new versions of the character list and the input text, replacing multiple-word names with hyphenated versions.
@@ -43,19 +44,19 @@ public class CharacterTokenUpdater {
 
 
     // Storm of Swords
-    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/sos-list-merged.csv";
-    public static final String TEXT_FILE_NAME = "src/main/resources/text/stormofswords-hyphenated.txt";
-    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/sos-list-merged-clean.csv";
-    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/stormofswords-merged.txt";
+    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/sos-list-mynowiki-updated.csv";
+    public static final String TEXT_FILE_NAME = "src/main/resources/text/stormofswords-mynowiki.txt";
+    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/sos-list-mynowiki2.csv";
+    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/stormofswords-mynowiki2.txt";
 
 
     // Feast for Crows
-//    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/ffc-list-clean-redundant-ordered.csv";
-//    public static final String TEXT_FILE_NAME = "src/main/resources/text/feastforcrows-clean.txt";
-//    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/ffc-list-curated-hyphenated.csv";
-//    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/feastforcrows-hyphenated.txt";
+//    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/ffc-list-myno5.csv";
+//    public static final String TEXT_FILE_NAME = "src/main/resources/text/feastforcrows-myno5.txt";
+//    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/ffc-list-mynowiki6.csv";
+//    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/feastforcrows-mynowiki6.txt";
 
-    // Feast for Crows
+    // Dance with Dragons
 //    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/dwd-list-clean-updated.csv";
 //    public static final String TEXT_FILE_NAME = "src/main/resources/text/dancewithdragons-updated.txt";
 //    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/dwd-list-curated-hyphenated.csv";
@@ -71,6 +72,12 @@ public class CharacterTokenUpdater {
 
 
     public static void main(String[] args) {
+
+        hyphenate();
+        //checkUnique();
+    }
+
+    private static void hyphenate() {
 
         List<String> charLines = FileUtils.readFile(CHARACTER_FILE_NAME);
         List<String> tokens = new ArrayList<>();
@@ -115,4 +122,45 @@ public class CharacterTokenUpdater {
         FileUtils.writeFile(newText, UPDATED_TEXT_FILE_NAME);
         FileUtils.writeFile(newCharLines, UPDATED_CHARACTER_FILE_NAME);
     }
+
+
+    private static void checkUnique() {
+
+        System.out.println(UPDATED_CHARACTER_FILE_NAME);
+        try {
+            CSVReader reader = new CSVReader(new FileReader(UPDATED_CHARACTER_FILE_NAME));
+
+            List<String[]> data = reader.readAll();
+            Set<String> keySet = new TreeSet<String>();
+            Set<String> aliasSet = new TreeSet<String>();
+
+            for (String[] charData : data) {
+                String key = charData[0].trim();
+                if (key.length() > 0) {
+                    if (keySet.contains(key)) {
+                        System.out.println("keySet already has key:" + key);
+                    } else {
+                        keySet.add(key);
+                    }
+                }
+
+                for (int i=1; i < charData.length; i++) {
+                    key = charData[i].trim();
+
+                    if (key.length() > 0) {
+                        if (aliasSet.contains(key)) {
+                            System.out.println("aliasSet already has key:" + key);
+                        } else {
+                            aliasSet.add(key);
+                        }
+                    }
+                }
+            }
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
 }

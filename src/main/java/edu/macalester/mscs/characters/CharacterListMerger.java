@@ -27,6 +27,15 @@ public class CharacterListMerger {
     public static final String COK_MYNOTOAR_FILE_NAME = "src/main/resources/data/characters/mynotoar/ClashOfKingsList.csv";
     public static final String COK_OUTPUT_FILE_NAME = "src/main/resources/data/characters/cok-list-merged-temp.csv";
 
+    public static final String SOS_LIST_FILE_NAME = "src/main/resources/data/characters/sos-list-mergedwiki-clean.csv";
+    public static final String SOS_MYNOTOAR_FILE_NAME = "src/main/resources/data/characters/mynotoar/StormOfSwordsCatalogShort.csv";
+    public static final String SOS_OUTPUT_FILE_NAME = "src/main/resources/data/characters/sos-list-mynowiki-temp.csv";
+
+    public static final String FFC_LIST_FILE_NAME = "src/main/resources/data/characters/ffc-list-merge-temp1.csv";
+    public static final String FFC_MYNOTOAR_FILE_NAME = "src/main/resources/data/characters/mynotoar/FeastForCrowsCatalogShort.csv";
+    public static final String FFC_OUTPUT_FILE_NAME = "src/main/resources/data/characters/ffc-list-merge-temp2-revisited.csv";
+
+
 
     public static void main(String[] args) {
 
@@ -36,11 +45,87 @@ public class CharacterListMerger {
         // Clash of Kings
         //processFiles(COK_CURATED_FILE_NAME, COK_MYNOTOAR_FILE_NAME, COK_OUTPUT_FILE_NAME);
 
-        removeDoubles();
+
+        // Storm of Swords
+        //processFiles(SOS_LIST_FILE_NAME, SOS_MYNOTOAR_FILE_NAME, SOS_OUTPUT_FILE_NAME);
+
+        // Feast for Crows
+        processFiles(FFC_LIST_FILE_NAME, FFC_MYNOTOAR_FILE_NAME, FFC_OUTPUT_FILE_NAME);
+
+
+
+//        removeDoubles();
 
     }
 
     public static void processFiles(String curatedFileName, String mynotoarFileName, String outputFileName) {
+
+
+            List<String> curatedList = FileUtils.readFile(curatedFileName);
+            List<String> mynotoarList = FileUtils.readFile(mynotoarFileName);
+
+            List<String> outputList = new ArrayList<String>();
+
+            String curatedLine = null;
+            String mynotoarLine = null;
+
+            int curatedIndex = 0;
+            int mynotoarIndex = 0;
+
+            while (curatedIndex < curatedList.size() || mynotoarIndex < mynotoarList.size()) {
+                if (curatedIndex < curatedList.size()) {
+                    curatedLine = curatedList.get(curatedIndex);
+                } else {
+                    curatedLine = null;
+                }
+
+                if (mynotoarIndex < mynotoarList.size()) {
+                    mynotoarLine = mynotoarList.get(mynotoarIndex);
+                } else {
+                    mynotoarLine = null;
+                }
+
+                if (curatedLine != null && mynotoarLine != null) {
+                    String curatedKey = curatedLine.split(",")[0];
+                    String mynotoarKey = mynotoarLine.split(",")[0];
+
+                    int val = curatedKey.compareTo(mynotoarKey);
+
+                    if (val == 0) {
+                        System.out.println("match: " + curatedLine);
+                        outputList.add("old match," + curatedLine);
+                        curatedIndex++;
+                        mynotoarIndex++;
+                    } else if (val < 0) {
+                        System.out.println("curated no match: " + curatedLine);
+                        outputList.add("old no match," + curatedLine);
+                        curatedIndex++;
+                    } else {
+                        System.out.println("official no match: " + mynotoarLine);
+                        outputList.add("NEW NEW NEW NEW NEW," + mynotoarLine);
+                        mynotoarIndex++;
+                    }
+                } else if (curatedLine == null) {
+                    System.out.println("mynotoar endgame: " + mynotoarLine);
+                    outputList.add("NEW NEW NEW NEW NEW," + mynotoarLine);
+                    mynotoarIndex++;
+                } else {
+                    System.out.println("curated endgame: " + curatedLine);
+                    outputList.add("old no match," + curatedLine);
+                    curatedIndex++;
+                }
+
+            }
+
+            FileUtils.writeFile(outputList, outputFileName);
+
+
+
+
+    }
+
+
+    public static void processFilesOld(String curatedFileName, String mynotoarFileName, String outputFileName) {
 
         try {
             CSVReader curatedReader = new CSVReader(new FileReader(curatedFileName));

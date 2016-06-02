@@ -1,1028 +1,1028 @@
-"Id","Name","Full Name","Title","Alias","Allegiance","Royal House","Culture","Reference"
-"Addam-Marbrand","Addam Marbrand","","Ser;Commander of the City Watch;","","House Marbrand;","","","appears"
-"Aegon-Blackfyre","Aegon Blackfyre","","","","House Blackfyre;","","Valyrian","mentioned"
-"Aegon-Frey-(son-of-Stevron)","Aegon Frey (son of Stevron)","","","Aegon Frey (son of Stevron);Jinglebell;","House Frey;","","","appears"
-"Aegon-Frey-(son-of-Aenys)","Aegon Frey (son of Aenys)","","","Aegon Frey (son of Aenys);Aegon Bloodborn;","House Frey;","","","mentioned"
-"Aegon-I-Targaryen","Aegon I Targaryen","Aegon Targaryen the First of His Name","","Aegon I Targaryen;Aegon the Conqueror;Aegon the Dragon;Aegon the Dragonlord;King of All Westeros;Shield of His People;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm;Lord of Dragonstone","House Targaryen","House Targaryen","","mentioned"
-"Aegon-II-Targaryen","Aegon II Targaryen","Aegon Targaryen the Second of His Name","","Aegon II Targaryen;Aegon the Elder;Aegon the Usurper;;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm","House Targaryen","House Targaryen","","mentioned"
-"Aegon-III-Targaryen","Aegon III Targaryen","Aegon Targaryen the Third of His Name","","Aegon III Targaryen;Aegon the Younger;Aegon the Dragonbane;Aegon the Unlucky;The Broken King;;;;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm","House Targaryen","House Targaryen","Valyrian","mentioned"
-"Aegon-IV-Targaryen","Aegon IV Targaryen","Aegon Targaryen the Fourth of His Name","","Aegon IV Targaryen;Aegon the Unworthy;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm","House Targaryen","House Targaryen","","mentioned"
-"Aegon-V-Targaryen","Aegon V Targaryen","Aegon Targaryen the Fifth of His Name","","Aegon V Targaryen;Aegon the Unlikely;Aegon the Fortunate;Egg;The Prince Who Was An Egg;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm","House Targaryen","House Targaryen","","mentioned"
-"Aegon-Targaryen-(son-of-Rhaegar)","Aegon Targaryen (son of Rhaegar)","","","Aegon Targaryen (son of Rhaegar);Young Griff","House Targaryen","","Valyrian","mentioned"
-"Aemon-Blackfyre","Aemon Blackfyre","","","","House Blackfyre","","Valyrian","mentioned"
-"Aemon-Costayne","Aemon Costayne","","","","House Costayne","","","appears"
-"Aemon-Estermont","Aemon Estermont","","Ser","","House Estermont","","Stormlands","appears"
-"Aemon-Rivers","Aemon Rivers","","Ser","","House Frey","","","mentioned"
-"Aemon-Targaryen-(Dragonknight)","Aemon Targaryen (Dragonknight)","","Prince;Ser;Lord Commander of the Kingsguard","Aemon Targaryen (Dragonknight);The Dragonknight;The Knight of Tears","House Targaryen;Kingsguard","","Valyrian","mentioned"
-"Aemon-Targaryen-(Maester-Aemon)","Aemon Targaryen (Maester Aemon)","","Maester","Aemon Targaryen (Maester Aemon);Aemon Targaryen;Maester Aemon;Uncle Maester","Night's Watch","","Valyrian","appears"
-"Aenys-Frey","Aenys Frey","","Ser","","House Frey","","","appears"
-"Aerion-Targaryen","Aerion Targaryen","","Prince","Aerion Targaryen;Aerion Brightflame;Aerion Brightfire;Aerion the Monstrous;The Bright Prince;The Prince Who Thought He Was a Dragon","House Targaryen;Second Sons","","Valyrian","mentioned"
-"Aeron-Greyjoy","Aeron Greyjoy","","Priest of the Drowned God;Captain of the Golden Storm (formerly)","Aeron Greyjoy;The Damphair;Aeron Damphair","House Greyjoy;Drowned men","","Ironmen","mentioned"
-"Aerys-II-Targaryen","Aerys II Targaryen","Aerys Targaryen the Second of His Name","","Aerys II Targaryen;The Mad King;King Scab;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm","House Targaryen","House Targaryen","","mentioned"
-"Aethan","Aethan","","","","Night's Watch","","","appears"
-"Aggo","Aggo","","Ko Bloodrider of Daenerys Targaryen","","House Targaryen","","Dothraki","appears"
-"Aladale-Wynch","Aladale Wynch","","Ser","","House Wynch;Night's Watch","","Ironborn","mentioned"
-"Alan","Alan","","","","Night's Watch","","","appears"
-"Alaric-of-Eysen","Alaric of Eysen","","","","","","","mentioned"
-"Alayaya","Alayaya","","","Alayaya;'Yaya","Chataya's brothel","","","mentioned"
-"Albar-Royce","Albar Royce","","Ser","","House Royce of the Gates of the Moon","","","mentioned"
-"Albett","Albett","","","Albett;Pimple","Night's Watch","","","mentioned"
-"Alekyne-Florent","Alekyne Florent","","Lord of Brightwater (attainted)","","House Florent","","","mentioned"
-"Alerie-Hightower","Alerie Hightower","","Lady of Highgarden","","House Hightower;House Tyrell","","","appears"
-"Alesander-Frey","Alesander Frey","","","","House Frey","","","mentioned"
-"Alesander-Staedmon","Alesander Staedmon","","Lord of Broad Arch","Alesander Staedmon;the Pennylover","House Staedmon","","","mentioned"
-"Alester-Florent","Alester Florent","","Lord of Brightwater;Hand of the King","","House Florent","","","appears"
-"Alester-Norcross","Alester Norcross","","","","House Norcross","","","mentioned"
-"Alfyn","Alfyn","","","Alfyn;Alfyn Crowkiller","","","Free Folk","mentioned"
-"Alla-Tyrell","Alla Tyrell","","","","House Tyrell","","","appears"
-"Allar-Deem","Allar Deem","","","","City Watch of King's Landing","","","mentioned"
-"Allard-Seaworth","Allard Seaworth","","Captain of the Lady Marya","","House Seaworth","","","mentioned"
-"Alliser-Thorne","Alliser Thorne","","Ser","","House Thorne;Night's Watch","","","appears"
-"Allyria-Dayne","Allyria Dayne","","","","House Dayne","","","mentioned"
-"Alyce","Alyce","","","","","","","mentioned"
-"Alyce-Graceford","Alyce Graceford","","Lady","","House Graceford","","","mentioned"
-"Alyn","Alyn","","","","House Stark","","","mentioned"
-"Alyn-Ambrose","Alyn Ambrose","","","","House Ambrose","","","mentioned"
-"Alyn-Connington","Alyn Connington","","Ser;Lord Commander of the Kingsguard","Alyn Connington;The Pale Griffin","House Connington;Kingsguard","","","mentioned"
-"Alyn-Estermont","Alyn Estermont","","Ser","","House Estermont","","Stormlands","appears"
-"Alyn-Frey","Alyn Frey","","","","House Frey","","","mentioned"
-"Alyn-Haigh","Alyn Haigh","","","","House Haigh","","","mentioned"
-"Alyn-Stackspear","Alyn Stackspear","","Ser","","House Stackspear","","","mentioned"
-"Alys-Karstark","Alys Karstark","","","","House Karstark;House Thenn","","Northmen","mentioned"
-"Alysanne-Bulwer","Alysanne Bulwer","","Lady of Blackcrown","","House Bulwer","","","mentioned"
-"Alysanne-Targaryen","Alysanne Targaryen","Alysanne of House Targaryen","","Alysanne Targaryen;Good Queen Alysanne;Queen","House Targaryen","House Targaryen","","mentioned"
-"Alys-Frey","Alys Frey","","","","House Frey","","","mentioned"
-"Alyssa-Blackwood","Alyssa Blackwood","","Lady","","House Blackwood;House Frey","","","mentioned"
-"Alyx-Frey","Alyx Frey","","","","House Frey","","","appears"
-"Amabel","Amabel","","","","House Whent","","","mentioned"
-"Amarei-Crakehall","Amarei Crakehall","","","","House Crakehall;House Frey","","","mentioned"
-"Ambrose-Butterwell","Ambrose Butterwell","","Lord of Whitewalls;Hand of the King","Ambrose Butterwell;Old Milkblood;The lord of cows;Lord Butterbutt","House Butterwell;House Targaryen;House Blackfyre","","","mentioned"
-"Amerei-Frey","Amerei Frey","","Lady of Darry","Amerei Frey;Gatehouse Ami","House Frey;House Lannister of Darry","","","mentioned"
-"Amory-Lorch","Amory Lorch","","Ser;Castellan of Harrenhal","Amory Lorch;The Manticore","House Lorch;House Lannister","","","mentioned"
-"Andar-Royce","Andar Royce","","Ser","","House Royce","","Valemen","mentioned"
-"Anders-Yronwood","Anders Yronwood","","Lord of Yronwood;The Bloodroyal;Warden of the Stone Way","","House Yronwood","","Dornishmen","mentioned"
-"Andrew-Estermont","Andrew Estermont","","Ser","","House Estermont;King's men","","","appears"
-"Andrik","Andrik","","Lord of Southshield","Andrik;Andrik the Unsmiling","House Drumm","","Ironborn","mentioned"
-"Andros-Brax","Andros Brax","","Lord of Hornvale","","House Brax","","","mentioned"
-"Androw-Frey","Androw Frey","","","","House Frey","","","mentioned"
-"Anguy","Anguy","","","Anguy;Anguy the Archer;Archer","Brotherhood without banners","","","appears"
-"Annara-Farring","Annara Farring","","Lady","","House Farring;House Frey","","","mentioned"
-"Antario-Jast","Antario Jast","","Lord","","House Jast","","","mentioned"
-"Anvil-Ryn","Anvil Ryn","","","Anvil Ryn;Anvyl Ryn","","","","mentioned"
-"Anya-Waynwood","Anya Waynwood","","Lady of Ironoaks","","House Waynwood;Lords Declarant","","","mentioned"
-"Ardrian-Celtigar","Ardrian Celtigar","","Lord of Claw Isle","Ardrian Celtigar;the Red Crab","House Celtigar","","","appears"
-"Areo-Hotah","Areo Hotah","","Captain of the Guard at Sunspear","","House Martell","","Norvos","mentioned"
-"Arianne-Martell","Arianne Martell","","Princess","","House Martell","","Dornishmen","mentioned"
-"Arron","Arron","","","","Night's Watch","","","appears"
-"Arron-Qorgyle","Arron Qorgyle","","Ser","","House Qorgyle","","","appears"
-"Arryk-(guard)","Arryk (guard)","","","Arryk (guard);&quot;Left&quot; or &quot;Right&quot;","House Tyrell","","","appears"
-"Arson","Arson","","","Arson;Arson Iceaxe","","","Free Folk","mentioned"
-"Arthur-Ambrose","Arthur Ambrose","","Lord","","House Ambrose","","","mentioned"
-"Arthur-Dayne","Arthur Dayne","","Ser;Sword of the Morning","","House Dayne;Kingsguard","","Dornishmen","mentioned"
-"Arwood-Frey","Arwood Frey","","Ser","","House Frey","","","mentioned"
-"Arwyn-Frey","Arwyn Frey","","","","House Frey","","","appears"
-"Arwyn-Oakheart","Arwyn Oakheart","","Lady of Old Oak","","House Oakheart","","","mentioned"
-"Arya-Stark","Arya Stark","","Princess","Arya Stark;Arya Horseface;Arya Underfoot;Arry;Lumpyface/Lumpyhead;Stickboy;Weasel;Nymeria/Nan;Squab;Salty;Cat of the Canals;Beth;The Blind Girl;The Ugly Little Girl;Mercedene/Mercy","House Stark;Faceless Men","","Northmen","POV"
-"Arys-Oakheart","Arys Oakheart","","Ser","","House Oakheart;Kingsguard","","Reach","mentioned"
-"Ashara-Dayne","Ashara Dayne","","","","House Dayne","","Dornishmen","mentioned"
-"Aurane-Waters","Aurane Waters","","Grand admiral (master of ships)Lord of the Waters;","Aurane Waters;Bastard of Driftmark;Lord Waters;","House Velaryon","","Valyrian","mentioned"
-"Axell-Florent","Axell Florent","","Ser;Castellan of Dragonstone (formerly)Hand of the Queen (self-styled)","","House Florent;Queen's men","","","appears"
-"Azor-Ahai","Azor Ahai","","","Azor Ahai;Warrior of Light;Son of Fire;Warrior of Fire;Hyrkoon the Hero;Yin Tar;Neferion;Eldric Shadowchaser","","","Asshai","mentioned"
-"Bael-the-Bard","Bael the Bard","","King-Beyond-the-Wall","Bael the Bard;Bael the Bard;Sygerrik of Skagos","","","Free folk","mentioned"
-"Baelor-Blacktyde","Baelor Blacktyde","","Lord of Blacktyde;Captain of the Nightflyer","","House Blacktyde","","Ironborn","mentioned"
-"Baelor-Hightower","Baelor Hightower","","Ser","Baelor Hightower;Baelor Brightsmile;Baelor Breakwind","House Hightower","","","mentioned"
-"Baelor-I-Targaryen","Baelor I Targaryen","Baelor Targaryen the First of His Name","","Baelor I Targaryen;Baelor the Beloved;Baelor the Blessed;Baelor the Befuddled;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm","House Targaryen","House Targaryen","","mentioned"
-"Baelor-Targaryen-(son-of-Daeron-II)","Baelor Targaryen (son of Daeron II)","","Prince of Dragonstone;Protector of the Realm;Hand of the King","Baelor Targaryen (son of Daeron II);Baelor Breakspear;The Hammer","House Targaryen","","","mentioned"
-"Ballabar","Ballabar","","Maester","","House Redwyne","","","mentioned"
-"Balman-Byrch","Balman Byrch","","Ser","","House Byrch","","","mentioned"
-"Balon-Greyjoy","Balon Greyjoy","Balon Greyjoy; the Ninth of His Name Since the Grey King","","Balon Greyjoy;Balon the Brave;Balon the Blessed;Balon the Twice Crowned;Balon the Widowmaker;The Kraken King;Iron King;King of the Isles and the North;King of Salt and Rock;Son of the Sea Wind;Lord Reaper of Pyke;The Greyjoy;Captain of the Great Kraken","House Greyjoy","House Greyjoy","","mentioned"
-"Balon-Swann","Balon Swann","","Ser","","House Swann;Kingsguard","","Stormlander","appears"
-"Bannen","Bannen","","","","Night's Watch","","","appears"
-"Barristan-Selmy","Barristan Selmy","","Ser;Lord Commander of the Kingsguard (former)Hand of the Queen","Barristan Selmy;Barristan the Bold;Arstan Whitebeard;Ser Grandfather;Barristan the Old;Old Ser","House Selmy;House Targaryen;Kingsguard;Queensguard","","Westeros","appears"
-"Barth","Barth","","Septon;Hand of the King","","Faith of the Seven;House Targaryen","","","mentioned"
-"Beardless-Dick","Beardless Dick","","","","Brotherhood Without Banners","","","mentioned"
-"Becca-the-Baker","Becca the Baker","","","Becca the Baker;Becca the Baker","","","","mentioned"
-"Beck","Beck","","Goodman","","","","","mentioned"
-"Bedwyck","Bedwyck","","","Bedwyck;Giant","Night's Watch","","","appears"
-"Beldecar","Beldecar","","","","","","","mentioned"
-"Belgrave","Belgrave","","Lord","","House Belgrave","","","mentioned"
-"Belis","Belis","","Wisdom","","Alchemists' Guild","","","mentioned"
-"Bella","Bella","","","","","","","appears"
-"Bellena-Hawick","Bellena Hawick","","","","House Hawick;House Frey","","","mentioned"
-"Belwas","Belwas","","","Belwas;Strong Belwas;Belwas the Strong","House Targaryen;Queensguard;Ruling council of Meereen","","Meereenese","appears"
-"Ben-(Big-Belly)","Ben (Big Belly)","","","Ben (Big Belly);Big Belly Ben","Kingswood Brotherhood","","","mentioned"
-"Ben-Plumm","Ben Plumm","","Commander of the Second Sons","Ben Plumm;Brown Ben Plumm","Second Sons","","","appears"
-"Benedict-Broom","Benedict Broom","","Ser;Master-at-arms at Casterly Rock","","House Broom;House Lannister","","","mentioned"
-"Benfred-Tallhart","Benfred Tallhart","","","","House Tallhart","","Northmen","mentioned"
-"Benfrey-Frey","Benfrey Frey","","Ser","","House Frey","","","appears"
-"Benjen-Stark","Benjen Stark","","First Ranger","Benjen Stark;The Wolf Pup;Ben Stark","House Stark;Night's Watch","","Northmen","mentioned"
-"Beren-Tallhart","Beren Tallhart","","","","House Tallhart","","Northmen","mentioned"
-"Berena-Hornwood","Berena Hornwood","","","","House Hornwood;House Tallhart","","Northmen","mentioned"
-"Beric-Dondarrion","Beric Dondarrion","","Lord of Blackhaven","Beric Dondarrion;The Lightning Lord;The Lord of Corpses;Lord Derik","House Dondarrion Brotherhood without banners","","","appears"
-"Bertram-Beesbury","Bertram Beesbury","","Ser","","House Beesbury","","","mentioned"
-"Bessa","Bessa","","","","","","","mentioned"
-"Beth-Cassel","Beth Cassel","","","","House Cassel","","Northmen","mentioned"
-"Bethany-Bracken","Bethany Bracken","","","","House Bracken","","","mentioned"
-"Bethany-Fair-Fingers","Bethany Fair-Fingers","","","","","","","mentioned"
-"Bethany-Rosby","Bethany Rosby","","Lady","","House Rosby;House Frey","","","mentioned"
-"Betharios-of-Braavos","Betharios of Braavos","","","Betharios of Braavos;Betharios of Braavos","House Frey","","","mentioned"
-"Big-Boil","Big Boil","","","","","","Free Folk","appears"
-"Biter","Biter","","","Biter;Biter by Amok&copy;","Brave Companions","","","mentioned"
-"Black-Bernarr","Black Bernarr","","","","Night's Watch","","","appears"
-"Black-Jack-Bulwer","Black Jack Bulwer","","First Ranger","Black Jack Bulwer;Black Jack Bulwer","Night's Watch","","","appears"
-"Blane","Blane","","","","Night's Watch","","","mentioned"
-"Bluetooth","Bluetooth","","","","House Greyjoy","","Ironborn","mentioned"
-"Bodger","Bodger","","","","","","Free Folk","mentioned"
-"Bonifer-Hasty","Bonifer Hasty","","Ser;Castellan of Harrenhal","Bonifer Hasty;Bonifer the Good;Baelor Butthole","House Hasty;The Holy Hundred","","","mentioned"
-"Boros-Blount","Boros Blount","","Ser","Boros Blount;Boros the Belly","House Blount;Kingsguard","","","appears"
-"Bowen-Marsh","Bowen Marsh","","Lord Steward;First Steward","Bowen Marsh;Old Pomegranate","Night's Watch","","","appears"
-"Boy","Boy","","","","","","","mentioned"
-"Bradamar-Frey","Bradamar Frey","","","","House Frey","","","mentioned"
-"Brandon-Stark","Brandon Stark","","","Brandon Stark;The Wild Wolf","House Stark","","Northmen","mentioned"
-"Bran-Stark","Bran Stark","","Prince of Winterfell;","Bran Stark;Bran;Bran the Broken;The Winged Wolf","House Stark","","Northmen","POV"
-"Bran-the-Builder","Bran the Builder","","King of Winter","Bran the Builder;Bran the Builder","House Stark","","First Men","mentioned;A Storm of Swords "
-"Brandon-Tallhart","Brandon Tallhart","","","","House Tallhart","","Northmen","mentioned"
-"Brella","Brella","","","","House Baratheon (formerly)House Lannister (formerly)","","","mentioned"
-"Brenett","Brenett","","Maester","","House Frey","","","appears"
-"Brienne-of-Tarth","Brienne of Tarth","","","Brienne of Tarth;Brienne of Tarth;The Maid of Tarth;Brienne the Beauty;Brienne the Blue","House Tarth;House Baratheon of Storm's End;Rainbow Guard;House Tully","","","appears"
-"Bronn","Bronn","","Ser","Bronn;Ser Bronn of the Blackwater;Lord Stokeworth","House Stokeworth","","","appears"
-"Brown-Bernarr","Brown Bernarr","","","","Night's Watch","","","mentioned"
-"Bryan-Frey","Bryan Frey","","","","House Frey","","","mentioned"
-"Bryen","Bryen","","","","House Baelish","","","appears"
-"Bryen-Farring","Bryen Farring","","","","House Farring","","","mentioned"
-"Brynden-Tully","Brynden Tully","","Ser;Warden of the Southern Marches;Knight of the Gate (formerly)","Brynden Tully;Blackfish;Ser Brynden the Blackfish;Brynden Blackfish","House Tully;House Arryn (formerly)","","Rivermen","appears"
-"Burton-Crakehall","Burton Crakehall","","Ser","","House Crakehall","","","mentioned"
-"Butterbumps","Butterbumps","","","Butterbumps;Butterbumps","House Tyrell","","","appears"
-"Byam-Flint","Byam Flint","","Ser","","Night's Watch","","","appears"
-"Cadwyl","Cadwyl","","","","House Greyjoy","","Ironborn","mentioned"
-"Lord-Cafferen","Lord Cafferen","","Lord","","House Cafferen","","","mentioned"
-"Caleotte","Caleotte","","Maester","","House Martell","","","mentioned"
-"Carellen-Smallwood","Carellen Smallwood","","","","House Smallwood","","","mentioned"
-"Carolei-Waynwood","Carolei Waynwood","","","","House Waynwood;House Frey","","","mentioned"
-"Cass","Cass","","","","","","","mentioned"
-"Cassana-Estermont","Cassana Estermont","","","","House Estermont;House Baratheon","","","mentioned"
-"Catelyn-Stark","Catelyn Stark","","Lady of Winterfell","Catelyn Stark;Catelyn Tully;Cat;Lady Stoneheart;The Silent Sister;Mother Merciless;The Hangwoman","House Tully;House Stark;Brotherhood without banners","","Rivermen","POV"
-"Cedrik-Storm","Cedrik Storm","","","Cedrik Storm;the Bastard of Bronzegate","House Buckler","","","mentioned"
-"Cellador","Cellador","","Septon","Cellador;Celladar;","Night's Watch","","","appears"
-"Cerenna-Lannister","Cerenna Lannister","","","","House Lannister","","","mentioned"
-"Cersei-Frey","Cersei Frey","","","Cersei Frey;the Little Bee","House Frey","","","appears"
-"Cersei-Lannister","Cersei Lannister","","Light of the West;Queen Dowager;Protector of the Realm;Lady of Casterly Rock;Queen Regent","","House Lannister","","Westerlands","appears"
-"Chataya","Chataya","","","","Chataya's brothel","","Summer Isles","mentioned"
-"Chayle","Chayle","","Septon","","","","","mentioned"
-"Chella","Chella","","","","Black Ears","","Vale mountain clans","mentioned"
-"Chett","Chett","","","","Night's Watch","","","POV"
-"Chiswyck","Chiswyck","","","","House Clegane","","","mentioned"
-"Clement-Piper","Clement Piper","","Lord of Pinkmaiden","","House Piper","","Rivermen","mentioned"
-"Cleon","Cleon","","King of Astapor","Cleon;Cleon the Great;The Butcher King;King Cleaver","","","Astapori","mentioned"
-"Cleos-Frey","Cleos Frey","","Ser","","House Frey;House Lannister","","","appears"
-"Cley-Cerwyn","Cley Cerwyn","","Lord of Cerwyn","","House Cerwyn","","Northmen","mentioned"
-"Clubfoot-Karl","Clubfoot Karl","","","Clubfoot Karl;Clubfoot Karl","Night's Watch","","","appears"
-"Clydas","Clydas","","","","Night's Watch","","","appears"
-"Coldhands","Coldhands","","","","Three-eyed crow","","","appears"
-"Colemon","Colemon","","Maester","","House Arryn","","","appears"
-"Colin-Florent","Colin Florent","","Ser;Castellan of Brightwater Keep","","House Florent","","","mentioned"
-"Collio-Quaynis","Collio Quaynis","","","","","","Tyroshi","mentioned"
-"Colmar-Frey","Colmar Frey","","","","House Frey","","","mentioned"
-"Conwy","Conwy","","","","Night's Watch","","","mentioned"
-"Cortnay-Penrose","Cortnay Penrose","","Ser;Castellan of Storm's End","","House Penrose","","","mentioned"
-"Cotter-Pyke","Cotter Pyke","","Commander of Eastwatch-by-the-Sea","","Night's Watch","","Ironborn","appears"
-"Craster","Craster","","","","","","Free Folk","appears"
-"Cressen","Cressen","","Maester","","","","","mentioned"
-"Cuger","Cuger","","","","Night's Watch","","","mentioned"
-"Cynthea-Frey","Cynthea Frey","","","","House Frey","","","mentioned"
-"Daario-Naharis","Daario Naharis","","","","Stormcrows","","Tyroshi","appears"
-"Dacey-Mormont","Dacey Mormont","","","","House Mormont","","Northmen","appears"
-"Daemon-I-Blackfyre","Daemon I Blackfyre","","Ser;King of the Andals; the Rhoynar and the First Men (claimant)Lord of the Seven Kingdoms (claimant)Protector of the Ream (claimant)","Daemon I Blackfyre;Daemon Waters;The Black Dragon;The King Who Bore the Sword;The Pretender","House Blackfyre","","Valyrian","mentioned"
-"Daemon-Sand","Daemon Sand","","Ser","Daemon Sand;Bastard of Godsgrace","House Allyrion","","Dornishmen","appears"
-"Daenerys-Targaryen","Daenerys Targaryen","Daenerys Targaryen the First of Her Name","","Daenerys Targaryen;Dany;Daenerys Stormborn;The Unburnt;Mother of Dragons;Mhysa (mother)The Silver Queen;Silver Lady;Dragonmother;The Dragon Queen;;Khaleesi of the Great Grass Sea;Queen of Meereen;Queen of the Andals and the Rhoynar and the First Men; Lord of the Seven Kingdoms (claimant)Breaker of Shackles/Chains;Queen of the Seven Kingdoms;(claimant)Princess of Dragonstone (claimant)","House Targaryen","House Targaryen","Valyrian","POV"
-"Daeron-I-Targaryen","Daeron I Targaryen","Daeron Targaryen the First of His Name","","Daeron I Targaryen;The Young Dragon;The Boy King;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm","House Targaryen","House Targaryen","","mentioned"
-"Daeron-II-Targaryen","Daeron II Targaryen","Daeron Targaryen the Second of His Name","","Daeron II Targaryen;Daeron the Good;Daeron the Falseborn;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm (renounced)","House Targaryen","House Targaryen","","mentioned"
-"Dafyn-Vance","Dafyn Vance","","Ser","","House Vance","","","mentioned"
-"Dagos-Manwoody","Dagos Manwoody","","Lord of Kingsgrave","","House Manwoody","","","mentioned"
-"Dalbridge","Dalbridge","","","Dalbridge;Squire Dalbridge","Night's Watch","","","mentioned"
-"Dale-Seaworth","Dale Seaworth","","Captain of the Wraith","","House Seaworth","","","mentioned"
-"Dalla","Dalla","","","","","","Free Folk","appears"
-"Damion-Lannister","Damion Lannister","","Ser;Castellan of Casterly Rock","","House Lannister","","","mentioned"
-"Damon-Paege","Damon Paege","","Ser","","House Paege","","","mentioned"
-"Damon-Vypren","Damon Vypren","","Ser","","House Vypren","","","appears"
-"Dan","Dan","","","Dan;Hempen Dan","","","Free Folk","mentioned"
-"Dancy","Dancy","","","","Chataya's brothel","","","mentioned"
-"Danny-Flint","Danny Flint","","","","House Flint;Night's Watch","","Northmen","mentioned"
-"Danos-Slynt","Danos Slynt","","","","House Slynt","","","mentioned"
-"Danwell-Frey","Danwell Frey","","Ser","","House Frey","","","appears"
-"Dareon","Dareon","","","Dareon;The Black Singer Lover ;","Night's Watch","","","mentioned"
-"Darlessa-Marbrand","Darlessa Marbrand","","","","House Marbrand;House Lannister","","","mentioned"
-"Daven-Lannister","Daven Lannister","","Ser;Warden of the West","","House Lannister","","Westerman","mentioned"
-"Davos-Seaworth","Davos Seaworth","","Ser;Lord of the Rainwood;Admiral of the Narrow Sea;Hand of the King;","Davos Seaworth;Onion Knight;Davos Shorthand;The Knight of Onions;Ser Onions;Onion Lord;Smuggler","House Seaworth;House Baratheon of Dragonstone","","Westeros","POV"
-"Deana-Hardyng","Deana Hardyng","","","","House Hardyng;House Frey","","","mentioned"
-"Del","Del","","","","","","Free Folk","appears"
-"Delena-Florent","Delena Florent","","","","House Florent;House Norcross","","","mentioned"
-"Della-Frey","Della Frey","","","Della Frey;Deaf Della","House Frey","","","mentioned"
-"Delonne-Allyrion","Delonne Allyrion","","Lady of Godsgrace","","House Allyrion","","Dornish","mentioned"
-"Delp","Delp","","","","House Tully","","","mentioned"
-"Dennet","Dennet","","","","Brotherhood without banners","","","mentioned"
-"Dennis-Plumm","Dennis Plumm","","Ser","","House Plumm","","","mentioned"
-"Denys-Arryn","Denys Arryn","","Ser;Keeper of the Gates of the Moon","Denys Arryn;The Darling of the Vale","House Arryn","","","mentioned"
-"Denys-Mallister","Denys Mallister","","Ser","","House Mallister;Night's Watch","","","appears"
-"Dermot","Dermot","","Ser","Dermot;Dermot of the Rainwood","House Baratheon of Dragonstone;House Baratheon of King's Landing","","","mentioned"
-"Desmond-Grell","Desmond Grell","","Ser","","House Grell;Night's Watch","","","appears"
-"Devan-Seaworth","Devan Seaworth","","","","House Seaworth;House Baratheon of Dragonstone","","","appears"
-"Deziel-Dalt","Deziel Dalt","","The Knight of Lemonwood","","House Dalt","","","appears"
-"Dick","Dick","","","","Kingswood Brotherhood","","","mentioned"
-"Dick-Follard","Dick Follard","","","Dick Follard;Deaf Dick Follard","Night's Watch","","","appears"
-"Dickon-Frey","Dickon Frey","","","","House Frey","","","mentioned"
-"Dickon-Manwoody","Dickon Manwoody","","","","House Manwoody","","","appears"
-"Dirk","Dirk","","","","Night's Watch","","","appears"
-"Donal-Noye","Donal Noye","","","","House Baratheon;Night's Watch","","","appears"
-"Donnel-Haigh","Donnel Haigh","","Ser","","House Haigh","","","appears"
-"Donnel-Hill","Donnel Hill","","","Donnel Hill;Sweet Donnel Hill","Night's Watch","","","appears"
-"Donnel-Locke","Donnel Locke","","Ser","","House Locke","","","appears"
-"Donnel-Waynwood","Donnel Waynwood","","Ser;Knight of the Gate","","House Waynwood","","","mentioned"
-"Dontos-Hollard","Dontos Hollard","","Ser","Dontos Hollard;Dontos the Red;Dontos the Drunk;Florian","House Hollard","","","appears"
-"Donyse","Donyse","","Septa","","","","","mentioned"
-"Doran-Martell","Doran Martell","","Prince of Dorne;Lord of Sunspear","","House Nymeros Martell","","Dornish","mentioned"
-"Dormund","Dormund","","","","","","Free Folk","mentioned"
-"Dornish-Dilly","Dornish Dilly","","","","Night's Watch","","","appears"
-"Drogo","Drogo","","Khal","Drogo;Great Rider;Great Khal","","","Dothraki","mentioned"
-"Dryn","Dryn","","","","","","Free Folk","mentioned"
-"Dudley","Dudley","","Ser","","","","","A Storm of Swords"
-"Dunk","Dunk","","Ser;Lord Commander of the Kingsguard","Dunk;Dunk;Duncan the Tall;Dunk the Lunk;Ser Giant;The Gallows Knight","Kingsguard","","Crownlands","mentioned"
-"Duncan-Targaryen","Duncan Targaryen","","Prince of Dragonstone (renounced)","Duncan Targaryen;Prince Duncan the Small;Prince of Dragonflies","House Targaryen","","","mentioned"
-"Dunsen","Dunsen","","","","House Clegane","","","mentioned"
-"Dunstan-Drumm","Dunstan Drumm","","Lord of Old Wyk;Captain of the Thunderer","Dunstan Drumm;The Drumm;The Bone Hand","House Drumm","","Ironborn","mentioned"
-"Duram-Bar-Emmon","Duram Bar Emmon","","Lord of Sharp Point","","House Bar Emmon","","","mentioned"
-"Dyah","Dyah","","","","","","Free Folk","mentioned"
-"Dywen","Dywen","","","","Night's Watch","","","appears"
-"Easy","Easy","","","","Night's Watch","","","appears"
-"Ebben","Ebben","","","","Night's Watch","","","mentioned"
-"Eddara-Tallhart","Eddara Tallhart","","Lady of Torrhen's Square","","House Tallhart","","Northmen","mentioned"
-"Eddard-Karstark","Eddard Karstark","","","Eddard Karstark;Edd","House Karstark","","Northmen","mentioned"
-"Eddard-Stark","Eddard Stark","","Lord of Winterfell;Warden of the North;Hand of the King;Protector of the Realm;Regent","Eddard Stark;Ned;The Ned;The Quiet Wolf","House Stark","","Northmen","mentioned"
-"Eddison-Tollett","Eddison Tollett","","","Eddison Tollett;Dolorous Edd","House Tollett;Night's Watch","","Valemen","appears"
-"Edmure-Tully","Edmure Tully","","Ser;Lord Paramount of the Trident (lost to Petyr Baelish)Lord of Riverrun (lost to Emmon Frey)","","House Tully","","Rivermen","appears"
-"Edmyn-Tully","Edmyn Tully","","Lord of Riverrun;Lord Paramount of the Trident;Hand of the King","","House Tully","","Rivermen","mentioned"
-"Edric-Dayne","Edric Dayne","","Lord of Starfall","Edric Dayne;Ned","House Dayne;Brotherhood without banners","","Dornishmen","appears"
-"Edric-Storm","Edric Storm","","","","House Baratheon","","","appears"
-"Edwyn-Frey","Edwyn Frey","","","","House Frey","","","appears"
-"Elaena-Targaryen","Elaena Targaryen","","Princess","","House Targaryen;House Plumm;House Penrose;House Manwoody","","Valyrian","mentioned"
-"Eldon-Estermont","Eldon Estermont","","Ser;Lord of Greenstone;","","House Estermont","","Stormlands","mentioned"
-"Eleyna-Westerling","Eleyna Westerling","","","","House Westerling","","","appears"
-"Elia-Sand","Elia Sand","","","Elia Sand;El;Lady Lance;","House Martell","","Dornishmen","mentioned"
-"Elia-Martell","Elia Martell","","Princess","Elia Martell;Elia of Dorne","House Martell;House Targaryen","","","mentioned"
-"Elinor-Tyrell","Elinor Tyrell","","","","House Tyrell","","","appears"
-"Ellaria-Sand","Ellaria Sand","","","Ellaria Sand;The serpent's whore","House Uller;House Martell","","Dornish","appears"
-"Ellery-Vance","Ellery Vance","","Ser","","House Vance of Atranta","","","mentioned"
-"Elmar-Frey","Elmar Frey","","","","House Frey","","","appears"
-"Elron","Elron","","","","Night's Watch","","","mentioned"
-"Elwood","Elwood","","","","House Tully","","","mentioned"
-"Elwood-Meadows","Elwood Meadows","","Lord of Grassy Vale","","House Meadows;House Baratheon of Dragonstone","","Reach","mentioned"
-"Elyana-Vypren","Elyana Vypren","","","","House Vypren;House Wylde","","","mentioned"
-"Elyn-Norridge","Elyn Norridge","","","","House Norridge;House Tyrell","","","mentioned"
-"Elys-Westerling","Elys Westerling","","Ser","","House Westerling","","","mentioned"
-"Emberlei-Frey","Emberlei Frey","","","","House Frey","","","mentioned"
-"Emmon-Frey","Emmon Frey","","Lord of Riverrun","Emmon Frey;Emm","House Frey of Riverrun;House Lannister","","","mentioned"
-"Emrick","Emrick","","","","Night's Watch","","","appears"
-"Endrew-Tarth","Endrew Tarth","","Ser","","House Tarth;Night's Watch","","","mentioned"
-"Eon-Hunter","Eon Hunter","","Lord of Longbow Hall","Eon Hunter;Old Lord Hunter","House Hunter","","","mentioned"
-"Erena-Glover","Erena Glover","","","","House Glover","","Northmen","mentioned"
-"Ermesande-Hayford","Ermesande Hayford","","Lady of Hayford","","House Hayford;House Lannister","","","appears"
-"Erreck","Erreck","","Maester","","","","","mentioned"
-"Erreg","Erreg","","King","Erreg;Erreg the Kinslayer","","","Andal","mentioned"
-"Erren-Florent","Erren Florent","","Ser","","House Florent","","","mentioned"
-"Errok","Errok","","","","","","Free Folk","mentioned"
-"Erryk-(guard)","Erryk (guard)","","","Erryk (guard);&quot;Left&quot; or &quot;Right&quot;","House Tyrell","","","appears"
-"Euron-Greyjoy","Euron Greyjoy","Euron Greyjoy; the Third of His Name Since the Grey King","","Euron Greyjoy;Crow's Eye;Euron Crow's Eye;Iron King;King of the Isles and the North  King of Salt and Rock;Son of the Sea Wind;Lord Reaper of Pyke;Captain of the Silence","House Greyjoy","House Greyjoy","Ironborn","mentioned"
-"Falyse-Stokeworth","Falyse Stokeworth","","","","House Stokeworth;House Byrch","","","mentioned"
-"Farlen","Farlen","","","","House Stark","","","mentioned"
-"Lord-Fell","Lord Fell","","Lord of Felwood","","House Fell","","stormlands","mentioned"
-"Fern","Fern","","","","","","","mentioned"
-"Ferny","Ferny","","","","","","Free Folk","mentioned"
-"Flement-Brax","Flement Brax","","Ser","","House Brax","","","appears"
-"Forley-Prester","Forley Prester","","Ser","","House Prester","","","mentioned"
-"Fornio","Fornio","","","","Night's Watch","","","appears"
-"Frenken","Frenken","","Maester","","","","","appears"
-"Gage","Gage","","","","House Stark","","","mentioned"
-"Galbart-Glover","Galbart Glover","","Master of Deepwood Motte","","House Glover","","Northmen","appears"
-"Galyeon-of-Cuy","Galyeon of Cuy","","","","","","","mentioned"
-"Garigus","Garigus","","Wisdom","","Alchemists' Guild","","","mentioned"
-"Garlan-Tyrell","Garlan Tyrell","","Ser;Lord of Brightwater Keep","Garlan Tyrell;Garlan the Gallant;Renly's ghost;Lord Renly's shade","House Tyrell of Brightwater Keep","","","appears"
-"Garrett-Flowers","Garrett Flowers","","","","House Tyrell","","","mentioned"
-"Garse-Flowers","Garse Flowers","","","","House Tyrell","","","mentioned"
-"Garse-Goodbrook","Garse Goodbrook","","Ser","","House Goodbrook","","","appears"
-"Garth-of-Greenaway","Garth of Greenaway","","","","Night's Watch","","","appears"
-"Garth-Gardener-(Greenhand)","Garth Gardener (Greenhand)","Garth Greenhand","","Garth Gardener (Greenhand);Garth Greenhair;Garth the Green;High King of the First Men","","","First Men","mentioned"
-"Garth-Greenfield","Garth Greenfield","","The Knight of Greenfield;Ser","","House Greenfield","","Westerman","mentioned"
-"Garth-Greyfeather","Garth Greyfeather","","","","Night's Watch","","","appears"
-"Garth-of-Oldtown","Garth of Oldtown","","","","Night's Watch","","","appears"
-"Garth-Tyrell","Garth Tyrell","","Lord Seneschal","Garth Tyrell;Garth the Gross","House Tyrell","","","mentioned"
-"Gawen-Glover","Gawen Glover","","","","House Glover","","Northmen","mentioned"
-"Gawen-Westerling","Gawen Westerling","","Lord of the Crag","","House Westerling","","Westermen","mentioned"
-"Gendel","Gendel","","King-Beyond-the-Wall","","","","Free Folk","mentioned"
-"Gendry","Gendry","","Ser","Gendry;The Bull;Ser Gendry of the hollow hill","brotherhood without banners","","","appears"
-"Genna-Lannister","Genna Lannister","","Lady","","House Lannister House Frey of Riverrun","","","mentioned"
-"Gerald-Gower","Gerald Gower","","Ser","","House Gower;King's men","","","appears"
-"Gerardys","Gerardys","","Grand Maester","","Blacks","","","mentioned"
-"Gerion-Lannister","Gerion Lannister","","","Gerion Lannister;Gery","House Lannister","","","mentioned"
-"Gerold-Hightower","Gerold Hightower","","Ser;Lord Commander of the Kingsguard","Gerold Hightower;The White Bull","House Hightower;Kingsguard","","Reachmen","mentioned"
-"Gevin-Harlaw","Gevin Harlaw","","","","House Harlaw","","Ironborn","mentioned"
-"Ghael","Ghael","","Lord","","","","Astapori","appears"
-"Ghost-of-High-Heart","Ghost of High Heart","","","Ghost of High Heart;The woods witch","","","","appears"
-"Gilbert-Farring","Gilbert Farring","","Ser","","House Farring","","","mentioned"
-"Gilly","Gilly","","","Gilly;the rabbit keeper ;","","","Free Folk","appears"
-"Gilwood-Hunter","Gilwood Hunter","","Ser;Lord of Longbow Hall","Gilwood Hunter;Young Lord Hunter","House Hunter","","","appears"
-"Glendon-Hewett","Glendon Hewett","","Ser","","House Hewett;Night's Watch","","","appears"
-"Goady","Goady","","","","Night's Watch","","","appears"
-"Gormon-Tyrell","Gormon Tyrell","","Maester","Gormon Tyrell;Maester Gormon","The Citadel","","","mentioned"
-"Gorne","Gorne","","King-Beyond-the-Wall","","","","Free Folk","mentioned"
-"Gorold-Goodbrother","Gorold Goodbrother","","Lord of Hammerhorn","","House Goodbrother","","Ironborn","mentioned"
-"Grazdan","Grazdan","","Good Master","","","","Astapori","appears"
-"Grazdan-(Great)","Grazdan (Great)","","","","","","Ghiscari","mentioned"
-"Grazdan-mo-Eraz","Grazdan mo Eraz","","","","Wise Masters;House of Eraz","","Ghiscari","appears"
-"Grazdan-mo-Ullhor","Grazdan mo Ullhor","","Good Master","","Good Masters;House of Ullhor","","Astapori","appears"
-"Green-Gergen","Green Gergen","","","Green Gergen;Green Gergen","","","","mentioned"
-"Greenbeard","Greenbeard","","","Greenbeard;Greenbeard","Brotherhood without banners","","Tyroshi","appears"
-"Gregor-Clegane","Gregor Clegane","","Ser;Knight of Clegane's Keep","Gregor Clegane;The Mountain That Rides;The Mountain;The Great Dog;The Enormity That Rides","House Clegane;House Lannister","","","appears"
-"Grenn","Grenn","","","Grenn;Aurochs","Night's Watch","","Westeros","appears"
-"Grey-Worm","Grey Worm","","","","The Unsullied;House Targaryen","","","appears"
-"Grigg","Grigg","","","Grigg;Grigg the Goat","","","Free Folk","appears"
-"Grisel","Grisel","","","","House Baelish","","","appears"
-"Groleo","Groleo","","Captain;Lord Admiral;","","House Targaryen","","Pentoshi","appears"
-"Grubbs","Grubbs","","","","Night's Watch","","","appears"
-"Gueren","Gueren","","","","Night's Watch","","","mentioned"
-"Gulian-Swann","Gulian Swann","","Lord of Stonehelm","","House Swann","","","mentioned"
-"Guncer-Sunglass","Guncer Sunglass","","Lord of Sweetport Sound","","House Sunglass","","","mentioned"
-"Gunthor-son-of-Gurn","Gunthor son of Gurn","","","","Stone Crows","","","mentioned"
-"Gwayne-Gaunt","Gwayne Gaunt","","Ser","","House Gaunt;Kingsguard","","","mentioned"
-"Gylbert-Farwynd","Gylbert Farwynd","","Lord of the Lonely Light","","House Farwynd of the Lonely Light","","Ironborn","mentioned"
-"Gyles-Rosby","Gyles Rosby","","Lord of Rosby;Lord Treasurer;Master of Coin","Gyles Rosby;The Cougher","House Rosby","","","appears"
-"Hairy-Hal","Hairy Hal","","","","Night's Watch","","","appears"
-"Hake","Hake","","","","Night's Watch","","","appears"
-"Hal-(Hog)","Hal (Hog)","","","Hal (Hog);Hal the Hog","House Baratheon of Dragonstone","","","mentioned"
-"Halder","Halder","","","Halder;Stone Head ; ;","Night's Watch","","","appears"
-"Hallis-Mollen","Hallis Mollen","","Captain of the guards for Winterfell","Hallis Mollen;Hal","House Mollen;House Stark","","Northmen","mentioned"
-"Hallyne","Hallyne","","Lord;Wisdom","Hallyne;Hallyne the Pryomancer","Alchemists' Guild","","","mentioned"
-"Halmon-Paege","Halmon Paege","","Ser","","House Paege","","","mentioned"
-"Hamish-the-Harper","Hamish the Harper","","","Hamish the Harper;Hamish the Harper","","","","appears"
-"Hareth-(Maester)","Hareth (Maester)","","Grand Maester","","","","","A Storm of Swords"
-"Hareth-(Mole's-Town)","Hareth (Mole's Town)","","","Hareth (Mole's Town);Horse","Night's Watch","","","appears"
-"Harlan-Grandison","Harlan Grandison","","Ser","","House Grandison;Kingsguard","","","mentioned"
-"Harma","Harma","","","Harma;Harma the Dogshead;Harma Dogshead","","","Wildlings","appears"
-"Harmen-Uller","Harmen Uller","","Lord of Hellholt","","House Uller","","","mentioned"
-"Harmune","Harmune","","Maester","","Night's Watch","","","mentioned"
-"Harren-Hoare","Harren Hoare","Harren Hoare","","Harren Hoare;Harren the Black;Black Harren;King of the Isles and the Rivers","House Hoare","House Hoare","Ironborn","mentioned"
-"Harrion-Karstark","Harrion Karstark","","Lord of Karhold","Harrion Karstark;Harry","House Karstark","","Northmen","mentioned"
-"Harsley","Harsley","","","","","","","mentioned"
-"Harwin","Harwin","","","","House Stark;Brotherhood without banners","","Northmen","appears"
-"Harwyn-Plumm","Harwyn Plumm","","Ser","Harwyn Plumm;Hardstone","House Plumm","","","mentioned"
-"Harys-Haigh","Harys Haigh","","Ser","","House Haigh;House Frey","","","appears"
-"Harys-Swyft","Harys Swyft","","Knight of Cornfield;Ser;Hand of the King;Master of coin;Lord treasurer","","House Swyft","","","appears"
-"Helly","Helly","","","","","","","mentioned"
-"Helman-Tallhart","Helman Tallhart","","Ser;Master of Torrhen's Square","","House Tallhart","","Northmen","mentioned"
-"Helya","Helya","","","","House Greyjoy","","","mentioned"
-"Henk","Henk","","","Henk;Henk the Helm","","","Free Folk","mentioned"
-"High-Septon-(fat_one)","High Septon (fat_one)","","High Septon;His High Holiness","High Septon (fat_one);The fat one","Faith of the Seven","","","mentioned"
-"High-Septon-(Tyrions)","High Septon (Tyrions)","","High Septon;His High Holiness","High Septon (Tyrions);The one after the Fat One","Faith of the Seven","","","appears"
-"Hobb","Hobb","","","Hobb;Three-Finger Hobb","Night's Watch","","","appears"
-"Hobber-Redwyne","Hobber Redwyne","","Ser","Hobber Redwyne;Slobber","House Redwyne","","Reach","appears"
-"Hodor","Hodor","","","Hodor;Hodor","House Stark","","Northmen","appears"
-"Hop-Robin","Hop-Robin","","","","Night's Watch","","","appears"
-"Horas-Redwyne","Horas Redwyne","","Ser","Horas Redwyne;Horror","House Redwyne","","Reach","mentioned"
-"Horton-Redfort","Horton Redfort","","Lord of Redfort","","House Redfort;Lords Declarant","","Valemen","mentioned"
-"Hosman-Norcross","Hosman Norcross","","Ser","","House Norcross","","","mentioned"
-"Hosteen-Frey","Hosteen Frey","","Ser","Hosteen Frey;Ser Stupid","House Frey","","","appears"
-"Hoster-Frey","Hoster Frey","","","","House Frey","","","mentioned"
-"Hoster-Tully","Hoster Tully","","Lord Paramount of the Trident;Lord of Riverrun","","House Tully","","Rivermen","appears"
-"Hot-Pie","Hot Pie","","","","","","","appears"
-"Hother-Umber","Hother Umber","","Castellan of Last Hearth","Hother Umber;Hother Whoresbane;Whoresbane Umber","House Umber","","Northmen","mentioned"
-"Howland-Reed","Howland Reed","","Lord of Greywater Watch","","House Reed","","Crannogmen","mentioned"
-"Hubard-Rambton","Hubard Rambton","","Ser","","House Rambton","","","mentioned"
-"Hugo-Vance","Hugo Vance","","Ser","","House Vance of Atranta","","","mentioned"
-"Hullen","Hullen","","Master of horse at Winterfell","","House Stark","","Northmen","mentioned"
-"Husband","Husband","","","","","","","appears"
-"Iggo","Iggo","","","","Brave Companions","","Dothraki","appears"
-"Igon-Vyrwel","Igon Vyrwel","","","","House Vyrwel;House Tyrell","","","mentioned"
-"Illyrio-Mopatis","Illyrio Mopatis","","Magister of Pentos","Illyrio Mopatis;The Cheesemonger;The Fat Man;The Lord of Cheese","House Targaryen","","Pentoshi","mentioned"
-"Ilyn-Payne","Ilyn Payne","","Ser King's Justice","","House Payne","","Westeros","appears"
-"Imry-Florent","Imry Florent","","Ser;Lord High Captain","Imry Florent;The Fool of Florent","House Florent","","","mentioned"
-"Iron-Emmett","Iron Emmett","","","Iron Emmett;Iron Emmett","Night's Watch","","","appears"
-"Ironbelly","Ironbelly","","","Ironbelly;Ironbelly","","","","mentioned"
-"Irri","Irri","","","","House Targaryen","","Dothraki","appears"
-"Jacelyn-Bywater","Jacelyn Bywater","","Ser;Captain of the Mud Gate;Commander of the City Watch;Lord","Jacelyn Bywater;Ironhand","House Bywater;City Watch of King's Landing","","","mentioned"
-"Jack-Be-Lucky","Jack-Be-Lucky","","","Jack-Be-Lucky;Jack-Be-Lucky","Brotherhood without banners","","","appears"
-"Jacks","Jacks","","","","House Stark","","northmen","mentioned"
-"Jaehaerys-I-Targaryen","Jaehaerys I Targaryen","Jaehaerys Targaryen the First of His Name","","Jaehaerys I Targaryen;The Conciliator;The Wise;The Old King;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm","House Targaryen","House Targaryen","","mentioned"
-"Jaehaerys-II-Targaryen","Jaehaerys II Targaryen","Jaehaerys Targaryen the Second of His Name","","Jaehaerys II Targaryen;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm","House Targaryen","House Targaryen","","mentioned"
-"Jaime-Lannister","Jaime Lannister","","Ser;Lord Commander of the Kingsguard;Warden of the East (formerly)","Jaime Lannister;The Kingslayer;The Lion of Lannister;The Young Lion;Cripple","House Lannister;Kingsguard","","Westerlands","POV"
-"Jalabhar-Xho","Jalabhar Xho","","Prince of the Red Flower Vale","","Summer Islands","","Summer Islands","appears"
-"Jammos-Frey","Jammos Frey","","Ser","","House Frey","","","mentioned"
-"Janei-Lannister","Janei Lannister","","","","House Lannister","","","mentioned"
-"Janna-Tyrell","Janna Tyrell","","","","House Tyrell;House Fossoway of New Barrel","","","appears"
-"Janos-Slynt","Janos Slynt","","Commander of the City Watch Lord of Harrenhal","","Night's Watch;House Slynt;City Watch of King's Landing","","","appears"
-"Jaqen-H'ghar","Jaqen H'ghar","","","Jaqen H'ghar;Lorath","Faceless Men","","","mentioned"
-"Jared-Frey","Jared Frey","","Ser","","House Frey","","","mentioned"
-"Jaremy-Rykker","Jaremy Rykker","","Seracting First Ranger","","Night's Watch","","","mentioned"
-"Jarl","Jarl","","","","","","Free Folk","appears"
-"Jarmen-Buckwell","Jarmen Buckwell","","Ser","","House Buckwell;Night's Watch","","","mentioned"
-"Jason-Mallister","Jason Mallister","","Lord of Seagard","","House Mallister","","Riverlands","appears"
-"Jate-Blackberry","Jate Blackberry","","","","House Blackberry;House Baratheon of Dragonstone","","","mentioned"
-"Jayde","Jayde","","","","Chataya's brothel","","","mentioned"
-"Jenny-(Oldstones)","Jenny (Oldstones)","","","","","","","mentioned"
-"Jeor-Mormont","Jeor Mormont","","Lord of Bear Island (formerly)Lord Commander of the Night's Watch","Jeor Mormont;The Old Bear","House Mormont;Night's Watch","","Northmen","appears"
-"Jeren","Jeren","","","","Night's Watch","","","mentioned"
-"Jeyne-Beesbury","Jeyne Beesbury","","","","House Beesbury;House Frey","","","mentioned"
-"Jeyne-Darry","Jeyne Darry","","","","House Darry;House Frey","","Westeros","mentioned"
-"Jeyne-Goodbrook","Jeyne Goodbrook","","","","House Goodbrook","","","mentioned"
-"Jeyne-Lydden","Jeyne Lydden","","","","House Lydden","","","mentioned"
-"Jeyne-Poole","Jeyne Poole","","","Jeyne Poole;Arya Stark","House Poole","","Northmen","appears"
-"Jeyne-Rivers","Jeyne Rivers","","","","House Frey","","","mentioned"
-"Jeyne-Swann","Jeyne Swann","","","","House Swann","","","mentioned"
-"Jeyne-Westerling-(wife-of-Maegor-I)","Jeyne Westerling (wife of Maegor I)","","Queen;Black Bride","","House Westerling;House Tarbeck;House Targaryen","","","mentioned"
-"Jeyne-Westerling","Jeyne Westerling","","Queen;Lady of Winterfell","","House Westerling;House Stark","","Westermen","appears"
-"Jhaqo","Jhaqo","","Khal;Ko (formerly)","","","","Dothraki","mentioned"
-"Jhiqui","Jhiqui","","","","House Targaryen","","Dothraki","appears"
-"Jhogo","Jhogo","","Ko;Bloodrider","","House Targaryen","","Dothraki","appears"
-"Joanna-Lannister","Joanna Lannister","","Lady of Casterly Rock","","House Lannister","","Westerman","mentioned"
-"Joanna-Swyft","Joanna Swyft","","","","House Swyft","","","mentioned"
-"Joffrey-Baratheon","Joffrey Baratheon","Joffrey Baratheon the First of His Name","","Joffrey Baratheon;Joffrey the Illborn;The Young Usurper;Aerys the Third;Joffrey-called-Baratheon;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm","House Baratheon of King's Landing","House Baratheon of King's Landing","","appears"
-"Jojen-Reed","Jojen Reed","","","Jojen Reed;Little Grandfather","House Reed","","Crannogmen","appears"
-"Jon-Arryn","Jon Arryn","","Lord of the Eyrie;Defender of the Vale;Warden of the East;Hand of the King","","House Arryn","","Valemen","mentioned"
-"Jon-Brax","Jon Brax","","","","House Brax","","","mentioned"
-"Jon-Bulwer","Jon Bulwer","","Lord of Blackcrown","","House Bulwer","","","mentioned"
-"Jon-Connington","Jon Connington","","Lord of Griffin's Roost;;Hand of the King;Hand of the True King;","Jon Connington;Griff;The dancing griffins Hand;","House Connington;House Targaryen;Golden Company","","Stormlands","mentioned"
-"Jon-Myre","Jon Myre","","","Jon Myre;Pinchface Jon","House Myre","","Ironborn","mentioned"
-"Jon-Snow","Jon Snow","","Lord Commander of the Night's Watch","Jon Snow;Lord Snow;Ned Stark's Bastard;The Snow of Winterfell;The Crow-Come-Over;The 998th Lord Commander of the Night's Watch;The Bastard of Winterfell;The Black Bastard of the Wall;Lord Crow","House Stark;Night's Watch","","Northmen","POV"
-"Jon-Umber-(Greatjon)","Jon Umber (Greatjon)","","Lord of the Last Hearth","Jon Umber (Greatjon);The Greatjon;Greatjon Umber","House Umber","","Northmen","appears"
-"Jon-Umber-(Smalljon)","Jon Umber (Smalljon)","","","Jon Umber (Smalljon);The Smalljon;Smalljon Umber","House Umber","","Northmen","appears"
-"Jon-Wylde","Jon Wylde","","Ser","","House Wylde","","","mentioned"
-"Jonella-Cerwyn","Jonella Cerwyn","","Lady of Cerwyn","","House Cerwyn","","Northmen","mentioned"
-"Jonos-Bracken","Jonos Bracken","","Lord of Stone Hedge","","House Bracken","","","appears"
-"Jonos-Frey","Jonos Frey","","","","House Frey","","","mentioned"
-"Jonothor-Darry","Jonothor Darry","","Ser","Jonothor Darry;Jon Darry","House Darry;Kingsguard","","Rivermen","mentioned"
-"Jorah-Mormont","Jorah Mormont","","Ser;Lord of Bear Island (stripped)","Jorah Mormont;Jorah the Andal;Bear","House Mormont;House Targaryen;Second Sons","","Northmen","appears"
-"Joramun","Joramun","","King-Beyond-the-Wall","","","","Free Folk","mentioned"
-"Jory-Cassel","Jory Cassel","","Captain of the guard","","House Cassel","","Northmen","mentioned"
-"Josmyn-Peckledon","Josmyn Peckledon","","","Josmyn Peckledon;Peck","House Peckledon","","","appears"
-"Joth-Quickbow","Joth Quickbow","","","","","","","mentioned"
-"Jothos-Slynt","Jothos Slynt","","","","House Slynt","","","appears"
-"Joy-Hill","Joy Hill","","","","House Lannister","","","mentioned"
-"Joyeuse-Erenford","Joyeuse Erenford","","Lady of the Crossing","","House Erenford;House Frey","","","appears"
-"Jurne","Jurne","","Maester","","","","","mentioned"
-"Jyanna-Frey","Jyanna Frey","","","","House Frey","","","mentioned"
-"Jynessa-Blackmont","Jynessa Blackmont","","","","House Blackmont","","Dornish","appears"
-"Jyzene","Jyzene","","","","","","","mentioned"
-"Kaeth","Kaeth","","Grand Maester","","","","","mentioned"
-"Karlon-Stark","Karlon Stark","","Lord of Karl's Hold","","House Stark;House Karstark","","Northmen","mentioned"
-"Karyl-Vance","Karyl Vance","","Ser;Lord of Wayfarer's Rest","","House Vance of Wayfarer's Rest","","","appears"
-"Kedge-Whiteye","Kedge Whiteye","","","","Night's Watch","","","appears"
-"Kegs","Kegs","","","","Night's Watch","","","mentioned"
-"Kella","Kella","","","","House Baelish","","","appears"
-"Kennos-of-Kayce","Kennos of Kayce","","Ser","","House Kenning of Kayce","","","appears"
-"Kevan-Lannister","Kevan Lannister","","Ser;Master of laws;Lord Regent;Protector of the Realm","","House Lannister","","","appears"
-"Khorane-Sathmantes","Khorane Sathmantes","","","","","","Lyseni","appears"
-"Kirth-Vance","Kirth Vance","","","","House Vance of Atranta","","","mentioned"
-"Kraznys-mo-Nakloz","Kraznys mo Nakloz","","","","Good Masters;House of Nakloz","","Astapor","appears"
-"Kyle-(brotherhood)","Kyle (brotherhood)","","","","Brotherhood without banners","","","appears"
-"Kyle-Condon","Kyle Condon","","Ser","","House Condon","","","mentioned"
-"Kym","Kym","","Maester","","","","","mentioned"
-"Kyra-Frey","Kyra Frey","","","","House Frey","","","mentioned"
-"Lady-of-the-Leaves","Lady of the Leaves","","Lady of the Leaves","","","","","appears"
-"Lamprey","Lamprey","","","Lamprey;Lamprey","House Baratheon of Dragonstone","","","appears"
-"Lancel-Lannister","Lancel Lannister","","Ser;Lord of Darry","","House Lannister of Casterly Rock;House Lannister of Darry;Noble and Puissant Order of the Warrior's Sons","","","appears"
-"Lanna","Lanna","","","","","","","mentioned"
-"Lanna-Lannister","Lanna Lannister","","","","House Lannister;House Jast","","","mentioned"
-"Larence-Snow","Larence Snow","","","","House Hornwood","","Northmen","mentioned"
-"Lark","Lark","","","Lark;The Sisterman;Lark the Sisterman","Night's Watch","","Sistermen","appears"
-"Larra-Blackmont","Larra Blackmont","","Lady of Blackmont","","House Blackmont","","Dornish","appears"
-"Left-Hand-Lew","Left Hand Lew","","","","Night's Watch","","","appears"
-"Lem","Lem","","","Lem;Lem Lemoncloak;The Lemon;The Hound (III)Yellow cloak","Brotherhood without banners","","","appears"
-"Lenn","Lenn","","","","","","Free Folk","mentioned"
-"Lennocks","Lennocks","","","","","","","mentioned"
-"Lenyl","Lenyl","","","","","","Free Folk","mentioned"
-"Leo-Blackbar","Leo Blackbar","","Ser","","House Blackbar","","","mentioned"
-"Leo-Lefford","Leo Lefford","","Lord of the Golden Tooth","","House Lefford","","","mentioned"
-"Leo-Tyrell","Leo Tyrell","","Novice","Leo Tyrell;Lazy Leo;Leo the Lazy","House Tyrell Maesters of the Citadel","","","mentioned"
-"Leo-Tyrell-(Longthorn)","Leo Tyrell (Longthorn)","","Lord Paramount of the Mander;Lord of Highgarden;Defender of the Marches;High Marshal of the Reach;Warden of the South","Leo Tyrell (Longthorn);Leo Longthorn","House Tyrell","","Reach","mentioned"
-"Leo-Tyrell-(son-of-Victor)","Leo Tyrell (son of Victor)","","Ser","","House Tyrell","","","mentioned"
-"Leobald-Tallhart","Leobald Tallhart","","Castellan of Torrhen's Square","","House Tallhart","","Northmen","mentioned"
-"Leona-Tyrell","Leona Tyrell","","","","House Tyrell","","","mentioned"
-"Leonette-Fossoway","Leonette Fossoway","","Lady","","House Fossoway;House Tyrell of Brightwater Keep","","","appears"
-"Leslyn-Haigh","Leslyn Haigh","","Ser","","House Haigh","","","mentioned"
-"Lester","Lester","","","Lester;Red Lester","House Lannister","","","mentioned"
-"Lester-Morrigen","Lester Morrigen","","Lord of Crows Nest","","House Morrigen","","","mentioned"
-"Lewyn-Martell","Lewyn Martell","","Prince;Ser","","House Martell;Kingsguard","","Dornishmen","mentioned"
-"Lewys-the-Fishwife","Lewys the Fishwife","","","Lewys the Fishwife;Lewys the Fishwife","House Baratheon of Dragonstone;King's men","","","mentioned"
-"Lewys-Lydden","Lewys Lydden","","Lord of the Deep Den","","House Lydden","","","mentioned"
-"Leyton-Hightower","Leyton Hightower","","Lord of the Hightower;Lord of the Port;Voice of Oldtown;Defender of the Citadel;Beacon of the South","Leyton Hightower;Old Man of Oldtown","House Hightower","","","mentioned"
-"Lia-Serry","Lia Serry","","","","House Serry;House Tyrell","","","mentioned"
-"Likely-Luke","Likely Luke","","","Likely Luke;Likely Luke","Brotherhood Without Banners","","","mentioned"
-"Lister","Lister","","","","","","","mentioned"
-"Lollys-Stokeworth","Lollys Stokeworth","","Lady of Stokeworth","Lollys Stokeworth;Lollys Lackwit","House Stokeworth","","","appears"
-"Lomas-Estermont","Lomas Estermont","","Ser","","House Estermont","","Stormlands","mentioned"
-"Lommy-Greenhands","Lommy Greenhands","","","Lommy Greenhands;Lommy Greenhands","","","","mentioned"
-"Lomys","Lomys","","Maester","","","","","mentioned"
-"Long-Lew","Long Lew","","","Long Lew;Long Lew","House Tully","","","mentioned"
-"Loras-Tyrell","Loras Tyrell","","Ser;Lord Commander of the Rainbow Guard","Loras Tyrell;The Knight of Flowers;Knight o_��__ Pansies;Ser Daisy","House Tyrell;Rainbow Guard;Kingsguard","","Reach","appears"
-"Lorent-Tyrell","Lorent Tyrell","","","","House Tyrell","","","mentioned"
-"Loreza-Sand","Loreza Sand","","","Loreza Sand;Loree","House Martell","","Dorne","mentioned"
-"Lormelle","Lormelle","","","Lormelle;Lormelle Long Lance","","","","mentioned"
-"Lothar-Frey","Lothar Frey","","Steward of the Twins","Lothar Frey;Lame Lothar","House Frey","","Rivermen","appears"
-"Lothar-Mallery","Lothar Mallery","","Lord","","House Mallery","","","mentioned"
-"Lothor-Brune","Lothor Brune","","Ser","Lothor Brune;Lothor Apple-Eater","House Brune of Brownhollow;House Baelish of Harrenhal","","","appears"
-"Lucas-Blackwood","Lucas Blackwood","","","","House Blackwood","","","appears"
-"Lucas-Roote","Lucas Roote","","","","House Roote","","","mentioned"
-"Lucas-Tyrell","Lucas Tyrell","","","","House Tyrell","","","mentioned"
-"Luceon-Frey","Luceon Frey","","Septon","","Faith of the Seven;Most Devout","","","mentioned"
-"Lucias-Vypren","Lucias Vypren","","Lord","","House Vypren","","","appears"
-"Lucion-Lannister","Lucion Lannister","","Ser","","House Lannister","","","mentioned"
-"Lucos-Chyttering","Lucos Chyttering","","Lord","Lucos Chyttering;Little Lucos","House Chyttering","","","mentioned"
-"Lum","Lum","","","","House Lannister","","westermen","mentioned"
-"Luthor-Tyrell","Luthor Tyrell","","Lord Paramount of the Mander;Lord of Highgarden;Defender of the Marches;High Marshal of the Reach;Warden of the South","","House Tyrell","","Reach","mentioned"
-"Luthor-Tyrell-(son-of-Moryn)","Luthor Tyrell (son of Moryn)","","Ser","","House Tyrell","","","mentioned"
-"Luthor-Tyrell-(son-of-Theodore)","Luthor Tyrell (son of Theodore)","","","","House Tyrell","","","mentioned"
-"Luwin","Luwin","","","","House Stark","","Westeros","mentioned"
-"Lyanna-Stark","Lyanna Stark","","","Lyanna Stark;The She-Wolf;The Wolf Maid;Lya","House Stark","","Northmen","mentioned"
-"Lyessa-Flint","Lyessa Flint","","Lady of Widow's Watch","","House Flint of Widow's Watch","","Northmen","mentioned"
-"Lyle-Crakehall","Lyle Crakehall","","Ser","Lyle Crakehall;Strongboar","House Crakehall","","","mentioned"
-"Lymond-Goodbrook","Lymond Goodbrook","","Lord","","House Goodbrook","","","appears"
-"Lymond-Lychester","Lymond Lychester","","Lord of Castle Lychester","","House Lychester","","Rivermen","appears"
-"Lymond-Vikary","Lymond Vikary","","Ser","","House Vikary","","","mentioned"
-"Lyn-Corbray","Lyn Corbray","","Ser","","House Corbray;Lords Declarant","","","mentioned"
-"Lynesse-Hightower","Lynesse Hightower","","","","House Hightower","","","mentioned"
-"Lyonel-Frey","Lyonel Frey","","Ser","","House Frey of Riverrun","","","mentioned"
-"Lyonel-Selmy","Lyonel Selmy","","Ser;Knight of Harvest Hall","","House Selmy","","","mentioned"
-"Lyonel-Tyrell-(son-of-Leo)","Lyonel Tyrell (son of Leo)","","","","House Tyrell","","","mentioned"
-"Lysa-Arryn","Lysa Arryn","","Lady of the Vale","Lysa Arryn;Lysa Tully","House Tully;House Arryn;House Baelish","","","appears"
-"Lysa-Meadows","Lysa Meadows","","","","House Meadows;House Tyrell","","","mentioned"
-"Lythene-Frey","Lythene Frey","","","","House Frey","","","mentioned"
-"Mace-Tyrell","Mace Tyrell","","Lord of Highgarden;Defender of the Marches;High Marshal of the Reach;Warden of the South;Hand of the King;Master of ships (formerly)","Mace Tyrell;Lord Oaf;The Fat Flower;Lord Puff Fish","House Tyrell","","","appears"
-"Mad-Huntsman","Mad Huntsman","","","Mad Huntsman;The Huntsman","Brotherhood without banners","","","appears"
-"Maege-Mormont","Maege Mormont","","Lady of Bear Island","Maege Mormont;The She-Bear","House Mormont","","Northmen","appears"
-"Maegelle-Frey","Maegelle Frey","","","","House Frey","","","mentioned"
-"Maegor-I-Targaryen","Maegor I Targaryen","Maegor Targaryen the First of His Name","","Maegor I Targaryen;Maegor the Cruel;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm;Hand of the King;Ser","House Targaryen","House Targaryen","","mentioned"
-"Maelys-Blackfyre","Maelys Blackfyre","","","Maelys Blackfyre;Maelys the Monstrous","House Blackfyre;Golden Company;Band of Nine","","Valyrian","mentioned"
-"Maerie-(Goodwife)","Maerie (Goodwife)","","Goodwife","","","","","mentioned"
-"Maerie-(Whore)","Maerie (Whore)","","","Maerie (Whore);Maerie the Whore","","","","mentioned"
-"Mag-Mar-Tun-Doh-Weg","Mag Mar Tun Doh Weg","","","Mag Mar Tun Doh Weg;Mag the Mighty","","","","appears"
-"Maggy","Maggy","","","Maggy;Maggy the Frog","","","","mentioned"
-"Mago","Mago","","Bloodrider of Khal Jhaqo","","","","Dothraki","mentioned"
-"Mallador-Locke","Mallador Locke","","Ser","","Night's Watch","","","mentioned"
-"Malwyn-Frey","Malwyn Frey","","","","House Frey","","","mentioned"
-"Mance-Rayder","Mance Rayder","","","Mance Rayder;The Mance;Abel;The Unburnt King;King-Beyond-the-Wall","","","Free folk","appears"
-"Mandon-Moore","Mandon Moore","","Ser","","House Moore;Kingsguard","","Valemen","mentioned"
-"Manfred-Swann","Manfred Swann","","Ser","","House Swann","","","mentioned"
-"Marei","Marei","","","","Chataya's brothel","","","mentioned"
-"Margaery-Tyrell","Margaery Tyrell","","Queen of the Seven Kingdoms","Margaery Tyrell;The Little Queen;The Little Rose;Maid Margaery","House Tyrell","","Reach","appears"
-"Margot-Lannister","Margot Lannister","","Lady of Starpike","","House Lannister;House Peake","","","mentioned"
-"Marianne-Vance","Marianne Vance","","","","House Vance","","","mentioned"
-"Maric-Seaworth","Maric Seaworth","","Oarmaster","","House Seaworth","","","mentioned"
-"Marillion","Marillion","","","","","","","appears"
-"Marissa-Frey","Marissa Frey","","","","House Frey","","","appears"
-"Mariya-Darry","Mariya Darry","","","","House Darry;House Frey","","","mentioned"
-"Mark-Mullendore","Mark Mullendore","","Ser","","House Mullendore","","","mentioned"
-"Maron-Botley","Maron Botley","","","Maron Botley;Fishwhiskers","House Botley","","","mentioned"
-"Maron-Greyjoy","Maron Greyjoy","","","","House Greyjoy","","Ironborn","mentioned"
-"Maron-Volmark","Maron Volmark","","Lord of Volmark;Lord of Greenshield","","House Volmark","","Ironborn","mentioned"
-"Marq-Piper","Marq Piper","","Ser","","House Piper","","Rivermen","appears"
-"Marq-Rankenfell","Marq Rankenfell","","Lord Commander of the Night's Watch","Marq Rankenfell;Mad Marq Rankenfell","Night's Watch","","","mentioned"
-"Marsella-Waynwood","Marsella Waynwood","","","","House Waynwood;House Frey","","","mentioned"
-"Martyn-Lannister","Martyn Lannister","","","","House Lannister","","","mentioned"
-"Martyn-Rivers","Martyn Rivers","","","","House Frey","","","appears"
-"Marwyn","Marwyn","","Archmaester","Marwyn;Marwyn the Mage;The Mage;The mastiff","","","","mentioned"
-"Marwyn-Belmore","Marwyn Belmore","","Ser","Marwyn Belmore;Ser Ding-Dong","House Belmore;House Arryn","","","mentioned"
-"Marya-Seaworth","Marya Seaworth","","Lady","","House Seaworth","","","mentioned"
-"Maslyn","Maslyn","","","","Night's Watch","","","appears"
-"Mathis-Frey","Mathis Frey","","","","House Frey","","","mentioned"
-"Mathis-Rowan","Mathis Rowan","","Lord of Goldengrove","","House Rowan","","Reach","appears"
-"Matt","Matt","","","Matt;Little Matt","","","","mentioned"
-"Matthar","Matthar","","","Matthar;Ser Loon;","Night's Watch","","","mentioned"
-"Matthos-Seaworth","Matthos Seaworth","","","","House Seaworth","","","mentioned"
-"Mawney","Mawney","","","","Night's Watch","","","appears"
-"Maynard","Maynard","","Ser","","","","","mentioned"
-"Medwick-Tyrell","Medwick Tyrell","","Maester","","","","","mentioned"
-"Meera-Reed","Meera Reed","","","","House Reed","","Crannogmen","appears"
-"Megga-Tyrell","Megga Tyrell","","","","House Tyrell","","","appears"
-"Meizo-Mahr","Meizo Mahr","","","","","","","mentioned"
-"Melara-Crane","Melara Crane","","","","House Crane;House Florent","","","mentioned"
-"Meldred-Merlyn","Meldred Merlyn","","Lord of Pebbleton","Meldred Merlyn;The Merlyn","House Merlyn","","Ironborn","mentioned"
-"Melesa-Crakehall","Melesa Crakehall","","","","House Crakehall","","","mentioned"
-"Melessa-Florent","Melessa Florent","","","","House Florent;House Tarly","","","mentioned"
-"Meliana","Meliana","","","Meliana;Lady Meliana","","","","A Storm of Swords"
-"Melisandre","Melisandre","","","Melisandre;The red priestess;The red woman;The king's red shadow;Lady Red;Lot Seven","Faith of R'hllor","","Asshai","appears"
-"Mellara-Rivers","Mellara Rivers","","","","House Frey","","","mentioned"
-"Melly","Melly","","","","Brotherhood Without Banners","","","appears"
-"Melwyn-Sarsfield","Melwyn Sarsfield","","Ser","","House Sarsfield","","","mentioned"
-"Melwys-Rivers","Melwys Rivers","","Maester","","","","","mentioned"
-"Meredyth-Crane","Meredyth Crane","","","Meredyth Crane;Merry","House Crane","","","appears"
-"Merianne-Frey","Merianne Frey","","","Merianne Frey;Merry Frey","House Frey","","","mentioned"
-"Merlon-Crakehall","Merlon Crakehall","","Ser","","House Crakehall","","","appears"
-"Mero","Mero","","","Mero;The Titan's Bastard;Mero of Braavos","Second Sons","","Braavosi","appears"
-"Merrell-Florent","Merrell Florent","","","","House Florent","","","mentioned"
-"Merrett-Frey","Merrett Frey","","","Merrett Frey;Merrett Muttonhead","House Frey","","Riverlands","POV"
-"Merrit","Merrit","","","Merrit;Merrit o' Moontown","Brotherhood without banners","","","mentioned"
-"Meryn-Trant","Meryn Trant","","Ser","","House Trant;Kingsguard","","","appears"
-"Mikken","Mikken","","","","House Stark","","Northmen","mentioned"
-"Mina-Tyrell","Mina Tyrell","","","","House Tyrell;House Redwyne","","","mentioned"
-"Minisa-Whent","Minisa Whent","","Lady of Riverrun","Minisa Whent;Minisa Tully","House Whent;House Tully","","Rivermen","mentioned"
-"Mirri-Maz-Duur","Mirri Maz Duur","","Godswife;Maegi","","","","Lhazareen","mentioned"
-"Missandei","Missandei","","","","House Targaryen","","Naathi","appears"
-"Monford-Velaryon","Monford Velaryon","","Lord of the Tides;Master of Driftmark","","House Velaryon","","Valyrian","mentioned"
-"Monster","Monster","","","Monster;the little monsterthe abomination","","","Free Folk","appears"
-"Monterys-Velaryon","Monterys Velaryon","","Lord of the Tides;Master of Driftmark","","House Velaryon","","","mentioned"
-"Moon-Boy","Moon Boy","","","","House Baratheon of King's Landing","","","appears"
-"Mord","Mord","","","","House Arryn","","","mentioned"
-"Mordane","Mordane","","Septa","","House Stark","","","mentioned"
-"Morros-Slynt","Morros Slynt","","Lord","","House Slynt","","","appears"
-"Mors-Manwoody","Mors Manwoody","","","","House Manwoody","","","appears"
-"Mors-Umber","Mors Umber","","Castellan of Last Hearth","Mors Umber;Mors Crowfood","House Umber","","Northmen","mentioned"
-"Morton-Waynwood","Morton Waynwood","","Ser","","House Waynwood","","","mentioned"
-"Morya-Frey","Morya Frey","","Lady","","House Frey;House Brax","","","mentioned"
-"Moryn-Tyrell","Moryn Tyrell","","Ser  Lord Commander of the City Watch of Oldtown","","House Tyrell","","","mentioned"
-"Mudge-(brotherhood)","Mudge (brotherhood)","","","","Brotherhood without banners","","","mentioned"
-"Mudge-(miller)","Mudge (miller)","","","","","","","A Storm of Swords"
-"Mullin","Mullin","","Maester","","Night's Watch","","","mentioned"
-"Mully","Mully","","","","Night's Watch","","","appears"
-"Munda","Munda","","","","","","Free Folk","mentioned"
-"Murmison","Murmison","","Septon;Hand of the King","","Faith of the Seven;House Targaryen","","","mentioned"
-"Muttering-Bill","Muttering Bill","","","","Night's Watch","","","appears"
-"Mya-Stone","Mya Stone","","","","House Royce of the Gates of the Moon","","","mentioned"
-"Mycah","Mycah","","","","","","Westeros","mentioned"
-"Mychel-Redfort","Mychel Redfort","","Ser","","House Redfort","","Valemen","mentioned"
-"Mylenda-Caron","Mylenda Caron","","","","House Caron;House Frey","","","mentioned"
-"Myles-Manwoody","Myles Manwoody","","Ser","","House Manwoody","","","appears"
-"Myles-Mooton","Myles Mooton","","Ser","","House Mooton","","Rivermen","mentioned"
-"Myles-Smallwood","Myles Smallwood","","Hand of the King","","House Smallwood","","","mentioned"
-"Myranda-Royce","Myranda Royce","","","Myranda Royce;Randa","House Royce of the Gates of the Moon","","","mentioned"
-"Myrcella-Baratheon","Myrcella Baratheon","","Princess","","House Baratheon of King's Landing","","","mentioned"
-"Myria-Jordayne","Myria Jordayne","","","","House Jordayne","","Dornish","appears"
-"Myrielle-Lannister","Myrielle Lannister","","","","House Lannister","","","mentioned"
-"Nage","Nage","","","","House Bolton","","","appears"
-"Nan","Nan","","","","House Stark","","","mentioned"
-"Nella","Nella","","","","","","Free Folk","mentioned"
-"Nestor-Royce","Nestor Royce","","Keeper of the Gates of the Moon;High Steward of the Vale","","House Royce of the Gates of the Moon","","","mentioned"
-"Nolla","Nolla","","Goodwife","","","","","mentioned"
-"Norbert-Vance","Norbert Vance","","Lord of Atranta","","House Vance of Atranta","","","mentioned"
-"Normund-Tyrell","Normund Tyrell","","Maester","","","","","mentioned"
-"Norne-Goodbrother","Norne Goodbrother","","Lord of Shatterstone","","House Goodbrother of Shatterstone","","Ironborn","mentioned"
-"Notch","Notch","","","","Brotherhood without Banners","","","appears"
-"Nymella-Toland","Nymella Toland","","Lady of Ghost Hill","","House Toland","","Dornish","mentioned"
-"Nymeria-Sand","Nymeria Sand","","","Nymeria Sand;Lady Nym","House Martell","","Dornishmen","mentioned"
-"Nysterica","Nysterica","","Septa","","","","","mentioned"
-"Obara-Sand","Obara Sand","","","","House Martell","","Dornish","mentioned"
-"Obella-Sand","Obella Sand","","","","House Martell","","Dornishmen","mentioned"
-"Oberyn-Martell","Oberyn Martell","","Prince;Ser","Oberyn Martell;The Red Viper","House Martell;Second Sons (formerly)","","Dornishmen","appears"
-"Old-Henly","Old Henly","","","","Night's Watch","","","appears"
-"Olene-Tyrell","Olene Tyrell","","","","House Tyrell","","","mentioned"
-"Olenna-Redwyne","Olenna Redwyne","","Dowager Lady of Highgarden","Olenna Redwyne;Olenna Redwyne;Queen of Thorns","House Redwyne;House Tyrell","","","appears"
-"Ollo-Lophand","Ollo Lophand","","","Ollo Lophand;Ollo Lophand","Night's Watch","","Tyroshi","appears"
-"Olymer-Tyrell","Olymer Tyrell","","Ser","","House Tyrell","","","mentioned"
-"Olyvar-Frey","Olyvar Frey","","","","House Frey","","","mentioned"
-"Omer-Blackberry","Omer Blackberry","","","","House Blackberry;House Baratheon of Dragonstone;King's men","","","mentioned"
-"Omer-Florent","Omer Florent","","Maester","","","","","mentioned"
-"Ondrew-Locke","Ondrew Locke","","Lord of Oldcastle","Ondrew Locke;old Lord Locke","House Locke","","Northmen","mentioned"
-"Orell","Orell","","","","","","Free Folk","mentioned"
-"Orland-of-Oldtown","Orland of Oldtown","","","Orland of Oldtown;Ormond of Oldtown","House Baratheon of King's Landing","","","mentioned"
-"Ormond-(knight)","Ormond (knight)","","Ser","","","","","mentioned"
-"Oro-Tendyris","Oro Tendyris","","","","","","Braavosi","mentioned"
-"Orphan-Oss","Orphan Oss","","","","Night's Watch","","","appears"
-"Orton-Merryweather","Orton Merryweather","","Lord of Longtable;Justiciar;Master of laws;Hand of the King","","House Merryweather","","Reachmen","appears"
-"Osfryd-Kettleblack","Osfryd Kettleblack","","Ser;Commander of the City Watch of King's Landing","","House Kettleblack;City Watch of King's Landing","","","appears"
-"Osha","Osha","","","","House Stark","","Free folk","mentioned"
-"Osmund-Frey","Osmund Frey","","","","House Frey","","","mentioned"
-"Osmund-Kettleblack","Osmund Kettleblack","","Ser","Osmund Kettleblack;Oswald Kettleblack;","House Kettleblack;Gallant Men (formerly)Kingsguard","","","appears"
-"Osney-Kettleblack","Osney Kettleblack","","Ser","","House Kettleblack","","","appears"
-"Ossifer-Plumm","Ossifer Plumm","","Lord","","House Plumm","","","mentioned"
-"Oswell-Kettleblack","Oswell Kettleblack","","","Oswell Kettleblack;Kettleblack","House Kettleblack;House Baelish of Harrenhal","","","appears"
-"Oswell-Whent","Oswell Whent","","Ser","","House Whent;Kingsguard","","Rivermen","mentioned"
-"Oswyn","Oswyn","","","Oswyn;Oswyn Longneck the Thrice-Hanged","Kingswood Brotherhood","","","mentioned"
-"Othell-Yarwyck","Othell Yarwyck","","First Builder","","House Yarwyck;Night's Watch","","","appears"
-"Otter-Gimpknee","Otter Gimpknee","","","","","","","mentioned"
-"Otto-Hightower","Otto Hightower","","Ser;Hand of the King","","House Hightower;Greens","","","mentioned"
-"Ottyn-Wythers","Ottyn Wythers","","Ser","","House Wythers;Night's Watch","","","appears"
-"Owen","Owen","","","Owen;Owen the Oaf","Night's Watch","","","appears"
-"Owen-Norrey","Owen Norrey","","","","House Norrey","","Northern mountain clans","mentioned"
-"Oznak-zo-Pahl","Oznak zo Pahl","","","","House of Pahl;Great Masters","","Meereen","appears"
-"Parmen-Crane","Parmen Crane","","Ser","Parmen Crane;Parmen the Purple","House Crane;Rainbow Guard","","","mentioned"
-"Patchface","Patchface","","","Patchface;Patches","House Baratheon of Dragonstone","","","appears"
-"Pate-(Lancewood)","Pate (Lancewood)","","","","","","","mentioned"
-"Pate-(Mory)","Pate (Mory)","","","","","","","mentioned"
-"Pate-of-the-Blue-Fork","Pate of the Blue Fork","","Ser","Pate of the Blue Fork;Pate of the Blue Fork Pate of Sevenstreams","House Frey","","","mentioned"
-"Pate-(Old)","Pate (Old)","","","Pate (Old);Old Pate","","","","A Storm of Swords"
-"Pate-(Shermer's-Grove)","Pate (Shermer's Grove)","","","","","","","mentioned"
-"Patrek-Mallister","Patrek Mallister","","","","House Mallister","","","appears"
-"Patrek-Vance","Patrek Vance","","","","House Vance","","","mentioned"
-"Paxter-Redwyne","Paxter Redwyne","","Lord of the Arbor;Grand admiral;Lord admiral;Master of ships","","House Redwyne","","","appears"
-"Penny","Penny","","","Penny;Lady Imp","Second Sons","","","appears"
-"Perra-Frey","Perra Frey","","","","House Frey","","","mentioned"
-"Perriane-Frey","Perriane Frey","","","","House Haigh","","","mentioned"
-"Perros-Blackmont","Perros Blackmont","","","","House Blackmont","","Dornish","appears"
-"Perwyn-Frey","Perwyn Frey","","Ser","","House Frey","","","mentioned"
-"Peter-Plumm","Peter Plumm","","Ser","","House Plumm","","","mentioned"
-"Petyr-Baelish","Petyr Baelish","","Master of coin (formerly)Lord Paramount of the Trident;Lord of Harrenhal;Lord Protector of the Vale","Petyr Baelish;Littlefinger","House Baelish of the Fingers;House Baelish of Harrenhal","","Valemen","appears"
-"Petyr-Frey","Petyr Frey","","","Petyr Frey;Petyr Pimple","House Frey","","","appears"
-"Philip-Foote","Philip Foote","","Ser;Lord of Nightsong;Lord of the Marches","","House Foote;House Foote of Nightsong","","","appears"
-"Philip-Plumm","Philip Plumm","","Lord","","House Plumm","","","mentioned"
-"Pia","Pia","","","Pia;Pretty Pia","House Whent","","","mentioned"
-"Podrick-Payne","Podrick Payne","","","Podrick Payne;Pod","House Payne","","","appears"
-"Polliver","Polliver","","Castellan of Harrenhal","Polliver;Polly","House Clegane","","","appears"
-"Pono","Pono","","Khal;Ko (formerly)","","","","Dothraki","mentioned"
-"Porridge","Porridge","","","Porridge;Porridge","House Baratheon of Dragonstone","","","appears"
-"Prendahl-na-Ghezn","Prendahl na Ghezn","","","","Stormcrows","","Ghiscari","appears"
-"Preston-Greenfield","Preston Greenfield","","Ser","","House Greenfield;Kingsguard","","Westermen","mentioned"
-"Puddingfoot","Puddingfoot","","","","Brotherhood without banners","","","mentioned"
-"Pyat-Pree","Pyat Pree","","Warlock","","The Undying Ones","","","mentioned"
-"Pycelle","Pycelle","","Grand Maester","","Maesters of the Citadel (by oath)House Lannister (de facto)","","","appears"
-"Pyg","Pyg","","","","Brave Companions","","","appears"
-"Pylos","Pylos","","Maester","","House Baratheon of Dragonstone","","","appears"
-"Pypar","Pypar","","","Pypar;Pyp;Monkey;Mummer's Monkey;","Night's Watch","","","appears"
-"Qarl-the-Maid","Qarl the Maid","","","Qarl the Maid;Qarl the Maid","","","Ironborn","mentioned"
-"Qarlton-Chelsted","Qarlton Chelsted","","Lord;Master of Coin;Hand of the King","Qarlton Chelsted;The mace-and-dagger Hand","House Chelsted","","","mentioned"
-"Qhorin-Halfhand","Qhorin Halfhand","","","Qhorin Halfhand;Qhorin Halfhand","Night's Watch","","","mentioned"
-"Lord-Commander-Qorgyle","Lord Commander Qorgyle","","Lord Commander of the Night's Watch","","House Qorgyle;Night's Watch","","","mentioned"
-"Quaithe","Quaithe","","","Quaithe;Quaithe of the Shadow","","","Asshai'i","appears"
-"Quent","Quent","","","","House Stark","","northmen","mentioned"
-"Quenten-Banefort","Quenten Banefort","","Lord of Banefort","","House Banefort","","","mentioned"
-"Quentin-Tyrell","Quentin Tyrell","","Ser","","House Tyrell","","","mentioned"
-"Quentyn-Martell","Quentyn Martell","","Prince;Ser","Quentyn Martell;Frog;Prince Frog;;The Prince Who Came Too Late;The Dragonrider;","House Martell;Windblown","","Dornishmen","mentioned"
-"Quort","Quort","","","","wildling","","","mentioned"
-"Qyburn","Qyburn","","Lord;Master of whisperers","Qyburn;The Bloody Maester","House Lannister Brave Companions (formerly)","","","appears"
-"Rafford","Rafford","","","Rafford;Raff the Sweetling","House Clegane","","","mentioned"
-"Ragwyle","Ragwyle","","","","","","Free folk","mentioned"
-"Rakharo","Rakharo","","Ko;Bloodrider of Daenerys Targaryen","","House Targaryen","","Dothraki","appears"
-"Ramsay-Snow","Ramsay Snow","","Lord of the Hornwood;Lord of Winterfell;Castellan of the Dreadfort","Ramsay Snow;Ramsay Bolton  The Bastard of Bolton  The Bastard of the Dreadfort  Reek  Red Helm  Monster","House Bolton of the Dreadfort;House Bolton of Winterfell","","Northmen","mentioned"
-"Randa","Randa","","","","","","","mentioned"
-"Randyll-Tarly","Randyll Tarly","","Lord of Horn Hill;Justiciar;Master of laws","","House Tarly","","","mentioned"
-"Rast","Rast","","","Rast;Rat","Night's Watch","","","appears"
-"Rat-Cook","Rat Cook","","","Rat Cook;Rat Cook","Night's Watch","","","mentioned"
-"Rattleshirt","Rattleshirt","","","Rattleshirt;Rattleshirt;Lord o' Bones;Bag o' Bones","","","Free Folk","appears"
-"Ravella-Swann","Ravella Swann","","Lady of Acorn Hall","","House Swann;House Smallwood","","","appears"
-"Raymar-Royce","Raymar Royce","","Lord","","House Royce of the Gates of the Moon","","","A Storm of Swords"
-"Raymun-Darry","Raymun Darry","","Lord of Darry","","House Darry","","","mentioned"
-"Raymund-Frey","Raymund Frey","","Ser","","House Frey","","","appears"
-"Raymund-Tyrell","Raymund Tyrell","","","","House Tyrell","","","mentioned"
-"Raynald-Westerling","Raynald Westerling","","Ser","","House Westerling","","","appears"
-"Red-Alyn-of-the-Rosewood","Red Alyn of the Rosewood","","","Red Alyn of the Rosewood;Red Alyn of the Rosewood","Night's Watch","","","mentioned"
-"Regenard-Estren","Regenard Estren","","Lord of Wyndhall","","House Estren","","","mentioned"
-"Renly-Baratheon","Renly Baratheon","","Lord Paramount of the Stormlands;Lord of Storm's End;Master of laws;Lord of the Seven Kingdoms (claimant)","Renly Baratheon;The King in Highgarden;The King in the South","House Baratheon","","Stormlands","mentioned"
-"Renly-Norcross","Renly Norcross","","","","House Norcross","","","mentioned"
-"Rhaegar-Frey","Rhaegar Frey","","","","House Frey","","","mentioned"
-"Rhaegar-Targaryen","Rhaegar Targaryen","","Prince of Dragonstone;Ser","Rhaegar Targaryen;Silver Prince;The Dragon Prince;The Last Dragon","House Targaryen","","Valyrian","mentioned"
-"Rhaego","Rhaego","","","Rhaego;The stallion who mounts the world","House Targaryen","","","mentioned"
-"Rhaella-Targaryen","Rhaella Targaryen","","Princess;Queen;Dowager Queen","","House Targaryen","","Valyrian","mentioned"
-"Rhaenys-Targaryen-(daughter-of-Rhaegar)","Rhaenys Targaryen (daughter of Rhaegar)","","Princess","","House Targaryen","","","mentioned"
-"Rhea-Florent","Rhea Florent","","","","House Florent;House Hightower","","","mentioned"
-"Richard-Lonmouth","Richard Lonmouth","","Ser","Richard Lonmouth;The Knight of Skull and Kisses","House Lonmouth","","","mentioned"
-"Rickard-Karstark","Rickard Karstark","","Lord of Karhold","","House Karstark","","Northmen","appears"
-"Rickard-Stark","Rickard Stark","","Lord of Winterfell;Warden of the North","","House Stark","","Northmen","mentioned"
-"Rickard-Tyrell","Rickard Tyrell","","","","House Tyrell","","","mentioned"
-"Rickard-Wylde","Rickard Wylde","","","","House Wylde","","","mentioned"
-"Rickon-Stark","Rickon Stark","","Prince of Winterfell;Heir to Winterfell","","House Stark","","Northmen","Mentioned;A Feast for Crows "
-"Robar-Royce","Robar Royce","","Ser","Robar Royce;Robar the Red","House Royce;Rainbow Guard","","Valemen","mentioned"
-"Robb-Stark","Robb Stark","Robb Stark","","Robb Stark;The Young Wolf;The King Who Lost the North;Robb the Lord;The Boy Wolf;King in the North;King of the Trident Lord of Winterfell","House Stark","House Stark","","appears"
-"Robert-Arryn","Robert Arryn","","Lord of the Eyrie;Defender of the Vale;Warden of the East","Robert Arryn;Sweetrobin;True Warden of the East","House Arryn","","Valemen","appears"
-"Robert-Baratheon","Robert Baratheon","Robert Baratheon the First of His Name","","Robert Baratheon;The Usurper;Demon of the Trident;The Whoremonger King;King of the Andals; the Rhoynar; and the First Men;Lord of the Seven Kingdoms;Protector of the Realm;Lord Paramount of the Stormlands (granted to Renly)Lord of Storm's End (granted to Renly)Ser;","House Baratheon of King's Landing","House Baratheon of King's Landing","","mentioned"
-"Robert-Brax","Robert Brax","","Ser","","House Brax","","","mentioned"
-"Robert-Brax-(son-of-Flement)","Robert Brax (son of Flement)","","","","House Brax","","","mentioned"
-"Robert-Frey","Robert Frey","","","","House Frey","","","mentioned"
-"Robert-Frey-(son-of-Raymund)","Robert Frey (son of Raymund)","","","","House Frey;The Citadel","","","mentioned"
-"Robert-Paege","Robert Paege","","Ser","","House Paege","","","mentioned"
-"Robett-Glover","Robett Glover","","","","House Glover","","Northmen","mentioned"
-"Robin-Flint","Robin Flint","","Lord of Flint's Finger","","House Flint of Widow's Watch;House Flint of Flint's Finger;;","","","appears"
-"Robin-Hill","Robin Hill","","Lord Commander of the Night's Watch","","Night's Watch","","","mentioned"
-"Robin-Ryger","Robin Ryger","","Ser;Captain of the guards at Riverrun","","House Ryger;House Tully;Night's Watch","","","appears"
-"Rodrik-Cassel","Rodrik Cassel","","Ser;Master-at-arms of Winterfell;Castellan of Winterfell","Rodrik Cassel;Old Ser Rodrik","House Cassel;House Stark","","Northmen","mentioned"
-"Rodrik-Flint","Rodrik Flint","","Lord Commander of the Night's Watch","","House Flint;Night's Watch","","","mentioned"
-"Rodrik-Greyjoy","Rodrik Greyjoy","","","","House Greyjoy","","Ironborn","mentioned"
-"Rodrik-Harlaw","Rodrik Harlaw","","Lord of Harlaw;Lord of the Ten Towers;The Harlaw of Harlaw;Captain of the Sea Song","Rodrik Harlaw;The Reader","House Harlaw","","Ironborn","mentioned"
-"Roland-Crakehall-(Lord)","Roland Crakehall (Lord)","","Lord of Crakehall","","House Crakehall","","","mentioned"
-"Rollam-Westerling","Rollam Westerling","","","","House Westerling","","","appears"
-"Rolland-Storm","Rolland Storm","","Ser;Castellan of Dragonstone;Lord of Nightsong (claimant);Lord of the Marches (claimant)","Rolland Storm;The Bastard of Nightsong","House Caron;House Baratheon of Dragonstone","","","mentioned"
-"Rolley","Rolley","","","","Night's Watch","","Sistermen","appears"
-"Rolph-Spicer","Rolph Spicer","","Ser;Castellan of the Crag;Lord of Castamere","","House Spicer;House Westerling","","","appears"
-"Ronel-Rivers","Ronel Rivers","","","","House Frey","","","mentioned"
-"Ronnel-Harclay","Ronnel Harclay","","","","House Harclay;Night's Watch","","","appears"
-"Ronnel-Stout","Ronnel Stout","","","","House Stout","","Northmen","mentioned"
-"Ronnet-Connington","Ronnet Connington","","Ser;Knight of Griffin's Roost","Ronnet Connington;Red Ronnet","House Connington","","","mentioned"
-"Roone-(maester)","Roone (maester)","","Maester","","","","","mentioned"
-"Roose-Bolton","Roose Bolton","","Lord of the Dreadfort;Warden of the North","Roose Bolton;The Leech Lord","House Bolton","","Northmen","appears"
-"Rorge","Rorge","","","Rorge;Broken Nose;The Mad Dog of Saltpans;The Hound (II)","Brave Companions","","","appears"
-"Roro-Uhoris","Roro Uhoris","","Captain of Cobblecat","Roro Uhoris;The Blind Bastard","","","Tyroshi","mentioned"
-"Roslin-Frey","Roslin Frey","","","","House Frey;House Tully","","Rivermen","appears"
-"Rossart","Rossart","","Grand Master;Wisdom;Lord Hand of the King","","Alchemists' Guild","","","mentioned"
-"Rugen","Rugen","","Undergaoler","","","","","appears"
-"Runcel-Hightower","Runcel Hightower","","Lord Commander of the Night's Watch","","House Hightower;Night's Watch","","","mentioned"
-"Rupert-Brax","Rupert Brax","","Ser","Rupert Brax;Rubert Brax","House Brax","","","mentioned"
-"Ryam-Florent","Ryam Florent","","Ser","","House Florent","","","mentioned"
-"Ryam-Redwyne","Ryam Redwyne","","Ser;Lord Commander of the Kingsguard;Hand of the King","","House Redwyne;Kingsguard","","Reachmen","mentioned"
-"Rycherd-Crane","Rycherd Crane","","Ser","","House Crane","","","mentioned"
-"Ryella-Frey","Ryella Frey","","","","House Frey","","","mentioned"
-"Ryella-Royce","Ryella Royce","","","","House Royce;House Frey","","","mentioned"
-"Ryger-Rivers","Ryger Rivers","","","","House Frey","","","mentioned"
-"Ryk","Ryk","","","Ryk;Longspear Ryk","","","Free folk","appears"
-"Rylene-Florent","Rylene Florent","","","","House Florent;House Crane","","","mentioned"
-"Ryles","Ryles","","","","Night's Watch","","","appears"
-"Ryman-Frey","Ryman Frey","","Ser","","House Frey","","","appears"
-"Rymund-the-Rhymer","Rymund the Rhymer","","","Rymund the Rhymer;Rymund the Rhymer","","","","mentioned"
-"Ryon-Allyrion","Ryon Allyrion","","Ser","","House Allyrion","","Dornishmen","appears"
-"Salladhor-Saan","Salladhor Saan","","Prince of the Narrow Sea Lord of Blackwater Bay","Salladhor Saan;Salla","House Baratheon of Dragonstone","","Lysene","appears"
-"Sallei-Paege","Sallei Paege","","","","House Paege;House Frey","","","mentioned"
-"Sallor","Sallor","","","Sallor;Sallor the Bald","Stormcrows","","Qartheen","appears"
-"Samwell-Spicer","Samwell Spicer","","Ser","","House Spicer","","","mentioned"
-"Samwell-Tarly","Samwell Tarly","","","Samwell Tarly;Sam Ser Piggy; Lord of Ham; Lady Piggy ; Sam the Slayer Black Sam","Night's Watch","","Westeros","POV"
-"Sandor-Clegane","Sandor Clegane","","","Sandor Clegane;The Hound;Dog","House Clegane;House Lannister (formerly)Kingsguard (formerly)","","","appears"
-"Sandor-Frey","Sandor Frey","","","","House Frey","","","mentioned"
-"Sansa-Stark","Sansa Stark","","Princess","Sansa Stark;Little bird;Alayne Stone;Jonquil","House Stark;House Baelish of Harrenhal (as Alayne)","","Northmen","POV"
-"Sarella-Sand","Sarella Sand","","","","House Martell","","Dornishmen","mentioned"
-"Sarra-Frey","Sarra Frey","","","","House Frey","","","appears"
-"Sarya-Whent","Sarya Whent","","Lady","","House Whent;House Frey","","","mentioned"
-"Satin","Satin","","","","Night's Watch","","","appears"
-"Sawane-Botley","Sawane Botley","","Lord of Lordsport;Captain of Swiftfin","","House Botley","","Ironborn","mentioned"
-"Sawwood","Sawwood","","","","Night's Watch","","","appears"
-"Scarb","Scarb","","","","","","","mentioned"
-"Sedgekins","Sedgekins","","","","","","","A Storm of Swords"
-"Selmond-Stackspear","Selmond Stackspear","","Lord","","House Stackspear","","","mentioned"
-"Selwyn-Tarth","Selwyn Tarth","","Lord of Evenfall Hall The Evenstar","","House Tarth","","","mentioned"
-"Selyse-Florent","Selyse Florent","","Lady;Queen","Selyse Florent;Light of the North","House Florent;House Baratheon of Dragonstone","","","appears"
-"Serra-Frey","Serra Frey","","","","House Frey","","","appears"
-"Shae","Shae","","","","","","","appears"
-"Shagga","Shagga","","","","Stone Crows","","Vale mountain clans","mentioned"
-"Shagwell","Shagwell","","","Shagwell;Shagwell the Fool","the Brave Companions","","","appears"
-"Sharna","Sharna","","","","","","","appears"
-"Shella-Whent","Shella Whent","","Lady of Harrenhal","","House Whent","","Rivermen","mentioned"
-"Sherrit","Sherrit","","King","","","","","mentioned"
-"Shiera-Crakehall","Shiera Crakehall","","","","House Crakehall;House Lannister","","","mentioned"
-"Shierle-Swyft","Shierle Swyft","","","","House Swyft","","","mentioned"
-"Shireen-Baratheon","Shireen Baratheon","","Princess","","House Baratheon of Dragonstone","","","appears"
-"Shirei-Frey","Shirei Frey","","","","House Frey","","","appears"
-"Sigrin","Sigrin","","","Sigrin;Sigrin the Shipwright","House Greyjoy","","Ironborn","mentioned"
-"Simon-Toyne","Simon Toyne","","","","House Toyne;Kingswood Brotherhood","","","mentioned"
-"Sky-Blue-Su","Sky Blue Su","","","","","","","A Storm of Swords"
-"Skyte","Skyte","","","","","","Ironborn","mentioned"
-"Small-Paul","Small Paul","","","Small Paul;Cheese-for-wits","Night's Watch","","","appears"
-"Smiling-Knight","Smiling Knight","","","","Kingswood Brotherhood","","","mentioned"
-"Spare-Boot","Spare Boot","","","","Night's Watch","","","appears"
-"Softfoot","Softfoot","","","","Night's Watch","","","appears"
-"Spotted-Pate-of-Maidenpool","Spotted Pate of Maidenpool","","","Spotted Pate of Maidenpool;Spotted Pate of Maidenpool","Night's Watch","","","appears"
-"Stafford-Lannister","Stafford Lannister","","Ser","Stafford Lannister;Uncle Dolt","House Lannister","","Westerman","mentioned"
-"Stannis-Baratheon","Stannis Baratheon","Stannis Baratheon the First of His Name","","Stannis Baratheon;The King in the Narrow Sea;The King of the Painted Table;The King of Dragonstone;The King at the Wall;Azor Ahai reborn/come again;;;Master of ships (formerly)Lord of Dragonstone;Lord of Storm's End;Lord Paramount of the Stormlands;King of Westeros","House Baratheon of Dragonstone","House Baratheon of Dragonstone","","appears"
-"Stannis-Seaworth","Stannis Seaworth","","","","House Seaworth","","","mentioned"
-"Steffon-Baratheon","Steffon Baratheon","","Lord of Storm's End;Lord Paramount of the Stormlands","","House Baratheon","","","mentioned"
-"Steffon-Frey","Steffon Frey","","","Steffon Frey;Steffon the Sweet","House Frey","","","mentioned"
-"Steffon-Seaworth","Steffon Seaworth","","","","House Seaworth","","","mentioned"
-"Steffon-Stackspear","Steffon Stackspear","","Ser","","House Stackspear","","","mentioned"
-"Steffon-Swyft","Steffon Swyft","","Ser","","House Swyft","","","mentioned"
-"Stevron-Frey","Stevron Frey","","Ser","","House Frey","","","mentioned"
-"Stone-Thumbs","Stone Thumbs","","","","","","Free Folk","appears"
-"Stonesnake","Stonesnake","","","","Night's Watch","","","mentioned"
-"Stygg","Stygg","","","","House Greyjoy","","","mentioned"
-"Styr","Styr","","Magnar of Thenn","","Thenn","","Free Folk","appears"
-"Sumner-Crakehall","Sumner Crakehall","","Lord of Crakehall","","House Crakehall","","","mentioned"
-"Sybell-Spicer","Sybell Spicer","","Lady of the Crag","","House Spicer;House Westerling","","","appears"
-"Sybelle-Glover","Sybelle Glover","","Lady of Deepwood Motte","","House Locke;House Glover","","Northmen","mentioned"
-"Sylwa-Paege","Sylwa Paege","","","","House Paege;House Frey","","","mentioned"
-"Symeon-Star-Eyes","Symeon Star-Eyes","","","","","","","mentioned"
-"Symon-Silver-Tongue","Symon Silver Tongue","","","Symon Silver Tongue;Symon Silver Tongue","","","","appears"
-"Symond-Frey","Symond Frey","","","","House Frey","","","mentioned"
-"Syrio-Forel","Syrio Forel","","First Sword to the Sealord of Braavos Water Dancer","","House Stark","","Braavosi","mentioned"
-"Taena-of-Myr","Taena of Myr","","","Taena of Myr;Taena Merryweather;Myr","House Merryweather","","Myrish","appears"
-"Talla-Tarly","Talla Tarly","","","","House Tarly","","","mentioned"
-"Tallad","Tallad","","Ser","Tallad;Tallad the Tall","House Baratheon of King's Landing","","","appears"
-"Tanda-Stokeworth","Tanda Stokeworth","","Lady of Stokeworth","","House Stokeworth","","","appears"
-"Tansy","Tansy","","","","the Peach","","","mentioned"
-"Tanton-Fossoway","Tanton Fossoway","","Ser","","House Fossoway of Cider Hall","","","mentioned"
-"Temmo","Temmo","","Khal","","","","Dothraki","mentioned"
-"Ternesio-Terys","Ternesio Terys","","Captain","","","","Braavosi","appears"
-"Terrence-Toyne","Terrence Toyne","","Ser","","House Toyne;Kingsguard","","","mentioned"
-"Theo-Wull","Theo Wull","","","Theo Wull;Buckets","House Wull","","Northern mountain clans","mentioned"
-"Theodore-Tyrell","Theodore Tyrell","","Ser","","House Tyrell","","","mentioned"
-"Theomar-Smallwood","Theomar Smallwood","","Lord of Acorn Hall","","House Smallwood","","","mentioned"
-"Theon-Greyjoy","Theon Greyjoy","","Prince of Winterfell;Captain of Sea Bitch;Lord of the Iron Islands (by law of the green lands)","Theon Greyjoy;Prince of Fools;Theon Turncloakthe squid prince;Reek;Theon Kinslayer","House Greyjoy","","Ironmen","mentioned"
-"Thoren-Smallwood","Thoren Smallwood","","First Ranger (self-styled)","","Night's Watch","","","appears"
-"Thoros-of-Myr","Thoros of Myr","","","Thoros of Myr;The red wizard;The Ember","Brotherhood without banners","","Myr","appears"
-"Three-Toes","Three Toes","","","","Brave Companions","","","appears"
-"Tickler","Tickler","","","Tickler;the Tickler","House Clegane","","","appears"
-"Tim-Stone","Tim Stone","","","","Night's Watch","","","mentioned"
-"Tim-Tangletongue","Tim Tangletongue","","","","Night's Watch","","","appears"
-"Timeon","Timeon","","","Timeon;Timeon of Dorne","Brave Companions","","Dornish","appears"
-"Timett","Timett","","red hand","Timett;Timett One-Eye","Burned Men","","Vale mountain clans","mentioned"
-"Timon","Timon","","Ser","Timon;Timon the Scrapesword","","","","mentioned"
-"Tion-Frey","Tion Frey","","","","House Frey House Lannister","","","appears"
-"Titus-Peake","Titus Peake","","Lord of Starpike","","House Peake","","","mentioned"
-"Tobho-Mott","Tobho Mott","","","","","","Qohor","appears"
-"Todder","Todder","","","Todder;Toad","Night's Watch","","","appears"
-"Toefinger","Toefinger","","","","","","Free Folk","mentioned"
-"Togg-Joth","Togg Joth","","","","Brave Companions","","Ibbenese","appears"
-"Tom-of-Sevenstreams","Tom of Sevenstreams","","","Tom of Sevenstreams;Tom O'Sevens;Tom Sevenstrings","Brotherhood without banners","","","appears"
-"Tomard","Tomard","","","Tomard;Fat Tom","House Stark","","northmen","mentioned"
-"Tommen-Baratheon","Tommen Baratheon","Tommen Baratheon the First of His Name","","Tommen Baratheon;The Boy King;;King of the Andals; the Rhoynar; and the First Men;Lord of the Seven Kingdoms","","","","appears"
-"Toregg","Toregg","","","Toregg;Toregg the Tall","","","Free Folk","mentioned"
-"Tormund","Tormund","","Tall-talker; Horn-blower and Breaker of Ice; Husband to Bears; the Mead-king of Ruddy Hall; Speaker to Gods and Father of Hosts","Tormund;Tormund Giantsbane  Mead-King of Ruddy Hall  Tormund Thunderfist  Tormund Horn-Blower  Tormund Tall-Talker  Breaker of Ice  Husband to Bears  Speaker to Gods  Father of Hosts","","","Free Folk","appears"
-"Torrhen-Karstark","Torrhen Karstark","","","Torrhen Karstark;Torr","House Karstark","","Northmen","mentioned"
-"Torrhen-Stark","Torrhen Stark","Torrhen Stark","","Torrhen Stark;The King Who Knelt;King in the North (former)Lord of Winterfell;Warden of the North","House Stark","House Stark","Northmen","mentioned"
-"Torwynd","Torwynd","","","Torwynd;Torwynd the Tame","","","Free Folk","mentioned"
-"Tremond-Gargalen","Tremond Gargalen","","Lord of Salt Shore","","House Gargalen","","Dornish","appears"
-"Tristan-Mudd","Tristan Mudd","","Lord Commander of the Night's Watch","","House Mudd;Night's Watch","","","mentioned"
-"Tristan-Ryger","Tristan Ryger","","","","House Ryger","","","mentioned"
-"Tristifer-IV-Mudd","Tristifer IV Mudd","Tristifer of House Mudd; the Fourth of His Name","","Tristifer IV Mudd;The Hammer of Justice;King of the Rivers and the Hills","House Mudd","House Mudd","","mentioned"
-"Tristimun","Tristimun","","Ser","","Sea watch","","","mentioned"
-"Triston-of-Tally-Hill","Triston of Tally Hill","","Ser","Triston of Tally Hill;Triston of Tally Hill","House Sunglass;King's Men","","","mentioned"
-"Trystane-Martell","Trystane Martell","","Prince","","House Martell","","Dornish","mentioned"
-"Tumberjon","Tumberjon","","","","Night's Watch","","","appears"
-"Turquin","Turquin","","Maester","","","","","mentioned"
-"Tyana-Wylde","Tyana Wylde","","","","House Wylde;House Frey","","","mentioned"
-"Tybolt-Crakehall","Tybolt Crakehall","","Ser","","House Crakehall","","","mentioned"
-"Tyene-Sand","Tyene Sand","","","","House Martell","","Dornish","mentioned"
-"Tygett-Lannister","Tygett Lannister","","Ser","Tygett Lannister;Tyg","House Lannister","","","mentioned"
-"Tyrek-Lannister","Tyrek Lannister","","","Tyrek Lannister;&quot;Wet Nurse&quot;","House Lannister","","","mentioned"
-"Tyrion-Lannister","Tyrion Lannister","","Acting Hand of the King (former)Master of coin (former)Lord of Casterly Rock (claimant)","Tyrion Lannister;The Imp;Halfman;The boyman;Giant of Lannister;Lord Tywin's Doom;Lord Tywin's Bane;Yollo;Hugor Hill;No-Nose;Freak;Dwarf","House Lannister;Second Sons","","","POV"
-"Tysane-Frey","Tysane Frey","","","","House Frey","","","mentioned"
-"Tysha","Tysha","","","Tysha;Lady Tysha of House Silverfist","","","","mentioned"
-"Tyta-Frey","Tyta Frey","","","Tyta Frey;Tyta the Maid","House Frey","","","appears"
-"Tytos-Blackwood","Tytos Blackwood","","Lord of Raventree Hall","","House Blackwood","","","appears"
-"Tytos-Brax","Tytos Brax","","Ser;Lord of Hornvale","","House Brax","","","mentioned"
-"Tytos-Frey","Tytos Frey","","Ser","","House Frey","","","appears"
-"Tytos-Lannister","Tytos Lannister","","Lord of Casterly Rock;Shield of Lannisport;Warden of the West","Tytos Lannister;The Laughing Lion;The Toothless Lion;","House Lannister","","","mentioned"
-"Tywin-Frey","Tywin Frey","","Ser","Tywin Frey;Ty","House Frey;House Frey of Riverrun","","","mentioned"
-"Tywin-Lannister","Tywin Lannister","","Lord of Casterly Rock;Shield of Lannisport;Warden of the West;Hand of the King;Savior of the City (of King's Landing)","Tywin Lannister;The Lion of Lannister;The Old Lion;The Great Lion of the Rock","House Lannister","","","appears"
-"Uller","Uller","","","","House Greyjoy","","Ironborn","mentioned"
-"Ulmer","Ulmer","","","Ulmer;Ulmer of the Kingswood","Kingswood Brotherhood Night's Watch","","","appears"
-"Ulwyck-Uller","Ulwyck Uller","","Ser","","House Uller","","","appears"
-"Umfred","Umfred","","","","House Baelish","","","appears"
-"Urswyck","Urswyck","","","Urswyck;Urswyck the Faithful;Faithful Urswyck","Brave Companions","","","appears"
-"Urzen","Urzen","","","","House Greyjoy","","Ironborn","mentioned"
-"Utherydes-Wayn","Utherydes Wayn","","Steward","","House Wayn;House Tully","","","appears"
-"Utt","Utt","","Septon","","Brave Companions;Faith of the Seven (expelled)","","","appears"
-"Val","Val","","","Val;The wildling princess;Lady Val","","","Free folk","appears"
-"Varamyr","Varamyr","","","Varamyr;Varamyr Sixskins;Haggon;Lump","","","Free Folk","appears"
-"Vardis-Egen","Vardis Egen","","Ser;Captain of the guards","","House Egen;House Arryn","","Valemen","mentioned"
-"Vargo-Hoat","Vargo Hoat","","Lord of Harrenhal","Vargo Hoat;The Goat Goat of Harrenhal The Crippler The Qohorik","Brave Companions","","Qohori","appears"
-"Varys","Varys","","Master of Whisperers;Undergaoler (as Rugen)","Varys;Lord Varys;The Spider;The Eunuch;Rugen","","","","appears"
-"Vickon-Greyjoy","Vickon Greyjoy","","Lord of the Iron Islands;Lord Reaper of Pyke","","House Greyjoy","","","mentioned"
-"Victaria-Tyrell","Victaria Tyrell","","","","House Tyrell","","","mentioned"
-"Victarion-Greyjoy","Victarion Greyjoy","","Lord Captain of the Iron Fleet;Master of the Iron Victory","Victarion Greyjoy;The Iron Captain","House Greyjoy","","Ironborn","mentioned"
-"Victor-Tyrell","Victor Tyrell","","Ser","","House Tyrell","","","mentioned"
-"Violet","Violet","","","","","","","mentioned"
-"Visenya-Targaryen","Visenya Targaryen","","Queen;Dowager Queen","","House Targaryen","","Valyrian","mentioned"
-"Viserys-Targaryen","Viserys Targaryen","","King of the Andals; the Rhoynar and the First Men; Lord of the Seven Kingdoms and Protector of the Realm","Viserys Targaryen;The Beggar King;Khal Rhae Mhar (The Sorefoot King)Khal Rhaggat (The Cart King)","House Targaryen","","Valyrian","mentioned"
-"Viserys-II-Targaryen","Viserys II Targaryen","Viserys Targaryen the Second of His Name","","Viserys II Targaryen;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm;Hand of the King","House Targaryen","House Targaryen","","mentioned"
-"Vortimer-Crane","Vortimer Crane","","Ser;Master-at-arms at Highgarden","","House Crane","","","mentioned"
-"Vylarr","Vylarr","","Captain of the guard","","House Lannister","","","mentioned"
-"Vyman","Vyman","","Maester","","","","","appears"
-"Walda-Frey-(daughter-of-Edwyn)","Walda Frey (daughter of Edwyn)","","","","House Frey","","","mentioned"
-"Walda-Frey-(daughter-of-Lothar)","Walda Frey (daughter of Lothar)","","","","House Frey","","","mentioned"
-"Walda-Frey-(daughter-of-Walton)","Walda Frey (daughter of Walton)","","","Walda Frey (daughter of Walton);Fair Walda","House Frey","","","mentioned"
-"Walda-Frey-(daughter-of-Merrett)","Walda Frey (daughter of Merrett)","","","Walda Frey (daughter of Merrett);Fat Walda;Walda Bolton;","House Frey;House Bolton","","","appears"
-"Walda-Frey-(daughter-of-Rhaegar)","Walda Frey (daughter of Rhaegar)","","","Walda Frey (daughter of Rhaegar);White Walda","House Frey","","","mentioned"
-"Walda-Rivers","Walda Rivers","","","","House Frey","","","mentioned"
-"Walda-Rivers-(daughter-of-Aemon)","Walda Rivers (daughter of Aemon)","","","","House Frey","","","appears"
-"Walder-Brax","Walder Brax","","","","House Brax","","","mentioned"
-"Walder-Frey-(son-of-Jammos)","Walder Frey (son of Jammos)","","","Walder Frey (son of Jammos);Big Walder","House Frey","","","mentioned"
-"Walder-Frey-(son-of-Ryman)","Walder Frey (son of Ryman)","","","Walder Frey (son of Ryman);Black Walder","House Frey","","Rivermen","appears"
-"Walder-Frey-(son-of-Merrett)","Walder Frey (son of Merrett)","","","Walder Frey (son of Merrett);Little Walder","House Frey","","","mentioned"
-"Walder-Frey-(son-of-Emmon)","Walder Frey (son of Emmon)","","","Walder Frey (son of Emmon);Red Walder","House Frey of Riverrun","","","mentioned"
-"Walder-Frey","Walder Frey","","Lord of the Crossing","Walder Frey;The Late Lord Frey;Old Frey","House Frey","","Rivermen","appears"
-"Walder-Goodbrook","Walder Goodbrook","","","","House Goodbrook","","","mentioned"
-"Walder-Haigh","Walder Haigh","","","","House Haigh","","","mentioned"
-"Walder-Rivers","Walder Rivers","","Ser","Walder Rivers;Bastard Walder","House Frey","","Rivermen","appears"
-"Walder-Vance","Walder Vance","","","","House Vance","","","mentioned"
-"Waldon-Wynch","Waldon Wynch","","Lord of Iron Holt","","House Wynch","","Ironborn","mentioned"
-"Walton-Frey","Walton Frey","","","","House Frey","","","mentioned"
-"Walton","Walton","","","Walton;Steelshanks Walton","House Bolton","","northmen","appears"
-"Waltyr-Frey","Waltyr Frey","","","Waltyr Frey;Tyr","House Frey","","","mentioned"
-"Warren","Warren","","Ser","","","","","mentioned"
-"Wat-(Night's-Watch)","Wat (Night's Watch)","","","","Night's Watch","","","mentioned"
-"Wat-(Whitesmile)","Wat (Whitesmile)","","","Wat (Whitesmile);Whitesmile Wat","House Lannister","","","mentioned"
-"Watt","Watt","","","Watt;Watt of Long Lake","Night's Watch","","","mentioned"
-"Watty","Watty","","","Watty;Watty the Miller","Brotherhood without banners","","","appears"
-"Waymar-Royce","Waymar Royce","","Ser","","House Royce;Night's Watch","","Valemen","mentioned"
-"Weeper","Weeper","","","Weeper;The Weeping Man","","","Free folk","appears"
-"Weese","Weese","","","","House Whent;House Lannister","","","mentioned"
-"Wenda","Wenda","","","Wenda;Wenda the White Fawn","Kingswood Brotherhood","","","mentioned"
-"Wendamyr","Wendamyr","","Maester","","House Greyjoy","","","mentioned"
-"Wendel-Frey","Wendel Frey","","","","House Frey","","","mentioned"
-"Wendel-Manderly","Wendel Manderly","","Ser","","House Manderly","","","appears"
-"Wex-Pyke","Wex Pyke","","","","House Botley","","Ironborn","mentioned"
-"Whalen-Frey","Whalen Frey","","Ser","","House Frey","","","appears"
-"Wilbert","Wilbert","","Ser","","","","","A Storm of Swords"
-"Will-(Fletcher)","Will (Fletcher)","","","Will (Fletcher);Fletcher Will","","","","A Storm of Swords"
-"Will-(Hookface)","Will (Hookface)","","","Will (Hookface);Hookface Will","House Baratheon of Dragonstone","","","mentioned"
-"Willamen-Frey","Willamen Frey","","Maester","","","","","mentioned"
-"Willas-Tyrell","Willas Tyrell","","","","House Tyrell","","","mentioned"
-"Willem-Darry","Willem Darry","","Ser Master-at-arms at the Red Keep","","House Darry;House Targaryen","","","mentioned"
-"Willem-Frey","Willem Frey","","","","House Frey;House Frey of Riverrun","","","mentioned"
-"Willem-Lannister","Willem Lannister","","","","House Lannister","","","appears"
-"William-Mooton","William Mooton","","Lord of Maidenpool","","House Mooton","","Rivermen","mentioned"
-"Wyl-the-Whittler","Wyl the Whittler","","","Wyl the Whittler;Blind Wyl the Whittler","","","","mentioned"
-"Wylis-Manderly","Wylis Manderly","","Ser","","House Manderly","","","mentioned"
-"Wylla","Wylla","","","","House Dayne","","","mentioned"
-"Wyman-Manderly","Wyman Manderly","","Lord of White Harbor;Warden of the White Knife;Shield of the Faith;Defender of the Dispossessed;Lord Marshal of the Mander;Knight of the Order of the Green Hand","Wyman Manderly;Lord Lamprey;Lord Too-Fat-to-Sit-a-Horse;Lord Pig;Lord Lard","House Manderly","","","mentioned"
-"Wynafrei-Whent","Wynafrei Whent","","","","House Whent","","","mentioned"
-"Wynton-Stout","Wynton Stout","","Ser","","House Stout;Night's Watch","","Northmen","appears"
-"Xaro-Xhoan-Daxos","Xaro Xhoan Daxos","","","","the Thirteen","","Qartheen","mentioned"
-"Ygritte","Ygritte","","","","Mance Rayder","","Wildling","appears"
-"Yohn-Royce","Yohn Royce","","Lord of Runestone","Yohn Royce;Bronze Yohn","House Royce;Lords Declarant","","Valemen","mentioned"
-"Yoren","Yoren","","","","Night's Watch","","Westeros","mentioned"
-"Young-Henly","Young Henly","","","","Night's Watch","","","appears"
-"Zachery-Frey","Zachery Frey","","","","House Frey","","","mentioned"
-"Zei","Zei","","","","","","","appears"
-"Zhoe-Blanetree","Zhoe Blanetree","","","","House Blanetree","","","mentioned"
-"Zia-Frey","Zia Frey","","","","House Frey","","","mentioned"
+Id,Name,Full Name,Title,Alias,Allegiance,Royal House,Culture,Reference
+Addam-Marbrand,Addam Marbrand,,Ser;Commander of the City Watch;,,House Marbrand;,,,appears
+Aegon-Blackfyre,Aegon Blackfyre,,,,House Blackfyre;,,Valyrian,mentioned
+Aegon-Frey-(son-of-Stevron),Aegon Frey (son of Stevron),,,Aegon Frey (son of Stevron);Jinglebell;,House Frey;,,,appears
+Aegon-Frey-(son-of-Aenys),Aegon Frey (son of Aenys),,,Aegon Frey (son of Aenys);Aegon Bloodborn;,House Frey;,,,mentioned
+Aegon-I-Targaryen,Aegon I Targaryen,Aegon Targaryen the First of His Name,,Aegon I Targaryen;Aegon the Conqueror;Aegon the Dragon;Aegon the Dragonlord;King of All Westeros;Shield of His People;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm;Lord of Dragonstone,House Targaryen,House Targaryen,,mentioned
+Aegon-II-Targaryen,Aegon II Targaryen,Aegon Targaryen the Second of His Name,,Aegon II Targaryen;Aegon the Elder;Aegon the Usurper;;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm,House Targaryen,House Targaryen,,mentioned
+Aegon-III-Targaryen,Aegon III Targaryen,Aegon Targaryen the Third of His Name,,Aegon III Targaryen;Aegon the Younger;Aegon the Dragonbane;Aegon the Unlucky;The Broken King;;;;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm,House Targaryen,House Targaryen,Valyrian,mentioned
+Aegon-IV-Targaryen,Aegon IV Targaryen,Aegon Targaryen the Fourth of His Name,,Aegon IV Targaryen;Aegon the Unworthy;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm,House Targaryen,House Targaryen,,mentioned
+Aegon-V-Targaryen,Aegon V Targaryen,Aegon Targaryen the Fifth of His Name,,Aegon V Targaryen;Aegon the Unlikely;Aegon the Fortunate;Egg;The Prince Who Was An Egg;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm,House Targaryen,House Targaryen,,mentioned
+Aegon-Targaryen-(son-of-Rhaegar),Aegon Targaryen (son of Rhaegar),,,Aegon Targaryen (son of Rhaegar);Young Griff,House Targaryen,,Valyrian,mentioned
+Aemon-Blackfyre,Aemon Blackfyre,,,,House Blackfyre,,Valyrian,mentioned
+Aemon-Costayne,Aemon Costayne,,,,House Costayne,,,appears
+Aemon-Estermont,Aemon Estermont,,Ser,,House Estermont,,Stormlands,appears
+Aemon-Rivers,Aemon Rivers,,Ser,,House Frey,,,mentioned
+Aemon-Targaryen-(Dragonknight),Aemon Targaryen (Dragonknight),,Prince;Ser;Lord Commander of the Kingsguard,Aemon Targaryen (Dragonknight);The Dragonknight;The Knight of Tears,House Targaryen;Kingsguard,,Valyrian,mentioned
+Aemon-Targaryen-(Maester-Aemon),Aemon Targaryen (Maester Aemon),,Maester,Aemon Targaryen (Maester Aemon);Aemon Targaryen;Maester Aemon;Uncle Maester,Night's Watch,,Valyrian,appears
+Aenys-Frey,Aenys Frey,,Ser,,House Frey,,,appears
+Aerion-Targaryen,Aerion Targaryen,,Prince,Aerion Targaryen;Aerion Brightflame;Aerion Brightfire;Aerion the Monstrous;The Bright Prince;The Prince Who Thought He Was a Dragon,House Targaryen;Second Sons,,Valyrian,mentioned
+Aeron-Greyjoy,Aeron Greyjoy,,Priest of the Drowned God;Captain of the Golden Storm (formerly),Aeron Greyjoy;The Damphair;Aeron Damphair,House Greyjoy;Drowned men,,Ironmen,mentioned
+Aerys-II-Targaryen,Aerys II Targaryen,Aerys Targaryen the Second of His Name,,Aerys II Targaryen;The Mad King;King Scab;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm,House Targaryen,House Targaryen,,mentioned
+Aethan,Aethan,,,,Night's Watch,,,appears
+Aggo,Aggo,,Ko Bloodrider of Daenerys Targaryen,,House Targaryen,,Dothraki,appears
+Aladale-Wynch,Aladale Wynch,,Ser,,House Wynch;Night's Watch,,Ironborn,mentioned
+Alan,Alan,,,,Night's Watch,,,appears
+Alaric-of-Eysen,Alaric of Eysen,,,,,,,mentioned
+Alayaya,Alayaya,,,Alayaya;'Yaya,Chataya's brothel,,,mentioned
+Albar-Royce,Albar Royce,,Ser,,House Royce of the Gates of the Moon,,,mentioned
+Albett,Albett,,,Albett;Pimple,Night's Watch,,,mentioned
+Alekyne-Florent,Alekyne Florent,,Lord of Brightwater (attainted),,House Florent,,,mentioned
+Alerie-Hightower,Alerie Hightower,,Lady of Highgarden,,House Hightower;House Tyrell,,,appears
+Alesander-Frey,Alesander Frey,,,,House Frey,,,mentioned
+Alesander-Staedmon,Alesander Staedmon,,Lord of Broad Arch,Alesander Staedmon;the Pennylover,House Staedmon,,,mentioned
+Alester-Florent,Alester Florent,,Lord of Brightwater;Hand of the King,,House Florent,,,appears
+Alester-Norcross,Alester Norcross,,,,House Norcross,,,mentioned
+Alfyn,Alfyn,,,Alfyn;Alfyn Crowkiller,,,Free Folk,mentioned
+Alla-Tyrell,Alla Tyrell,,,,House Tyrell,,,appears
+Allar-Deem,Allar Deem,,,,City Watch of King's Landing,,,mentioned
+Allard-Seaworth,Allard Seaworth,,Captain of the Lady Marya,,House Seaworth,,,mentioned
+Alliser-Thorne,Alliser Thorne,,Ser,,House Thorne;Night's Watch,,,appears
+Allyria-Dayne,Allyria Dayne,,,,House Dayne,,,mentioned
+Alyce,Alyce,,,,,,,mentioned
+Alyce-Graceford,Alyce Graceford,,Lady,,House Graceford,,,mentioned
+Alyn,Alyn,,,,House Stark,,,mentioned
+Alyn-Ambrose,Alyn Ambrose,,,,House Ambrose,,,mentioned
+Alyn-Connington,Alyn Connington,,Ser;Lord Commander of the Kingsguard,Alyn Connington;The Pale Griffin,House Connington;Kingsguard,,,mentioned
+Alyn-Estermont,Alyn Estermont,,Ser,,House Estermont,,Stormlands,appears
+Alyn-Frey,Alyn Frey,,,,House Frey,,,mentioned
+Alyn-Haigh,Alyn Haigh,,,,House Haigh,,,mentioned
+Alyn-Stackspear,Alyn Stackspear,,Ser,,House Stackspear,,,mentioned
+Alys-Karstark,Alys Karstark,,,,House Karstark;House Thenn,,Northmen,mentioned
+Alysanne-Bulwer,Alysanne Bulwer,,Lady of Blackcrown,,House Bulwer,,,mentioned
+Alysanne-Targaryen,Alysanne Targaryen,Alysanne of House Targaryen,,Alysanne Targaryen;Good Queen Alysanne;Queen,House Targaryen,House Targaryen,,mentioned
+Alys-Frey,Alys Frey,,,,House Frey,,,mentioned
+Alyssa-Blackwood,Alyssa Blackwood,,Lady,,House Blackwood;House Frey,,,mentioned
+Alyx-Frey,Alyx Frey,,,,House Frey,,,appears
+Amabel,Amabel,,,,House Whent,,,mentioned
+Amarei-Crakehall,Amarei Crakehall,,,,House Crakehall;House Frey,,,mentioned
+Ambrose-Butterwell,Ambrose Butterwell,,Lord of Whitewalls;Hand of the King,Ambrose Butterwell;Old Milkblood;The lord of cows;Lord Butterbutt,House Butterwell;House Targaryen;House Blackfyre,,,mentioned
+Amerei-Frey,Amerei Frey,,Lady of Darry,Amerei Frey;Gatehouse Ami,House Frey;House Lannister of Darry,,,mentioned
+Amory-Lorch,Amory Lorch,,Ser;Castellan of Harrenhal,Amory Lorch;The Manticore,House Lorch;House Lannister,,,mentioned
+Andar-Royce,Andar Royce,,Ser,,House Royce,,Valemen,mentioned
+Anders-Yronwood,Anders Yronwood,,Lord of Yronwood;The Bloodroyal;Warden of the Stone Way,,House Yronwood,,Dornishmen,mentioned
+Andrew-Estermont,Andrew Estermont,,Ser,,House Estermont;King's men,,,appears
+Andrik,Andrik,,Lord of Southshield,Andrik;Andrik the Unsmiling,House Drumm,,Ironborn,mentioned
+Andros-Brax,Andros Brax,,Lord of Hornvale,,House Brax,,,mentioned
+Androw-Frey,Androw Frey,,,,House Frey,,,mentioned
+Anguy,Anguy,,,Anguy;Anguy the Archer;Archer,Brotherhood without banners,,,appears
+Annara-Farring,Annara Farring,,Lady,,House Farring;House Frey,,,mentioned
+Antario-Jast,Antario Jast,,Lord,,House Jast,,,mentioned
+Anvil-Ryn,Anvil Ryn,,,Anvil Ryn;Anvyl Ryn,,,,mentioned
+Anya-Waynwood,Anya Waynwood,,Lady of Ironoaks,,House Waynwood;Lords Declarant,,,mentioned
+Ardrian-Celtigar,Ardrian Celtigar,,Lord of Claw Isle,Ardrian Celtigar;the Red Crab,House Celtigar,,,appears
+Areo-Hotah,Areo Hotah,,Captain of the Guard at Sunspear,,House Martell,,Norvos,mentioned
+Arianne-Martell,Arianne Martell,,Princess,,House Martell,,Dornishmen,mentioned
+Arron,Arron,,,,Night's Watch,,,appears
+Arron-Qorgyle,Arron Qorgyle,,Ser,,House Qorgyle,,,appears
+Arryk-(guard),Arryk (guard),,,Arryk (guard);&quot;Left&quot; or &quot;Right&quot;,House Tyrell,,,appears
+Arson,Arson,,,Arson;Arson Iceaxe,,,Free Folk,mentioned
+Arthur-Ambrose,Arthur Ambrose,,Lord,,House Ambrose,,,mentioned
+Arthur-Dayne,Arthur Dayne,,Ser;Sword of the Morning,,House Dayne;Kingsguard,,Dornishmen,mentioned
+Arwood-Frey,Arwood Frey,,Ser,,House Frey,,,mentioned
+Arwyn-Frey,Arwyn Frey,,,,House Frey,,,appears
+Arwyn-Oakheart,Arwyn Oakheart,,Lady of Old Oak,,House Oakheart,,,mentioned
+Arya-Stark,Arya Stark,,Princess,Arya Stark;Arya Horseface;Arya Underfoot;Arry;Lumpyface/Lumpyhead;Stickboy;Weasel;Nymeria/Nan;Squab;Salty;Cat of the Canals;Beth;The Blind Girl;The Ugly Little Girl;Mercedene/Mercy,House Stark;Faceless Men,,Northmen,POV
+Arys-Oakheart,Arys Oakheart,,Ser,,House Oakheart;Kingsguard,,Reach,mentioned
+Ashara-Dayne,Ashara Dayne,,,,House Dayne,,Dornishmen,mentioned
+Aurane-Waters,Aurane Waters,,Grand admiral (master of ships)Lord of the Waters;,Aurane Waters;Bastard of Driftmark;Lord Waters;,House Velaryon,,Valyrian,mentioned
+Axell-Florent,Axell Florent,,Ser;Castellan of Dragonstone (formerly)Hand of the Queen (self-styled),,House Florent;Queen's men,,,appears
+Azor-Ahai,Azor Ahai,,,Azor Ahai;Warrior of Light;Son of Fire;Warrior of Fire;Hyrkoon the Hero;Yin Tar;Neferion;Eldric Shadowchaser,,,Asshai,mentioned
+Bael-the-Bard,Bael the Bard,,King-Beyond-the-Wall,Bael the Bard;Bael the Bard;Sygerrik of Skagos,,,Free folk,mentioned
+Baelor-Blacktyde,Baelor Blacktyde,,Lord of Blacktyde;Captain of the Nightflyer,,House Blacktyde,,Ironborn,mentioned
+Baelor-Hightower,Baelor Hightower,,Ser,Baelor Hightower;Baelor Brightsmile;Baelor Breakwind,House Hightower,,,mentioned
+Baelor-I-Targaryen,Baelor I Targaryen,Baelor Targaryen the First of His Name,,Baelor I Targaryen;Baelor the Beloved;Baelor the Blessed;Baelor the Befuddled;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm,House Targaryen,House Targaryen,,mentioned
+Baelor-Targaryen-(son-of-Daeron-II),Baelor Targaryen (son of Daeron II),,Prince of Dragonstone;Protector of the Realm;Hand of the King,Baelor Targaryen (son of Daeron II);Baelor Breakspear;The Hammer,House Targaryen,,,mentioned
+Ballabar,Ballabar,,Maester,,House Redwyne,,,mentioned
+Balman-Byrch,Balman Byrch,,Ser,,House Byrch,,,mentioned
+Balon-Greyjoy,Balon Greyjoy,Balon Greyjoy; the Ninth of His Name Since the Grey King,,Balon Greyjoy;Balon the Brave;Balon the Blessed;Balon the Twice Crowned;Balon the Widowmaker;The Kraken King;Iron King;King of the Isles and the North;King of Salt and Rock;Son of the Sea Wind;Lord Reaper of Pyke;The Greyjoy;Captain of the Great Kraken,House Greyjoy,House Greyjoy,,mentioned
+Balon-Swann,Balon Swann,,Ser,,House Swann;Kingsguard,,Stormlander,appears
+Bannen,Bannen,,,,Night's Watch,,,appears
+Barristan-Selmy,Barristan Selmy,,Ser;Lord Commander of the Kingsguard (former)Hand of the Queen,Barristan Selmy;Barristan the Bold;Arstan Whitebeard;Ser Grandfather;Barristan the Old;Old Ser,House Selmy;House Targaryen;Kingsguard;Queensguard,,Westeros,appears
+Barth,Barth,,Septon;Hand of the King,,Faith of the Seven;House Targaryen,,,mentioned
+Beardless-Dick,Beardless Dick,,,,Brotherhood Without Banners,,,mentioned
+Becca-the-Baker,Becca the Baker,,,Becca the Baker;Becca the Baker,,,,mentioned
+Beck,Beck,,Goodman,,,,,mentioned
+Bedwyck,Bedwyck,,,Bedwyck;Giant,Night's Watch,,,appears
+Beldecar,Beldecar,,,,,,,mentioned
+Belgrave,Belgrave,,Lord,,House Belgrave,,,mentioned
+Belis,Belis,,Wisdom,,Alchemists' Guild,,,mentioned
+Bella,Bella,,,,,,,appears
+Bellena-Hawick,Bellena Hawick,,,,House Hawick;House Frey,,,mentioned
+Belwas,Belwas,,,Belwas;Strong Belwas;Belwas the Strong,House Targaryen;Queensguard;Ruling council of Meereen,,Meereenese,appears
+Ben-(Big-Belly),Ben (Big Belly),,,Ben (Big Belly);Big Belly Ben,Kingswood Brotherhood,,,mentioned
+Ben-Plumm,Ben Plumm,,Commander of the Second Sons,Ben Plumm;Brown Ben Plumm,Second Sons,,,appears
+Benedict-Broom,Benedict Broom,,Ser;Master-at-arms at Casterly Rock,,House Broom;House Lannister,,,mentioned
+Benfred-Tallhart,Benfred Tallhart,,,,House Tallhart,,Northmen,mentioned
+Benfrey-Frey,Benfrey Frey,,Ser,,House Frey,,,appears
+Benjen-Stark,Benjen Stark,,First Ranger,Benjen Stark;The Wolf Pup;Ben Stark,House Stark;Night's Watch,,Northmen,mentioned
+Beren-Tallhart,Beren Tallhart,,,,House Tallhart,,Northmen,mentioned
+Berena-Hornwood,Berena Hornwood,,,,House Hornwood;House Tallhart,,Northmen,mentioned
+Beric-Dondarrion,Beric Dondarrion,,Lord of Blackhaven,Beric Dondarrion;The Lightning Lord;The Lord of Corpses;Lord Derik,House Dondarrion Brotherhood without banners,,,appears
+Bertram-Beesbury,Bertram Beesbury,,Ser,,House Beesbury,,,mentioned
+Bessa,Bessa,,,,,,,mentioned
+Beth-Cassel,Beth Cassel,,,,House Cassel,,Northmen,mentioned
+Bethany-Bracken,Bethany Bracken,,,,House Bracken,,,mentioned
+Bethany-Fair-Fingers,Bethany Fair-Fingers,,,,,,,mentioned
+Bethany-Rosby,Bethany Rosby,,Lady,,House Rosby;House Frey,,,mentioned
+Betharios-of-Braavos,Betharios of Braavos,,,Betharios of Braavos;Betharios of Braavos,House Frey,,,mentioned
+Big-Boil,Big Boil,,,,,,Free Folk,appears
+Biter,Biter,,,Biter;Biter by Amok&copy;,Brave Companions,,,mentioned
+Black-Bernarr,Black Bernarr,,,,Night's Watch,,,appears
+Black-Jack-Bulwer,Black Jack Bulwer,,First Ranger,Black Jack Bulwer;Black Jack Bulwer,Night's Watch,,,appears
+Blane,Blane,,,,Night's Watch,,,mentioned
+Bluetooth,Bluetooth,,,,House Greyjoy,,Ironborn,mentioned
+Bodger,Bodger,,,,,,Free Folk,mentioned
+Bonifer-Hasty,Bonifer Hasty,,Ser;Castellan of Harrenhal,Bonifer Hasty;Bonifer the Good;Baelor Butthole,House Hasty;The Holy Hundred,,,mentioned
+Boros-Blount,Boros Blount,,Ser,Boros Blount;Boros the Belly,House Blount;Kingsguard,,,appears
+Bowen-Marsh,Bowen Marsh,,Lord Steward;First Steward,Bowen Marsh;Old Pomegranate,Night's Watch,,,appears
+Boy,Boy,,,,,,,mentioned
+Bradamar-Frey,Bradamar Frey,,,,House Frey,,,mentioned
+Brandon-Stark,Brandon Stark,,,Brandon Stark;The Wild Wolf,House Stark,,Northmen,mentioned
+Bran-Stark,Bran Stark,,Prince of Winterfell;,Bran Stark;Bran;Bran the Broken;The Winged Wolf,House Stark,,Northmen,POV
+Bran-the-Builder,Bran the Builder,,King of Winter,Bran the Builder;Bran the Builder,House Stark,,First Men,mentioned;A Storm of Swords 
+Brandon-Tallhart,Brandon Tallhart,,,,House Tallhart,,Northmen,mentioned
+Brella,Brella,,,,House Baratheon (formerly)House Lannister (formerly),,,mentioned
+Brenett,Brenett,,Maester,,House Frey,,,appears
+Brienne-of-Tarth,Brienne of Tarth,,,Brienne of Tarth;Brienne of Tarth;The Maid of Tarth;Brienne the Beauty;Brienne the Blue,House Tarth;House Baratheon of Storm's End;Rainbow Guard;House Tully,,,appears
+Bronn,Bronn,,Ser,Bronn;Ser Bronn of the Blackwater;Lord Stokeworth,House Stokeworth,,,appears
+Brown-Bernarr,Brown Bernarr,,,,Night's Watch,,,mentioned
+Bryan-Frey,Bryan Frey,,,,House Frey,,,mentioned
+Bryen,Bryen,,,,House Baelish,,,appears
+Bryen-Farring,Bryen Farring,,,,House Farring,,,mentioned
+Brynden-Tully,Brynden Tully,,Ser;Warden of the Southern Marches;Knight of the Gate (formerly),Brynden Tully;Blackfish;Ser Brynden the Blackfish;Brynden Blackfish,House Tully;House Arryn (formerly),,Rivermen,appears
+Burton-Crakehall,Burton Crakehall,,Ser,,House Crakehall,,,mentioned
+Butterbumps,Butterbumps,,,Butterbumps;Butterbumps,House Tyrell,,,appears
+Byam-Flint,Byam Flint,,Ser,,Night's Watch,,,appears
+Cadwyl,Cadwyl,,,,House Greyjoy,,Ironborn,mentioned
+Lord-Cafferen,Lord Cafferen,,Lord,,House Cafferen,,,mentioned
+Caleotte,Caleotte,,Maester,,House Martell,,,mentioned
+Carellen-Smallwood,Carellen Smallwood,,,,House Smallwood,,,mentioned
+Carolei-Waynwood,Carolei Waynwood,,,,House Waynwood;House Frey,,,mentioned
+Cass,Cass,,,,,,,mentioned
+Cassana-Estermont,Cassana Estermont,,,,House Estermont;House Baratheon,,,mentioned
+Catelyn-Stark,Catelyn Stark,,Lady of Winterfell,Catelyn Stark;Catelyn Tully;Cat;Lady Stoneheart;The Silent Sister;Mother Merciless;The Hangwoman,House Tully;House Stark;Brotherhood without banners,,Rivermen,POV
+Cedrik-Storm,Cedrik Storm,,,Cedrik Storm;the Bastard of Bronzegate,House Buckler,,,mentioned
+Cellador,Cellador,,Septon,Cellador;Celladar;,Night's Watch,,,appears
+Cerenna-Lannister,Cerenna Lannister,,,,House Lannister,,,mentioned
+Cersei-Frey,Cersei Frey,,,Cersei Frey;the Little Bee,House Frey,,,appears
+Cersei-Lannister,Cersei Lannister,,Light of the West;Queen Dowager;Protector of the Realm;Lady of Casterly Rock;Queen Regent,,House Lannister,,Westerlands,appears
+Chataya,Chataya,,,,Chataya's brothel,,Summer Isles,mentioned
+Chayle,Chayle,,Septon,,,,,mentioned
+Chella,Chella,,,,Black Ears,,Vale mountain clans,mentioned
+Chett,Chett,,,,Night's Watch,,,POV
+Chiswyck,Chiswyck,,,,House Clegane,,,mentioned
+Clement-Piper,Clement Piper,,Lord of Pinkmaiden,,House Piper,,Rivermen,mentioned
+Cleon,Cleon,,King of Astapor,Cleon;Cleon the Great;The Butcher King;King Cleaver,,,Astapori,mentioned
+Cleos-Frey,Cleos Frey,,Ser,,House Frey;House Lannister,,,appears
+Cley-Cerwyn,Cley Cerwyn,,Lord of Cerwyn,,House Cerwyn,,Northmen,mentioned
+Clubfoot-Karl,Clubfoot Karl,,,Clubfoot Karl;Clubfoot Karl,Night's Watch,,,appears
+Clydas,Clydas,,,,Night's Watch,,,appears
+Coldhands,Coldhands,,,,Three-eyed crow,,,appears
+Colemon,Colemon,,Maester,,House Arryn,,,appears
+Colin-Florent,Colin Florent,,Ser;Castellan of Brightwater Keep,,House Florent,,,mentioned
+Collio-Quaynis,Collio Quaynis,,,,,,Tyroshi,mentioned
+Colmar-Frey,Colmar Frey,,,,House Frey,,,mentioned
+Conwy,Conwy,,,,Night's Watch,,,mentioned
+Cortnay-Penrose,Cortnay Penrose,,Ser;Castellan of Storm's End,,House Penrose,,,mentioned
+Cotter-Pyke,Cotter Pyke,,Commander of Eastwatch-by-the-Sea,,Night's Watch,,Ironborn,appears
+Craster,Craster,,,,,,Free Folk,appears
+Cressen,Cressen,,Maester,,,,,mentioned
+Cuger,Cuger,,,,Night's Watch,,,mentioned
+Cynthea-Frey,Cynthea Frey,,,,House Frey,,,mentioned
+Daario-Naharis,Daario Naharis,,,,Stormcrows,,Tyroshi,appears
+Dacey-Mormont,Dacey Mormont,,,,House Mormont,,Northmen,appears
+Daemon-I-Blackfyre,Daemon I Blackfyre,,Ser;King of the Andals; the Rhoynar and the First Men (claimant)Lord of the Seven Kingdoms (claimant)Protector of the Ream (claimant),Daemon I Blackfyre;Daemon Waters;The Black Dragon;The King Who Bore the Sword;The Pretender,House Blackfyre,,Valyrian,mentioned
+Daemon-Sand,Daemon Sand,,Ser,Daemon Sand;Bastard of Godsgrace,House Allyrion,,Dornishmen,appears
+Daenerys-Targaryen,Daenerys Targaryen,Daenerys Targaryen the First of Her Name,,Daenerys Targaryen;Dany;Daenerys Stormborn;The Unburnt;Mother of Dragons;Mhysa (mother)The Silver Queen;Silver Lady;Dragonmother;The Dragon Queen;;Khaleesi of the Great Grass Sea;Queen of Meereen;Queen of the Andals and the Rhoynar and the First Men; Lord of the Seven Kingdoms (claimant)Breaker of Shackles/Chains;Queen of the Seven Kingdoms;(claimant)Princess of Dragonstone (claimant),House Targaryen,House Targaryen,Valyrian,POV
+Daeron-I-Targaryen,Daeron I Targaryen,Daeron Targaryen the First of His Name,,Daeron I Targaryen;The Young Dragon;The Boy King;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm,House Targaryen,House Targaryen,,mentioned
+Daeron-II-Targaryen,Daeron II Targaryen,Daeron Targaryen the Second of His Name,,Daeron II Targaryen;Daeron the Good;Daeron the Falseborn;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm (renounced),House Targaryen,House Targaryen,,mentioned
+Dafyn-Vance,Dafyn Vance,,Ser,,House Vance,,,mentioned
+Dagos-Manwoody,Dagos Manwoody,,Lord of Kingsgrave,,House Manwoody,,,mentioned
+Dalbridge,Dalbridge,,,Dalbridge;Squire Dalbridge,Night's Watch,,,mentioned
+Dale-Seaworth,Dale Seaworth,,Captain of the Wraith,,House Seaworth,,,mentioned
+Dalla,Dalla,,,,,,Free Folk,appears
+Damion-Lannister,Damion Lannister,,Ser;Castellan of Casterly Rock,,House Lannister,,,mentioned
+Damon-Paege,Damon Paege,,Ser,,House Paege,,,mentioned
+Damon-Vypren,Damon Vypren,,Ser,,House Vypren,,,appears
+Dan,Dan,,,Dan;Hempen Dan,,,Free Folk,mentioned
+Dancy,Dancy,,,,Chataya's brothel,,,mentioned
+Danny-Flint,Danny Flint,,,,House Flint;Night's Watch,,Northmen,mentioned
+Danos-Slynt,Danos Slynt,,,,House Slynt,,,mentioned
+Danwell-Frey,Danwell Frey,,Ser,,House Frey,,,appears
+Dareon,Dareon,,,Dareon;The Black Singer Lover ;,Night's Watch,,,mentioned
+Darlessa-Marbrand,Darlessa Marbrand,,,,House Marbrand;House Lannister,,,mentioned
+Daven-Lannister,Daven Lannister,,Ser;Warden of the West,,House Lannister,,Westerman,mentioned
+Davos-Seaworth,Davos Seaworth,,Ser;Lord of the Rainwood;Admiral of the Narrow Sea;Hand of the King;,Davos Seaworth;Onion Knight;Davos Shorthand;The Knight of Onions;Ser Onions;Onion Lord;Smuggler,House Seaworth;House Baratheon of Dragonstone,,Westeros,POV
+Deana-Hardyng,Deana Hardyng,,,,House Hardyng;House Frey,,,mentioned
+Del,Del,,,,,,Free Folk,appears
+Delena-Florent,Delena Florent,,,,House Florent;House Norcross,,,mentioned
+Della-Frey,Della Frey,,,Della Frey;Deaf Della,House Frey,,,mentioned
+Delonne-Allyrion,Delonne Allyrion,,Lady of Godsgrace,,House Allyrion,,Dornish,mentioned
+Delp,Delp,,,,House Tully,,,mentioned
+Dennet,Dennet,,,,Brotherhood without banners,,,mentioned
+Dennis-Plumm,Dennis Plumm,,Ser,,House Plumm,,,mentioned
+Denys-Arryn,Denys Arryn,,Ser;Keeper of the Gates of the Moon,Denys Arryn;The Darling of the Vale,House Arryn,,,mentioned
+Denys-Mallister,Denys Mallister,,Ser,,House Mallister;Night's Watch,,,appears
+Dermot,Dermot,,Ser,Dermot;Dermot of the Rainwood,House Baratheon of Dragonstone;House Baratheon of King's Landing,,,mentioned
+Desmond-Grell,Desmond Grell,,Ser,,House Grell;Night's Watch,,,appears
+Devan-Seaworth,Devan Seaworth,,,,House Seaworth;House Baratheon of Dragonstone,,,appears
+Deziel-Dalt,Deziel Dalt,,The Knight of Lemonwood,,House Dalt,,,appears
+Dick,Dick,,,,Kingswood Brotherhood,,,mentioned
+Dick-Follard,Dick Follard,,,Dick Follard;Deaf Dick Follard,Night's Watch,,,appears
+Dickon-Frey,Dickon Frey,,,,House Frey,,,mentioned
+Dickon-Manwoody,Dickon Manwoody,,,,House Manwoody,,,appears
+Dirk,Dirk,,,,Night's Watch,,,appears
+Donal-Noye,Donal Noye,,,,House Baratheon;Night's Watch,,,appears
+Donnel-Haigh,Donnel Haigh,,Ser,,House Haigh,,,appears
+Donnel-Hill,Donnel Hill,,,Donnel Hill;Sweet Donnel Hill,Night's Watch,,,appears
+Donnel-Locke,Donnel Locke,,Ser,,House Locke,,,appears
+Donnel-Waynwood,Donnel Waynwood,,Ser;Knight of the Gate,,House Waynwood,,,mentioned
+Dontos-Hollard,Dontos Hollard,,Ser,Dontos Hollard;Dontos the Red;Dontos the Drunk;Florian,House Hollard,,,appears
+Donyse,Donyse,,Septa,,,,,mentioned
+Doran-Martell,Doran Martell,,Prince of Dorne;Lord of Sunspear,,House Nymeros Martell,,Dornish,mentioned
+Dormund,Dormund,,,,,,Free Folk,mentioned
+Dornish-Dilly,Dornish Dilly,,,,Night's Watch,,,appears
+Drogo,Drogo,,Khal,Drogo;Great Rider;Great Khal,,,Dothraki,mentioned
+Dryn,Dryn,,,,,,Free Folk,mentioned
+Dudley,Dudley,,Ser,,,,,A Storm of Swords
+Dunk,Dunk,,Ser;Lord Commander of the Kingsguard,Dunk;Dunk;Duncan the Tall;Dunk the Lunk;Ser Giant;The Gallows Knight,Kingsguard,,Crownlands,mentioned
+Duncan-Targaryen,Duncan Targaryen,,Prince of Dragonstone (renounced),Duncan Targaryen;Prince Duncan the Small;Prince of Dragonflies,House Targaryen,,,mentioned
+Dunsen,Dunsen,,,,House Clegane,,,mentioned
+Dunstan-Drumm,Dunstan Drumm,,Lord of Old Wyk;Captain of the Thunderer,Dunstan Drumm;The Drumm;The Bone Hand,House Drumm,,Ironborn,mentioned
+Duram-Bar-Emmon,Duram Bar Emmon,,Lord of Sharp Point,,House Bar Emmon,,,mentioned
+Dyah,Dyah,,,,,,Free Folk,mentioned
+Dywen,Dywen,,,,Night's Watch,,,appears
+Easy,Easy,,,,Night's Watch,,,appears
+Ebben,Ebben,,,,Night's Watch,,,mentioned
+Eddara-Tallhart,Eddara Tallhart,,Lady of Torrhen's Square,,House Tallhart,,Northmen,mentioned
+Eddard-Karstark,Eddard Karstark,,,Eddard Karstark;Edd,House Karstark,,Northmen,mentioned
+Eddard-Stark,Eddard Stark,,Lord of Winterfell;Warden of the North;Hand of the King;Protector of the Realm;Regent,Eddard Stark;Ned;The Ned;The Quiet Wolf,House Stark,,Northmen,mentioned
+Eddison-Tollett,Eddison Tollett,,,Eddison Tollett;Dolorous Edd,House Tollett;Night's Watch,,Valemen,appears
+Edmure-Tully,Edmure Tully,,Ser;Lord Paramount of the Trident (lost to Petyr Baelish)Lord of Riverrun (lost to Emmon Frey),,House Tully,,Rivermen,appears
+Edmyn-Tully,Edmyn Tully,,Lord of Riverrun;Lord Paramount of the Trident;Hand of the King,,House Tully,,Rivermen,mentioned
+Edric-Dayne,Edric Dayne,,Lord of Starfall,Edric Dayne;Ned,House Dayne;Brotherhood without banners,,Dornishmen,appears
+Edric-Storm,Edric Storm,,,,House Baratheon,,,appears
+Edwyn-Frey,Edwyn Frey,,,,House Frey,,,appears
+Elaena-Targaryen,Elaena Targaryen,,Princess,,House Targaryen;House Plumm;House Penrose;House Manwoody,,Valyrian,mentioned
+Eldon-Estermont,Eldon Estermont,,Ser;Lord of Greenstone;,,House Estermont,,Stormlands,mentioned
+Eleyna-Westerling,Eleyna Westerling,,,,House Westerling,,,appears
+Elia-Sand,Elia Sand,,,Elia Sand;El;Lady Lance;,House Martell,,Dornishmen,mentioned
+Elia-Martell,Elia Martell,,Princess,Elia Martell;Elia of Dorne,House Martell;House Targaryen,,,mentioned
+Elinor-Tyrell,Elinor Tyrell,,,,House Tyrell,,,appears
+Ellaria-Sand,Ellaria Sand,,,Ellaria Sand;The serpent's whore,House Uller;House Martell,,Dornish,appears
+Ellery-Vance,Ellery Vance,,Ser,,House Vance of Atranta,,,mentioned
+Elmar-Frey,Elmar Frey,,,,House Frey,,,appears
+Elron,Elron,,,,Night's Watch,,,mentioned
+Elwood,Elwood,,,,House Tully,,,mentioned
+Elwood-Meadows,Elwood Meadows,,Lord of Grassy Vale,,House Meadows;House Baratheon of Dragonstone,,Reach,mentioned
+Elyana-Vypren,Elyana Vypren,,,,House Vypren;House Wylde,,,mentioned
+Elyn-Norridge,Elyn Norridge,,,,House Norridge;House Tyrell,,,mentioned
+Elys-Westerling,Elys Westerling,,Ser,,House Westerling,,,mentioned
+Emberlei-Frey,Emberlei Frey,,,,House Frey,,,mentioned
+Emmon-Frey,Emmon Frey,,Lord of Riverrun,Emmon Frey;Emm,House Frey of Riverrun;House Lannister,,,mentioned
+Emrick,Emrick,,,,Night's Watch,,,appears
+Endrew-Tarth,Endrew Tarth,,Ser,,House Tarth;Night's Watch,,,mentioned
+Eon-Hunter,Eon Hunter,,Lord of Longbow Hall,Eon Hunter;Old Lord Hunter,House Hunter,,,mentioned
+Erena-Glover,Erena Glover,,,,House Glover,,Northmen,mentioned
+Ermesande-Hayford,Ermesande Hayford,,Lady of Hayford,,House Hayford;House Lannister,,,appears
+Erreck,Erreck,,Maester,,,,,mentioned
+Erreg,Erreg,,King,Erreg;Erreg the Kinslayer,,,Andal,mentioned
+Erren-Florent,Erren Florent,,Ser,,House Florent,,,mentioned
+Errok,Errok,,,,,,Free Folk,mentioned
+Erryk-(guard),Erryk (guard),,,Erryk (guard);&quot;Left&quot; or &quot;Right&quot;,House Tyrell,,,appears
+Euron-Greyjoy,Euron Greyjoy,Euron Greyjoy; the Third of His Name Since the Grey King,,Euron Greyjoy;Crow's Eye;Euron Crow's Eye;Iron King;King of the Isles and the North  King of Salt and Rock;Son of the Sea Wind;Lord Reaper of Pyke;Captain of the Silence,House Greyjoy,House Greyjoy,Ironborn,mentioned
+Falyse-Stokeworth,Falyse Stokeworth,,,,House Stokeworth;House Byrch,,,mentioned
+Farlen,Farlen,,,,House Stark,,,mentioned
+Lord-Fell,Lord Fell,,Lord of Felwood,,House Fell,,stormlands,mentioned
+Fern,Fern,,,,,,,mentioned
+Ferny,Ferny,,,,,,Free Folk,mentioned
+Flement-Brax,Flement Brax,,Ser,,House Brax,,,appears
+Forley-Prester,Forley Prester,,Ser,,House Prester,,,mentioned
+Fornio,Fornio,,,,Night's Watch,,,appears
+Frenken,Frenken,,Maester,,,,,appears
+Gage,Gage,,,,House Stark,,,mentioned
+Galbart-Glover,Galbart Glover,,Master of Deepwood Motte,,House Glover,,Northmen,appears
+Galyeon-of-Cuy,Galyeon of Cuy,,,,,,,mentioned
+Garigus,Garigus,,Wisdom,,Alchemists' Guild,,,mentioned
+Garlan-Tyrell,Garlan Tyrell,,Ser;Lord of Brightwater Keep,Garlan Tyrell;Garlan the Gallant;Renly's ghost;Lord Renly's shade,House Tyrell of Brightwater Keep,,,appears
+Garrett-Flowers,Garrett Flowers,,,,House Tyrell,,,mentioned
+Garse-Flowers,Garse Flowers,,,,House Tyrell,,,mentioned
+Garse-Goodbrook,Garse Goodbrook,,Ser,,House Goodbrook,,,appears
+Garth-of-Greenaway,Garth of Greenaway,,,,Night's Watch,,,appears
+Garth-Gardener-(Greenhand),Garth Gardener (Greenhand),Garth Greenhand,,Garth Gardener (Greenhand);Garth Greenhair;Garth the Green;High King of the First Men,,,First Men,mentioned
+Garth-Greenfield,Garth Greenfield,,The Knight of Greenfield;Ser,,House Greenfield,,Westerman,mentioned
+Garth-Greyfeather,Garth Greyfeather,,,,Night's Watch,,,appears
+Garth-of-Oldtown,Garth of Oldtown,,,,Night's Watch,,,appears
+Garth-Tyrell,Garth Tyrell,,Lord Seneschal,Garth Tyrell;Garth the Gross,House Tyrell,,,mentioned
+Gawen-Glover,Gawen Glover,,,,House Glover,,Northmen,mentioned
+Gawen-Westerling,Gawen Westerling,,Lord of the Crag,,House Westerling,,Westermen,mentioned
+Gendel,Gendel,,King-Beyond-the-Wall,,,,Free Folk,mentioned
+Gendry,Gendry,,Ser,Gendry;The Bull;Ser Gendry of the hollow hill,brotherhood without banners,,,appears
+Genna-Lannister,Genna Lannister,,Lady,,House Lannister House Frey of Riverrun,,,mentioned
+Gerald-Gower,Gerald Gower,,Ser,,House Gower;King's men,,,appears
+Gerardys,Gerardys,,Grand Maester,,Blacks,,,mentioned
+Gerion-Lannister,Gerion Lannister,,,Gerion Lannister;Gery,House Lannister,,,mentioned
+Gerold-Hightower,Gerold Hightower,,Ser;Lord Commander of the Kingsguard,Gerold Hightower;The White Bull,House Hightower;Kingsguard,,Reachmen,mentioned
+Gevin-Harlaw,Gevin Harlaw,,,,House Harlaw,,Ironborn,mentioned
+Ghael,Ghael,,Lord,,,,Astapori,appears
+Ghost-of-High-Heart,Ghost of High Heart,,,Ghost of High Heart;The woods witch,,,,appears
+Gilbert-Farring,Gilbert Farring,,Ser,,House Farring,,,mentioned
+Gilly,Gilly,,,Gilly;the rabbit keeper ;,,,Free Folk,appears
+Gilwood-Hunter,Gilwood Hunter,,Ser;Lord of Longbow Hall,Gilwood Hunter;Young Lord Hunter,House Hunter,,,appears
+Glendon-Hewett,Glendon Hewett,,Ser,,House Hewett;Night's Watch,,,appears
+Goady,Goady,,,,Night's Watch,,,appears
+Gormon-Tyrell,Gormon Tyrell,,Maester,Gormon Tyrell;Maester Gormon,The Citadel,,,mentioned
+Gorne,Gorne,,King-Beyond-the-Wall,,,,Free Folk,mentioned
+Gorold-Goodbrother,Gorold Goodbrother,,Lord of Hammerhorn,,House Goodbrother,,Ironborn,mentioned
+Grazdan,Grazdan,,Good Master,,,,Astapori,appears
+Grazdan-(Great),Grazdan (Great),,,,,,Ghiscari,mentioned
+Grazdan-mo-Eraz,Grazdan mo Eraz,,,,Wise Masters;House of Eraz,,Ghiscari,appears
+Grazdan-mo-Ullhor,Grazdan mo Ullhor,,Good Master,,Good Masters;House of Ullhor,,Astapori,appears
+Green-Gergen,Green Gergen,,,Green Gergen;Green Gergen,,,,mentioned
+Greenbeard,Greenbeard,,,Greenbeard;Greenbeard,Brotherhood without banners,,Tyroshi,appears
+Gregor-Clegane,Gregor Clegane,,Ser;Knight of Clegane's Keep,Gregor Clegane;The Mountain That Rides;The Mountain;The Great Dog;The Enormity That Rides,House Clegane;House Lannister,,,appears
+Grenn,Grenn,,,Grenn;Aurochs,Night's Watch,,Westeros,appears
+Grey-Worm,Grey Worm,,,,The Unsullied;House Targaryen,,,appears
+Grigg,Grigg,,,Grigg;Grigg the Goat,,,Free Folk,appears
+Grisel,Grisel,,,,House Baelish,,,appears
+Groleo,Groleo,,Captain;Lord Admiral;,,House Targaryen,,Pentoshi,appears
+Grubbs,Grubbs,,,,Night's Watch,,,appears
+Gueren,Gueren,,,,Night's Watch,,,mentioned
+Gulian-Swann,Gulian Swann,,Lord of Stonehelm,,House Swann,,,mentioned
+Guncer-Sunglass,Guncer Sunglass,,Lord of Sweetport Sound,,House Sunglass,,,mentioned
+Gunthor-son-of-Gurn,Gunthor son of Gurn,,,,Stone Crows,,,mentioned
+Gwayne-Gaunt,Gwayne Gaunt,,Ser,,House Gaunt;Kingsguard,,,mentioned
+Gylbert-Farwynd,Gylbert Farwynd,,Lord of the Lonely Light,,House Farwynd of the Lonely Light,,Ironborn,mentioned
+Gyles-Rosby,Gyles Rosby,,Lord of Rosby;Lord Treasurer;Master of Coin,Gyles Rosby;The Cougher,House Rosby,,,appears
+Hairy-Hal,Hairy Hal,,,,Night's Watch,,,appears
+Hake,Hake,,,,Night's Watch,,,appears
+Hal-(Hog),Hal (Hog),,,Hal (Hog);Hal the Hog,House Baratheon of Dragonstone,,,mentioned
+Halder,Halder,,,Halder;Stone Head ; ;,Night's Watch,,,appears
+Hallis-Mollen,Hallis Mollen,,Captain of the guards for Winterfell,Hallis Mollen;Hal,House Mollen;House Stark,,Northmen,mentioned
+Hallyne,Hallyne,,Lord;Wisdom,Hallyne;Hallyne the Pryomancer,Alchemists' Guild,,,mentioned
+Halmon-Paege,Halmon Paege,,Ser,,House Paege,,,mentioned
+Hamish-the-Harper,Hamish the Harper,,,Hamish the Harper;Hamish the Harper,,,,appears
+Hareth-(Maester),Hareth (Maester),,Grand Maester,,,,,A Storm of Swords
+Hareth-(Mole's-Town),Hareth (Mole's Town),,,Hareth (Mole's Town);Horse,Night's Watch,,,appears
+Harlan-Grandison,Harlan Grandison,,Ser,,House Grandison;Kingsguard,,,mentioned
+Harma,Harma,,,Harma;Harma the Dogshead;Harma Dogshead,,,Wildlings,appears
+Harmen-Uller,Harmen Uller,,Lord of Hellholt,,House Uller,,,mentioned
+Harmune,Harmune,,Maester,,Night's Watch,,,mentioned
+Harren-Hoare,Harren Hoare,Harren Hoare,,Harren Hoare;Harren the Black;Black Harren;King of the Isles and the Rivers,House Hoare,House Hoare,Ironborn,mentioned
+Harrion-Karstark,Harrion Karstark,,Lord of Karhold,Harrion Karstark;Harry,House Karstark,,Northmen,mentioned
+Harsley,Harsley,,,,,,,mentioned
+Harwin,Harwin,,,,House Stark;Brotherhood without banners,,Northmen,appears
+Harwyn-Plumm,Harwyn Plumm,,Ser,Harwyn Plumm;Hardstone,House Plumm,,,mentioned
+Harys-Haigh,Harys Haigh,,Ser,,House Haigh;House Frey,,,appears
+Harys-Swyft,Harys Swyft,,Knight of Cornfield;Ser;Hand of the King;Master of coin;Lord treasurer,,House Swyft,,,appears
+Helly,Helly,,,,,,,mentioned
+Helman-Tallhart,Helman Tallhart,,Ser;Master of Torrhen's Square,,House Tallhart,,Northmen,mentioned
+Helya,Helya,,,,House Greyjoy,,,mentioned
+Henk,Henk,,,Henk;Henk the Helm,,,Free Folk,mentioned
+High-Septon-(fat_one),High Septon (fat_one),,High Septon;His High Holiness,High Septon (fat_one);The fat one,Faith of the Seven,,,mentioned
+High-Septon-(Tyrions),High Septon (Tyrions),,High Septon;His High Holiness,High Septon (Tyrions);The one after the Fat One,Faith of the Seven,,,appears
+Hobb,Hobb,,,Hobb;Three-Finger Hobb,Night's Watch,,,appears
+Hobber-Redwyne,Hobber Redwyne,,Ser,Hobber Redwyne;Slobber,House Redwyne,,Reach,appears
+Hodor,Hodor,,,Hodor;Hodor,House Stark,,Northmen,appears
+Hop-Robin,Hop-Robin,,,,Night's Watch,,,appears
+Horas-Redwyne,Horas Redwyne,,Ser,Horas Redwyne;Horror,House Redwyne,,Reach,mentioned
+Horton-Redfort,Horton Redfort,,Lord of Redfort,,House Redfort;Lords Declarant,,Valemen,mentioned
+Hosman-Norcross,Hosman Norcross,,Ser,,House Norcross,,,mentioned
+Hosteen-Frey,Hosteen Frey,,Ser,Hosteen Frey;Ser Stupid,House Frey,,,appears
+Hoster-Frey,Hoster Frey,,,,House Frey,,,mentioned
+Hoster-Tully,Hoster Tully,,Lord Paramount of the Trident;Lord of Riverrun,,House Tully,,Rivermen,appears
+Hot-Pie,Hot Pie,,,,,,,appears
+Hother-Umber,Hother Umber,,Castellan of Last Hearth,Hother Umber;Hother Whoresbane;Whoresbane Umber,House Umber,,Northmen,mentioned
+Howland-Reed,Howland Reed,,Lord of Greywater Watch,,House Reed,,Crannogmen,mentioned
+Hubard-Rambton,Hubard Rambton,,Ser,,House Rambton,,,mentioned
+Hugo-Vance,Hugo Vance,,Ser,,House Vance of Atranta,,,mentioned
+Hullen,Hullen,,Master of horse at Winterfell,,House Stark,,Northmen,mentioned
+Husband,Husband,,,,,,,appears
+Iggo,Iggo,,,,Brave Companions,,Dothraki,appears
+Igon-Vyrwel,Igon Vyrwel,,,,House Vyrwel;House Tyrell,,,mentioned
+Illyrio-Mopatis,Illyrio Mopatis,,Magister of Pentos,Illyrio Mopatis;The Cheesemonger;The Fat Man;The Lord of Cheese,House Targaryen,,Pentoshi,mentioned
+Ilyn-Payne,Ilyn Payne,,Ser King's Justice,,House Payne,,Westeros,appears
+Imry-Florent,Imry Florent,,Ser;Lord High Captain,Imry Florent;The Fool of Florent,House Florent,,,mentioned
+Iron-Emmett,Iron Emmett,,,Iron Emmett;Iron Emmett,Night's Watch,,,appears
+Ironbelly,Ironbelly,,,Ironbelly;Ironbelly,,,,mentioned
+Irri,Irri,,,,House Targaryen,,Dothraki,appears
+Jacelyn-Bywater,Jacelyn Bywater,,Ser;Captain of the Mud Gate;Commander of the City Watch;Lord,Jacelyn Bywater;Ironhand,House Bywater;City Watch of King's Landing,,,mentioned
+Jack-Be-Lucky,Jack-Be-Lucky,,,Jack-Be-Lucky;Jack-Be-Lucky,Brotherhood without banners,,,appears
+Jacks,Jacks,,,,House Stark,,northmen,mentioned
+Jaehaerys-I-Targaryen,Jaehaerys I Targaryen,Jaehaerys Targaryen the First of His Name,,Jaehaerys I Targaryen;The Conciliator;The Wise;The Old King;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm,House Targaryen,House Targaryen,,mentioned
+Jaehaerys-II-Targaryen,Jaehaerys II Targaryen,Jaehaerys Targaryen the Second of His Name,,Jaehaerys II Targaryen;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm,House Targaryen,House Targaryen,,mentioned
+Jaime-Lannister,Jaime Lannister,,Ser;Lord Commander of the Kingsguard;Warden of the East (formerly),Jaime Lannister;The Kingslayer;The Lion of Lannister;The Young Lion;Cripple,House Lannister;Kingsguard,,Westerlands,POV
+Jalabhar-Xho,Jalabhar Xho,,Prince of the Red Flower Vale,,Summer Islands,,Summer Islands,appears
+Jammos-Frey,Jammos Frey,,Ser,,House Frey,,,mentioned
+Janei-Lannister,Janei Lannister,,,,House Lannister,,,mentioned
+Janna-Tyrell,Janna Tyrell,,,,House Tyrell;House Fossoway of New Barrel,,,appears
+Janos-Slynt,Janos Slynt,,Commander of the City Watch Lord of Harrenhal,,Night's Watch;House Slynt;City Watch of King's Landing,,,appears
+Jaqen-H'ghar,Jaqen H'ghar,,,Jaqen H'ghar;Lorath,Faceless Men,,,mentioned
+Jared-Frey,Jared Frey,,Ser,,House Frey,,,mentioned
+Jaremy-Rykker,Jaremy Rykker,,Seracting First Ranger,,Night's Watch,,,mentioned
+Jarl,Jarl,,,,,,Free Folk,appears
+Jarmen-Buckwell,Jarmen Buckwell,,Ser,,House Buckwell;Night's Watch,,,mentioned
+Jason-Mallister,Jason Mallister,,Lord of Seagard,,House Mallister,,Riverlands,appears
+Jate-Blackberry,Jate Blackberry,,,,House Blackberry;House Baratheon of Dragonstone,,,mentioned
+Jayde,Jayde,,,,Chataya's brothel,,,mentioned
+Jenny-(Oldstones),Jenny (Oldstones),,,,,,,mentioned
+Jeor-Mormont,Jeor Mormont,,Lord of Bear Island (formerly)Lord Commander of the Night's Watch,Jeor Mormont;The Old Bear,House Mormont;Night's Watch,,Northmen,appears
+Jeren,Jeren,,,,Night's Watch,,,mentioned
+Jeyne-Beesbury,Jeyne Beesbury,,,,House Beesbury;House Frey,,,mentioned
+Jeyne-Darry,Jeyne Darry,,,,House Darry;House Frey,,Westeros,mentioned
+Jeyne-Goodbrook,Jeyne Goodbrook,,,,House Goodbrook,,,mentioned
+Jeyne-Lydden,Jeyne Lydden,,,,House Lydden,,,mentioned
+Jeyne-Poole,Jeyne Poole,,,Jeyne Poole;Arya Stark,House Poole,,Northmen,appears
+Jeyne-Rivers,Jeyne Rivers,,,,House Frey,,,mentioned
+Jeyne-Swann,Jeyne Swann,,,,House Swann,,,mentioned
+Jeyne-Westerling-(wife-of-Maegor-I),Jeyne Westerling (wife of Maegor I),,Queen;Black Bride,,House Westerling;House Tarbeck;House Targaryen,,,mentioned
+Jeyne-Westerling,Jeyne Westerling,,Queen;Lady of Winterfell,,House Westerling;House Stark,,Westermen,appears
+Jhaqo,Jhaqo,,Khal;Ko (formerly),,,,Dothraki,mentioned
+Jhiqui,Jhiqui,,,,House Targaryen,,Dothraki,appears
+Jhogo,Jhogo,,Ko;Bloodrider,,House Targaryen,,Dothraki,appears
+Joanna-Lannister,Joanna Lannister,,Lady of Casterly Rock,,House Lannister,,Westerman,mentioned
+Joanna-Swyft,Joanna Swyft,,,,House Swyft,,,mentioned
+Joffrey-Baratheon,Joffrey Baratheon,Joffrey Baratheon the First of His Name,,Joffrey Baratheon;Joffrey the Illborn;The Young Usurper;Aerys the Third;Joffrey-called-Baratheon;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm,House Baratheon of King's Landing,House Baratheon of King's Landing,,appears
+Jojen-Reed,Jojen Reed,,,Jojen Reed;Little Grandfather,House Reed,,Crannogmen,appears
+Jon-Arryn,Jon Arryn,,Lord of the Eyrie;Defender of the Vale;Warden of the East;Hand of the King,,House Arryn,,Valemen,mentioned
+Jon-Brax,Jon Brax,,,,House Brax,,,mentioned
+Jon-Bulwer,Jon Bulwer,,Lord of Blackcrown,,House Bulwer,,,mentioned
+Jon-Connington,Jon Connington,,Lord of Griffin's Roost;;Hand of the King;Hand of the True King;,Jon Connington;Griff;The dancing griffins Hand;,House Connington;House Targaryen;Golden Company,,Stormlands,mentioned
+Jon-Myre,Jon Myre,,,Jon Myre;Pinchface Jon,House Myre,,Ironborn,mentioned
+Jon-Snow,Jon Snow,,Lord Commander of the Night's Watch,Jon Snow;Lord Snow;Ned Stark's Bastard;The Snow of Winterfell;The Crow-Come-Over;The 998th Lord Commander of the Night's Watch;The Bastard of Winterfell;The Black Bastard of the Wall;Lord Crow,House Stark;Night's Watch,,Northmen,POV
+Jon-Umber-(Greatjon),Jon Umber (Greatjon),,Lord of the Last Hearth,Jon Umber (Greatjon);The Greatjon;Greatjon Umber,House Umber,,Northmen,appears
+Jon-Umber-(Smalljon),Jon Umber (Smalljon),,,Jon Umber (Smalljon);The Smalljon;Smalljon Umber,House Umber,,Northmen,appears
+Jon-Wylde,Jon Wylde,,Ser,,House Wylde,,,mentioned
+Jonella-Cerwyn,Jonella Cerwyn,,Lady of Cerwyn,,House Cerwyn,,Northmen,mentioned
+Jonos-Bracken,Jonos Bracken,,Lord of Stone Hedge,,House Bracken,,,appears
+Jonos-Frey,Jonos Frey,,,,House Frey,,,mentioned
+Jonothor-Darry,Jonothor Darry,,Ser,Jonothor Darry;Jon Darry,House Darry;Kingsguard,,Rivermen,mentioned
+Jorah-Mormont,Jorah Mormont,,Ser;Lord of Bear Island (stripped),Jorah Mormont;Jorah the Andal;Bear,House Mormont;House Targaryen;Second Sons,,Northmen,appears
+Joramun,Joramun,,King-Beyond-the-Wall,,,,Free Folk,mentioned
+Jory-Cassel,Jory Cassel,,Captain of the guard,,House Cassel,,Northmen,mentioned
+Josmyn-Peckledon,Josmyn Peckledon,,,Josmyn Peckledon;Peck,House Peckledon,,,appears
+Joth-Quickbow,Joth Quickbow,,,,,,,mentioned
+Jothos-Slynt,Jothos Slynt,,,,House Slynt,,,appears
+Joy-Hill,Joy Hill,,,,House Lannister,,,mentioned
+Joyeuse-Erenford,Joyeuse Erenford,,Lady of the Crossing,,House Erenford;House Frey,,,appears
+Jurne,Jurne,,Maester,,,,,mentioned
+Jyanna-Frey,Jyanna Frey,,,,House Frey,,,mentioned
+Jynessa-Blackmont,Jynessa Blackmont,,,,House Blackmont,,Dornish,appears
+Jyzene,Jyzene,,,,,,,mentioned
+Kaeth,Kaeth,,Grand Maester,,,,,mentioned
+Karlon-Stark,Karlon Stark,,Lord of Karl's Hold,,House Stark;House Karstark,,Northmen,mentioned
+Karyl-Vance,Karyl Vance,,Ser;Lord of Wayfarer's Rest,,House Vance of Wayfarer's Rest,,,appears
+Kedge-Whiteye,Kedge Whiteye,,,,Night's Watch,,,appears
+Kegs,Kegs,,,,Night's Watch,,,mentioned
+Kella,Kella,,,,House Baelish,,,appears
+Kennos-of-Kayce,Kennos of Kayce,,Ser,,House Kenning of Kayce,,,appears
+Kevan-Lannister,Kevan Lannister,,Ser;Master of laws;Lord Regent;Protector of the Realm,,House Lannister,,,appears
+Khorane-Sathmantes,Khorane Sathmantes,,,,,,Lyseni,appears
+Kirth-Vance,Kirth Vance,,,,House Vance of Atranta,,,mentioned
+Kraznys-mo-Nakloz,Kraznys mo Nakloz,,,,Good Masters;House of Nakloz,,Astapor,appears
+Kyle-(brotherhood),Kyle (brotherhood),,,,Brotherhood without banners,,,appears
+Kyle-Condon,Kyle Condon,,Ser,,House Condon,,,mentioned
+Kym,Kym,,Maester,,,,,mentioned
+Kyra-Frey,Kyra Frey,,,,House Frey,,,mentioned
+Lady-of-the-Leaves,Lady of the Leaves,,Lady of the Leaves,,,,,appears
+Lamprey,Lamprey,,,Lamprey;Lamprey,House Baratheon of Dragonstone,,,appears
+Lancel-Lannister,Lancel Lannister,,Ser;Lord of Darry,,House Lannister of Casterly Rock;House Lannister of Darry;Noble and Puissant Order of the Warrior's Sons,,,appears
+Lanna,Lanna,,,,,,,mentioned
+Lanna-Lannister,Lanna Lannister,,,,House Lannister;House Jast,,,mentioned
+Larence-Snow,Larence Snow,,,,House Hornwood,,Northmen,mentioned
+Lark,Lark,,,Lark;The Sisterman;Lark the Sisterman,Night's Watch,,Sistermen,appears
+Larra-Blackmont,Larra Blackmont,,Lady of Blackmont,,House Blackmont,,Dornish,appears
+Left-Hand-Lew,Left Hand Lew,,,,Night's Watch,,,appears
+Lem,Lem,,,Lem;Lem Lemoncloak;The Lemon;The Hound (III)Yellow cloak,Brotherhood without banners,,,appears
+Lenn,Lenn,,,,,,Free Folk,mentioned
+Lennocks,Lennocks,,,,,,,mentioned
+Lenyl,Lenyl,,,,,,Free Folk,mentioned
+Leo-Blackbar,Leo Blackbar,,Ser,,House Blackbar,,,mentioned
+Leo-Lefford,Leo Lefford,,Lord of the Golden Tooth,,House Lefford,,,mentioned
+Leo-Tyrell,Leo Tyrell,,Novice,Leo Tyrell;Lazy Leo;Leo the Lazy,House Tyrell Maesters of the Citadel,,,mentioned
+Leo-Tyrell-(Longthorn),Leo Tyrell (Longthorn),,Lord Paramount of the Mander;Lord of Highgarden;Defender of the Marches;High Marshal of the Reach;Warden of the South,Leo Tyrell (Longthorn);Leo Longthorn,House Tyrell,,Reach,mentioned
+Leo-Tyrell-(son-of-Victor),Leo Tyrell (son of Victor),,Ser,,House Tyrell,,,mentioned
+Leobald-Tallhart,Leobald Tallhart,,Castellan of Torrhen's Square,,House Tallhart,,Northmen,mentioned
+Leona-Tyrell,Leona Tyrell,,,,House Tyrell,,,mentioned
+Leonette-Fossoway,Leonette Fossoway,,Lady,,House Fossoway;House Tyrell of Brightwater Keep,,,appears
+Leslyn-Haigh,Leslyn Haigh,,Ser,,House Haigh,,,mentioned
+Lester,Lester,,,Lester;Red Lester,House Lannister,,,mentioned
+Lester-Morrigen,Lester Morrigen,,Lord of Crows Nest,,House Morrigen,,,mentioned
+Lewyn-Martell,Lewyn Martell,,Prince;Ser,,House Martell;Kingsguard,,Dornishmen,mentioned
+Lewys-the-Fishwife,Lewys the Fishwife,,,Lewys the Fishwife;Lewys the Fishwife,House Baratheon of Dragonstone;King's men,,,mentioned
+Lewys-Lydden,Lewys Lydden,,Lord of the Deep Den,,House Lydden,,,mentioned
+Leyton-Hightower,Leyton Hightower,,Lord of the Hightower;Lord of the Port;Voice of Oldtown;Defender of the Citadel;Beacon of the South,Leyton Hightower;Old Man of Oldtown,House Hightower,,,mentioned
+Lia-Serry,Lia Serry,,,,House Serry;House Tyrell,,,mentioned
+Likely-Luke,Likely Luke,,,Likely Luke;Likely Luke,Brotherhood Without Banners,,,mentioned
+Lister,Lister,,,,,,,mentioned
+Lollys-Stokeworth,Lollys Stokeworth,,Lady of Stokeworth,Lollys Stokeworth;Lollys Lackwit,House Stokeworth,,,appears
+Lomas-Estermont,Lomas Estermont,,Ser,,House Estermont,,Stormlands,mentioned
+Lommy-Greenhands,Lommy Greenhands,,,Lommy Greenhands;Lommy Greenhands,,,,mentioned
+Lomys,Lomys,,Maester,,,,,mentioned
+Long-Lew,Long Lew,,,Long Lew;Long Lew,House Tully,,,mentioned
+Loras-Tyrell,Loras Tyrell,,Ser;Lord Commander of the Rainbow Guard,Loras Tyrell;The Knight of Flowers;Knight o_��__ Pansies;Ser Daisy,House Tyrell;Rainbow Guard;Kingsguard,,Reach,appears
+Lorent-Tyrell,Lorent Tyrell,,,,House Tyrell,,,mentioned
+Loreza-Sand,Loreza Sand,,,Loreza Sand;Loree,House Martell,,Dorne,mentioned
+Lormelle,Lormelle,,,Lormelle;Lormelle Long Lance,,,,mentioned
+Lothar-Frey,Lothar Frey,,Steward of the Twins,Lothar Frey;Lame Lothar,House Frey,,Rivermen,appears
+Lothar-Mallery,Lothar Mallery,,Lord,,House Mallery,,,mentioned
+Lothor-Brune,Lothor Brune,,Ser,Lothor Brune;Lothor Apple-Eater,House Brune of Brownhollow;House Baelish of Harrenhal,,,appears
+Lucas-Blackwood,Lucas Blackwood,,,,House Blackwood,,,appears
+Lucas-Roote,Lucas Roote,,,,House Roote,,,mentioned
+Lucas-Tyrell,Lucas Tyrell,,,,House Tyrell,,,mentioned
+Luceon-Frey,Luceon Frey,,Septon,,Faith of the Seven;Most Devout,,,mentioned
+Lucias-Vypren,Lucias Vypren,,Lord,,House Vypren,,,appears
+Lucion-Lannister,Lucion Lannister,,Ser,,House Lannister,,,mentioned
+Lucos-Chyttering,Lucos Chyttering,,Lord,Lucos Chyttering;Little Lucos,House Chyttering,,,mentioned
+Lum,Lum,,,,House Lannister,,westermen,mentioned
+Luthor-Tyrell,Luthor Tyrell,,Lord Paramount of the Mander;Lord of Highgarden;Defender of the Marches;High Marshal of the Reach;Warden of the South,,House Tyrell,,Reach,mentioned
+Luthor-Tyrell-(son-of-Moryn),Luthor Tyrell (son of Moryn),,Ser,,House Tyrell,,,mentioned
+Luthor-Tyrell-(son-of-Theodore),Luthor Tyrell (son of Theodore),,,,House Tyrell,,,mentioned
+Luwin,Luwin,,,,House Stark,,Westeros,mentioned
+Lyanna-Stark,Lyanna Stark,,,Lyanna Stark;The She-Wolf;The Wolf Maid;Lya,House Stark,,Northmen,mentioned
+Lyessa-Flint,Lyessa Flint,,Lady of Widow's Watch,,House Flint of Widow's Watch,,Northmen,mentioned
+Lyle-Crakehall,Lyle Crakehall,,Ser,Lyle Crakehall;Strongboar,House Crakehall,,,mentioned
+Lymond-Goodbrook,Lymond Goodbrook,,Lord,,House Goodbrook,,,appears
+Lymond-Lychester,Lymond Lychester,,Lord of Castle Lychester,,House Lychester,,Rivermen,appears
+Lymond-Vikary,Lymond Vikary,,Ser,,House Vikary,,,mentioned
+Lyn-Corbray,Lyn Corbray,,Ser,,House Corbray;Lords Declarant,,,mentioned
+Lynesse-Hightower,Lynesse Hightower,,,,House Hightower,,,mentioned
+Lyonel-Frey,Lyonel Frey,,Ser,,House Frey of Riverrun,,,mentioned
+Lyonel-Selmy,Lyonel Selmy,,Ser;Knight of Harvest Hall,,House Selmy,,,mentioned
+Lyonel-Tyrell-(son-of-Leo),Lyonel Tyrell (son of Leo),,,,House Tyrell,,,mentioned
+Lysa-Arryn,Lysa Arryn,,Lady of the Vale,Lysa Arryn;Lysa Tully,House Tully;House Arryn;House Baelish,,,appears
+Lysa-Meadows,Lysa Meadows,,,,House Meadows;House Tyrell,,,mentioned
+Lythene-Frey,Lythene Frey,,,,House Frey,,,mentioned
+Mace-Tyrell,Mace Tyrell,,Lord of Highgarden;Defender of the Marches;High Marshal of the Reach;Warden of the South;Hand of the King;Master of ships (formerly),Mace Tyrell;Lord Oaf;The Fat Flower;Lord Puff Fish,House Tyrell,,,appears
+Mad-Huntsman,Mad Huntsman,,,Mad Huntsman;The Huntsman,Brotherhood without banners,,,appears
+Maege-Mormont,Maege Mormont,,Lady of Bear Island,Maege Mormont;The She-Bear,House Mormont,,Northmen,appears
+Maegelle-Frey,Maegelle Frey,,,,House Frey,,,mentioned
+Maegor-I-Targaryen,Maegor I Targaryen,Maegor Targaryen the First of His Name,,Maegor I Targaryen;Maegor the Cruel;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm;Hand of the King;Ser,House Targaryen,House Targaryen,,mentioned
+Maelys-Blackfyre,Maelys Blackfyre,,,Maelys Blackfyre;Maelys the Monstrous,House Blackfyre;Golden Company;Band of Nine,,Valyrian,mentioned
+Maerie-(Goodwife),Maerie (Goodwife),,Goodwife,,,,,mentioned
+Maerie-(Whore),Maerie (Whore),,,Maerie (Whore);Maerie the Whore,,,,mentioned
+Mag-Mar-Tun-Doh-Weg,Mag Mar Tun Doh Weg,,,Mag Mar Tun Doh Weg;Mag the Mighty,,,,appears
+Maggy,Maggy,,,Maggy;Maggy the Frog,,,,mentioned
+Mago,Mago,,Bloodrider of Khal Jhaqo,,,,Dothraki,mentioned
+Mallador-Locke,Mallador Locke,,Ser,,Night's Watch,,,mentioned
+Malwyn-Frey,Malwyn Frey,,,,House Frey,,,mentioned
+Mance-Rayder,Mance Rayder,,,Mance Rayder;The Mance;Abel;The Unburnt King;King-Beyond-the-Wall,,,Free folk,appears
+Mandon-Moore,Mandon Moore,,Ser,,House Moore;Kingsguard,,Valemen,mentioned
+Manfred-Swann,Manfred Swann,,Ser,,House Swann,,,mentioned
+Marei,Marei,,,,Chataya's brothel,,,mentioned
+Margaery-Tyrell,Margaery Tyrell,,Queen of the Seven Kingdoms,Margaery Tyrell;The Little Queen;The Little Rose;Maid Margaery,House Tyrell,,Reach,appears
+Margot-Lannister,Margot Lannister,,Lady of Starpike,,House Lannister;House Peake,,,mentioned
+Marianne-Vance,Marianne Vance,,,,House Vance,,,mentioned
+Maric-Seaworth,Maric Seaworth,,Oarmaster,,House Seaworth,,,mentioned
+Marillion,Marillion,,,,,,,appears
+Marissa-Frey,Marissa Frey,,,,House Frey,,,appears
+Mariya-Darry,Mariya Darry,,,,House Darry;House Frey,,,mentioned
+Mark-Mullendore,Mark Mullendore,,Ser,,House Mullendore,,,mentioned
+Maron-Botley,Maron Botley,,,Maron Botley;Fishwhiskers,House Botley,,,mentioned
+Maron-Greyjoy,Maron Greyjoy,,,,House Greyjoy,,Ironborn,mentioned
+Maron-Volmark,Maron Volmark,,Lord of Volmark;Lord of Greenshield,,House Volmark,,Ironborn,mentioned
+Marq-Piper,Marq Piper,,Ser,,House Piper,,Rivermen,appears
+Marq-Rankenfell,Marq Rankenfell,,Lord Commander of the Night's Watch,Marq Rankenfell;Mad Marq Rankenfell,Night's Watch,,,mentioned
+Marsella-Waynwood,Marsella Waynwood,,,,House Waynwood;House Frey,,,mentioned
+Martyn-Lannister,Martyn Lannister,,,,House Lannister,,,mentioned
+Martyn-Rivers,Martyn Rivers,,,,House Frey,,,appears
+Marwyn,Marwyn,,Archmaester,Marwyn;Marwyn the Mage;The Mage;The mastiff,,,,mentioned
+Marwyn-Belmore,Marwyn Belmore,,Ser,Marwyn Belmore;Ser Ding-Dong,House Belmore;House Arryn,,,mentioned
+Marya-Seaworth,Marya Seaworth,,Lady,,House Seaworth,,,mentioned
+Maslyn,Maslyn,,,,Night's Watch,,,appears
+Mathis-Frey,Mathis Frey,,,,House Frey,,,mentioned
+Mathis-Rowan,Mathis Rowan,,Lord of Goldengrove,,House Rowan,,Reach,appears
+Matt,Matt,,,Matt;Little Matt,,,,mentioned
+Matthar,Matthar,,,Matthar;Ser Loon;,Night's Watch,,,mentioned
+Matthos-Seaworth,Matthos Seaworth,,,,House Seaworth,,,mentioned
+Mawney,Mawney,,,,Night's Watch,,,appears
+Maynard,Maynard,,Ser,,,,,mentioned
+Medwick-Tyrell,Medwick Tyrell,,Maester,,,,,mentioned
+Meera-Reed,Meera Reed,,,,House Reed,,Crannogmen,appears
+Megga-Tyrell,Megga Tyrell,,,,House Tyrell,,,appears
+Meizo-Mahr,Meizo Mahr,,,,,,,mentioned
+Melara-Crane,Melara Crane,,,,House Crane;House Florent,,,mentioned
+Meldred-Merlyn,Meldred Merlyn,,Lord of Pebbleton,Meldred Merlyn;The Merlyn,House Merlyn,,Ironborn,mentioned
+Melesa-Crakehall,Melesa Crakehall,,,,House Crakehall,,,mentioned
+Melessa-Florent,Melessa Florent,,,,House Florent;House Tarly,,,mentioned
+Meliana,Meliana,,,Meliana;Lady Meliana,,,,A Storm of Swords
+Melisandre,Melisandre,,,Melisandre;The red priestess;The red woman;The king's red shadow;Lady Red;Lot Seven,Faith of R'hllor,,Asshai,appears
+Mellara-Rivers,Mellara Rivers,,,,House Frey,,,mentioned
+Melly,Melly,,,,Brotherhood Without Banners,,,appears
+Melwyn-Sarsfield,Melwyn Sarsfield,,Ser,,House Sarsfield,,,mentioned
+Melwys-Rivers,Melwys Rivers,,Maester,,,,,mentioned
+Meredyth-Crane,Meredyth Crane,,,Meredyth Crane;Merry,House Crane,,,appears
+Merianne-Frey,Merianne Frey,,,Merianne Frey;Merry Frey,House Frey,,,mentioned
+Merlon-Crakehall,Merlon Crakehall,,Ser,,House Crakehall,,,appears
+Mero,Mero,,,Mero;The Titan's Bastard;Mero of Braavos,Second Sons,,Braavosi,appears
+Merrell-Florent,Merrell Florent,,,,House Florent,,,mentioned
+Merrett-Frey,Merrett Frey,,,Merrett Frey;Merrett Muttonhead,House Frey,,Riverlands,POV
+Merrit,Merrit,,,Merrit;Merrit o' Moontown,Brotherhood without banners,,,mentioned
+Meryn-Trant,Meryn Trant,,Ser,,House Trant;Kingsguard,,,appears
+Mikken,Mikken,,,,House Stark,,Northmen,mentioned
+Mina-Tyrell,Mina Tyrell,,,,House Tyrell;House Redwyne,,,mentioned
+Minisa-Whent,Minisa Whent,,Lady of Riverrun,Minisa Whent;Minisa Tully,House Whent;House Tully,,Rivermen,mentioned
+Mirri-Maz-Duur,Mirri Maz Duur,,Godswife;Maegi,,,,Lhazareen,mentioned
+Missandei,Missandei,,,,House Targaryen,,Naathi,appears
+Monford-Velaryon,Monford Velaryon,,Lord of the Tides;Master of Driftmark,,House Velaryon,,Valyrian,mentioned
+Monster,Monster,,,Monster;the little monsterthe abomination,,,Free Folk,appears
+Monterys-Velaryon,Monterys Velaryon,,Lord of the Tides;Master of Driftmark,,House Velaryon,,,mentioned
+Moon-Boy,Moon Boy,,,,House Baratheon of King's Landing,,,appears
+Mord,Mord,,,,House Arryn,,,mentioned
+Mordane,Mordane,,Septa,,House Stark,,,mentioned
+Morros-Slynt,Morros Slynt,,Lord,,House Slynt,,,appears
+Mors-Manwoody,Mors Manwoody,,,,House Manwoody,,,appears
+Mors-Umber,Mors Umber,,Castellan of Last Hearth,Mors Umber;Mors Crowfood,House Umber,,Northmen,mentioned
+Morton-Waynwood,Morton Waynwood,,Ser,,House Waynwood,,,mentioned
+Morya-Frey,Morya Frey,,Lady,,House Frey;House Brax,,,mentioned
+Moryn-Tyrell,Moryn Tyrell,,Ser  Lord Commander of the City Watch of Oldtown,,House Tyrell,,,mentioned
+Mudge-(brotherhood),Mudge (brotherhood),,,,Brotherhood without banners,,,mentioned
+Mudge-(miller),Mudge (miller),,,,,,,A Storm of Swords
+Mullin,Mullin,,Maester,,Night's Watch,,,mentioned
+Mully,Mully,,,,Night's Watch,,,appears
+Munda,Munda,,,,,,Free Folk,mentioned
+Murmison,Murmison,,Septon;Hand of the King,,Faith of the Seven;House Targaryen,,,mentioned
+Muttering-Bill,Muttering Bill,,,,Night's Watch,,,appears
+Mya-Stone,Mya Stone,,,,House Royce of the Gates of the Moon,,,mentioned
+Mycah,Mycah,,,,,,Westeros,mentioned
+Mychel-Redfort,Mychel Redfort,,Ser,,House Redfort,,Valemen,mentioned
+Mylenda-Caron,Mylenda Caron,,,,House Caron;House Frey,,,mentioned
+Myles-Manwoody,Myles Manwoody,,Ser,,House Manwoody,,,appears
+Myles-Mooton,Myles Mooton,,Ser,,House Mooton,,Rivermen,mentioned
+Myles-Smallwood,Myles Smallwood,,Hand of the King,,House Smallwood,,,mentioned
+Myranda-Royce,Myranda Royce,,,Myranda Royce;Randa,House Royce of the Gates of the Moon,,,mentioned
+Myrcella-Baratheon,Myrcella Baratheon,,Princess,,House Baratheon of King's Landing,,,mentioned
+Myria-Jordayne,Myria Jordayne,,,,House Jordayne,,Dornish,appears
+Myrielle-Lannister,Myrielle Lannister,,,,House Lannister,,,mentioned
+Nage,Nage,,,,House Bolton,,,appears
+Nan,Nan,,,,House Stark,,,mentioned
+Nella,Nella,,,,,,Free Folk,mentioned
+Nestor-Royce,Nestor Royce,,Keeper of the Gates of the Moon;High Steward of the Vale,,House Royce of the Gates of the Moon,,,mentioned
+Nolla,Nolla,,Goodwife,,,,,mentioned
+Norbert-Vance,Norbert Vance,,Lord of Atranta,,House Vance of Atranta,,,mentioned
+Normund-Tyrell,Normund Tyrell,,Maester,,,,,mentioned
+Norne-Goodbrother,Norne Goodbrother,,Lord of Shatterstone,,House Goodbrother of Shatterstone,,Ironborn,mentioned
+Notch,Notch,,,,Brotherhood without Banners,,,appears
+Nymella-Toland,Nymella Toland,,Lady of Ghost Hill,,House Toland,,Dornish,mentioned
+Nymeria-Sand,Nymeria Sand,,,Nymeria Sand;Lady Nym,House Martell,,Dornishmen,mentioned
+Nysterica,Nysterica,,Septa,,,,,mentioned
+Obara-Sand,Obara Sand,,,,House Martell,,Dornish,mentioned
+Obella-Sand,Obella Sand,,,,House Martell,,Dornishmen,mentioned
+Oberyn-Martell,Oberyn Martell,,Prince;Ser,Oberyn Martell;The Red Viper,House Martell;Second Sons (formerly),,Dornishmen,appears
+Old-Henly,Old Henly,,,,Night's Watch,,,appears
+Olene-Tyrell,Olene Tyrell,,,,House Tyrell,,,mentioned
+Olenna-Redwyne,Olenna Redwyne,,Dowager Lady of Highgarden,Olenna Redwyne;Olenna Redwyne;Queen of Thorns,House Redwyne;House Tyrell,,,appears
+Ollo-Lophand,Ollo Lophand,,,Ollo Lophand;Ollo Lophand,Night's Watch,,Tyroshi,appears
+Olymer-Tyrell,Olymer Tyrell,,Ser,,House Tyrell,,,mentioned
+Olyvar-Frey,Olyvar Frey,,,,House Frey,,,mentioned
+Omer-Blackberry,Omer Blackberry,,,,House Blackberry;House Baratheon of Dragonstone;King's men,,,mentioned
+Omer-Florent,Omer Florent,,Maester,,,,,mentioned
+Ondrew-Locke,Ondrew Locke,,Lord of Oldcastle,Ondrew Locke;old Lord Locke,House Locke,,Northmen,mentioned
+Orell,Orell,,,,,,Free Folk,mentioned
+Orland-of-Oldtown,Orland of Oldtown,,,Orland of Oldtown;Ormond of Oldtown,House Baratheon of King's Landing,,,mentioned
+Ormond-(knight),Ormond (knight),,Ser,,,,,mentioned
+Oro-Tendyris,Oro Tendyris,,,,,,Braavosi,mentioned
+Orphan-Oss,Orphan Oss,,,,Night's Watch,,,appears
+Orton-Merryweather,Orton Merryweather,,Lord of Longtable;Justiciar;Master of laws;Hand of the King,,House Merryweather,,Reachmen,appears
+Osfryd-Kettleblack,Osfryd Kettleblack,,Ser;Commander of the City Watch of King's Landing,,House Kettleblack;City Watch of King's Landing,,,appears
+Osha,Osha,,,,House Stark,,Free folk,mentioned
+Osmund-Frey,Osmund Frey,,,,House Frey,,,mentioned
+Osmund-Kettleblack,Osmund Kettleblack,,Ser,Osmund Kettleblack;Oswald Kettleblack;,House Kettleblack;Gallant Men (formerly)Kingsguard,,,appears
+Osney-Kettleblack,Osney Kettleblack,,Ser,,House Kettleblack,,,appears
+Ossifer-Plumm,Ossifer Plumm,,Lord,,House Plumm,,,mentioned
+Oswell-Kettleblack,Oswell Kettleblack,,,Oswell Kettleblack;Kettleblack,House Kettleblack;House Baelish of Harrenhal,,,appears
+Oswell-Whent,Oswell Whent,,Ser,,House Whent;Kingsguard,,Rivermen,mentioned
+Oswyn,Oswyn,,,Oswyn;Oswyn Longneck the Thrice-Hanged,Kingswood Brotherhood,,,mentioned
+Othell-Yarwyck,Othell Yarwyck,,First Builder,,House Yarwyck;Night's Watch,,,appears
+Otter-Gimpknee,Otter Gimpknee,,,,,,,mentioned
+Otto-Hightower,Otto Hightower,,Ser;Hand of the King,,House Hightower;Greens,,,mentioned
+Ottyn-Wythers,Ottyn Wythers,,Ser,,House Wythers;Night's Watch,,,appears
+Owen,Owen,,,Owen;Owen the Oaf,Night's Watch,,,appears
+Owen-Norrey,Owen Norrey,,,,House Norrey,,Northern mountain clans,mentioned
+Oznak-zo-Pahl,Oznak zo Pahl,,,,House of Pahl;Great Masters,,Meereen,appears
+Parmen-Crane,Parmen Crane,,Ser,Parmen Crane;Parmen the Purple,House Crane;Rainbow Guard,,,mentioned
+Patchface,Patchface,,,Patchface;Patches,House Baratheon of Dragonstone,,,appears
+Pate-(Lancewood),Pate (Lancewood),,,,,,,mentioned
+Pate-(Mory),Pate (Mory),,,,,,,mentioned
+Pate-of-the-Blue-Fork,Pate of the Blue Fork,,Ser,Pate of the Blue Fork;Pate of the Blue Fork Pate of Sevenstreams,House Frey,,,mentioned
+Pate-(Old),Pate (Old),,,Pate (Old);Old Pate,,,,A Storm of Swords
+Pate-(Shermer's-Grove),Pate (Shermer's Grove),,,,,,,mentioned
+Patrek-Mallister,Patrek Mallister,,,,House Mallister,,,appears
+Patrek-Vance,Patrek Vance,,,,House Vance,,,mentioned
+Paxter-Redwyne,Paxter Redwyne,,Lord of the Arbor;Grand admiral;Lord admiral;Master of ships,,House Redwyne,,,appears
+Penny,Penny,,,Penny;Lady Imp,Second Sons,,,appears
+Perra-Frey,Perra Frey,,,,House Frey,,,mentioned
+Perriane-Frey,Perriane Frey,,,,House Haigh,,,mentioned
+Perros-Blackmont,Perros Blackmont,,,,House Blackmont,,Dornish,appears
+Perwyn-Frey,Perwyn Frey,,Ser,,House Frey,,,mentioned
+Peter-Plumm,Peter Plumm,,Ser,,House Plumm,,,mentioned
+Petyr-Baelish,Petyr Baelish,,Master of coin (formerly)Lord Paramount of the Trident;Lord of Harrenhal;Lord Protector of the Vale,Petyr Baelish;Littlefinger,House Baelish of the Fingers;House Baelish of Harrenhal,,Valemen,appears
+Petyr-Frey,Petyr Frey,,,Petyr Frey;Petyr Pimple,House Frey,,,appears
+Philip-Foote,Philip Foote,,Ser;Lord of Nightsong;Lord of the Marches,,House Foote;House Foote of Nightsong,,,appears
+Philip-Plumm,Philip Plumm,,Lord,,House Plumm,,,mentioned
+Pia,Pia,,,Pia;Pretty Pia,House Whent,,,mentioned
+Podrick-Payne,Podrick Payne,,,Podrick Payne;Pod,House Payne,,,appears
+Polliver,Polliver,,Castellan of Harrenhal,Polliver;Polly,House Clegane,,,appears
+Pono,Pono,,Khal;Ko (formerly),,,,Dothraki,mentioned
+Porridge,Porridge,,,Porridge;Porridge,House Baratheon of Dragonstone,,,appears
+Prendahl-na-Ghezn,Prendahl na Ghezn,,,,Stormcrows,,Ghiscari,appears
+Preston-Greenfield,Preston Greenfield,,Ser,,House Greenfield;Kingsguard,,Westermen,mentioned
+Puddingfoot,Puddingfoot,,,,Brotherhood without banners,,,mentioned
+Pyat-Pree,Pyat Pree,,Warlock,,The Undying Ones,,,mentioned
+Pycelle,Pycelle,,Grand Maester,,Maesters of the Citadel (by oath)House Lannister (de facto),,,appears
+Pyg,Pyg,,,,Brave Companions,,,appears
+Pylos,Pylos,,Maester,,House Baratheon of Dragonstone,,,appears
+Pypar,Pypar,,,Pypar;Pyp;Monkey;Mummer's Monkey;,Night's Watch,,,appears
+Qarl-the-Maid,Qarl the Maid,,,Qarl the Maid;Qarl the Maid,,,Ironborn,mentioned
+Qarlton-Chelsted,Qarlton Chelsted,,Lord;Master of Coin;Hand of the King,Qarlton Chelsted;The mace-and-dagger Hand,House Chelsted,,,mentioned
+Qhorin-Halfhand,Qhorin Halfhand,,,Qhorin Halfhand;Qhorin Halfhand,Night's Watch,,,mentioned
+Lord-Commander-Qorgyle,Lord Commander Qorgyle,,Lord Commander of the Night's Watch,,House Qorgyle;Night's Watch,,,mentioned
+Quaithe,Quaithe,,,Quaithe;Quaithe of the Shadow,,,Asshai'i,appears
+Quent,Quent,,,,House Stark,,northmen,mentioned
+Quenten-Banefort,Quenten Banefort,,Lord of Banefort,,House Banefort,,,mentioned
+Quentin-Tyrell,Quentin Tyrell,,Ser,,House Tyrell,,,mentioned
+Quentyn-Martell,Quentyn Martell,,Prince;Ser,Quentyn Martell;Frog;Prince Frog;;The Prince Who Came Too Late;The Dragonrider;,House Martell;Windblown,,Dornishmen,mentioned
+Quort,Quort,,,,wildling,,,mentioned
+Qyburn,Qyburn,,Lord;Master of whisperers,Qyburn;The Bloody Maester,House Lannister Brave Companions (formerly),,,appears
+Rafford,Rafford,,,Rafford;Raff the Sweetling,House Clegane,,,mentioned
+Ragwyle,Ragwyle,,,,,,Free folk,mentioned
+Rakharo,Rakharo,,Ko;Bloodrider of Daenerys Targaryen,,House Targaryen,,Dothraki,appears
+Ramsay-Snow,Ramsay Snow,,Lord of the Hornwood;Lord of Winterfell;Castellan of the Dreadfort,Ramsay Snow;Ramsay Bolton  The Bastard of Bolton  The Bastard of the Dreadfort  Reek  Red Helm  Monster,House Bolton of the Dreadfort;House Bolton of Winterfell,,Northmen,mentioned
+Randa,Randa,,,,,,,mentioned
+Randyll-Tarly,Randyll Tarly,,Lord of Horn Hill;Justiciar;Master of laws,,House Tarly,,,mentioned
+Rast,Rast,,,Rast;Rat,Night's Watch,,,appears
+Rat-Cook,Rat Cook,,,Rat Cook;Rat Cook,Night's Watch,,,mentioned
+Rattleshirt,Rattleshirt,,,Rattleshirt;Rattleshirt;Lord o' Bones;Bag o' Bones,,,Free Folk,appears
+Ravella-Swann,Ravella Swann,,Lady of Acorn Hall,,House Swann;House Smallwood,,,appears
+Raymar-Royce,Raymar Royce,,Lord,,House Royce of the Gates of the Moon,,,A Storm of Swords
+Raymun-Darry,Raymun Darry,,Lord of Darry,,House Darry,,,mentioned
+Raymund-Frey,Raymund Frey,,Ser,,House Frey,,,appears
+Raymund-Tyrell,Raymund Tyrell,,,,House Tyrell,,,mentioned
+Raynald-Westerling,Raynald Westerling,,Ser,,House Westerling,,,appears
+Red-Alyn-of-the-Rosewood,Red Alyn of the Rosewood,,,Red Alyn of the Rosewood;Red Alyn of the Rosewood,Night's Watch,,,mentioned
+Regenard-Estren,Regenard Estren,,Lord of Wyndhall,,House Estren,,,mentioned
+Renly-Baratheon,Renly Baratheon,,Lord Paramount of the Stormlands;Lord of Storm's End;Master of laws;Lord of the Seven Kingdoms (claimant),Renly Baratheon;The King in Highgarden;The King in the South,House Baratheon,,Stormlands,mentioned
+Renly-Norcross,Renly Norcross,,,,House Norcross,,,mentioned
+Rhaegar-Frey,Rhaegar Frey,,,,House Frey,,,mentioned
+Rhaegar-Targaryen,Rhaegar Targaryen,,Prince of Dragonstone;Ser,Rhaegar Targaryen;Silver Prince;The Dragon Prince;The Last Dragon,House Targaryen,,Valyrian,mentioned
+Rhaego,Rhaego,,,Rhaego;The stallion who mounts the world,House Targaryen,,,mentioned
+Rhaella-Targaryen,Rhaella Targaryen,,Princess;Queen;Dowager Queen,,House Targaryen,,Valyrian,mentioned
+Rhaenys-Targaryen-(daughter-of-Rhaegar),Rhaenys Targaryen (daughter of Rhaegar),,Princess,,House Targaryen,,,mentioned
+Rhea-Florent,Rhea Florent,,,,House Florent;House Hightower,,,mentioned
+Richard-Lonmouth,Richard Lonmouth,,Ser,Richard Lonmouth;The Knight of Skull and Kisses,House Lonmouth,,,mentioned
+Rickard-Karstark,Rickard Karstark,,Lord of Karhold,,House Karstark,,Northmen,appears
+Rickard-Stark,Rickard Stark,,Lord of Winterfell;Warden of the North,,House Stark,,Northmen,mentioned
+Rickard-Tyrell,Rickard Tyrell,,,,House Tyrell,,,mentioned
+Rickard-Wylde,Rickard Wylde,,,,House Wylde,,,mentioned
+Rickon-Stark,Rickon Stark,,Prince of Winterfell;Heir to Winterfell,,House Stark,,Northmen,Mentioned;A Feast for Crows 
+Robar-Royce,Robar Royce,,Ser,Robar Royce;Robar the Red,House Royce;Rainbow Guard,,Valemen,mentioned
+Robb-Stark,Robb Stark,Robb Stark,,Robb Stark;The Young Wolf;The King Who Lost the North;Robb the Lord;The Boy Wolf;King in the North;King of the Trident Lord of Winterfell,House Stark,House Stark,,appears
+Robert-Arryn,Robert Arryn,,Lord of the Eyrie;Defender of the Vale;Warden of the East,Robert Arryn;Sweetrobin;True Warden of the East,House Arryn,,Valemen,appears
+Robert-Baratheon,Robert Baratheon,Robert Baratheon the First of His Name,,Robert Baratheon;The Usurper;Demon of the Trident;The Whoremonger King;King of the Andals; the Rhoynar; and the First Men;Lord of the Seven Kingdoms;Protector of the Realm;Lord Paramount of the Stormlands (granted to Renly)Lord of Storm's End (granted to Renly)Ser;,House Baratheon of King's Landing,House Baratheon of King's Landing,,mentioned
+Robert-Brax,Robert Brax,,Ser,,House Brax,,,mentioned
+Robert-Brax-(son-of-Flement),Robert Brax (son of Flement),,,,House Brax,,,mentioned
+Robert-Frey,Robert Frey,,,,House Frey,,,mentioned
+Robert-Frey-(son-of-Raymund),Robert Frey (son of Raymund),,,,House Frey;The Citadel,,,mentioned
+Robert-Paege,Robert Paege,,Ser,,House Paege,,,mentioned
+Robett-Glover,Robett Glover,,,,House Glover,,Northmen,mentioned
+Robin-Flint,Robin Flint,,Lord of Flint's Finger,,House Flint of Widow's Watch;House Flint of Flint's Finger;;,,,appears
+Robin-Hill,Robin Hill,,Lord Commander of the Night's Watch,,Night's Watch,,,mentioned
+Robin-Ryger,Robin Ryger,,Ser;Captain of the guards at Riverrun,,House Ryger;House Tully;Night's Watch,,,appears
+Rodrik-Cassel,Rodrik Cassel,,Ser;Master-at-arms of Winterfell;Castellan of Winterfell,Rodrik Cassel;Old Ser Rodrik,House Cassel;House Stark,,Northmen,mentioned
+Rodrik-Flint,Rodrik Flint,,Lord Commander of the Night's Watch,,House Flint;Night's Watch,,,mentioned
+Rodrik-Greyjoy,Rodrik Greyjoy,,,,House Greyjoy,,Ironborn,mentioned
+Rodrik-Harlaw,Rodrik Harlaw,,Lord of Harlaw;Lord of the Ten Towers;The Harlaw of Harlaw;Captain of the Sea Song,Rodrik Harlaw;The Reader,House Harlaw,,Ironborn,mentioned
+Roland-Crakehall-(Lord),Roland Crakehall (Lord),,Lord of Crakehall,,House Crakehall,,,mentioned
+Rollam-Westerling,Rollam Westerling,,,,House Westerling,,,appears
+Rolland-Storm,Rolland Storm,,Ser;Castellan of Dragonstone;Lord of Nightsong (claimant);Lord of the Marches (claimant),Rolland Storm;The Bastard of Nightsong,House Caron;House Baratheon of Dragonstone,,,mentioned
+Rolley,Rolley,,,,Night's Watch,,Sistermen,appears
+Rolph-Spicer,Rolph Spicer,,Ser;Castellan of the Crag;Lord of Castamere,,House Spicer;House Westerling,,,appears
+Ronel-Rivers,Ronel Rivers,,,,House Frey,,,mentioned
+Ronnel-Harclay,Ronnel Harclay,,,,House Harclay;Night's Watch,,,appears
+Ronnel-Stout,Ronnel Stout,,,,House Stout,,Northmen,mentioned
+Ronnet-Connington,Ronnet Connington,,Ser;Knight of Griffin's Roost,Ronnet Connington;Red Ronnet,House Connington,,,mentioned
+Roone-(maester),Roone (maester),,Maester,,,,,mentioned
+Roose-Bolton,Roose Bolton,,Lord of the Dreadfort;Warden of the North,Roose Bolton;The Leech Lord,House Bolton,,Northmen,appears
+Rorge,Rorge,,,Rorge;Broken Nose;The Mad Dog of Saltpans;The Hound (II),Brave Companions,,,appears
+Roro-Uhoris,Roro Uhoris,,Captain of Cobblecat,Roro Uhoris;The Blind Bastard,,,Tyroshi,mentioned
+Roslin-Frey,Roslin Frey,,,,House Frey;House Tully,,Rivermen,appears
+Rossart,Rossart,,Grand Master;Wisdom;Lord Hand of the King,,Alchemists' Guild,,,mentioned
+Rugen,Rugen,,Undergaoler,,,,,appears
+Runcel-Hightower,Runcel Hightower,,Lord Commander of the Night's Watch,,House Hightower;Night's Watch,,,mentioned
+Rupert-Brax,Rupert Brax,,Ser,Rupert Brax;Rubert Brax,House Brax,,,mentioned
+Ryam-Florent,Ryam Florent,,Ser,,House Florent,,,mentioned
+Ryam-Redwyne,Ryam Redwyne,,Ser;Lord Commander of the Kingsguard;Hand of the King,,House Redwyne;Kingsguard,,Reachmen,mentioned
+Rycherd-Crane,Rycherd Crane,,Ser,,House Crane,,,mentioned
+Ryella-Frey,Ryella Frey,,,,House Frey,,,mentioned
+Ryella-Royce,Ryella Royce,,,,House Royce;House Frey,,,mentioned
+Ryger-Rivers,Ryger Rivers,,,,House Frey,,,mentioned
+Ryk,Ryk,,,Ryk;Longspear Ryk,,,Free folk,appears
+Rylene-Florent,Rylene Florent,,,,House Florent;House Crane,,,mentioned
+Ryles,Ryles,,,,Night's Watch,,,appears
+Ryman-Frey,Ryman Frey,,Ser,,House Frey,,,appears
+Rymund-the-Rhymer,Rymund the Rhymer,,,Rymund the Rhymer;Rymund the Rhymer,,,,mentioned
+Ryon-Allyrion,Ryon Allyrion,,Ser,,House Allyrion,,Dornishmen,appears
+Salladhor-Saan,Salladhor Saan,,Prince of the Narrow Sea Lord of Blackwater Bay,Salladhor Saan;Salla,House Baratheon of Dragonstone,,Lysene,appears
+Sallei-Paege,Sallei Paege,,,,House Paege;House Frey,,,mentioned
+Sallor,Sallor,,,Sallor;Sallor the Bald,Stormcrows,,Qartheen,appears
+Samwell-Spicer,Samwell Spicer,,Ser,,House Spicer,,,mentioned
+Samwell-Tarly,Samwell Tarly,,,Samwell Tarly;Sam Ser Piggy; Lord of Ham; Lady Piggy ; Sam the Slayer Black Sam,Night's Watch,,Westeros,POV
+Sandor-Clegane,Sandor Clegane,,,Sandor Clegane;The Hound;Dog,House Clegane;House Lannister (formerly)Kingsguard (formerly),,,appears
+Sandor-Frey,Sandor Frey,,,,House Frey,,,mentioned
+Sansa-Stark,Sansa Stark,,Princess,Sansa Stark;Little bird;Alayne Stone;Jonquil,House Stark;House Baelish of Harrenhal (as Alayne),,Northmen,POV
+Sarella-Sand,Sarella Sand,,,,House Martell,,Dornishmen,mentioned
+Sarra-Frey,Sarra Frey,,,,House Frey,,,appears
+Sarya-Whent,Sarya Whent,,Lady,,House Whent;House Frey,,,mentioned
+Satin,Satin,,,,Night's Watch,,,appears
+Sawane-Botley,Sawane Botley,,Lord of Lordsport;Captain of Swiftfin,,House Botley,,Ironborn,mentioned
+Sawwood,Sawwood,,,,Night's Watch,,,appears
+Scarb,Scarb,,,,,,,mentioned
+Sedgekins,Sedgekins,,,,,,,A Storm of Swords
+Selmond-Stackspear,Selmond Stackspear,,Lord,,House Stackspear,,,mentioned
+Selwyn-Tarth,Selwyn Tarth,,Lord of Evenfall Hall The Evenstar,,House Tarth,,,mentioned
+Selyse-Florent,Selyse Florent,,Lady;Queen,Selyse Florent;Light of the North,House Florent;House Baratheon of Dragonstone,,,appears
+Serra-Frey,Serra Frey,,,,House Frey,,,appears
+Shae,Shae,,,,,,,appears
+Shagga,Shagga,,,,Stone Crows,,Vale mountain clans,mentioned
+Shagwell,Shagwell,,,Shagwell;Shagwell the Fool,the Brave Companions,,,appears
+Sharna,Sharna,,,,,,,appears
+Shella-Whent,Shella Whent,,Lady of Harrenhal,,House Whent,,Rivermen,mentioned
+Sherrit,Sherrit,,King,,,,,mentioned
+Shiera-Crakehall,Shiera Crakehall,,,,House Crakehall;House Lannister,,,mentioned
+Shierle-Swyft,Shierle Swyft,,,,House Swyft,,,mentioned
+Shireen-Baratheon,Shireen Baratheon,,Princess,,House Baratheon of Dragonstone,,,appears
+Shirei-Frey,Shirei Frey,,,,House Frey,,,appears
+Sigrin,Sigrin,,,Sigrin;Sigrin the Shipwright,House Greyjoy,,Ironborn,mentioned
+Simon-Toyne,Simon Toyne,,,,House Toyne;Kingswood Brotherhood,,,mentioned
+Sky-Blue-Su,Sky Blue Su,,,,,,,A Storm of Swords
+Skyte,Skyte,,,,,,Ironborn,mentioned
+Small-Paul,Small Paul,,,Small Paul;Cheese-for-wits,Night's Watch,,,appears
+Smiling-Knight,Smiling Knight,,,,Kingswood Brotherhood,,,mentioned
+Spare-Boot,Spare Boot,,,,Night's Watch,,,appears
+Softfoot,Softfoot,,,,Night's Watch,,,appears
+Spotted-Pate-of-Maidenpool,Spotted Pate of Maidenpool,,,Spotted Pate of Maidenpool;Spotted Pate of Maidenpool,Night's Watch,,,appears
+Stafford-Lannister,Stafford Lannister,,Ser,Stafford Lannister;Uncle Dolt,House Lannister,,Westerman,mentioned
+Stannis-Baratheon,Stannis Baratheon,Stannis Baratheon the First of His Name,,Stannis Baratheon;The King in the Narrow Sea;The King of the Painted Table;The King of Dragonstone;The King at the Wall;Azor Ahai reborn/come again;;;Master of ships (formerly)Lord of Dragonstone;Lord of Storm's End;Lord Paramount of the Stormlands;King of Westeros,House Baratheon of Dragonstone,House Baratheon of Dragonstone,,appears
+Stannis-Seaworth,Stannis Seaworth,,,,House Seaworth,,,mentioned
+Steffon-Baratheon,Steffon Baratheon,,Lord of Storm's End;Lord Paramount of the Stormlands,,House Baratheon,,,mentioned
+Steffon-Frey,Steffon Frey,,,Steffon Frey;Steffon the Sweet,House Frey,,,mentioned
+Steffon-Seaworth,Steffon Seaworth,,,,House Seaworth,,,mentioned
+Steffon-Stackspear,Steffon Stackspear,,Ser,,House Stackspear,,,mentioned
+Steffon-Swyft,Steffon Swyft,,Ser,,House Swyft,,,mentioned
+Stevron-Frey,Stevron Frey,,Ser,,House Frey,,,mentioned
+Stone-Thumbs,Stone Thumbs,,,,,,Free Folk,appears
+Stonesnake,Stonesnake,,,,Night's Watch,,,mentioned
+Stygg,Stygg,,,,House Greyjoy,,,mentioned
+Styr,Styr,,Magnar of Thenn,,Thenn,,Free Folk,appears
+Sumner-Crakehall,Sumner Crakehall,,Lord of Crakehall,,House Crakehall,,,mentioned
+Sybell-Spicer,Sybell Spicer,,Lady of the Crag,,House Spicer;House Westerling,,,appears
+Sybelle-Glover,Sybelle Glover,,Lady of Deepwood Motte,,House Locke;House Glover,,Northmen,mentioned
+Sylwa-Paege,Sylwa Paege,,,,House Paege;House Frey,,,mentioned
+Symeon-Star-Eyes,Symeon Star-Eyes,,,,,,,mentioned
+Symon-Silver-Tongue,Symon Silver Tongue,,,Symon Silver Tongue;Symon Silver Tongue,,,,appears
+Symond-Frey,Symond Frey,,,,House Frey,,,mentioned
+Syrio-Forel,Syrio Forel,,First Sword to the Sealord of Braavos Water Dancer,,House Stark,,Braavosi,mentioned
+Taena-of-Myr,Taena of Myr,,,Taena of Myr;Taena Merryweather;Myr,House Merryweather,,Myrish,appears
+Talla-Tarly,Talla Tarly,,,,House Tarly,,,mentioned
+Tallad,Tallad,,Ser,Tallad;Tallad the Tall,House Baratheon of King's Landing,,,appears
+Tanda-Stokeworth,Tanda Stokeworth,,Lady of Stokeworth,,House Stokeworth,,,appears
+Tansy,Tansy,,,,the Peach,,,mentioned
+Tanton-Fossoway,Tanton Fossoway,,Ser,,House Fossoway of Cider Hall,,,mentioned
+Temmo,Temmo,,Khal,,,,Dothraki,mentioned
+Ternesio-Terys,Ternesio Terys,,Captain,,,,Braavosi,appears
+Terrence-Toyne,Terrence Toyne,,Ser,,House Toyne;Kingsguard,,,mentioned
+Theo-Wull,Theo Wull,,,Theo Wull;Buckets,House Wull,,Northern mountain clans,mentioned
+Theodore-Tyrell,Theodore Tyrell,,Ser,,House Tyrell,,,mentioned
+Theomar-Smallwood,Theomar Smallwood,,Lord of Acorn Hall,,House Smallwood,,,mentioned
+Theon-Greyjoy,Theon Greyjoy,,Prince of Winterfell;Captain of Sea Bitch;Lord of the Iron Islands (by law of the green lands),Theon Greyjoy;Prince of Fools;Theon Turncloakthe squid prince;Reek;Theon Kinslayer,House Greyjoy,,Ironmen,mentioned
+Thoren-Smallwood,Thoren Smallwood,,First Ranger (self-styled),,Night's Watch,,,appears
+Thoros-of-Myr,Thoros of Myr,,,Thoros of Myr;The red wizard;The Ember,Brotherhood without banners,,Myr,appears
+Three-Toes,Three Toes,,,,Brave Companions,,,appears
+Tickler,Tickler,,,Tickler;the Tickler,House Clegane,,,appears
+Tim-Stone,Tim Stone,,,,Night's Watch,,,mentioned
+Tim-Tangletongue,Tim Tangletongue,,,,Night's Watch,,,appears
+Timeon,Timeon,,,Timeon;Timeon of Dorne,Brave Companions,,Dornish,appears
+Timett,Timett,,red hand,Timett;Timett One-Eye,Burned Men,,Vale mountain clans,mentioned
+Timon,Timon,,Ser,Timon;Timon the Scrapesword,,,,mentioned
+Tion-Frey,Tion Frey,,,,House Frey House Lannister,,,appears
+Titus-Peake,Titus Peake,,Lord of Starpike,,House Peake,,,mentioned
+Tobho-Mott,Tobho Mott,,,,,,Qohor,appears
+Todder,Todder,,,Todder;Toad,Night's Watch,,,appears
+Toefinger,Toefinger,,,,,,Free Folk,mentioned
+Togg-Joth,Togg Joth,,,,Brave Companions,,Ibbenese,appears
+Tom-of-Sevenstreams,Tom of Sevenstreams,,,Tom of Sevenstreams;Tom O'Sevens;Tom Sevenstrings,Brotherhood without banners,,,appears
+Tomard,Tomard,,,Tomard;Fat Tom,House Stark,,northmen,mentioned
+Tommen-Baratheon,Tommen Baratheon,Tommen Baratheon the First of His Name,,Tommen Baratheon;The Boy King;;King of the Andals; the Rhoynar; and the First Men;Lord of the Seven Kingdoms,,,,appears
+Toregg,Toregg,,,Toregg;Toregg the Tall,,,Free Folk,mentioned
+Tormund,Tormund,,Tall-talker; Horn-blower and Breaker of Ice; Husband to Bears; the Mead-king of Ruddy Hall; Speaker to Gods and Father of Hosts,Tormund;Tormund Giantsbane  Mead-King of Ruddy Hall  Tormund Thunderfist  Tormund Horn-Blower  Tormund Tall-Talker  Breaker of Ice  Husband to Bears  Speaker to Gods  Father of Hosts,,,Free Folk,appears
+Torrhen-Karstark,Torrhen Karstark,,,Torrhen Karstark;Torr,House Karstark,,Northmen,mentioned
+Torrhen-Stark,Torrhen Stark,Torrhen Stark,,Torrhen Stark;The King Who Knelt;King in the North (former)Lord of Winterfell;Warden of the North,House Stark,House Stark,Northmen,mentioned
+Torwynd,Torwynd,,,Torwynd;Torwynd the Tame,,,Free Folk,mentioned
+Tremond-Gargalen,Tremond Gargalen,,Lord of Salt Shore,,House Gargalen,,Dornish,appears
+Tristan-Mudd,Tristan Mudd,,Lord Commander of the Night's Watch,,House Mudd;Night's Watch,,,mentioned
+Tristan-Ryger,Tristan Ryger,,,,House Ryger,,,mentioned
+Tristifer-IV-Mudd,Tristifer IV Mudd,Tristifer of House Mudd; the Fourth of His Name,,Tristifer IV Mudd;The Hammer of Justice;King of the Rivers and the Hills,House Mudd,House Mudd,,mentioned
+Tristimun,Tristimun,,Ser,,Sea watch,,,mentioned
+Triston-of-Tally-Hill,Triston of Tally Hill,,Ser,Triston of Tally Hill;Triston of Tally Hill,House Sunglass;King's Men,,,mentioned
+Trystane-Martell,Trystane Martell,,Prince,,House Martell,,Dornish,mentioned
+Tumberjon,Tumberjon,,,,Night's Watch,,,appears
+Turquin,Turquin,,Maester,,,,,mentioned
+Tyana-Wylde,Tyana Wylde,,,,House Wylde;House Frey,,,mentioned
+Tybolt-Crakehall,Tybolt Crakehall,,Ser,,House Crakehall,,,mentioned
+Tyene-Sand,Tyene Sand,,,,House Martell,,Dornish,mentioned
+Tygett-Lannister,Tygett Lannister,,Ser,Tygett Lannister;Tyg,House Lannister,,,mentioned
+Tyrek-Lannister,Tyrek Lannister,,,Tyrek Lannister;&quot;Wet Nurse&quot;,House Lannister,,,mentioned
+Tyrion-Lannister,Tyrion Lannister,,Acting Hand of the King (former)Master of coin (former)Lord of Casterly Rock (claimant),Tyrion Lannister;The Imp;Halfman;The boyman;Giant of Lannister;Lord Tywin's Doom;Lord Tywin's Bane;Yollo;Hugor Hill;No-Nose;Freak;Dwarf,House Lannister;Second Sons,,,POV
+Tysane-Frey,Tysane Frey,,,,House Frey,,,mentioned
+Tysha,Tysha,,,Tysha;Lady Tysha of House Silverfist,,,,mentioned
+Tyta-Frey,Tyta Frey,,,Tyta Frey;Tyta the Maid,House Frey,,,appears
+Tytos-Blackwood,Tytos Blackwood,,Lord of Raventree Hall,,House Blackwood,,,appears
+Tytos-Brax,Tytos Brax,,Ser;Lord of Hornvale,,House Brax,,,mentioned
+Tytos-Frey,Tytos Frey,,Ser,,House Frey,,,appears
+Tytos-Lannister,Tytos Lannister,,Lord of Casterly Rock;Shield of Lannisport;Warden of the West,Tytos Lannister;The Laughing Lion;The Toothless Lion;,House Lannister,,,mentioned
+Tywin-Frey,Tywin Frey,,Ser,Tywin Frey;Ty,House Frey;House Frey of Riverrun,,,mentioned
+Tywin-Lannister,Tywin Lannister,,Lord of Casterly Rock;Shield of Lannisport;Warden of the West;Hand of the King;Savior of the City (of King's Landing),Tywin Lannister;The Lion of Lannister;The Old Lion;The Great Lion of the Rock,House Lannister,,,appears
+Uller,Uller,,,,House Greyjoy,,Ironborn,mentioned
+Ulmer,Ulmer,,,Ulmer;Ulmer of the Kingswood,Kingswood Brotherhood Night's Watch,,,appears
+Ulwyck-Uller,Ulwyck Uller,,Ser,,House Uller,,,appears
+Umfred,Umfred,,,,House Baelish,,,appears
+Urswyck,Urswyck,,,Urswyck;Urswyck the Faithful;Faithful Urswyck,Brave Companions,,,appears
+Urzen,Urzen,,,,House Greyjoy,,Ironborn,mentioned
+Utherydes-Wayn,Utherydes Wayn,,Steward,,House Wayn;House Tully,,,appears
+Utt,Utt,,Septon,,Brave Companions;Faith of the Seven (expelled),,,appears
+Val,Val,,,Val;The wildling princess;Lady Val,,,Free folk,appears
+Varamyr,Varamyr,,,Varamyr;Varamyr Sixskins;Haggon;Lump,,,Free Folk,appears
+Vardis-Egen,Vardis Egen,,Ser;Captain of the guards,,House Egen;House Arryn,,Valemen,mentioned
+Vargo-Hoat,Vargo Hoat,,Lord of Harrenhal,Vargo Hoat;The Goat Goat of Harrenhal The Crippler The Qohorik,Brave Companions,,Qohori,appears
+Varys,Varys,,Master of Whisperers;Undergaoler (as Rugen),Varys;Lord Varys;The Spider;The Eunuch;Rugen,,,,appears
+Vickon-Greyjoy,Vickon Greyjoy,,Lord of the Iron Islands;Lord Reaper of Pyke,,House Greyjoy,,,mentioned
+Victaria-Tyrell,Victaria Tyrell,,,,House Tyrell,,,mentioned
+Victarion-Greyjoy,Victarion Greyjoy,,Lord Captain of the Iron Fleet;Master of the Iron Victory,Victarion Greyjoy;The Iron Captain,House Greyjoy,,Ironborn,mentioned
+Victor-Tyrell,Victor Tyrell,,Ser,,House Tyrell,,,mentioned
+Violet,Violet,,,,,,,mentioned
+Visenya-Targaryen,Visenya Targaryen,,Queen;Dowager Queen,,House Targaryen,,Valyrian,mentioned
+Viserys-Targaryen,Viserys Targaryen,,King of the Andals; the Rhoynar and the First Men; Lord of the Seven Kingdoms and Protector of the Realm,Viserys Targaryen;The Beggar King;Khal Rhae Mhar (The Sorefoot King)Khal Rhaggat (The Cart King),House Targaryen,,Valyrian,mentioned
+Viserys-II-Targaryen,Viserys II Targaryen,Viserys Targaryen the Second of His Name,,Viserys II Targaryen;King of the Andals; the Rhoynar and the First Men;Lord of the Seven Kingdoms;Protector of the Realm;Hand of the King,House Targaryen,House Targaryen,,mentioned
+Vortimer-Crane,Vortimer Crane,,Ser;Master-at-arms at Highgarden,,House Crane,,,mentioned
+Vylarr,Vylarr,,Captain of the guard,,House Lannister,,,mentioned
+Vyman,Vyman,,Maester,,,,,appears
+Walda-Frey-(daughter-of-Edwyn),Walda Frey (daughter of Edwyn),,,,House Frey,,,mentioned
+Walda-Frey-(daughter-of-Lothar),Walda Frey (daughter of Lothar),,,,House Frey,,,mentioned
+Walda-Frey-(daughter-of-Walton),Walda Frey (daughter of Walton),,,Walda Frey (daughter of Walton);Fair Walda,House Frey,,,mentioned
+Walda-Frey-(daughter-of-Merrett),Walda Frey (daughter of Merrett),,,Walda Frey (daughter of Merrett);Fat Walda;Walda Bolton;,House Frey;House Bolton,,,appears
+Walda-Frey-(daughter-of-Rhaegar),Walda Frey (daughter of Rhaegar),,,Walda Frey (daughter of Rhaegar);White Walda,House Frey,,,mentioned
+Walda-Rivers,Walda Rivers,,,,House Frey,,,mentioned
+Walda-Rivers-(daughter-of-Aemon),Walda Rivers (daughter of Aemon),,,,House Frey,,,appears
+Walder-Brax,Walder Brax,,,,House Brax,,,mentioned
+Walder-Frey-(son-of-Jammos),Walder Frey (son of Jammos),,,Walder Frey (son of Jammos);Big Walder,House Frey,,,mentioned
+Walder-Frey-(son-of-Ryman),Walder Frey (son of Ryman),,,Walder Frey (son of Ryman);Black Walder,House Frey,,Rivermen,appears
+Walder-Frey-(son-of-Merrett),Walder Frey (son of Merrett),,,Walder Frey (son of Merrett);Little Walder,House Frey,,,mentioned
+Walder-Frey-(son-of-Emmon),Walder Frey (son of Emmon),,,Walder Frey (son of Emmon);Red Walder,House Frey of Riverrun,,,mentioned
+Walder-Frey,Walder Frey,,Lord of the Crossing,Walder Frey;The Late Lord Frey;Old Frey,House Frey,,Rivermen,appears
+Walder-Goodbrook,Walder Goodbrook,,,,House Goodbrook,,,mentioned
+Walder-Haigh,Walder Haigh,,,,House Haigh,,,mentioned
+Walder-Rivers,Walder Rivers,,Ser,Walder Rivers;Bastard Walder,House Frey,,Rivermen,appears
+Walder-Vance,Walder Vance,,,,House Vance,,,mentioned
+Waldon-Wynch,Waldon Wynch,,Lord of Iron Holt,,House Wynch,,Ironborn,mentioned
+Walton-Frey,Walton Frey,,,,House Frey,,,mentioned
+Walton,Walton,,,Walton;Steelshanks Walton,House Bolton,,northmen,appears
+Waltyr-Frey,Waltyr Frey,,,Waltyr Frey;Tyr,House Frey,,,mentioned
+Warren,Warren,,Ser,,,,,mentioned
+Wat-(Night's-Watch),Wat (Night's Watch),,,,Night's Watch,,,mentioned
+Wat-(Whitesmile),Wat (Whitesmile),,,Wat (Whitesmile);Whitesmile Wat,House Lannister,,,mentioned
+Watt,Watt,,,Watt;Watt of Long Lake,Night's Watch,,,mentioned
+Watty,Watty,,,Watty;Watty the Miller,Brotherhood without banners,,,appears
+Waymar-Royce,Waymar Royce,,Ser,,House Royce;Night's Watch,,Valemen,mentioned
+Weeper,Weeper,,,Weeper;The Weeping Man,,,Free folk,appears
+Weese,Weese,,,,House Whent;House Lannister,,,mentioned
+Wenda,Wenda,,,Wenda;Wenda the White Fawn,Kingswood Brotherhood,,,mentioned
+Wendamyr,Wendamyr,,Maester,,House Greyjoy,,,mentioned
+Wendel-Frey,Wendel Frey,,,,House Frey,,,mentioned
+Wendel-Manderly,Wendel Manderly,,Ser,,House Manderly,,,appears
+Wex-Pyke,Wex Pyke,,,,House Botley,,Ironborn,mentioned
+Whalen-Frey,Whalen Frey,,Ser,,House Frey,,,appears
+Wilbert,Wilbert,,Ser,,,,,A Storm of Swords
+Will-(Fletcher),Will (Fletcher),,,Will (Fletcher);Fletcher Will,,,,A Storm of Swords
+Will-(Hookface),Will (Hookface),,,Will (Hookface);Hookface Will,House Baratheon of Dragonstone,,,mentioned
+Willamen-Frey,Willamen Frey,,Maester,,,,,mentioned
+Willas-Tyrell,Willas Tyrell,,,,House Tyrell,,,mentioned
+Willem-Darry,Willem Darry,,Ser Master-at-arms at the Red Keep,,House Darry;House Targaryen,,,mentioned
+Willem-Frey,Willem Frey,,,,House Frey;House Frey of Riverrun,,,mentioned
+Willem-Lannister,Willem Lannister,,,,House Lannister,,,appears
+William-Mooton,William Mooton,,Lord of Maidenpool,,House Mooton,,Rivermen,mentioned
+Wyl-the-Whittler,Wyl the Whittler,,,Wyl the Whittler;Blind Wyl the Whittler,,,,mentioned
+Wylis-Manderly,Wylis Manderly,,Ser,,House Manderly,,,mentioned
+Wylla,Wylla,,,,House Dayne,,,mentioned
+Wyman-Manderly,Wyman Manderly,,Lord of White Harbor;Warden of the White Knife;Shield of the Faith;Defender of the Dispossessed;Lord Marshal of the Mander;Knight of the Order of the Green Hand,Wyman Manderly;Lord Lamprey;Lord Too-Fat-to-Sit-a-Horse;Lord Pig;Lord Lard,House Manderly,,,mentioned
+Wynafrei-Whent,Wynafrei Whent,,,,House Whent,,,mentioned
+Wynton-Stout,Wynton Stout,,Ser,,House Stout;Night's Watch,,Northmen,appears
+Xaro-Xhoan-Daxos,Xaro Xhoan Daxos,,,,the Thirteen,,Qartheen,mentioned
+Ygritte,Ygritte,,,,Mance Rayder,,Wildling,appears
+Yohn-Royce,Yohn Royce,,Lord of Runestone,Yohn Royce;Bronze Yohn,House Royce;Lords Declarant,,Valemen,mentioned
+Yoren,Yoren,,,,Night's Watch,,Westeros,mentioned
+Young-Henly,Young Henly,,,,Night's Watch,,,appears
+Zachery-Frey,Zachery Frey,,,,House Frey,,,mentioned
+Zei,Zei,,,,,,,appears
+Zhoe-Blanetree,Zhoe Blanetree,,,,House Blanetree,,,mentioned
+Zia-Frey,Zia Frey,,,,House Frey,,,mentioned

@@ -74,11 +74,11 @@ public class WikiUpdater {
         //createBookCharacterLists();
         //createAllCharacterList();
 
-        //compareLists();
+        compareLists();
 
         //createNodeCsv();
 
-        checkMynotoarIds();
+        //checkMynotoarIds();
     }
 
     /**
@@ -450,35 +450,60 @@ public class WikiUpdater {
 //            CSVReader wikiListReader = new CSVReader(new FileReader("/mac/gameofthrones/awoiaf/A-Game-of-Thrones-characters.csv"));
 //            CSVReader mergedListReader = new CSVReader(new FileReader("src/main/resources/data/characters/got-list-merged.csv"));
 
-            CSVReader wikiListReader = new CSVReader(new FileReader("/mac/gameofthrones/awoiaf/A-Clash-of-Kings-characters.csv"));
-            CSVReader mergedListReader = new CSVReader(new FileReader("src/main/resources/data/characters/cok-list-merged2.csv"));
+//            CSVReader wikiListReader = new CSVReader(new FileReader("/mac/gameofthrones/awoiaf/A-Clash-of-Kings-characters.csv"));
+//            CSVReader mergedListReader = new CSVReader(new FileReader("src/main/resources/data/characters/cok-list-merged2.csv"));
 
 
-            List<String[]> wikiList =  wikiListReader.readAll();
-            List<String[]> mergedList =  mergedListReader.readAll();
+//            CSVReader wikiListReader = new CSVReader(new FileReader("/mac/gameofthrones/awoiaf/A-Storm-of-Swords-characters.csv"));
+//            CSVReader mergedListReader = new CSVReader(new FileReader("src/main/resources/data/characters/sos-list-merged-clean.csv"));
+//
+//
+//            List<String[]> wikiList =  wikiListReader.readAll();
+//            List<String[]> mergedList =  mergedListReader.readAll();
 
 
-            wikiListReader.close();
-            mergedListReader.close();
+            List<String> wikiList = FileUtils.readFile("src/main/resources/data/characters/awoiaf/A-Storm-of-Swords-characters.csv");
+            List<String> mergedList = FileUtils.readFile("src/main/resources/data/characters/sos-list-mynowiki-updated.csv");
+
+
+
+            //List<String> wikiList = FileUtils.readFile("src/main/resources/data/characters/awoiaf/A-Feast-for-Crows-characters.csv");
+            //List<String> mergedList = FileUtils.readFile("src/main/resources/data/characters/ffc-list-myno5.csv");
+
+//            wikiListReader.close();
+//            mergedListReader.close();
 
 
             List<String> wikiCharList = new ArrayList<String>();
             List<String> mergedCharList = new ArrayList<String>();
 
-            for (String[] wikiLine : wikiList) {
-                wikiCharList.add(wikiLine[0]);
+            for (String wikiLine : wikiList) {
+                wikiCharList.add(wikiLine.split(",")[0]);
             }
 
-            for (String[] mergedLine : mergedList) {
-                mergedCharList.add(mergedLine[0]);
+            for (String mergedLine : mergedList) {
+                mergedCharList.add(mergedLine.split(",")[0]);
             }
 
             System.out.println("========= Processing Wiki-Only Characters =========");
+
+
+            List<String> wikiOnlyList = new ArrayList<String>();
+
             for (String wikiChar : wikiCharList) {
                 if (!mergedCharList.contains(wikiChar)) {
                     System.out.println(wikiChar);
                 }
             }
+
+            for (int i=0; i < wikiCharList.size(); i++) {
+                String wikiChar = wikiCharList.get(i);
+                if (!mergedCharList.contains(wikiChar)) {
+                    System.out.println(wikiChar);
+                    wikiOnlyList.add(wikiList.get(i));
+                }
+            }
+
 
             System.out.println("========= Processing Merged-Only Characters =========");
             for (String mergedChar : mergedCharList) {
@@ -488,7 +513,7 @@ public class WikiUpdater {
             }
 
 
-
+            //FileUtils.writeFile(wikiOnlyList, "src/main/resources/data/characters/sos-list-wiki-only2.csv");
 
 
         } catch (Exception e) {
@@ -591,6 +616,12 @@ public class WikiUpdater {
      */
     private static void checkMynotoarIds() {
         List<String> lines = FileUtils.readFile(ALL_CHAR_FILE_NAME);
+
+        //List<String> lines = FileUtils.readFile("src/main/resources/data/characters/sos-list-mergedwiki-clean.csv");
+        //List<String> lines = FileUtils.readFile("src/main/resources/data/characters/ffc-list-merge-ffcmyno4.csv");
+
+
+
         List<String> idList = new ArrayList<String>();
 
         // the authoritative list of ids
@@ -602,18 +633,22 @@ public class WikiUpdater {
 
 
 
-        // List<String> catLines = FileUtils.readFile(MYNOTOAR_DIR + "ClashOfKingsAppendixCatalog.csv");
+         //List<String> catLines = FileUtils.readFile(MYNOTOAR_DIR + "StormOfSwordsCatalogShort.csv");
+
+        //List<String> catLines = FileUtils.readFile(MYNOTOAR_DIR + "FeastForCrowsCatalogShort.csv");
 
 //        List<String> catLines = FileUtils.readFile("src/main/resources/data/characters/sos-list-curated-hyphenated.csv");
-        List<String> catLines = FileUtils.readFile("src/main/resources/data/characters/ffc-list-curated-hyphenated.csv");
+        //List<String> catLines = FileUtils.readFile("src/main/resources/data/characters/ffc-list-curated-hyphenated.csv");
 
+        List<String> catLines = FileUtils.readFile("src/main/resources/data/characters/ffc-list-merge-ffcmyno4.csv");
 
 
 
         for (String catLine : catLines) {
             String id = catLine.split(",")[0].trim();
             if (! idList.contains(id)) {
-                System.out.println("id not found: [" + id +  "]");
+                //System.out.println("id not found: [" + id +  "]");
+                System.out.println(id);
             } else {
                 //System.out.println("\t found:" + id);
             }
