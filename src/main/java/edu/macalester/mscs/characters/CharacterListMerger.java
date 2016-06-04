@@ -35,6 +35,11 @@ public class CharacterListMerger {
     public static final String FFC_MYNOTOAR_FILE_NAME = "src/main/resources/data/characters/mynotoar/FeastForCrowsCatalogShort.csv";
     public static final String FFC_OUTPUT_FILE_NAME = "src/main/resources/data/characters/ffc-list-merge-temp2-revisited.csv";
 
+    public static final String DWD_LIST_FILE_NAME = "src/main/resources/data/characters/dwd-list-curated-hyphenated.csv";
+    public static final String DWD_MYNOTOAR_FILE_NAME = "src/main/resources/data/characters/mynotoar/DanceWithDragonsCatalogShort.csv";
+    public static final String DWD_OUTPUT_FILE_NAME = "src/main/resources/data/characters/dwd-list-2mnyo.csv";
+
+
 
 
     public static void main(String[] args) {
@@ -50,8 +55,11 @@ public class CharacterListMerger {
         //processFiles(SOS_LIST_FILE_NAME, SOS_MYNOTOAR_FILE_NAME, SOS_OUTPUT_FILE_NAME);
 
         // Feast for Crows
-        processFiles(FFC_LIST_FILE_NAME, FFC_MYNOTOAR_FILE_NAME, FFC_OUTPUT_FILE_NAME);
+        //processFiles(FFC_LIST_FILE_NAME, FFC_MYNOTOAR_FILE_NAME, FFC_OUTPUT_FILE_NAME);
 
+
+        // Dance with Dragons
+        processFiles(DWD_LIST_FILE_NAME, DWD_MYNOTOAR_FILE_NAME, DWD_OUTPUT_FILE_NAME);
 
 
 //        removeDoubles();

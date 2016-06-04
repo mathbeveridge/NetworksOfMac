@@ -1,6 +1,7 @@
 package edu.macalester.mscs.characters;
 
 import com.opencsv.CSVReader;
+import edu.macalester.mscs.network.*;
 import edu.macalester.mscs.utils.FileUtils;
 
 import java.io.FileReader;
@@ -44,10 +45,10 @@ public class CharacterTokenUpdater {
 
 
     // Storm of Swords
-    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/sos-list-mynowiki-updated.csv";
-    public static final String TEXT_FILE_NAME = "src/main/resources/text/stormofswords-mynowiki.txt";
-    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/sos-list-mynowiki2.csv";
-    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/stormofswords-mynowiki2.txt";
+//    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/sos-list-mynowiki-updated.csv";
+//    public static final String TEXT_FILE_NAME = "src/main/resources/text/stormofswords-mynowiki.txt";
+//    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/sos-list-mynowiki2.csv";
+//    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/stormofswords-mynowiki2.txt";
 
 
     // Feast for Crows
@@ -57,10 +58,10 @@ public class CharacterTokenUpdater {
 //    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/feastforcrows-mynowiki6.txt";
 
     // Dance with Dragons
-//    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/dwd-list-clean-updated.csv";
-//    public static final String TEXT_FILE_NAME = "src/main/resources/text/dancewithdragons-updated.txt";
-//    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/dwd-list-curated-hyphenated.csv";
-//    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/dancewithdragons-hyphenated.txt";
+    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/dwd-list-10mynowiki.csv";
+    public static final String TEXT_FILE_NAME = "src/main/resources/text/dancewithdragons-4myno.txt";
+    public static final String UPDATED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/dwd-list-11complete.csv";
+    public static final String UPDATED_TEXT_FILE_NAME = "src/main/resources/text/dancewithdragons-11complete.txt";
 
 
 //    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/pp-characters.csv";
@@ -73,8 +74,8 @@ public class CharacterTokenUpdater {
 
     public static void main(String[] args) {
 
-        hyphenate();
-        //checkUnique();
+        //hyphenate();
+        checkUnique();
     }
 
     private static void hyphenate() {
@@ -126,9 +127,9 @@ public class CharacterTokenUpdater {
 
     private static void checkUnique() {
 
-        System.out.println(UPDATED_CHARACTER_FILE_NAME);
+        String fileName = DanceWithDragonsConstructor.CHARACTER_FILE_NAME;
         try {
-            CSVReader reader = new CSVReader(new FileReader(UPDATED_CHARACTER_FILE_NAME));
+            CSVReader reader = new CSVReader(new FileReader(fileName));
 
             List<String[]> data = reader.readAll();
             Set<String> keySet = new TreeSet<String>();

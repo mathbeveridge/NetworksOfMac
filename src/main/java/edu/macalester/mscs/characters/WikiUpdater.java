@@ -462,13 +462,18 @@ public class WikiUpdater {
 //            List<String[]> mergedList =  mergedListReader.readAll();
 
 
-            List<String> wikiList = FileUtils.readFile("src/main/resources/data/characters/awoiaf/A-Storm-of-Swords-characters.csv");
-            List<String> mergedList = FileUtils.readFile("src/main/resources/data/characters/sos-list-mynowiki-updated.csv");
+//            List<String> wikiList = FileUtils.readFile("src/main/resources/data/characters/awoiaf/A-Storm-of-Swords-characters.csv");
+//            List<String> mergedList = FileUtils.readFile("src/main/resources/data/characters/sos-list-mynowiki-updated.csv");
 
 
 
             //List<String> wikiList = FileUtils.readFile("src/main/resources/data/characters/awoiaf/A-Feast-for-Crows-characters.csv");
             //List<String> mergedList = FileUtils.readFile("src/main/resources/data/characters/ffc-list-myno5.csv");
+
+
+            List<String> wikiList = FileUtils.readFile("src/main/resources/data/characters/awoiaf/A-Dance-with-Dragons-characters.csv");
+            List<String> mergedList = FileUtils.readFile("src/main/resources/data/characters/dwd-list-9mynofull.csv");
+
 
 //            wikiListReader.close();
 //            mergedListReader.close();
@@ -640,7 +645,8 @@ public class WikiUpdater {
 //        List<String> catLines = FileUtils.readFile("src/main/resources/data/characters/sos-list-curated-hyphenated.csv");
         //List<String> catLines = FileUtils.readFile("src/main/resources/data/characters/ffc-list-curated-hyphenated.csv");
 
-        List<String> catLines = FileUtils.readFile("src/main/resources/data/characters/ffc-list-merge-ffcmyno4.csv");
+//        List<String> catLines = FileUtils.readFile("src/main/resources/data/characters/ffc-list-merge-ffcmyno4.csv");
+        List<String> catLines = FileUtils.readFile("src/main/resources/data/characters/dwd-list-curated-hyphenated.csv");
 
 
 

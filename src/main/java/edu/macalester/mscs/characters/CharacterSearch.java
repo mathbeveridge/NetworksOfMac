@@ -1,5 +1,9 @@
 package edu.macalester.mscs.characters;
 
+import edu.macalester.mscs.network.ClashOfKingsConstructor;
+import edu.macalester.mscs.network.FeastForCrowsConstructor;
+import edu.macalester.mscs.network.GameOfThronesConstructor;
+import edu.macalester.mscs.network.StormOfSwordsConstructor;
 import edu.macalester.mscs.utils.FileUtils;
 
 import java.lang.reflect.Array;
@@ -31,6 +35,10 @@ public class CharacterSearch {
      */
     public static final String COK_WIKI_ONLY_NAMES =
             "Aegon-Frey-(son-of-Stevron),Aegon-Frey-(son-of-Aenys),Aemon-Estermont,Aemon-Rivers,Aladale-Wynch,Alan,Alannys-Harlaw,Albar-Royce,Albett,Alekyne-Florent,Alerie-Hightower,Alesander-Frey,Alester-Norcross,All-for-Joffrey,Alyn-Ambrose,Alyn-Estermont,Alyn-Frey,Alyn-Haigh,Alys-Frey,Alyssa-Blackwood,Alyx-Frey,Amarei-Crakehall,Ambrode,Amerei-Frey,Andar-Royce,Andrew-Estermont,Andrey-Charlton,Androw-Frey,Annara-Farring,Anya-Waynwood,Areo-Hotah,Arianne-Martell,Arwood-Frey,Arwyn-Frey,Baelor-Blacktyde,Bannen,Barth-(brewer),Barthogan-Stark,Bellena-Hawick,Benedict-Broom,Benfrey-Frey,Berena-Hornwood,Bethany-Rosby,Betharios-of-Braavos,Blane,Bowen-Marsh,Bradamar-Frey,Brandon-Stark,Brandon-Tallhart,Bryan-Frey,Butterbumps,Caleotte,Carolei-Waynwood,Cerenna-Lannister,Cersei-Frey,Cheyk,Clydas,Colin-Florent,Colmar-Frey,Cotter-Pyke,Cuger,Cynthea-Frey,Dacey-Mormont,Dafyn-Vance,Damon-Paege,Damon-Vypren,Danwell-Frey,Dareon,Darlessa-Marbrand,Deana-Hardyng,Della-Frey,Dickon-Frey,Donnel-Haigh,Donnel-Waynwood,Eddara-Tallhart,Edric-Dayne,Edwyn-Frey,Elron,Elyana-Vypren,Emberlei-Frey,Eon-Hunter,Erena-Glover,Eroeh,Erren-Florent,Esgred,Forley-Prester,Galt,Gariss,Garrett-Flowers,Garse-Flowers,Garse-Goodbrook,Garth-Tyrell,Gawen-Glover,Gawen-Westerling,Gelmarr,Gerion-Lannister,Gormon-Tyrell,Gueren,Halmon-Paege,Hobb,Hosman-Norcross,Hoster-Frey,Igon-Vyrwel,Jacks,Janei-Lannister,Janna-Tyrell,Jaqen-H'ghar,Jarmen-Buckwell,Jeren,Jeyne-Beesbury,Jeyne-Goodbrook,Jeyne-Lydden,Jeyne-Rivers,Joanna-Lannister,Jon-Brax,Jon-Wylde,Jonos-Frey,Joy-Hill,Joyeuse-Erenford,Jurne,Jyanna-Frey,Kedge-Whiteye,Kyra-Frey,Leslyn-Haigh,Lomas-Estermont,Lomys,Lothar-Frey,Luceon-Frey,Lucias-Vypren,Lyle-Crakehall,Lyman-Darry,Lyn-Corbray,Lyonel-(knight),Lythene-Frey,Maege-Mormont,Maegelle-Frey,Malwyn-Frey,Marianne-Vance,Marissa-Frey,Mariya-Darry,Marsella-Waynwood,Marwyn-Belmore,Masha-Heddle,Mathis-Frey,Matthar,Melara-Crane,Meldred-Merlyn,Melesa-Crakehall,Melessa-Florent,Mellara-Rivers,Melwys-Rivers,Merianne-Frey,Merrell-Florent,Mina-Tyrell,Morton-Waynwood,Morya-Frey,Moryn-Tyrell,Mullin,Murch-(Winterfell),Mya-Stone,Mychel-Redfort,Mylenda-Caron,Myranda-Royce,Myrielle-Lannister,Nestor-Royce,Norne-Goodbrother,Oberyn-Martell,Olenna-Redwyne,Omer-Florent,Orell,Oro-Tendyris,Osmund-Frey,Othell-Yarwyck,Pate-of-the-Blue-Fork,Patrek-Vance,Perra-Frey,Perriane-Frey,Petyr-Frey,Polliver,Pypar,Quent,Quentyn-Martell,Raymund-Frey,Red-Rolfe,Renly-Norcross,Rhaegar-Frey,Rhaego,Rhea-Florent,Rickard-Wylde,Robert-Brax,Robert-Brax-(son-of-Flement),Robert-Frey,Robert-Frey-(son-of-Raymund),Rodrik-Harlaw,Roslin-Frey,Ryam-Florent,Rycherd-Crane,Ryella-Frey,Ryella-Royce,Ryger-Rivers,Rylene-Florent,Sallei-Paege,Sandor-Frey,Sarra-Frey,Sarya-Whent,Satin,Serra-Frey,Shirei-Frey,Simon-Toyne,Stannis-Seaworth,Steffon-Frey,Steffon-Seaworth,Sybelle-Glover,Sylwa-Paege,Symond-Frey,Timett-(father),Todder,Tom;Too,Tyana-Wylde,Tysane-Frey,Tyta-Frey,Tytos-Frey,Tywin-Frey,Vickon-Greyjoy,Vortimer-Crane,Walda-Frey-(daughter-of-Edwyn),Walda-Frey-(daughter-of-Lothar),Walda-Frey-(daughter-of-Walton),Walda-Frey-(daughter-of-Rhaegar),Walda-Rivers,Walder-Brax,Walder-Frey-(son-of-Ryman),Walder-Frey-(son-of-Emmon),Walder-Goodbrook,Walder-Haigh,Walder-Vance,Waldon-Wynch,Walton-Frey,Wendel-Frey,Whalen-Frey,Will,Willamen-Frey,Willas-Tyrell,Willem-Frey,Wynafrei-Whent,Zachery-Frey,Zhoe-Blanetree,Zia-Frey";
+
+
+    public static final String DWD_WIKI_ONLY_NAMES =
+            "Addam-Marbrand,Aemon-Estermont,Aglantine,Alayaya,Albar-Royce,Albett,Alesander-Torrent,Alla-Tyrell,Allard-Seaworth,Alyce-Graceford,Alyn-Estermont,Alyn-Stackspear,Alyn-Velaryon,Alysanne-Bracken,Alysanne-Bulwer,Alysanne-Lefford,Amarei-Crakehall,Andar-Royce,Andrew-Estermont,Andrik,Antario-Jast,Anya-Waynwood,Arthur-Ambrose,Arwyn-Frey,Arwyn-Oakheart,Ballabar,Balman-Byrch,Barbara-Bracken,Barsena-Blackhair,Bayard-Norcross,Belaquo-Bonebreaker,Benedar-Belmore,Benedict-Broom,Benfred-Tallhart,Benfrey-Frey,Beren-Tallhart,Bess-Bracken,Bethany-Bolton,Bethany-Bracken,Bhakaz-zo-Loraq,Black-Bernarr,Black-Jack-Bulwer,Bonifer-Hasty,Boremund-Harlaw,Bryce-Caron,Brynden-Rivers,Butterbumps,Camarron-of-the-Count,Lord-Caswell,Catelyn-Bracken,Cerenna-Lannister,Cheyk,Clement-Piper,Cleos-Frey,Clubfoot-Karl,Colemon,Colmar-Frey,Cragorn,Crawn,Creighton-Redfort,Cuger,Daenerys-Targaryen-(daughter-of-Aegon-IV),Dalbridge,Damion-Lannister,Dancy,Danwell-Frey,Darlessa-Marbrand,Daven-Lannister,Delonne-Allyrion,Delp,Dickon-Tarly,Dirk,Donnel-Waynwood,Dunstan-Drumm,Ebben,Eddara-Tallhart,Elaena-Targaryen,Eldon-Estermont,Eleanor-Mooton,Elinor-Tyrell,Elmar-Frey,Elron,Elwood,Elwood-Meadows,Elza,Emmon-Frey,Eon-Hunter,Ermesande-Hayford,Eustace-Hunter,Falia-Flowers,Falyse-Stokeworth,Fearless-Ithoke,Ferrego-Antaryon,Flement-Brax,Frenken,Garin-(Prince),Garlan-Tyrell,Garrison-Prester,Garth-Greenfield,Gascoyne,Gavin,Gawen-Westerling,Gerald-Gower,Gerold-Grafton,Ghost-of-High-Heart,Gilbert-Farring,Gilwood-Hunter,Goady,Gorold-Goodbrother,Grazdar-zo-Galare,Gretchel,Grey-King,Grubbs,Guthor-Grimm,Gylbert-Farwynd,Halmon-Paege,Harlan-Hunter,Harmen-Uller,Harras-Harlaw,Henly-(Maester),High-Septon-(Tyrions),Hobber-Redwyne,Horas-Redwyne,Hotho-Harlaw,Howland-Reed,Igon-Vyrwel,Iron-Emmett,Jalabhar-Xho,Jammos-Frey,Janei-Lannister,Jason-Mallister,Jasper-Redfort,Jayne-Bracken,Jeren,Jhezane,Jon-Redfort,Jonella-Cerwyn,Joyeuse-Erenford,Karyl-Vance,Kemmett-Pyke,Krazz,Lanna-Lannister,Larra-Blackmont,Lenyl,Leo-Lefford,Leobald-Tallhart,Leslyn-Haigh,Lewys-the-Fishwife,Lewys-Lydden,Lewys-Piper,Leyton-Hightower,Lomas-Estermont,Lomys,Lothar-Frey,Lothor-Brune,Lucas-Corbray,Luceon-Frey,Lucias-Vypren,Lucion-Lannister,Lyessa-Flint,Lyle-Crakehall,Lymond-Goodbrook,Lymond-Vikary,Lyn-Corbray,Lyonel-Corbray,Lyonel-Frey,Lythene-Frey,Maddy,Manfrey-Martell,Manfryd-Yew,Marei,Margot-Lannister,Maric-Seaworth,Mark-Mullendore,Maron-Martell,Maron-Volmark,Marq-Piper,Martyn-Rivers,Matthar,Matthos-Seaworth,Mawney,Megga-Tyrell,Meldred-Merlyn,Mellara-Rivers,Melwys-Rivers,Meredyth-Crane,Mero,Monster,Mord,Morgarth,Morna-White-Mask,Morton-Waynwood,Morya-Frey,Moryn-Tyrell,Mya-Stone,Mychel-Redfort,Myranda-Royce,Myrielle-Lannister,Nestor-Royce,Noho-Dimittis,Norbert-Vance,Norne-Goodbrother,Nymella-Toland,Nysterica,Old-Tattersalt,Ollidor,Ollo-Lophand,Olyvar-Frey,Omer-Blackberry,Orland-of-Oldtown,Ormond-Yronwood,Orphan-Oss,Osbert-Serry,Osha,Ossifer-Plumm,Pate-(Kings-Landing),Perriane-Frey,Perwyn-Frey,Philip-Foote,Philip-Plumm,Podrick-Payne,Qarl-Shepherd,Quenten-Banefort,Quentyn-Qorgyle,Ragwyle,Raymund-Frey,Raynard,Raynard-Ruttiger,Reek,Regenard-Estren,Renfred-Rykker,Rennifer-Longwaters,Rhaelle-Targaryen,Robert-Arryn,Robin-Moreland,Robin-Ryger,Rodrik-Stark-(son-of-Beron),Roland-Crakehall-(Lord),Rolland-Longthorpe,Rolland-Storm,Ronel-Rivers,Rosamund-Lannister,Roslin-Frey,Rufus-Leek,Ryger-Rivers,Svrone,Sarya-Whent,Sebaston-Farman,Selmond-Stackspear,Shadrick,Shella-Whent,Shiera-Crakehall,Shirei-Frey,Sigfryd-Harlaw,Sleepy-Jack,Spare-Boot,Stafford-Lannister,Steffon-Swyft,Stevron-Frey,Stonehand,Stonesnake,Symon-Santagar,Tallad,Tanda-Stokeworth,Tanton-Fossoway,Theomar-Smallwood,Timett-(father),Tion-Frey,Titus-Peake,Tobho-Mott,Torbert,Torren-Liddle,Torwold-Browntooth,Trebor-Jordayne,Triston-Farwynd,Tybolt-Hetherspoon,Tyrek-Lannister,Tyrion-Tanner,Tyta-Frey,Tytos-Brax,Ulwyck-Uller,Utherydes-Wayn,Vortimer-Crane,Vylarr,Walder-Frey-(son-of-Emmon),Waldon-Wynch,Wallace-Waynwood,Whalen-Frey,Willamen-Frey,William-Mooton,Ysilla-Royce,Zekko,Id,Addam-Marbrand,Aemon-Estermont,Aglantine,Alayaya,Albar-Royce,Albett,Alesander-Torrent,Alla-Tyrell,Allard-Seaworth,Alyce-Graceford,Alyn-Estermont,Alyn-Stackspear,Alyn-Velaryon,Alysanne-Bracken,Alysanne-Bulwer,Alysanne-Lefford,Amarei-Crakehall,Andar-Royce,Andrew-Estermont,Andrik,Antario-Jast,Anya-Waynwood,Arthur-Ambrose,Arwyn-Frey,Arwyn-Oakheart,Ballabar,Balman-Byrch,Barbara-Bracken,Barsena-Blackhair,Bayard-Norcross,Belaquo-Bonebreaker,Benedar-Belmore,Benedict-Broom,Benfred-Tallhart,Benfrey-Frey,Beren-Tallhart,Bess-Bracken,Bethany-Bolton,Bethany-Bracken,Bhakaz-zo-Loraq,Black-Bernarr,Black-Jack-Bulwer,Bonifer-Hasty,Boremund-Harlaw,Bryce-Caron,Brynden-Rivers,Butterbumps,Camarron-of-the-Count,Lord-Caswell,Catelyn-Bracken,Cerenna-Lannister,Cheyk,Clement-Piper,Cleos-Frey,Clubfoot-Karl,Colemon,Colmar-Frey,Cragorn,Crawn,Creighton-Redfort,Cuger,Daenerys-Targaryen-(daughter-of-Aegon-IV),Dalbridge,Damion-Lannister,Dancy,Danwell-Frey,Darlessa-Marbrand,Daven-Lannister,Delonne-Allyrion,Delp,Dickon-Tarly,Dirk,Donnel-Waynwood,Dunstan-Drumm,Ebben,Eddara-Tallhart,Elaena-Targaryen,Eldon-Estermont,Eleanor-Mooton,Elinor-Tyrell,Elmar-Frey,Elron,Elwood,Elwood-Meadows,Elza,Emmon-Frey,Eon-Hunter,Ermesande-Hayford,Eustace-Hunter,Falia-Flowers,Falyse-Stokeworth,Fearless-Ithoke,Ferrego-Antaryon,Flement-Brax,Frenken,Garin-(Prince),Garlan-Tyrell,Garrison-Prester,Garth-Greenfield,Gascoyne,Gavin,Gawen-Westerling,Gerald-Gower,Gerold-Grafton,Ghost-of-High-Heart,Gilbert-Farring,Gilwood-Hunter,Goady,Gorold-Goodbrother,Grazdar-zo-Galare,Gretchel,Grey-King,Grubbs,Guthor-Grimm,Gylbert-Farwynd,Halmon-Paege,Harlan-Hunter,Harmen-Uller,Harras-Harlaw,Henly-(Maester),High-Septon-(Tyrions),Hobber-Redwyne,Horas-Redwyne,Hotho-Harlaw,Howland-Reed,Igon-Vyrwel,Iron-Emmett,Jalabhar-Xho,Jammos-Frey,Janei-Lannister,Jason-Mallister,Jasper-Redfort,Jayne-Bracken,Jeren,Jhezane,Jon-Redfort,Jonella-Cerwyn,Joyeuse-Erenford,Karyl-Vance,Kemmett-Pyke,Krazz,Lanna-Lannister,Larra-Blackmont,Lenyl,Leo-Lefford,Leobald-Tallhart,Leslyn-Haigh,Lewys-the-Fishwife,Lewys-Lydden,Lewys-Piper,Leyton-Hightower,Lomas-Estermont,Lomys,Lothar-Frey,Lothor-Brune,Lucas-Corbray,Luceon-Frey,Lucias-Vypren,Lucion-Lannister,Lyessa-Flint,Lyle-Crakehall,Lymond-Goodbrook,Lymond-Vikary,Lyn-Corbray,Lyonel-Corbray,Lyonel-Frey,Lythene-Frey,Maddy,Manfrey-Martell,Manfryd-Yew,Marei,Margot-Lannister,Maric-Seaworth,Mark-Mullendore,Maron-Martell,Maron-Volmark,Marq-Piper,Martyn-Rivers,Matthar,Matthos-Seaworth,Mawney,Megga-Tyrell,Meldred-Merlyn,Mellara-Rivers,Melwys-Rivers,Meredyth-Crane,Mero,Monster,Mord,Morgarth,Morna-White-Mask,Morton-Waynwood,Morya-Frey,Moryn-Tyrell,Mya-Stone,Mychel-Redfort,Myranda-Royce,Myrielle-Lannister,Nestor-Royce,Noho-Dimittis,Norbert-Vance,Norne-Goodbrother,Nymella-Toland,Nysterica,Old-Tattersalt,Ollidor,Ollo-Lophand,Olyvar-Frey,Omer-Blackberry,Orland-of-Oldtown,Ormond-Yronwood,Orphan-Oss,Osbert-Serry,Osha,Ossifer-Plumm,Pate-(Kings-Landing),Perriane-Frey,Perwyn-Frey,Philip-Foote,Philip-Plumm,Podrick-Payne,Qarl-Shepherd,Quenten-Banefort,Quentyn-Qorgyle,Ragwyle,Raymund-Frey,Raynard,Raynard-Ruttiger,Reek,Regenard-Estren,Renfred-Rykker,Rennifer-Longwaters,Rhaelle-Targaryen,Robert-Arryn,Robin-Moreland,Robin-Ryger,Rodrik-Stark-(son-of-Beron),Roland-Crakehall-(Lord),Rolland-Longthorpe,Rolland-Storm,Ronel-Rivers,Rosamund-Lannister,Roslin-Frey,Rufus-Leek,Ryger-Rivers,Svrone,Sarya-Whent,Sebaston-Farman,Selmond-Stackspear,Shadrick,Shella-Whent,Shiera-Crakehall,Shirei-Frey,Sigfryd-Harlaw,Sleepy-Jack,Spare-Boot,Stafford-Lannister,Steffon-Swyft,Stevron-Frey,Stonehand,Stonesnake,Symon-Santagar,Tallad,Tanda-Stokeworth,Tanton-Fossoway,Theomar-Smallwood,Timett-(father),Tion-Frey,Titus-Peake,Tobho-Mott,Torbert,Torren-Liddle,Torwold-Browntooth,Trebor-Jordayne,Triston-Farwynd,Tybolt-Hetherspoon,Tyrek-Lannister,Tyrion-Tanner,Tyta-Frey,Tytos-Brax,Ulwyck-Uller,Utherydes-Wayn,Vortimer-Crane,Vylarr,Walder-Frey-(son-of-Emmon),Waldon-Wynch,Wallace-Waynwood,Whalen-Frey,Willamen-Frey,William-Mooton,Ysilla-Royce,Zekko";
 
     public static final String FFC_WIKI_ONLY_NAMES =
     "Aegon-Frey-(son-of-Stevron),Aegon-Frey-(son-of-Aenys),Aegor-Rivers,Aemon-Estermont,Aemon-Rivers,Aenys-Frey,Aggo,Agrivane,Alan,Alayaya,Albett,Alekyne-Florent,Alesander-Frey,Alesander-Staedmon,Alester-Norcross,Allard-Seaworth,Alyce,Alyce-Graceford,Alyn-Estermont,Alyn-Frey,Alyn-Haigh,Alys-Karstark,Alysane-Mormont,Alysanne-Hightower,Alysanne-Lefford,Alys-Frey,Alyssa-Blackwood,Alyx-Frey,Amarei-Crakehall,Andar-Royce,Andrew-Estermont,Androw-Frey,Annara-Farring,Antario-Jast,Arnolf-Karstark,Arron,Arron-Qorgyle,Arryk-Cargyll,Arthur-Ambrose,Arwyn-Frey,Arwyn-Oakheart,Assadora-of-Ibben,Axell-Florent,Azor-Ahai,Bandy,Barbrey-Dustin,Bearded-Ben,Beardless-Dick,Bedwyck,Bella,Bellegere-Otherys-(Courtesan),Bellena-Hawick,Belwas,Ben-Blackthumb,Ben-Plumm,Benedict-Broom,Benfred-Tallhart,Benfrey-Frey,Benjen-Stark,Bennard-Brune,Beren-Tallhart,Berena-Hornwood,Beth-Cassel,Bethany-Bolton,Bethany-Bracken,Bethany-Rosby,Betharios-of-Braavos,Big-Boil,Black-Bernarr,Black-Jack-Bulwer,Bluetooth,Bodger,Bowen-Marsh,Boy,Bradamar-Frey,Brandon-Norrey,Bran-the-Builder,Brandon-Tallhart,Branston-Cuy,Bryan-Frey,Bryen-Caron,Bryen-Farring,Burton-Crakehall,Carellen-Smallwood,Carolei-Waynwood,Cass,Castos,Cerenna-Lannister,Cersei-Frey,Cetheres,Clarence-Crabb-(Short),Cleon,Cley-Cerwyn,Clubfoot-Karl,Coldhands,Colin-Florent,Colmar-Frey,Conwy,Crawn,Cuger,Cynthea-Frey,Daario-Naharis,Dacey-Mormont,Daegon-Shepherd,Daeron-Targaryen-(son-of-Maekar-I),Dafyn-Vance,Dagos-Manwoody,Dake-(Guard),Dalbridge,Dale-Seaworth,Damon-Paege,Damon-Vypren,Dan,Dancy,Daughter-of-the-Dusk,Davos-Seaworth,Deana-Hardyng,Del,Delena-Florent,Della-Frey,Delonne-Allyrion,Delp,Dennis-Plumm,Denyo-Terys,Denys-Mallister,Denys-Redwyne,Denyse-Hightower,Desmond-Redwyne,Devan-Seaworth,Dickon-Frey,Dickon-Manwoody,Dirk,Domeric-Bolton,Donnel-Hill,Donnel-Locke,Dormund,Dryn,Duncan-Targaryen,Duram-Bar-Emmon,Dyah,Dywen,Ebben,Eddara-Tallhart,Eddard-Karstark,Edric-Dayne,Edric-Storm,Elaena-Targaryen,Elder-Brother,Eleanor-Mooton,Eleyna-Westerling,Elia-Sand,Ellery-Vance,Elmar-Frey,Elron,Elwood,Elwood-Meadows,Elyana-Vypren,Elyn-Norridge,Emberlei-Frey,Emphyria-Vance,Emrick,Erena-Glover,Erren-Florent,Errok,Erryk-Cargyll,Ferny,Ferrego-Antaryon,Galbart-Glover,Gallard,Gareth-Clifton,Garin-(Orphans),Garin-(Prince),Garizon,Garrett-Flowers,Garse-Flowers,Garse-Goodbrook,Garth-of-Greenaway,Garth-Greenfield,Garth-Greyfeather,Gawen-Glover,Gerald-Gower,Ghost-of-High-Heart,Gilbert-Farring,Glendon-Hewett,Goady,Goodwin,Grazdan-mo-Eraz,Greenbeard,Grey-Worm,Griffin-King,Grigg,Groleo,Grubbs,Gueren,Gulian-Qorgyle,Guyne,Gwayne-Corbray,Gyles,Halder,Hallis-Mollen,Halmon-Paege,Halys-Hornwood,Hareth-(Mole's-Town),Harodon,Harrion-Karstark,Harwood-Stout,Helly,Helman-Tallhart,Helya,Henk,High-Septon-(Aegons_Conquest),High-Septon-(fat_one),Hop-Robin,Hosman-Norcross,Hosteen-Frey,Hoster-Frey,Hother-Umber,Howland-Reed,Hugo-Wull,Husband,Igon-Vyrwel,Illyrio-Mopatis,Imry-Florent,Iron-Emmett,Irri,Jacelyn-Bywater,Jack-Be-Lucky,Jacks,Jaime-Frey,Jammos-Frey,Janei-Lannister,Jaqen-H'ghar,Jared-Frey,Jarl,Jasper-Waynwood,Jeren,Jeyne-Beesbury,Jeyne-Goodbrook,Jeyne-Lydden,Jeyne-Rivers,Jhaqo,Jhiqui,Jhogo,Joanna-Swyft,Jojen-Reed,Jommo,Jon-Brax,Jon-Bulwer,Jon-Cupps,Jon-O'Nutten,Jon-Umber-(Greatjon),Jon-Umber-(Smalljon),Jon-Vance,Jon-Waters,Jon-Wylde,Jonella-Cerwyn,Jonos-Bracken,Jonos-Frey,Jorah-Mormont,Jorelle-Mormont,Joss-Stilwood,Joss-the-Gloom,Joyeuse-Erenford,Jurne,Jyanna-Frey,Jynessa-Blackmont,Jyzene,Kegs,Kirth-Vance,Kyra,Kyra-Frey,Lady-of-the-Leaves,Lanna-Lannister,Larence-Snow,Larra-Blackmont,Lenn,Lenyl,Leo-Blackbar,Leo-Lefford,Leo-Tyrell-(son-of-Victor),Leobald-Tallhart,Leona-Tyrell,Leona-Woolfield,Leonette-Fossoway,Leslyn-Haigh,Lester-Morrigen,Lewys-the-Fishwife,Lewys-Lydden,Leyla-Hightower,Lia-Serry,Liane-Vance,Likely-Luke,Lomas-Estermont,Lomys,Lorcas,Lorent-Tyrell,Lothar-Frey,Lucas-Blackwood,Lucas-Tyrell,Luceon-Frey,Lucias-Vypren,Lucion-Lannister,Lucos-Chyttering,Luthor-Tyrell-(son-of-Moryn),Luthor-Tyrell-(son-of-Theodore),Lyanna-Mormont,Lyessa-Flint,Lymond-Goodbrook,Lymond-Lychester,Lymond-Vikary,Lynesse-Hightower,Lyonel-Frey,Lyonel-Tyrell-(son-of-Leo),Lyra-Mormont,Lysa-Meadows,Lythene-Frey,Mad-Huntsman,Maege-Mormont,Maegelle-Frey,Maekar-I-Targaryen,Mag-Mar-Tun-Doh-Weg,Mago,Malwyn-Frey,Marei,Margot-Lannister,Marianne-Vance,Maric-Seaworth,Marissa-Frey,Marlon-Manderly,Marq-Piper,Marsella-Waynwood,Martyn-Mullendore,Martyn-Rivers,Marya-Seaworth,Mathis-Frey,Matthar,Matthos-Seaworth,Mawney,Maynard,Medwick-Tyrell,Meera-Reed,Meg,Melara-Crane,Melesa-Crakehall,Melessa-Florent,Mellara-Rivers,Melwyn-Sarsfield,Melwys-Rivers,Merianne-Frey,Merlon-Crakehall,Merrell-Florent,Merrit,Mina-Tyrell,Mirri-Maz-Duur,Missandei,Monster,Monterys-Velaryon,Moro,Mors-Manwoody,Mors-Martell-(brother-of-Doran),Mors-Umber,Morton-Waynwood,Morya-Frey,Mudge-(brotherhood),Munda,Muttering-Bill,Mylenda-Caron,Myles-Mooton,Myrielle-Lannister,Nella,Nightingale,Normund-Tyrell,Norren,Notch,Nymella-Toland,Nymos,Ocley,Old-Tattersalt,Olene-Tyrell,Ollo-Lophand,Olymer-Tyrell,Olyvar-Frey,Omer-Blackberry,Omer-Florent,Ondrew-Locke,Orell,Orland-of-Oldtown,Oro-Tendyris,Orphan-Oss,Osha,Osmund-Frey,Othell-Yarwyck,Ottomore,Owen-(brother-of-Meribald),Owen-Norrey,Palla,Patchface,Pate-(King's-Landing),Patrek-Vance,Perra-Frey,Perriane-Frey,Perros-Blackmont,Peter-Plumm,Petyr-Frey,Polliver,Pono,Pyat-Pree,Pylos,Qarro-Volentin,Quaithe,Quenten-Banefort,Quentin-Tyrell,Quentyn-Qorgyle,Ragwyle,Rakharo,Rattleshirt,Ravella-Swann,Raymund-Frey,Raymund-Tyrell,Reek,Regenard-Estren,Renly-Norcross,Rhaegar-Frey,Rhaego,Rhaelle-Targaryen,Rhaena-Targaryen-(daughter-of-Aegon-III),Rhea-Florent,Rhialta-Vance,Rhogoro,Rhonda-Rowan,Rickard-Karstark,Rickard-Ryswell,Rickard-Tyrell,Rickard-Wylde,Robert-Brax-(son-of-Flement),Robert-Frey,Robert-Frey-(son-of-Raymund),Robin-Flint,Robin-Ryger,Rodrik-Cassel,Rodrik-Ryswell,Roger-Ryswell,Rollam-Westerling,Rolland-Storm,Rolph-Spicer,Ronel-Rivers,Roone-(maester),Roose-Ryswell,Rossart,Ryam-Florent,Rycherd-Crane,Ryella-Frey,Ryella-Royce,Ryger-Rivers,Ryk,Rylene-Florent,Ryon-Allyrion,S'vrone,Sailor's-Wife,Salladhor-Saan,Sallei-Paege,Samwell-Spicer,Sandor-Frey,Sarra-Frey,Sarya-Whent,Sebaston-Farman,Selmond-Stackspear,Selyse-Florent,Serra-Frey,Shadrick,Shagga,Sharna,Shella-Whent,Shiera-Crakehall,Shierle-Swyft,Shireen-Baratheon,Shirei-Frey,Shyra,Simon-Toyne,Skyte,Spare-Boot,Stafford-Lannister,Stannis-Seaworth,Steffon-Frey,Steffon-Seaworth,Steffon-Stackspear,Stevron-Frey,Stonesnake,Styr,Sybelle-Glover,Sylwa-Paege,Symon-Santagar,Symond-Frey,Tansy-(orphan),Tanton-Fossoway,Theodore-Tyrell,Theomar-Smallwood,Theomore,Three-Toes,Tim-Stone,Tim-Tangletongue,Tion-Frey,Titus-Peake,Tobho-Mott,Toefinger,Togg-Joth,Tommen-Costayne,Toregg,Tormund,Torren-Liddle,Torrhen-Karstark,Torwynd,Trebor-Jordayne,Tregar-Ormollen,Tremond-Gargalen,Triston-of-Tally-Hill,Triston-Farwynd,Turnip,Tyana-Wylde,Tybolt-Crakehall,Tybolt-Hetherspoon,Tygett-Lannister,Tyrion-Tanner,Tysane-Frey,Tyta-Frey,Tytos-Brax,Tywin-Frey-(son-of-Raymund),Ulwyck-Uller,Utherydes-Wayn,Victaria-Tyrell,Victor-Tyrell,Viserys-Targaryen,Vortimer-Crane,Vylarr,Walda-Frey-(daughter-of-Edwyn),Walda-Frey-(daughter-of-Lothar),Walda-Frey-(daughter-of-Walton),Walda-Frey-(daughter-of-Merrett),Walda-Frey-(daughter-of-Rhaegar),Walda-Rivers,Walder-Brax,Walder-Frey-(son-of-Jammos),Walder-Frey-(son-of-Merrett),Walder-Frey-(son-of-Emmon),Walder-Goodbrook,Walder-Haigh,Walder-Vance,Walton-Frey,Walton,Waltyr-Frey,Warryn-Beesbury,Wat-(orphan),Watty,Weeper,Wendel-Frey,Wendel-Manderly,Wex-Pyke,Whalen-Frey,Willamen-Frey,Willam-Dustin,Willem-Frey,Willem-Lannister,William-Mooton,Willifer,Willis-Wode,Wylla-Manderly,Wynafrei-Whent,Wynafryd-Manderly,Wynton-Stout,Xaro-Xhoan-Daxos,Ygritte,Zachery-Frey,Zarabelo,Zhoe-Blanetree,Zia-Frey";
@@ -128,13 +136,88 @@ public class CharacterSearch {
 //                ffcCatalogFileNames,
 //                "src/main/resources/text/feastforcrows.txt");
 
-        processList("src/main/resources/text/stormofswords.txt", SOS_WIKI_ONLY_NAMES);
+        // processList("src/main/resources/text/stormofswords.txt", SOS_WIKI_ONLY_NAMES);
 
 
+
+
+        String[] dwdOldListNames = new String[] {
+                GameOfThronesConstructor.CHARACTER_FILE_NAME,
+                ClashOfKingsConstructor.CHARACTER_FILE_NAME,
+                StormOfSwordsConstructor.CHARACTER_FILE_NAME,
+                FeastForCrowsConstructor.CHARACTER_FILE_NAME
+        };
+
+       // mergeCharFile("src/main/resources/data/characters/dwd-list-4myno.csv", "mergelist",
+       //         dwdOldListNames, "src/main/resources/text/dancewithdragons.txt");
+
+
+        String[] dwdCatalogFileNames = new String[] {
+                "src/main/resources/data/characters/mynotoar/GameOfThronesCatalogShort.csv",
+                "src/main/resources/data/characters/mynotoar/GameOfThronesAppendixCatalogShort.csv",
+                "src/main/resources/data/characters/mynotoar/ClashOfKingsCatalogShort.csv",
+                "src/main/resources/data/characters/mynotoar/ClashOfKingsAppendixCatalogShort.csv",
+                "src/main/resources/data/characters/mynotoar/StormOfSwordsCatalogShort.csv",
+                "src/main/resources/data/characters/mynotoar/StormOfSwordsAppendixCatalogShort.csv",
+                "src/main/resources/data/characters/mynotoar/FeastForCrowsCatalogShort.csv",
+                "src/main/resources/data/characters/mynotoar/DanceWithDragonsCatalogShort.csv"
+        };
+
+
+//        updateCharListFile("src/main/resources/data/characters/dwd-list-6mynomerge.csv",
+//                "7dwdcat",
+//                dwdCatalogFileNames,
+//'                "src/main/resources/text/dancewithdragons.txt");
+
+        processList("src/main/resources/text/dancewithdragons.txt", DWD_WIKI_ONLY_NAMES);
 
     }
 
 
+    private static void mergeCharFile(String charFileName, String suffix, String[] oldListNames, String textFileName) {
+        Map<String, String> charMap = new TreeMap<String, String>();
+
+        List<String> charList = FileUtils.readFile(charFileName);
+
+        for (String currentLine : charList) {
+            String currentKey = currentLine.split(",")[0];
+            charMap.put(currentKey, "old," + currentLine);
+        }
+
+
+        Map<String, String> tempMap;
+
+        for (int i=0; i < oldListNames.length; i++) {
+            int bookNum = i+1;
+            tempMap = processPreviousList(textFileName, oldListNames[i]);
+            updateCharacterMap(charMap, tempMap, "Book " + bookNum);
+        }
+
+        List<String> updatedList = new ArrayList<String>();
+
+        for (String k : charMap.keySet()) {
+            updatedList.add(charMap.get(k));
+        }
+
+        System.out.println("updatedList=" + updatedList.size());
+
+
+
+        for (String temp : updatedList) {
+            //System.out.println(temp);
+
+            if (temp == null) {
+                System.out.println("\t\t========" + temp);
+            }
+        }
+
+        String filePrefix = charFileName.split("\\.")[0];
+        FileUtils.writeFile(updatedList, filePrefix + "-" + suffix +".csv");
+
+
+
+
+    }
 
 
     private static void updateCharListFile(String charFileName, String suffix, String[] charCatalogNames, String textFileName) {
@@ -152,7 +235,7 @@ public class CharacterSearch {
         Map<String, String> tempMap;
 
         for (int i=0; i < charCatalogNames.length; i++) {
-            tempMap = processFile(textFileName, charCatalogNames[i]);
+            tempMap = processCatalogFile(textFileName, charCatalogNames[i]);
             updateCharacterMap(charMap, tempMap);
         }
 
@@ -185,7 +268,7 @@ public class CharacterSearch {
      * @param textName
      * @param catalogName
      */
-    private static Map<String,String> processFile(String textName, String catalogName) {
+    private static Map<String,String> processCatalogFile(String textName, String catalogName) {
         List<String> charLines = FileUtils.readFile(catalogName);
         HashMap<String, String[]> charMap = new HashMap<String, String[]>();
         HashMap<String, String> charLineMap = new HashMap<String, String>();
@@ -269,10 +352,90 @@ public class CharacterSearch {
             }
         }
 
-        String filePrefix = catalogName.split("\\.")[0];
+        //String filePrefix = catalogName.split("\\.")[0];
 
-        FileUtils.writeFile(keepLines,filePrefix + "_SOSkeep.csv");
-        FileUtils.writeFile(removeLines,filePrefix + "_SOSremove.csv");
+        //FileUtils.writeFile(keepLines,filePrefix + "_SOSkeep.csv");
+        //FileUtils.writeFile(removeLines,filePrefix + "_SOSremove.csv");
+
+        return keepMap;
+    }
+
+
+
+    /**
+     * Goes through the original text and then makes a recommendation for each character in the given catelog: keep or remove.
+     * @param textName
+     * @param previousListName
+     */
+    private static Map<String,String> processPreviousList(String textName, String previousListName) {
+        List<String> charLines = FileUtils.readFile(previousListName);
+        HashMap<String, String[]> charMap = new HashMap<String, String[]>();
+        HashMap<String, String> charLineMap = new HashMap<String, String>();
+
+        System.out.println("Processing book:" + textName + " and list:" + previousListName);
+
+
+        for (String line : charLines) {
+            String[] tokens = line.split(",");
+
+            String key = tokens[0].replace("\"","");
+            charMap.put(key, tokens);
+            charLineMap.put(key,line);
+
+            System.out.println("Added possible key:" +key);
+        }
+
+        List<String> textLines = FileUtils.readFile(textName);
+
+        for (String textLine : textLines) {
+
+            List<String> removalList = new ArrayList<String>();
+
+            for (String key : charMap.keySet()) {
+                String[] tokens = charMap.get(key);
+
+
+                for (String token : tokens) {
+                    if (textLine.contains(token) || textLine.contains(token.replace('-',' '))) {
+                        System.out.println("matched: " + key + " token:" + token);
+                        removalList.add(key);
+                    }
+                }
+
+
+            }
+
+            if (removalList.size() > 0) {
+                for (String k : removalList) {
+                    charMap.remove(k);
+                }
+            }
+        }
+
+
+        System.out.println("===== didn't match " + charMap.size());
+
+        for (String key : charMap.keySet()) {
+            System.out.println("\t suggest removing:" + key );
+        }
+
+        TreeMap<String, String> keepMap = new TreeMap<String, String>();
+
+
+        List<String> keepLines = new ArrayList<String>();
+        List<String> removeLines = new ArrayList<String>();
+
+        for (String line : charLines) {
+            String charKey = line.split(",")[0];
+            System.out.println("\t===charKey=[" + charKey + "]");
+
+            if (charMap.containsKey(charKey)) {
+                removeLines.add(line);
+            } else {
+                keepLines.add(line);
+                keepMap.put(charKey,charLineMap.get(charKey));
+            }
+        }
 
         return keepMap;
     }
@@ -536,11 +699,25 @@ public class CharacterSearch {
      * @return
      */
     private static void updateCharacterMap(Map<String,String> currentCharMap, Map<String,String> newCharMap) {
+        updateCharacterMap(currentCharMap,newCharMap,null);
+    }
+
+    /**
+     * Adds key/value pairs in newCharMap to currentCharMap, provided that the key does not already exist.
+     * @param currentCharMap
+     * @param newCharMap
+     * @return
+     */
+    private static void updateCharacterMap(Map<String,String> currentCharMap, Map<String,String> newCharMap, String textId) {
 
         for (String newKey : newCharMap.keySet()) {
             if (!currentCharMap.containsKey(newKey)) {
                 System.out.println("Adding for [" + newKey + "]");
-                currentCharMap.put(newKey, newCharMap.get(newKey));
+                if (textId == null) {
+                    currentCharMap.put(newKey, newCharMap.get(newKey));
+                } else {
+                    currentCharMap.put(newKey, textId + "," + newCharMap.get(newKey));
+                }
             }
         }
     }
@@ -624,7 +801,7 @@ public class CharacterSearch {
             for (String id : nameList) {
 
 
-                String  name = id.replace('-',' ');
+                String  name = id.replace('-',' ').trim();
                 String firstName = name.split(" ")[0];
 
                 if (textLine.contains(id)) {
