@@ -1,13 +1,11 @@
 package edu.macalester.mscs.network;
 
-import com.opencsv.CSVReader;
 import edu.macalester.mscs.utils.FileUtils;
 import edu.macalester.mscs.utils.Logger;
 import edu.macalester.mscs.utils.WordUtils;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 
-import java.io.FileReader;
 import java.util.*;
 import java.util.function.Consumer;
 
@@ -393,19 +391,16 @@ public class Matrix {
         }
 
         logger.log("[");
-
         for (int i=0; i < newMatrix.length; i++) {
-            if (i < newMatrix.length - 1) {
-                logger.log(Arrays.toString(newMatrix[i]) + ",");
-            } else {
+            if (i == newMatrix.length - 1) {
                 logger.log(Arrays.toString(newMatrix[i]));
+            } else {
+                logger.log(Arrays.toString(newMatrix[i]) + ",");
             }
         }
-
         logger.log("]");
         return logger;
     }
-
 
     /**
      * Converts the matrix to CSV lines of a list of edges, for import into Gephi.
@@ -447,7 +442,6 @@ public class Matrix {
         return logger;
     }
 
-
     public Logger toNodeListCsvLog(String charDataFileName) {
         if (charDataFileName == null) {
             Logger logger = new Logger();
@@ -460,18 +454,17 @@ public class Matrix {
         }
     }
 
-
     private Logger toNodeListCsvLog(String header, String defaultValue, String charDataFileName) {
         Logger logger = new Logger();
         logger.log(header);
 
         List<String> charLines = FileUtils.readFile(charDataFileName);
 
-        HashMap<String, String[]> fullCharMap = new HashMap<String, String[]>();
+        Map<String, String[]> fullCharMap = new HashMap<>();
 
         System.out.println(charLines.get(0));
 
-        for (int i=1; i < charLines.size(); i++) {
+        for (int i = 1; i < charLines.size(); i++) {
             String[] charLine = charLines.get(i).split(",");
             fullCharMap.put(charLine[0], charLine);
         }
@@ -484,7 +477,6 @@ public class Matrix {
 
             //System.out.println("\tcharData length="+charData.length);
 
-
             String id = charData[0];
             String label = charData[1];
             String allegiance = (charData.length > 5) ? charData[5] : "";
@@ -496,7 +488,7 @@ public class Matrix {
                     .replace("#LA", "\"" + label + "\"")
                     .replace("#AL", "\"" + allegiance + "\"")
                     .replace("#RH", "\"" + royalHouse + "\"")
-                    .replace("#C", "\"" + culture + "\"");
+                    .replace("#C",  "\"" + culture + "\"");
             logger.log(line);
         }
 
