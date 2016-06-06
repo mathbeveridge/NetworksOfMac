@@ -17,8 +17,8 @@ public class FeastForCrowsConstructor extends MatrixConstructor {
      * @param args
      */
     public static void main(String[] args) {
-        int fileNum = 6;
-        String fileDesc = "mynowiki";
+        int fileNum = 7;
+        String fileDesc = "complete";
 
         FeastForCrowsConstructor constructor = new FeastForCrowsConstructor(15, 3);
 

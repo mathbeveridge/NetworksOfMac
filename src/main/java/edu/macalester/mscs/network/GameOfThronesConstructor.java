@@ -22,8 +22,8 @@ public class GameOfThronesConstructor extends MatrixConstructor {
      * @param args
      */
     public static void main(String[] args) {
-        int fileNum = 18;
-        String fileDesc = "merged";
+        int fileNum = 19;
+        String fileDesc = "complete";
 
         GameOfThronesConstructor constructor = new GameOfThronesConstructor(15, 3);
 

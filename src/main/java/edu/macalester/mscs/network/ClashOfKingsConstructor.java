@@ -6,8 +6,8 @@ package edu.macalester.mscs.network;
 public class ClashOfKingsConstructor extends MatrixConstructor {
 
 
-    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-merged2.csv";
-    public static final String TEXT_FILE_NAME = "src/main/resources/text/clashofkings-merged-2.txt";
+    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-merged3.csv";
+    public static final String TEXT_FILE_NAME = "src/main/resources/text/clashofkings-merged-3.txt";
 
     public static final int BOOK_NUMBER = 2;
 
@@ -16,8 +16,8 @@ public class ClashOfKingsConstructor extends MatrixConstructor {
      * @param args
      */
     public static void main(String[] args) {
-        int fileNum = 6;
-        String fileDesc = "merged";
+        int fileNum = 7;
+        String fileDesc = "complete";
 
         ClashOfKingsConstructor constructor = new ClashOfKingsConstructor(15, 3);
 

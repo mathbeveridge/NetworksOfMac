@@ -5,8 +5,8 @@ package edu.macalester.mscs.network;
  */
 public class StormOfSwordsConstructor extends MatrixConstructor {
 
-    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/sos-list-mynowiki2.csv";
-    public static final String TEXT_FILE_NAME = "src/main/resources/text/stormofswords-mynowiki2.txt";
+    public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/sos-list-mynowiki3.csv";
+    public static final String TEXT_FILE_NAME = "src/main/resources/text/stormofswords-mynowiki3.txt";
     public static final int BOOK_NUMBER = 3;
 
     /**
@@ -14,8 +14,8 @@ public class StormOfSwordsConstructor extends MatrixConstructor {
      * @param args
      */
     public static void main(String[] args) {
-        int fileNum = 7;
-        String fileDesc = "mynowiki";
+        int fileNum = 8;
+        String fileDesc = "complete";
 
         StormOfSwordsConstructor constructor = new StormOfSwordsConstructor(15, 3);
 

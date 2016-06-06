@@ -471,7 +471,7 @@ public class Matrix {
 
         for (String character : getCharacters()) {
 
-            //System.out.println("Handling character node " + character);
+            System.out.println("Handling character node " + character);
 
             String[] charData = fullCharMap.get(character);
 
