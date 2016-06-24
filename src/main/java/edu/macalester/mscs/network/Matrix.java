@@ -466,6 +466,7 @@ public class Matrix {
 
         for (int i = 1; i < charLines.size(); i++) {
             String[] charLine = charLines.get(i).split(",");
+            System.out.println("Adding character:" + charLine[0]);
             fullCharMap.put(charLine[0], charLine);
         }
 
@@ -477,19 +478,24 @@ public class Matrix {
 
             //System.out.println("\tcharData length="+charData.length);
 
-            String id = charData[0];
-            String label = charData[1];
-            String allegiance = (charData.length > 5) ? charData[5] : "";
-            String royalHouse = (charData.length > 6) ? charData[6] : "";
-            String culture = (charData.length > 7) ? charData[7] : "";
+            if (charData !=null) {
 
-            String line = defaultValue
-                    .replace("#ID", "\"" + id + "\"")
-                    .replace("#LA", "\"" + label + "\"")
-                    .replace("#AL", "\"" + allegiance + "\"")
-                    .replace("#RH", "\"" + royalHouse + "\"")
-                    .replace("#C",  "\"" + culture + "\"");
-            logger.log(line);
+                String id = charData[0];
+                String label = charData[1];
+                String allegiance = (charData.length > 5) ? charData[5] : "";
+                String royalHouse = (charData.length > 6) ? charData[6] : "";
+                String culture = (charData.length > 7) ? charData[7] : "";
+
+                String line = defaultValue
+                        .replace("#ID", "\"" + id + "\"")
+                        .replace("#LA", "\"" + label + "\"")
+                        .replace("#AL", "\"" + allegiance + "\"")
+                        .replace("#RH", "\"" + royalHouse + "\"")
+                        .replace("#C", "\"" + culture + "\"");
+                logger.log(line);
+            } else {
+                logger.log(character + ",missing");
+            }
         }
 
         return logger;

@@ -7,6 +7,7 @@ public class StormOfSwordsConstructor extends MatrixConstructor {
 
     public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/sos-list-mynowiki3.csv";
     public static final String TEXT_FILE_NAME = "src/main/resources/text/stormofswords-mynowiki3.txt";
+    public static final String CHARACTER_DATA_FILE_NAME = "src/main/resources/data/characters/awoiaf/A-Storm-of-Swords-characters.csv";
     public static final int BOOK_NUMBER = 3;
 
     /**
@@ -26,6 +27,9 @@ public class StormOfSwordsConstructor extends MatrixConstructor {
     public StormOfSwordsConstructor(int radius, int noise) {
         super(BOOK_NUMBER, TEXT_FILE_NAME, CHARACTER_FILE_NAME, radius, noise);
     }
+
+
+    public String getCharacterDataFileName() { return CHARACTER_DATA_FILE_NAME; }
 
 
 }

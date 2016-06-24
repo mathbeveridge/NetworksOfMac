@@ -10,10 +10,9 @@ import java.util.List;
 public class GameOfThronesConstructor extends MatrixConstructor {
 
     public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/got-list-merged.csv";
-    public static final String CHARACTER_DATA_FILE_NAME = "src/main/resources/data/characters/awoiaf/A-Game-Of-Thrones-characters.csv";
+    public static final String CHARACTER_DATA_FILE_NAME = "src/main/resources/data/characters/awoiaf/A-Game-of-Thrones-characters.csv";
     public static final String ORDERED_CHARACTER_FILE_NAME = "src/main/resources/data/characters/got-top-ordered.csv";
     public static final String TEXT_FILE_NAME = "src/main/resources/text/gameofthrones-merged.txt";
-//    public static final String TEXT_FILE_NAME = "src/main/resources/text/got-test.txt";
 
     public static final int BOOK_NUMBER = 1;
 

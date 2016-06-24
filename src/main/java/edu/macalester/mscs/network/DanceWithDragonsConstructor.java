@@ -15,6 +15,7 @@ public class DanceWithDragonsConstructor extends MatrixConstructor {
 
     public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/dwd-list-11complete.csv";
     public static final String TEXT_FILE_NAME = "src/main/resources/text/dancewithdragons-11complete.txt";
+    public static final String CHARACTER_DATA_FILE_NAME = "src/main/resources/data/characters/awoiaf/A-Dance-with-Dragons-characters.csv";
     public static final int BOOK_NUMBER = 5;
 
     /**
@@ -22,7 +23,7 @@ public class DanceWithDragonsConstructor extends MatrixConstructor {
      * @param args
      */
     public static void main(String[] args) {
-        int fileNum = 3;
+        int fileNum = 4;
         String fileDesc = "11complete";
 
         DanceWithDragonsConstructor dwdConstructor = new DanceWithDragonsConstructor(15, 3);
@@ -34,4 +35,6 @@ public class DanceWithDragonsConstructor extends MatrixConstructor {
     public DanceWithDragonsConstructor(int radius, int noise) {
         super(BOOK_NUMBER, TEXT_FILE_NAME, CHARACTER_FILE_NAME, radius, noise);
     }
+
+    public String getCharacterDataFileName() { return CHARACTER_DATA_FILE_NAME; }
 }

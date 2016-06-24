@@ -8,7 +8,7 @@ public class FeastForCrowsConstructor extends MatrixConstructor {
 
     public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/ffc-list-mynowiki6.csv";
     public static final String TEXT_FILE_NAME = "src/main/resources/text/feastforcrows-mynowiki6.txt";
-
+    public static final String CHARACTER_DATA_FILE_NAME = "src/main/resources/data/characters/awoiaf/A-Feast-for-Crows-characters.csv";
     public static final int BOOK_NUMBER = 4;
 
     /**
@@ -30,4 +30,5 @@ public class FeastForCrowsConstructor extends MatrixConstructor {
         super(BOOK_NUMBER, TEXT_FILE_NAME, CHARACTER_FILE_NAME, radius, noise);
     }
 
+    public String getCharacterDataFileName() { return CHARACTER_DATA_FILE_NAME; }
 }

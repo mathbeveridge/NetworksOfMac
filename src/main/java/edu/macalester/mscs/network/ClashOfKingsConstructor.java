@@ -8,7 +8,7 @@ public class ClashOfKingsConstructor extends MatrixConstructor {
 
     public static final String CHARACTER_FILE_NAME = "src/main/resources/data/characters/cok-list-merged3.csv";
     public static final String TEXT_FILE_NAME = "src/main/resources/text/clashofkings-merged-3.txt";
-
+    public static final String CHARACTER_DATA_FILE_NAME = "src/main/resources/data/characters/awoiaf/A-Clash-of-Kings-characters.csv";
     public static final int BOOK_NUMBER = 2;
 
     /**
@@ -33,5 +33,5 @@ public class ClashOfKingsConstructor extends MatrixConstructor {
 //        writeFiles(VOLUME_NUMBER, fileNumber, fileDescriptor);
 //    }
 
-
+    public String getCharacterDataFileName() { return CHARACTER_DATA_FILE_NAME; }
 }

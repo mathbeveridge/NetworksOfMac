@@ -35,6 +35,14 @@
             <artifactId>commons-lang3</artifactId>
             <version>3.4</version>
         </dependency>
+        <!-- http://mvnrepository.com/artifact/org.json/json
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20160212</version>
+        </dependency>
+        -->
+
     </dependencies>
 
 
