@@ -107,6 +107,11 @@ public class NetworkCharacter implements Comparable<NetworkCharacter> {
         return map.get(LABEL);
     }
 
+    public String getShortName() {
+        String label = getLabel();
+        return label.split(" ")[0];
+    }
+
     public String getAllegiance() {
         return map.get(ALLEGIANCE);
     }

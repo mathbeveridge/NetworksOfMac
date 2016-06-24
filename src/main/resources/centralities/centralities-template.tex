@@ -1,0 +1,240 @@
+\documentclass{article}
+
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage[margin=.05in, paperwidth=6in, paperheight=6in]{geometry}
+\usetikzlibrary{positioning}
+\usepackage{etoolbox}
+
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=.5pt] (char) {\scriptsize{#1}};}}
+
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\definecolor{pear}{rgb}{0.82, 0.89, 0.19}
+
+\definecolor{peargreen}{HTML}{D1E231}
+\definecolor{pearblue}{HTML}{8982D0}
+%\definecolor{pearblue}{HTML}{7066D0}
+\definecolor{pearred}{HTML}{EF6370}
+
+%%%%% http://paletton.com/#uid=72o1r0kp4sVfrE2kyvqsSopvAjo
+\definecolor{myblue}{HTML}{4862A8}
+\definecolor{mygreen}{HTML}{9AD62E}
+\definecolor{myorange}{HTML}{E6AC32}
+\definecolor{myred}{HTML}{BC2976}
+\definecolor{mygreen2}{HTML}{B3E853}
+\definecolor{myorange2}{HTML}{FAC75A}
+\definecolor{myred2}{HTML}{CC498E}
+
+
+\newcommand{\mycircled}[2][]{%
+  \tikz[baseline=(char.base)]{%
+    \node[shape = circle, draw, inner sep = .15pt]
+    (char) {\phantom{\ifblank{#1}{#2}{#1}}};%
+    \node at (char.center) {\makebox[0pt][c]{#2}};}}
+\robustify{\mycircled}
+
+
+\begin{document}
+\pagestyle{empty}
+
+
+\begin{tikzpicture}[scale=.7]
+\begin{axis}[
+  width=0.22\textwidth,
+  xbar,
+  y=-0.5cm,
+  bar width=0.3cm,
+  enlarge y limits={abs=0.45cm},
+%  enlarge y limits=auto, 
+  xlabel={Degree},
+%  symbolic y coords={ Robert, Stannis, Z, Cersei, Jaime, Joffrey, Tyrion, Tywin, Y, Arya, Bran, Catelyn, Jon, Robb, Sansa, X, Daenerys},
+%%% yCoords
+ xtick={0, .25, .5, .75, 1.01},
+ xmajorgrids,
+ grid style=white,
+ axis on top,
+ ytick=data,
+  xmin=0, xmax=1.3,
+ %%% degreeTick
+ %xticklabels={0,,,,36},
+  %nodes near coords, nodes near coords align={horizontal},
+  ]
+\addplot[fill=myblue] table[col sep=tab,header=false] {
+%%% degreeData
+};
+\end{axis}
+%%% degreeRanking
+\end{tikzpicture}
+%%%%
+%
+% Weighted Degree
+%
+%%%%%%
+\begin{tikzpicture}[scale=.7]
+\begin{axis}[
+  width=0.22\textwidth,
+  xbar,
+  y=-0.5cm,
+  bar width=0.3cm,
+  enlarge y limits={abs=0.45cm},
+%  enlarge y limits=auto, 
+  xlabel={Weighted Degree},
+%  symbolic y coords={ Robert, Stannis, Z, Cersei, Jaime, Joffrey, Tyrion, Tywin, Y, Arya, Bran, Catelyn, Jon, Robb, Sansa, X, Daenerys},
+%%% yCoords  
+ xmin=0, xmax=1.3,
+ xtick={0, .25, .5, .75,1.01},
+ xmajorgrids,
+ grid style=white,
+ axis on top,
+ ytick=data,
+ yticklabels={,,},
+%%% weightedDegreeTick
+% xticklabels={0,,,,550},
+  %nodes near coords, nodes near coords align={horizontal},
+  ]
+\addplot[fill=myblue] table[col sep=tab,header=false] {
+%%% weightedDegreeData
+};
+\end{axis}
+%%% weightedDegreeRanking
+\end{tikzpicture}
+%%%%
+%
+% Eigenvector
+%
+%%%%%%
+\begin{tikzpicture}[scale=.7]
+\begin{axis}[
+  width=0.22\textwidth,
+  xbar,
+  y=-0.5cm,
+  bar width=0.3cm,
+  enlarge y limits={abs=0.45cm},
+%  enlarge y limits=auto, 
+  xlabel={Eigenvector},
+%  symbolic y coords={ Robert, Stannis, Z, Cersei, Jaime, Joffrey, Tyrion, Tywin, Y, Arya, Bran, Catelyn, Jon, Robb, Sansa, X, Daenerys},
+%%% yCoords    
+ xtick={0, .25, .5, .75,1.01},
+ xmajorgrids,
+ grid style=white,
+ axis on top,
+ ytick=data,
+ yticklabels={,,},
+  xmin=0, xmax=1.3,
+%%% eigenvectorTick
+ %xticklabels={0,,,,1.0},
+  %nodes near coords, nodes near coords align={horizontal},
+  ]
+\addplot[fill=mygreen] table[col sep=tab,header=false] {
+%%% eigenvectorData
+};
+\end{axis}
+%%% eigenvectorRanking
+\end{tikzpicture}
+%%%%
+%
+% PageRank
+%
+%%%%%%
+\begin{tikzpicture}[scale=.7]
+\begin{axis}[
+  width=0.22\textwidth,
+  xbar,
+  y=-0.5cm,
+  bar width=0.3cm,
+  enlarge y limits={abs=0.45cm},
+%  enlarge y limits=auto, 
+  xlabel={PageRank},
+%  symbolic y coords={ Robert, Stannis, Z, Cersei, Jaime, Joffrey, Tyrion, Tywin, Y, Arya, Bran, Catelyn, Jon, Robb, Sansa, X, Daenerys},
+%%% yCoords    
+ xtick={0, .25, .5, .75,1.01},
+ xmajorgrids,
+ grid style=white,
+ axis on top,
+ ytick=data,
+ yticklabels={,,},
+  xmin=0, xmax=1.3,
+%%% pageRankTick  
+% xticklabels={0,,,,0.04},
+  %nodes near coords, nodes near coords align={horizontal},
+  ]
+\addplot[fill=mygreen] table[col sep=tab,header=false] {
+%%% pageRankData
+};
+\end{axis}
+%%% pageRankRanking
+\end{tikzpicture}
+%%%%
+%
+% Closeness
+%
+%%%%%%
+\begin{tikzpicture}[scale=.7]
+\begin{axis}[
+  width=0.22\textwidth,
+  xbar,
+  y=-0.5cm,
+  bar width=0.3cm,
+  enlarge y limits={abs=0.45cm},
+%  enlarge y limits=auto, 
+  xlabel={Closeness},
+%  symbolic y coords={ Robert, Stannis, Z, Cersei, Jaime, Joffrey, Tyrion, Tywin, Y, Arya, Bran, Catelyn, Jon, Robb, Sansa, X, Daenerys},
+%%% yCoords  
+ xtick={0, .25, .5, .75,1.01},
+ xmajorgrids,
+ grid style=white,
+ axis on top,
+%%% closenessTick
+% xticklabels={0,,,,4.5},
+ ytick=data,
+ yticklabels={,,},
+ xmin=0, xmax=1.3,
+  %nodes near coords, nodes near coords align={horizontal},
+  ]
+\addplot[fill=myred, domain=0:1] table[col sep=tab,header=false] {
+%%% closenessData
+};
+\end{axis}
+%%% closenessRanking
+\end{tikzpicture}
+%%%%
+%
+% Betweenness
+%
+%%%%%%
+\begin{tikzpicture}[scale=.7]
+\begin{axis}[
+  width=0.22\textwidth,
+  xbar,
+  y=-0.5cm,
+  bar width=0.3cm,
+  enlarge y limits={abs=0.45cm},
+%  enlarge y limits=auto, 
+  xlabel={Betweenness},
+%  symbolic y coords={ Robert, Stannis, Z, Cersei, Jaime, Joffrey, Tyrion, Tywin, Y, Arya, Bran, Catelyn, Jon, Robb, Sansa, X, Daenerys},
+  %%% yCoords  
+ xmin=0, xmax=1.3,
+ xtick={0, .25, .5, .75,1.01},
+ xmajorgrids,
+ grid style=white,
+ axis on top,
+ ytick=data,
+ yticklabel pos=right,
+%%% betweennessTick 
+% xticklabels={0,,,,1275},
+  %nodes near coords, nodes near coords align={horizontal},
+  ]
+\addplot[fill=myorange] table[col sep=tab,header=false] {
+%%% betweennessData
+};
+\end{axis}
+%%% betweennessRanking
+\end{tikzpicture}
+
+
+\end{document}

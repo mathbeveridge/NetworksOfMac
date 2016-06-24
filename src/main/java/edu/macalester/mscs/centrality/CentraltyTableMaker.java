@@ -81,7 +81,7 @@ public class CentraltyTableMaker {
                 for (NetworkCharacter character : charSet) {
                     double maxDegree = getMaxDegree();
                     double deg = character.getDegree() / maxDegree;
-                    newLines.add(deg + "\t" + character.getLabel());
+                    newLines.add(deg + "\t" + character.getShortName());
                 }
             } else if (line.startsWith("%%% degreeRanking")) {
                 newLines.addAll(getAttributeRankLines(NetworkCharacter.DEGREE, charSet));
@@ -91,26 +91,17 @@ public class CentraltyTableMaker {
                 for (NetworkCharacter character : charSet) {
                     double maxWeightedDegree = getMaxWeightedDegree();
                     double weightDeg = character.getWeightedDegree() / maxWeightedDegree;
-                    newLines.add(weightDeg + "\t" + character.getLabel());
+                    newLines.add(weightDeg + "\t" + character.getShortName());
                 }
             } else if (line.startsWith("%%% weightedDegreeRanking")) {
                 newLines.addAll(getAttributeRankLines(NetworkCharacter.WEIGHTED_DEGREE, charSet));
-//                double maxWeightedDegree = getMaxWeightedDegree();
-//                double yval = charSet.size() * 0.5 - 0.05;
-//                Map<NetworkCharacter, Integer> map = getRankByAttribute(NetworkCharacter.WEIGHTED_DEGREE);
-//                for (NetworkCharacter character : charSet) {
-//                    double xval = (character.getWeightedDegree())/maxWeightedDegree * 1.3 + .22;
-//                    newLines.add ("\\node at (" + xval + "," + yval + ") { \\tiny \\mycircled[10]{" + map.get(character) + "}  };");
-//                    yval = yval - 0.5;
-//                }
-
             } else if (line.startsWith("%%% weightedDegreeTick")) {
                 newLines.add("xticklabels={0,,,," + (int) getMaxWeightedDegree() + "},");
             } else if (line.startsWith("%%% eigenvectorData")) {
                 for (NetworkCharacter character : charSet) {
                     double maxEig = getMaxEigenvector();
                     double eig = character.getEigenvector() / maxEig;
-                    newLines.add(eig + "\t" + character.getLabel());
+                    newLines.add(eig + "\t" + character.getShortName());
                 }
             } else if (line.startsWith("%%% eigenvectorRanking")) {
                 newLines.addAll(getAttributeRankLines(NetworkCharacter.EIGENVECTOR_CENTRALITY, charSet));
@@ -120,7 +111,7 @@ public class CentraltyTableMaker {
                 for (NetworkCharacter character : charSet) {
                     double max = getMaxPageRank();
                     double pr = character.getPageRank() / max;
-                    newLines.add(pr + "\t" + character.getLabel());
+                    newLines.add(pr + "\t" + character.getShortName());
                 }
             } else if (line.startsWith("%%% pageRankRanking")) {
                 newLines.addAll(getAttributeRankLines(NetworkCharacter.PAGE_RANK, charSet));
@@ -130,7 +121,7 @@ public class CentraltyTableMaker {
                 for (NetworkCharacter character : charSet) {
                     double max = getMaxCloseness();
                     double pr = character.getCloseness() / max;
-                    newLines.add(pr + "\t" + character.getLabel());
+                    newLines.add(pr + "\t" + character.getShortName());
                 }
             } else if (line.startsWith("%%% closenessRanking")) {
                 newLines.addAll(getAttributeReverseRankLines(NetworkCharacter.CLOSENESS_CENTRALITY, charSet));
@@ -140,7 +131,7 @@ public class CentraltyTableMaker {
                 for (NetworkCharacter character : charSet) {
                     double max = getMaxBetweenness();
                     double pr = character.getBetweenness() / max;
-                    newLines.add(pr + "\t" + character.getLabel());
+                    newLines.add(pr + "\t" + character.getShortName());
                 }
             } else if (line.startsWith("%%% betweennessRanking")) {
                 newLines.addAll(getAttributeRankLines(NetworkCharacter.BETWEENNESS_CENTRALITY, charSet));
@@ -309,7 +300,7 @@ public class CentraltyTableMaker {
         sb.append("  symbolic y coords={ " );
 
         for (NetworkCharacter nc : tableChars) {
-            sb.append(nc.getLabel() + ", ");
+            sb.append(nc.getShortName() + ", ");
         }
 
         sb.deleteCharAt(sb.length()-1);
