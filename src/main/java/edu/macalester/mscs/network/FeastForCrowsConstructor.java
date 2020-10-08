@@ -17,6 +17,8 @@ public class FeastForCrowsConstructor extends MatrixConstructor {
      * @param args
      */
     public static void main(String[] args) {
+        // use fileNum so you don't override old runs
+        // fileDesc lets you comment on the changes from previous run
         int fileNum = 7;
         String fileDesc = "complete";
 
@@ -27,7 +29,7 @@ public class FeastForCrowsConstructor extends MatrixConstructor {
     }
 
     public FeastForCrowsConstructor(int radius, int noise) {
-        super(BOOK_NUMBER, TEXT_FILE_NAME, CHARACTER_FILE_NAME, radius, noise);
+        super("GoT" + BOOK_NUMBER, TEXT_FILE_NAME, CHARACTER_FILE_NAME, radius, noise);
     }
 
     public String getCharacterDataFileName() { return CHARACTER_DATA_FILE_NAME; }

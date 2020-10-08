@@ -1,7 +1,6 @@
 package edu.macalester.mscs.centrality;
 
 import edu.macalester.mscs.utils.FileUtils;
-import sun.nio.ch.Net;
 
 import java.text.DecimalFormat;
 import java.util.*;

@@ -14,7 +14,7 @@ public class MatrixConstructor {
 
     public static final String LOG_FOLDER = "src/main/resources/data/output";
 
-	private final int bookNumber;
+	private final String bookId;
 	private final String text;
 	private List<String> fullCharacterList;
 	private Map<String, Integer> nameIndices;
@@ -24,24 +24,29 @@ public class MatrixConstructor {
 
     /**
      * Constructor
-	 * @param bookNum The volume in the series. Will appear in the output file names.
+	 * @param bookId Will appear in the output file names.
 	 * @param textFileName The name of the file containing the book itselt
 	 * @param characterFileName The name of the CSV file containing the list of characters and nicknames
 	 * @param radius
 	 * @param noise
 	 */
-    public MatrixConstructor(int bookNum, String textFileName, String characterFileName, int radius, int noise) {
-		this.bookNumber = bookNum;
+    public MatrixConstructor(String bookId, String textFileName, String characterFileName, int radius, int noise) {
+		this.bookId = bookId;
 		this.text = getText(textFileName);
 		makeCharacters(characterFileName);
 		this.radius = radius;
 		this.noise = noise;
 
-        // eventually add getters and setters for these
+
+		File out_dir = new File(LOG_FOLDER);
+
+		if (! out_dir.exists()) {
+			out_dir.mkdirs();
+		}
 	}
 
-	public int getBookNumber() {
-		return bookNumber;
+	public String getBookId() {
+		return bookId;
 	}
 
 	public String getText() {
@@ -264,7 +269,7 @@ public class MatrixConstructor {
 		} else if (!extension.isEmpty() && !extension.startsWith(".")) {
 			extension = '.' + extension;
 		}
-		return parentFolder + "/GoT" + bookNumber + "-" + fileNumber + "-" + type + descriptor + extension;
+		return parentFolder + "/" + getBookId() + "-" + fileNumber + "-" + type + descriptor + extension;
 	}
 
 	/**

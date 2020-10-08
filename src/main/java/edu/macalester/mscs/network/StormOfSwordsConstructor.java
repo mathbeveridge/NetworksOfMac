@@ -15,6 +15,8 @@ public class StormOfSwordsConstructor extends MatrixConstructor {
      * @param args
      */
     public static void main(String[] args) {
+        // use fileNum so you don't override old runs
+        // fileDesc lets you comment on the changes from previous run
         int fileNum = 8;
         String fileDesc = "complete";
 
@@ -25,7 +27,7 @@ public class StormOfSwordsConstructor extends MatrixConstructor {
     }
 
     public StormOfSwordsConstructor(int radius, int noise) {
-        super(BOOK_NUMBER, TEXT_FILE_NAME, CHARACTER_FILE_NAME, radius, noise);
+        super("GoT" + BOOK_NUMBER, TEXT_FILE_NAME, CHARACTER_FILE_NAME, radius, noise);
     }
 
 

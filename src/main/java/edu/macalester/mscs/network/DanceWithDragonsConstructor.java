@@ -23,6 +23,8 @@ public class DanceWithDragonsConstructor extends MatrixConstructor {
      * @param args
      */
     public static void main(String[] args) {
+        // use fileNum so you don't override old runs
+        // fileDesc lets you comment on the changes from previous run
         int fileNum = 4;
         String fileDesc = "11complete";
 
@@ -33,7 +35,7 @@ public class DanceWithDragonsConstructor extends MatrixConstructor {
     }
 
     public DanceWithDragonsConstructor(int radius, int noise) {
-        super(BOOK_NUMBER, TEXT_FILE_NAME, CHARACTER_FILE_NAME, radius, noise);
+        super("GoT" + BOOK_NUMBER, TEXT_FILE_NAME, CHARACTER_FILE_NAME, radius, noise);
     }
 
     public String getCharacterDataFileName() { return CHARACTER_DATA_FILE_NAME; }

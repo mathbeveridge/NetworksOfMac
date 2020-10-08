@@ -82,6 +82,11 @@ public class Matrix {
             char c = text.charAt(i);
             Name primary = new Name();
             boolean wordEnd = !WordUtils.isWordCharacter(c) && WordUtils.isWordCharacter(text.charAt(i - 1));
+
+            if (i % 100000 == 0) {
+                System.out.println("Processing char " + i + " out of " + text.length());
+            }
+
             if (wordEnd) {
                 String context = search.toString();
                 for (String name : nameIndices.keySet()) {
