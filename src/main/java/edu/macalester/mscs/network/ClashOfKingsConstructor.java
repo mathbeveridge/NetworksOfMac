@@ -21,14 +21,14 @@ public class ClashOfKingsConstructor extends MatrixConstructor {
         int fileNum = 7;
         String fileDesc = "complete";
 
-        ClashOfKingsConstructor constructor = new ClashOfKingsConstructor(15, 3);
+        ClashOfKingsConstructor constructor = new ClashOfKingsConstructor(fileNum,15, 3);
 
-        constructor.constructMatrix(fileNum, fileDesc, LOG_FOLDER);
-        constructor.writeFiles(fileNum, fileDesc, LOG_FOLDER, false);
+        constructor.constructMatrix(fileDesc, DEFAULT_LOG_FOLDER);
+        constructor.writeFiles(fileDesc, DEFAULT_LOG_FOLDER, false);
     }
 
-    public ClashOfKingsConstructor(int radius, int noise) {
-        super("GoT" + BOOK_NUMBER, TEXT_FILE_NAME, CHARACTER_FILE_NAME, radius, noise);
+    public ClashOfKingsConstructor(int fileNum, int radius, int noise) {
+        super("GoT" + BOOK_NUMBER + '-' + fileNum, TEXT_FILE_NAME, CHARACTER_FILE_NAME, radius, noise);
     }
 
 //    public void writeFiles() {

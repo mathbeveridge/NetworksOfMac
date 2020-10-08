@@ -22,14 +22,14 @@ public class FeastForCrowsConstructor extends MatrixConstructor {
         int fileNum = 7;
         String fileDesc = "complete";
 
-        FeastForCrowsConstructor constructor = new FeastForCrowsConstructor(15, 3);
+        FeastForCrowsConstructor constructor = new FeastForCrowsConstructor(fileNum,15, 3);
 
-        constructor.constructMatrix(fileNum, fileDesc, LOG_FOLDER);
-        constructor.writeFiles(fileNum, fileDesc, LOG_FOLDER, false);
+        constructor.constructMatrix(fileDesc, DEFAULT_LOG_FOLDER);
+        constructor.writeFiles(fileDesc, DEFAULT_LOG_FOLDER, false);
     }
 
-    public FeastForCrowsConstructor(int radius, int noise) {
-        super("GoT" + BOOK_NUMBER, TEXT_FILE_NAME, CHARACTER_FILE_NAME, radius, noise);
+    public FeastForCrowsConstructor(int fileNum, int radius, int noise) {
+        super("GoT" + BOOK_NUMBER + "-" + fileNum, TEXT_FILE_NAME, CHARACTER_FILE_NAME, radius, noise);
     }
 
     public String getCharacterDataFileName() { return CHARACTER_DATA_FILE_NAME; }

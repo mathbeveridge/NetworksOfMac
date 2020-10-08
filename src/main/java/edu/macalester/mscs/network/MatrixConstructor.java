@@ -12,7 +12,7 @@ import java.util.Map;
 
 public class MatrixConstructor {
 
-    public static final String LOG_FOLDER = "src/main/resources/data/output";
+    public static final String DEFAULT_LOG_FOLDER = "src/main/resources/data/output";
 
 	private final String bookId;
 	private final String text;
@@ -21,6 +21,7 @@ public class MatrixConstructor {
 	private int radius;
 	private int noise;
 	private Matrix matrix = null;
+	//private String logFolderName;
 
     /**
      * Constructor
@@ -36,14 +37,17 @@ public class MatrixConstructor {
 		makeCharacters(characterFileName);
 		this.radius = radius;
 		this.noise = noise;
+		//this.logFolderName = DEFAULT_LOG_FOLDER;
 
+		System.out.println("Input File=" + textFileName);
+		System.out.println("Character File=" + characterFileName);
 
-		File out_dir = new File(LOG_FOLDER);
-
-		if (! out_dir.exists()) {
-			out_dir.mkdirs();
-		}
 	}
+
+
+//	public void setLogFolder(String logFolder) {
+//    	this.logFolderName = logFolder;
+//	}
 
 	public String getBookId() {
 		return bookId;
@@ -121,10 +125,16 @@ public class MatrixConstructor {
 	 * The log data is written to the console and printed to logFile if specified, or ignored if null.
 	 * @return
 	 */
-    public void constructMatrix(int fileNumber, String fileDescriptor, String logFolder) {
-        String logFile = getFileName(logFolder, "log", fileNumber, fileDescriptor, "txt");
+    public void constructMatrix(String fileDescriptor, String logFolder) {
+        String logFile = getFileName(logFolder, "log", fileDescriptor, "txt");
 
-        System.out.println("Log file name=" + logFile);
+        System.out.println("Output Log File=" + logFile);
+
+		File out_dir = new File(logFolder);
+
+		if (! out_dir.exists()) {
+			out_dir.mkdirs();
+		}
 
 		Logger logger = new Logger();
 		logger.log("=============================================================");
@@ -182,7 +192,7 @@ public class MatrixConstructor {
 	 * with the encounter files placed in their own subdirectory.
 	 * @param logFolder
 	 */
-    public void writeFiles(int fileNumber, String fileDescriptor, String logFolder, boolean encounterListsByCharacter) {
+    public void writeFiles(String fileDescriptor, String logFolder, boolean encounterListsByCharacter) {
 		if (matrix == null) {
 			throw new IllegalStateException("The matrix has not been constructed");
 		}
@@ -191,9 +201,9 @@ public class MatrixConstructor {
 		Logger logger = new Logger();
 		logger.log("char 1, char2, index, text");
 		logger.log(matrix.getEncounterList());
-		logger.writeLog(getFileName(logFolder, "encounters", fileNumber, fileDescriptor, "csv"));
+		logger.writeLog(getFileName(logFolder, "encounters", fileDescriptor, "csv"));
 		if (encounterListsByCharacter) { // optional
-			String encountersFolder = getFileName(logFolder, "encounters", fileNumber, fileDescriptor);
+			String encountersFolder = getFileName(logFolder, "encounters", fileDescriptor);
 
 			for (String name : matrix.getCharacters()) {
                 logger.clear();
@@ -203,18 +213,18 @@ public class MatrixConstructor {
             }
 		}
 		// write matrix CSV file
-		matrix.toMatrixCsvLog().writeLog(getFileName(logFolder, "mat", fileNumber, fileDescriptor, "csv"));
+		matrix.toMatrixCsvLog().writeLog(getFileName(logFolder, "mat",  fileDescriptor, "csv"));
 
 		// write edge file
-		matrix.toEdgeListCsvLog().writeLog(getFileName(logFolder, "edge", fileNumber, fileDescriptor, "csv"));
+		matrix.toEdgeListCsvLog().writeLog(getFileName(logFolder, "edge",  fileDescriptor, "csv"));
 
 		// write node file
 		if (getCharacterDataFileName() != null) {
-			matrix.toNodeListCsvLog(getCharacterDataFileName()).writeLog(getFileName(logFolder, "node", fileNumber, fileDescriptor, "csv"));
+			matrix.toNodeListCsvLog(getCharacterDataFileName()).writeLog(getFileName(logFolder, "node",  fileDescriptor, "csv"));
 		}
 
 		// write matrix JSON file
-        matrix.toMatrixJsonLog(getOrderedCharacters()).writeLog(getFileName(logFolder, "mat", fileNumber, fileDescriptor, "json"));
+        matrix.toMatrixJsonLog(getOrderedCharacters()).writeLog(getFileName(logFolder, "mat",  fileDescriptor, "json"));
 
 
 	}
@@ -229,12 +239,11 @@ public class MatrixConstructor {
 	 *
 	 * @param parentFolder
 	 * @param type
-	 * @param fileNumber
 	 * @param descriptor
 	 * @return
 	 */
-	private String getFileName(String parentFolder, String type, int fileNumber, String descriptor) {
-		String fileName = getFileName(parentFolder, type, fileNumber, descriptor, null);
+	private String getFileName(String parentFolder, String type,  String descriptor) {
+		String fileName = getFileName(parentFolder, type, descriptor, null);
 		new File(fileName).mkdirs();
 		return fileName;
 	}
@@ -252,13 +261,12 @@ public class MatrixConstructor {
 	 * the returned file name.
 	 *
 	 * @param parentFolder
-	 * @param fileNumber
 	 * @param type
 	 * @param descriptor
 	 * @param extension
 	 * @return
 	 */
-	private String getFileName(String parentFolder, String type, int fileNumber, String descriptor, String extension) {
+	private String getFileName(String parentFolder, String type, String descriptor, String extension) {
 		if (descriptor == null) {
 			descriptor = "";
 		} else if (!descriptor.isEmpty()) {
@@ -269,7 +277,7 @@ public class MatrixConstructor {
 		} else if (!extension.isEmpty() && !extension.startsWith(".")) {
 			extension = '.' + extension;
 		}
-		return parentFolder + "/" + getBookId() + "-" + fileNumber + "-" + type + descriptor + extension;
+		return parentFolder + "/" + getBookId() + "-" + type + descriptor + extension;
 	}
 
 	/**

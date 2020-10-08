@@ -26,14 +26,14 @@ public class GameOfThronesConstructor extends MatrixConstructor {
         int fileNum = 19;
         String fileDesc = "complete";
 
-        GameOfThronesConstructor constructor = new GameOfThronesConstructor(15, 3);
+        GameOfThronesConstructor constructor = new GameOfThronesConstructor(fileNum,15, 3);
 
-        constructor.constructMatrix(fileNum, fileDesc, LOG_FOLDER);
-        constructor.writeFiles(fileNum, fileDesc, LOG_FOLDER, false);
+        constructor.constructMatrix(fileDesc, DEFAULT_LOG_FOLDER);
+        constructor.writeFiles(fileDesc, DEFAULT_LOG_FOLDER, false);
     }
 
-    public GameOfThronesConstructor(int radius, int noise) {
-        super("GoT" + BOOK_NUMBER, TEXT_FILE_NAME, CHARACTER_FILE_NAME, radius, noise);
+    public GameOfThronesConstructor(int fileNum, int radius, int noise) {
+        super("GoT" + BOOK_NUMBER + "-" + fileNum, TEXT_FILE_NAME, CHARACTER_FILE_NAME, radius, noise);
     }
 
     /**

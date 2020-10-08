@@ -28,14 +28,14 @@ public class DanceWithDragonsConstructor extends MatrixConstructor {
         int fileNum = 4;
         String fileDesc = "11complete";
 
-        DanceWithDragonsConstructor dwdConstructor = new DanceWithDragonsConstructor(15, 3);
+        DanceWithDragonsConstructor dwdConstructor = new DanceWithDragonsConstructor(fileNum,15, 3);
 
-        dwdConstructor.constructMatrix(fileNum, fileDesc, LOG_FOLDER);
-        dwdConstructor.writeFiles(fileNum, fileDesc, LOG_FOLDER, false);
+        dwdConstructor.constructMatrix(fileDesc, DEFAULT_LOG_FOLDER);
+        dwdConstructor.writeFiles(fileDesc, DEFAULT_LOG_FOLDER, false);
     }
 
-    public DanceWithDragonsConstructor(int radius, int noise) {
-        super("GoT" + BOOK_NUMBER, TEXT_FILE_NAME, CHARACTER_FILE_NAME, radius, noise);
+    public DanceWithDragonsConstructor(int fileNum, int radius, int noise) {
+        super("GoT" + BOOK_NUMBER + "-" + fileNum, TEXT_FILE_NAME, CHARACTER_FILE_NAME, radius, noise);
     }
 
     public String getCharacterDataFileName() { return CHARACTER_DATA_FILE_NAME; }
